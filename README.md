@@ -1,2 +1,2 @@
-# Hayeon-Archives
-For TripleS S19 Jeong Hayeon
+# Hayeon Archive
+Upload all files to a GitHub repository and enable GitHub Pages.

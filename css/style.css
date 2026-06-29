@@ -1,0 +1,527 @@
+:root{--mint:#52D9BB;--bg:#f6f7fb;--fg:#111}.dark{--bg:#0f172a;--fg:#eee}body{margin:0;font-family:Arial;background:var(--bg);color:var(--fg)}nav{display:flex;justify-content:space-between;padding:1rem;background:rgba(82,217,187,.15);backdrop-filter:blur(8px);position:sticky;top:0}a{margin:.5rem;color:var(--fg);text-decoration:none}.hero{
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    background:
+        linear-gradient(
+            rgba(15,23,42,.55),
+            rgba(15,23,42,.55)
+        ),
+        url("../assets/images/hero.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}button{background:var(--mint);border:0;padding:.5rem 1rem;border-radius:8px}footer{padding:2rem;font-size:.9rem;border-top:1px solid #ccc}.card{margin:1rem;padding:1rem;border:1px solid var(--mint);border-radius:10px}
+
+/* ==========================================================
+   HAYEON ARCHIVE
+   Main Stylesheet
+   Official Color: #52D9BB
+========================================================== */
+
+:root{
+
+    --mint:#52D9BB;
+
+    --background:#F5F7FA;
+
+    --card:#FFFFFF;
+
+    --text:#1E293B;
+
+    --text-light:#64748B;
+
+    --border:#E2E8F0;
+
+}
+
+/* ===========================
+   DARK MODE
+=========================== */
+
+.dark{
+
+    --background:#0F172A;
+
+    --card:#1E293B;
+
+    --text:#F8FAFC;
+
+    --text-light:#CBD5E1;
+
+    --border:#334155;
+
+}
+
+/* ===========================
+   RESET
+=========================== */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    background:var(--background);
+
+    color:var(--text);
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    transition:.3s;
+
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar{
+
+    position:sticky;
+
+    top:0;
+
+    z-index:999;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 60px;
+
+    backdrop-filter:blur(20px);
+
+    background:rgba(82,217,187,.15);
+
+    border-bottom:1px solid rgba(255,255,255,.2);
+
+}
+
+.dark .navbar{
+
+    background:rgba(15,23,42,.85);
+
+}
+
+.logo{
+
+    font-size:28px;
+
+    font-weight:bold;
+
+    color:var(--mint);
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:30px;
+
+}
+
+.nav-links a{
+
+    text-decoration:none;
+
+    color:var(--text);
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+    color:var(--mint);
+
+}
+
+.active{
+
+    color:var(--mint)!important;
+
+}
+
+/* ===========================
+   DARK MODE BUTTON
+=========================== */
+
+#mode{
+
+    width:42px;
+
+    height:42px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:var(--mint);
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+#mode:hover{
+
+    transform:rotate(180deg);
+
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.gallery-hero{
+
+    height:45vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:
+
+    linear-gradient(
+
+        rgba(15,23,42,.55),
+
+        rgba(15,23,42,.55)
+
+    ),
+
+    url("../assets/images/hero.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+.hero-overlay{
+
+    text-align:center;
+
+    color:white;
+
+}
+
+.hero-overlay h1{
+
+    font-size:64px;
+
+    margin-bottom:15px;
+
+}
+
+.hero-overlay p{
+
+    font-size:20px;
+
+    opacity:.9;
+
+}
+
+/* ===========================
+   MAIN
+=========================== */
+
+.gallery-wrapper{
+
+    max-width:1400px;
+
+    margin:auto;
+
+    padding:70px 40px;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+}
+
+.section-title h2{
+
+    font-size:40px;
+
+    margin-bottom:10px;
+
+}
+
+.section-title p{
+
+    color:var(--text-light);
+
+}
+
+/* ===========================
+   GALLERY GRID
+=========================== */
+
+#gallery-container{
+
+    display:grid;
+
+    grid-template-columns:
+
+    repeat(auto-fill,minmax(320px,1fr));
+
+    gap:35px;
+
+}
+
+/* ===========================
+   ALBUM CARD
+=========================== */
+
+.album-card{
+
+    background:var(--card);
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    cursor:pointer;
+
+}
+
+.album-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 45px rgba(82,217,187,.30);
+
+}
+
+.album-card img{
+
+    width:100%;
+
+    height:260px;
+
+    object-fit:cover;
+
+}
+
+.album-card h2{
+
+    padding:20px 20px 8px;
+
+    font-size:22px;
+
+}
+
+.album-card p{
+
+    padding:0 20px 25px;
+
+    color:var(--text-light);
+
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+
+    margin-top:80px;
+
+    padding:50px 20px;
+
+    background:var(--card);
+
+    border-top:1px solid var(--border);
+
+}
+
+.footer-content{
+
+    max-width:1000px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.footer-content h3{
+
+    color:var(--mint);
+
+    margin-bottom:15px;
+
+}
+
+.footer-content hr{
+
+    margin:25px auto;
+
+    width:180px;
+
+    border:none;
+
+    border-top:1px solid var(--border);
+
+}
+
+.footer-content p{
+
+    line-height:1.8;
+
+    color:var(--text-light);
+
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:768px){
+
+.navbar{
+
+    flex-direction:column;
+
+    gap:20px;
+
+    padding:20px;
+
+}
+
+.nav-links{
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+}
+
+.gallery-hero{
+
+    height:35vh;
+
+}
+
+.hero-overlay h1{
+
+    font-size:42px;
+
+}
+
+.section-title h2{
+
+    font-size:30px;
+
+}
+
+.gallery-wrapper{
+
+    padding:40px 20px;
+
+}
+
+}
+/* ===========================
+   MEDIA GRID
+=========================== */
+
+.media-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+
+    gap:20px;
+
+    padding:25px;
+
+    margin-bottom:50px;
+
+}
+
+.media-grid img{
+
+    width:100%;
+
+    border-radius:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.media-grid img:hover{
+
+    transform:scale(1.03);
+
+}
+
+.media-grid video{
+
+    width:100%;
+
+    border-radius:18px;
+
+}
+#lightbox{
+
+    display:none;
+
+    position:fixed;
+
+    inset:0;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:rgba(0,0,0,.9);
+
+    z-index:9999;
+
+}
