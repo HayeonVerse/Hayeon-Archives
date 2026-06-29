@@ -222,23 +222,23 @@ function toggleAlbum(selectedGrid){
 
     });
 
-    if(selectedGrid.style.display==="grid"){
+if(selectedGrid.classList.contains("open")){
 
-        selectedGrid.style.display="none";
+    selectedGrid.classList.remove("open");
 
-        selectedGrid.classList.remove("open");
+    selectedGrid.style.display = "none";
 
-        return;
+    return;
 
-    }
+}
 
-    selectedGrid.style.display="grid";
+selectedGrid.style.display = "block";
 
-    requestAnimationFrame(()=>{
+requestAnimationFrame(()=>{
 
-        selectedGrid.classList.add("open");
+    selectedGrid.classList.add("open");
 
-    });
+});
 
 }
 
