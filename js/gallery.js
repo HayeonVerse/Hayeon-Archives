@@ -314,21 +314,18 @@ closeButton.addEventListener(
    CLICK OUTSIDE IMAGE
 ============================================ */
 
-lightbox.addEventListener(
+lightbox.addEventListener("click", function(event){
 
-    "click",
+    if(
+        event.target === lightbox ||
+        event.target.classList.contains("lightbox-content")
+    ){
 
-    function(event){
-
-        if(event.target===lightbox){
-
-            closeLightbox();
-
-        }
+        closeLightbox();
 
     }
 
-);
+});
 /* ============================================
    Hayeon Archive Gallery v2
    Part 3
@@ -459,7 +456,25 @@ document.addEventListener("error",(event)=>{
 /* ============================================
    START GALLERY
 ============================================ */
+let touchStartY = 0;
 
+lightbox.addEventListener("touchstart", (e) => {
+
+    touchStartY = e.touches[0].clientY;
+
+});
+
+lightbox.addEventListener("touchend", (e) => {
+
+    const touchEndY = e.changedTouches[0].clientY;
+
+    if (touchEndY - touchStartY > 100) {
+
+        closeLightbox();
+
+    }
+
+});
 window.addEventListener("DOMContentLoaded",()=>{
 
     loadGallery();
