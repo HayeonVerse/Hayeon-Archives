@@ -314,11 +314,11 @@ closeButton.addEventListener(
    CLICK OUTSIDE IMAGE
 ============================================ */
 
-lightbox.addEventListener("click", function(event){
+lightbox.addEventListener("click",(e)=>{
 
     if(
-        event.target === lightbox ||
-        event.target.classList.contains("lightbox-content")
+        e.target===lightbox ||
+        e.target===document.querySelector(".lightbox-content")
     ){
 
         closeLightbox();
@@ -456,19 +456,19 @@ document.addEventListener("error",(event)=>{
 /* ============================================
    START GALLERY
 ============================================ */
-let touchStartY = 0;
+let startY = 0;
 
-lightbox.addEventListener("touchstart", (e) => {
+lightbox.addEventListener("touchstart",(e)=>{
 
-    touchStartY = e.touches[0].clientY;
+    startY = e.touches[0].clientY;
 
 });
 
-lightbox.addEventListener("touchend", (e) => {
+lightbox.addEventListener("touchend",(e)=>{
 
-    const touchEndY = e.changedTouches[0].clientY;
+    const endY = e.changedTouches[0].clientY;
 
-    if (touchEndY - touchStartY > 100) {
+    if(endY - startY > 120){
 
         closeLightbox();
 
