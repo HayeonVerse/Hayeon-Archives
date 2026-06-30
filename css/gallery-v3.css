@@ -3,9 +3,9 @@
 =================================== */
 
 .archive-container{
-
-    width:min(1200px,95%);
-    margin:40px auto;
+    display:grid;
+    grid-template-columns:1fr;
+    gap:24px;
 }
 
 /* ==========================
@@ -72,7 +72,7 @@
 
 .archive-month{
 
-    margin-left:24px;
+    margin:18px 0 0 24px;
 
     border-left:2px solid rgba(82,217,187,.18);
 
@@ -112,24 +112,84 @@
 
 .archive-day{
 
-    margin-left:28px;
+    background:#1b2433;
 
-    margin-bottom:12px;
+    border-radius:16px;
 
-}
+    padding:16px;
 
-.archive-day-header{
+    display:flex;
 
-    padding:14px 18px;
+    flex-direction:column;
 
-    cursor:pointer;
+    justify-content:space-between;
 
-    border-radius:10px;
+    border:1px solid rgba(255,255,255,.05);
 
     transition:.25s;
 
 }
+.archive-date{
 
+    font-size:18px;
+
+    font-weight:700;
+
+    color:white;
+
+    margin-bottom:10px;
+
+}
+
+.archive-title{
+
+    margin-top:6px;
+
+    margin-bottom:18px;
+
+    color:#52D9BB;
+
+    font-size:15px;
+
+}
+.archive-day-header{
+
+    margin-bottom:12px;
+
+}
+.archive-album-title{
+
+    margin-top:12px;
+
+    text-align:center;
+
+    color:#52D9BB;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    line-height:1.4;
+
+    min-height:38px;
+
+}
+.archive-content{
+
+    display:none;
+
+    padding:20px 0 20px;
+}
+.archive-day:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.35);
+
+    border-color:#52D9BB;
+
+}
 .archive-day-header:hover{
 
     background:rgba(82,217,187,.08);
@@ -180,16 +240,15 @@
 
     display:grid;
 
-    grid-template-columns:repeat(auto-fill,minmax(160px,1fr));
+    grid-template-columns:repeat(2,1fr);
 
-    gap:14px;
+    gap:8px;
 
-    margin:16px 0;
+    margin-top:10px;
 
 }
 
 .media-grid img,
-
 .media-grid video{
 
     width:100%;
@@ -198,14 +257,51 @@
 
     object-fit:cover;
 
-    border-radius:12px;
+    border-radius:10px;
 
     cursor:pointer;
 
     transition:.25s;
 
 }
+.media-grid img:hover,
+.media-grid video:hover{
 
+    transform:scale(1.08);
+
+    filter:brightness(1.08);
+
+}
+.preview-last{
+
+    position:relative;
+
+}
+.preview-last::after{
+
+    content:attr(data-more);
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.55);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    border-radius:10px;
+
+}
 .media-grid img:hover,
 
 .media-grid video:hover{
@@ -352,5 +448,47 @@
     color:#52D9BB;
 
     font-weight:600;
+
+}
+/* ==========================================
+   Day Grid
+========================================== */
+
+.archive-days{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+
+}
+@media (max-width:1400px){
+
+    .archive-days{
+
+        grid-template-columns:repeat(3,1fr);
+
+    }
+
+}
+
+@media (max-width:1000px){
+
+    .archive-days{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media (max-width:650px){
+
+    .archive-days{
+
+        grid-template-columns:1fr;
+
+    }
 
 }

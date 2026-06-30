@@ -13,6 +13,7 @@ let currentAlbumPath = "";
 let currentMediaIndex = 0;
 let touchStartX = 0;
 let touchEndX = 0;
+let loadedAlbums = [];
 async function loadGallery() {
 
     try {
@@ -21,7 +22,7 @@ async function loadGallery() {
 
         const albums = await response.json();
 
-        const loadedAlbums = await Promise.all(
+        loadedAlbums = await Promise.all(
 
             albums.map(async album => {
 
@@ -158,7 +159,9 @@ function renderArchive(archive){
 
                 const monthContent=document.createElement("div");
                 monthContent.className="archive-content";
+const dayGrid = document.createElement("div");
 
+dayGrid.className = "archive-days";
                 /* ---------- DAYS ---------- */
 
                 archive[year][month]
@@ -176,16 +179,16 @@ const videoCount = album.info.files.length - photoCount;
                         const dayBox=document.createElement("div");
                         dayBox.className="archive-day";
 
-                        const dayHeader=document.createElement("div");
-                        dayHeader.className="archive-day-header";
+                        const dayHeader = document.createElement("div");
 
-dayHeader.innerHTML=`
-    <div class="archive-day-title">
-        ▶ ${album.info.date}
-    </div>
+dayHeader.className = "archive-day-header";
 
-    <div class="archive-day-subtitle">
-        ${album.info.title}
+dayHeader.innerHTML = `
+
+    <div class="archive-date">
+
+        ${album.info.date}
+
     </div>
 
     <div class="archive-day-count">
@@ -205,31 +208,43 @@ dayHeader.innerHTML=`
 const mediaGrid=document.createElement("div");
 mediaGrid.className="media-grid";
 
-album.info.files.forEach(file=>{
+const maxPreview = 4;
 
-    const extension=file.split(".").pop().toLowerCase();
+album.info.files.forEach((file,index)=>{
 
-    const fullPath=`assets/gallery/${album.path}/${file}`;
+    if(index >= maxPreview) return;
+
+    const extension = file.split(".").pop().toLowerCase();
+
+    const fullPath = `assets/gallery/${album.path}/${file}`;
 
     if(["jpg","jpeg","png","gif","webp"].includes(extension)){
 
-        const image=document.createElement("img");
+        const image = document.createElement("img");
 
-        image.src=fullPath;
+        image.src = fullPath;
 
-        image.loading="lazy";
+        image.loading = "lazy";
 
-image.onclick=(event)=>{
+        image.onclick = (event)=>{
 
-    event.stopPropagation();
+            event.stopPropagation();
 
-    currentAlbum = album.info.files;
-    currentAlbumPath = album.path;
-    currentMediaIndex = album.info.files.indexOf(file);
+            openAlbum(album.path,index);
 
-    openCurrentMedia();
+        };
 
-};
+        if(
+            index === maxPreview-1 &&
+            album.info.files.length > maxPreview
+        ){
+
+            image.classList.add("preview-last");
+
+            image.dataset.more =
+                "+"+(album.info.files.length-maxPreview);
+
+        }
 
         mediaGrid.appendChild(image);
 
@@ -237,49 +252,53 @@ image.onclick=(event)=>{
 
     else{
 
-        const video=document.createElement("video");
+        const video = document.createElement("video");
 
-        video.src=fullPath;
+        video.src = fullPath;
 
-        video.preload="metadata";
+        video.preload = "metadata";
 
-        video.muted=true;
+        video.muted = true;
 
-video.onclick=(event)=>{
+        video.onclick = (event)=>{
 
-    event.stopPropagation();
+            event.stopPropagation();
 
-    currentAlbum = album.info.files;
-    currentAlbumPath = album.path;
-    currentMediaIndex = album.info.files.indexOf(file);
+            openAlbum(album.path,index);
 
-    openCurrentMedia();
+        };
 
-};
+        if(
+            index === maxPreview-1 &&
+            album.info.files.length > maxPreview
+        ){
+
+            video.classList.add("preview-last");
+
+            video.dataset.more =
+                "+"+(album.info.files.length-maxPreview);
+
+        }
 
         mediaGrid.appendChild(video);
 
     }
 
 });
-
 media.appendChild(mediaGrid);
+const albumTitle = document.createElement("div");
 
-                        dayHeader.onclick=()=>{
+albumTitle.className = "archive-album-title";
 
-                            media.classList.toggle("open");
+albumTitle.textContent = album.info.title;
 
-                            dayHeader.querySelector(".archive-day-title").innerHTML=
-                                media.classList.contains("open")
-                                ?`▼ ${album.info.date}`
-                                :`▶ ${album.info.date}`;
-
-                        };
+media.appendChild(albumTitle);
+media.style.display = "block";
 
                         dayBox.appendChild(dayHeader);
                         dayBox.appendChild(media);
 
-                        monthContent.appendChild(dayBox);
+                        dayGrid.appendChild(dayBox);
 
                     });
 
@@ -294,8 +313,10 @@ media.appendChild(mediaGrid);
 
                 };
 
-                monthBox.appendChild(monthHeader);
-                monthBox.appendChild(monthContent);
+monthContent.appendChild(dayGrid);
+
+monthBox.appendChild(monthHeader);
+monthBox.appendChild(monthContent);
 
                 yearContent.appendChild(monthBox);
 
@@ -345,6 +366,24 @@ function openVideo(src){
     lightboxVideo.currentTime=0;
 
     lightboxVideo.play();
+
+}
+function findAlbum(path){
+
+    return loadedAlbums.find(album => album.path === path);
+
+}
+function openAlbum(path,index){
+
+    currentAlbumPath = path;
+
+    const album = findAlbum(path);
+
+    currentAlbum = album.info.files;
+
+    currentMediaIndex = index;
+
+    openCurrentMedia();
 
 }
 function openCurrentMedia(){

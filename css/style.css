@@ -297,13 +297,11 @@ body{
 =========================== */
 #gallery-container{
 
-    display:grid;
+    display:flex;
 
-    grid-template-columns:repeat(auto-fit,minmax(360px,1fr));
+    flex-direction:column;
 
     gap:30px;
-
-    align-items:start;
 
 }
 
