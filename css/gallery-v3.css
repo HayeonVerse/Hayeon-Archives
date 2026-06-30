@@ -302,6 +302,85 @@
     border-radius:10px;
 
 }
+
+/* ==========================
+   IMAGE EXPAND ON HOVER
+========================== */
+
+.archive-day{
+
+    overflow:hidden;
+
+}
+
+.archive-day .media-grid{
+
+    max-height:320px;
+
+    overflow:hidden;
+
+    transition:
+        max-height .45s ease;
+
+}
+
+/* Expand image albums */
+
+.archive-day:hover .media-grid{
+
+    max-height:3000px;
+
+}
+
+/* Smooth reveal */
+
+.media-grid img{
+
+    transition:
+        transform .25s ease,
+        opacity .35s ease;
+
+}
+
+/* Fade hidden images */
+
+.media-grid img:nth-child(n+5){
+
+    opacity:0;
+
+    transform:translateY(20px);
+
+}
+
+/* Reveal */
+
+.archive-day:hover .media-grid img:nth-child(n+5){
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+/* Remove +X overlay while expanded */
+
+.archive-day:hover .preview-last::after{
+
+    display:none;
+
+}
+
+/* Mobile */
+
+@media(max-width:700px){
+
+.archive-day:hover .media-grid{
+
+    max-height:700px;
+
+}
+
+}
 .media-grid img:hover,
 
 .media-grid video:hover{
@@ -490,5 +569,117 @@
         grid-template-columns:1fr;
 
     }
+
+}
+/* ==========================
+   YOUTUBE
+========================== */
+
+.youtube-player{
+
+    width:100% !important;
+
+    height:600px !important;
+
+    border:none;
+
+    border-radius:16px;
+
+    grid-column:1 / -1;
+
+    background:#000;
+
+}
+
+.media-grid iframe{
+
+    aspect-ratio:16 / 9;
+
+}
+
+/* MOBILE */
+
+@media(max-width:700px){
+
+.youtube-player{
+
+    height:300px !important;
+
+}
+
+}
+/* ==========================
+   YOUTUBE HOVER EXPAND
+========================== */
+
+.archive-day:has(.youtube-player){
+
+    transition:
+        transform .35s ease,
+        z-index .35s ease;
+
+}
+
+.archive-day:has(.youtube-player):hover{
+
+    transform:scale(1.08);
+
+    z-index:100;
+
+}
+
+.archive-day:has(.youtube-player):hover iframe{
+
+    height:600px !important;
+
+}
+
+.youtube-player{
+
+    width:100% !important;
+
+    height:240px !important;
+
+    transition:
+        height .35s ease,
+        transform .35s ease;
+
+    border-radius:16px;
+
+}
+
+/* MOBILE */
+
+@media(max-width:700px){
+
+.archive-day:has(.youtube-player):hover{
+
+    transform:none;
+
+}
+
+.youtube-player{
+
+    height:240px !important;
+
+}
+
+}
+
+/* MOBILE */
+
+@media(max-width:1000px){
+
+.archive-day:has(.youtube-player){
+
+    grid-column:auto;
+
+}
+
+.archive-day:has(.youtube-player) iframe{
+
+    height:400px !important;
+
+}
 
 }

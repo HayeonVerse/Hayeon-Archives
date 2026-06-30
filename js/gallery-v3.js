@@ -85,15 +85,43 @@ function buildArchive(albums) {
 
         }
 
-        archive[year][month].push({
+const existing =
+    archive[year][month]
+        .find(
+            x => x.day === day
+        );
 
-            day,
+if(existing){
 
-            path: album.path,
+    existing.albums.push({
 
-            info: album.info
+        path: album.path,
 
-        });
+        info: album.info
+
+    });
+
+}else{
+
+    archive[year][month].push({
+
+        day,
+
+        albums:[
+
+            {
+
+                path: album.path,
+
+                info: album.info
+
+            }
+
+        ]
+
+    });
+
+}
 
     });
 
@@ -166,16 +194,34 @@ dayGrid.className = "archive-days";
 
                 archive[year][month]
                     .sort((a,b)=>Number(b.day)-Number(a.day))
-                    .forEach(album=>{
-const photoCount = album.info.files.filter(file => {
+                    .forEach(dayGroup=>{
+const allFiles =
+    dayGroup.albums.flatMap(
+        a => a.info.files
+    );
 
-    const ext = file.split(".").pop().toLowerCase();
+const photoCount =
+    allFiles.filter(file=>{
 
-    return ["jpg","jpeg","png","gif","webp"].includes(ext);
+        const ext =
+            file
+            .split(".")
+            .pop()
+            .toLowerCase();
 
-}).length;
+        return [
+            "jpg",
+            "jpeg",
+            "png",
+            "gif",
+            "webp"
+        ].includes(ext);
 
-const videoCount = album.info.files.length - photoCount;
+    }).length;
+
+const videoCount =
+    allFiles.length -
+    photoCount;
                         const dayBox=document.createElement("div");
                         dayBox.className="archive-day";
 
@@ -187,7 +233,7 @@ dayHeader.innerHTML = `
 
     <div class="archive-date">
 
-        ${album.info.date}
+        ${dayGroup.albums[0].info.date}
 
     </div>
 
@@ -208,11 +254,14 @@ dayHeader.innerHTML = `
 const mediaGrid=document.createElement("div");
 mediaGrid.className="media-grid";
 
-const maxPreview = 4;
+dayGroup.albums.forEach(album=>{
+
+const maxPreview =
+    album.info.video
+        ? 4
+        : 999;
 
 album.info.files.forEach((file,index)=>{
-
-    if(index >= maxPreview) return;
 
     const extension = file.split(".").pop().toLowerCase();
 
@@ -234,10 +283,10 @@ album.info.files.forEach((file,index)=>{
 
         };
 
-        if(
-            index === maxPreview-1 &&
-            album.info.files.length > maxPreview
-        ){
+if(
+    index === 3 &&
+    album.info.files.length > 4
+){
 
             image.classList.add("preview-last");
 
@@ -280,19 +329,67 @@ album.info.files.forEach((file,index)=>{
 
         }
 
-        mediaGrid.appendChild(video);
+mediaGrid.appendChild(video);
 
-    }
+}
 
 });
+
+if (album.info.video) {
+
+    const iframe =
+        document.createElement("iframe");
+
+    iframe.src =
+        album.info.video
+            .replace(
+                "watch?v=",
+                "embed/");
+
+iframe.style.width = "100%";
+
+iframe.style.aspectRatio = "16 / 9";
+
+iframe.style.borderRadius = "12px";
+
+iframe.style.cursor = "pointer";
+
+    iframe.allowFullscreen = true;
+
+    iframe.className =
+        "youtube-player";
+iframe.onclick = (event)=>{
+
+    event.stopPropagation();
+
+    openYoutube(
+        album.info.video
+    );
+
+};
+    mediaGrid.appendChild(
+        iframe
+    );
+
+}
+});
 media.appendChild(mediaGrid);
-const albumTitle = document.createElement("div");
+dayGroup.albums.forEach(album=>{
 
-albumTitle.className = "archive-album-title";
+const albumTitle =
+document.createElement("div");
 
-albumTitle.textContent = album.info.title;
+albumTitle.className =
+"archive-album-title";
 
-media.appendChild(albumTitle);
+albumTitle.textContent =
+album.info.title;
+
+media.appendChild(
+    albumTitle
+);
+
+});
 media.style.display = "block";
 
                         dayBox.appendChild(dayHeader);
@@ -366,6 +463,36 @@ function openVideo(src){
     lightboxVideo.currentTime=0;
 
     lightboxVideo.play();
+
+}
+function openYoutube(url){
+
+    lightbox.style.display="flex";
+
+    lightboxImage.style.display="none";
+
+    lightboxVideo.style.display="block";
+
+    lightboxVideo.pause();
+
+    lightboxVideo.removeAttribute(
+        "src"
+    );
+
+    lightboxVideo.innerHTML = `
+        <iframe
+            src="${
+                url.replace(
+                    "watch?v=",
+                    "embed/"
+                )
+            }"
+            width="100%"
+            height="100%"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+    `;
 
 }
 function findAlbum(path){
@@ -445,7 +572,7 @@ function closeLightbox(){
     lightboxVideo.pause();
 
     lightboxVideo.src="";
-
+lightboxVideo.innerHTML="";
 }
 
 closeButton.addEventListener("click",closeLightbox);

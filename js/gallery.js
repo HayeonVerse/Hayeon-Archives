@@ -159,7 +159,29 @@ function createAlbum(path,info){
             media.appendChild(image);
 
         }
+if (info.video) {
 
+    const embed =
+        info.video
+        .replace(
+            "watch?v=",
+            "embed/"
+        );
+
+    container.innerHTML += `
+        <div class="video-container">
+
+            <iframe
+                src="${embed}"
+                width="100%"
+                height="500"
+                frameborder="0"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+    `;
+}
         else{
 
             const video=document.createElement("video");
