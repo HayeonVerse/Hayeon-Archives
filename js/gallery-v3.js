@@ -179,15 +179,25 @@ const videoCount = album.info.files.length - photoCount;
                         const dayHeader=document.createElement("div");
                         dayHeader.className="archive-day-header";
 
-                        dayHeader.innerHTML=`
-                            <div class="archive-day-title">
-                                ▶ ${album.info.date}
-                            </div>
+dayHeader.innerHTML=`
+    <div class="archive-day-title">
+        ▶ ${album.info.date}
+    </div>
 
-                            <div class="archive-day-subtitle">
-                                ${album.info.title}
-                            </div>
-                        `;
+    <div class="archive-day-subtitle">
+        ${album.info.title}
+    </div>
+
+    <div class="archive-day-count">
+
+        ${photoCount ? `📷 ${photoCount} ${photoCount === 1 ? "Photo" : "Photos"}` : ""}
+
+        ${photoCount && videoCount ? " • " : ""}
+
+        ${videoCount ? `🎥 ${videoCount} ${videoCount === 1 ? "Video" : "Videos"}` : ""}
+
+    </div>
+`;
 
                         const media=document.createElement("div");
                         media.className="archive-content";
