@@ -14,6 +14,24 @@ let currentMediaIndex = 0;
 let touchStartX = 0;
 let touchEndX = 0;
 let loadedAlbums = [];
+function getYoutubeEmbed(url) {
+
+    if (url.includes("youtu.be/")) {
+
+        const id = url.split("youtu.be/")[1].split("?")[0];
+        return `https://www.youtube.com/embed/${id}`;
+
+    }
+
+    if (url.includes("watch?v=")) {
+
+        return url.replace("watch?v=", "embed/").split("&")[0];
+
+    }
+
+    return url;
+
+}
 async function loadGallery() {
 
     try {
@@ -261,7 +279,9 @@ const maxPreview =
         ? 4
         : 999;
 
-album.info.files.forEach((file,index)=>{
+album.info.files
+    .slice(0, maxPreview)
+    .forEach((file, index) => {
 
     const extension = file.split(".").pop().toLowerCase();
 
@@ -290,8 +310,12 @@ if(
 
             image.classList.add("preview-last");
 
-            image.dataset.more =
-                "+"+(album.info.files.length-maxPreview);
+const totalItems =
+    album.info.files.length +
+    (album.info.video ? 1 : 0);
+
+image.dataset.more =
+    "+" + (totalItems - (maxPreview + 1));
 
         }
 
@@ -341,10 +365,7 @@ if (album.info.video) {
         document.createElement("iframe");
 
     iframe.src =
-        album.info.video
-            .replace(
-                "watch?v=",
-                "embed/");
+iframe.src = getYoutubeEmbed(album.info.video);
 
 iframe.style.width = "100%";
 
@@ -482,10 +503,7 @@ function openYoutube(url){
     lightboxVideo.innerHTML = `
         <iframe
             src="${
-                url.replace(
-                    "watch?v=",
-                    "embed/"
-                )
+getYoutubeEmbed(url)
             }"
             width="100%"
             height="100%"
