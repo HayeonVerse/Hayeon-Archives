@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "gallery": "node Script/generate-gallery.js"
+  }
+}
