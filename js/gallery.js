@@ -431,13 +431,11 @@ toggleAlbum = function(selectedGrid){
 
     originalToggleAlbum(selectedGrid);
 
-    if(selectedGrid.style.display==="grid"){
-
-        scrollToAlbum(selectedGrid);
+if (selectedGrid.classList.contains("open")) {
+    scrollToAlbum(selectedGrid);
+}
 
     }
-
-};
 
 /* ============================================
    ERROR IMAGE PLACEHOLDER
