@@ -420,16 +420,34 @@ media.style.display = "block";
 
                     });
 
-                monthHeader.onclick=()=>{
+monthHeader.onclick = () => {
 
-                    monthContent.classList.toggle("open");
+    // Close every other month in this year
+    yearContent.querySelectorAll(".archive-content.open").forEach(content => {
 
-                    monthHeader.querySelector(".archive-month-title").innerHTML=
-                        monthContent.classList.contains("open")
-                        ?`▼ ${month}`
-                        :`▶ ${month}`;
+        if (content !== monthContent) {
 
-                };
+            content.classList.remove("open");
+
+            const header = content.previousElementSibling;
+
+            const title = header.querySelector(".archive-month-title");
+
+            title.innerHTML = `▶ ${title.textContent.replace("▼ ", "").replace("▶ ", "")}`;
+
+        }
+
+    });
+
+    // Toggle selected month
+    monthContent.classList.toggle("open");
+
+    monthHeader.querySelector(".archive-month-title").innerHTML =
+        monthContent.classList.contains("open")
+        ? `▼ ${month}`
+        : `▶ ${month}`;
+
+};
 
 monthContent.appendChild(dayGrid);
 
