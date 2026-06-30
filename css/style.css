@@ -194,12 +194,26 @@ body{
 
 }
 
-#mode:hover{
+@media (hover: hover) {
 
-    transform:rotate(180deg);
+    #mode:hover{
+
+        transform: rotate(180deg);
+
+    }
+
+}
+#mode{
+
+    transition: transform .4s;
 
 }
 
+.spin{
+
+    transform: rotate(360deg);
+
+}
 /* ===========================
    HERO
 =========================== */

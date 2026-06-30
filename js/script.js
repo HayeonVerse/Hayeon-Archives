@@ -16,7 +16,7 @@ if (localStorage.theme === "dark") {
 
 updateThemeButton();
 
-b?.addEventListener("click", () => {
+b.addEventListener("click", () => {
 
     document.documentElement.classList.toggle("dark");
 
@@ -25,6 +25,14 @@ b?.addEventListener("click", () => {
             ? "dark"
             : "light";
 
+    b.classList.add("spin");
+
     updateThemeButton();
+
+    setTimeout(() => {
+
+        b.classList.remove("spin");
+
+    }, 400);
 
 });
