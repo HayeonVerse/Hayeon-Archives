@@ -354,7 +354,7 @@
 
 /* Reveal */
 
-.archive-day:hover .media-grid img:nth-child(n+5){
+.archive-day.expanded .media-grid img:nth-child(n+5){
 
     opacity:1;
 
@@ -364,7 +364,7 @@
 
 /* Remove +X overlay while expanded */
 
-.archive-day:hover .preview-last::after{
+.archive-day.expanded .preview-last::after{
 
     display:none;
 
@@ -374,7 +374,7 @@
 
 @media(max-width:700px){
 
-.archive-day:hover .media-grid{
+.archive-day.expanded .media-grid{
 
     max-height:3000px;
 
@@ -679,6 +679,29 @@
 .archive-day:has(.youtube-player) iframe{
 
     height:400px !important;
+
+}
+
+}
+@media (hover:hover){
+
+.archive-day:hover .media-grid{
+
+    max-height:3000px;
+
+}
+
+.archive-day:hover .preview-last::after{
+
+    display:none;
+
+}
+
+.archive-day:hover .media-grid img:nth-child(n+5){
+
+    opacity:1;
+
+    transform:translateY(0);
 
 }
 

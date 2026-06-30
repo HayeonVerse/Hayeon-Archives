@@ -661,3 +661,33 @@ window.addEventListener(
     loadGallery
 
 );
+document.addEventListener("click", (event) => {
+
+    const day = event.target.closest(".archive-day");
+
+    if (!day) return;
+
+    // Don't trigger when opening media
+    if (
+        event.target.closest("img") ||
+        event.target.closest("video") ||
+        event.target.closest("iframe")
+    ) {
+        return;
+    }
+
+    // Close every other album
+    document.querySelectorAll(".archive-day.expanded")
+        .forEach(item => {
+
+            if (item !== day) {
+
+                item.classList.remove("expanded");
+
+            }
+
+        });
+
+    day.classList.toggle("expanded");
+
+});
