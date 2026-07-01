@@ -364,8 +364,22 @@ if (album.info.video) {
     const iframe =
         document.createElement("iframe");
 
-    iframe.src =
-iframe.src = getYoutubeEmbed(album.info.video);
+iframe.src =
+album.info.video.includes("/shorts/")
+? album.info.video.replace(
+    "/shorts/",
+    "/embed/"
+)
+: album.info.video.includes("youtu.be/")
+? `https://www.youtube.com/embed/${
+    album.info.video
+        .split("youtu.be/")[1]
+        .split("?")[0]
+}`
+: album.info.video.replace(
+    "watch?v=",
+    "embed/"
+);
 
 iframe.style.width = "100%";
 
@@ -564,9 +578,23 @@ function openYoutube(url){
 
     lightboxVideo.innerHTML = `
         <iframe
-            src="${
-getYoutubeEmbed(url)
-            }"
+src="${
+url.includes("/shorts/")
+? url.replace(
+    "/shorts/",
+    "/embed/"
+)
+: url.includes("youtu.be/")
+? `https://www.youtube.com/embed/${
+    url
+        .split("youtu.be/")[1]
+        .split("?")[0]
+}`
+: url.replace(
+    "watch?v=",
+    "embed/"
+)
+}"
             width="100%"
             height="100%"
             frameborder="0"
