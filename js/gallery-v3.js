@@ -422,30 +422,74 @@ media.style.display = "block";
 
 monthHeader.onclick = () => {
 
-    // Close every other month in this year
-    yearContent.querySelectorAll(".archive-content.open").forEach(content => {
+const wasOpen =
+    monthContent.classList.contains(
+        "open"
+    );
 
-        if (content !== monthContent) {
+/* close others */
 
-            content.classList.remove("open");
+document.querySelectorAll(
+".archive-month > .archive-content.open"
+)
+.forEach(content=>{
 
-            const header = content.previousElementSibling;
+if(content!==monthContent){
 
-            const title = header.querySelector(".archive-month-title");
+content.classList.remove(
+"open"
+);
 
-            title.innerHTML = `▶ ${title.textContent.replace("▼ ", "").replace("▶ ", "")}`;
+const header =
+content.previousElementSibling;
 
-        }
+const title =
+header.querySelector(
+".archive-month-title"
+);
 
-    });
+title.innerHTML=
+`▶ ${
+title.textContent
+.replace("▼ ","")
+.replace("▶ ","")
+}`;
 
-    // Toggle selected month
-    monthContent.classList.toggle("open");
+}
 
-    monthHeader.querySelector(".archive-month-title").innerHTML =
-        monthContent.classList.contains("open")
-        ? `▼ ${month}`
-        : `▶ ${month}`;
+});
+
+/* open current */
+
+monthContent.classList.toggle(
+"open",
+!wasOpen
+);
+
+monthHeader.querySelector(
+".archive-month-title"
+).innerHTML=
+!wasOpen
+?`▼ ${month}`
+:`▶ ${month}`;
+
+/* keep month visible */
+
+if(!wasOpen){
+
+setTimeout(()=>{
+
+monthHeader.scrollIntoView({
+
+behavior:"smooth",
+
+block:"start"
+
+});
+
+},50);
+
+}
 
 };
 
