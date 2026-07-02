@@ -542,17 +542,11 @@ footer{
 }
 
 .lightbox-content{
-
-    width:100%;
-    height:100%;
-
     display:flex;
-
     justify-content:center;
     align-items:center;
-
-    overflow:hidden;
-
+    max-width:95vw;
+    max-height:95vh;
 }
 
 #lightbox-image{

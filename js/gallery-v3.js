@@ -73,15 +73,18 @@ function buildArchive(albums) {
     const archive = {};
 
     albums.forEach(album => {
-        const [year, month, day] = album.path.split("/");
+        const [year, month, folder] = album.path.split("/");
+
+const [day, ...titleParts] = folder.split("-");
+const title = titleParts.join("-") || "";
 
         if (!archive[year]) archive[year] = {};
         if (!archive[year][month]) archive[year][month] = [];
 
-        let entry = archive[year][month].find(x => x.day === day);
+       let entry = archive[year][month].find(x => x.day === day && x.title === title);
 
         if (!entry) {
-            entry = { day, albums: [] };
+            entry = { day, title, albums: [] };
             archive[year][month].push(entry);
         }
 
@@ -265,14 +268,21 @@ function createDay(dayGroup) {
         else videos++;
     });
 
-    header.innerHTML = `
-        <div class="archive-date">${dayGroup.albums[0].info.date}</div>
-        <div class="archive-day-count">
-            ${photos ? `📷 ${photos}` : ""}
-            ${photos && videos ? " • " : ""}
-            ${videos ? `🎥 ${videos}` : ""}
-        </div>
-    `;
+header.innerHTML = `
+    <div class="archive-date">${dayGroup.albums[0].info.date}</div>
+
+    ${
+        dayGroup.title
+            ? `<div class="archive-album-title">${dayGroup.title}</div>`
+            : ""
+    }
+
+    <div class="archive-day-count">
+        ${photos ? `📷 ${photos}` : ""}
+        ${photos && videos ? " • " : ""}
+        ${videos ? `🎥 ${videos}` : ""}
+    </div>
+`;
 
     dayGroup.albums.forEach(album => {
 
@@ -426,4 +436,56 @@ function openCurrentMedia() {
    INIT
 ----------------------------- */
 closeButton.addEventListener("click", closeLightbox);
+
+lightbox.addEventListener("click", (e) => {
+    if (e.target === lightbox) {
+        closeLightbox();
+    }
+});
+
+function previousMedia() {
+
+    if (!currentAlbum.length) return;
+
+    currentMediaIndex--;
+
+    if (currentMediaIndex < 0) {
+        currentMediaIndex = currentAlbum.length - 1;
+    }
+
+    openCurrentMedia();
+}
+
+function nextMedia() {
+
+    if (!currentAlbum.length) return;
+
+    currentMediaIndex++;
+
+    if (currentMediaIndex >= currentAlbum.length) {
+        currentMediaIndex = 0;
+    }
+
+    openCurrentMedia();
+}
+document.addEventListener("keydown", (e) => {
+
+    if (lightbox.style.display !== "flex") return;
+
+    switch (e.key) {
+
+        case "Escape":
+            closeLightbox();
+            break;
+
+        case "ArrowLeft":
+            previousMedia();
+            break;
+
+        case "ArrowRight":
+            nextMedia();
+            break;
+    }
+
+});
 window.addEventListener("DOMContentLoaded", loadGallery);
