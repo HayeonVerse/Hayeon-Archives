@@ -1,0 +1,696 @@
+/* ==========================================
+   Hayeon Archive - Fromm v1.0
+   Matches Gallery Theme
+========================================== */
+
+.fromm-wrapper{
+    max-width:1400px;
+    margin:auto;
+    padding:70px 40px;
+}
+/* ==========================================
+   LAYOUT
+========================================== */
+
+.fromm-layout{
+
+    display:grid;
+
+    grid-template-columns:260px 1fr;
+
+    gap:30px;
+
+    align-items:start;
+
+}
+#fromm-sidebar{
+
+    position:sticky;
+
+    top:90px;
+
+    align-self:start;
+    
+    background:var(--card);
+
+    border-radius:18px;
+
+    border:1px solid rgba(82,217,187,.12);
+
+    padding:18px;
+
+}
+.timeline-year{
+
+    font-weight:700;
+
+    margin-top:18px;
+
+    color:var(--mint);
+
+}
+.timeline-month{
+
+    cursor:pointer;
+
+    padding:8px 0;
+
+    color:var(--text-light);
+
+    transition:.2s;
+
+}
+.timeline-month:hover{
+
+    color:var(--mint);
+
+}
+
+.fromm-controls{
+    display:flex;
+    gap:20px;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin-bottom:40px;
+}
+
+.fromm-search{
+    flex:1;
+    min-width:260px;
+    padding:14px 18px;
+    border-radius:14px;
+    border:1px solid var(--border);
+    background:var(--card);
+    color:var(--text);
+    font-size:16px;
+    outline:none;
+    transition:.25s;
+}
+
+.fromm-search:focus{
+    border-color:var(--mint);
+    box-shadow:0 0 0 4px rgba(82,217,187,.15);
+}
+
+.language-filter{
+    display:flex;
+    gap:10px;
+}
+
+.lang-btn{
+    border:none;
+    background:var(--card);
+    color:var(--text);
+    padding:12px 18px;
+    border-radius:999px;
+    cursor:pointer;
+    font-weight:600;
+    transition:.25s;
+}
+
+.lang-btn:hover,
+.lang-btn.active{
+    background:var(--mint);
+    color:#111;
+}
+
+.fromm-stats{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+    margin-bottom:40px;
+}
+
+.stat-card{
+    background:var(--card);
+    border:1px solid rgba(82,217,187,.15);
+    border-radius:18px;
+    padding:24px;
+    text-align:center;
+    transition:.25s;
+}
+
+.stat-card:hover{
+    transform:translateY(-4px);
+    border-color:var(--mint);
+}
+
+.stat-card h3{
+    font-size:36px;
+    color:var(--mint);
+    margin-bottom:8px;
+}
+
+.stat-card p{
+    color:var(--text-light);
+}
+
+.fromm-container{
+    display:flex;
+    flex-direction:column;
+    gap:24px;
+}
+
+.fromm-year,
+.fromm-month{
+
+    background:var(--card);
+
+    border-radius:18px;
+
+    border:1px solid rgba(82,217,187,.12);
+
+}
+
+.fromm-year-header,
+.fromm-month-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 24px;
+    cursor:pointer;
+    user-select:none;
+    transition:.25s;
+}
+
+.fromm-year-header:hover,
+.fromm-month-header:hover{
+    background:rgba(82,217,187,.08);
+}
+
+.fromm-year-content,
+.fromm-month-content{
+
+    max-height:0;
+
+    overflow:hidden;
+
+    opacity:0;
+
+    transition:
+        max-height .35s ease,
+        opacity .25s ease;
+
+}
+
+.fromm-year-content.open,
+.fromm-month-content.open{
+
+    padding:0 24px 24px;
+
+    max-height:10000px;
+
+    opacity:1;
+
+}
+
+.fromm-conversation{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:14px;
+
+    margin:0;
+
+    padding:24px 0;
+
+    background:none;
+
+    border:none;
+
+    border-radius:0;
+
+}
+.message + .message{
+
+    margin-top:10px;
+
+}
+
+/* ==========================================
+   DATE SEPARATOR
+========================================== */
+
+.fromm-date-separator{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:40px 0 20px;
+
+    position:relative;
+
+}
+
+.fromm-date-separator::before,
+
+.fromm-date-separator::after{
+
+    content:"";
+
+    flex:1;
+
+    height:1px;
+
+    background:rgba(255,255,255,.12);
+
+}
+
+.fromm-date-separator span{
+
+    padding:0 18px;
+
+    color:var(--text-light);
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+/* ==========================================
+   SENDER GROUP
+========================================== */
+
+.sender-group{
+
+    display:flex;
+
+    flex-direction:column;
+
+    margin-bottom:28px;
+
+}
+
+.sender-group.idol{
+    align-items:flex-start;
+}
+
+.sender-group.fan{
+
+    align-items:flex-end;
+
+}
+.sender-info{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:12px;
+
+    margin-bottom:10px;
+
+}
+
+.sender-group.fan .sender-info{
+
+    flex-direction:row-reverse;
+
+}
+.sender-avatar{
+
+    width:48px;
+
+    height:48px;
+
+    border-radius:50%;
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    flex-shrink:0;
+
+}
+.sender-group.idol .sender-avatar{
+
+    background-image:url("../assets/fromm/avatar/hayeon.webp");
+
+}
+
+.sender-group.fan .sender-avatar{
+
+    background-image:url("../assets/fromm/avatar/fan.webp");
+
+}
+.sender-meta{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+.sender-header{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin-bottom:10px;
+
+    font-size:13px;
+
+    color:var(--text-light);
+
+    font-weight:600;
+
+}
+
+.sender-group.fan .sender-header{
+
+    flex-direction:row-reverse;
+
+}
+
+.sender-time{
+
+    opacity:.65;
+
+    font-size:12px;
+
+}
+.group-messages{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:8px;
+
+    width:100%;
+}
+.message{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-self:flex-start;
+
+    gap:8px;
+
+    width:fit-content;
+
+    max-width:min(78%,720px);
+
+    padding:14px 18px;
+
+    border-radius:22px;
+
+    line-height:1.7;
+
+    animation:fadeIn .25s ease;
+
+    transition:
+
+    transform .2s ease,
+
+    box-shadow .2s ease;
+
+}
+/* ==========================================
+   CONNECTED CHAT BUBBLES
+========================================== */
+
+.message.single{
+
+    border-radius:24px;
+
+}
+
+.message.first{
+
+    margin-bottom:2px;
+
+}
+
+.message.middle{
+
+    margin:2px 0;
+
+}
+
+.message.last{
+
+    margin-top:2px;
+
+}
+/* ---------- HAYEON ---------- */
+
+.message.idol.first{
+
+    border-bottom-left-radius:8px;
+
+}
+
+.message.idol.middle{
+
+    border-radius:10px;
+
+    border-top-left-radius:8px;
+
+    border-bottom-left-radius:8px;
+
+}
+
+.message.idol.last{
+
+    border-top-left-radius:8px;
+
+}
+/* ---------- FAN ---------- */
+
+.message.fan.first{
+
+    border-bottom-right-radius:8px;
+
+}
+
+.message.fan.middle{
+
+    border-radius:10px;
+
+    border-top-right-radius:8px;
+
+    border-bottom-right-radius:8px;
+
+}
+
+.message.fan.last{
+
+    border-top-right-radius:8px;
+
+}
+
+.message-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    width:100%;
+
+    gap:20px;
+
+    font-size:12px;
+
+    opacity:.65;
+
+}
+
+.message.idol{
+
+    background:rgba(82,217,187,.18);
+
+    margin-right:auto;
+
+    border-radius:24px;
+
+    border-bottom-left-radius:8px;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.15);
+
+}
+
+.message.fan{
+
+    background:rgba(255,255,255,.08);
+
+    margin-left:auto;
+
+    border-radius:24px;
+
+    border-bottom-right-radius:8px;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.15);
+
+}
+
+.message-ko{
+
+    font-weight:600;
+
+    color:var(--text);
+
+    margin-bottom:12px;
+    white-space:pre-wrap;
+}
+
+.message-en{
+
+    color:rgba(255,255,255,.78);
+
+    white-space:pre-wrap;
+}
+.message-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+}
+.message-content:empty{
+
+    display:none;
+
+}
+.message-image{
+    margin-top:16px;
+}
+
+.message-image img{
+
+    width:100%;
+
+    max-width:360px;
+
+    border-radius:18px;
+
+    display:block;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.message-image img:hover{
+    transform:scale(1.02);
+}
+
+.hidden-ko .message-ko{display:none;}
+.hidden-en .message-en{display:none;}
+
+@keyframes fadeIn{
+    from{opacity:0;transform:translateY(10px);}
+    to{opacity:1;transform:none;}
+}
+
+@media(max-width:1000px){
+    .fromm-stats{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media(max-width:700px){
+    .fromm-wrapper{
+        padding:40px 20px;
+    }
+
+    .fromm-controls{
+        flex-direction:column;
+        align-items:stretch;
+    }
+
+    .language-filter{
+        width:100%;
+    }
+
+    .lang-btn{
+        flex:1;
+    }
+
+    .fromm-stats{
+        grid-template-columns:1fr;
+    }
+
+    .message{
+        max-width:100%;
+    }
+.fromm-layout{
+
+    grid-template-columns:1fr;
+
+}
+
+#fromm-sidebar{
+
+    position:static;
+
+}
+}
+
+/* ==========================================
+   LIGHTBOX
+========================================== */
+
+#fromm-lightbox{
+
+    position:fixed;
+    inset:0;
+
+    background:rgba(0,0,0,.92);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    opacity:0;
+
+    pointer-events:none;
+
+    transition:.25s;
+
+    z-index:99999;
+
+}
+
+#fromm-lightbox.open{
+
+    opacity:1;
+
+    pointer-events:auto;
+
+}
+
+#fromm-lightbox img{
+
+    max-width:90%;
+
+    max-height:90%;
+
+    border-radius:16px;
+
+}
+.message:hover{
+
+    transform:translateY(-2px);
+
+}
