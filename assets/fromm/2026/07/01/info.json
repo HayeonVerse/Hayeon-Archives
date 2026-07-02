@@ -1,29 +1,165 @@
 {
-    "date": "2026-07-01",
-
-    "messages":[
-
-        {
-            "type":"hayeon",
-
-            "ko":"안녕하세요",
-
-            "en":"Hello."
-        },
-
-        {
-            "type":"fan",
-
-            "ko":"안녕하세요!",
-
-            "en":"Hi!"
-        },
-
-        {
-            "type":"hayeon",
-
-            "image":"001.webp"
-        }
-
-    ]
+  "date": "2026-07-01",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "오앙",
+      "en": "Ooh~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀여운 Y/n",
+      "en": "Cute Y/n."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오",
+      "en": "Oh."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 기능 탐색중",
+      "en": "I'm still exploring all the new features too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "머야 아직 영상 못보내는구나",
+      "en": "Huh? Looks like we still can't send videos yet."
+    },
+    {
+      "type": "hayeon",
+      "ko": "영상 보내주려고 왔는데 ㅔ",
+      "en": "I came here because I wanted to send you one."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금 난 차야 ㅑ",
+      "en": "I'm in the car right now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어디론가 가는중",
+      "en": "I'm on my way somewhere."
+    },
+    {
+      "type": "hayeon",
+      "ko": "원아페 갔다가 부산바다",
+      "en": "After going to the One Asia Festival,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "산책했는데",
+      "en": "I took a walk along Busan Beach."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 힐링이였어",
+      "en": "It was so healing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "회도 먹구",
+      "en": "We also had sashimi."
+    },
+    {
+      "type": "hayeon",
+      "ko": "수민이 회 안먹어 봤다길래",
+      "en": "Soomin said she'd never tried sashimi before."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 맛있게 쌈 싸줬는데",
+      "en": "So I wrapped one for her and fed her."
+    },
+    {
+      "type": "hayeon",
+      "ko": "초장이랑 쌈장 조금씩 넣어 먹으면 맛있단말이야 쌈에는",
+      "en": "Because if you add a little cho-gochujang and ssamjang to a wrap, it tastes really good."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러고 있음",
+      "en": "I can already imagine it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 봤을때",
+      "en": "If you ask me..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "앞에선 왜그렇게 먹냐~ 이러고",
+      "en": "She'd probably say, \"Why are you eating it like that~\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "몰래 내가 먹는대로 먹어볼듯 막",
+      "en": "Then secretly copy the way I eat later. 😂"
+    },
+    {
+      "type": "hayeon",
+      "ko": "부산 근데 진짜",
+      "en": "But Busan seriously..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "살기 좋은것같아",
+      "en": "feels like such a nice place to live."
+    },
+    {
+      "type": "hayeon",
+      "ko": "특히 내가",
+      "en": "Especially for me,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "해산물이 짱많아",
+      "en": "there's so much seafood."
+    },
+    {
+      "type": "hayeon",
+      "ko": "배달도 완전빨라",
+      "en": "And delivery is super fast too."
+    },
+    {
+      "type": "fan",
+      "ko": "부산사람들 빨리빨리에 특화되어있음",
+      "en": "People from Busan are experts at doing everything quickly."
+    },
+    {
+      "type": "hayeon",
+      "ko": "와 너무 좋다",
+      "en": "Wow, that sounds so nice."
+    },
+    {
+      "type": "fan",
+      "ko": "그럼 다현이랑 결혼해야 돼? 그러면 부산 사람이 될 수 있잖아",
+      "en": "Then should you marry Dahyun? That way you could become a Busan local."
+    },
+    {
+      "type": "hayeon",
+      "ko": "결혼 해버릴까",
+      "en": "Should I just get married then?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅎㅋㄹㅅㅋㄹㄹ",
+      "en": "ㅋㅋㅎㅎㅋㄹㅅㅋㄹㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 이제 그만 가보겠쓰ㅓ",
+      "en": "I'll get going now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "또 올게ㅔ",
+      "en": "I'll come again later."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해~~",
+      "en": "Haranghae~~ ❤️"
+    }
+  ]
 }
