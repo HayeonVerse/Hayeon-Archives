@@ -171,19 +171,20 @@ monthHeader.onclick = () => {
 
     const isOpen = monthContent.classList.contains("open");
 
-    // CLOSE if already open
+    // CLOSE MONTH
     if (isOpen) {
         monthContent.classList.remove("open");
-        monthContent.innerHTML = "";
-        loaded = false;
 
         monthHeader.querySelector(".archive-month-title").textContent =
             `▶ ${month}`;
 
+        // ONLY remove DOM, DO NOT reset loaded flag here
+        monthContent.innerHTML = "";
+
         return;
     }
 
-    // 🔥 CLOSE ALL OTHER MONTHS (IMPORTANT)
+    // CLOSE OTHER MONTHS
     yearContent
         .querySelectorAll(".archive-month .archive-content.open")
         .forEach(el => {
@@ -197,15 +198,14 @@ monthHeader.onclick = () => {
             }
         });
 
-    // OPEN CURRENT MONTH
+    // OPEN MONTH
     monthContent.classList.add("open");
 
     monthHeader.querySelector(".archive-month-title").textContent =
         `▼ ${month}`;
 
-    // LAZY LOAD
-    if (!loaded) {
-        loaded = true;
+    // ALWAYS rebuild if empty (FIX FOR YOUR BUG)
+    if (monthContent.children.length === 0) {
 
         const dayGrid = document.createElement("div");
         dayGrid.className = "archive-days";
@@ -220,7 +220,7 @@ monthHeader.onclick = () => {
         monthContent.appendChild(dayGrid);
     }
 
-    // scroll into view (your old behavior)
+    // scroll
     setTimeout(() => {
         monthHeader.scrollIntoView({
             behavior: "smooth",
