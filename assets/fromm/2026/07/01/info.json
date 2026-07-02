@@ -1,0 +1,29 @@
+{
+    "date": "2026-07-01",
+
+    "messages":[
+
+        {
+            "type":"hayeon",
+
+            "ko":"안녕하세요",
+
+            "en":"Hello."
+        },
+
+        {
+            "type":"fan",
+
+            "ko":"안녕하세요!",
+
+            "en":"Hi!"
+        },
+
+        {
+            "type":"hayeon",
+
+            "image":"001.webp"
+        }
+
+    ]
+}

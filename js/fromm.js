@@ -17,7 +17,7 @@ const App = {
 
         dataRoot: "assets/fromm/",
 
-        indexFile: "index.json",
+        indexFile: "archive.json",
 
         defaultLanguage: "both",
 
@@ -289,11 +289,11 @@ App.loadIndex = async function () {
    LOAD CONVERSATION
 ============================================ */
 
-App.loadConversation = async function (file) {
+App.loadConversation = async function (folder) {
 
     return await App.fetchJSON(
 
-        App.config.dataRoot + file
+        `${App.config.dataRoot}${folder}/info.json`
 
     );
 
@@ -312,18 +312,16 @@ App.loadArchive = async function () {
         const index =
             await App.loadIndex();
 
-        const conversations =
-            await Promise.all(
+const conversations =
+    await Promise.all(
 
-                index.map(item =>
+        index.map(folder =>
 
-                    App.loadConversation(
-                        item.file
-                    )
+            App.loadConversation(folder)
 
-                )
+        )
 
-            );
+    );
 
         App.state.conversations =
             conversations;
@@ -755,22 +753,21 @@ App.renderConversation = function (conversation) {
     let currentSender = null;
 
     conversation.messages.forEach(message => {
+message._conversation = conversation;
+if (message.type !== currentSender) {
 
-        if (message.sender !== currentSender) {
+    currentSender = message.type;
 
-            currentSender = message.sender;
+    currentGroup =
+        App.renderSenderGroup(
+            message.type
+        );
 
-            currentGroup =
-                App.renderSenderGroup(
-                    message.sender,
-                    message.time
-                );
+    container.appendChild(
+        currentGroup
+    );
 
-            container.appendChild(
-                currentGroup
-            );
-
-        }
+}
 
 const bubble =
     App.renderMessage(message);
@@ -1012,7 +1009,7 @@ App.updateBubbleClasses = function (container) {
    SENDER GROUP
 ============================================ */
 
-App.renderSenderGroup = function (sender, time) {
+App.renderSenderGroup = function (type) {
 
     const group =
         App.utils.create(
@@ -1021,7 +1018,7 @@ App.renderSenderGroup = function (sender, time) {
         );
 
 const groupType =
-    sender.toLowerCase() === "hayeon"
+    type === "hayeon"
         ? "idol"
         : "fan";
 
@@ -1056,13 +1053,14 @@ const icon =
         ? "🦔"
         : "🫡";
 
+const name =
+    groupType === "idol"
+        ? "Hayeon"
+        : "Fan";
+
 header.innerHTML = `
     <span class="sender-name">
-        ${icon} ${sender}
-    </span>
-
-    <span class="sender-time">
-        ${time || ""}
+        ${icon} ${name}
     </span>
 `;
 
@@ -1116,12 +1114,9 @@ App.renderMessage = function (message) {
         App.utils.create("div", "message");
 
 const messageType =
-    message.type ||
-    (
-        message.sender?.toLowerCase() === "hayeon"
-            ? "idol"
-            : "fan"
-    );
+    message.type === "hayeon"
+        ? "idol"
+        : "fan";
 
 bubble.classList.add(messageType);
 
@@ -1422,6 +1417,46 @@ App.toggleSection = function (section) {
     if (!section) return;
 
     section.classList.toggle("open");
+
+};
+/* ============================================
+   MASTER RENDER
+============================================ */
+
+App.render = function () {
+
+    if (!App.cache.container) return;
+
+    App.utils.clear(App.cache.container);
+
+    const fragment = App.utils.fragment();
+
+    const archive = App.utils.groupArchive(
+        App.state.filtered
+    );
+
+    const years = Object.keys(archive)
+        .sort((a, b) => b.localeCompare(a));
+
+    years.forEach(year => {
+
+        fragment.appendChild(
+
+            App.renderYear(
+
+                year,
+
+                archive[year]
+
+            )
+
+        );
+
+    });
+
+    App.cache.container.appendChild(fragment);
+
+    App.updateStatistics();
 
 };
 /* ============================================
