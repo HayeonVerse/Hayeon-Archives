@@ -1,783 +1,429 @@
 /* ============================================
-   Hayeon Archive Gallery v3
+   Hayeon Archive Gallery v3 (FIXED STABLE VERSION)
 ============================================ */
 
+/* -----------------------------
+   GLOBAL STATE
+----------------------------- */
 const galleryContainer = document.getElementById("gallery-container");
 
 const lightbox = document.getElementById("lightbox");
 const lightboxImage = document.getElementById("lightbox-image");
 const lightboxVideo = document.getElementById("lightbox-video");
 const closeButton = document.getElementById("close-lightbox");
+
 let currentAlbum = [];
 let currentAlbumPath = "";
 let currentMediaIndex = 0;
-let touchStartX = 0;
-let touchEndX = 0;
+
 let loadedAlbums = [];
+let ytFrame = null;
+
+/* -----------------------------
+   YOUTUBE EMBED
+----------------------------- */
 function getYoutubeEmbed(url) {
+    if (!url) return "";
 
     if (url.includes("youtu.be/")) {
-
         const id = url.split("youtu.be/")[1].split("?")[0];
         return `https://www.youtube.com/embed/${id}`;
-
     }
 
     if (url.includes("watch?v=")) {
-
         return url.replace("watch?v=", "embed/").split("&")[0];
+    }
 
+    if (url.includes("/shorts/")) {
+        return url.replace("/shorts/", "/embed/");
     }
 
     return url;
-
 }
+
+/* -----------------------------
+   LOAD GALLERY
+----------------------------- */
 async function loadGallery() {
-
     try {
-
-        const response = await fetch("assets/gallery/albums.json");
-
-        const albums = await response.json();
+        const res = await fetch("assets/gallery/albums.json");
+        const albums = await res.json();
 
         loadedAlbums = await Promise.all(
-
-            albums.map(async album => {
-
-                const infoResponse = await fetch(
-                    `assets/gallery/${album.path}/info.json`
-                );
-
-                const info = await infoResponse.json();
-
-                return {
-
-                    path: album.path,
-
-                    info
-
-                };
-
+            albums.map(async a => {
+                const r = await fetch(`assets/gallery/${a.path}/info.json`);
+                const info = await r.json();
+                return { path: a.path, info };
             })
-
         );
 
         buildArchive(loadedAlbums);
 
+    } catch (err) {
+        console.error(err);
+        galleryContainer.innerHTML =
+            "<h2 style='text-align:center'>Unable to load gallery</h2>";
     }
-
-    catch (error) {
-
-        console.error(error);
-
-        galleryContainer.innerHTML = `
-            <h2 style="text-align:center">
-                Unable to load gallery.
-            </h2>
-        `;
-
-    }
-
 }
-function buildArchive(albums) {
 
+/* -----------------------------
+   BUILD ARCHIVE STRUCTURE
+----------------------------- */
+function buildArchive(albums) {
     const archive = {};
 
     albums.forEach(album => {
+        const [year, month, day] = album.path.split("/");
 
-        const parts = album.path.split("/");
+        if (!archive[year]) archive[year] = {};
+        if (!archive[year][month]) archive[year][month] = [];
 
-        const year = parts[0];
-        const month = parts[1];
-        const day = parts[2];
+        let entry = archive[year][month].find(x => x.day === day);
 
-        if (!archive[year]) {
-
-            archive[year] = {};
-
+        if (!entry) {
+            entry = { day, albums: [] };
+            archive[year][month].push(entry);
         }
 
-        if (!archive[year][month]) {
-
-            archive[year][month] = [];
-
-        }
-
-const existing =
-    archive[year][month]
-        .find(
-            x => x.day === day
-        );
-
-if(existing){
-
-    existing.albums.push({
-
-        path: album.path,
-
-        info: album.info
-
-    });
-
-}else{
-
-    archive[year][month].push({
-
-        day,
-
-        albums:[
-
-            {
-
-                path: album.path,
-
-                info: album.info
-
-            }
-
-        ]
-
-    });
-
-}
-
+        entry.albums.push(album);
     });
 
     renderArchive(archive);
-
 }
-function renderArchive(archive){
 
-    galleryContainer.innerHTML="";
+/* -----------------------------
+   RENDER ARCHIVE (LAZY MONTH LOAD)
+----------------------------- */
+function renderArchive(archive) {
 
-    const monthOrder=[
+    galleryContainer.innerHTML = "";
+
+    const monthOrder = [
         "January","February","March","April",
         "May","June","July","August",
         "September","October","November","December"
     ];
 
-    Object.keys(archive)
-        .sort((a,b)=>b-a)
-        .forEach(year=>{
+    Object.keys(archive).sort((a,b)=>b-a).forEach(year => {
 
-            const yearBox=document.createElement("div");
-            yearBox.className="archive-year";
+        const yearBox = document.createElement("div");
+        yearBox.className = "archive-year";
 
-            const yearHeader=document.createElement("div");
-            yearHeader.className="archive-year-header";
+        const yearHeader = document.createElement("div");
+        const yearContent = document.createElement("div");
 
-            yearHeader.innerHTML=`
-                <div class="archive-year-title">
-                    ▶ ${year}
-                </div>
+        yearHeader.className = "archive-year-header";
+        yearContent.className = "archive-content";
 
-                <div class="archive-count">
-                    ${
-                        Object.values(archive[year]).flat().length
-                    } Albums
-                </div>
+        yearHeader.innerHTML = `
+            <div class="archive-year-title">▶ ${year}</div>
+            <div class="archive-count">
+                ${Object.values(archive[year]).flat().length} Albums
+            </div>
+        `;
+
+        let yearOpen = false;
+
+yearHeader.onclick = () => {
+
+    const isOpen = yearContent.classList.contains("open");
+
+    // close other years
+    document.querySelectorAll(".archive-year .archive-content.open")
+        .forEach(el => {
+            if (el !== yearContent) {
+                el.classList.remove("open");
+
+                const h = el.previousElementSibling;
+                const t = h.querySelector(".archive-year-title");
+                if (t) t.textContent = `▶ ${t.textContent.replace("▼ ","").replace("▶ ","")}`;
+            }
+        });
+
+    // toggle current year
+    yearContent.classList.toggle("open", !isOpen);
+
+    yearHeader.querySelector(".archive-year-title").textContent =
+        !isOpen ? `▼ ${year}` : `▶ ${year}`;
+};
+
+        monthOrder.forEach(month => {
+
+            if (!archive[year][month]) return;
+
+            const monthBox = document.createElement("div");
+            const monthHeader = document.createElement("div");
+            const monthContent = document.createElement("div");
+
+            monthBox.className = "archive-month";
+            monthHeader.className = "archive-month-header";
+            monthContent.className = "archive-content";
+
+            monthHeader.innerHTML = `
+                <div class="archive-month-title">▶ ${month}</div>
+                <div class="archive-count">${archive[year][month].length}</div>
             `;
 
-            const yearContent=document.createElement("div");
-            yearContent.className="archive-content";
-
-            /* ---------- MONTHS ---------- */
-
-            monthOrder.forEach(month=>{
-
-                if(!archive[year][month]) return;
-
-                const monthBox=document.createElement("div");
-                monthBox.className="archive-month";
-
-                const monthHeader=document.createElement("div");
-                monthHeader.className="archive-month-header";
-
-                monthHeader.innerHTML=`
-                    <div class="archive-month-title">
-                        ▶ ${month}
-                    </div>
-
-                    <div class="archive-count">
-                        ${archive[year][month].length}
-                    </div>
-                `;
-
-                const monthContent=document.createElement("div");
-                monthContent.className="archive-content";
-const dayGrid = document.createElement("div");
-
-dayGrid.className = "archive-days";
-                /* ---------- DAYS ---------- */
-
-                archive[year][month]
-                    .sort((a,b)=>Number(b.day)-Number(a.day))
-                    .forEach(dayGroup=>{
-const allFiles =
-    dayGroup.albums.flatMap(
-        a => a.info.files
-    );
-
-const photoCount =
-    allFiles.filter(file=>{
-
-        const ext =
-            file
-            .split(".")
-            .pop()
-            .toLowerCase();
-
-        return [
-            "jpg",
-            "jpeg",
-            "png",
-            "gif",
-            "webp"
-        ].includes(ext);
-
-    }).length;
-
-const videoCount =
-    allFiles.length -
-    photoCount;
-                        const dayBox=document.createElement("div");
-                        dayBox.className="archive-day";
-
-                        const dayHeader = document.createElement("div");
-
-dayHeader.className = "archive-day-header";
-
-dayHeader.innerHTML = `
-
-    <div class="archive-date">
-
-        ${dayGroup.albums[0].info.date}
-
-    </div>
-
-    <div class="archive-day-count">
-
-        ${photoCount ? `📷 ${photoCount} ${photoCount === 1 ? "Photo" : "Photos"}` : ""}
-
-        ${photoCount && videoCount ? " • " : ""}
-
-        ${videoCount ? `🎥 ${videoCount} ${videoCount === 1 ? "Video" : "Videos"}` : ""}
-
-    </div>
-`;
-
-                        const media=document.createElement("div");
-                        media.className="archive-content";
-
-const mediaGrid=document.createElement("div");
-mediaGrid.className="media-grid";
-
-dayGroup.albums.forEach(album=>{
-
-const maxPreview =
-    album.info.video
-        ? 4
-        : 999;
-
-album.info.files
-    .slice(0, maxPreview)
-    .forEach((file, index) => {
-
-    const extension = file.split(".").pop().toLowerCase();
-
-    const fullPath = `assets/gallery/${album.path}/${file}`;
-
-    if(["jpg","jpeg","png","gif","webp"].includes(extension)){
-
-        const image = document.createElement("img");
-
-        image.src = fullPath;
-
-        image.loading = "lazy";
-
-        image.onclick = (event)=>{
-
-            event.stopPropagation();
-
-            openAlbum(album.path,index);
-
-        };
-
-if(
-    index === 3 &&
-    album.info.files.length > 4
-){
-
-            image.classList.add("preview-last");
-
-const totalItems =
-    album.info.files.length +
-    (album.info.video ? 1 : 0);
-
-image.dataset.more =
-    "+" + (totalItems - (maxPreview + 1));
-
-        }
-
-        mediaGrid.appendChild(image);
-
-    }
-
-    else{
-
-        const video = document.createElement("video");
-
-        video.src = fullPath;
-
-        video.preload = "metadata";
-
-        video.muted = true;
-
-        video.onclick = (event)=>{
-
-            event.stopPropagation();
-
-            openAlbum(album.path,index);
-
-        };
-
-        if(
-            index === maxPreview-1 &&
-            album.info.files.length > maxPreview
-        ){
-
-            video.classList.add("preview-last");
-
-            video.dataset.more =
-                "+"+(album.info.files.length-maxPreview);
-
-        }
-
-mediaGrid.appendChild(video);
-
-}
-
-});
-
-if (album.info.video) {
-
-    const iframe =
-        document.createElement("iframe");
-
-iframe.src =
-album.info.video.includes("/shorts/")
-? album.info.video.replace(
-    "/shorts/",
-    "/embed/"
-)
-: album.info.video.includes("youtu.be/")
-? `https://www.youtube.com/embed/${
-    album.info.video
-        .split("youtu.be/")[1]
-        .split("?")[0]
-}`
-: album.info.video.replace(
-    "watch?v=",
-    "embed/"
-);
-
-iframe.style.width = "100%";
-
-iframe.style.aspectRatio = "16 / 9";
-
-iframe.style.borderRadius = "12px";
-
-iframe.style.cursor = "pointer";
-
-    iframe.allowFullscreen = true;
-
-    iframe.className =
-        "youtube-player";
-iframe.onclick = (event)=>{
-
-    event.stopPropagation();
-
-    openYoutube(
-        album.info.video
-    );
-
-};
-    mediaGrid.appendChild(
-        iframe
-    );
-
-}
-});
-media.appendChild(mediaGrid);
-dayGroup.albums.forEach(album=>{
-
-const albumTitle =
-document.createElement("div");
-
-albumTitle.className =
-"archive-album-title";
-
-albumTitle.textContent =
-album.info.title;
-
-media.appendChild(
-    albumTitle
-);
-
-});
-media.style.display = "block";
-
-                        dayBox.appendChild(dayHeader);
-                        dayBox.appendChild(media);
-
-                        dayGrid.appendChild(dayBox);
-
-                    });
+            let loaded = false;
+            let open = false;
 
 monthHeader.onclick = () => {
 
-const wasOpen =
-    monthContent.classList.contains(
-        "open"
-    );
+    const isOpen = monthContent.classList.contains("open");
 
-/* close others */
+    // CLOSE if already open
+    if (isOpen) {
+        monthContent.classList.remove("open");
+        monthContent.innerHTML = "";
+        loaded = false;
 
-document.querySelectorAll(
-".archive-month > .archive-content.open"
-)
-.forEach(content=>{
+        monthHeader.querySelector(".archive-month-title").textContent =
+            `▶ ${month}`;
 
-if(content!==monthContent){
-
-content.classList.remove(
-"open"
-);
-
-const header =
-content.previousElementSibling;
-
-const title =
-header.querySelector(
-".archive-month-title"
-);
-
-title.innerHTML=
-`▶ ${
-title.textContent
-.replace("▼ ","")
-.replace("▶ ","")
-}`;
-
-}
-
-});
-
-/* open current */
-
-monthContent.classList.toggle(
-"open",
-!wasOpen
-);
-
-monthHeader.querySelector(
-".archive-month-title"
-).innerHTML=
-!wasOpen
-?`▼ ${month}`
-:`▶ ${month}`;
-
-/* keep month visible */
-
-if(!wasOpen){
-
-setTimeout(()=>{
-
-monthHeader.scrollIntoView({
-
-behavior:"smooth",
-
-block:"start"
-
-});
-
-},50);
-
-}
-
-};
-
-monthContent.appendChild(dayGrid);
-
-monthBox.appendChild(monthHeader);
-monthBox.appendChild(monthContent);
-
-                yearContent.appendChild(monthBox);
-
-            });
-
-            yearHeader.onclick=()=>{
-
-                yearContent.classList.toggle("open");
-
-                yearHeader.querySelector(".archive-year-title").innerHTML=
-                    yearContent.classList.contains("open")
-                    ?`▼ ${year}`
-                    :`▶ ${year}`;
-
-            };
-
-            yearBox.appendChild(yearHeader);
-            yearBox.appendChild(yearContent);
-
-            galleryContainer.appendChild(yearBox);
-
-        });
-
-}
-function openImage(src){
-
-    lightbox.style.display="flex";
-
-    lightboxImage.style.display="block";
-
-    lightboxVideo.style.display="none";
-
-    lightboxImage.src=src;
-
-}
-
-function openVideo(src){
-
-    lightbox.style.display="flex";
-
-    lightboxImage.style.display="none";
-
-    lightboxVideo.style.display="block";
-
-    lightboxVideo.src=src;
-
-    lightboxVideo.currentTime=0;
-
-    lightboxVideo.play();
-
-}
-function openYoutube(url){
-
-    lightbox.style.display="flex";
-
-    lightboxImage.style.display="none";
-
-    lightboxVideo.style.display="block";
-
-    lightboxVideo.pause();
-
-    lightboxVideo.removeAttribute(
-        "src"
-    );
-
-    lightboxVideo.innerHTML = `
-        <iframe
-src="${
-url.includes("/shorts/")
-? url.replace(
-    "/shorts/",
-    "/embed/"
-)
-: url.includes("youtu.be/")
-? `https://www.youtube.com/embed/${
-    url
-        .split("youtu.be/")[1]
-        .split("?")[0]
-}`
-: url.replace(
-    "watch?v=",
-    "embed/"
-)
-}"
-            width="100%"
-            height="100%"
-            frameborder="0"
-            allowfullscreen>
-        </iframe>
-    `;
-
-}
-function findAlbum(path){
-
-    return loadedAlbums.find(album => album.path === path);
-
-}
-function openAlbum(path,index){
-
-    currentAlbumPath = path;
-
-    const album = findAlbum(path);
-
-    currentAlbum = album.info.files;
-
-    currentMediaIndex = index;
-
-    openCurrentMedia();
-
-}
-function openCurrentMedia(){
-
-    const file = currentAlbum[currentMediaIndex];
-
-    const src = `assets/gallery/${currentAlbumPath}/${file}`;
-
-    const extension = file.split(".").pop().toLowerCase();
-
-    if(["jpg","jpeg","png","gif","webp"].includes(extension)){
-
-        openImage(src);
-
-    }else{
-
-        openVideo(src);
-
-    }
-
-}
-function nextMedia(){
-
-    if(currentAlbum.length <= 1) return;
-
-    currentMediaIndex++;
-
-    if(currentMediaIndex >= currentAlbum.length){
-
-        currentMediaIndex = 0;
-
-    }
-
-    openCurrentMedia();
-
-}
-
-function previousMedia(){
-
-    if(currentAlbum.length <= 1) return;
-
-    currentMediaIndex--;
-
-    if(currentMediaIndex < 0){
-
-        currentMediaIndex = currentAlbum.length - 1;
-
-    }
-
-    openCurrentMedia();
-
-}
-function closeLightbox(){
-
-    lightbox.style.display="none";
-
-    lightboxImage.src="";
-
-    lightboxVideo.pause();
-
-    lightboxVideo.src="";
-lightboxVideo.innerHTML="";
-}
-
-closeButton.addEventListener("click",closeLightbox);
-
-document.addEventListener("keydown",(event)=>{
-
-    if(lightbox.style.display !== "flex") return;
-
-    switch(event.key){
-
-        case "ArrowLeft":
-            previousMedia();
-            break;
-
-        case "ArrowRight":
-            nextMedia();
-            break;
-
-        case "Escape":
-            closeLightbox();
-            break;
-
-    }
-
-});
-
-lightbox.addEventListener("click", (event) => {
-
-    // Don't close when clicking the image or video itself
-    if (
-        event.target === lightbox ||
-        event.target === document.querySelector(".lightbox-content")
-    ) {
-        closeLightbox();
-    }
-
-});
-lightbox.addEventListener("touchstart", (event) => {
-
-    touchStartX = event.changedTouches[0].screenX;
-
-});
-lightbox.addEventListener("touchend", (event) => {
-
-    touchEndX = event.changedTouches[0].screenX;
-
-    const distance = touchEndX - touchStartX;
-
-    // Swipe Right
-    if(distance > 50){
-
-        previousMedia();
-
-    }
-
-    // Swipe Left
-    else if(distance < -50){
-
-        nextMedia();
-
-    }
-
-});
-window.addEventListener(
-
-    "DOMContentLoaded",
-
-    loadGallery
-
-);
-document.addEventListener("click", (event) => {
-
-    const day = event.target.closest(".archive-day");
-
-    if (!day) return;
-
-    // Don't trigger when opening media
-    if (
-        event.target.closest("img") ||
-        event.target.closest("video") ||
-        event.target.closest("iframe")
-    ) {
         return;
     }
 
-    // Close every other album
-    document.querySelectorAll(".archive-day.expanded")
-        .forEach(item => {
+    // 🔥 CLOSE ALL OTHER MONTHS (IMPORTANT)
+    yearContent
+        .querySelectorAll(".archive-month .archive-content.open")
+        .forEach(el => {
+            el.classList.remove("open");
+            el.innerHTML = "";
 
-            if (item !== day) {
-
-                item.classList.remove("expanded");
-
+            const h = el.previousElementSibling;
+            if (h) {
+                const t = h.querySelector(".archive-month-title");
+                if (t) t.textContent = `▶ ${t.textContent.replace("▼ ","").replace("▶ ","")}`;
             }
-
         });
 
-    day.classList.toggle("expanded");
+    // OPEN CURRENT MONTH
+    monthContent.classList.add("open");
 
-});
+    monthHeader.querySelector(".archive-month-title").textContent =
+        `▼ ${month}`;
+
+    // LAZY LOAD
+    if (!loaded) {
+        loaded = true;
+
+        const dayGrid = document.createElement("div");
+        dayGrid.className = "archive-days";
+
+        const days = archive[year][month]
+            .sort((a,b)=>Number(b.day)-Number(a.day));
+
+        for (const dayGroup of days) {
+            dayGrid.appendChild(createDay(dayGroup));
+        }
+
+        monthContent.appendChild(dayGrid);
+    }
+
+    // scroll into view (your old behavior)
+    setTimeout(() => {
+        monthHeader.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+    }, 50);
+};
+
+            monthBox.appendChild(monthHeader);
+            monthBox.appendChild(monthContent);
+            yearContent.appendChild(monthBox);
+        });
+
+        yearBox.appendChild(yearHeader);
+        yearBox.appendChild(yearContent);
+        galleryContainer.appendChild(yearBox);
+    });
+}
+
+/* -----------------------------
+   CREATE DAY (MEDIA RENDER)
+----------------------------- */
+function createDay(dayGroup) {
+
+    const box = document.createElement("div");
+    box.className = "archive-day";
+
+    const header = document.createElement("div");
+    header.className = "archive-day-header";
+
+    const media = document.createElement("div");
+    const grid = document.createElement("div");
+    grid.className = "media-grid";
+
+    const files = dayGroup.albums.flatMap(a => a.info.files);
+
+    let photos = 0, videos = 0;
+
+    files.forEach(f => {
+        const ext = f.split(".").pop().toLowerCase();
+        if (["jpg","jpeg","png","gif","webp"].includes(ext)) photos++;
+        else videos++;
+    });
+
+    header.innerHTML = `
+        <div class="archive-date">${dayGroup.albums[0].info.date}</div>
+        <div class="archive-day-count">
+            ${photos ? `📷 ${photos}` : ""}
+            ${photos && videos ? " • " : ""}
+            ${videos ? `🎥 ${videos}` : ""}
+        </div>
+    `;
+
+    dayGroup.albums.forEach(album => {
+
+        album.info.files.forEach((file, index) => {
+
+            const ext = file.split(".").pop().toLowerCase();
+            const src = `assets/gallery/${album.path}/${file}`;
+
+            if (["jpg","jpeg","png","gif","webp"].includes(ext)) {
+
+                const img = document.createElement("img");
+                img.src = src;
+                img.loading = "lazy";
+
+                img.onclick = e => {
+                    e.stopPropagation();
+                    openAlbum(album.path, index);
+                };
+
+                grid.appendChild(img);
+
+            } else {
+
+                const vid = document.createElement("video");
+                vid.src = src;
+                vid.muted = true;
+
+                vid.onclick = e => {
+                    e.stopPropagation();
+                    openAlbum(album.path, index);
+                };
+
+                grid.appendChild(vid);
+            }
+        });
+
+        if (album.info.video) {
+
+            const iframe = document.createElement("iframe");
+            iframe.className = "youtube-player";
+            iframe.src = getYoutubeEmbed(album.info.video);
+            iframe.allowFullscreen = true;
+
+            iframe.onclick = e => {
+                e.stopPropagation();
+                openYoutube(album.info.video);
+            };
+
+            grid.appendChild(iframe);
+        }
+    });
+
+    media.appendChild(grid);
+    box.appendChild(header);
+    box.appendChild(media);
+
+    return box;
+}
+
+/* -----------------------------
+   LIGHTBOX
+----------------------------- */
+function openImage(src) {
+    clearYT();
+
+    lightbox.style.display = "flex";
+    lightboxImage.style.display = "block";
+    lightboxVideo.style.display = "none";
+
+    lightboxImage.src = src;
+}
+
+function openVideo(src) {
+    clearYT();
+
+    lightbox.style.display = "flex";
+    lightboxImage.style.display = "none";
+    lightboxVideo.style.display = "block";
+
+    lightboxVideo.src = src;
+    lightboxVideo.play();
+}
+
+function openYoutube(url) {
+    lightbox.style.display = "flex";
+    lightboxImage.style.display = "none";
+    lightboxVideo.style.display = "none";
+
+    clearYT();
+
+    ytFrame = document.createElement("iframe");
+    ytFrame.width = "100%";
+    ytFrame.height = "100%";
+    ytFrame.frameBorder = "0";
+    ytFrame.allowFullscreen = true;
+    ytFrame.src = getYoutubeEmbed(url);
+
+    lightbox.appendChild(ytFrame);
+}
+
+function clearYT() {
+    if (ytFrame) {
+        ytFrame.remove();
+        ytFrame = null;
+    }
+}
+
+/* -----------------------------
+   CLOSE LIGHTBOX
+----------------------------- */
+function closeLightbox() {
+    lightbox.style.display = "none";
+    lightboxImage.src = "";
+    lightboxVideo.pause();
+    lightboxVideo.src = "";
+    clearYT();
+}
+
+/* -----------------------------
+   MEDIA NAV
+----------------------------- */
+function findAlbum(path) {
+    return loadedAlbums.find(a => a.path === path);
+}
+
+function openAlbum(path, index) {
+    const album = findAlbum(path);
+    if (!album) return;
+
+    currentAlbumPath = path;
+    currentAlbum = album.info.files;
+    currentMediaIndex = index;
+
+    openCurrentMedia();
+}
+
+function openCurrentMedia() {
+
+    const file = currentAlbum[currentMediaIndex];
+    const src = `assets/gallery/${currentAlbumPath}/${file}`;
+    const ext = file.split(".").pop().toLowerCase();
+
+    if (["jpg","jpeg","png","gif","webp"].includes(ext)) {
+        openImage(src);
+    } else {
+        openVideo(src);
+    }
+}
+
+/* -----------------------------
+   INIT
+----------------------------- */
+closeButton.addEventListener("click", closeLightbox);
+window.addEventListener("DOMContentLoaded", loadGallery);
