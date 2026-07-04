@@ -3,18 +3,73 @@
   "messages": [
     {
       "type": "hayeon",
-      "ko": "뭐해!\n연습끝나서 왔엉\n알피 신곡\n거의 다 해감\nㅋㅋㄹㅋㅋㄹㅋㄹㄹㅋㅋ\n노래 진짜 좋은거같음\n내 글로벌한\n영어발음을\n보여줄게 ㅋ",
-      "en": "What are you doing!\nI came after finishing practice.\nAlphie's new song\nIs almost all done.\nㅋㅋㄹㅋㅋㄹㅋㄹㄹㅋㅋ\nI think the song is really good.\nI'll show you\nMy global\nEnglish pronunciation. ㅋ"
+      "ko": "뭐해!",
+      "en": "What are you doing!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "연습끝나서 왔엉",
+      "en": "I came after finishing practice"
+    },
+    {
+      "type": "hayeon",
+      "ko": "알피 신곡",
+      "en": "Alphie’s new song"
+    },
+    {
+      "type": "hayeon",
+      "ko": "거의 다 해감",
+      "en": "Is almost all done"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㄹㅋㅋㄹㅋㄹㄹㅋㅋ",
+      "en": "ㅋㅋㄹㅋㅋㄹㅋㄹㄹㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "노래 진짜 좋은거같음",
+      "en": "I think the song is really good"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 글로벌한",
+      "en": "My global"
+    },
+    {
+      "type": "hayeon",
+      "ko": "영어발음을",
+      "en": "English pronunciation"
+    },
+    {
+      "type": "hayeon",
+      "ko": "보여줄게 ㅋ",
+      "en": "I will show you ㅋ"
     },
     {
       "type": "fan",
       "ko": "루나보는거야?",
-      "en": "Are you watching Luna?"
+      "en": "A﻿re you watching Luna?"
     },
     {
       "type": "hayeon",
-      "ko": "루나 들어왔어 지금\n루나는\n캘리폴~니아 에서\n온 아이야",
-      "en": "Luna just came in.\nLuna is\nA kid\nFrom Califo~rnia."
+      "ko": "루나 들어왔어 지금",
+      "en": "Luna came in now"
+    },
+    {
+      "type": "hayeon",
+      "ko": "루나는",
+      "en": "Luna is"
+    },
+    {
+      "type": "hayeon",
+      "ko": "캘리폴~니아 에서",
+      "en": "From califo~rnia"
+    },
+    {
+      "type": "hayeon",
+      "ko": "온 아이야",
+      "en": "A kid who came from there"
     },
     {
       "type": "fan",
@@ -23,8 +78,23 @@
     },
     {
       "type": "hayeon",
-      "ko": "손으로 찢어먹을듯\n8대2 가르마\nㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ\n한쿡말 마스터 했어yo",
-      "en": "Looks like she'd tear it apart and eat it with her hands.\n8:2 hair parting.\nㅋㅋㅋㅋㅋㅋ\nI mastered Korean yo."
+      "ko": "손으로 찢어먹을듯",
+      "en": "Looks like she would tear it and eat it with her hands"
+    },
+    {
+      "type": "hayeon",
+      "ko": "8대2 가르마",
+      "en": "8:2 hair parting"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "한쿡말 마스터 했어yo",
+      "en": "I mastered Korean yo"
     },
     {
       "type": "hayeon",
@@ -32,18 +102,48 @@
     },
     {
       "type": "hayeon",
-      "ko": "보고싶어 죽는줄~\nㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ\n뭔가 성숙해보이지\n셀프헤메양",
-      "en": "I miss you, I thought I was going to die~\nㅋㅋㅋㅋㅋㅋ\nI look kind of mature.\nSelf hair and makeup."
+      "ko": "보고싶어 죽는줄~",
+      "en": "I miss you, I thought I was going to die~ **(t/n: 보고싶어 죽는줄, she has said this line several times)**"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔가 성숙해보이지",
+      "en": "I look kind of mature"
+    },
+    {
+      "type": "hayeon",
+      "ko": "셀프헤메양",
+      "en": "Self hair and makeup"
     },
     {
       "type": "fan",
       "ko": "하연이는 0 또래보다 성숙해보이긴해",
-      "en": "Hayeoni looks more mature than others her age."
+      "en": "Hayeoni looks mature compared to people of her age"
     },
     {
       "type": "hayeon",
-      "ko": "안좋은거 아니야? ㅋㄹㅋㄹㅋㅋㅋㅋ\n노안느낌..?\n그정돈 아니잖아 그치\n그럼",
-      "en": "Isn't that a bad thing? ㅋㅋㅋㅋ\nLike I look older..?\nIt's not that bad, right?\nThen..."
+      "ko": "안좋은거 아니야? ㅋㄹㅋㄹㅋㅋㅋㅋ",
+      "en": "Isn’t that not a good thing? ㅋㄹㅋㄹㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "노안느낌..?",
+      "en": "Old-looking vibe..?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그정돈 아니잖아 그치",
+      "en": "It’s not that much, right"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그럼",
+      "en": "Then"
     },
     {
       "type": "hayeon",
@@ -51,28 +151,213 @@
     },
     {
       "type": "hayeon",
-      "ko": "비교적 귀여운사진으로\n어때용!!!\n웅 나 윙크잘 못해용\n요즘 더워서그런가\n먹을게 생각이 안나\n대박이지\n성장기가\n끝난건가??\n더 커야징\n170가지",
-      "en": "How about a comparatively cuter photo!!!\nYeah, I'm not good at winking.\nMaybe because it's so hot these days,\nI can't think of anything to eat.\nAmazing, right?\nHas my growth period ended??\nI still need to grow.\nUp to 170."
+      "ko": "비교적 귀여운사진으로",
+      "en": "Comparatively cute photo"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어때용!!!",
+      "en": "How is it!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "웅 나 윙크잘 못해용",
+      "en": "Yeah I can’t wink well"
+    },
+    {
+      "type": "hayeon",
+      "ko": "요즘 더워서그런가",
+      "en": "Maybe because it’s hot these days"
+    },
+    {
+      "type": "hayeon",
+      "ko": "먹을게 생각이 안나",
+      "en": "I can’t think of something to eat"
+    },
+    {
+      "type": "hayeon",
+      "ko": "대박이지",
+      "en": "Awesome, right"
+    },
+    {
+      "type": "hayeon",
+      "ko": "성장기가",
+      "en": "My growth period"
+    },
+    {
+      "type": "hayeon",
+      "ko": "끝난건가??",
+      "en": "Is it over??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "더 커야징",
+      "en": "I still need to grow taller"
+    },
+    {
+      "type": "hayeon",
+      "ko": "170가지",
+      "en": "Up to 170"
     },
     {
       "type": "fan",
       "ko": "발 사이즈가? 히 ㅎ",
-      "en": "Your shoe size? Hehe."
+      "en": "Your foot size? 히 ㅎ"
     },
     {
       "type": "hayeon",
-      "ko": "나 키에비해 발진짜작아\n230\n그래서 중심을 못잡나\n아니\nㅋㄹㅋㄹㅋㄹㅋ\n내가\n선물을\n크록스를\n받았는데\n사이즈 입력할때\n잘못했는지\n왔는데\n애기신발이 온거야\nㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ\n발뒤꿈치가 나옴\nㅋㄹㅋㄹㅋㄹㅋㄹ\n토네언니랑 시온언니가 보고\n사진도 찍어가심\n너무 웃겨\nㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
-      "en": "My feet are really small for my height.\nSize 230.\nMaybe that's why I can't keep my balance.\nNo.\nㅋㅋㅋㅋ\nI received Crocs as a gift.\nMaybe I entered the wrong size.\nWhen they arrived,\nthey were baby-sized shoes.\nㅋㅋㅋㅋㅋㅋ\nMy heel stuck out.\nㅋㅋㅋㅋ\nTone-unnie and Shion-unnie saw them\nand even took pictures.\nIt was so funny.\nㅋㅋㅋㅋㅋ"
+      "ko": "나 키에비해 발진짜작아",
+      "en": "My feet are really small compared to my height"
+    },
+    {
+      "type": "hayeon",
+      "ko": "230",
+      "en": "230"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래서 중심을 못잡나",
+      "en": "So maybe that’s why I can’t hold my balance"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니",
+      "en": "No"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가",
+      "en": "I"
+    },
+    {
+      "type": "hayeon",
+      "ko": "선물을",
+      "en": "As a gift"
+    },
+    {
+      "type": "hayeon",
+      "ko": "크록스를",
+      "en": "Crocs"
+    },
+    {
+      "type": "hayeon",
+      "ko": "받았는데",
+      "en": "Received"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사이즈 입력할때",
+      "en": "When inputting the size"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘못했는지",
+      "en": "Maybe I did it wrong"
+    },
+    {
+      "type": "hayeon",
+      "ko": "왔는데",
+      "en": "It came but"
+    },
+    {
+      "type": "hayeon",
+      "ko": "애기신발이 온거야",
+      "en": "Baby shoes arrived"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "발뒤꿈치가 나옴",
+      "en": "My heel sticks out"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "토네언니랑 시온언니가 보고",
+      "en": "Tone-unnie and Shion-unnie saw it"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사진도 찍어가심",
+      "en": "And took pictures too"
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 웃겨",
+      "en": "So funny"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
     },
     {
       "type": "fan",
       "ko": "그래서 교환 환불햇어?",
-      "en": "So did you exchange or refund them?"
+      "en": "So you exchanged or refunded it?"
     },
     {
       "type": "hayeon",
-      "ko": "엌ㄹㅋㄹㅋㄹㅋ\n뒤늦게 보니까\n210사이즈\n시킴\n날 과소평가했어\n아니\n시온언니 옆에서\n쪼잘쪼잘\n얘기하고있어서\n들어주는중",
-      "en": "ㅋㅋㅋㅋ\nWhen I checked later,\nI realized I ordered size 210.\nI underestimated myself.\nAnyway,\nShion-unnie is chatting next to me,\nso I'm listening."
+      "ko": "엌ㄹㅋㄹㅋㄹㅋ",
+      "en": "엌ㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뒤늦게 보니까",
+      "en": "When I looked later"
+    },
+    {
+      "type": "hayeon",
+      "ko": "210사이즈",
+      "en": "Size 210"
+    },
+    {
+      "type": "hayeon",
+      "ko": "시킴",
+      "en": "Was ordered"
+    },
+    {
+      "type": "hayeon",
+      "ko": "날 과소평가했어",
+      "en": "They underestimated me"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니",
+      "en": "I mean"
+    },
+    {
+      "type": "hayeon",
+      "ko": "시온언니 옆에서",
+      "en": "Next to Shion-unnie"
+    },
+    {
+      "type": "hayeon",
+      "ko": "쪼잘쪼잘",
+      "en": "Chatter chatter"
+    },
+    {
+      "type": "hayeon",
+      "ko": "얘기하고있어서",
+      "en": "Because she was talking"
+    },
+    {
+      "type": "hayeon",
+      "ko": "들어주는중",
+      "en": "I was listening"
     },
     {
       "type": "hayeon",
@@ -80,8 +365,13 @@
     },
     {
       "type": "hayeon",
-      "ko": "빨리 자래\n할머니같다고?ㅋㅋㄹㅋㄹㅋㄹ",
-      "en": "She says I should go to bed early.\nLike a grandma? ㅋㅋㅋㅋ"
+      "ko": "빨리 자래",
+      "en": "She says to sleep quickly"
+    },
+    {
+      "type": "hayeon",
+      "ko": "할머니같다고?ㅋㅋㄹㅋㄹㅋㄹ",
+      "en": "You are saying that she’s like a grandmother? ㅋㅋㄹㅋㄹㅋㄹ"
     },
     {
       "type": "hayeon",
@@ -90,22 +380,42 @@
     {
       "type": "fan",
       "ko": "럭키루나 밀지 말라고 ㅋㅋㅋㅋ",
-      "en": "Stop trying to make Lucky Luna happen. 😂"
+      "en": "Don’t push Lucky Luna ㅋㅋㅋㅋ"
     },
     {
       "type": "hayeon",
-      "ko": "왴ㄹㅋㅋㄹㅋㄹㅋㄹㅋ\n멋있잖아",
-      "en": "ㅋㅋㅋㅋ\nBut it's cool."
+      "ko": "왴ㄹㅋㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "왴ㄹㅋㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "멋있잖아",
+      "en": "Cool, you know"
     },
     {
       "type": "fan",
       "ko": "줄여서 럭루",
-      "en": "Shortened to Lucklu."
+      "en": "Shortened to Lucklu"
     },
     {
       "type": "hayeon",
-      "ko": "별다줄 진짜\n뭔가\n역류\n이런느낌",
-      "en": "People abbreviate everything.\nIt somehow\nFeels like\n'Reflux'."
+      "ko": "별다줄 진짜",
+      "en": "Abbreviating everything is really"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔가",
+      "en": "Somehow"
+    },
+    {
+      "type": "hayeon",
+      "ko": "역류",
+      "en": "Like reflux"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런느낌",
+      "en": "This kind of feeling"
     },
     {
       "type": "hayeon",
@@ -113,28 +423,103 @@
     },
     {
       "type": "hayeon",
-      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㅎㅋ\n나만의 피티쌤\n나 머먹냐고?\n백김치\n백김치가 맛있어",
-      "en": "ㅋㅋㅋㅋㅋㅋ\nMy own PT teacher.\nWhat am I eating?\nBaek kimchi.\nBaek kimchi is delicious."
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㅎㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㅎㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나만의 피티쌤",
+      "en": "My own PT teacher"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 머먹냐고?",
+      "en": "You ask what I’m eating?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "백김치",
+      "en": "Baek kimchi"
+    },
+    {
+      "type": "hayeon",
+      "ko": "백김치가 맛있어",
+      "en": "Baek kimchi is delicious"
     },
     {
       "type": "fan",
       "ko": "아까 더워서 입맛 없어진 것 같다는 사람 어디갔나요",
-      "en": "Where did the person who said they lost their appetite because it was hot go?"
+      "en": "Where did the person who said earlier that because it was hot it seems their appetite disappeared go to"
     },
     {
       "type": "hayeon",
-      "ko": "입맛 되돌리기 프로젝트~~><\nㅋㄹㅋㄹㅋㄹㅋㅋㅋ\n내일 시온언니와\n갓생을 살아볼게\n과연 하연은\n일어날수 있을것인가",
-      "en": "Appetite restoration project~~><\nㅋㅋㅋㅋ\nTomorrow I'll try living a productive life with Shion-unnie.\nWill Hayeon actually be able to wake up?"
+      "ko": "입맛 되돌리기 프로젝트~~><",
+      "en": "Appetite restoration project~~><"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㅋㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내일 시온언니와",
+      "en": "Tomorrow with Shion-unnie"
+    },
+    {
+      "type": "hayeon",
+      "ko": "갓생을 살아볼게",
+      "en": "I will try living the good life"
+    },
+    {
+      "type": "hayeon",
+      "ko": "과연 하연은",
+      "en": "Indeed for Hayoi"
+    },
+    {
+      "type": "hayeon",
+      "ko": "일어날수 있을것인가",
+      "en": "Will she be able to wake up"
     },
     {
       "type": "fan",
       "ko": "이래 놓고 내일 시온이 혼자 갈듯",
-      "en": "Watch Shion end up going alone tomorrow."
+      "en": "After saying this, it seems tomorrow Shion will go alone"
     },
     {
       "type": "hayeon",
-      "ko": "그럴것같긴…\n모르는거지~\nㅋㄹㅋㄹㅋㄹㅋㅋ\n후기 알려줄게\n나 씻으러 갈겡\n빠빠잉\n하랑행❤️",
-      "en": "That does seem likely...\nBut you never know~\nㅋㅋㅋㅋ\nI'll let you know how it goes.\nI'm going to wash up.\nBye-bye.\nHaranghaeng ❤️"
+      "ko": "그럴것같긴…",
+      "en": "It indeed seems like that…"
+    },
+    {
+      "type": "hayeon",
+      "ko": "모르는거지~",
+      "en": "But you don’t know~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "후기 알려줄게",
+      "en": "I’ll tell you my report"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 씻으러 갈겡",
+      "en": "I’m going to wash up"
+    },
+    {
+      "type": "hayeon",
+      "ko": "빠빠잉",
+      "en": "Ba-bai"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑행❤️",
+      "en": "Haranghae❤️"
     },
     {
       "type": "hayeon",

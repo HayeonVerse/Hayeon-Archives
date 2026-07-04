@@ -1,5 +1,6 @@
 {
   "scripts": {
-    "gallery": "node Script/generate-gallery.js"
+    "gallery": "node Script/generate-gallery.js",
+    "fromm": "node builder/fromm/cli.js"
   }
 }

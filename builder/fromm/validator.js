@@ -35,15 +35,22 @@ function validateTranslations(messages, translations) {
 
     const errors = [];
 
-    const textCount =
+    const koreanTextCount =
         messages.filter(
             message => message.type === "text"
         ).length;
 
-    if (textCount !== translations.length) {
+    const englishTextCount =
+        translations.filter(
+            message => message.type === "text"
+        ).length;
+
+    if (koreanTextCount !== englishTextCount) {
 
         errors.push(
-            `Translation count mismatch. Expected ${textCount}, found ${translations.length}.`
+
+            `Translation count mismatch. Expected ${koreanTextCount}, found ${englishTextCount}.`
+
         );
 
     }

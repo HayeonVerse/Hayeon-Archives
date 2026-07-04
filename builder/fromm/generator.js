@@ -23,19 +23,22 @@ function buildConversation(date, parsedMessages, translations = []) {
 
         if (message.type === "text") {
 
-            messages.push({
+const translation =
+    translations[translationIndex++];
 
-                type:
-                    message.sender === "idol"
-                        ? "hayeon"
-                        : "fan",
+messages.push({
 
-                ko: message.text,
+    type:
+        message.sender === "idol"
+            ? "hayeon"
+            : "fan",
 
-                en:
-                    translations[translationIndex++] ?? ""
+    ko: message.text,
 
-            });
+    en:
+        translation?.text ?? ""
+
+});
 
             continue;
 
@@ -45,54 +48,68 @@ function buildConversation(date, parsedMessages, translations = []) {
         // MEDIA MESSAGE
         // -----------------------------
 
-        if (message.type === "media") {
+if (message.type === "media") {
 
-            const media = {
+    const translation =
+        translations[translationIndex];
 
-                type:
-                    message.sender === "idol"
-                        ? "hayeon"
-                        : "fan"
+    // Consume the matching media marker
+    if (
+        translation &&
+        translation.type === "media" &&
+        translation.mediaType === message.mediaType
+    ) {
+        translationIndex++;
+    }
 
-            };
+    const media = {
 
-            switch (message.mediaType) {
+        type:
+            message.sender === "idol"
+                ? "hayeon"
+                : "fan"
 
-                case "image":
+    };
 
-                    media.image =
-                        getMediaFilename(
-                            "image",
-                            message.index
-                        );
+    switch (message.mediaType) {
 
-                    break;
+        case "image":
 
-                case "voice":
+            media.image =
+                getMediaFilename(
+                    "image",
+                    message.index
+                );
 
-                    media.voice =
-                        getMediaFilename(
-                            "voice",
-                            message.index
-                        );
+            break;
 
-                    break;
+        case "voice":
 
-                case "video":
+            media.voice =
+                getMediaFilename(
+                    "voice",
+                    message.index
+                );
 
-                    media.video =
-                        getMediaFilename(
-                            "video",
-                            message.index
-                        );
+            break;
 
-                    break;
+        case "video":
 
-            }
+            media.video =
+                getMediaFilename(
+                    "video",
+                    message.index
+                );
 
-            messages.push(media);
+            break;
 
-        }
+    }
+
+    messages.push(media);
+
+    continue;
+
+}
 
     }
 
