@@ -60,9 +60,11 @@ const App = {
 openedYears: new Set(),
 
 openedMonths: new Set(),
-        loading: false,
+loading: false,
 
-        archive: {},
+currentVoice: null,
+
+archive: {},
 
         conversations: [],
 
@@ -569,6 +571,84 @@ App.utils.sortNewest = function (list) {
 };
 
 /* ============================================
+   RESOLVE MEDIA PATH
+============================================ */
+
+App.utils.resolveMediaPath = function (message, key) {
+
+    if (!message?.[key]) {
+
+        return "";
+
+    }
+
+    const [year, month, day] =
+        message._conversation.date.split("-");
+
+    return `${App.config.dataRoot}${year}/${month}/${day}/${message[key]}`;
+
+};
+
+App.utils.countMedia = function (conversation) {
+
+    let images = 0;
+    let videos = 0;
+    let voices = 0;
+
+    conversation.messages.forEach(message => {
+
+        images += App.utils.getMediaList(
+            message,
+            "image",
+            "images"
+        ).length;
+
+        videos += App.utils.getMediaList(
+            message,
+            "video",
+            "videos"
+        ).length;
+
+        voices += App.utils.getMediaList(
+            message,
+            "voice",
+            "voices"
+        ).length;
+
+    });
+
+    return {
+
+        images,
+        videos,
+        voices
+
+    };
+
+};
+
+/* ============================================
+   NORMALIZE MEDIA
+============================================ */
+
+App.utils.getMediaList = function (message, singular, plural) {
+
+    if (Array.isArray(message[plural])) {
+
+        return message[plural];
+
+    }
+
+    if (message[singular]) {
+
+        return [message[singular]];
+
+    }
+
+    return [];
+
+};
+/* ============================================
    GROUP ARCHIVE
 ============================================ */
 
@@ -690,13 +770,15 @@ App.updateStatistics = function () {
 
         stats.messages += conversation.messages.length;
 
-        conversation.messages.forEach(message => {
+conversation.messages.forEach(message => {
 
-            if (message.image) {
-                stats.images++;
-            }
+    stats.images += App.utils.getMediaList(
+        message,
+        "image",
+        "images"
+    ).length;
 
-        });
+});
 
     });
 
@@ -729,12 +811,124 @@ App.updateStatistics = function () {
             stats.years.size;
 
 };
+/* ============================================
+   CONVERSATION CARD
+============================================ */
 
+App.renderConversationCard = function (conversation) {
+
+    const card =
+        App.utils.create(
+            "section",
+            "fromm-conversation-card"
+        );
+
+    const header =
+        App.utils.create(
+            "div",
+            "fromm-conversation-header"
+        );
+const arrow =
+    App.utils.create(
+        "span",
+        "archive-arrow"
+    );
+
+arrow.textContent = "❯";
+    const body =
+        App.utils.create(
+            "div",
+            "fromm-conversation-body"
+        );
+
+    const messageCount =
+        
+    conversation.messages
+            ? conversation.messages.length
+            : 0;
+const media =
+    App.utils.countMedia(conversation);
+header.innerHTML = `
+    <div class="conversation-info">
+
+        <strong>
+            ${App.utils.formatDate(conversation.date)}
+        </strong>
+
+        <small>
+            💬 ${messageCount} Message${messageCount !== 1 ? "s" : ""}
+        </small>
+
+        <div class="conversation-media">
+
+            ${media.images ? `📷 ${media.images}` : ""}
+
+            ${media.videos ? `🎥 ${media.videos}` : ""}
+
+            ${media.voices ? `🎤 ${media.voices}` : ""}
+
+        </div>
+
+    </div>
+`;
+
+header.appendChild(arrow);
+
+    // Temporary:
+    // We still render immediately.
+let rendered = false;
+
+header.addEventListener("click", () => {
+
+    const isOpen =
+        body.classList.contains("open");
+
+    if (isOpen) {
+
+        body.classList.remove("open");
+
+        arrow.classList.remove("open");
+
+        body.innerHTML = "";
+
+        rendered = false;
+
+        return;
+
+    }
+
+    if (!rendered) {
+
+        body.appendChild(
+            App.renderConversationBody(conversation)
+        );
+
+        rendered = true;
+
+    }
+
+    body.classList.add("open");
+
+    arrow.classList.add("open");
+
+});
+
+    card.appendChild(header);
+    card.appendChild(body);
+
+    return card;
+
+};
 /* ============================================
    PLACEHOLDER RENDER
 ============================================ */
 
 App.renderConversation = function (conversation) {
+
+    return App.renderConversationBody(conversation);
+
+};
+App.renderConversationBody = function (conversation) {
 
     const container =
         App.utils.create(
@@ -801,10 +995,19 @@ App.renderYear = function (year, months) {
     const header =
         App.utils.create("div", "fromm-year-header");
 
-    header.innerHTML = `
-        <h2>${year}</h2>
-        <span>▼</span>
-    `;
+header.innerHTML = `
+    <h2>${year}</h2>
+`;
+
+const arrow =
+    App.utils.create(
+        "span",
+        "archive-arrow"
+    );
+
+arrow.textContent = "❯";
+
+header.appendChild(arrow);
 
 const content =
     App.utils.create(
@@ -819,7 +1022,7 @@ if (
 ) {
 
     content.classList.add("open");
-
+arrow.classList.add("open");
 }
 
     Object.keys(months)
@@ -849,17 +1052,19 @@ header.addEventListener("click", () => {
 
     App.toggleSection(content);
 
-    if (
+    const opened =
+        content.classList.contains("open");
 
-        content.classList.contains("open")
+    arrow.classList.toggle(
+        "open",
+        opened
+    );
 
-    ) {
+    if (opened) {
 
         App.state.openedYears.add(year);
 
-    }
-
-    else {
+    } else {
 
         App.state.openedYears.delete(year);
 
@@ -886,17 +1091,52 @@ App.renderMonth = function (month, conversations) {
     const header =
         App.utils.create("div", "fromm-month-header");
 
-    header.innerHTML = `
-        <h3>${month}</h3>
-        <span>${conversations.length} Conversation${conversations.length !== 1 ? "s" : ""}</span>
-    `;
+const arrow =
+    App.utils.create(
+        "span",
+        "archive-arrow"
+    );
 
-    const content =
-        App.utils.create(
-            "div",
-            "fromm-month-content open"
-        );
+arrow.textContent = "❯";
 
+const left =
+    App.utils.create("div");
+
+left.style.display = "flex";
+left.style.alignItems = "center";
+left.style.gap = "12px";
+
+const title =
+    document.createElement("h3");
+
+title.textContent = month;
+
+left.appendChild(arrow);
+left.appendChild(title);
+
+const count =
+    document.createElement("span");
+
+count.textContent =
+    `${conversations.length} Conversation${conversations.length !== 1 ? "s" : ""}`;
+
+header.appendChild(left);
+header.appendChild(count);
+
+const content =
+    App.utils.create(
+        "div",
+        "fromm-month-content"
+    );
+const monthKey = `${App.utils.getYear(conversations[0].date)}-${month}`;
+
+if (App.state.openedMonths.has(monthKey)) {
+
+    content.classList.add("open");
+
+    arrow.classList.add("open");
+
+}
     let currentDate = "";
 
     App.utils
@@ -922,21 +1162,36 @@ App.renderMonth = function (month, conversations) {
 
             }
 
-            content.appendChild(
+content.appendChild(
 
-                App.renderConversation(
-                    conversation
-                )
+    App.renderConversationCard(
+        conversation
+    )
 
-            );
+);
 
         });
 
-    header.addEventListener("click", () => {
+header.addEventListener("click", () => {
 
-        App.toggleSection(content);
+    App.toggleSection(content);
 
-    });
+    const opened =
+        content.classList.contains("open");
+
+    arrow.classList.toggle("open", opened);
+
+    if (opened) {
+
+        App.state.openedMonths.add(monthKey);
+
+    } else {
+
+        App.state.openedMonths.delete(monthKey);
+
+    }
+
+});
 
     monthCard.appendChild(header);
 
@@ -1262,6 +1517,19 @@ const wrapper =
     return wrapper;
 
 };
+
+/* ============================================
+   CREATE MEDIA WRAPPER
+============================================ */
+
+App.createMediaWrapper = function (className) {
+
+    return App.utils.create(
+        "div",
+        className
+    );
+
+};
 /* ============================================
    MESSAGE MEDIA
 ============================================ */
@@ -1276,28 +1544,25 @@ App.renderMessageMedia = function (message) {
 
     let hasMedia = false;
 
-    const image =
-        App.renderImage(message);
+const renderers = [
 
-    if (image) {
+    App.renderImage,
+    App.renderVideo,
+    App.renderVoice
 
-        wrapper.appendChild(image);
+];
 
-        hasMedia = true;
+renderers.forEach(renderer => {
 
-    }
+    const media = renderer(message);
 
-    const video =
-        App.renderVideo(message);
+    if (!media) return;
 
-    if (video) {
+    wrapper.appendChild(media);
 
-        wrapper.appendChild(video);
+    hasMedia = true;
 
-        hasMedia = true;
-
-    }
-
+});
     return hasMedia
         ? wrapper
         : null;
@@ -1309,34 +1574,51 @@ App.renderMessageMedia = function (message) {
 
 App.renderImage = function (message) {
 
-    if (!message.image) {
+    const images =
+        App.utils.getMediaList(
+            message,
+            "image",
+            "images"
+        );
+
+    if (!images.length) {
 
         return null;
 
     }
 
     const wrapper =
-        App.utils.create(
-            "div",
+        App.createMediaWrapper(
             "message-image"
         );
 
-    const image =
-        App.utils.create("img");
+    images.forEach(file => {
 
-    image.loading = "lazy";
+        const image =
+            App.utils.create("img");
 
-    image.src = message.image;
+        image.loading = "lazy";
 
-    image.alt = "Fromm Image";
+        image.src =
+            App.utils.resolveMediaPath(
+                {
+                    ...message,
+                    image: file
+                },
+                "image"
+            );
 
-    image.addEventListener("click", () => {
+        image.alt = "Fromm Image";
 
-        App.openImage(message.image);
+        image.addEventListener("click", () => {
+
+            App.openImage(image.src);
+
+        });
+
+        wrapper.appendChild(image);
 
     });
-
-    wrapper.appendChild(image);
 
     return wrapper;
 
@@ -1347,33 +1629,246 @@ App.renderImage = function (message) {
 
 App.renderVideo = function (message) {
 
-    if (!message.video) {
+    const videos =
+        App.utils.getMediaList(
+            message,
+            "video",
+            "videos"
+        );
+
+    if (!videos.length) {
 
         return null;
 
     }
 
     const wrapper =
-        App.utils.create(
-            "div",
+        App.createMediaWrapper(
             "message-video"
         );
 
-    const video =
-        App.utils.create("video");
+    videos.forEach(file => {
 
-    video.controls = true;
+        const video =
+            App.utils.create("video");
 
-    video.preload = "metadata";
+        video.controls = true;
 
-    video.src = message.video;
+        video.preload = "metadata";
 
-    wrapper.appendChild(video);
+        video.src =
+            App.utils.resolveMediaPath(
+                {
+                    ...message,
+                    video: file
+                },
+                "video"
+            );
+
+        wrapper.appendChild(video);
+
+    });
 
     return wrapper;
 
 };
 
+/* ============================================
+   CREATE VOICE PLAYER
+============================================ */
+
+App.createVoicePlayer = function () {
+
+    const wrapper =
+        App.createMediaWrapper(
+            "message-voice"
+        );
+
+    const play =
+        App.utils.create(
+            "button",
+            "voice-play"
+        );
+
+    play.type = "button";
+    play.textContent = "▶";
+
+    const progress =
+        App.utils.create(
+            "input",
+            "voice-progress"
+        );
+
+    progress.type = "range";
+    progress.min = 0;
+    progress.max = 100;
+    progress.value = 0;
+
+    const time =
+        App.utils.create(
+            "span",
+            "voice-time"
+        );
+
+    time.textContent = "00:00";
+
+    const audio =
+        App.utils.create("audio");
+
+wrapper.append(
+    play,
+    progress,
+    time,
+    audio
+);
+
+play.addEventListener("click", () => {
+
+    if (audio.paused) {
+
+        if (
+
+            App.state.currentVoice &&
+
+            App.state.currentVoice !== audio
+
+        ) {
+
+            App.state.currentVoice.pause();
+
+        }
+
+audio.play()
+    .then(() => {
+        App.state.currentVoice = audio;
+    })
+    .catch(error => {
+        console.error("Voice playback failed:", error);
+    });
+
+    }
+
+    else {
+
+        audio.pause();
+
+    }
+
+});
+
+audio.addEventListener("play", () => {
+
+    play.textContent = "⏸";
+
+});
+
+audio.addEventListener("pause", () => {
+
+    play.textContent = "▶";
+
+    if (App.state.currentVoice === audio) {
+
+        App.state.currentVoice = null;
+
+    }
+
+});
+audio.addEventListener("timeupdate", () => {
+
+    if (!audio.duration) return;
+
+    progress.value =
+        (audio.currentTime / audio.duration) * 100;
+
+    const minutes =
+        Math.floor(audio.currentTime / 60);
+
+    const seconds =
+        Math.floor(audio.currentTime % 60);
+
+    time.textContent =
+        `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+
+});
+progress.addEventListener("input", () => {
+
+    if (!audio.duration) return;
+
+    audio.currentTime =
+        (progress.value / 100) * audio.duration;
+
+});
+
+audio.addEventListener("ended", () => {
+
+    play.textContent = "▶";
+
+    progress.value = 0;
+
+    time.textContent = "00:00";
+    if (App.state.currentVoice === audio) {
+
+    App.state.currentVoice = null;
+
+}
+
+});
+return {
+    wrapper,
+    play,
+    progress,
+    time,
+    audio
+};
+
+};
+/* ============================================
+   VOICE
+============================================ */
+
+App.renderVoice = function (message) {
+
+    const voices =
+        App.utils.getMediaList(
+            message,
+            "voice",
+            "voices"
+        );
+
+    if (!voices.length) {
+
+        return null;
+
+    }
+
+    const wrapper =
+        App.createMediaWrapper(
+            "message-voice-group"
+        );
+
+    voices.forEach(file => {
+
+        const player =
+            App.createVoicePlayer();
+
+        player.audio.src =
+            App.utils.resolveMediaPath(
+                {
+                    ...message,
+                    voice: file
+                },
+                "voice"
+            );
+
+        wrapper.appendChild(
+            player.wrapper
+        );
+
+    });
+
+    return wrapper;
+
+};
 /* ============================================
    IMAGE LIGHTBOX
 ============================================ */
