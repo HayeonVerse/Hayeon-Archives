@@ -8,11 +8,13 @@
 const fs = require("fs");
 const path = require("path");
 
+const { copyMedia } = require("./media-copy");
 const { readInput } = require("./reader");
 const { parseConversation } = require("./parser");
 const { validate } = require("./validator");
 const { buildConversation } = require("./generator");
 const { writeJSON } = require("./fs");
+const { updateArchive } = require("./archive");
 
 const INPUT_DIR = path.join(__dirname, "pending");
 
@@ -156,6 +158,11 @@ const outputFile = path.join(
             outputFile,
             conversation
         );
+copyMedia(
+    folderPath,
+    path.dirname(outputFile)
+);
+updateArchive(input.date);
 
 console.log(
     `✓ Created assets/fromm/${year}/${month}/${day}/info.json`

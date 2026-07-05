@@ -239,7 +239,7 @@
 
     padding:0 24px 24px;
 
-    max-height:10000px;
+    max-height:50000px;
 
     opacity:1;
 
@@ -351,7 +351,47 @@
 
 .fromm-conversation-body{
 
+    max-height:0;
+
     overflow:hidden;
+
+    transition:
+        max-height .3s ease;
+
+}
+
+.fromm-conversation-body.open{
+
+    max-height:min(900px, 75vh);
+
+    overflow-y:auto;
+
+    overflow-x:hidden;
+
+}
+.fromm-conversation-body::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+.fromm-conversation-body::-webkit-scrollbar-track{
+
+    background:transparent;
+
+}
+
+.fromm-conversation-body::-webkit-scrollbar-thumb{
+
+    background:var(--mint);
+
+    border-radius:999px;
+
+}
+
+.fromm-conversation-body::-webkit-scrollbar-thumb:hover{
+
+    background:#44c8aa;
 
 }
 .message + .message{

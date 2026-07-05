@@ -880,22 +880,60 @@ let rendered = false;
 
 header.addEventListener("click", () => {
 
-    const isOpen =
+    const alreadyOpen =
         body.classList.contains("open");
 
-    if (isOpen) {
+    // Close every other conversation
+    document.querySelectorAll(".fromm-conversation-body.open")
+        .forEach(section => {
 
-        body.classList.remove("open");
+            if (section !== body) {
 
-        arrow.classList.remove("open");
+section.classList.remove("open");
+
+setTimeout(() => {
+
+    section.innerHTML = "";
+
+}, App.config.animationSpeed);
+
+                const card =
+                    section.closest(".fromm-conversation-card");
+
+                if (card) {
+
+                    const otherArrow =
+                        card.querySelector(".archive-arrow");
+
+                    if (otherArrow) {
+
+                        otherArrow.classList.remove("open");
+
+                    }
+
+                }
+
+            }
+
+        });
+
+if (alreadyOpen) {
+
+    body.classList.remove("open");
+
+    arrow.classList.remove("open");
+
+    setTimeout(() => {
 
         body.innerHTML = "";
 
         rendered = false;
 
-        return;
+    }, App.config.animationSpeed);
 
-    }
+    return;
+
+}
 
     if (!rendered) {
 
@@ -908,7 +946,29 @@ header.addEventListener("click", () => {
     }
 
     body.classList.add("open");
+    setTimeout(() => {
 
+    card.scrollIntoView({
+
+        behavior: "smooth",
+
+        block: "start"
+
+    });
+
+}, 50);
+body.scrollTop = 0;
+requestAnimationFrame(() => {
+
+    body.scrollIntoView({
+
+        behavior: "smooth",
+
+        block: "nearest"
+
+    });
+
+});
     arrow.classList.add("open");
 
 });
@@ -1050,23 +1110,34 @@ arrow.classList.add("open");
 
 header.addEventListener("click", () => {
 
-    App.toggleSection(content);
-
-    const opened =
+    const alreadyOpen =
         content.classList.contains("open");
 
-    arrow.classList.toggle(
-        "open",
-        opened
-    );
+    // Close every year
+    document.querySelectorAll(".fromm-year-content.open")
+        .forEach(section => {
 
-    if (opened) {
+            section.classList.remove("open");
+
+        });
+
+    document.querySelectorAll(".fromm-year-header .archive-arrow.open")
+        .forEach(arrow => {
+
+            arrow.classList.remove("open");
+
+        });
+
+    App.state.openedYears.clear();
+
+    // Reopen this one
+    if (!alreadyOpen) {
+
+        content.classList.add("open");
+
+        arrow.classList.add("open");
 
         App.state.openedYears.add(year);
-
-    } else {
-
-        App.state.openedYears.delete(year);
 
     }
 
@@ -1174,20 +1245,34 @@ content.appendChild(
 
 header.addEventListener("click", () => {
 
-    App.toggleSection(content);
-
-    const opened =
+    const alreadyOpen =
         content.classList.contains("open");
 
-    arrow.classList.toggle("open", opened);
+    // Close every open month
+    document.querySelectorAll(".fromm-month-content.open")
+        .forEach(section => {
 
-    if (opened) {
+            section.classList.remove("open");
+
+        });
+
+    document.querySelectorAll(".fromm-month-header .archive-arrow.open")
+        .forEach(arrow => {
+
+            arrow.classList.remove("open");
+
+        });
+
+    App.state.openedMonths.clear();
+
+    // Reopen this one
+    if (!alreadyOpen) {
+
+        content.classList.add("open");
+
+        arrow.classList.add("open");
 
         App.state.openedMonths.add(monthKey);
-
-    } else {
-
-        App.state.openedMonths.delete(monthKey);
 
     }
 
