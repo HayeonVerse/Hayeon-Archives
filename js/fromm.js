@@ -75,6 +75,8 @@ loading: false,
 
 currentVoice: null,
 
+mobileTimelineOpen: false,
+
 archive: {},
 
         conversations: [],
@@ -161,6 +163,15 @@ function cacheDOM() {
 
     App.cache.languageButtons =
         $$(".lang-btn");
+
+App.cache.mobileTimeline =
+    $("#mobile-timeline-toggle");
+
+App.cache.mobileTimelineArrow =
+    $("#mobile-timeline-arrow");
+
+App.cache.sidebar =
+    $("#fromm-sidebar");
 
     App.cache.stats.conversations =
         $("#conversation-count");
@@ -1486,9 +1497,15 @@ await App.ensureMonthOpen(
 
     if (!card) return;
 
-    App.openConversationCard(card);
+App.openConversationCard(card);
 
-    App.renderSidebar();
+if(window.innerWidth <= 700){
+
+    App.toggleMobileTimeline(false);
+
+}
+
+App.renderSidebar();
 };
 /* ============================================
    SIDEBAR ACTIVE
@@ -2764,6 +2781,51 @@ App.bindEvents = function () {
         );
 
     });
+
+    if(App.cache.mobileTimeline){
+
+    App.cache.mobileTimeline.addEventListener(
+
+        "click",
+
+        () => {
+
+            App.toggleMobileTimeline();
+
+        }
+
+    );
+
+}
+App.toggleMobileTimeline(false);
+};
+/* ============================================
+   MOBILE TIMELINE
+============================================ */
+
+App.toggleMobileTimeline = function(force = null){
+
+    if(window.innerWidth > 700){
+
+        return;
+
+    }
+
+    const open = force ?? !App.state.mobileTimelineOpen;
+
+    App.state.mobileTimelineOpen = open;
+
+const sidebar = document.getElementById("fromm-sidebar");
+
+if(sidebar){
+
+    sidebar.style.display =
+        open ? "block" : "none";
+
+}
+
+    App.cache.mobileTimelineArrow.textContent =
+        open ? "▲" : "▼";
 
 };
 
