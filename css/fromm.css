@@ -1184,6 +1184,6 @@ transition:
 
 #mobile-timeline-toggle{
 
-    display:none;
+    display:flex;
 
 }
