@@ -1,25 +1,3 @@
-:root{--mint:#52D9BB;--bg:#f6f7fb;--fg:#111}.dark{--bg:#0f172a;--fg:#eee}body{margin:0;font-family:Arial;background:var(--bg);color:var(--fg)}nav{display:flex;justify-content:space-between;padding:1rem;background:rgba(82,217,187,.15);backdrop-filter:blur(8px);position:sticky;top:0}a{margin:.5rem;color:var(--fg);text-decoration:none}.hero{
-    min-height:100vh;
-
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-
-    text-align:center;
-
-    background:
-        linear-gradient(
-            rgba(15,23,42,.55),
-            rgba(15,23,42,.55)
-        ),
-        url("../assets/images/hero.jpg");
-
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-}button{background:var(--mint);border:0;padding:.5rem 1rem;border-radius:8px}footer{padding:2rem;font-size:.9rem;border-top:1px solid #ccc}.card{margin:1rem;padding:1rem;border:1px solid var(--mint);border-radius:10px}
-
 /* ==========================================================
    HAYEON ARCHIVE
    Main Stylesheet
@@ -433,21 +411,85 @@ footer{
 
 @media(max-width:768px){
 
-.navbar{
+    .hero-buttons{
 
     flex-direction:column;
 
-    gap:20px;
+}
 
-    padding:20px;
+.hero-button{
+
+    width:100%;
+
+}
+
+.home-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.home-stats{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.home-card{
+
+    padding:28px;
+
+}
+
+.navbar{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:18px;
+
+    padding:22px 20px;
+
+}
+
+.logo{
+
+    font-size:30px;
+
+    text-align:center;
 
 }
 
 .nav-links{
 
-    flex-wrap:wrap;
+    display:flex;
 
     justify-content:center;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:18px;
+
+    width:100%;
+
+}
+
+.nav-links a{
+
+    margin:0;
+
+}
+
+#mode{
+
+    margin-top:8px;
 
 }
 
@@ -459,7 +501,39 @@ footer{
 
 .hero-overlay h1{
 
-    font-size:42px;
+    font-size:44px;
+
+    line-height:1.2;
+
+}
+
+.hero-overlay p{
+
+    font-size:17px;
+
+    line-height:1.7;
+
+    padding:0 12px;
+
+}
+
+.section-title{
+
+    margin-bottom:36px;
+
+}
+
+.section-title p{
+
+    max-width:500px;
+
+    margin:auto;
+
+}
+
+.footer-content{
+
+    padding:0 10px;
 
 }
 
@@ -750,5 +824,250 @@ footer{
         column-count:1;
 
     }
+
+}
+/* ==========================================================
+   HOME PAGE
+========================================================== */
+
+/* ===========================
+   HERO BUTTONS
+=========================== */
+
+.hero-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:18px;
+
+    margin-top:35px;
+
+    flex-wrap:wrap;
+
+}
+
+.hero-button{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:14px 28px;
+
+    border-radius:14px;
+
+    background:var(--mint);
+
+    color:white;
+
+    font-weight:700;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.hero-button:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 24px rgba(82,217,187,.35);
+
+}
+
+.hero-button.secondary{
+
+    background:white;
+
+    color:#1E293B;
+
+}
+/* ===========================
+   HOME GRID
+=========================== */
+
+.home-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+    margin-bottom:70px;
+
+}
+
+.home-card{
+
+    background:var(--card);
+
+    border:1px solid var(--border);
+
+    border-radius:24px;
+
+    padding:36px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:
+        transform .3s,
+        box-shadow .3s,
+        border-color .3s;
+
+}
+
+.home-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:var(--mint);
+
+    box-shadow:0 18px 45px rgba(82,217,187,.22);
+
+}
+.home-card h3{
+
+    font-size:28px;
+
+    margin-bottom:18px;
+
+}
+
+.home-card p{
+
+    color:var(--text-light);
+
+    line-height:1.8;
+
+}
+
+.home-card ul{
+
+    margin:25px 0;
+
+    padding-left:22px;
+
+}
+
+.home-card li{
+
+    margin-bottom:10px;
+
+}
+
+.home-link{
+
+    display:inline-block;
+
+    margin-top:12px;
+
+    color:var(--mint);
+
+    text-decoration:none;
+
+    font-weight:700;
+
+}
+/* ===========================
+   HOME STATS
+=========================== */
+
+.home-stats{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:22px;
+
+    margin-bottom:70px;
+
+}
+
+/* ===========================
+   ABOUT
+=========================== */
+
+.home-about{
+
+    margin-bottom:80px;
+
+}
+
+.home-about-card{
+
+    background:var(--card);
+
+    border-radius:24px;
+
+    padding:40px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.home-about-card p{
+
+    line-height:2;
+
+    margin-bottom:20px;
+
+    color:var(--text-light);
+
+}
+
+/* ===========================
+   HOME HERO
+=========================== */
+
+body.home-page .gallery-hero{
+
+    min-height:75vh;
+
+    height:auto;
+
+}
+
+.scroll-indicator{
+
+    margin-top:50px;
+
+    color:white;
+
+    opacity:.85;
+
+    font-size:15px;
+
+    letter-spacing:1px;
+
+    animation:bounce 2s infinite;
+
+}
+
+@keyframes bounce{
+
+    0%,100%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(10px);
+
+    }
+
+}
+
+.home-card{
+
+    border-radius:20px;
 
 }

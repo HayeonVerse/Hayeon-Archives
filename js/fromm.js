@@ -1464,6 +1464,16 @@ App.navigateToConversation = async function (date) {
 
     const month = App.utils.getMonth(date);
 
+    App.state.sidebar.years.clear();
+
+App.state.sidebar.months.clear();
+
+App.state.sidebar.years.add(year);
+
+App.state.sidebar.months.add(
+    `${year}-${month}`
+);
+
 await App.ensureMonthOpen(
 
     year,
@@ -1478,6 +1488,7 @@ await App.ensureMonthOpen(
 
     App.openConversationCard(card);
 
+    App.renderSidebar();
 };
 /* ============================================
    SIDEBAR ACTIVE
