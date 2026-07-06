@@ -1236,3 +1236,104 @@ body{
 .fromm-container{
     overflow-x:hidden;
 }
+.mobile-year{
+
+    border-bottom:1px solid var(--border);
+
+}
+
+.mobile-year-header{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:14px 18px;
+
+    background:none;
+
+    border:none;
+
+    color:var(--text);
+
+    font:inherit;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+}
+
+.mobile-arrow{
+
+    transition:.3s;
+
+}
+
+.mobile-arrow.open{
+
+    transform:rotate(90deg);
+
+}
+
+.mobile-year-content{
+
+    display:none;
+
+    padding:0 0 10px;
+
+}
+
+.mobile-year-content.open{
+
+    display:block;
+
+}
+
+.mobile-month{
+
+    padding:10px 36px;
+
+    cursor:pointer;
+
+    color:var(--text-light);
+
+}
+
+.mobile-month-title{
+
+    font-weight:700;
+
+    padding:10px 36px 6px;
+
+}
+
+.mobile-date{
+
+    width:100%;
+
+    border:none;
+
+    background:none;
+
+    color:var(--text-light);
+
+    text-align:left;
+
+    padding:8px 52px;
+
+    cursor:pointer;
+
+    font:inherit;
+
+}
+
+.mobile-date:hover{
+
+    color:var(--accent);
+
+}

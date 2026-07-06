@@ -135,7 +135,13 @@ archive: {},
    UTILITIES
 ============================================ */
 
-    utils: {}
+    utils: {},
+
+/* ============================================
+   TIMELINE
+============================================ */
+
+    timeline: {}
 
 };
 
@@ -1012,7 +1018,7 @@ if (alreadyOpen) {
     App.state.activeConversation =
     conversation.date;
 
-App.updateSidebarActive();
+
     setTimeout(() => {
 
     card.scrollIntoView({
@@ -1152,39 +1158,6 @@ Object.keys(archive)
 };
 
 /* ============================================
-   SIDEBAR DATE
-============================================ */
-
-App.renderSidebarDate = function (conversation) {
-
-    const item =
-        App.utils.create(
-            "div",
-            "timeline-date"
-        );
-
-item.textContent =
-    App.utils.formatDate(
-        conversation.date
-    );
-
-item.dataset.date =
-    conversation.date;
-
-item.addEventListener("click", () => {
-
-    App.navigateToConversation(
-
-        conversation.date
-
-    );
-
-});
-
-return item;
-
-};
-/* ============================================
    OPEN YEAR
 ============================================ */
 
@@ -1290,129 +1263,7 @@ if (!App.state.openedMonths.has(monthKey)) {
     return monthCard;
 
 };
-/* ============================================
-   SIDEBAR YEAR
-============================================ */
 
-App.renderSidebarYear = function (year, months) {
-
-    const wrapper =
-        App.utils.create(
-            "div",
-            "sidebar-year"
-        );
-
-const header =
-    App.utils.create(
-        "div",
-        "timeline-year"
-    );
-
-const arrow =
-    App.utils.create(
-        "span",
-        "archive-arrow"
-    );
-
-arrow.textContent = "❯";
-
-const title =
-    App.utils.create("span");
-
-title.textContent = year;
-
-header.appendChild(arrow);
-
-header.appendChild(title);
-
-    const content =
-        App.utils.create(
-            "div",
-            "sidebar-year-content"
-        );
-
-if (App.state.sidebar.years.has(year)) {
-
-    content.classList.add("open");
-
-    arrow.classList.add("open");
-
-}
-
-    Object.keys(months)
-        .sort((a, b) => {
-
-            return App.config.months.indexOf(b)
-                - App.config.months.indexOf(a);
-
-        })
-        .forEach(month => {
-
-            content.appendChild(
-
-                App.renderSidebarMonth(
-
-                    year,
-
-                    month,
-
-                    months[month]
-
-                )
-
-            );
-
-        });
-
-    header.addEventListener("click", () => {
-
-if (content.classList.contains("open")) {
-
-    content.classList.remove("open");
-
-    arrow.classList.remove("open");
-
-    App.state.sidebar.years.delete(year);
-
-}
-
-else {
-
-    document
-        .querySelectorAll(".sidebar-year-content.open")
-        .forEach(section => {
-
-            section.classList.remove("open");
-
-        });
-
-    document
-        .querySelectorAll(".timeline-year .archive-arrow.open")
-        .forEach(icon => {
-
-            icon.classList.remove("open");
-
-        });
-
-    App.state.sidebar.years.clear();
-
-    content.classList.add("open");
-
-    arrow.classList.add("open");
-
-    App.state.sidebar.years.add(year);
-
-}
-
-    });
-
-    wrapper.appendChild(header);
-
-    wrapper.appendChild(content);
-
-    return wrapper;
-
-};
 /* ============================================
    OPEN CONVERSATION CARD
 ============================================ */
@@ -1505,7 +1356,7 @@ if(window.innerWidth <= 700){
 
 }
 
-App.renderSidebar();
+App.timeline.render();
 };
 /* ============================================
    SIDEBAR ACTIVE
@@ -1549,7 +1400,9 @@ const header =
         "div",
         "timeline-month"
     );
+header.dataset.year = year;
 
+header.dataset.month = month;
 const arrow =
     App.utils.create(
         "span",
@@ -1588,7 +1441,7 @@ if (App.state.sidebar.months.has(monthKey)) {
 
 content.appendChild(
 
-    App.renderSidebarDate(
+    App.timeline.renderDesktopDate(
         conversation
     )
 
@@ -2628,7 +2481,9 @@ App.render = function () {
 
 App.cache.container.appendChild(fragment);
 
-App.renderSidebar();
+App.timeline.render();
+
+App.timeline.sync();
 
 App.updateStatistics();
 
@@ -2853,7 +2708,663 @@ App.events.on(
     }
 
 );
+/* ============================================
+   TIMELINE MODULE
+============================================ */
 
+App.timeline = {
+
+    render(){
+
+        this.renderDesktop();
+
+        this.renderMobile();
+
+    },
+
+renderDesktop(){
+
+    const sidebar =
+        document.getElementById(
+            "fromm-sidebar"
+        );
+
+    if(!sidebar){
+
+        return;
+
+    }
+
+    App.utils.clear(sidebar);
+
+    const fragment =
+        App.utils.fragment();
+
+    const title =
+        App.utils.create("h3");
+
+    title.textContent =
+        "📅 Archive Timeline";
+
+    fragment.appendChild(title);
+
+    const archive =
+        App.state.archive;
+
+    Object.keys(archive)
+        .sort((a,b)=>b.localeCompare(a))
+        .forEach(year=>{
+
+            fragment.appendChild(
+
+                this.renderDesktopYear(
+
+                    year,
+
+                    archive[year]
+
+                )
+
+            );
+
+        });
+
+    sidebar.appendChild(fragment);
+
+},
+
+renderDesktopYear(year, months){
+
+    const wrapper =
+        App.utils.create(
+            "div",
+            "sidebar-year"
+        );
+
+const header =
+    App.utils.create(
+        "div",
+        "timeline-year"
+    );
+header.dataset.year = year;
+const arrow =
+    App.utils.create(
+        "span",
+        "archive-arrow"
+    );
+
+arrow.textContent = "❯";
+
+const title =
+    App.utils.create("span");
+
+title.textContent = year;
+
+header.appendChild(arrow);
+
+header.appendChild(title);
+
+    const content =
+        App.utils.create(
+            "div",
+            "sidebar-year-content"
+        );
+
+if (App.state.sidebar.years.has(year)) {
+
+    content.classList.add("open");
+
+    arrow.classList.add("open");
+
+}
+
+    Object.keys(months)
+        .sort((a, b) => {
+
+            return App.config.months.indexOf(b)
+                - App.config.months.indexOf(a);
+
+        })
+        .forEach(month => {
+
+content.appendChild(
+
+    App.timeline.renderDesktopMonth(
+
+        year,
+
+        month,
+
+        months[month]
+
+    )
+
+);
+
+        });
+
+    header.addEventListener("click", () => {
+
+if (content.classList.contains("open")) {
+
+    content.classList.remove("open");
+
+    arrow.classList.remove("open");
+
+    App.state.sidebar.years.delete(year);
+
+}
+
+else {
+
+    document
+        .querySelectorAll(".sidebar-year-content.open")
+        .forEach(section => {
+
+            section.classList.remove("open");
+
+        });
+
+    document
+        .querySelectorAll(".timeline-year .archive-arrow.open")
+        .forEach(icon => {
+
+            icon.classList.remove("open");
+
+        });
+
+    App.state.sidebar.years.clear();
+
+    content.classList.add("open");
+
+    arrow.classList.add("open");
+
+    App.state.sidebar.years.add(year);
+
+}
+
+    });
+
+    wrapper.appendChild(header);
+
+    wrapper.appendChild(content);
+
+    return wrapper;
+
+},
+
+renderDesktopMonth(year, month, conversations){
+
+    const wrapper =
+        App.utils.create(
+            "div",
+            "sidebar-month"
+        );
+
+    const header =
+        App.utils.create(
+            "div",
+            "timeline-month"
+        );
+
+    header.dataset.year = year;
+    header.dataset.month = month;
+
+    const arrow =
+        App.utils.create(
+            "span",
+            "archive-arrow"
+        );
+
+    arrow.textContent = "❯";
+
+    const title =
+        App.utils.create("span");
+
+    title.textContent = month;
+
+    header.appendChild(arrow);
+    header.appendChild(title);
+
+    const content =
+        App.utils.create(
+            "div",
+            "sidebar-month-content"
+        );
+
+    const monthKey = `${year}-${month}`;
+
+    if (App.state.sidebar.months.has(monthKey)) {
+
+        content.classList.add("open");
+        arrow.classList.add("open");
+
+    }
+
+    App.utils
+        .sortNewest(conversations)
+        .forEach(conversation => {
+
+            content.appendChild(
+
+                this.renderDesktopDate(
+                    conversation
+                )
+
+            );
+
+        });
+
+    header.addEventListener("click", () => {
+
+        const alreadyOpen =
+            content.classList.contains("open");
+
+        document
+            .querySelectorAll(".sidebar-month-content.open")
+            .forEach(section => {
+
+                section.classList.remove("open");
+
+            });
+
+        document
+            .querySelectorAll(".timeline-month .archive-arrow.open")
+            .forEach(icon => {
+
+                icon.classList.remove("open");
+
+            });
+
+        App.state.sidebar.months.clear();
+
+        if (!alreadyOpen) {
+
+            content.classList.add("open");
+
+            arrow.classList.add("open");
+
+            App.state.sidebar.months.add(monthKey);
+
+        }
+
+    });
+
+    wrapper.appendChild(header);
+    wrapper.appendChild(content);
+
+    return wrapper;
+
+},
+
+renderDesktopDate(conversation){
+
+    const item =
+        App.utils.create(
+            "div",
+            "timeline-date"
+        );
+
+    item.dataset.date =
+        conversation.date;
+
+    item.textContent =
+        App.utils.formatDate(
+            conversation.date
+        );
+
+    item.addEventListener("click",()=>{
+
+        this.navigate(
+            conversation.date
+        );
+
+    });
+
+    return item;
+
+},
+
+renderMobile(){
+
+    
+    if(window.innerWidth > 700){
+
+        return;
+
+    }
+
+    const container =
+        document.getElementById(
+            "mobile-timeline-content"
+        );
+
+    if(!container){
+
+        return;
+
+    }
+
+    App.utils.clear(container);
+
+    const fragment =
+        App.utils.fragment();
+
+    const archive =
+        App.state.archive;
+
+    Object.keys(archive)
+        .sort((a,b)=>b.localeCompare(a))
+        .forEach(year=>{
+
+            fragment.appendChild(
+
+                this.renderMobileYear(
+
+                    year,
+
+                    archive[year]
+
+                )
+
+            );
+
+        });
+
+    container.appendChild(fragment);
+
+},
+renderMobileYear(year, months){
+
+    const wrapper =
+        App.utils.create(
+            "div",
+            "mobile-year"
+        );
+
+    const header =
+        App.utils.create(
+            "button",
+            "mobile-year-header"
+        );
+
+    header.type = "button";
+
+    header.innerHTML = `
+
+        <span>${year}</span>
+
+        <span class="mobile-arrow">❯</span>
+
+    `;
+
+    const content =
+        App.utils.create(
+            "div",
+            "mobile-year-content"
+        );
+
+    Object.keys(months)
+        .sort((a,b)=>{
+
+            return App.config.months.indexOf(b)
+                 - App.config.months.indexOf(a);
+
+        })
+        .forEach(month=>{
+
+            content.appendChild(
+
+                this.renderMobileMonth(
+
+                    year,
+
+                    month,
+
+                    months[month]
+
+                )
+
+            );
+
+        });
+
+    header.addEventListener("click",()=>{
+
+        const alreadyOpen =
+            content.classList.contains("open");
+
+        document
+            .querySelectorAll(".mobile-year-content.open")
+            .forEach(section=>{
+
+                section.classList.remove("open");
+
+            });
+
+        document
+            .querySelectorAll(".mobile-year-header .mobile-arrow")
+            .forEach(icon=>{
+
+                icon.classList.remove("open");
+
+            });
+
+        if(!alreadyOpen){
+
+            content.classList.add("open");
+
+            header
+                .querySelector(".mobile-arrow")
+                .classList.add("open");
+
+        }
+
+    });
+
+    wrapper.appendChild(header);
+
+    wrapper.appendChild(content);
+
+    return wrapper;
+
+},
+
+renderMobileMonth(year, month, conversations){
+
+    const wrapper =
+        App.utils.create(
+            "div",
+            "mobile-month"
+        );
+
+    const title =
+        App.utils.create(
+            "div",
+            "mobile-month-title"
+        );
+
+    title.textContent = month;
+
+    wrapper.appendChild(title);
+
+    App.utils
+        .sortNewest(conversations)
+        .forEach(conversation=>{
+
+            wrapper.appendChild(
+
+                this.renderMobileDate(
+                    conversation
+                )
+
+            );
+
+        });
+
+    return wrapper;
+
+},
+
+renderMobileDate(conversation){
+
+    const item =
+        App.utils.create(
+            "button",
+            "mobile-date"
+        );
+
+    item.type = "button";
+
+    item.textContent =
+        App.utils.formatDate(
+            conversation.date
+        );
+
+    item.addEventListener("click",()=>{
+
+        this.navigate(
+            conversation.date
+        );
+
+    });
+
+    return item;
+
+},
+
+sync(){
+
+    if(this.observer){
+
+        this.observer.disconnect();
+
+    }
+
+    const cards =
+
+        document.querySelectorAll(
+
+            ".fromm-conversation-card"
+
+        );
+
+    this.observer =
+
+        new IntersectionObserver(
+
+            entries=>{
+
+                entries.forEach(entry=>{
+
+                    if(!entry.isIntersecting){
+
+                        return;
+
+                    }
+
+                    const date =
+
+                        entry.target.dataset.date;
+
+                    if(!date){
+
+                        return;
+
+                    }
+
+                    App.state.activeConversation = date;
+
+                    this.highlight();
+
+                });
+
+            },
+
+            {
+
+                threshold:0.6,
+
+                rootMargin:"-90px 0px -40% 0px"
+
+            }
+
+        );
+
+    cards.forEach(card=>{
+
+        this.observer.observe(card);
+
+    });
+
+},
+
+highlight(){
+
+    const date =
+        App.state.activeConversation;
+
+    if(!date){
+
+        return;
+
+    }
+
+    const year =
+        App.utils.getYear(date);
+
+    const month =
+        App.utils.getMonth(date);
+
+    this.expandDesktop(
+
+        year,
+
+        month
+
+    );
+
+    App.updateSidebarActive();
+
+},
+
+expandDesktop(year, month){
+
+    this.openYear(year);
+
+    this.openMonth(year, month);
+
+    this.renderDesktop();
+
+},
+
+openYear(year){
+
+    App.state.sidebar.years.clear();
+
+    App.state.sidebar.years.add(year);
+
+},
+
+openMonth(year, month){
+
+    App.state.sidebar.months.clear();
+
+    App.state.sidebar.months.add(
+
+        `${year}-${month}`
+
+    );
+
+},
+
+navigate(date){
+
+    App.navigateToConversation(date);
+
+}
+
+};
 /* ============================================
    FINAL INITIALIZATION
 ============================================ */
