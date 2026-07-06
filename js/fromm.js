@@ -62,6 +62,15 @@ const App = {
 openedYears: new Set(),
 
 openedMonths: new Set(),
+
+sidebar: {
+
+    years: new Set(),
+
+    months: new Set()
+
+},
+
 loading: false,
 
 currentVoice: null,
@@ -79,6 +88,10 @@ archive: {},
             messages: 0,
 
             images: 0,
+
+            videos: 0,
+
+            voices: 0,
 
             years: 0
 
@@ -105,6 +118,10 @@ archive: {},
             messages: null,
 
             images: null,
+
+            videos: null,
+
+            voices: null,
 
             years: null
 
@@ -153,6 +170,12 @@ function cacheDOM() {
 
     App.cache.stats.images =
         $("#photo-count");
+
+App.cache.stats.videos =
+    $("#video-count");
+
+App.cache.stats.voices =
+    $("#voice-count");
 
     App.cache.stats.years =
         $("#year-count");
@@ -759,6 +782,8 @@ App.updateStatistics = function () {
         conversations: App.state.filtered.length,
         messages: 0,
         images: 0,
+        videos: 0,
+        voices: 0,
         years: new Set()
     };
 
@@ -780,37 +805,61 @@ conversation.messages.forEach(message => {
         "images"
     ).length;
 
+    stats.videos += App.utils.getMediaList(
+        message,
+        "video",
+        "videos"
+    ).length;
+
+    stats.voices += App.utils.getMediaList(
+        message,
+        "voice",
+        "voices"
+    ).length;
+
 });
 
     });
 
-    App.state.statistics = {
+App.state.statistics = {
 
-        conversations: stats.conversations,
+    conversations: stats.conversations,
 
-        messages: stats.messages,
+    messages: stats.messages,
 
-        images: stats.images,
+    images: stats.images,
 
-        years: stats.years.size
+    videos: stats.videos,
 
-    };
+    voices: stats.voices,
+
+    years: stats.years.size
+
+};
 
     if (App.cache.stats.conversations)
         App.cache.stats.conversations.textContent =
             stats.conversations;
 
-    if (App.cache.stats.messages)
-        App.cache.stats.messages.textContent =
-            stats.messages;
+if (App.cache.stats.messages)
+    App.cache.stats.messages.textContent =
+        stats.messages;
 
-    if (App.cache.stats.images)
-        App.cache.stats.images.textContent =
-            stats.images;
+if (App.cache.stats.images)
+    App.cache.stats.images.textContent =
+        stats.images;
 
-    if (App.cache.stats.years)
-        App.cache.stats.years.textContent =
-            stats.years.size;
+if (App.cache.stats.videos)
+    App.cache.stats.videos.textContent =
+        stats.videos;
+
+if (App.cache.stats.voices)
+    App.cache.stats.voices.textContent =
+        stats.voices;
+
+if (App.cache.stats.years)
+    App.cache.stats.years.textContent =
+        stats.years.size;
 
 };
 /* ============================================
@@ -965,17 +1014,7 @@ App.updateSidebarActive();
 
 }, 50);
 body.scrollTop = 0;
-requestAnimationFrame(() => {
 
-    body.scrollIntoView({
-
-        behavior: "smooth",
-
-        block: "nearest"
-
-    });
-
-});
     arrow.classList.add("open");
 
 });
@@ -1079,40 +1118,23 @@ App.renderSidebar = function () {
     const archive =
         App.state.archive;
 
-    Object.keys(archive)
-        .sort((a, b) => b.localeCompare(a))
-        .forEach(year => {
-
-fragment.appendChild(
-
-    App.renderSidebarYear(year)
-
-);
-
-Object.keys(archive[year])
-    .sort((a, b) => {
-
-        return App.config.months.indexOf(b)
-            - App.config.months.indexOf(a);
-
-    })
-    .forEach(month => {
+Object.keys(archive)
+    .sort((a, b) => b.localeCompare(a))
+    .forEach(year => {
 
         fragment.appendChild(
 
-            App.renderSidebarMonth(
+            App.renderSidebarYear(
 
-                month,
+                year,
 
-                archive[year][month]
+                archive[year]
 
             )
 
         );
 
     });
-
-        });
 
     sidebar.appendChild(fragment);
 
@@ -1152,28 +1174,232 @@ return item;
 
 };
 /* ============================================
+   OPEN YEAR
+============================================ */
+
+App.openYear = function (year) {
+
+    const yearCard = document.querySelector(
+        `.fromm-year[data-year="${year}"]`
+    );
+
+    if (!yearCard) return null;
+
+    const content =
+        yearCard.querySelector(".fromm-year-content");
+
+    if (content.classList.contains("open")) {
+
+        return yearCard;
+
+    }
+
+yearCard
+    .querySelector(".fromm-year-header")
+    ?.click();
+
+return yearCard;
+
+};
+/* ============================================
+   ENSURE YEAR OPEN
+============================================ */
+
+App.ensureYearOpen = async function (year) {
+
+    const card = App.openYear(year);
+
+    if (!card) return null;
+
+    if (!App.state.openedYears.has(year)) {
+
+        await App.wait(App.config.animationSpeed);
+
+    }
+
+    return card;
+
+};
+/* ============================================
+   OPEN MONTH
+============================================ */
+
+App.openMonth = function (year, month) {
+
+    const monthCard = document.querySelector(
+
+        `.fromm-month[data-year="${year}"][data-month="${month}"]`
+
+    );
+
+    if (!monthCard) return null;
+
+    const content =
+        monthCard.querySelector(".fromm-month-content");
+
+    if (content.classList.contains("open")) {
+
+        return monthCard;
+
+    }
+
+monthCard
+    .querySelector(".fromm-month-header")
+    ?.click();
+
+return monthCard;
+
+};
+/* ============================================
+   ENSURE MONTH OPEN
+============================================ */
+
+App.ensureMonthOpen = async function (year, month) {
+
+    await App.ensureYearOpen(year);
+
+    const monthCard = document.querySelector(
+
+        `.fromm-month[data-year="${year}"][data-month="${month}"]`
+
+    );
+
+    if (!monthCard) return null;
+
+const monthKey = `${year}-${month}`;
+
+if (!App.state.openedMonths.has(monthKey)) {
+
+    App.openMonth(year, month);
+
+    await App.wait(App.config.animationSpeed);
+
+}
+
+    return monthCard;
+
+};
+/* ============================================
    SIDEBAR YEAR
 ============================================ */
 
-App.renderSidebarYear = function (year) {
+App.renderSidebarYear = function (year, months) {
 
-    const item =
+    const wrapper =
         App.utils.create(
             "div",
-            "timeline-year"
+            "sidebar-year"
         );
 
-    item.textContent = year;
+const header =
+    App.utils.create(
+        "div",
+        "timeline-year"
+    );
 
-    item.dataset.year = year;
+const arrow =
+    App.utils.create(
+        "span",
+        "archive-arrow"
+    );
 
-    item.addEventListener("click", () => {
+arrow.textContent = "❯";
 
-        App.navigateToYear(year);
+const title =
+    App.utils.create("span");
+
+title.textContent = year;
+
+header.appendChild(arrow);
+
+header.appendChild(title);
+
+    const content =
+        App.utils.create(
+            "div",
+            "sidebar-year-content"
+        );
+
+if (App.state.sidebar.years.has(year)) {
+
+    content.classList.add("open");
+
+    arrow.classList.add("open");
+
+}
+
+    Object.keys(months)
+        .sort((a, b) => {
+
+            return App.config.months.indexOf(b)
+                - App.config.months.indexOf(a);
+
+        })
+        .forEach(month => {
+
+            content.appendChild(
+
+                App.renderSidebarMonth(
+
+                    year,
+
+                    month,
+
+                    months[month]
+
+                )
+
+            );
+
+        });
+
+    header.addEventListener("click", () => {
+
+if (content.classList.contains("open")) {
+
+    content.classList.remove("open");
+
+    arrow.classList.remove("open");
+
+    App.state.sidebar.years.delete(year);
+
+}
+
+else {
+
+    document
+        .querySelectorAll(".sidebar-year-content.open")
+        .forEach(section => {
+
+            section.classList.remove("open");
+
+        });
+
+    document
+        .querySelectorAll(".timeline-year .archive-arrow.open")
+        .forEach(icon => {
+
+            icon.classList.remove("open");
+
+        });
+
+    App.state.sidebar.years.clear();
+
+    content.classList.add("open");
+
+    arrow.classList.add("open");
+
+    App.state.sidebar.years.add(year);
+
+}
 
     });
 
-    return item;
+    wrapper.appendChild(header);
+
+    wrapper.appendChild(content);
+
+    return wrapper;
 
 };
 /* ============================================
@@ -1203,38 +1429,54 @@ App.openConversationCard = function (card) {
 
 };
 /* ============================================
-   NAVIGATE CONVERSATION
+   GET CONVERSATION CARD
 ============================================ */
 
-App.navigateToConversation = function (date) {
+App.getConversationCard = function (date) {
 
-    const year =
-        App.utils.getYear(date);
+    return document.querySelector(
 
-    const month =
-        App.utils.getMonth(date);
-
-    App.navigateToMonth(
-
-        year,
-
-        month
+        `.fromm-conversation-card[data-date="${date}"]`
 
     );
 
-    setTimeout(() => {
+};
+/* ============================================
+   WAIT FOR ANIMATION
+============================================ */
 
-        const card = document.querySelector(
+App.wait = function (ms) {
 
-            `.fromm-conversation-card[data-date="${date}"]`
+    return new Promise(resolve => {
 
-        );
+        setTimeout(resolve, ms);
 
-        if (!card) return;
+    });
 
-App.openConversationCard(card);
+};
+/* ============================================
+   NAVIGATE CONVERSATION
+============================================ */
 
-    }, App.config.animationSpeed + 50);
+App.navigateToConversation = async function (date) {
+
+    const year = App.utils.getYear(date);
+
+    const month = App.utils.getMonth(date);
+
+await App.ensureMonthOpen(
+
+    year,
+
+    month
+
+);
+
+    const card = App.getConversationCard(date);
+
+    if (!card) return;
+
+    App.openConversationCard(card);
 
 };
 /* ============================================
@@ -1264,37 +1506,111 @@ App.updateSidebarActive = function () {
 ============================================ */
 
 App.renderSidebarMonth = function (
+    year,
     month,
     conversations
 ) {
 
-    const wrapper =
-        App.utils.fragment();
+const wrapper =
+    App.utils.create(
+        "div",
+        "sidebar-month"
+    );
+const header =
+    App.utils.create(
+        "div",
+        "timeline-month"
+    );
 
-    const monthItem =
-        App.utils.create(
-            "div",
-            "timeline-month"
-        );
+const arrow =
+    App.utils.create(
+        "span",
+        "archive-arrow"
+    );
 
-    monthItem.textContent = month;
+arrow.textContent = "❯";
 
-    wrapper.appendChild(monthItem);
+const title =
+    App.utils.create("span");
+
+title.textContent = month;
+
+header.appendChild(arrow);
+
+header.appendChild(title);
+
+const content =
+    App.utils.create(
+        "div",
+        "sidebar-month-content"
+    );
+    const monthKey = `${year}-${month}`;
+
+if (App.state.sidebar.months.has(monthKey)) {
+
+    content.classList.add("open");
+
+    arrow.classList.add("open");
+
+}
 
     App.utils
         .sortNewest(conversations)
         .forEach(conversation => {
 
-            wrapper.appendChild(
+content.appendChild(
 
-                App.renderSidebarDate(
-                    conversation
-                )
+    App.renderSidebarDate(
+        conversation
+    )
 
-            );
+);
+
+        });
+header.addEventListener("click", () => {
+
+    if (content.classList.contains("open")) {
+
+        content.classList.remove("open");
+
+        arrow.classList.remove("open");
+
+        App.state.sidebar.months.delete(monthKey);
+
+    }
+
+else {
+
+    document
+        .querySelectorAll(".sidebar-month-content.open")
+        .forEach(section => {
+
+            section.classList.remove("open");
 
         });
 
+    document
+        .querySelectorAll(".timeline-month .archive-arrow.open")
+        .forEach(icon => {
+
+            icon.classList.remove("open");
+
+        });
+
+    App.state.sidebar.months.clear();
+
+    content.classList.add("open");
+
+    arrow.classList.add("open");
+
+    App.state.sidebar.months.add(monthKey);
+
+}
+
+});
+wrapper.appendChild(header);
+
+wrapper.appendChild(content);
     return wrapper;
 
 };
@@ -2248,17 +2564,6 @@ App.openImage = function (src) {
 };
 
 /* ============================================
-   TOGGLE SECTION
-============================================ */
-
-App.toggleSection = function (section) {
-
-    if (!section) return;
-
-    section.classList.toggle("open");
-
-};
-/* ============================================
    MASTER RENDER
 ============================================ */
 
@@ -2306,58 +2611,22 @@ App.updateStatistics();
 
 App.navigateToYear = function (year) {
 
-    const header = [...document.querySelectorAll(".fromm-year-header")]
-
-        .find(header =>
-
-            header.querySelector("h2")?.textContent === year
-
-        );
-
-    if (!header) return;
-
-    header.click();
-
-    header.scrollIntoView({
-
-        behavior: "smooth",
-
-        block: "start"
-
-    });
+    App.openYear(year);
 
 };
 /* ============================================
    NAVIGATE MONTH
 ============================================ */
 
-App.navigateToMonth = function (year, month) {
+App.navigateToMonth = async function (year, month) {
 
-    // Ensure year is open first
-    App.navigateToYear(year);
+    await App.ensureMonthOpen(
 
-const monthCard = document.querySelector(
+        year,
 
-    `.fromm-month[data-year="${year}"][data-month="${month}"]`
+        month
 
-);
-
-if (!monthCard) return;
-
-const header =
-    monthCard.querySelector(".fromm-month-header");
-
-    if (!header) return;
-
-    header.click();
-
-    header.scrollIntoView({
-
-        behavior: "smooth",
-
-        block: "start"
-
-    });
+    );
 
 };
 /* ============================================

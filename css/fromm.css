@@ -43,6 +43,14 @@
 }
 .timeline-year{
 
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    cursor:pointer;
+
     font-weight:700;
 
     margin-top:18px;
@@ -51,6 +59,12 @@
 
 }
 .timeline-month{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
 
     margin-left:16px;
 
@@ -189,7 +203,7 @@
 
 .fromm-stats{
     display:grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns:repeat(3,1fr);
     gap:20px;
     margin-bottom:40px;
 }
@@ -1094,5 +1108,40 @@ transition:
     content:"● ";
 
     color:var(--mint);
+
+}
+
+/* ============================================
+   SIDEBAR ACCORDION
+============================================ */
+
+.sidebar-year-content {
+
+    display: none;
+
+    margin-left: 14px;
+
+}
+
+.sidebar-year-content.open {
+
+    display: block;
+
+}
+/* ============================================
+   SIDEBAR MONTH ACCORDION
+============================================ */
+
+.sidebar-month-content {
+
+    display: none;
+
+    margin-left: 16px;
+
+}
+
+.sidebar-month-content.open {
+
+    display: block;
 
 }
