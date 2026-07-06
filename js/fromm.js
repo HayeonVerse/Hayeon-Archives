@@ -822,7 +822,8 @@ App.renderConversationCard = function (conversation) {
             "section",
             "fromm-conversation-card"
         );
-
+card.dataset.date =
+    conversation.date;
     const header =
         App.utils.create(
             "div",
@@ -1041,8 +1042,220 @@ App.updateBubbleClasses(messages);
 
 };
 
+App.renderSidebar = function () {
 
+    const sidebar =
+        document.getElementById("fromm-sidebar");
 
+    if (!sidebar) return;
+
+    App.utils.clear(sidebar);
+
+    const fragment =
+        App.utils.fragment();
+
+    // -----------------------
+    // Title
+    // -----------------------
+
+    const title =
+        App.utils.create("h3");
+
+    title.textContent =
+        "📅 Archive Timeline";
+
+    fragment.appendChild(title);
+
+    // -----------------------
+    // Timeline
+    // -----------------------
+
+    const archive =
+        App.state.archive;
+
+    Object.keys(archive)
+        .sort((a, b) => b.localeCompare(a))
+        .forEach(year => {
+
+fragment.appendChild(
+
+    App.renderSidebarYear(year)
+
+);
+
+Object.keys(archive[year])
+    .sort((a, b) => {
+
+        return App.config.months.indexOf(b)
+            - App.config.months.indexOf(a);
+
+    })
+    .forEach(month => {
+
+        fragment.appendChild(
+
+            App.renderSidebarMonth(
+
+                month,
+
+                archive[year][month]
+
+            )
+
+        );
+
+    });
+
+        });
+
+    sidebar.appendChild(fragment);
+
+};
+
+/* ============================================
+   SIDEBAR DATE
+============================================ */
+
+App.renderSidebarDate = function (conversation) {
+
+    const item =
+        App.utils.create(
+            "div",
+            "timeline-date"
+        );
+
+item.textContent =
+    App.utils.formatDate(
+        conversation.date
+    );
+
+item.dataset.date =
+    conversation.date;
+
+item.addEventListener("click", () => {
+
+    App.navigateToConversation(
+
+        conversation.date
+
+    );
+
+});
+
+return item;
+
+};
+/* ============================================
+   SIDEBAR YEAR
+============================================ */
+
+App.renderSidebarYear = function (year) {
+
+    const item =
+        App.utils.create(
+            "div",
+            "timeline-year"
+        );
+
+    item.textContent = year;
+
+    item.dataset.year = year;
+
+    item.addEventListener("click", () => {
+
+        App.navigateToYear(year);
+
+    });
+
+    return item;
+
+};
+/* ============================================
+   NAVIGATE CONVERSATION
+============================================ */
+
+App.navigateToConversation = function (date) {
+
+    const year =
+        App.utils.getYear(date);
+
+    const month =
+        App.utils.getMonth(date);
+
+    App.navigateToMonth(
+
+        year,
+
+        month
+
+    );
+
+    setTimeout(() => {
+
+        const card = document.querySelector(
+
+            `.fromm-conversation-card[data-date="${date}"]`
+
+        );
+
+        if (!card) return;
+
+        card.querySelector(
+
+            ".fromm-conversation-header"
+
+        )?.click();
+
+        card.scrollIntoView({
+
+            behavior: "smooth",
+
+            block: "center"
+
+        });
+
+    }, App.config.animationSpeed + 50);
+
+};
+/* ============================================
+   SIDEBAR MONTH
+============================================ */
+
+App.renderSidebarMonth = function (
+    month,
+    conversations
+) {
+
+    const wrapper =
+        App.utils.fragment();
+
+    const monthItem =
+        App.utils.create(
+            "div",
+            "timeline-month"
+        );
+
+    monthItem.textContent = month;
+
+    wrapper.appendChild(monthItem);
+
+    App.utils
+        .sortNewest(conversations)
+        .forEach(conversation => {
+
+            wrapper.appendChild(
+
+                App.renderSidebarDate(
+                    conversation
+                )
+
+            );
+
+        });
+
+    return wrapper;
+
+};
 /* ============================================
    RENDER YEAR
 ============================================ */
@@ -1051,7 +1264,7 @@ App.renderYear = function (year, months) {
 
     const yearCard =
         App.utils.create("div", "fromm-year");
-
+yearCard.dataset.year = year;
     const header =
         App.utils.create("div", "fromm-year-header");
 
@@ -1158,7 +1371,11 @@ App.renderMonth = function (month, conversations) {
 
     const monthCard =
         App.utils.create("div", "fromm-month");
+monthCard.dataset.year =
+    App.utils.getYear(conversations[0].date);
 
+monthCard.dataset.month =
+    month;
     const header =
         App.utils.create("div", "fromm-month-header");
 
@@ -2034,9 +2251,71 @@ App.render = function () {
 
     });
 
-    App.cache.container.appendChild(fragment);
+App.cache.container.appendChild(fragment);
 
-    App.updateStatistics();
+App.renderSidebar();
+
+App.updateStatistics();
+
+};
+/* ============================================
+   NAVIGATE YEAR
+============================================ */
+
+App.navigateToYear = function (year) {
+
+    const header = [...document.querySelectorAll(".fromm-year-header")]
+
+        .find(header =>
+
+            header.querySelector("h2")?.textContent === year
+
+        );
+
+    if (!header) return;
+
+    header.click();
+
+    header.scrollIntoView({
+
+        behavior: "smooth",
+
+        block: "start"
+
+    });
+
+};
+/* ============================================
+   NAVIGATE MONTH
+============================================ */
+
+App.navigateToMonth = function (year, month) {
+
+    // Ensure year is open first
+    App.navigateToYear(year);
+
+const monthCard = document.querySelector(
+
+    `.fromm-month[data-year="${year}"][data-month="${month}"]`
+
+);
+
+if (!monthCard) return;
+
+const header =
+    monthCard.querySelector(".fromm-month-header");
+
+    if (!header) return;
+
+    header.click();
+
+    header.scrollIntoView({
+
+        behavior: "smooth",
+
+        block: "start"
+
+    });
 
 };
 /* ============================================

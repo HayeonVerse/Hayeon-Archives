@@ -12,6 +12,7 @@
    LAYOUT
 ========================================== */
 
+
 .fromm-layout{
 
     display:grid;
@@ -51,13 +52,44 @@
 }
 .timeline-month{
 
-    cursor:pointer;
+    margin-left:16px;
 
     padding:8px 0;
 
-    color:var(--text-light);
+    cursor:pointer;
+
+    font-weight:600;
+
+    color:var(--text);
 
     transition:.2s;
+
+}
+.timeline-date{
+
+    margin-left:36px;
+
+    padding:6px 0;
+
+    font-size:13px;
+
+    color:var(--text-light);
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+.timeline-date::before{
+
+    content:"• ";
+
+    color:var(--mint);
+
+}
+.timeline-date:hover{
+
+    color:var(--mint);
 
 }
 .timeline-month:hover{
@@ -1034,5 +1066,17 @@ transition:
 .archive-arrow.open{
 
     transform:rotate(90deg);
+
+}
+
+#fromm-sidebar h3{
+
+    margin:0 0 18px;
+
+    color:var(--mint);
+
+    font-size:18px;
+
+    font-weight:700;
 
 }
