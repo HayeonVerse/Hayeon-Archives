@@ -54,6 +54,8 @@ const App = {
 
         language: "both",
 
+        activeConversation: null,
+
         groupedMessages: true,
 
         search: "",
@@ -947,6 +949,10 @@ if (alreadyOpen) {
     }
 
     body.classList.add("open");
+    App.state.activeConversation =
+    conversation.date;
+
+App.updateSidebarActive();
     setTimeout(() => {
 
     card.scrollIntoView({
@@ -1229,6 +1235,28 @@ App.navigateToConversation = function (date) {
 App.openConversationCard(card);
 
     }, App.config.animationSpeed + 50);
+
+};
+/* ============================================
+   SIDEBAR ACTIVE
+============================================ */
+
+App.updateSidebarActive = function () {
+
+    document
+        .querySelectorAll(".timeline-date")
+        .forEach(item => {
+
+            item.classList.toggle(
+
+                "active",
+
+                item.dataset.date ===
+                App.state.activeConversation
+
+            );
+
+        });
 
 };
 /* ============================================
