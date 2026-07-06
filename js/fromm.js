@@ -1171,6 +1171,32 @@ App.renderSidebarYear = function (year) {
 
 };
 /* ============================================
+   OPEN CONVERSATION CARD
+============================================ */
+
+App.openConversationCard = function (card) {
+
+    if (!card) return;
+
+    const header =
+        card.querySelector(
+            ".fromm-conversation-header"
+        );
+
+    if (!header) return;
+
+    header.click();
+
+    card.scrollIntoView({
+
+        behavior: "smooth",
+
+        block: "center"
+
+    });
+
+};
+/* ============================================
    NAVIGATE CONVERSATION
 ============================================ */
 
@@ -1200,19 +1226,7 @@ App.navigateToConversation = function (date) {
 
         if (!card) return;
 
-        card.querySelector(
-
-            ".fromm-conversation-header"
-
-        )?.click();
-
-        card.scrollIntoView({
-
-            behavior: "smooth",
-
-            block: "center"
-
-        });
+App.openConversationCard(card);
 
     }, App.config.animationSpeed + 50);
 
