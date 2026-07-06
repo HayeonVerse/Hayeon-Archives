@@ -411,30 +411,6 @@ footer{
 
 @media(max-width:768px){
 
-    .hero-buttons{
-
-    flex-direction:column;
-
-}
-
-.hero-button{
-
-    width:100%;
-
-}
-
-.home-grid{
-
-    grid-template-columns:1fr;
-
-}
-
-.home-stats{
-
-    grid-template-columns:repeat(2,1fr);
-
-}
-
 .home-card{
 
     padding:28px;
@@ -1069,5 +1045,43 @@ body.home-page .gallery-hero{
 .home-card{
 
     border-radius:20px;
+
+}
+
+/* ==========================================================
+   HOME PAGE MOBILE
+========================================================== */
+
+@media (max-width:768px){
+
+    .home-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .home-stats{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+    }
+
+    .hero-button{
+
+        width:100%;
+
+    }
+
+    body.home-page .gallery-hero{
+
+        min-height:60vh;
+
+    }
 
 }
