@@ -2815,11 +2815,12 @@ App.toggleMobileTimeline = function(force = null){
 
     App.state.mobileTimelineOpen = open;
 
-const sidebar = document.getElementById("fromm-sidebar");
+const panel =
+    document.getElementById("mobile-timeline-panel");
 
-if(sidebar){
+if(panel){
 
-    sidebar.style.display =
+    panel.style.display =
         open ? "block" : "none";
 
 }

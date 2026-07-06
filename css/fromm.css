@@ -825,13 +825,15 @@ transition:
 
 .message-image img{
 
+    display:block;
+
     width:100%;
 
-    max-width:360px;
+    max-width:100%;
+
+    height:auto;
 
     border-radius:18px;
-
-    display:block;
 
     cursor:pointer;
 
@@ -853,7 +855,9 @@ transition:
 
     width:100%;
 
-    max-width:360px;
+    max-width:100%;
+
+    height:auto;
 
     border-radius:18px;
 
@@ -875,7 +879,7 @@ transition:
 
     padding:10px 14px;
 
-    max-width:360px;
+    max-width:100%;
 
     background:var(--card);
 
@@ -970,7 +974,7 @@ transition:
 
 #mobile-timeline-toggle{
 
-    display:flex;
+    display:none;
 
 }
 
@@ -984,6 +988,11 @@ transition:
     .fromm-wrapper{
         padding:40px 20px;
     }
+    #mobile-timeline-panel{
+
+    display:block;
+
+}
 #mobile-timeline-toggle{
 
     display:flex;
@@ -1008,9 +1017,35 @@ transition:
 
     position:sticky;
 
-    top:80px;
+    top:92px;
 
-    z-index:20;
+    z-index:950;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+
+}
+#mobile-timeline-panel{
+
+    position:sticky;
+
+    top:156px;
+
+    z-index:940;
+
+    margin-bottom:20px;
+
+}
+#mobile-timeline-panel .timeline-card{
+
+    background:var(--card);
+
+    border:1px solid var(--border);
+
+    border-radius:18px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.18);
+
+    overflow:hidden;
 
 }
     .fromm-controls{
@@ -1041,15 +1076,15 @@ transition:
 
 #fromm-sidebar{
 
-    position:static;
-
-    width:100%;
-
-    margin-bottom:20px;
+    display:none !important;
 
 }
 }
+#mobile-timeline-panel{
 
+    display:none;
+
+}
 /* ==========================================
    LIGHTBOX
 ========================================== */
@@ -1185,4 +1220,19 @@ transition:
 
     display: block;
 
+}
+
+html,
+body{
+    width:100%;
+    max-width:100%;
+    overflow-x:hidden;
+}
+
+.fromm-wrapper{
+    overflow-x:hidden;
+}
+
+.fromm-container{
+    overflow-x:hidden;
 }
