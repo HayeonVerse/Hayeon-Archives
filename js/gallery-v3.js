@@ -41,6 +41,26 @@ function getYoutubeEmbed(url) {
     return url;
 }
 
+function getYoutubeThumbnail(url) {
+    if (!url) return "";
+
+    let id = "";
+
+    if (url.includes("youtu.be/")) {
+        id = url.split("youtu.be/")[1].split("?")[0];
+    }
+    else if (url.includes("watch?v=")) {
+        id = url.split("watch?v=")[1].split("&")[0];
+    }
+    else if (url.includes("/shorts/")) {
+        id = url.split("/shorts/")[1].split("?")[0];
+    }
+
+    return id
+        ? `https://i.ytimg.com/vi/${id}/hqdefault.jpg`
+        : "";
+}
+
 /* -----------------------------
    LOAD GALLERY
 ----------------------------- */
