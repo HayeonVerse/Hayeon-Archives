@@ -1,0 +1,322 @@
+{
+  "date": "2026-07-06",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "모해",
+      "en": "What are you doing?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 방금 회에다 라면 두그릇먹고",
+      "en": "I just ate sashimi and two bowls of ramen,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "쓰러져이써",
+      "en": "I'm about to pass out."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 머리 염색하고싶응데",
+      "en": "I want to dye my hair."
+    },
+    {
+      "type": "hayeon",
+      "ko": "무슨색 할깡",
+      "en": "What color should I do?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "빨강은 맨 마지막에 하고",
+      "en": "I'll save red for last,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "흑발로 덮을거야",
+      "en": "then cover it with black."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 맞다",
+      "en": "Oh right."
+    },
+    {
+      "type": "hayeon",
+      "image": "image-01.jpeg"
+    },
+    {
+      "type": "hayeon",
+      "ko": "국민프로듀서님들",
+      "en": "Dear National Producers,"
+    },
+    {
+      "type": "hayeon",
+      "image": "image-02.jpeg"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내맘속에 저장",
+      "en": "\"I'll save you in my heart.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "모드하우스 연습생 정하연입니다 잘부탁드립니다!",
+      "en": "I'm MODHAUS trainee Jeong Hayeon. Nice to meet you!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "특기는 먹는거구요! 취미는 먹는거구요! 좋아하는건",
+      "en": "My special talent is eating! My hobby is eating! And what I like is..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너구요",
+      "en": "You."
+    },
+    {
+      "type": "hayeon",
+      "ko": "와 진짜 덥다",
+      "en": "Wow, it's seriously hot."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어떻게 이런일이",
+      "en": "How is this even possible?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 레전드야",
+      "en": "This is legendary."
+    },
+    {
+      "type": "hayeon",
+      "ko": "와 ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "응 어그로",
+      "en": "Yep, clickbait."
+    },
+    {
+      "type": "hayeon",
+      "ko": "속았쥬",
+      "en": "You fell for it, didn't you?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "헤헤",
+      "en": "Hehe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "메롱",
+      "en": "Bleh."
+    },
+    {
+      "type": "hayeon",
+      "ko": "메롱 이라는단어 진짜 얄밉지 않아?",
+      "en": "Doesn't the word \"bleh\" sound so annoying?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "메롱메롱",
+      "en": "Bleh, bleh."
+    },
+    {
+      "type": "fan",
+      "ko": "정메로 이행시 해보겠습니다 정:정하연 메:메롱",
+      "en": "I'll do an acrostic poem with \"Jeong Mero.\"\n\nJeong: Jeong Hayeon\nMe: Bleh"
+    },
+    {
+      "type": "hayeon",
+      "ko": "육바연으로 삼행시 할게요\n육 각단\n바 보 정하\n연 천재",
+      "en": "I'll do one with \"Yuk-Ba-Yeon.\"\n\nYuk: Hexagon\nBa: Fool, Jeong Ha...\nYeon: -yeon is a genius."
+    },
+    {
+      "type": "fan",
+      "ko": "진진진 짜짜로 억크크임",
+      "en": "\"It's 'Jin Jin Jin Jja Jja' for real lol.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "완전 천크크인데",
+      "en": "It's totally genius lol."
+    },
+    {
+      "type": "hayeon",
+      "ko": "천재",
+      "en": "Genius."
+    },
+    {
+      "type": "fan",
+      "ko": "아 육바연 땡긴다",
+      "en": "Now I'm craving Yukbayeon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "먹으삼!!!",
+      "en": "Go eat some!!!"
+    },
+    {
+      "type": "fan",
+      "ko": "애들이랑있을때 진진진짜짜를 쓰니까 애들이 이상하게 쳐다봤어..",
+      "en": "When I used 'Jin Jin Jin Jjajja' around the members, they all looked at me weird..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "트렌드를 모르시네~",
+      "en": "Guess they don't know the trend~"
+    },
+    {
+      "type": "fan",
+      "ko": "아이들아, 꼭 제때 병원에 가세요! 한 달 전부터 가슴이 아프기 시작했지만, 곧 나아질 거라고 계속 생각해서 미루고 가지 않았습니다. 오늘 의사가 직접 나에게 \"왜 이제서야 왔어?\"라고 물었고, 지금 내 마음에 정하연이 있다고 말했다.",
+      "en": "Everyone, make sure you go to the hospital on time! My chest started hurting about a month ago, but I kept putting it off because I thought it'd get better. Today the doctor looked at me and asked, \"Why did you only come now?\" I told them it's because Jeong Hayeon is in my heart."
+    },
+    {
+      "type": "hayeon",
+      "ko": "깜짝놀랐네",
+      "en": "You scared me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 있는거면",
+      "en": "If I'm in there,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "병원 가지말자 그냥",
+      "en": "then don't go to the hospital."
+    },
+    {
+      "type": "fan",
+      "ko": "그래 그냥 평생 같이이자 언니",
+      "en": "Then let's stay together forever, unnie."
+    },
+    {
+      "type": "hayeon",
+      "ko": "눌러살게 맘속에",
+      "en": "I'll settle down in your heart."
+    },
+    {
+      "type": "fan",
+      "ko": "요즘 브로콜리는 잘 지냄??",
+      "en": "How's Broccoli doing these days??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "브로콜리 썰 하나 풀자면",
+      "en": "Here's a little Broccoli story."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아빠앞에서 다리하나 절뚝이면서 간식얻어 가고",
+      "en": "In front of my dad, he limps on one leg to get treats."
+    },
+    {
+      "type": "hayeon",
+      "ko": "걱정 다해놨더만",
+      "en": "My dad got so worried,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "산책하는데 열심히 뛰어다니심",
+      "en": "but when we go out for a walk, he runs around everywhere."
+    },
+    {
+      "type": "hayeon",
+      "ko": "대배우야",
+      "en": "He's a real actor."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 똑똑하셔서 하연아빠 얄미워상태",
+      "en": "He's so smart that my dad can't help getting annoyed."
+    },
+    {
+      "type": "fan",
+      "ko": "코카콜라한테 연기 배워야겠다 하연이",
+      "en": "Hayeon should learn acting from Coca-Cola."
+    },
+    {
+      "type": "hayeon",
+      "ko": "강의 받고올게",
+      "en": "I'll go take some lessons."
+    },
+    {
+      "type": "hayeon",
+      "ko": "강의 받고왔다",
+      "en": "I'm back from my lessons."
+    },
+    {
+      "type": "hayeon",
+      "image": "image-03.jpeg"
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀엽지",
+      "en": "Cute, right?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "엄마가 보내줌",
+      "en": "My mom sent it to me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "작아보이지만 진짜 큼",
+      "en": "It looks small, but it's actually really big."
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀여우엉 ㅠ",
+      "en": "So cute. ㅠ"
+    },
+    {
+      "type": "fan",
+      "ko": "브로콜리색은 아니구나",
+      "en": "It's not broccoli-colored though."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그럼 문제 있지...",
+      "en": "Well, that would've been a problem..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아직 한살도 안됐러",
+      "en": "It's not even a year old yet."
+    },
+    {
+      "type": "fan",
+      "ko": "그럼 하연이의 존재를 모르는거 아니야",
+      "en": "Then it probably doesn't even know Hayeon exists."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞아 외부인이야 아직",
+      "en": "That's right. It's still an outsider."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무더워",
+      "en": "It's so hot."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 씻으러 갈게",
+      "en": "I'm going to take a shower."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맛있는 저녁먹고~~",
+      "en": "Have a delicious dinner~~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해😚😚",
+      "en": "Haranghae. 😚😚"
+    }
+  ]
+}

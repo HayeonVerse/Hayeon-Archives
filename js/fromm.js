@@ -2454,6 +2454,8 @@ App.render = function () {
 
     App.utils.clear(App.cache.container);
 
+    delete App.cache.sidebar.dataset.rendered;
+
     const fragment = App.utils.fragment();
 
     const archive = App.utils.groupArchive(
@@ -2735,7 +2737,13 @@ renderDesktop(){
 
     }
 
-    App.utils.clear(sidebar);
+    if(sidebar.dataset.rendered){
+
+    return;
+
+}
+
+sidebar.dataset.rendered = "true";
 
     const fragment =
         App.utils.fragment();
@@ -3326,15 +3334,54 @@ highlight(){
 
     App.updateSidebarActive();
 
+this.scrollActiveIntoView();
+
+},
+
+scrollActiveIntoView(){
+
+    const active = document.querySelector(
+
+        ".timeline-date.active"
+
+    );
+
+    if(!active){
+
+        return;
+
+    }
+
+    active.scrollIntoView({
+
+        block: "nearest",
+
+        behavior: "smooth"
+
+    });
+
 },
 
 expandDesktop(year, month){
+
+    const yearChanged =
+        !App.state.sidebar.years.has(year);
+
+    const monthKey =
+        `${year}-${month}`;
+
+    const monthChanged =
+        !App.state.sidebar.months.has(monthKey);
 
     this.openYear(year);
 
     this.openMonth(year, month);
 
-    this.renderDesktop();
+    if(yearChanged || monthChanged){
+
+        this.renderDesktop();
+
+    }
 
 },
 
@@ -3355,6 +3402,53 @@ openMonth(year, month){
         `${year}-${month}`
 
     );
+
+},
+
+updateDesktopState(){
+
+    document
+        .querySelectorAll(".sidebar-year-content")
+        .forEach(section=>{
+
+            const year =
+                section.parentElement
+                    .querySelector(".timeline-year")
+                    .dataset.year;
+
+            const open =
+                App.state.sidebar.years.has(year);
+
+            section.classList.toggle("open", open);
+
+            section.parentElement
+                .querySelector(".archive-arrow")
+                .classList.toggle("open", open);
+
+        });
+
+    document
+        .querySelectorAll(".sidebar-month")
+        .forEach(wrapper=>{
+
+            const header =
+                wrapper.querySelector(".timeline-month");
+
+            const key =
+                `${header.dataset.year}-${header.dataset.month}`;
+
+            const open =
+                App.state.sidebar.months.has(key);
+
+            wrapper
+                .querySelector(".sidebar-month-content")
+                .classList.toggle("open", open);
+
+            header
+                .querySelector(".archive-arrow")
+                .classList.toggle("open", open);
+
+        });
 
 },
 
