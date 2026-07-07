@@ -948,3 +948,20 @@ transition:
     transform:rotate(90deg);
 
 }
+
+@media (max-width: 480px){
+
+    .fromm-stats{
+        grid-template-columns: repeat(2, 1fr);
+        gap:16px;
+    }
+
+    .stat-card{
+        padding:18px;
+    }
+
+    .stat-card h3{
+        font-size:32px;
+    }
+
+}
