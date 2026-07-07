@@ -949,7 +949,7 @@ transition:
 
 }
 
-@media (max-width: 480px){
+@media (max-width: 768px){
 
     .fromm-stats{
         grid-template-columns: repeat(2, 1fr);
