@@ -210,17 +210,20 @@ monthHeader.onclick = () => {
     // ALWAYS rebuild if empty (FIX FOR YOUR BUG)
     if (monthContent.children.length === 0) {
 
-        const dayGrid = document.createElement("div");
-        dayGrid.className = "archive-days";
+const dayGrid = document.createElement("div");
+dayGrid.className = "archive-days";
 
-        const days = archive[year][month]
-            .sort((a,b)=>Number(b.day)-Number(a.day));
+const fragment = document.createDocumentFragment();
 
-        for (const dayGroup of days) {
-            dayGrid.appendChild(createDay(dayGroup));
-        }
+const days = archive[year][month]
+    .sort((a,b)=>Number(b.day)-Number(a.day));
 
-        monthContent.appendChild(dayGrid);
+for (const dayGroup of days) {
+    fragment.appendChild(createDay(dayGroup));
+}
+
+dayGrid.appendChild(fragment);
+monthContent.appendChild(dayGrid);
     }
 
     // scroll
@@ -306,16 +309,22 @@ header.innerHTML = `
 
             } else {
 
-                const vid = document.createElement("video");
-                vid.src = src;
-                vid.muted = true;
+const vid = document.createElement("video");
 
-                vid.onclick = e => {
-                    e.stopPropagation();
-                    openAlbum(album.path, index);
-                };
+vid.src = src;
+vid.muted = true;
 
-                grid.appendChild(vid);
+// Performance improvements
+vid.preload = "metadata";
+vid.playsInline = true;
+vid.disablePictureInPicture = true;
+
+vid.onclick = e => {
+    e.stopPropagation();
+    openAlbum(album.path, index);
+};
+
+grid.appendChild(vid);
             }
         });
 

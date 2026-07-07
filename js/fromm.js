@@ -834,78 +834,44 @@ header.appendChild(arrow);
 
     // Temporary:
     // We still render immediately.
-let rendered = false;
+body._rendered = false;
 
-header.addEventListener("click", () => {
+function closeConversation(targetBody, targetArrow) {
 
-    const alreadyOpen =
-        body.classList.contains("open");
+    targetBody.classList.remove("open");
 
-    // Close every other conversation
-    document.querySelectorAll(".fromm-conversation-body.open")
-        .forEach(section => {
+    if (targetArrow) {
 
-            if (section !== body) {
-
-section.classList.remove("open");
-
-setTimeout(() => {
-
-    section.innerHTML = "";
-
-}, App.config.animationSpeed);
-
-                const card =
-                    section.closest(".fromm-conversation-card");
-
-                if (card) {
-
-                    const otherArrow =
-                        card.querySelector(".archive-arrow");
-
-                    if (otherArrow) {
-
-                        otherArrow.classList.remove("open");
-
-                    }
-
-                }
-
-            }
-
-        });
-
-if (alreadyOpen) {
-
-    body.classList.remove("open");
-
-    arrow.classList.remove("open");
-
-    setTimeout(() => {
-
-        body.innerHTML = "";
-
-        rendered = false;
-
-    }, App.config.animationSpeed);
-
-    return;
+    targetArrow.classList.remove("open");
 
 }
 
-    if (!rendered) {
+    setTimeout(() => {
+
+        targetBody.innerHTML = "";
+        targetBody._rendered = false;
+
+    }, App.config.animationSpeed);
+
+}
+
+function openConversation() {
+
+    if (!body._rendered) {
 
         body.appendChild(
             App.renderConversationBody(conversation)
         );
 
-        rendered = true;
+        body._rendered = true;
 
     }
 
     body.classList.add("open");
 
-    setTimeout(() => {
+    body.scrollTop = 0;
+
+    arrow.classList.add("open");
 
     card.scrollIntoView({
 
@@ -915,10 +881,47 @@ if (alreadyOpen) {
 
     });
 
-}, 50);
-body.scrollTop = 0;
+}
 
-    arrow.classList.add("open");
+header.addEventListener("click", () => {
+
+const alreadyOpen =
+    body.classList.contains("open");
+
+// Close this conversation
+if (alreadyOpen) {
+
+    closeConversation(body, arrow);
+
+    return;
+
+}
+
+// Close every other conversation
+document.querySelectorAll(".fromm-conversation-body.open")
+    .forEach(section => {
+
+        if (section === body) return;
+
+        const otherCard =
+            section.closest(".fromm-conversation-card");
+
+        const otherArrow =
+            otherCard?.querySelector(".archive-arrow");
+
+        closeConversation(
+            section,
+            otherArrow
+        );
+
+    });
+
+// Wait for closing animation
+setTimeout(() => {
+
+    openConversation();
+
+}, App.config.animationSpeed);
 
 });
 
