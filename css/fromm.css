@@ -965,3 +965,36 @@ transition:
     }
 
 }
+
+@media (max-width:768px){
+
+    .message{
+
+        width:88%;
+        max-width:none;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .fromm-year-content.open,
+    .fromm-month-content.open{
+
+        padding:0 12px 16px;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .fromm-conversation{
+
+        padding:16px 0;
+
+    }
+
+}
+
