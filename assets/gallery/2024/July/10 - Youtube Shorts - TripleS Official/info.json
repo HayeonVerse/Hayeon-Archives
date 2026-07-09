@@ -3,7 +3,9 @@
     "date": "July 10",
     "source": "Archive",
     "tags": [],
-    "video": "https://www.youtube.com/shorts/SUzoo1aU7Z8",
+    "video": [
+        "https://www.youtube.com/shorts/SUzoo1aU7Z8"
+    ],
     "cover": null,
     "files": []
 }

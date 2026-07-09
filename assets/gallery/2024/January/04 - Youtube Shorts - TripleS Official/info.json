@@ -3,7 +3,11 @@
     "date": "January 04",
     "source": "Archive",
     "tags": [],
-    "video": "https://www.youtube.com/shorts/oNo8kF_-hDQ",
-    "cover": null,
-    "files": []
+    "video": [
+        "https://www.youtube.com/shorts/oNo8kF_-hDQ"
+    ],
+    "cover": "hyjb.mp4",
+    "files": [
+        "hyjb.mp4"
+    ]
 }

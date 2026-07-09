@@ -3,7 +3,9 @@
     "date": "January 12",
     "source": "Archive",
     "tags": [],
-    "video": "https://www.youtube.com/shorts/FwQRjF83aYg",
+    "video": [
+        "https://www.youtube.com/shorts/FwQRjF83aYg"
+    ],
     "cover": null,
     "files": []
 }

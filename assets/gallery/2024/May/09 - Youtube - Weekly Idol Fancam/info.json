@@ -3,7 +3,9 @@
     "date": "May 09",
     "source": "Archive",
     "tags": [],
-    "video": "https://youtu.be/hOxwNVk--UQ?si=xVwp8N-YAnSQgpIt",
+    "video": [
+        "https://youtu.be/hOxwNVk--UQ?si=xVwp8N-YAnSQgpIt"
+    ],
     "cover": null,
     "files": []
 }

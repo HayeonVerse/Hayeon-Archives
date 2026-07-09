@@ -23,7 +23,7 @@ function scan(dir) {
     const folders = entries.filter(e => e.isDirectory());
 
 const media = [];
-let youtube = null;
+const youtube = [];
 
 files.forEach(file => {
     const ext =
@@ -42,14 +42,12 @@ if (
     )
     === ".txt"
 ) {
-        youtube =
-        fs.readFileSync(
-            path.join(
-                dir,
-                file.name
-            ),
-            "utf8"
-        ).trim();
+youtube.push(
+    fs.readFileSync(
+        path.join(dir, file.name),
+        "utf8"
+    ).trim()
+);
     }
 });
 
@@ -61,7 +59,7 @@ if (
     parts.length === 3 &&
     (
         media.length ||
-        youtube
+        youtube.length
     )
 ) {
 const [year, month, folder] = parts;

@@ -3,7 +3,9 @@
     "date": "May 28",
     "source": "Archive",
     "tags": [],
-    "video": "https://www.youtube.com/shorts/0OUf7SkU4Eg",
+    "video": [
+        "https://www.youtube.com/shorts/0OUf7SkU4Eg"
+    ],
     "cover": null,
     "files": []
 }

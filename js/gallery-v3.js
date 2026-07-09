@@ -348,20 +348,27 @@ grid.appendChild(vid);
             }
         });
 
-        if (album.info.video) {
+const videos = Array.isArray(album.info.video)
+    ? album.info.video
+    : album.info.video
+        ? [album.info.video]
+        : [];
 
-            const iframe = document.createElement("iframe");
-            iframe.className = "youtube-player";
-            iframe.src = getYoutubeEmbed(album.info.video);
-            iframe.allowFullscreen = true;
+videos.forEach(videoUrl => {
 
-            iframe.onclick = e => {
-                e.stopPropagation();
-                openYoutube(album.info.video);
-            };
+    const iframe = document.createElement("iframe");
+    iframe.className = "youtube-player";
+    iframe.src = getYoutubeEmbed(videoUrl);
+    iframe.allowFullscreen = true;
 
-            grid.appendChild(iframe);
-        }
+    iframe.onclick = e => {
+        e.stopPropagation();
+        openYoutube(videoUrl);
+    };
+
+    grid.appendChild(iframe);
+
+});
     });
 
     media.appendChild(grid);
