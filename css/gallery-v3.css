@@ -8,6 +8,149 @@
     gap:24px;
 }
 
+/* ==========================================
+   GALLERY STATS
+========================================== */
+
+.gallery-stats{
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+
+    gap:24px;
+
+    margin:40px 0;
+
+}
+
+.gallery-stat-card{
+
+    background:var(--card);
+
+    border:1px solid var(--border);
+
+    border-radius:18px;
+
+    padding:28px 20px;
+
+    text-align:center;
+
+    transition:.25s;
+
+}
+
+.gallery-stat-card:hover{
+
+    transform:translateY(-4px);
+
+    border-color:var(--mint);
+
+    box-shadow:0 8px 24px rgba(0,0,0,.15);
+
+}
+
+.gallery-stat-icon{
+
+    font-size:30px;
+
+    margin-bottom:14px;
+
+}
+
+.gallery-stat-card h3{
+
+    font-size:34px;
+
+    color:var(--mint);
+
+    margin-bottom:6px;
+
+}
+
+.gallery-stat-card p{
+
+    color:var(--text-light);
+
+    font-weight:600;
+
+}
+
+@media (max-width:768px){
+
+    .gallery-stats{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+/* ==========================================
+   FILTER BAR
+========================================== */
+
+.gallery-filter{
+
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+
+    gap:16px;
+
+    margin:40px 0 56px;
+
+}
+
+.filter-btn{
+
+    min-width:120px;
+
+    padding:12px 20px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    gap:8px;
+
+    border-radius:999px;
+
+    border:1px solid var(--border);
+
+    background:var(--card);
+
+    color:var(--text);
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.filter-btn:hover{
+
+    border-color:var(--mint);
+
+    transform:translateY(-2px);
+
+}
+
+.filter-btn.active{
+
+    background: var(--mint) !important;
+    color: #111827 !important;
+    border-color: var(--mint) !important;
+
+    font-weight: 700;
+
+}
+
+.filter-btn.active *{
+
+    color: #111827 !important;
+
+}
+
 /* ==========================
    YEAR
 ========================== */

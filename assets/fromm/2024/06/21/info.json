@@ -1,0 +1,336 @@
+{
+  "date": "2024-06-21",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "모해",
+      "en": "What are you doing?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 왔는데",
+      "en": "I'm here."
+    },
+    {
+      "type": "hayeon",
+      "ko": "자려고하는건 아니지??",
+      "en": "You're not about to go to sleep, are you??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎ",
+      "en": "ㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래그래",
+      "en": "Alright, alright."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 토욜이자나",
+      "en": "It's Saturday today."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이는 무해?",
+      "en": "What are you doing, Hayeon?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "움",
+      "en": "Hmm."
+    },
+    {
+      "type": "hayeon",
+      "ko": "Nickname 생각?",
+      "en": "Thinking about Y/N?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짠데~",
+      "en": "I really am~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그니까 왔지",
+      "en": "That's why I came."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 영통팬싸에서",
+      "en": "At today's video call fansign,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "소나기 불렀는데~~",
+      "en": "I sang 'Sudden Shower'~~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다음엔",
+      "en": "Next time,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "공개적으로",
+      "en": "I'll sing it publicly."
+    },
+    {
+      "type": "hayeon",
+      "ko": "불러줄게",
+      "en": "I'll sing it for you."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-01.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 심심해",
+      "en": "I'm bored."
+    },
+    {
+      "type": "hayeon",
+      "ko": "노라됴",
+      "en": "Play with me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 님",
+      "en": "Hey."
+    },
+    {
+      "type": "hayeon",
+      "ko": "로블록스 조아하세욤?",
+      "en": "Do you like Roblox?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "저랑 로블 한판?",
+      "en": "Want to play a round with me?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니면",
+      "en": "Or..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "저 마크 사듀새염",
+      "en": "Buy me Minecraft."
+    },
+    {
+      "type": "hayeon",
+      "ko": "사실 요즘 할",
+      "en": "Actually, these days..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "핸드폰게임 찾는중",
+      "en": "I'm looking for a mobile game to play."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그 피자게임",
+      "en": "That pizza game..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "열심히하고있긴해ㅋ",
+      "en": "I've been playing it a lot. ㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "정답 위대한 피자 좋은 피자",
+      "en": "The answer is Good Pizza, Great Pizza."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-02.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 좀 부답스러웠나",
+      "en": "Ah... was that a bit too much?"
+    },
+    {
+      "type": "fan",
+      "ko": "음성 좀 길게 해줘ㅠㅠ감질맛나",
+      "en": "Please make the voice messages a little longer. ㅠㅠ They're too short."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-03.mp3"
+    },
+    {
+      "type": "fan",
+      "ko": "귀가따뜻해지고좋네..",
+      "en": "My ears feel warm and happy..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "에잇ㅋㄹㅌㄹㄹㅌㅌㄹㅌㄹㅌㅌㅌ",
+      "en": "Eiit~ ㅋㄹㅌㄹㄹㅌㅌㄹㅌㄹㅌㅌㅌ"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-04.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "킹받네",
+      "en": "That's so annoying. 😂"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-05.mp3"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-06.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "손톱😏",
+      "en": "My nails. 😏"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잠 안듬",
+      "en": "I can't sleep."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 안졸려",
+      "en": "I'm seriously not sleepy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어뚜커지",
+      "en": "What should I do?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "재워줘 ㅠㅠ",
+      "en": "Put me to sleep. ㅠㅠ"
+    },
+    {
+      "type": "fan",
+      "ko": "노래를 불러 주었으면 좋겠다",
+      "en": "I wish you'd sing a song."
+    },
+    {
+      "type": "hayeon",
+      "ko": "무슨노래 불러주까?",
+      "en": "What song should I sing?"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-07.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 심하게 귀엽네",
+      "en": "Ah, that's way too cute."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어떡하냐",
+      "en": "What am I supposed to do?"
+    },
+    {
+      "type": "fan",
+      "ko": "치유 랩 파트 어때 제발",
+      "en": "How about the rap part from 'Chiyu'? Please."
+    },
+    {
+      "type": "hayeon",
+      "ko": "겨울지나고",
+      "en": "'After Winter'?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그거?",
+      "en": "That one?"
+    },
+    {
+      "type": "fan",
+      "ko": "가사찾고있는거아니지?",
+      "en": "You're not looking up the lyrics, are you?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니고등",
+      "en": "Nooo."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잠만 부끄러어",
+      "en": "Wait, I'm embarrassed."
+    },
+    {
+      "type": "hayeon",
+      "ko": "누가 나와써",
+      "en": "Someone came out."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 거실이야 ㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "I'm in the living room. ㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-08.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아잉",
+      "en": "Aww."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아",
+      "en": "Ah."
+    },
+    {
+      "type": "hayeon",
+      "ko": "머리도 안말려써",
+      "en": "I haven't even dried my hair yet."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘은 이만 가보께",
+      "en": "I should get going for today."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그냥 보고싶어서 온거거등",
+      "en": "I just came because I missed you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎ",
+      "en": "ㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-09.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해~",
+      "en": "Haranghae~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘자!!",
+      "en": "Good night!!"
+    }
+  ]
+}

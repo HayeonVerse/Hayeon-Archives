@@ -950,21 +950,6 @@ footer{
     font-weight:700;
 
 }
-/* ===========================
-   HOME STATS
-=========================== */
-
-.home-stats{
-
-    display:grid;
-
-    grid-template-columns:repeat(4,1fr);
-
-    gap:22px;
-
-    margin-bottom:70px;
-
-}
 
 /* ===========================
    ABOUT

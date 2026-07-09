@@ -1,0 +1,591 @@
+{
+  "date": "2024-06-23",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "짠",
+      "en": "Ta-da!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "미안",
+      "en": "Sorry."
+    },
+    {
+      "type": "hayeon",
+      "ko": "또 늦은시간에 왔네",
+      "en": "I came late again."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이는 잠도 안자고 웨이브생각하나봐",
+      "en": "Looks like Hayeon doesn't even sleep because she's busy thinking about WAV."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 뭐하고 있었냐구",
+      "en": "No, I was asking what you were doing."
+    },
+    {
+      "type": "fan",
+      "ko": "오늘 뜬 팬콘 포스터 넘 예쁘드라~??",
+      "en": "The fan concert poster that came out today was so pretty~??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "인정",
+      "en": "Agreed."
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀엽더라",
+      "en": "It was really cute."
+    },
+    {
+      "type": "fan",
+      "ko": "ㄱㅅ",
+      "en": "Thanks."
+    },
+    {
+      "type": "hayeon",
+      "ko": "?",
+      "en": "?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니",
+      "en": "No..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금 온 이유는",
+      "en": "The reason I came now..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "자기전에",
+      "en": "before going to bed..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "안부차",
+      "en": "was just to check in."
+    },
+    {
+      "type": "hayeon",
+      "ko": "왔지",
+      "en": "That's why I came."
+    },
+    {
+      "type": "hayeon",
+      "ko": "보고싶어!!!!!!",
+      "en": "I missed you!!!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㄱ우강아아아아",
+      "en": "Puppyyyyyy!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "으아앙아아ㅏㅏㅏ",
+      "en": "Aaaaahhhhh!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞다",
+      "en": "Oh right."
+    },
+    {
+      "type": "hayeon",
+      "ko": "Y/n",
+      "en": "Y/N."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 뭐 달라진거 없어??",
+      "en": "Isn't there anything different about me??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니야",
+      "en": "No?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "빨리~",
+      "en": "Come on~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "기대기대",
+      "en": "I'm waiting~"
+    },
+    {
+      "type": "fan",
+      "ko": "사랑해",
+      "en": "I love you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그런거 안통해",
+      "en": "That won't work."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 모르는거야…?",
+      "en": "You really don't know...?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하",
+      "en": "Sigh..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "Y/n 대한 내 마음이 더 커졌잖아.",
+      "en": "My feelings for Y/N have gotten even bigger."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "놀랐어??",
+      "en": "Surprised??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㄹㅋㅋ",
+      "en": "ㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀엽네?",
+      "en": "Cute, aren't you?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데",
+      "en": "But..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "Y/n 눈 내가 왜조아?",
+      "en": "Why do you like me, Y/N?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "으흐흐",
+      "en": "Hehe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "설레네?",
+      "en": "Doesn't that make your heart flutter?"
+    },
+    {
+      "type": "fan",
+      "ko": "하연이는 내가 왜 좋아?",
+      "en": "Why do you like me, Hayeon?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나는",
+      "en": "Because..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나를 이렇게나 좋아해주는 사람이라 좋아",
+      "en": "I like someone who loves me this much."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고?",
+      "en": "And..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀엽고",
+      "en": "you're cute,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사랑스럽고",
+      "en": "lovable,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 잘놀아주고",
+      "en": "you always play with me,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래서",
+      "en": "so..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "조아",
+      "en": "I like you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아잉",
+      "en": "Aing~"
+    }    ,
+    {
+      "type": "fan",
+      "ko": "아잉 자기야~ 이렇게 사람많은 곳에서 사랑고백을 하면 어떡해잉~🤭",
+      "en": "Aww, babe~ What am I supposed to do if you confess your love to me in such a crowded place~ 🤭"
+    },
+    {
+      "type": "hayeon",
+      "ko": "당황스럽네",
+      "en": "Now I'm embarrassed."
+    },
+    {
+      "type": "fan",
+      "ko": "뀨잉뀨잉",
+      "en": "Kkyuing kkyuing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "처음듣는 효과음이다",
+      "en": "That's the first time I've ever heard that sound effect."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이 나중에 학교 브이로그도 찍어줄거야??",
+      "en": "Hayeon, will you film a school vlog someday?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "학교 화장하고 가는날",
+      "en": "The day I go to school wearing makeup..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "고려해볼게",
+      "en": "I'll think about it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋ 커 ㅋㄹㅋ",
+      "en": "ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "난 생얼 하연이도 좋은데🤭🤭",
+      "en": "I like no-makeup Hayeon too. 🤭🤭"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 시러..",
+      "en": "I don't..."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이 학교에 화장하고 가면 전학생인줄 아는거 아니야???",
+      "en": "If you went to school wearing makeup, wouldn't everyone think you were a transfer student???"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그정도 아니다~",
+      "en": "It's not that dramatic~"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-01.mp3"
+    },
+    {
+      "type": "fan",
+      "ko": "하연이 학교에는 육각단없어?",
+      "en": "Are there any Hexagons at your school?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "쌤들 다 육각단인듯",
+      "en": "I think all of my teachers are Hexagons."
+    },
+    {
+      "type": "hayeon",
+      "ko": "교무실 들어가면 노래 불러주셔",
+      "en": "Whenever I go into the teachers' office, they sing our songs for me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "걸네다",
+      "en": "I'm busted."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅌㄹㅌㄹㅌㄹㅋ",
+      "en": "ㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 멎가",
+      "en": "Oh right."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞다",
+      "en": "Speaking of that..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나",
+      "en": "I..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "저번에",
+      "en": "the other day..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "학교갔는데",
+      "en": "went to school."
+    },
+    {
+      "type": "hayeon",
+      "ko": "1학년때 과목쌤이",
+      "en": "One of the teachers I had in my first year..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "쌤의 반 아이들",
+      "en": "gathered the students from their class."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나한텐 후배들",
+      "en": "They're my juniors."
+    },
+    {
+      "type": "hayeon",
+      "ko": "모아놓고",
+      "en": "They gathered them together..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "트리플에스야! 이러시고",
+      "en": "and said, 'It's tripleS!'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "애기들이",
+      "en": "Then the kids..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "팬이에요",
+      "en": "said, 'We're fans!'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "우아 우아",
+      "en": "\"Whoa! Whoa!\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러는데",
+      "en": "They were all like that,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "기분이 넘 이상해써",
+      "en": "and it felt so strange."
+    },
+    {
+      "type": "fan",
+      "ko": "쌩얼도 이쁘지만 동심지켜줘야지",
+      "en": "You're pretty even without makeup, but you've got to protect the kids' innocence."
+    },
+    {
+      "type": "hayeon",
+      "ko": "머라했냐????",
+      "en": "What did you just say????"
+    },
+    {
+      "type": "fan",
+      "ko": "슈퍼스타네 슈스다 슈스 정하연",
+      "en": "You're a superstar. Superstar Jeong Hayeon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 모래~ 뭘또 ~아이참",
+      "en": "Oh, stop it~ Come on~ Geez."
+    },
+    {
+      "type": "hayeon",
+      "ko": "야!!!!!",
+      "en": "Hey!!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "라구 해두대?",
+      "en": "Can I call you 'Hey'?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내꼬라구 해두대?",
+      "en": "Can I call you mine?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리둘만아는 애띵이피됴해",
+      "en": "Let's make a nickname that only the two of us know."
+    },
+    {
+      "type": "hayeon",
+      "ko": "유까가",
+      "en": "Yukkaga."
+    },
+    {
+      "type": "hayeon",
+      "ko": "유까가아아앙ㅇ",
+      "en": "Yukkaagaaa!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그러니까 오늘부터 내꼬햄",
+      "en": "So from today on, you're mine."
+    },
+    {
+      "type": "hayeon",
+      "ko": "히힛",
+      "en": "Hehe."
+    },
+    {
+      "type": "fan",
+      "ko": "야는 안 돼.",
+      "en": "'Hey' is not allowed."
+    },
+    {
+      "type": "hayeon",
+      "ko": "까다롭넹?",
+      "en": "You're picky, huh?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그럼…",
+      "en": "Then..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "쟈기..?",
+      "en": "Darling...?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아잉",
+      "en": "Aing~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "미안하게됐다",
+      "en": "Well... this is awkward."
+    },
+    {
+      "type": "hayeon",
+      "ko": "심심하네 오늘 좀",
+      "en": "I'm kind of bored today."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 지금",
+      "en": "Right now..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "유빈언니랑",
+      "en": "I'm with Yubin unnie."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이써",
+      "en": "We're together."
+    }    ,
+    {
+      "type": "fan",
+      "ko": "구래써?",
+      "en": "Really?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "웅 구대떠",
+      "en": "Yep, that's right."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-02.mp3"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-03.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "유진언니가 달력 나눔해준다고 했는데",
+      "en": "Yujin unnie said she was going to give me one of the calendars."
+    },
+    {
+      "type": "hayeon",
+      "ko": "안가져간다해서",
+      "en": "But she said she wasn't taking it after all."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "세상 좋아졌어 방에 누워서 정하연 애교 목소리나 듣고 있고",
+      "en": "The world's such a nice place now. I can just lie in my room and listen to Jeong Hayeon's cute voice."
+    },
+    {
+      "type": "hayeon",
+      "ko": "와 조켓당",
+      "en": "Wow, that sounds nice."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞다 나 자여되는데",
+      "en": "Oh right, I should really go to sleep."
+    },
+    {
+      "type": "fan",
+      "ko": "보내기 싫네",
+      "en": "I don't want to let you go."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 가기시러",
+      "en": "I don't want to leave either."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그치만 자려고 노력해야해",
+      "en": "But I have to at least try to get some sleep."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이제 가보께",
+      "en": "I'm going to head off now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘도 하랑해에~",
+      "en": "Haranghae, as always~"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-04.mp3"
+    }
+  ]
+}

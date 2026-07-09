@@ -1,6 +1,8 @@
 {
   "scripts": {
     "gallery": "node Script/generate-gallery.js",
-    "fromm": "node builder/fromm/cli.js"
+    "fromm": "node builder/fromm/cli.js",
+    "fromm:archive": "node builder/fromm/rebuild-archive.js"
   }
 }
+

@@ -715,6 +715,9 @@ transition:
 
     margin-top:14px;
 
+    width:fit-content;
+    max-width:420px;
+
 }
 
 .message-image,
@@ -998,3 +1001,36 @@ transition:
 
 }
 
+@media (max-width:768px){
+
+    .message-image img,
+    .message-video video{
+        max-width:100%;
+    }
+
+}
+
+.notice-card{
+    max-width:900px;
+    margin:32px auto 48px;
+    padding:24px 28px;
+
+    background:var(--card);
+    border:1px solid rgba(82,217,187,.15);
+    border-left:5px solid var(--mint);
+    border-radius:18px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+.notice-card h3{
+    margin-bottom:16px;
+    color:var(--mint);
+    font-size:22px;
+}
+
+.notice-card p{
+    margin:12px 0;
+    line-height:1.7;
+    color:var(--text-light);
+}

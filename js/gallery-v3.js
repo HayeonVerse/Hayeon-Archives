@@ -19,6 +19,99 @@ let currentMediaIndex = 0;
 let loadedAlbums = [];
 let ytFrame = null;
 
+let currentFilter = "all";
+
+function updateStats() {
+
+    let albums = loadedAlbums.length;
+    let photos = 0;
+    let videos = 0;
+    let youtube = 0;
+
+
+    
+    loadedAlbums.forEach(album => {
+
+        // Count local files
+        album.info.files.forEach(file => {
+
+            const ext = file.split(".").pop().toLowerCase();
+
+            if (["jpg","jpeg","png","gif","webp"].includes(ext)) {
+                photos++;
+            } else {
+                videos++;
+            }
+
+        });
+
+        // Count YouTube links
+        if (album.info.video) {
+
+            if (Array.isArray(album.info.video)) {
+                youtube += album.info.video.length;
+            } else {
+                youtube++;
+            }
+
+        }
+
+    });
+
+    document.getElementById("gallery-albums").textContent = albums;
+    document.getElementById("gallery-photos").textContent = photos;
+    document.getElementById("gallery-videos").textContent = videos;
+    document.getElementById("gallery-youtube").textContent = youtube;
+
+}
+
+function filterAlbums(albums) {
+
+    if (currentFilter === "all") {
+        return albums;
+    }
+
+    return albums.filter(album => {
+
+        const files = album.info.files || [];
+
+        const hasImage = files.some(file => {
+            const ext = file.split(".").pop().toLowerCase();
+            return ["jpg","jpeg","png","gif","webp"].includes(ext);
+        });
+
+        const hasVideo = files.some(file => {
+            const ext = file.split(".").pop().toLowerCase();
+            return !["jpg","jpeg","png","gif","webp"].includes(ext);
+        });
+
+        const hasYoutube =
+            album.info.video &&
+            (
+                Array.isArray(album.info.video)
+                    ? album.info.video.length
+                    : true
+            );
+
+        switch(currentFilter){
+
+            case "image":
+                return hasImage;
+
+            case "video":
+                return hasVideo;
+
+            case "youtube":
+                return hasYoutube;
+
+            default:
+                return true;
+        }
+
+    });
+
+}
+
 /* -----------------------------
    YOUTUBE EMBED
 ----------------------------- */
@@ -77,7 +170,8 @@ async function loadGallery() {
             })
         );
 
-        buildArchive(loadedAlbums);
+updateStats();
+buildArchive(filterAlbums(loadedAlbums));
 
     } catch (err) {
         console.error(err);
@@ -524,4 +618,23 @@ document.addEventListener("keydown", (e) => {
     }
 
 });
+
+document.querySelectorAll(".filter-btn").forEach(btn => {
+
+    btn.addEventListener("click", () => {
+
+        currentFilter = btn.dataset.filter;
+
+        document.querySelectorAll(".filter-btn").forEach(b =>
+            b.classList.remove("active")
+        );
+
+        btn.classList.add("active");
+
+        buildArchive(filterAlbums(loadedAlbums));
+
+    });
+
+});
+
 window.addEventListener("DOMContentLoaded", loadGallery);
