@@ -1,0 +1,804 @@
+{
+  "date": "2026-07-10",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "모행",
+      "en": "What are you doing?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 휴가 보내구 있는데",
+      "en": "I'm on vacation right now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "친척 언니랑 동생이랑 친오빠랑",
+      "en": "I went with my older female cousin, my younger sibling, and my older brother."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어제 강릉 다녀왔거든",
+      "en": "We went to Gangneung yesterday."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 대부분 냈어",
+      "en": "I paid for most of it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "플렉스!!!!!",
+      "en": "Flex!!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "바다도 보고 회도 엄청 먹고",
+      "en": "We looked at the sea and ate tons of sashimi."
+    },
+    {
+      "type": "hayeon",
+      "ko": "레이저어택?",
+      "en": "Laser Attack?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그런걸 했거든",
+      "en": "We played something like that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "총 들고 진짜 서로 막 숨었다 쏘고",
+      "en": "We were carrying laser guns, hiding from each other, and shooting."
+    },
+    {
+      "type": "hayeon",
+      "ko": "현실판 배그처럼",
+      "en": "It was like real-life PUBG."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오빠가 일등하고 동생이 이등",
+      "en": "My brother came in first, and my younger sibling came in second."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 삼등.. 언니가 꼴지",
+      "en": "I got third... and my cousin came in last."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런!!!",
+      "en": "Can you believe it!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 그거 30분에 두게임인데",
+      "en": "But it was only two games in 30 minutes."
+    },
+    {
+      "type": "hayeon",
+      "ko": "운동 장난아니게 된다",
+      "en": "It seriously counts as a workout."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나올때 땀이 진짜 뚝뚝떨러짐",
+      "en": "By the time we came out, sweat was literally dripping off me."
+    },
+    {
+      "type": "hayeon",
+      "image": "image-01.png"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사촌언니가 디카도 가져와서 막 찍어줬는데",
+      "en": "My cousin also brought her digital camera and took a bunch of pictures."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나중에 올려주께",
+      "en": "I'll upload them later."
+    },
+    {
+      "type": "hayeon",
+      "ko": "혜린이가 전화왔다",
+      "en": "Hyerin called me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 너무 보고싶대",
+      "en": "She said she misses me so much."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 맞다 절친소 나왔지",
+      "en": "Oh right, 'Best Friend Introduction' came out, didn't it?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "번지점프한걸 얼마나 말하고 싶었는지",
+      "en": "I've been dying to talk about the bungee jump."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅠㅠㅠㅠㅠ",
+      "en": "ㅠㅠㅠㅠㅠ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 우리 하기 직전에",
+      "en": "Right before we were about to jump,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "바람 엄청불어서 막 흔들리고",
+      "en": "the wind got super strong and everything was shaking."
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리 뛰자마자 비왔다니까",
+      "en": "Then the moment we jumped, it started raining."
+    },
+    {
+      "type": "fan",
+      "ko": "아니 카메라 어케 잡은 거임ㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "en": "How did you even hold onto the camera? ㅋㅋㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 딱 뛰는데 카메라가 내눈앞에 날아가려 하능고",
+      "en": "Right as I jumped, the camera almost flew right into my face."
+    },
+    {
+      "type": "hayeon",
+      "ko": "바로 잡았지",
+      "en": "I caught it immediately."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고 번지점프는",
+      "en": "And bungee jumping..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "롤러코스터처럼 한번 훅 떨어지고 마는게 아니라",
+      "en": "It's not like a roller coaster where you just drop once."
+    },
+    {
+      "type": "hayeon",
+      "ko": "계속 무중력에 있는 느낌이라 뛰고 나서도 계속 무섭더라",
+      "en": "It feels like you're stuck in zero gravity the whole time, so even after I finished jumping, I was still terrified."
+    },
+    {
+      "type": "fan",
+      "ko": "한번에 뛰셔서 멋지셨음",
+      "en": "You looked so cool jumping on the first try."
+    },
+    {
+      "type": "hayeon",
+      "ko": "편집된것임....",
+      "en": "That was editing...."
+    },
+    {
+      "type": "hayeon",
+      "ko": "5분은 버텼는데",
+      "en": "I hesitated for five whole minutes."
+    },
+    {
+      "type": "hayeon",
+      "ko": "도망도 갈라했는데 붙잡히고",
+      "en": "I even tried to run away, but they caught me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 뛰는것보다",
+      "en": "More than the jump itself,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이 번지 점프 줄이 끊길까봐",
+      "en": "I was scared the bungee cord might snap."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고 김채원은 좀 안정적이게",
+      "en": "Kim Chaewon bounced pretty steadily,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "튕겼는데",
+      "en": "when she bounced."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 막 돌아가고 접히고 그랬다는거는",
+      "en": "But I was spinning around and folding up all over the place."
+    },
+    {
+      "type": "hayeon",
+      "ko": "혜린이가",
+      "en": "Hyerin..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "사랑한대",
+      "en": "said she loves me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "미치겠다",
+      "en": "I'm going crazy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "얘 언제 끊는거야",
+      "en": "When is she going to hang up?"
+    },
+    {
+      "type": "fan",
+      "ko": "ㅋㅋ 하연이 요즘 인기가 넘 좋은데 ㅋㅋ",
+      "en": "ㅋㅋ Hayeon is so popular these days."
+    },
+    {
+      "type": "hayeon",
+      "ko": "곤란해~~~",
+      "en": "This is troublesome~~~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "카와이다케따머시기데스까?",
+      "en": "\"Kawaii dake... something... desu ka?\""
+    },
+    {
+      "type": "fan",
+      "ko": "다메데스가 였나..",
+      "en": "Wasn't it 'dame desu ka'...?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 맞다",
+      "en": "Ah, that's right."
+    },
+    {
+      "type": "fan",
+      "ko": "카와이이 다케쟈 다메 데스카 입니다..",
+      "en": "It's 'Kawaii dake ja dame desu ka.'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아항!",
+      "en": "Ahhh, right!"
+    },
+        {
+      "type": "fan",
+      "ko": "언니 미니언즈 새로운 영화 봤어요??",
+      "en": "Unnie, have you seen the new Minions movie?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나왔어?????",
+      "en": "It's out?????"
+    },
+    {
+      "type": "fan",
+      "ko": "개봉한대",
+      "en": "It's about to be released."
+    },
+    {
+      "type": "hayeon",
+      "ko": "기대 완전 대박 바로봐야지",
+      "en": "I seriously can't wait. I'm going to watch it as soon as it comes out."
+    },
+    {
+      "type": "hayeon",
+      "ko": "미니언즈 너무 귀여워",
+      "en": "Minions are so cute."
+    },
+    {
+      "type": "hayeon",
+      "ko": "순진하고 귀여운 모습을 하고 지들 보스 막 죽이고",
+      "en": "They're innocent and adorable, yet they end up killing their own boss."
+    },
+    {
+      "type": "hayeon",
+      "ko": "바나나거리고 너무 귀여워",
+      "en": "They keep saying 'banana.' They're just too cute."
+    },
+    {
+      "type": "hayeon",
+      "ko": "밥이 젤 귀여워 내 최애야",
+      "en": "Bob is the cutest. He's my favorite."
+    },
+    {
+      "type": "fan",
+      "ko": "우리가 미니언즈처럼 해줄게",
+      "en": "We'll become Minions too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 그루인거지?",
+      "en": "So I'm Gru then?"
+    },
+    {
+      "type": "fan",
+      "ko": "분장하고 오면됨..?",
+      "en": "Just come dressed up..?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "좀 그렇긴 하다",
+      "en": "That might be a bit much..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "노랗게 칠하고 안경 쓰구?",
+      "en": "Paint yourself yellow and wear goggles?"
+    },
+    {
+      "type": "fan",
+      "ko": "하루종일 뚜찌빠찌거리면 버틸수 있겠어?",
+      "en": "Could you survive making Minion noises all day?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "미니언 언어 공부했었는데",
+      "en": "I actually studied the Minion language before."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하라는 영어공부는 안하고 하이뽀! 빠나나이런것만 외움",
+      "en": "Instead of studying English, I only memorized things like 'Haippo!' and 'Banana!'"
+    },
+    {
+      "type": "fan",
+      "ko": "이번 콘서트 드레스 코드가 미니언즈야?",
+      "en": "Is the dress code for this concert Minions?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "항상 이렇게 정해도",
+      "en": "Even when we decide things like that,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아무도 안하고 오고말이야",
+      "en": "nobody actually does it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "기대 잔뜩하고 보면 다",
+      "en": "I get all excited,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "무난하게 입고오고 내가찾는 미니언은 없다구!!!!",
+      "en": "then everyone shows up dressed normally. There's never a Minion anywhere!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 바라는건 옷이 아니라",
+      "en": "I'm not asking for the clothes."
+    },
+    {
+      "type": "hayeon",
+      "ko": "피부까지 페이스페인팅 딱 해서!!",
+      "en": "I want full face paint too!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "얼마나 귀여울까",
+      "en": "Just imagine how cute that would be."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아잉",
+      "en": "Aww."
+    },
+    {
+      "type": "fan",
+      "ko": "대중교통 타면 다들 놀라시겠다...",
+      "en": "People on public transportation would be shocked..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 삐빠삐뽀? 하이뽀!",
+      "en": "No! 'Bee-ba-bee-bo? Haippo!'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀여움",
+      "en": "So cute."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나만의미니언즈FaustLD",
+      "en": "My own Minion, FaustLD."
+    },
+    {
+      "type": "fan",
+      "ko": "난 그 머리 위로 쫙 쫌면 애기처럼 하고갈래ㅎㅎ",
+      "en": "I'll style my hair sticking straight up like a little kid. ㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아그네스?",
+      "en": "Agnes?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 닮은애 말하는거지?",
+      "en": "You mean the one who looks like me?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎ",
+      "en": "ㅎ"
+    },
+    {
+      "type": "fan",
+      "ko": "가장 귀여운 건 바로 샤안이야.",
+      "en": "The cutest one is actually Sha'an."
+    },
+    {
+      "type": "hayeon",
+      "ko": "씨에씨에",
+      "en": "Xie xie."
+    },
+    {
+      "type": "fan",
+      "ko": "샤안이 누구야",
+      "en": "Who's Sha'an?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 중국어이름",
+      "en": "That's my Chinese name."
+    },
+    {
+      "type": "hayeon",
+      "ko": "띵샤이엔",
+      "en": "Ding Xiayan."
+    },
+    {
+      "type": "fan",
+      "ko": "하오츠 아니였어?",
+      "en": "Wasn't it Haochi?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어떻게 사람이름이 맛있다..",
+      "en": "How can a person's name be 'delicious'...?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그건 내 최애 단어야",
+      "en": "That's my favorite Chinese word."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하오츠!!!!",
+      "en": "Haochi!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞다 오늘 본가에있었는데",
+      "en": "Oh right, I was at my parents' house today."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 아침으로 토달볶이랑 팽이김치볶음이랑 디저트까지",
+      "en": "For breakfast I made rosé tteokbokki, stir-fried enoki mushrooms with kimchi, and even dessert."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하연가세 해줬어",
+      "en": "Hayeon's Kitchen was open."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 요리 잘해...",
+      "en": "I'm actually good at cooking..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "몇년째 해명중",
+      "en": "I've been trying to clear up that misunderstanding for years."
+    },
+    {
+      "type": "hayeon",
+      "ko": "냉장고에 재료만 있으면",
+      "en": "As long as there are ingredients in the fridge,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다만들어줄수있어",
+      "en": "I can make pretty much anything."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 요리 스타일은 살짝",
+      "en": "My cooking style is kind of like"
+    },
+    {
+      "type": "hayeon",
+      "ko": "윤남노 쉐프님처럼",
+      "en": "Chef Yoon Nam-no."
+    },
+        {
+      "type": "hayeon",
+      "ko": "분주하게 빠르게 많이,먹으면서",
+      "en": "Busy, fast, constantly eating while cooking..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그런느낌",
+      "en": "That kind of vibe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나중에FaustLD를 위한 요리를",
+      "en": "I hope one day I'll get to cook something for FaustLD."
+    },
+    {
+      "type": "hayeon",
+      "ko": "해줄수있는 날이 오기를ㄹ",
+      "en": "I hope that day comes."
+    },
+    {
+      "type": "hayeon",
+      "ko": "콘서트에서 해주라는건",
+      "en": "Don't tell me to do it at a concert."
+    },
+    {
+      "type": "hayeon",
+      "ko": "취사병 못지않게",
+      "en": "I'd have to be like an army cook,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "대국자 들고",
+      "en": "holding a giant ladle."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "en": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "한가지 요리만 만들어줄수있다면 뭐 만들어주고싶어??",
+      "en": "If you could only cook me one dish, what would you make?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "제육볶음",
+      "en": "Spicy stir-fried pork."
+    },
+    {
+      "type": "hayeon",
+      "ko": "야무지게해줄게",
+      "en": "I'll make it properly."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이 제육은 수분없는 기사식당 스타",
+      "en": "Would your spicy pork be the dry cafeteria style?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "일이야 아니면 국물촉촉스타일이야?",
+      "en": "Or the juicy kind with lots of sauce?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "완전 국물촉촉 기름잘잘이지",
+      "en": "Definitely the juicy, saucy kind with plenty of oil."
+    },
+    {
+      "type": "hayeon",
+      "ko": "제육은 그래야 맛있어",
+      "en": "That's the only way spicy stir-fried pork tastes good."
+    },
+    {
+      "type": "hayeon",
+      "ko": "갑자기 제육 먹고싶네",
+      "en": "Now I suddenly want some."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 휴가동안 생새우 원없이 먹어서",
+      "en": "During my vacation, I ate as much raw shrimp as I wanted."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 새우 양식장 하나 비운듯",
+      "en": "I think I emptied an entire shrimp farm."
+    },
+    {
+      "type": "hayeon",
+      "ko": "미안하다 새우야...",
+      "en": "Sorry, shrimp..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래도 갑각류는 고통이 덜하다고...",
+      "en": "Still... I heard crustaceans don't feel as much pain..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "들은것같은데....",
+      "en": "...I think."
+    },
+    {
+      "type": "fan",
+      "ko": "....... 너무 마음 안 좋으니까 그만하자",
+      "en": ".......Let's stop talking about it. I feel too bad."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래 눈물난다 입에서",
+      "en": "Yeah... I'm crying through my mouth."
+    },
+    {
+      "type": "fan",
+      "ko": "다이어트 안 하나???",
+      "en": "Aren't you supposed to be dieting???"
+    },
+    {
+      "type": "hayeon",
+      "ko": "할거야!!!!!!!!",
+      "en": "I will!!!!!!!!"
+    },
+    {
+      "type": "fan",
+      "ko": "라고 한지 365일 지남",
+      "en": "You've been saying that for 365 days."
+    },
+    {
+      "type": "hayeon",
+      "ko": "벌써 그렇게 되었구나",
+      "en": "Has it already been that long?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 근육을 빼려고 운동을 안했는데",
+      "en": "I stopped exercising because I wanted to lose muscle."
+    },
+    {
+      "type": "hayeon",
+      "ko": "운동신경이 진짜 약해진걸 느껴서",
+      "en": "But I can really feel my athletic ability getting worse."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다시 운동해야겠어",
+      "en": "I need to start exercising again."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 운동하면 바로 근육 붙는 스타일이라",
+      "en": "I'm the type of person who builds muscle really easily."
+    },
+    {
+      "type": "hayeon",
+      "ko": "여성보디빌더 된다니까",
+      "en": "I'd end up looking like a female bodybuilder."
+    },
+    {
+      "type": "fan",
+      "ko": "어깨 더 넓어지는거 아니야?",
+      "en": "Wouldn't your shoulders get even broader?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞아",
+      "en": "Exactly."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래서 일부로 근육을 뺀건데",
+      "en": "That's why I intentionally lost muscle."
+    },
+    {
+      "type": "hayeon",
+      "ko": "체력이 유연언니보다 안좋아진거같아서",
+      "en": "But I think my stamina is worse than Yooyeon unnie's now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다시 운동할게요",
+      "en": "I'll start working out again."
+    },
+    {
+      "type": "hayeon",
+      "ko": "유연언니랑 달리기하면 내가 질거야..",
+      "en": "If I raced Yooyeon, I'd lose..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 밥먹어야될듯",
+      "en": "I think I need to eat."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금 예민해지고있어",
+      "en": "I'm getting cranky now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "빨리 밥ㅂ!!!!!",
+      "en": "Hurry and feed me!!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "밥내놔!!!!!",
+      "en": "Give me food!!!!!"
+    },
+    {
+      "type": "fan",
+      "ko": "저메추 해드려요???",
+      "en": "Want me to recommend something to eat?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "해줘",
+      "en": "Do it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅇㅋ 제육 ㄱㅇ간다",
+      "en": "Okay, spicy stir-fried pork it is."
+    },
+    {
+      "type": "fan",
+      "ko": "제 사랑으로 허기짐이 안차세요?",
+      "en": "Doesn't my love fill your stomach?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "마음은 항상 배부르지~~",
+      "en": "My heart is always full~~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 위는 이건 어쩔수없어",
+      "en": "But my stomach... that's a different story."
+    },
+    {
+      "type": "hayeon",
+      "ko": "세상에 맛있는거 너무많아",
+      "en": "There are just too many delicious foods in this world."
+    },
+    {
+      "type": "hayeon",
+      "ko": "짜증나 ㅠㅠ",
+      "en": "It's so frustrating. ㅠㅠ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하연이 밥 열시미 먹그께!",
+      "en": "I'll make sure to eat lots!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "헤헤헤",
+      "en": "Hehehe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맛있는거 먹구FaustLD도",
+      "en": "Go eat something delicious too, FaustLD,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀여운맘 보내~ 😘",
+      "en": "and send me lots of cute thoughts~ 😘"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해😍",
+      "en": "Haranghae. 😍"
+    }
+  ]
+}
