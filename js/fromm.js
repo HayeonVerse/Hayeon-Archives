@@ -48,46 +48,47 @@ const App = {
    APPLICATION STATE
 ============================================ */
 
-    state: {
+state: {
 
-        initialized: false,
+    initialized: false,
 
-        language: "both",
+    language: "both",
 
-        groupedMessages: true,
+    groupedMessages: true,
 
-        search: "",
+    selectedConversation: null,
 
-openedYears: new Set(),
+expandedYears: new Set(),
 
-openedMonths: new Set(),
+expandedMonths: new Set(),
 
-loading: false,
+    search: "",
 
-currentVoice: null,
+    loading: false,
 
-        conversations: [],
+    currentVoice: null,
 
-        filtered: [],
+    conversations: [],
 
-        statistics: {
+    filtered: [],
 
-            conversations: 0,
+    statistics: {
 
-            messages: 0,
+        conversations: 0,
 
-            images: 0,
+        messages: 0,
 
-            videos: 0,
+        images: 0,
 
-            voices: 0,
+        videos: 0,
 
-            years: 0
+        voices: 0,
 
-        }
+        years: 0
 
-    },
+    }
 
+},
 /* ============================================
    DOM CACHE
 ============================================ */
@@ -95,6 +96,9 @@ currentVoice: null,
     cache: {
 
         container: null,
+
+sidebar: null,
+viewer: null,
 
         search: null,
 
@@ -144,6 +148,12 @@ function cacheDOM() {
 
     App.cache.container =
         $("#fromm-container");
+
+App.cache.sidebar =
+    $("#fromm-sidebar");
+
+App.cache.viewer =
+    $(".fromm-viewer");
 
     App.cache.search =
         $("#search-input");
@@ -350,6 +360,280 @@ const conversations =
 
 };
 
+App.buildTimeline = function () {
+
+    const sidebar = document.getElementById("timeline-list");
+
+    if (!sidebar) return;
+
+    sidebar.innerHTML = "";
+
+    const archive = App.utils.groupArchive(App.state.filtered);
+
+    document.getElementById("timeline-count").textContent =
+        App.state.filtered.length;
+
+    Object.keys(archive)
+        .sort((a, b) => b.localeCompare(a))
+        .forEach(year => {
+
+            const yearDiv = document.createElement("div");
+            yearDiv.className = "timeline-year";
+
+            const yearTitle = document.createElement("div");
+            yearTitle.className = "timeline-year-title";
+
+            yearTitle.innerHTML = `
+                <span class="timeline-arrow">
+                    ${App.state.expandedYears.has(year) ? "▼" : "▶"}
+                </span>
+                ${year}
+            `;
+
+yearTitle.onclick = () => {
+
+    if (App.state.expandedYears.has(year)) {
+
+        App.state.expandedYears.delete(year);
+
+    } else {
+
+        App.state.expandedYears.add(year);
+
+    }
+
+    App.buildTimeline();
+
+};
+
+            yearDiv.appendChild(yearTitle);
+
+if (!App.state.expandedYears.has(year)) {
+
+    sidebar.appendChild(yearDiv);
+
+    return;
+
+}
+
+            Object.keys(archive[year]).forEach(month => {
+
+                const monthKey = `${year}-${month}`;
+
+                const monthDiv = document.createElement("div");
+                monthDiv.className = "timeline-month";
+
+                const monthTitle = document.createElement("div");
+                monthTitle.className = "timeline-month-title";
+
+                monthTitle.innerHTML = `
+                    <span class="timeline-arrow">
+                        ${App.state.expandedMonths.has(monthKey) ? "▼" : "▶"}
+                    </span>
+                    ${month}
+                `;
+
+                monthTitle.onclick = (e) => {
+
+                    e.stopPropagation();
+
+if (App.state.expandedMonths.has(monthKey)) {
+
+    App.state.expandedMonths.delete(monthKey);
+
+} else {
+
+    App.state.expandedMonths.add(monthKey);
+
+}
+
+                    App.buildTimeline();
+
+                };
+
+                monthDiv.appendChild(monthTitle);
+
+                if (App.state.expandedMonths.has(monthKey)) {
+
+                    archive[year][month].forEach(conv => {
+
+                        const btn = document.createElement("button");
+
+                        btn.className = "timeline-date";
+
+                        btn.textContent =
+                            App.utils.formatDate(conv.date);
+
+                        if (
+                            App.state.selectedConversation &&
+                            App.state.selectedConversation.date === conv.date
+                        ) {
+
+                            btn.classList.add("active");
+
+                        }
+
+                        btn.onclick = () => {
+
+                            App.showConversation(conv);
+
+                        };
+
+                        monthDiv.appendChild(btn);
+
+                    });
+
+                }
+
+                yearDiv.appendChild(monthDiv);
+
+            });
+
+            sidebar.appendChild(yearDiv);
+
+        });
+
+};
+
+App.getConversationIndex = function (conversation) {
+
+    return App.state.filtered.findIndex(
+        c => c.date === conversation.date
+    );
+
+};
+
+App.showConversation = function (conversation) {
+
+    App.state.selectedConversation = conversation;
+
+App.saveLastConversation(conversation);
+
+document
+    .querySelectorAll(".timeline-date")
+    .forEach(button => {
+
+        button.classList.toggle(
+
+            "active",
+
+            button.textContent ===
+            App.utils.formatDate(conversation.date)
+
+        );
+
+    });
+
+    const container = App.cache.container;
+
+const viewer = App.cache.viewer;
+
+if (viewer) {
+
+    viewer.scrollTop = 0;
+
+}
+    
+    App.utils.clear(container);
+
+    const media = App.utils.countMedia(conversation);
+
+const index =
+    App.getConversationIndex(conversation);
+
+const previous =
+    index > 0
+        ? App.state.filtered[index - 1]
+        : null;
+
+const next =
+    index < App.state.filtered.length - 1
+        ? App.state.filtered[index + 1]
+        : null;
+
+    const header = App.utils.create(
+        "div",
+        "conversation-header"
+    );
+
+    const title = App.utils.create("h2");
+
+    title.textContent =
+        App.utils.formatDate(conversation.date);
+
+    const info = App.utils.create(
+        "p",
+        "viewer-info"
+    );
+
+    const parts = [];
+
+    parts.push(`${conversation.messages.length} Messages`);
+
+    if (media.images)
+        parts.push(`📷 ${media.images}`);
+
+    if (media.videos)
+        parts.push(`🎥 ${media.videos}`);
+
+    if (media.voices)
+        parts.push(`🎤 ${media.voices}`);
+
+    info.textContent = parts.join(" • ");
+
+    const nav =
+    App.utils.create(
+        "div",
+        "conversation-nav"
+    );
+
+const prevBtn =
+    App.utils.create(
+        "button",
+        "nav-btn"
+    );
+
+prevBtn.textContent = "← Previous";
+
+prevBtn.disabled = !previous;
+
+prevBtn.onclick = () => {
+
+    if (previous)
+        App.showConversation(previous);
+
+};
+
+const nextBtn =
+    App.utils.create(
+        "button",
+        "nav-btn"
+    );
+
+nextBtn.textContent = "Next →";
+
+nextBtn.disabled = !next;
+
+nextBtn.onclick = () => {
+
+    if (next)
+        App.showConversation(next);
+
+};
+
+nav.append(prevBtn, nextBtn);
+
+header.append(title, info, nav);
+
+    container.appendChild(header);
+
+    container.appendChild(
+
+        App.renderConversationBody(conversation)
+
+    );
+
+};
 /* ============================================
    INITIALIZE
 ============================================ */
@@ -388,6 +672,25 @@ document.addEventListener(
    MODULE 1C
    COMMON UTILITIES
 ============================================ */
+
+App.saveLastConversation = function (conversation) {
+
+    if (!conversation) return;
+
+    localStorage.setItem(
+        "fromm-last-conversation",
+        conversation.date
+    );
+
+};
+
+App.loadLastConversation = function () {
+
+    return localStorage.getItem(
+        "fromm-last-conversation"
+    );
+
+};
 
 /* ============================================
    CLEAR ELEMENT
@@ -768,169 +1071,7 @@ if (App.cache.stats.years)
         stats.years.size;
 
 };
-/* ============================================
-   CONVERSATION CARD
-============================================ */
 
-App.renderConversationCard = function (conversation) {
-
-    const card =
-        App.utils.create(
-            "section",
-            "fromm-conversation-card"
-        );
-card.dataset.date =
-    conversation.date;
-    const header =
-        App.utils.create(
-            "div",
-            "fromm-conversation-header"
-        );
-const arrow =
-    App.utils.create(
-        "span",
-        "archive-arrow"
-    );
-
-arrow.textContent = "❯";
-    const body =
-        App.utils.create(
-            "div",
-            "fromm-conversation-body"
-        );
-
-    const messageCount =
-        
-    conversation.messages
-            ? conversation.messages.length
-            : 0;
-const media =
-    App.utils.countMedia(conversation);
-header.innerHTML = `
-    <div class="conversation-info">
-
-        <strong>
-            ${App.utils.formatDate(conversation.date)}
-        </strong>
-
-        <small>
-            💬 ${messageCount} Message${messageCount !== 1 ? "s" : ""}
-        </small>
-
-        <div class="conversation-media">
-
-            ${media.images ? `📷 ${media.images}` : ""}
-
-            ${media.videos ? `🎥 ${media.videos}` : ""}
-
-            ${media.voices ? `🎤 ${media.voices}` : ""}
-
-        </div>
-
-    </div>
-`;
-
-header.appendChild(arrow);
-
-    // Temporary:
-    // We still render immediately.
-body._rendered = false;
-
-function closeConversation(targetBody, targetArrow) {
-
-    targetBody.classList.remove("open");
-
-    if (targetArrow) {
-
-    targetArrow.classList.remove("open");
-
-}
-
-    setTimeout(() => {
-
-        targetBody.innerHTML = "";
-        targetBody._rendered = false;
-
-    }, App.config.animationSpeed);
-
-}
-
-function openConversation() {
-
-    if (!body._rendered) {
-
-        body.appendChild(
-            App.renderConversationBody(conversation)
-        );
-
-        body._rendered = true;
-
-    }
-
-    body.classList.add("open");
-
-    body.scrollTop = 0;
-
-    arrow.classList.add("open");
-
-    card.scrollIntoView({
-
-        behavior: "smooth",
-
-        block: "start"
-
-    });
-
-}
-
-header.addEventListener("click", () => {
-
-const alreadyOpen =
-    body.classList.contains("open");
-
-// Close this conversation
-if (alreadyOpen) {
-
-    closeConversation(body, arrow);
-
-    return;
-
-}
-
-// Close every other conversation
-document.querySelectorAll(".fromm-conversation-body.open")
-    .forEach(section => {
-
-        if (section === body) return;
-
-        const otherCard =
-            section.closest(".fromm-conversation-card");
-
-        const otherArrow =
-            otherCard?.querySelector(".archive-arrow");
-
-        closeConversation(
-            section,
-            otherArrow
-        );
-
-    });
-
-// Wait for closing animation
-setTimeout(() => {
-
-    openConversation();
-
-}, App.config.animationSpeed);
-
-});
-
-    card.appendChild(header);
-    card.appendChild(body);
-
-    return card;
-
-};
 /* ============================================
    PLACEHOLDER RENDER
 ============================================ */
@@ -988,252 +1129,7 @@ App.updateBubbleClasses(messages);
 
 };
 
-/* ============================================
-   RENDER YEAR
-============================================ */
 
-App.renderYear = function (year, months) {
-
-    const yearCard =
-        App.utils.create("div", "fromm-year");
-yearCard.dataset.year = year;
-    const header =
-        App.utils.create("div", "fromm-year-header");
-
-header.innerHTML = `
-    <h2>${year}</h2>
-`;
-
-const arrow =
-    App.utils.create(
-        "span",
-        "archive-arrow"
-    );
-
-arrow.textContent = "❯";
-
-header.appendChild(arrow);
-
-const content =
-    App.utils.create(
-        "div",
-        "fromm-year-content"
-    );
-
-if (
-
-    App.state.openedYears.has(year)
-
-) {
-
-    content.classList.add("open");
-arrow.classList.add("open");
-}
-
-    Object.keys(months)
-        .sort((a, b) => {
-
-            return App.config.months.indexOf(b)
-                - App.config.months.indexOf(a);
-
-        })
-        .forEach(month => {
-
-            content.appendChild(
-
-                App.renderMonth(
-
-                    month,
-
-                    months[month]
-
-                )
-
-            );
-
-        });
-
-header.addEventListener("click", () => {
-
-    const alreadyOpen =
-        content.classList.contains("open");
-
-    // Close every year
-    document.querySelectorAll(".fromm-year-content.open")
-        .forEach(section => {
-
-            section.classList.remove("open");
-
-        });
-
-    document.querySelectorAll(".fromm-year-header .archive-arrow.open")
-        .forEach(arrow => {
-
-            arrow.classList.remove("open");
-
-        });
-
-    App.state.openedYears.clear();
-
-    // Reopen this one
-    if (!alreadyOpen) {
-
-        content.classList.add("open");
-
-        arrow.classList.add("open");
-
-        App.state.openedYears.add(year);
-
-    }
-
-});
-
-    yearCard.appendChild(header);
-
-    yearCard.appendChild(content);
-
-    return yearCard;
-
-};
-/* ============================================
-   RENDER MONTH
-============================================ */
-
-App.renderMonth = function (month, conversations) {
-
-    const monthCard =
-        App.utils.create("div", "fromm-month");
-monthCard.dataset.year =
-    App.utils.getYear(conversations[0].date);
-
-monthCard.dataset.month =
-    month;
-    const header =
-        App.utils.create("div", "fromm-month-header");
-
-const arrow =
-    App.utils.create(
-        "span",
-        "archive-arrow"
-    );
-
-arrow.textContent = "❯";
-
-const left =
-    App.utils.create("div");
-
-left.style.display = "flex";
-left.style.alignItems = "center";
-left.style.gap = "12px";
-
-const title =
-    document.createElement("h3");
-
-title.textContent = month;
-
-left.appendChild(arrow);
-left.appendChild(title);
-
-const count =
-    document.createElement("span");
-
-count.textContent =
-    `${conversations.length} Conversation${conversations.length !== 1 ? "s" : ""}`;
-
-header.appendChild(left);
-header.appendChild(count);
-
-const content =
-    App.utils.create(
-        "div",
-        "fromm-month-content"
-    );
-const monthKey = `${App.utils.getYear(conversations[0].date)}-${month}`;
-
-if (App.state.openedMonths.has(monthKey)) {
-
-    content.classList.add("open");
-
-    arrow.classList.add("open");
-
-}
-    let currentDate = "";
-
-    App.utils
-        .sortNewest(conversations)
-        .forEach(conversation => {
-
-            const formattedDate =
-                App.utils.formatDate(
-                    conversation.date
-                );
-
-            if (formattedDate !== currentDate) {
-
-                currentDate = formattedDate;
-
-                content.appendChild(
-
-                    App.renderDateSeparator(
-                        formattedDate
-                    )
-
-                );
-
-            }
-
-content.appendChild(
-
-    App.renderConversationCard(
-        conversation
-    )
-
-);
-
-        });
-
-header.addEventListener("click", () => {
-
-    const alreadyOpen =
-        content.classList.contains("open");
-
-    // Close every open month
-    document.querySelectorAll(".fromm-month-content.open")
-        .forEach(section => {
-
-            section.classList.remove("open");
-
-        });
-
-    document.querySelectorAll(".fromm-month-header .archive-arrow.open")
-        .forEach(arrow => {
-
-            arrow.classList.remove("open");
-
-        });
-
-    App.state.openedMonths.clear();
-
-    // Reopen this one
-    if (!alreadyOpen) {
-
-        content.classList.add("open");
-
-        arrow.classList.add("open");
-
-        App.state.openedMonths.add(monthKey);
-
-    }
-
-});
-
-    monthCard.appendChild(header);
-
-    monthCard.appendChild(content);
-
-    return monthCard;
-
-};
 /* ============================================
    UPDATE BUBBLE CLASSES
 ============================================ */
@@ -1943,38 +1839,49 @@ App.openImage = function (src) {
 
 App.render = function () {
 
-    if (!App.cache.container) return;
+    App.updateStatistics();
 
-    App.utils.clear(App.cache.container);
+    App.buildTimeline();
 
-    const fragment = App.utils.fragment();
+const lastDate = App.loadLastConversation();
 
-    const archive = App.utils.groupArchive(
-        App.state.filtered
+if (!App.state.selectedConversation && lastDate) {
+
+    const remembered = App.state.filtered.find(
+
+        c => c.date === lastDate
+
     );
 
-    const years = Object.keys(archive)
-        .sort((a, b) => b.localeCompare(a));
+    if (remembered) {
 
-    years.forEach(year => {
+        App.state.selectedConversation = remembered;
 
-        fragment.appendChild(
+    }
 
-            App.renderYear(
+}
 
-                year,
+if (App.state.selectedConversation) {
 
-                archive[year]
+    App.showConversation(
+        App.state.selectedConversation
+    );
 
-            )
+} else {
 
-        );
+    App.cache.container.innerHTML = `
+        <div class="viewer-placeholder">
 
-    });
+            <h2>Select a conversation</h2>
 
-App.cache.container.appendChild(fragment);
+            <p>
+                Choose a conversation from the timeline.
+            </p>
 
-App.updateStatistics();
+        </div>
+    `;
+
+}
 
 };
 
@@ -2028,7 +1935,16 @@ App.search = function (keyword = "") {
 
     }
 
-    App.render();
+    if (
+    App.state.selectedConversation &&
+    !App.state.filtered.some(
+        c => c.date === App.state.selectedConversation.date
+    )
+) {
+    App.state.selectedConversation = null;
+}
+
+App.render();
 
 };
 
@@ -2106,6 +2022,135 @@ App.bindEvents = function () {
 };
 
 /* ============================================
+   KEYBOARD SHORTCUTS
+============================================ */
+
+App.bindKeyboard = function () {
+
+    document.addEventListener("keydown", event => {
+
+        const tag = document.activeElement.tagName;
+
+        const typing =
+            tag === "INPUT" ||
+            tag === "TEXTAREA";
+
+        if (typing && event.key !== "Escape") {
+
+            return;
+
+        }
+
+        switch (event.key) {
+
+            case "/":
+
+                event.preventDefault();
+
+                App.cache.search.focus();
+
+                break;
+
+            case "Escape":
+
+                if (document.activeElement === App.cache.search) {
+
+                    App.cache.search.value = "";
+
+                    App.search("");
+
+                    App.cache.search.blur();
+
+                }
+
+                break;
+
+            case "ArrowUp":
+
+                event.preventDefault();
+
+                App.navigateConversation(-1);
+
+                break;
+
+            case "ArrowDown":
+
+                event.preventDefault();
+
+                App.navigateConversation(1);
+
+                break;
+
+            case "Home":
+
+                event.preventDefault();
+
+                App.openFirstConversation();
+
+                break;
+
+            case "End":
+
+                event.preventDefault();
+
+                App.openLastConversation();
+
+                break;
+
+        }
+
+    });
+
+};
+
+App.navigateConversation = function (direction) {
+
+    if (!App.state.selectedConversation) return;
+
+    const index =
+        App.getConversationIndex(
+            App.state.selectedConversation
+        );
+
+    const next =
+        index + direction;
+
+    if (
+        next < 0 ||
+        next >= App.state.filtered.length
+    ) {
+        return;
+    }
+
+    App.showConversation(
+        App.state.filtered[next]
+    );
+
+};
+
+App.openFirstConversation = function () {
+
+    if (!App.state.filtered.length) return;
+
+    App.showConversation(
+        App.state.filtered[0]
+    );
+
+};
+
+App.openLastConversation = function () {
+
+    if (!App.state.filtered.length) return;
+
+    App.showConversation(
+        App.state.filtered[
+            App.state.filtered.length - 1
+        ]
+    );
+
+};
+
+/* ============================================
    READY EVENT
 ============================================ */
 
@@ -2132,13 +2177,13 @@ App.events.on(
 
     () => {
 
-        App.bindEvents();
+App.bindEvents();
 
-        console.log(
+App.bindKeyboard();
 
-            "✅ Fromm Archive v2 initialized."
-
-        );
+console.log(
+    "✅ Frommm Archive v2 initialized."
+);
 
     }
 

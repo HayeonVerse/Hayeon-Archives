@@ -61,48 +61,27 @@
 
 <main class="fromm-wrapper">
 
-    <!-- Header -->
+    <!-- ================= HEADER ================= -->
 
     <section class="section-title">
 
-        <h2>
-            Jeong Hayeon Fromm Archive
-        </h2>
+        <h2>Jeong Hayeon Fromm Archive</h2>
 
         <p>
             Browse every translated Fromm conversation in Korean and English.
         </p>
 
-<div class="notice-card">
-    <h3>📢 Notice</h3>
-
-    <p>
-        This archive is currently a work in progress.
-    </p>
-
-    <p>
-        We Are Missing Some of the Older Fromm Conversations and some Voicemail so if anyone who has them please contact us.
-        Some conversations, images, videos, or voice messages may not be available yet. 
-    </p>
-<p>
-    (especially older ones if you can't play the voicemail that means we don't have it yet)
-</p>
-    <p>
-        Thank you for your patience and support while the archive continues to grow.
-    </p>
-</div>
-
     </section>
 
-    <!-- ================= CONTROLS ================= -->
+    <!-- ================= TOP BAR ================= -->
 
-    <section class="fromm-controls">
+    <section class="fromm-topbar">
 
         <input
             id="search-input"
             class="fromm-search"
             type="text"
-            placeholder="Search Korean, English or Date...">
+            placeholder="Search Korean or English...">
 
         <div class="language-filter">
 
@@ -128,89 +107,84 @@
 
     </section>
 
-    <!-- ================= STATS ================= -->
+    <!-- ================= NEW LAYOUT ================= -->
 
-    <section class="fromm-stats">
+    <div class="fromm-layout">
 
-        <div class="stat-card">
+        <!-- LEFT PANEL -->
 
-            <h3 id="conversation-count">
-                0
-            </h3>
+        <aside class="fromm-sidebar">
 
-            <p>
-                Conversations
-            </p>
+            <!-- Stats stay exactly the same -->
 
-        </div>
+            <section class="fromm-stats">
 
-        <div class="stat-card">
+                <div class="stat-card">
+                    <h3 id="conversation-count">0</h3>
+                    <p>Conversations</p>
+                </div>
 
-            <h3 id="message-count">
-                0
-            </h3>
+                <div class="stat-card">
+                    <h3 id="message-count">0</h3>
+                    <p>Messages</p>
+                </div>
 
-            <p>
-                Messages
-            </p>
+                <div class="stat-card">
+                    <h3 id="photo-count">0</h3>
+                    <p>Images</p>
+                </div>
 
-        </div>
+                <div class="stat-card">
+                    <h3 id="video-count">0</h3>
+                    <p>Videos</p>
+                </div>
 
-        <div class="stat-card">
+                <div class="stat-card">
+                    <h3 id="voice-count">0</h3>
+                    <p>Voice</p>
+                </div>
 
-            <h3 id="photo-count">
-                0
-            </h3>
+                <div class="stat-card">
+                    <h3 id="year-count">0</h3>
+                    <p>Years</p>
+                </div>
 
-            <p>
-                Images
-            </p>
+            </section>
 
-        </div>
+            <!-- Sidebar -->
 
-<div class="stat-card">
+<nav id="fromm-sidebar">
 
-    <h3 id="video-count">
-        0
-    </h3>
+    <div class="timeline-header">
 
-    <p>
-        Videos
-    </p>
+        <h3>Timeline</h3>
 
-</div>
+        <span id="timeline-count">0</span>
 
-<div class="stat-card">
+    </div>
 
-    <h3 id="voice-count">
-        0
-    </h3>
+    <div id="timeline-list">
 
-    <p>
-        Voice
-    </p>
+    </div>
 
-</div>
+</nav>
 
-        <div class="stat-card">
+        </aside>
 
-            <h3 id="year-count">
-                0
-            </h3>
+        <!-- RIGHT PANEL -->
 
-            <p>
-                Years
-            </p>
+        <section class="fromm-viewer">
 
-        </div>
+            <!-- Keep current renderer -->
 
-    </section>
+            <section
+                id="fromm-container"
+                class="fromm-container">
+            </section>
 
-<section
-    id="fromm-container"
-    class="fromm-container">
+        </section>
 
-</section>
+    </div>
 
 </main>
 
