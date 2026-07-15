@@ -2224,9 +2224,7 @@ latestBtn?.addEventListener(
             return;
 
         App.showConversation(
-            App.state.filtered[
-                App.state.filtered.length - 1
-            ]
+            App.state.filtered[0]
         );
 
     }
