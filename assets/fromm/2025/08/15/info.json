@@ -1,0 +1,767 @@
+{
+  "date": "2025-08-15",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "안뇽",
+      "en": "Hello."
+    },
+    {
+      "type": "hayeon",
+      "ko": "모해",
+      "en": "What are you doing?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난",
+      "en": "I'm..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너생각중",
+      "en": "Thinking about you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㄹㅋㄹㅋㄹㅋㅋ",
+      "en": "ㅋㅋㄹㅋㄹㅋㄹㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜루",
+      "en": "Seriously."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그러니까 왔징",
+      "en": "That's why I came."
+    },
+    {
+      "type": "fan",
+      "ko": "얼만큼 보고싶은지 서술해주세요",
+      "en": "Please describe how much you miss us."
+    },
+    {
+      "type": "hayeon",
+      "ko": "봐도봐도봐도봐도봐도보고싶습니다!",
+      "en": "No matter how many times I see you, I still want to see you!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞다 알피 포스터",
+      "en": "Oh right, the Alphie poster."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘나왔지!",
+      "en": "It came out well, right!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그날 사실",
+      "en": "Actually that day..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하석이 컨셉이였거든",
+      "en": "It was Haseok's concept."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내생각에 더 잘생긴 사진들 많았던거같아",
+      "en": "I think there were a lot of more handsome photos."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나중에 풀렸으면 좋겠다…",
+      "en": "I hope they get released later..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "셀카는",
+      "en": "As for selfies..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "더 멋있지",
+      "en": "They're even cooler."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나중에 보내줄게",
+      "en": "I'll send them later."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘",
+      "en": "Today..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아침만 먹고",
+      "en": "I only ate breakfast."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아무것도",
+      "en": "After that..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "못먹음티비!!",
+      "en": "I couldn't eat anything-TV!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사싈 지금",
+      "en": "Actually right now..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "죽만 먹어야함",
+      "en": "I can only eat porridge."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니아니",
+      "en": "No, no."
+    },
+    {
+      "type": "hayeon",
+      "ko": "막 아픈건",
+      "en": "It's not that I'm really sick."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아닌데",
+      "en": "It's not."
+    },
+    {
+      "type": "hayeon",
+      "ko": "죽만 먹으래서",
+      "en": "I was just told to eat only porridge."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 요즘 죽",
+      "en": "But these days porridge..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맛있음",
+      "en": "Is delicious."
+    },
+    {
+      "type": "hayeon",
+      "ko": "누룽지 계란죽❤️",
+      "en": "Nurungji egg porridge ❤️"
+    },
+    {
+      "type": "hayeon",
+      "ko": "심각한거 아님!!",
+      "en": "It's nothing serious!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그냥 죽만 먹어야하는사실이 슬퍼서",
+      "en": "I'm just sad that I have to eat only porridge."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "더 먹고 어깨 넓이를 넓히자!",
+      "en": "Eat more and make your shoulders even broader!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어깨 그만 넓어져야해..",
+      "en": "My shoulders need to stop getting broader..."
+    },
+    {
+      "type": "fan",
+      "ko": "어깨 이제 키보드로 안 가려지겠다",
+      "en": "Your shoulders won't even be hidden by the keyboard anymore."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "꿀리지 않아~",
+      "en": "I'm not intimidated~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 최근에",
+      "en": "Recently though..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 새해에 썼던",
+      "en": "I looked at the diary entries..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "일기들을 보는데",
+      "en": "That I wrote at New Year's."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 귀여운거야",
+      "en": "They were so cute."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이번활동때 내가 어떻게 달라질수 있을까?",
+      "en": "\"How can I change during this promotion?\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "미래의 하연아 너는 잘하고있니!!",
+      "en": "\"Future Hayeon, are you doing well!!\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러는데",
+      "en": "I wrote things like that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "왜저러나 싶고",
+      "en": "Looking back, I wondered why I was like that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그때했던 걱정들",
+      "en": "The worries I had back then..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다 아무것도 아니였던걸",
+      "en": "Turned out to be nothing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금은 아니까",
+      "en": "Now I know that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "넘 웃기구",
+      "en": "It's really funny."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금 내가 걱정하는것도 나중되면",
+      "en": "The things I'm worrying about now..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다 아무렇지 않겠지 싶거",
+      "en": "Will probably feel like nothing later too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "제일 인상깊은건",
+      "en": "The most memorable one was..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 거의 공개초일때",
+      "en": "Something I wrote around when I was first revealed."
+    },
+    {
+      "type": "hayeon",
+      "ko": "썼던건데",
+      "en": "It said..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "날 아무도 좋아해주않을까봐 무섭다",
+      "en": "\"I'm scared that nobody will like me.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 보여줄수있는게 없을까봐 무섭다",
+      "en": "\"I'm scared I won't have anything to show people.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런 내용들인데",
+      "en": "Things like that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금은이렇게",
+      "en": "But now..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "좋은사람들 많이 생긴걸 알고",
+      "en": "I know there are so many wonderful people around me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "보여주고싶은것도 이렇게 많아져서",
+      "en": "And there are so many things I want to show you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 다행이야",
+      "en": "I'm really grateful for that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "새삼스럽게",
+      "en": "Once again..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "또 다시",
+      "en": "Really..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "고마워",
+      "en": "Thank you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "일기장 감성에 젖어있어",
+      "en": "I'm getting emotional from reading my diary."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나요즘 f인가봐",
+      "en": "Maybe I'm an F these days."
+    },
+    {
+      "type": "fan",
+      "ko": "그건 아니야",
+      "en": "I don't think so."
+    },
+    {
+      "type": "hayeon",
+      "ko": "웅.",
+      "en": "Yeah."
+    },
+    {
+      "type": "fan",
+      "ko": "너 완전티인뎅?",
+      "en": "You're totally a T though?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜?",
+      "en": "Really?"
+    },
+    {
+      "type": "hayeon",
+      "image": "image-01.PNG"
+    },
+        {
+      "type": "hayeon",
+      "ko": "큐티?",
+      "en": "Cutie?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하석이야?",
+      "en": "Is it Haseok?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "누나 ㅋ 미치겠다",
+      "en": "\"Noona, ㅋ I'm going crazy.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런 느낌",
+      "en": "That kind of vibe."
+    },
+    {
+      "type": "fan",
+      "ko": "하석이는왜이렇게맨날느끼함?",
+      "en": "Why is Haseok always so cheesy?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "걔가 원래 좀 그래",
+      "en": "He's just naturally like that."
+    },
+    {
+      "type": "fan",
+      "ko": "미치겠다ㅋㅋ 누나 제가 그렇게 좋아요ㅋㅋㅋㅋ?",
+      "en": "\"I'm going crazyㅋㅋ Noona, do you like me that much?ㅋㅋㅋㅋ\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "하 ㅋㅋ 언제 안귀여울거에요?",
+      "en": "\"Haㅋㅋ When are you ever going to stop being cute?\""
+    },
+    {
+      "type": "fan",
+      "ko": "누나 얼굴이 어디 안 가는데 내 마음이 어디로 가요 ㅎ",
+      "en": "\"Noona, your face isn't going anywhere, so where is my heart supposed to go?ㅎ\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "저 없이도 살수있어요?ㅎ",
+      "en": "\"Can you live without me?ㅎ\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "어떤데",
+      "en": "What do you think?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "연하남 하석",
+      "en": "Younger-guy Haseok."
+    },
+    {
+      "type": "fan",
+      "ko": "현역 고딩인줄?",
+      "en": "I thought he was an actual high school student."
+    },
+    {
+      "type": "hayeon",
+      "ko": "웅 맞긴해",
+      "en": "Yeah, that's true."
+    },
+    {
+      "type": "fan",
+      "ko": "요즘 보면 하연이 추구미 에겐녀 아닌듯.",
+      "en": "These days it doesn't seem like Hayeon's ideal vibe is an egen-girl."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하연이는 에겐녀가 추구미긴해",
+      "en": "Hayeon's ideal vibe is still an egen-girl."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하석이는 요즘 남자병걸렸어",
+      "en": "Haseok has caught 'man disease' lately."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근육길러야할듯",
+      "en": "Looks like he needs to build some muscles."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 맞아",
+      "en": "Oh right."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고",
+      "en": "Also..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "요즘",
+      "en": "These days..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다시 역사공부를",
+      "en": "I've started studying history again."
+    },
+    {
+      "type": "hayeon",
+      "ko": "시작했어",
+      "en": "I started again."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 넘 재밌어",
+      "en": "It's seriously so much fun."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔가 리프레시되는 느낌",
+      "en": "It feels refreshing somehow."
+    },
+    {
+      "type": "hayeon",
+      "ko": "현실을 잠시 잊고 과거로 돌아가는듯함",
+      "en": "It's like forgetting reality for a while and going back to the past."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그런 느낌",
+      "en": "That's how it feels."
+    },
+    {
+      "type": "system",
+      "time_gap": "17 minutes later"
+    },
+    {
+      "type": "hayeon",
+      "ko": "미안!! 폰이 꺼졌었어",
+      "en": "Sorry!! My phone turned off."
+    },
+    {
+      "type": "hayeon",
+      "ko": "요즘 폰이 말을 안들어",
+      "en": "My phone hasn't been listening to me lately."
+    },
+    {
+      "type": "hayeon",
+      "ko": "보조배터리로만 충전이 됨",
+      "en": "It only charges with a power bank."
+    },
+    {
+      "type": "hayeon",
+      "ko": "왜그런지 아는사람",
+      "en": "Does anyone know why?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데",
+      "en": "But..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "무선 충전기로도",
+      "en": "It won't charge with a wireless charger either."
+    },
+    {
+      "type": "hayeon",
+      "ko": "안돼",
+      "en": "It doesn't work."
+    },
+    {
+      "type": "hayeon",
+      "ko": "폰을 바꿔야해 내가봤을때",
+      "en": "I think I need to replace my phone."
+    },
+    {
+      "type": "hayeon",
+      "ko": "사실 충전기 잃어버려서",
+      "en": "Actually, I lost my charger."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그 다른거 충전하는줄로",
+      "en": "So I've been using a different charging cable."
+    },
+    {
+      "type": "hayeon",
+      "ko": "쓰고있긴 한데",
+      "en": "That's what I've been using."
+    },
+    {
+      "type": "fan",
+      "ko": "마치 일부로 떨어뜨리고 엄마 나 폰 깨졌어 하는건데",
+      "en": "It's like dropping it on purpose and saying, 'Mom, I broke my phone.'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사실 그런적 있음",
+      "en": "I've actually done that before."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아카폰이였나",
+      "en": "I think it was my AKA phone."
+    },
+    {
+      "type": "hayeon",
+      "ko": "바꾸고싶어서",
+      "en": "Because I wanted a new one..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그네타다가",
+      "en": "While I was on a swing..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "슬쩍",
+      "en": "I casually..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 튼튼하더라",
+      "en": "But it turned out to be really sturdy."
+    },
+    {
+      "type": "fan",
+      "ko": "변기통에 휴대폰 넣은 적 나만 있나??",
+      "en": "Am I the only one who's dropped their phone into a toilet??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "와 난 그정돈 아님",
+      "en": "Wow, I haven't gone that far."
+    },
+    {
+      "type": "hayeon",
+      "ko": "핸드폰 불쌍해..",
+      "en": "Poor phone..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅠㅠㅠㅠㅠㅠ",
+      "en": "ㅠㅠㅠㅠㅠㅠ"
+    },
+        {
+      "type": "fan",
+      "ko": "노래 추천햐줭",
+      "en": "Recommend me a song."
+    },
+    {
+      "type": "hayeon",
+      "ko": "양화대교",
+      "en": "Yanghwa Bridge."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아까도 들음티비",
+      "en": "I listened to it earlier-TV."
+    },
+    {
+      "type": "hayeon",
+      "ko": "티비 유행지남티비?",
+      "en": "Has the '-TV' trend already passed-TV?"
+    },
+    {
+      "type": "fan",
+      "ko": "행복하자 우리~",
+      "en": "Let's be happy~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "기사가 좋으시잖아",
+      "en": "The lyrics are really good, you know."
+    },
+    {
+      "type": "fan",
+      "ko": "언젠간 하연이가 불러주는 오늘취하면 풀버전 들을수있을까",
+      "en": "Will we ever get to hear a full version of 'Wine' sung by Hayeon someday?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜",
+      "en": "Seriously..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "각잡고",
+      "en": "I'll properly..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "불러볼게",
+      "en": "Try singing it."
+    },
+    {
+      "type": "system",
+      "deleted": true
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니",
+      "en": "No..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "부끄러워",
+      "en": "I'm embarrassed."
+    },
+    {
+      "type": "hayeon",
+      "ko": "응..",
+      "en": "Yeah..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니",
+      "en": "I mean..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "라이브에서도",
+      "en": "Even during a live..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "막 불러주고싶은데",
+      "en": "I want to sing it for you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "제대로 각잡고",
+      "en": "But if I don't properly prepare..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "안부르면",
+      "en": "Before singing it..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔가 좀 그래",
+      "en": "It just doesn't feel quite right."
+    },
+    {
+      "type": "fan",
+      "ko": "완벽주의 성향이 잇나",
+      "en": "Do you have perfectionist tendencies?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "살짝",
+      "en": "A little."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 준비해볼게",
+      "en": "I'll prepare it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "Y/n가 원한다면..",
+      "en": "If Y/n wants it..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나는이제 가볼게에",
+      "en": "I'm going to head off now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 하루 마무리 잘하구",
+      "en": "Finish today well."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내일도 화이팅!!",
+      "en": "Fighting tomorrow too!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "Y/n하랑해😍",
+      "en": "Haranghae, Y/n 😍"
+    }
+  ]
+}
