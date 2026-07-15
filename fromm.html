@@ -61,6 +61,36 @@
 
 <main class="fromm-wrapper">
 
+<section class="fromm-notice">
+
+    <div class="notice-card">
+
+        <h3>📢 Notice</h3>
+
+        <p>
+            This archive is currently a work in progress and the translation is not 100% accurate.
+        </p>
+
+        <p>
+            Some older Fromm conversations and voice messages are still missing. If you have archived content that isn't available here yet, we'd greatly appreciate your help.
+        </p>
+
+        <p>
+            Some conversations, images, videos, or voice messages may not be available yet.
+        </p>
+
+        <p class="notice-small">
+            (If an older voice message can't be played, it usually means we don't have it archived yet. also a lot of the older chat is not complete/missing a lot of content)
+        </p>
+
+        <p>
+            Thank you for your patience and support while this archive continues to grow.
+        </p>
+
+    </div>
+
+</section>
+
     <!-- ================= HEADER ================= -->
 
     <section class="section-title">
@@ -155,17 +185,47 @@
 
 <nav id="fromm-sidebar">
 
-    <div class="timeline-header">
+<button
+    id="timeline-toggle"
+    class="timeline-toggle">
 
-        <h3>Timeline</h3>
+    <span>Timeline</span>
 
-        <span id="timeline-count">0</span>
+    <span id="timeline-toggle-icon">▼</span>
+
+</button>
+
+<div class="timeline-header">
+
+    <h3>Timeline</h3>
+
+    <div class="timeline-actions">
+
+        <button
+            id="timeline-latest"
+            class="timeline-action">
+
+            Latest
+
+        </button>
+
+        <span id="timeline-count">
+
+            0
+
+        </span>
 
     </div>
+
+</div>
+
+<div id="timeline-content">
 
     <div id="timeline-list">
 
     </div>
+
+</div>
 
 </nav>
 

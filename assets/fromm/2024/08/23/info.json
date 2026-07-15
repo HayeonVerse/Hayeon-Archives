@@ -1,0 +1,573 @@
+{
+  "date": "2024-08-23",
+  "messages": [
+  {
+    "type": "hayeon",
+    "ko": "모해",
+    "en": "What are you doing?"
+  },
+  {
+    "type": "hayeon",
+    "ko": "배고픔을 못 이기겠어",
+    "en": "I can't overcome my hunger."
+  },
+  {
+    "type": "hayeon",
+    "ko": "육회랑 연어 시켰어",
+    "en": "I ordered yukhoe and salmon."
+  },
+  {
+    "type": "hayeon",
+    "ko": "운동하고 잘 거야..",
+    "en": "I'm going to work out and then sleep.."
+  },
+  {
+    "type": "hayeon",
+    "ko": "아니야",
+    "en": "Actually, no."
+  },
+  {
+    "type": "hayeon",
+    "ko": "나 홍콩에 있었던 것 같아",
+    "en": "I feel like I was still in Hong Kong."
+  },
+  {
+    "type": "hayeon",
+    "ko": "숙소에서 혼자 이러고 있으니까",
+    "en": "Since I'm here alone at the dorm,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "뭔가 이상해",
+    "en": "it feels kind of strange."
+  },
+  {
+    "type": "hayeon",
+    "ko": "다들 방에 있고",
+    "en": "Everyone is in their rooms,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "나 혼자 거실에 있어",
+    "en": "and I'm alone in the living room."
+  },
+  {
+    "type": "hayeon",
+    "ko": "앞에 음식 놓고",
+    "en": "I've got food in front of me,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "Y/n이랑 대화하는 중",
+    "en": "and I'm talking with Y/n."
+  },
+  {
+    "type": "hayeon",
+    "ko": "이게 진짜 사랑이지",
+    "en": "This is what real love is."
+  },
+  {
+    "type": "hayeon",
+    "ko": "홍콩은 진짜",
+    "en": "Hong Kong was really..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "야경이",
+    "en": "The night view..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "장난 아니었어",
+    "en": "was absolutely incredible."
+  },
+  {
+    "type": "hayeon",
+    "ko": "그거 보면서",
+    "en": "While looking at it,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "너랑 같이 오고 싶다는 생각했어",
+    "en": "I thought about wanting to come there with you."
+  },
+  {
+    "type": "hayeon",
+    "ko": "ㄹㅇ",
+    "en": "Seriously."
+  },
+{
+  "type": "hayeon",
+  "video": "video-01.mp4"
+},
+  {
+    "type": "hayeon",
+    "ko": "짭짤해",
+    "en": "It's a little salty."
+  },
+  {
+    "type": "hayeon",
+    "ko": "신기하다",
+    "en": "It's amazing."
+  },
+  {
+    "type": "hayeon",
+    "ko": "다음에는 같이..?",
+    "en": "Next time... together?"
+  },
+  {
+    "type": "hayeon",
+    "ko": "헤헤",
+    "en": "Hehe."
+  },
+  {
+    "type": "hayeon",
+    "ko": "불빛이",
+    "en": "The lights..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "엄청 밝았어",
+    "en": "were so bright."
+  },
+  {
+    "type": "hayeon",
+    "ko": "멀리서 보면 도시 위에 구름이 있는데",
+    "en": "From far away, there were clouds above the city,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "빛나고 있었어",
+    "en": "and they were glowing."
+  },
+  {
+    "type": "hayeon",
+    "ko": "그리고 브이로그도 열심히 찍어보려고 했는데..",
+    "en": "I also tried really hard to film a vlog..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "잘 찍었는지는 모르겠다",
+    "en": "I don't know if I filmed it well though."
+  },
+    {
+      "type": "hayeon",
+      "image": "image-01.PNG"
+    },
+  {
+    "type": "hayeon",
+    "ko": "이게 브이로그 썸네일일 것 같아",
+    "en": "I think this will be the vlog thumbnail."
+  },
+  {
+    "type": "hayeon",
+    "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+    "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+  },
+  {
+    "type": "hayeon",
+    "ko": "그런 감성",
+    "en": "That kind of vibe."
+  },
+  {
+    "type": "hayeon",
+    "ko": "이날 훠궈도 먹고",
+    "en": "I ate hot pot that day,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "편의점에서 빵도 먹고",
+    "en": "and I also had bread from the convenience store."
+  },
+  {
+    "type": "hayeon",
+    "ko": "너무 행복했어",
+    "en": "I was so happy."
+  },
+  {
+    "type": "fan",
+    "ko": "현지 음식은 하연이 입맛에 잘 맞았어?",
+    "en": "Did the local food suit your taste?"
+  },
+  {
+    "type": "hayeon",
+    "ko": "근데 홍콩이 한국이랑 비슷한 게 많아서",
+    "en": "Hong Kong has a lot of things that are similar to Korea,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "입맛도 비슷한 것 같아!",
+    "en": "so I think the food suits my taste too!"
+  },
+  {
+    "type": "hayeon",
+    "ko": "다 맛있게 먹었어",
+    "en": "I enjoyed everything."
+  },
+  {
+    "type": "fan",
+    "ko": "홍콩 편의점이랑 일본 편의점은 뭐가 다른지 궁금해",
+    "en": "I'm curious about the difference between convenience stores in Hong Kong and Japan."
+  },
+  {
+    "type": "hayeon",
+    "ko": "크게 다른 건 없는 것 같아",
+    "en": "I don't think they're that different."
+  },
+  {
+    "type": "hayeon",
+    "ko": "일본은",
+    "en": "In Japan,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "과자나",
+    "en": "there are lots of snacks,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "푸딩이랑 당고 같은 게 많다면",
+    "en": "pudding, and things like dango,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "홍콩은",
+    "en": "while in Hong Kong,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "딤섬 같은 것도 있고",
+    "en": "there's dim sum and things like that."
+  },
+  {
+    "type": "hayeon",
+    "ko": "음 그런 게 다른 것 같아",
+    "en": "I think that's the biggest difference."
+  },
+  {
+    "type": "hayeon",
+    "ko": "아 그리고",
+    "en": "Oh, and..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "요즘 행사를 많이 다니잖아",
+    "en": "I've been going to a lot of events lately,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "앞으로도 더 많을 거고",
+    "en": "and there'll be even more in the future."
+  },
+  {
+    "type": "hayeon",
+    "ko": "새로운 노래랑 내가 추는 파트를 보는 것도 좋을 것 같아",
+    "en": "I think it'll be fun for you to see the new songs and the parts I dance."
+  },
+  {
+    "type": "hayeon",
+    "ko": "춤추면서",
+    "en": "While I'm performing,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "아 또",
+    "en": "I'll suddenly think,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "Y/n이 좋아하겠다 ㅋ",
+    "en": "\"Y/n is going to like this.\" ㅋ"
+  },
+  {
+    "type": "hayeon",
+    "ko": "이런 생각도 하고",
+    "en": "I think things like that too."
+  },
+  {
+    "type": "hayeon",
+    "ko": "나 좀 멋있는데? 이런 느낌",
+    "en": "Like, \"I'm kind of cool,\" you know?"
+  },
+  {
+    "type": "hayeon",
+    "ko": "ㅋㅋㄹㅋㄹㅋㄹㅋㅋㅋ",
+    "en": "ㅋㅋㄹㅋㄹㅋㄹㅋㅋㅋ"
+  },
+  {
+    "type": "hayeon",
+    "ko": "그리고 멤버들이랑 얘기하다가",
+    "en": "And while talking with the members,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "내가 엄청 운 좋은 하연이라는 이야기가 나왔어",
+    "en": "we ended up talking about how I'm a really lucky Hayeon."
+  },
+  {
+    "type": "hayeon",
+    "ko": "보통 동선이나 파트 정할 때",
+    "en": "Usually when stage positions or parts are decided,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "뒤나 끝으로 가는 순간들이 있잖아",
+    "en": "there are times when you end up at the back or the end."
+  },
+  {
+    "type": "hayeon",
+    "ko": "근데 나는",
+    "en": "But for me,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "끝에 있어도",
+    "en": "even if I'm at the end,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "다들 나를 보고 있는 것 같고",
+    "en": "I feel like everyone is still looking at me."
+  },
+  {
+    "type": "hayeon",
+    "ko": "끝에 있어도 내 자리가 제일 좋은 자리인 것 같아",
+    "en": "Even if I'm at the end, I feel like it's the best spot."
+  },
+  {
+    "type": "hayeon",
+    "ko": "이렇게 말했더니",
+    "en": "When I said that,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "언니들이",
+    "en": "the unnies said,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "진짜 긍정적인 마인드다",
+    "en": "\"That's such a positive mindset.\""
+  },
+  {
+    "type": "hayeon",
+    "ko": "그러더라",
+    "en": "That's what they told me."
+  },
+  {
+    "type": "hayeon",
+    "ko": "ㅋㅋㄹㅋㄹㅋㅋㅋㅋ",
+    "en": "ㅋㅋㄹㅋㄹㅋㅋㅋㅋ"
+  },
+  {
+    "type": "hayeon",
+    "ko": "끝에 있으면",
+    "en": "If I'm at the end,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "끝에 앉아 있는 사람들한테 내 모습을 보여줄 수 있고",
+    "en": "I can show myself to the people sitting at the end."
+  },
+  {
+    "type": "hayeon",
+    "ko": "뒤에 있으면",
+    "en": "If I'm in the back,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "더 잘 보이려고 크게 춤춰서 눈에 띄고",
+    "en": "I can dance bigger to stand out and be seen better."
+  },
+  {
+    "type": "hayeon",
+    "ko": "이렇게",
+    "en": "That's how"
+  },
+  {
+    "type": "hayeon",
+    "ko": "생각했어",
+    "en": "I thought about it."
+  },
+  {
+    "type": "hayeon",
+    "ko": "생각해보니까",
+    "en": "Now that I think about it,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "좋은 마음가짐인 것 같네",
+    "en": "I think it's actually a good mindset."
+  },
+  {
+    "type": "hayeon",
+    "ko": "나는 내 길 갈게!!",
+    "en": "I'll keep walking my own path!!"
+  },
+  {
+    "type": "hayeon",
+    "ko": "내가 내 길을 가면",
+    "en": "If I keep walking my own path,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "Y/n도 따라와 줄 사람이 있을 거라고 생각해",
+    "en": "I think you'll naturally follow me too, Y/n."
+  },
+  {
+    "type": "hayeon",
+    "ko": "흥흥",
+    "en": "Hehe."
+  },
+  {
+    "type": "hayeon",
+    "ko": "Y/n",
+    "en": "Y/n."
+  },
+  {
+    "type": "hayeon",
+    "ko": "ㅋㅋㅋㄹㅋㅋㄹㅋ",
+    "en": "ㅋㅋㅋㄹㅋㅋㄹㅋ"
+  },
+  {
+    "type": "hayeon",
+    "ko": "물론 해야 할 일, 잘해야 할 일은 열심히 하고",
+    "en": "Of course, I'll work hard on everything I need to do and everything I should do well."
+  },
+  {
+    "type": "hayeon",
+    "ko": "Y/n 정도면",
+    "en": "Someone like you, Y/n,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "내가 뭘 좋아하는지 알지? ㅋ",
+    "en": "knows what I like, right? ㅋ"
+  },
+  {
+    "type": "hayeon",
+    "ko": "풓ㅎㅎㅎㅎㅎㅎ",
+    "en": "풓ㅎㅎㅎㅎㅎㅎ"
+  },
+  {
+    "type": "hayeon",
+    "ko": "내가 최고인 거 알아",
+    "en": "I know I'm the best."
+  },
+  {
+    "type": "hayeon",
+    "ko": "지금",
+    "en": "Right now,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "어깨가 올라가고 있어",
+    "en": "my shoulders are rising."
+  },
+  {
+    "type": "hayeon",
+    "ko": "거북목 될 것 같아",
+    "en": "I'm going to end up with turtle neck."
+  },
+  {
+    "type": "hayeon",
+    "ko": "조금 내려야겠다",
+    "en": "I'd better relax them a little."
+  },
+  {
+    "type": "hayeon",
+    "ko": "Y/n이라는 존재가",
+    "en": "The fact that someone like Y/n"
+  },
+  {
+    "type": "hayeon",
+    "ko": "있다는 걸 알려줘서 고마워",
+    "en": "exists... thank you for letting me know that."
+  },
+  {
+    "type": "hayeon",
+    "ko": "좀 오글거릴 수도 있지만 참아줘",
+    "en": "It might sound cheesy, but bear with me."
+  },
+  {
+    "type": "hayeon",
+    "ko": "하고 싶은 말은 해야지 ❤️",
+    "en": "I should say the things I want to say. ❤️"
+  },
+  {
+    "type": "hayeon",
+    "ko": "내가 너만의 달이 되어줄게. 너는 내 해가 되어줄래?.... 🥀🥀",
+    "en": "I'll be your moon. Will you be my sun?.... 🥀🥀"
+  },
+  {
+    "type": "fan",
+    "ko": "이제 누가 발표할 건데..",
+    "en": "So... who's going to present now..?"
+  },
+  {
+    "type": "hayeon",
+    "ko": "왜 나가…",
+    "en": "Why are you leaving..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "ㅋㄹㅋㄹㅋㄹㅌㄹㅋㄹㅋ",
+    "en": "ㅋㄹㅋㄹㅋㄹㅌㄹㅋㄹㅋ"
+  },
+  {
+    "type": "fan",
+    "ko": "하연아 취했어?",
+    "en": "Hayeon, are you drunk?"
+  },
+  {
+    "type": "hayeon",
+    "ko": "눈으로 취했냐? 훟ㅎ",
+    "en": "Did I get drunk through my eyes? 훟ㅎ"
+  },
+  {
+    "type": "fan",
+    "ko": "새벽에 07년생 여자애가 보고 싶다…",
+    "en": "I want to see a girl born in 2007 at this hour..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "지극히 정상입니다",
+    "en": "That's perfectly normal."
+  },
+  {
+    "type": "fan",
+    "ko": "오늘은 육회랑 연어를 이긴 기념비적인 날이야",
+    "en": "Today is a historic day—the day you beat the yukhoe and salmon."
+  },
+  {
+    "type": "hayeon",
+    "ko": "알아. 지금 눈앞에 있는데 안 먹고 있는 거잖아",
+    "en": "I know. It's right in front of me, and I'm still not eating it."
+  },
+  {
+    "type": "hayeon",
+    "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹ",
+    "en": "ㅋㄹㅋㄹㅋㄹㅋㄹ"
+  },
+  {
+    "type": "hayeon",
+    "ko": "이제 먹을 거야",
+    "en": "I'm going to eat now."
+  },
+  {
+    "type": "hayeon",
+    "ko": "빨리 먹고 빨리 잘게..",
+    "en": "I'll eat quickly and go to bed early.."
+  },
+  {
+    "type": "hayeon",
+    "ko": "내가 너 사랑하는 거 알지",
+    "en": "You know I love you, right?"
+  },
+  {
+    "type": "hayeon",
+    "ko": "사랑해!! ❤️ / 하랑해!! ❤️",
+    "en": "I love you!! ❤️ / Haranghae!! ❤️"
+  }
+  ]
+}

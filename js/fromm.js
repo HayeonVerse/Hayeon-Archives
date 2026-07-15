@@ -58,6 +58,8 @@ state: {
 
     selectedConversation: null,
 
+searchMatches: {},
+
 expandedYears: new Set(),
 
 expandedMonths: new Set(),
@@ -404,6 +406,8 @@ yearTitle.onclick = () => {
 
     App.buildTimeline();
 
+App.saveUIState();
+
 };
 
             yearDiv.appendChild(yearTitle);
@@ -449,6 +453,8 @@ if (App.state.expandedMonths.has(monthKey)) {
 
                     App.buildTimeline();
 
+App.saveUIState();
+
                 };
 
                 monthDiv.appendChild(monthTitle);
@@ -457,12 +463,40 @@ if (App.state.expandedMonths.has(monthKey)) {
 
                     archive[year][month].forEach(conv => {
 
-                        const btn = document.createElement("button");
+const btn = document.createElement("button");
 
-                        btn.className = "timeline-date";
+btn.className = "timeline-date";
 
-                        btn.textContent =
-                            App.utils.formatDate(conv.date);
+const date =
+    App.utils.create(
+        "div",
+        "timeline-date-title"
+    );
+
+date.textContent =
+    App.utils.formatDate(conv.date);
+
+btn.appendChild(date);
+
+const count =
+    App.state.searchMatches[
+        conv.date
+    ];
+
+if (count) {
+
+    const badge =
+        App.utils.create(
+            "div",
+            "timeline-match-count"
+        );
+
+    badge.textContent =
+        `${count} match${count > 1 ? "es" : ""}`;
+
+    btn.appendChild(badge);
+
+}
 
                         if (
                             App.state.selectedConversation &&
@@ -507,19 +541,39 @@ App.showConversation = function (conversation) {
 
     App.state.selectedConversation = conversation;
 
+const year =
+    App.utils.getYear(conversation.date);
+
+const month =
+    `${year}-${App.utils.getMonth(conversation.date)}`;
+
+App.state.expandedYears.add(year);
+
+App.state.expandedMonths.add(month);
+
+App.saveUIState();
+
 App.saveLastConversation(conversation);
 
 document
     .querySelectorAll(".timeline-date")
     .forEach(button => {
 
+button.classList.remove("active")
+
         button.classList.toggle(
 
             "active",
 
-            button.textContent ===
-            App.utils.formatDate(conversation.date)
+button.querySelector(
+    ".timeline-date-title"
+)?.textContent ===
+App.utils.formatDate(
+    conversation.date
+)
 
+
+            
         );
 
     });
@@ -604,6 +658,24 @@ prevBtn.onclick = () => {
 
 };
 
+const closeBtn =
+    App.utils.create(
+        "button",
+        "nav-btn"
+    );
+
+closeBtn.textContent = "✕ Close";
+
+closeBtn.onclick = () => {
+
+    App.state.selectedConversation = null;
+
+    App.saveUIState();
+
+    App.render();
+
+};
+
 const nextBtn =
     App.utils.create(
         "button",
@@ -621,9 +693,67 @@ nextBtn.onclick = () => {
 
 };
 
-nav.append(prevBtn, nextBtn);
+nav.append(prevBtn, closeBtn, nextBtn);
 
-header.append(title, info, nav);
+header.append(title, info);
+
+if (window.innerWidth <= 768) {
+
+    const original =
+        document.querySelector(
+            ".language-filter"
+        );
+
+    if (original) {
+
+        const mobile =
+            original.cloneNode(true);
+
+        mobile.classList.remove(
+            "language-filter"
+        );
+
+        mobile.classList.add(
+            "mobile-language-filter"
+        );
+
+        mobile.querySelectorAll(".lang-btn")
+            .forEach(btn => {
+
+                if (
+                    btn.dataset.lang ===
+                    App.state.language
+                ) {
+
+                    btn.classList.add(
+                        "active"
+                    );
+
+                } else {
+
+                    btn.classList.remove(
+                        "active"
+                    );
+
+                }
+
+                btn.onclick = () => {
+
+                    App.setLanguage(
+                        btn.dataset.lang
+                    );
+
+                };
+
+            });
+
+        header.appendChild(mobile);
+
+    }
+
+}
+
+header.appendChild(nav);
 
     container.appendChild(header);
 
@@ -689,6 +819,50 @@ App.loadLastConversation = function () {
     return localStorage.getItem(
         "fromm-last-conversation"
     );
+
+};
+
+App.saveUIState = function () {
+
+    localStorage.setItem(
+
+        "fromm-ui",
+
+        JSON.stringify({
+
+            conversation:
+                App.state.selectedConversation
+                    ?.date ?? null,
+
+            years:
+                [...App.state.expandedYears],
+
+            months:
+                [...App.state.expandedMonths]
+
+        })
+
+    );
+
+};
+
+App.loadUIState = function () {
+
+    try{
+
+        return JSON.parse(
+
+            localStorage.getItem("fromm-ui")
+
+        ) || {};
+
+    }
+
+    catch{
+
+        return {};
+
+    }
 
 };
 
@@ -1839,27 +2013,54 @@ App.openImage = function (src) {
 
 App.render = function () {
 
-    App.updateStatistics();
+const ui =
+    App.loadUIState();
 
-    App.buildTimeline();
+App.state.expandedYears =
+    new Set();
 
-const lastDate = App.loadLastConversation();
+App.state.expandedMonths =
+    new Set();
 
-if (!App.state.selectedConversation && lastDate) {
+if (!App.state.selectedConversation && ui.conversation) {
 
-    const remembered = App.state.filtered.find(
+    const remembered =
+        App.state.filtered.find(
 
-        c => c.date === lastDate
+            c => c.date === ui.conversation
 
-    );
+        );
 
     if (remembered) {
 
-        App.state.selectedConversation = remembered;
+        App.state.selectedConversation =
+            remembered;
 
     }
 
 }
+
+if (App.state.selectedConversation) {
+
+    const year =
+        App.utils.getYear(
+            App.state.selectedConversation.date
+        );
+
+    const month =
+        `${year}-${App.utils.getMonth(
+            App.state.selectedConversation.date
+        )}`;
+
+    App.state.expandedYears.add(year);
+
+    App.state.expandedMonths.add(month);
+
+}
+
+App.updateStatistics();
+
+App.buildTimeline();
 
 if (App.state.selectedConversation) {
 
@@ -1889,62 +2090,53 @@ if (App.state.selectedConversation) {
    SEARCH
 ============================================ */
 
-App.search = function (keyword = "") {
+App.search = function (query) {
 
-    App.state.search =
-        keyword.trim().toLowerCase();
+    query = query.trim().toLowerCase();
 
-    if (!App.state.search) {
+    App.state.search = query;
 
-        App.state.filtered = [
+    App.state.searchMatches = {};
 
-            ...App.state.conversations
+    if (!query) {
 
-        ];
+        App.state.filtered = [...App.state.conversations];
 
-    }
+        App.render();
 
-    else {
-
-        App.state.filtered =
-            App.state.conversations.filter(conversation => {
-
-                if (
-
-                    conversation.date
-                        .toLowerCase()
-                        .includes(App.state.search)
-
-                ) return true;
-
-                return conversation.messages.some(message =>
-
-                    (message.ko || "")
-                        .toLowerCase()
-                        .includes(App.state.search)
-
-                    ||
-
-                    (message.en || "")
-                        .toLowerCase()
-                        .includes(App.state.search)
-
-                );
-
-            });
+        return;
 
     }
 
-    if (
-    App.state.selectedConversation &&
-    !App.state.filtered.some(
-        c => c.date === App.state.selectedConversation.date
-    )
-) {
-    App.state.selectedConversation = null;
-}
+    App.state.filtered = App.state.conversations.filter(conversation => {
 
-App.render();
+        let matches = 0;
+
+        conversation.messages.forEach(message => {
+
+            const ko = (message.ko || "").toLowerCase();
+
+            const en = (message.en || "").toLowerCase();
+
+            if (ko.includes(query)) matches++;
+
+            if (en.includes(query)) matches++;
+
+        });
+
+        if (matches > 0) {
+
+            App.state.searchMatches[conversation.date] = matches;
+
+            return true;
+
+        }
+
+        return false;
+
+    });
+
+    App.render();
 
 };
 
@@ -2019,8 +2211,92 @@ App.bindEvents = function () {
 
     });
 
+const latestBtn =
+    document.getElementById(
+        "timeline-latest"
+    );
+
+latestBtn?.addEventListener(
+    "click",
+    () => {
+
+        if (!App.state.filtered.length)
+            return;
+
+        App.showConversation(
+            App.state.filtered[
+                App.state.filtered.length - 1
+            ]
+        );
+
+    }
+);
+
 };
 
+/* ============================================
+   MOBILE TIMELINE
+============================================ */
+
+App.bindMobileTimeline = function () {
+
+    const toggle =
+        document.getElementById(
+            "timeline-toggle"
+        );
+
+    const content =
+        document.getElementById(
+            "timeline-content"
+        );
+
+    const icon =
+        document.getElementById(
+            "timeline-toggle-icon"
+        );
+
+    if (!toggle || !content || !icon) {
+
+        return;
+
+    }
+
+    if (window.innerWidth <= 768) {
+
+content.classList.add("collapsed");
+
+document
+    .getElementById("fromm-sidebar")
+    .classList.add("collapsed");
+
+        icon.textContent = "▶";
+
+    }
+
+    toggle.addEventListener("click", () => {
+
+        if (window.innerWidth > 768) {
+
+            return;
+
+        }
+
+content.classList.toggle("collapsed");
+
+document
+    .getElementById("fromm-sidebar")
+    .classList.toggle("collapsed");
+
+        icon.textContent =
+            content.classList.contains(
+                "collapsed"
+            )
+            ? "▶"
+            : "▼";
+
+    });
+
+};
 /* ============================================
    KEYBOARD SHORTCUTS
 ============================================ */
@@ -2180,6 +2456,8 @@ App.events.on(
 App.bindEvents();
 
 App.bindKeyboard();
+
+App.bindMobileTimeline();
 
 console.log(
     "✅ Frommm Archive v2 initialized."
