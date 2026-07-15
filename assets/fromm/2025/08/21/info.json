@@ -2,172 +2,214 @@
   "date": "2025-08-21",
   "messages": [
     {
-      "type": "fan",
+      "type": "hayeon",
+      "ko": "모행",
       "en": "What are you doing"
     },
     {
       "type": "fan",
-      "en": "Oh I was watching Special Forces Martial Arts."
+      "ko": "오 나 특공 무술 보고있었어",
+      "en": "Oh I was watching special forces martial arts signal"
     },
     {
       "type": "hayeon",
-      "en": "ㅋㅋㅋㅋㅋㅋ I watched it too."
+      "ko": "ㅋㅋㅋㅋㅋㅋㄹ 나도봤어",
+      "en": "ㅋㅋㅋㅋㅋㅋㄹ I saw it too"
     },
     {
       "type": "hayeon",
-      "en": "Me, seriously..."
+      "ko": "나 진짜",
+      "en": "Me seriously"
     },
     {
       "type": "hayeon",
-      "en": "If I actually learned martial arts..."
+      "ko": "따로 싸움 배운다?!???",
+      "en": "Learning to fight separately?!???"
     },
     {
       "type": "hayeon",
-      "en": "I'd beat everyone..."
+      "ko": "다 져..",
+      "en": "I lost at everything.."
     },
     {
       "type": "hayeon",
-      "en": "Actually, even falling over..."
+      "ko": "사실 넘어진것도",
+      "en": "Actually, even falling down"
     },
     {
       "type": "hayeon",
-      "en": "I was full of confidence..."
+      "ko": "자신감에 차서",
+      "en": "Because I was full of confidence"
     },
     {
       "type": "hayeon",
-      "en": "Thinking, 'How cool do I look throwing that strike? ㅋ'"
+      "ko": "멋지게 치는내 모습 어떤데 ㅋ",
+      "en": "How was my cool appearance while striking"
     },
     {
       "type": "hayeon",
-      "en": "That was what I was aiming for..."
+      "ko": "를 노린거였음..",
+      "en": "It was what I was aiming for.."
     },
     {
       "type": "hayeon",
-      "en": "But when I came to my senses..."
+      "ko": "근데 정신차리니까 바닥이야",
+      "en": "But when I came to my senses, I hit the floor"
     },
     {
       "type": "hayeon",
-      "en": "I was on the floor."
+      "ko": "하..",
+      "en": "Ha.."
     },
     {
       "type": "hayeon",
-      "en": "Ha..."
+      "ko": "내가 원래 그런사람이 아닌데 참",
+      "en": "I am not that kind of person naturally really"
     },
     {
       "type": "hayeon",
-      "en": "I'm not usually that kind of person."
-    },
-    {
-      "type": "hayeon",
-      "en": "So embarrassing."
+      "ko": "부끄럽네",
+      "en": "Embarrassing"
     },
     {
       "type": "fan",
+      "ko": "하요이 다리 짧아서 그래.",
       "en": "It's because Hayoi's legs are short."
     },
     {
       "type": "hayeon",
+      "ko": "싸울래?",
       "en": "Want to fight?"
     },
     {
       "type": "hayeon",
-      "en": "If I awaken, I'm no joke."
+      "ko": "나 각성하면 장난아니야",
+      "en": "If I awaken, it's no joke"
     },
     {
       "type": "hayeon",
-      "en": "Want to get hit by my Hayan Punch?"
+      "ko": "하얀펀치 맞아볼래?",
+      "en": "Want to get hit by my white punch?"
     },
     {
       "type": "hayeon",
+      "ko": "ㅎㅎㅎㅎ",
       "en": "ㅎㅎㅎㅎ"
     },
     {
       "type": "hayeon",
-      "en": "I wasn't provoked~"
+      "ko": "안긁혔어~",
+      "en": "Didn't get provoked~"
     },
     {
       "type": "hayeon",
-      "en": "I don't get provoked by things that aren't true."
+      "ko": "사실이 아닌것엔 안긁혀 잘",
+      "en": "I don't get provoked by things that aren't true"
     },
     {
       "type": "fan",
-      "en": "Then why do you get provoked when people call you boring? Is it because it's true?!"
+      "ko": "그럼 노잼이란거엔 왜 긁히는거야 사실인거야?!",
+      "en": "Then why do you get provoked by 'no fun,' is it because it's true?!"
     },
     {
       "type": "hayeon",
-      "en": "Hey."
+      "ko": "어허",
+      "en": "Hey"
     },
     {
       "type": "fan",
-      "en": "When you filmed the Special Forces Martial Arts video, was Chaewon's dad there too?"
+      "ko": "특공무술 찍을때 채원이 아부지도 계셨어?",
+      "en": "When filming special forces martial arts, was Chaewon's father there too?"
     },
     {
       "type": "hayeon",
-      "en": "Yeah, he was."
+      "ko": "어어 계셨어",
+      "en": "Yeah yeah he was"
     },
     {
       "type": "hayeon",
-      "en": "I met both of Chaewon's parents."
+      "ko": "채원이 부모님 두분다 뵙고왔어",
+      "en": "I met both of Chaewon's parents"
     },
     {
       "type": "hayeon",
-      "en": "I greeted them properly."
+      "ko": "인사 야무지게 드렸지",
+      "en": "I gave a proper greeting"
     },
     {
       "type": "hayeon",
-      "en": "They even bought me food."
+      "ko": "밥도 사주셨어",
+      "en": "They even treated me to some food"
     },
     {
       "type": "hayeon",
-      "en": "It was delicious."
+      "ko": "맛있게먹었습니당",
+      "en": "I ate deliciously"
     },
     {
       "type": "hayeon",
-      "en": "For me, having manners around adults is really important."
+      "ko": "난 어른앞에서 예의진짜 중요해",
+      "en": "For me, manners in front of adults are really important"
     },
     {
       "type": "hayeon",
-      "en": "I can't stand seeing people around me who don't have manners."
+      "ko": "난 내 주변사람들이 예의없는거 보면",
+      "en": "When I see people around me lacking manners"
     },
     {
+      "type": "hayeon",
+      "ko": "못참아",
+      "en": "I can't stand it"
+    },
+        {
       "type": "fan",
-      "en": "I thought that was just common sense, but judging by people's reactions, apparently it isn't."
+      "ko": "이게 당연한 줄 알았는데 반응들 보면 당연한 게 아니더라?",
+      "en": "I thought this was obvious, but looking at the reactions, it's not obvious?"
     },
     {
       "type": "hayeon",
-      "en": "Exactly."
+      "ko": "그래 그렇다니까",
+      "en": "Yeah that's what I'm saying"
     },
     {
       "type": "hayeon",
-      "en": "Even I get surprised sometimes."
+      "ko": "나도 가끔 좀 놀라",
+      "en": "I also get surprised sometimes"
     },
     {
       "type": "hayeon",
-      "en": "Like when someone goes to a friend's house and doesn't greet their parents."
+      "ko": "친구집 놀러가서 친구 부모님한테 인사 안드리거나",
+      "en": "Going to a friend's house and not greeting their parents"
     },
     {
       "type": "hayeon",
-      "en": "Or refuses to eat because they're picky."
+      "ko": "밥먹을때 편식한다고 안먹고있거나",
+      "en": "Or not eating because of being picky when eating"
     },
     {
       "type": "hayeon",
-      "en": "Things like that."
+      "ko": "그런",
+      "en": "Things like that"
     },
     {
       "type": "hayeon",
-      "en": "I might be shy around friends..."
+      "ko": "난 친구한텐 낯가려도",
+      "en": "Even if I'm shy around friends"
     },
     {
       "type": "hayeon",
-      "en": "But I'm not shy around adults."
+      "ko": "어른한텐 안가려",
+      "en": "I'm not shy around adults"
     },
     {
       "type": "hayeon",
-      "en": "On purpose."
+      "ko": "일부러",
+      "en": "On purpose"
     },
     {
       "type": "hayeon",
-      "en": "Oh right."
+      "ko": "아맞다",
+      "en": "Ah right"
     },
     {
       "type": "hayeon",
@@ -175,354 +217,455 @@
     },
     {
       "type": "hayeon",
+      "ko": "오늘 관장님 집에 놀러가도 됩니까?",
       "en": "May I go visit the instructor's house today?"
     },
     {
       "type": "fan",
+      "ko": "부모님한테 허락은 맡았습니까?!",
       "en": "Did you get permission from your parents?!"
     },
     {
       "type": "hayeon",
-      "en": "My mom said it's okay too!"
+      "ko": "엄마도 된다고 그랬습니다!",
+      "en": "My mom also said it's okay!"
     },
     {
       "type": "fan",
-      "en": "Didn't you learn Special Forces Martial Arts before?ㅋㅋ Did you forget everything??"
+      "ko": "옛날에 특공무술 배웠다며ㅋㅋ 다까먹었어??",
+      "en": "You said you learned special forces martial arts beforeㅋㅋ Did you forget it all??"
     },
     {
       "type": "hayeon",
-      "en": "No."
+      "ko": "아냐",
+      "en": "No"
     },
     {
       "type": "hayeon",
-      "en": "Breakfall techniques..."
+      "ko": "낙법",
+      "en": "Breakfalls"
     },
     {
       "type": "hayeon",
-      "en": "Things like that."
+      "ko": "이런거",
+      "en": "Things like that"
     },
     {
       "type": "hayeon",
-      "en": "I haven't forgotten any of them."
+      "ko": "하나도 안까먹었지",
+      "en": "I didn't forget a single one"
     },
     {
       "type": "fan",
+      "ko": "그땨 무슨 띠였어",
       "en": "What belt were you back then?"
     },
     {
       "type": "hayeon",
-      "en": "I think I quit right before getting my blue belt."
+      "ko": "파란띠 따기 직전에 관둔거같은데",
+      "en": "I think I quit right before earning my blue belt"
     },
     {
       "type": "fan",
-      "en": "ㅋㅋㅋ Totally kindergarten level. I was a red belt."
+      "ko": "ㅋㅋㅋ크완전유치원생이네. 나 빨간띠다",
+      "en": "ㅋㅋㅋ You're basically a kindergartener. I'm a red belt."
     },
     {
       "type": "hayeon",
+      "ko": "헐 어쩔",
       "en": "Heol, so what?"
     },
     {
       "type": "fan",
-      "en": "I'm a Taekwondo black belt."
+      "ko": "나 태권도 검은띠야",
+      "en": "I'm a taekwondo black belt."
     },
     {
       "type": "hayeon",
-      "en": "I'm a 6th grader at Gordon School, so don't mess with me."
+      "ko": "난 고든학교6학년이다 까불지마라",
+      "en": "I'm a 6th grader at Gordon School, don't mess with me."
     },
     {
       "type": "fan",
-      "en": "Hayeon knows old memes? You're really an '07, right?"
+      "ko": "하연이 고전 밈을 아네? 07 맞지?",
+      "en": "Hayeon knows old memes? You're an '07 liner, right?"
     },
     {
       "type": "hayeon",
-      "en": "Calling that an old meme..."
+      "ko": "이게 고전이라니.. 나에게 아주 최신인데",
+      "en": "You're calling this an old meme..? It's very recent to me."
     },
     {
       "type": "hayeon",
-      "en": "To me it's still brand new."
+      "ko": "사실 그 밈주인공이",
+      "en": "Actually, the main character of that meme"
     },
     {
       "type": "hayeon",
-      "en": "Actually..."
+      "ko": "나임",
+      "en": "is me."
     },
     {
       "type": "hayeon",
-      "en": "I'm the main character of that meme."
-    },
-    {
-      "type": "hayeon",
+      "ko": "로블록스잖음",
       "en": "It's Roblox, you know."
     },
     {
       "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋ",
       "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋ"
     },
     {
       "type": "hayeon",
-      "en": "Just kidding."
+      "ko": "장난이고",
+      "en": "I'm kidding."
     },
     {
       "type": "hayeon",
-      "en": "The meme is..."
+      "ko": "어떤 밈이냐묜",
+      "en": "The meme is"
     },
     {
       "type": "hayeon",
-      "en": "Some elementary school kids arguing in Roblox chat."
+      "ko": "로블록스 초딩들 싸우는",
+      "en": "elementary school kids arguing on Roblox"
     },
     {
       "type": "hayeon",
-      "en": "One person said..."
+      "ko": "채팅에",
+      "en": "in the chat"
     },
     {
       "type": "hayeon",
-      "en": "\"I'm a 6th grader at Gordon School.\""
+      "ko": "어떤 분이",
+      "en": "when someone said"
     },
     {
       "type": "hayeon",
-      "en": "While arguing."
+      "ko": "난 고든학교6학년이거든",
+      "en": "\"I'm a 6th grader at Gordon School, you know.\""
     },
     {
       "type": "hayeon",
-      "en": "And that became a meme."
+      "ko": "머 이러면서",
+      "en": "Saying things like that"
+    },
+    {
+      "type": "hayeon",
+      "ko": "싸우는게",
+      "en": "while arguing"
+    },
+    {
+      "type": "hayeon",
+      "ko": "밈이 된거야",
+      "en": "became a meme."
     },
         {
       "type": "fan",
-      "en": "Cute… you're kind of like me… the cute part."
+      "ko": "귀야워…살짝 나같아……귀여운게",
+      "en": "Cute… kind of like me…… the cute part."
     },
     {
       "type": "hayeon",
-      "en": "What's with you?"
+      "ko": "왜저랭?",
+      "en": "Why are you like that?"
     },
     {
       "type": "fan",
+      "ko": "멤버들중 하연이 긁는게 제일 반응좋아",
       "en": "Among the members, teasing Hayeon gets the best reaction."
     },
     {
       "type": "hayeon",
-      "en": "So that's why everyone keeps teasing me?"
+      "ko": "그래서 다들 날 긁는거야?",
+      "en": "So everyone teases me because of that?"
     },
     {
       "type": "hayeon",
-      "en": "It's so refreshing."
+      "ko": "너무 시원하네 그냥",
+      "en": "That's just so refreshing."
     },
     {
       "type": "fan",
-      "en": "I'll stop teasing you from now on."
+      "ko": "이제부터 긁는거 끊을게",
+      "en": "From now on I'll stop teasing you."
     },
     {
       "type": "hayeon",
-      "en": "Ah, so it was an addiction?"
+      "ko": "아 중독이였어?",
+      "en": "Ah, it was an addiction?"
     },
     {
       "type": "fan",
-      "en": "What are you eating for dinner?"
+      "ko": "저녁머드시죠",
+      "en": "Please eat dinner."
     },
     {
       "type": "hayeon",
-      "en": "Well..."
+      "ko": "아니",
+      "en": "I mean"
     },
     {
       "type": "hayeon",
-      "en": "Recently..."
+      "ko": "나 최근에",
+      "en": "Recently I"
     },
     {
       "type": "hayeon",
-      "en": "Near our company..."
+      "ko": "우리회사 근처",
+      "en": "near our company"
     },
     {
       "type": "hayeon",
-      "en": "I found a really amazing place."
+      "ko": "진짜",
+      "en": "found a really"
     },
     {
       "type": "hayeon",
+      "ko": "맛도리",
+      "en": "super delicious place."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이건 우리엄마가해준 김치찜이다",
       "en": "It's like the kimchi jjim my mom makes."
     },
     {
       "type": "hayeon",
-      "en": "My mom cooks kimchi jjim in a pressure cooker, you know?"
+      "ko": "우리엄마 김치찜 압력솥에 하거든?",
+      "en": "My mom makes kimchi jjim in a pressure cooker, you know?"
     },
     {
       "type": "hayeon",
-      "en": "That deeply stewed flavor..."
+      "ko": "그 푹익은 그 따라오지못하는",
+      "en": "That deeply stewed taste that nothing can match"
     },
     {
       "type": "hayeon",
-      "en": "The way the kimchi just falls apart... you know what I mean!?"
+      "ko": "김치가 으스러지는 뭔지앎!!?",
+      "en": "You know when the kimchi just falls apart!!?"
     },
     {
       "type": "hayeon",
-      "en": "This one was seriously..."
+      "ko": "이번엔 진짜 이건",
+      "en": "This time, seriously,"
     },
     {
       "type": "hayeon",
-      "en": "Incredibly delicious."
+      "ko": "대박 맛빕",
+      "en": "it's an amazing 'matbip.'"
     },
     {
       "type": "hayeon",
-      "en": "A real hidden gem."
+      "ko": "맛집",
+      "en": "A real great restaurant."
     },
     {
       "type": "hayeon",
-      "en": "And on top of that..."
+      "ko": "심지어",
+      "en": "What's more,"
     },
     {
       "type": "hayeon",
-      "en": "It uses whole pork belly."
+      "ko": "통삼겹이야",
+      "en": "it uses whole pork belly."
     },
     {
       "type": "hayeon",
+      "ko": "나 김치찜시키면 김치 다남기는데",
       "en": "Whenever I order kimchi jjim, I usually leave all the kimchi."
     },
     {
       "type": "hayeon",
-      "en": "But this time I ate even more kimchi than meat."
+      "ko": "김치를 더많이머근ㅁ",
+      "en": "But this time I ate more kimchi."
     },
     {
       "type": "hayeon",
-      "en": "A meat revolution."
+      "ko": "고기혁명",
+      "en": "Meat revolution."
     },
     {
       "type": "hayeon",
+      "ko": "통삼겹김치찜",
       "en": "Whole pork belly kimchi jjim."
     },
     {
       "type": "hayeon",
-      "en": "I guess it depends on the place."
+      "ko": "지바지 이긴한데",
+      "en": "It's jibaji though."
     },
     {
       "type": "hayeon",
+      "ko": "먹어보삼",
       "en": "You should try it."
     },
     {
       "type": "fan",
-      "en": "Isn't it just case by case?"
+      "ko": "점바점 아님..?",
+      "en": "Isn't it jeombajeom (case by case)?"
     },
     {
       "type": "hayeon",
-      "en": "Yeah..."
+      "ko": "어어 그거..",
+      "en": "Yeah yeah, that..."
     },
     {
       "type": "hayeon",
-      "en": "Same thing..."
+      "ko": "그거나 그거나..",
+      "en": "Same difference..."
     },
     {
       "type": "fan",
+      "ko": "하... 만찢녀를 만툭튀라고 하는 멤버같네",
       "en": "Ha... just like that member who called 'manjjijnyeo' 'mantugtwi.'"
     },
     {
       "type": "hayeon",
-      "en": "Who even said that? ㅋㅎㅎㅎㅎㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ"
+      "ko": "누가 그랬는데 ㅋㅎㅋㅎㅋㅎㅋㅋㅋㅋㅋㅋㅋㅎㄹㅋㅎㅋㅋㅎㅎㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "en": "Who said that? ㅋㅎㅋㅎㅋㅎㅋㅋㅋㅋㅋㅋㅋㅎㄹㅋㅎㅋㅋㅎㅎㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ"
     },
     {
       "type": "hayeon",
-      "en": "That's so funny. ㅋㅋㅋㅋ"
+      "ko": "너무웃디켘ㅋㅎㅋㄹㅋㄹㅋ",
+      "en": "It's so funnyㅋㅋㅋ"
     },
     {
       "type": "hayeon",
-      "en": "I'm dying. ㅋㅋㅋㅋ"
+      "ko": "미치겠ㅋㅅㅋㅋㅎㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "I'm going crazyㅋㅋㅋ"
     },
     {
       "type": "hayeon",
-      "en": "Why is this so funny? ㅋㅋㅋㅋ"
+      "ko": "왜 너무웃ㄴㅋㅎㅋㄹㅋㄹㄹㅋㅋ",
+      "en": "Why is it so funnyㅋㅋ"
     },
     {
       "type": "hayeon",
+      "ko": "레전드",
       "en": "Legend."
     },
     {
       "type": "hayeon",
-      "en": "\"Mantugtwi.\" ㅋㅋㅋㅋ"
+      "ko": "만툭투킼ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋ",
+      "en": "Mantugtwiㅋㅋㅋㅋ"
     },
     {
       "type": "hayeon",
-      "en": "It's even funnier because Jiyoon unnie said it."
-    },
-    {
-      "type": "fan",
-      "en": "You're holding your stomach laughing again, aren't you?"
+      "ko": "지연언니가 말해서",
+      "en": "Because Jiyeon unnie said it,"
     },
     {
       "type": "hayeon",
-      "en": "ㅋㅋㅋㅋㅋㅋ Even that sentence is so funny. ㅋㅋㅋㅋ"
+      "ko": "더웃겨",
+      "en": "it's even funnier."
     },
     {
       "type": "fan",
+      "ko": "또 배잡고웃고잇지",
+      "en": "You're holding your stomach while laughing again, aren't you?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㅎㅎㅋㅋ 이말도 너무 웃뎤ㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㅎㅎㅋㅋ Even that sentence is so funnyㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "하연아 투어준비 잘되가?",
       "en": "Hayeon, are your tour preparations going well?"
     },
     {
       "type": "hayeon",
+      "ko": "웃음이 멈추었습니다",
       "en": "The laughter has stopped."
     },
     {
       "type": "hayeon",
+      "ko": "난 할수있다!!!!!!",
       "en": "I can do it!!!!!!"
     },
     {
-      "type": "hayeon",
-      "en": "[Deleted message]"
+      "type": "deleted"
     },
     {
       "type": "hayeon",
-      "en": "No. ㅋㅋㅋㅋ"
+      "ko": "아냐 ㅋㅋㄹㅋㅋㅋㅋㄹㅋ",
+      "en": "No ㅋㅋㄹㅋㅋㅋㅋㄹㅋ"
     },
     {
       "type": "hayeon",
-      "en": "It's not just..."
+      "ko": "나혼자만의",
+      "en": "It's not just"
     },
     {
       "type": "hayeon",
-      "en": "My problem alone."
+      "ko": "문제가 아니자나",
+      "en": "my own problem."
     },
     {
       "type": "hayeon",
-      "en": "It's not."
+      "ko": "아니야",
+      "en": "No."
     },
     {
       "type": "hayeon",
+      "ko": "좋은게 좋은거지~~",
       "en": "What's good is good~~"
     },
     {
       "type": "hayeon",
+      "ko": "몰랑",
       "en": "I don't know."
     },
     {
       "type": "hayeon",
+      "ko": "끝말잇기나 하자",
       "en": "Let's just play word chain."
     },
-    {
+        {
       "type": "fan",
+      "ko": "나부터할게 산기슭",
       "en": "I'll start. Mountain slope."
     },
     {
       "type": "hayeon",
+      "ko": "반사",
       "en": "Reflect."
     },
     {
       "type": "hayeon",
+      "ko": "산기슭",
       "en": "Mountain slope."
     },
     {
       "type": "fan",
-      "en": "Me first! I love you!!!!!! 💖💖💖🪽🪽💖💖🪽💕💕💕❤️"
+      "ko": "나먼저 사랑해!!!!!!💖💖💖🪽🪽💖💖🪽💕💕💕❤️",
+      "en": "Me first, I love you!!!!!! 💖💖💖🪽🪽💖💖🪽💕💕💕❤️"
     },
     {
       "type": "hayeon",
+      "ko": "해질녘.",
       "en": "Sunset."
     },
     {
       "type": "fan",
-      "en": "Me first. Jibaji."
+      "ko": "나먼저 지바지",
+      "en": "Me first, jibaji."
     },
     {
       "type": "hayeon",
+      "ko": "놀리냐",
       "en": "Are you teasing me?"
     },
     {
       "type": "hayeon",
-      "en": "Me first, Mantugtwi!!!"
+      "ko": "나먼저 만툭튀!!!",
+      "en": "Me first, mantugtwi!!!"
     },
     {
       "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㅅㅋㅅㅋㄹㅋㄹㅋㅋㄹㅋㅋㅋㅋㅋㅅㅋㅅㅋㅅㅋㅅㅋㅅㅋㅋㅋㅋㅋㅋㅋ",
       "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㅅㅋㅅㅋㄹㅋㄹㅋㅋㄹㅋㅋㅋㅋㅋㅅㅋㅅㅋㅅㅋㅅㅋㅅㅋㅋㅋㅋㅋㅋㅋ"
     },
     {
@@ -531,62 +674,87 @@
     },
     {
       "type": "hayeon",
+      "ko": "미아안노래 연습중이여써",
       "en": "Sooorry, I was practicing a song."
     },
     {
       "type": "hayeon",
-      "en": "I was thinking about letting you hear it..."
+      "ko": "들려줄까 고민을 했ㄴ느데",
+      "en": "I was thinking about letting you hear it,"
     },
     {
       "type": "hayeon",
-      "en": "But I gave up."
+      "ko": "포기",
+      "en": "but I gave up."
     },
     {
       "type": "hayeon",
-      "en": "\"Mad at Disney.\""
+      "ko": "mad Disney",
+      "en": "Mad Disney"
     },
     {
       "type": "hayeon",
-      "en": "That song."
+      "ko": "라는",
+      "en": "is the"
     },
-        {
+    {
+      "type": "hayeon",
+      "ko": "노래",
+      "en": "song."
+    },
+    {
       "type": "fan",
-      "en": "Isn't it 'Mad at Disney?'"
+      "ko": "mad at disney 아녀?",
+      "en": "Isn't it 'Mad at Disney'?"
     },
     {
       "type": "hayeon",
-      "en": "That's right. ㅎ"
+      "ko": "마자 ㅎ",
+      "en": "That's right ㅎ."
     },
     {
       "type": "hayeon",
-      "en": "Because of my cold..."
+      "ko": "감기이슈로",
+      "en": "Because of my cold,"
     },
     {
       "type": "hayeon",
+      "ko": "보내줄수없음",
       "en": "I can't send it."
     },
     {
       "type": "hayeon",
-      "en": "Later..."
+      "ko": "내가",
+      "en": "I'll"
     },
     {
       "type": "hayeon",
-      "en": "I'll turn on a live."
+      "ko": "나중에",
+      "en": "later"
     },
     {
       "type": "hayeon",
-      "en": "I'll sing the whole thing for everyone."
+      "ko": "라이브 켜서",
+      "en": "turn on a live"
     },
     {
       "type": "hayeon",
-      "en": "I tried several times..."
+      "ko": "다 불러줄게",
+      "en": "and sing it all for you."
     },
     {
       "type": "hayeon",
-      "en": "To sing it for you right now."
+      "ko": "지금 불러주려고",
+      "en": "I tried to sing it now,"
     },
     {
       "type": "hayeon",
+      "ko": "몇번 시도했는데",
+      "en": "I tried several times,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㅋㅋㅎㅋㅋ",
       "en": "ㅋㄹㅋㄹㅋㅋㅋㅎㅋㅋ"
     },
     {
@@ -595,11 +763,18 @@
     },
     {
       "type": "hayeon",
-      "en": "Soomin barged in."
+      "ko": "수민이가",
+      "en": "Soomin"
     },
     {
       "type": "hayeon",
-      "en": "I'm going to go practice now. ㅠㅠㅠ"
+      "ko": "침투함",
+      "en": "infiltrated."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 연습하러 가볼게ㅠㅠㅠ",
+      "en": "I'll go practice now ㅠㅠㅠ."
     },
     {
       "type": "hayeon",
@@ -607,7 +782,8 @@
     },
     {
       "type": "hayeon",
-      "en": "Haranghae ❤️"
+      "ko": "하랑해애❤️",
+      "en": "Haranghae❤️"
     }
   ]
 }
