@@ -162,13 +162,22 @@ async function loadGallery() {
         const res = await fetch("assets/gallery/albums.json");
         const albums = await res.json();
 
-        loadedAlbums = await Promise.all(
-            albums.map(async a => {
-                const r = await fetch(`assets/gallery/${a.path}/info.json`);
-                const info = await r.json();
-                return { path: a.path, info };
-            })
-        );
+loadedAlbums = [];
+
+for (const a of albums) {
+
+    const r = await fetch(
+        `assets/gallery/${a.path}/info.json`
+    );
+
+    const info = await r.json();
+
+    loadedAlbums.push({
+        path: a.path,
+        info
+    });
+
+}
 
 updateStats();
 buildArchive(filterAlbums(loadedAlbums));
@@ -375,6 +384,8 @@ function createDay(dayGroup) {
     const grid = document.createElement("div");
     grid.className = "media-grid";
 
+grid.albumData = dayGroup.albums;
+
     const files = dayGroup.albums.flatMap(a => a.info.files);
 
     let photos = 0, videos = 0;
@@ -403,44 +414,52 @@ header.innerHTML = `
 
     dayGroup.albums.forEach(album => {
 
-        album.info.files.forEach((file, index) => {
+album.previewLoaded = false;
 
-            const ext = file.split(".").pop().toLowerCase();
-            const src = `assets/gallery/${album.path}/${file}`;
+const previewFiles = album.info.files.slice(0, 4);
 
-            if (["jpg","jpeg","png","gif","webp"].includes(ext)) {
+const hiddenCount = album.info.files.length - 4;
 
-                const img = document.createElement("img");
-                img.src = src;
-                img.loading = "lazy";
+previewFiles.forEach((file, index) => {
 
-                img.onclick = e => {
-                    e.stopPropagation();
-                    openAlbum(album.path, index);
-                };
+    const ext = file.split(".").pop().toLowerCase();
+    const src = `assets/gallery/${album.path}/${file}`;
 
-                grid.appendChild(img);
+    if (["jpg","jpeg","png","gif","webp"].includes(ext)) {
 
-            } else {
+        const img = document.createElement("img");
 
-const vid = document.createElement("video");
+        img.src = src;
+        img.loading = "lazy";
 
-vid.src = src;
-vid.muted = true;
+        img.onclick = e => {
+            e.stopPropagation();
+            openAlbum(album.path, index);
+        };
 
-// Performance improvements
-vid.preload = "metadata";
-vid.playsInline = true;
-vid.disablePictureInPicture = true;
+grid.appendChild(img);
 
-vid.onclick = e => {
-    e.stopPropagation();
-    openAlbum(album.path, index);
-};
+    } else {
+
+        const vid = document.createElement("video");
+
+        vid.src = src;
+        vid.muted = true;
+        vid.preload = "metadata";
+        vid.playsInline = true;
+        vid.disablePictureInPicture = true;
+
+        vid.onclick = e => {
+            e.stopPropagation();
+            openAlbum(album.path, index);
+        };
 
 grid.appendChild(vid);
-            }
-        });
+
+    }
+
+
+});
 
 const videos = Array.isArray(album.info.video)
     ? album.info.video
@@ -450,17 +469,43 @@ const videos = Array.isArray(album.info.video)
 
 videos.forEach(videoUrl => {
 
-    const iframe = document.createElement("iframe");
-    iframe.className = "youtube-player";
-    iframe.src = getYoutubeEmbed(videoUrl);
-    iframe.allowFullscreen = true;
+    const wrapper =
+        document.createElement("div");
 
-    iframe.onclick = e => {
+    wrapper.className =
+        "youtube-preview";
+
+    const img =
+        document.createElement("img");
+
+    img.src =
+        getYoutubeThumbnail(videoUrl);
+
+    img.loading = "lazy";
+
+    img.alt = "YouTube";
+
+    const play =
+        document.createElement("div");
+
+    play.className =
+        "youtube-play";
+
+    play.innerHTML = "▶";
+
+    wrapper.appendChild(img);
+
+    wrapper.appendChild(play);
+
+    wrapper.onclick = e => {
+
         e.stopPropagation();
+
         openYoutube(videoUrl);
+
     };
 
-    grid.appendChild(iframe);
+    grid.appendChild(wrapper);
 
 });
     });
@@ -469,8 +514,87 @@ videos.forEach(videoUrl => {
     box.appendChild(header);
     box.appendChild(media);
 
+box.addEventListener("mouseenter", () => {
+
+    loadRemainingPreview(box, grid);
+
+});
+
     return box;
 }
+
+function loadRemainingPreview(box, grid) {
+
+    if (box.dataset.previewLoaded) return;
+
+    box.dataset.previewLoaded = "true";
+
+    grid.albumData.forEach(album => {
+
+const fragment = document.createDocumentFragment();
+
+const remainingFiles = album.info.files.slice(4);
+
+
+        remainingFiles.forEach((file, index) => {
+
+            const ext = file.split(".").pop().toLowerCase();
+
+            const src =
+                `assets/gallery/${album.path}/${file}`;
+
+            if (["jpg","jpeg","png","gif","webp"].includes(ext)) {
+
+                const img = document.createElement("img");
+
+                img.src = src;
+
+                img.loading = "lazy";
+
+                img.onclick = e => {
+
+                    e.stopPropagation();
+
+                    openAlbum(album.path, index + 4);
+
+                };
+
+                fragment.appendChild(img);
+
+            } else {
+
+                const vid = document.createElement("video");
+
+                vid.src = src;
+
+                vid.muted = true;
+
+                vid.preload = "metadata";
+
+                vid.playsInline = true;
+
+                vid.disablePictureInPicture = true;
+
+                vid.onclick = e => {
+
+                    e.stopPropagation();
+
+                    openAlbum(album.path, index + 4);
+
+                };
+
+                fragment.appendChild(vid);
+
+            }
+
+grid.appendChild(fragment);
+
+        });
+
+    });
+
+}
+
 
 /* -----------------------------
    LIGHTBOX
