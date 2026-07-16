@@ -104,15 +104,26 @@ body{
 
 }
 
-.logo{
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 
-    font-size:28px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #52D9BB;
 
-    font-weight:bold;
-
-    color:var(--mint);
-
+     text-decoration: none;
 }
+
+.logo img {
+    width: 46px;
+    height: 46px;
+
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
 
 .nav-links{
 
