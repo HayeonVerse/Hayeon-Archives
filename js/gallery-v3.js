@@ -158,32 +158,44 @@ function getYoutubeThumbnail(url) {
    LOAD GALLERY
 ----------------------------- */
 async function loadGallery() {
+
     try {
+
         const res = await fetch("assets/gallery/albums.json");
         const albums = await res.json();
 
-loadedAlbums = [];
+        loadedAlbums = await Promise.all(
 
-for (const a of albums) {
+            albums.map(async a => {
 
-    const r = await fetch(`assets/gallery/${a.path}/info.json`);
-    const info = await r.json();
+                const r = await fetch(
+                    `assets/gallery/${a.path}/info.json`
+                );
 
-    loadedAlbums.push({
-        path: a.path,
-        info
-    });
+                const info = await r.json();
 
-    updateStats();
-    buildArchive(filterAlbums(loadedAlbums));
+                return {
+                    path: a.path,
+                    info
+                };
 
-}
+            })
+
+        );
+
+        updateStats();
+
+        buildArchive(filterAlbums(loadedAlbums));
 
     } catch (err) {
+
         console.error(err);
+
         galleryContainer.innerHTML =
             "<h2 style='text-align:center'>Unable to load gallery</h2>";
+
     }
+
 }
 
 /* -----------------------------
