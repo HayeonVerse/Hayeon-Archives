@@ -166,10 +166,7 @@ loadedAlbums = [];
 
 for (const a of albums) {
 
-    const r = await fetch(
-        `assets/gallery/${a.path}/info.json`
-    );
-
+    const r = await fetch(`assets/gallery/${a.path}/info.json`);
     const info = await r.json();
 
     loadedAlbums.push({
@@ -177,10 +174,10 @@ for (const a of albums) {
         info
     });
 
-}
+    updateStats();
+    buildArchive(filterAlbums(loadedAlbums));
 
-updateStats();
-buildArchive(filterAlbums(loadedAlbums));
+}
 
     } catch (err) {
         console.error(err);
