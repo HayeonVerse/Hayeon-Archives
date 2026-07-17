@@ -531,24 +531,19 @@ function loadRemainingPreview(box, grid) {
 
     grid.albumData.forEach(album => {
 
-const fragment = document.createDocumentFragment();
-
-const remainingFiles = album.info.files.slice(4);
-
+        const remainingFiles = album.info.files.slice(4);
 
         remainingFiles.forEach((file, index) => {
 
             const ext = file.split(".").pop().toLowerCase();
 
-            const src =
-                `assets/gallery/${album.path}/${file}`;
+            const src = `assets/gallery/${album.path}/${file}`;
 
-            if (["jpg","jpeg","png","gif","webp"].includes(ext)) {
+            if (["jpg", "jpeg", "png", "gif", "webp"].includes(ext)) {
 
                 const img = document.createElement("img");
 
                 img.src = src;
-
                 img.loading = "lazy";
 
                 img.onclick = e => {
@@ -559,20 +554,16 @@ const remainingFiles = album.info.files.slice(4);
 
                 };
 
-                fragment.appendChild(img);
+                grid.appendChild(img);
 
             } else {
 
                 const vid = document.createElement("video");
 
                 vid.src = src;
-
                 vid.muted = true;
-
                 vid.preload = "metadata";
-
                 vid.playsInline = true;
-
                 vid.disablePictureInPicture = true;
 
                 vid.onclick = e => {
@@ -583,17 +574,13 @@ const remainingFiles = album.info.files.slice(4);
 
                 };
 
-                fragment.appendChild(vid);
+                grid.appendChild(vid);
 
             }
 
-
         });
 
-grid.appendChild(fragment);
-
     });
-
 
 }
 
