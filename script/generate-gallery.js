@@ -87,9 +87,10 @@ folder.includes("-")
             JSON.stringify(info, null, 4)
         );
 
-        albums.push({
-            path: rel.replace(/\\/g, "/")
-        });
+albums.push({
+    path: rel.replace(/\\/g, "/"),
+    info
+});
 
         console.log("Generated:", rel);
     }

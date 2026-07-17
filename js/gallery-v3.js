@@ -164,24 +164,7 @@ async function loadGallery() {
         const res = await fetch("assets/gallery/albums.json");
         const albums = await res.json();
 
-        loadedAlbums = await Promise.all(
-
-            albums.map(async a => {
-
-                const r = await fetch(
-                    `assets/gallery/${a.path}/info.json`
-                );
-
-                const info = await r.json();
-
-                return {
-                    path: a.path,
-                    info
-                };
-
-            })
-
-        );
+loadedAlbums = albums;
 
         updateStats();
 
