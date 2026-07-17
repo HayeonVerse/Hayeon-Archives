@@ -587,11 +587,13 @@ const remainingFiles = album.info.files.slice(4);
 
             }
 
-grid.appendChild(fragment);
 
         });
 
+grid.appendChild(fragment);
+
     });
+
 
 }
 
