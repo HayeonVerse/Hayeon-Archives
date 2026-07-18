@@ -960,12 +960,25 @@ height:42px;
 
 }
 
+.fromm-notice{
+    margin:0 0 36px;
+}
+
+.home-notice,
+.gallery-notice {
+    margin-bottom: 2rem;
+}
+
 .notice-card{
     max-width:900px;
     margin:32px auto 48px;
     padding:24px 28px;
 
-    background:var(--card);
+    background:linear-gradient(
+    135deg,
+    rgba(82,217,187,.08),
+    var(--card)
+);
     border:1px solid rgba(82,217,187,.15);
     border-left:5px solid var(--mint);
     border-radius:18px;
@@ -1561,67 +1574,6 @@ font-weight:500;
 
 }
 
-/* ==========================================
-   NOTICE
-========================================== */
-
-.fromm-notice{
-
-    margin:0 0 36px;
-
-}
-
-.notice-card{
-
-    max-width:760px;
-
-    margin:0 auto;
-
-    padding:24px 28px;
-
-    background:var(--card);
-
-    border:1px solid rgba(82,217,187,.25);
-
-    border-left:4px solid var(--mint);
-
-    border-radius:20px;
-
-    text-align:center;
-
-    box-shadow:var(--shadow);
-
-}
-
-.notice-card h3{
-
-    margin:0 0 16px;
-
-    color:var(--mint);
-
-    font-size:28px;
-
-}
-
-.notice-card p{
-
-    margin:10px 0;
-
-    color:var(--muted);
-
-    line-height:1.8;
-
-}
-
-.notice-small{
-
-    font-size:14px;
-
-    opacity:.9;
-
-    font-style:italic;
-
-}
 
 /* ==========================================
    MOBILE
@@ -1957,5 +1909,65 @@ font-weight:500;
 .notice-card p{
 
     font-size:14px;
+
+}
+
+.footer-social{
+    display:flex;
+    justify-content:center;
+    gap:14px;
+    flex-wrap:wrap;
+
+    margin:26px 0;
+}
+
+.footer-btn{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:12px 22px;
+
+    border-radius:999px;
+
+    background:var(--mint);
+
+    color:#0F172A;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    transition:.25s;
+}
+
+.footer-btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 24px rgba(82,217,187,.35);
+
+}
+
+.footer-help{
+
+    margin:18px 0 28px;
+
+}
+
+.footer-disclaimer{
+
+    max-width:720px;
+
+    margin:auto;
+
+}
+
+.footer-copy{
+
+    margin-top:22px;
+
+    opacity:.8;
 
 }
