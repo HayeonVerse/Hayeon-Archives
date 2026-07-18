@@ -3405,6 +3405,20 @@
         }
     },
     {
+        "path": "2025/August/07 - X Post TripleS Official",
+        "info": {
+            "title": "X Post TripleS Official",
+            "date": "August 07",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "GxvuO-zbQAA6LQx.jpg",
+            "files": [
+                "GxvuO-zbQAA6LQx.jpg"
+            ]
+        }
+    },
+    {
         "path": "2025/August/08 - X Post TripleS Official",
         "info": {
             "title": "X Post TripleS Official",
@@ -3444,6 +3458,20 @@
             "cover": "11.mp4",
             "files": [
                 "11.mp4"
+            ]
+        }
+    },
+    {
+        "path": "2025/August/12 - Cosmo Live Thumbnail",
+        "info": {
+            "title": "Cosmo Live Thumbnail",
+            "date": "August 12",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "image.png",
+            "files": [
+                "image.png"
             ]
         }
     },
@@ -3534,6 +3562,22 @@
             "files": [
                 "IMG_0957.PNG",
                 "IMG_0959.PNG"
+            ]
+        }
+    },
+    {
+        "path": "2025/August/19 - Cosmo Feed",
+        "info": {
+            "title": "Cosmo Feed",
+            "date": "August 19",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "IMG_0363.jpg",
+            "files": [
+                "IMG_0363.jpg",
+                "IMG_0365.jpg",
+                "IMG_0368.jpg"
             ]
         }
     },
