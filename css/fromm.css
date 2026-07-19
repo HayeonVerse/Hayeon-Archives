@@ -1383,6 +1383,8 @@ font-weight:500;
 
     top: -24px;
 
+scroll-margin-top:90px;
+
     margin:-24px -24px 24px;
 
     padding:24px;
@@ -1969,5 +1971,97 @@ font-weight:500;
     margin-top:22px;
 
     opacity:.8;
+
+}
+
+.search-results{
+
+    width:100%;
+
+    margin:0 0 24px;
+
+    background:var(--card);
+
+    border:1px solid rgba(82,217,187,.12);
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0 8px 22px rgba(0,0,0,.18);
+
+}
+
+.search-results.hidden{
+
+    display:none;
+
+}
+
+.search-result{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:20px;
+
+    padding:16px 18px;
+
+    border-bottom:1px solid rgba(255,255,255,.05);
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+.search-result:hover{
+
+    background:#203149;
+
+}
+
+.search-result.active{
+
+    background:rgba(82,217,187,.20);
+
+}
+
+.search-result small{
+
+    opacity:.65;
+
+}
+
+.search-results::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+.search-results::-webkit-scrollbar-thumb{
+
+    background:rgba(82,217,187,.25);
+
+    border-radius:999px;
+
+}
+
+.share-btn{
+
+    background:rgba(82,217,187,.14);
+
+    border:1px solid rgba(82,217,187,.28);
+
+    color:var(--mint);
+
+}
+
+.share-btn:hover{
+
+    background:rgba(82,217,187,.24);
 
 }

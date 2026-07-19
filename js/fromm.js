@@ -60,11 +60,17 @@ state: {
 
 searchMatches: {},
 
+searchIndex: [],
+
+searchSuggestions: [],
+
+selectedSuggestion: -1,
+
 expandedYears: new Set(),
 
 expandedMonths: new Set(),
 
-    search: "",
+search: "",
 
     loading: false,
 
@@ -95,14 +101,17 @@ expandedMonths: new Set(),
    DOM CACHE
 ============================================ */
 
-    cache: {
+cache: {
 
-        container: null,
+    container: null,
 
-sidebar: null,
-viewer: null,
+    sidebar: null,
 
-        search: null,
+    viewer: null,
+
+    search: null,
+
+    searchResults: null,
 
         languageButtons: [],
 
@@ -159,6 +168,9 @@ App.cache.viewer =
 
     App.cache.search =
         $("#search-input");
+
+App.cache.searchResults =
+    $("#search-results");
 
     App.cache.languageButtons =
         $$(".lang-btn");
@@ -338,6 +350,8 @@ const conversations =
         App.state.filtered =
             [...conversations];
 
+App.buildSearchIndex();
+
         App.events.emit(
 
             "archiveLoaded",
@@ -507,11 +521,17 @@ if (count) {
 
                         }
 
-                        btn.onclick = () => {
+btn.onclick = () => {
 
-                            App.showConversation(conv);
+    App.showConversation(conv);
 
-                        };
+    if (window.matchMedia("(max-width:768px)").matches){
+
+        document.body.classList.remove("timeline-open");
+
+    }
+
+};
 
                         monthDiv.appendChild(btn);
 
@@ -540,6 +560,12 @@ App.getConversationIndex = function (conversation) {
 App.showConversation = function (conversation) {
 
     App.state.selectedConversation = conversation;
+
+const url = new URL(window.location);
+
+url.searchParams.set("date", conversation.date);
+
+history.replaceState({}, "", url);
 
 const year =
     App.utils.getYear(conversation.date);
@@ -658,6 +684,38 @@ prevBtn.onclick = () => {
 
 };
 
+const shareBtn =
+    App.utils.create(
+        "button",
+        "nav-btn share-btn"
+    );
+
+shareBtn.textContent = "📋 Copy Link";
+
+shareBtn.onclick = async () => {
+
+    const url = window.location.href;
+
+    try {
+
+        await navigator.clipboard.writeText(url);
+
+        shareBtn.textContent = "✅ Copied!";
+
+        setTimeout(() => {
+
+            shareBtn.textContent = "📋 Copy Link";
+
+        }, 2000);
+
+    } catch {
+
+        prompt("Copy this link:", url);
+
+    }
+
+};
+
 const closeBtn =
     App.utils.create(
         "button",
@@ -671,6 +729,12 @@ closeBtn.onclick = () => {
     App.state.selectedConversation = null;
 
     App.saveUIState();
+
+const url = new URL(window.location);
+
+url.searchParams.delete("date");
+
+history.replaceState({}, "", url);
 
     App.render();
 
@@ -693,7 +757,12 @@ nextBtn.onclick = () => {
 
 };
 
-nav.append(prevBtn, closeBtn, nextBtn);
+nav.append(
+    prevBtn,
+    shareBtn,
+    closeBtn,
+    nextBtn
+);
 
 header.append(title, info);
 
@@ -763,7 +832,103 @@ header.appendChild(nav);
 
     );
 
+/* ---------- Mobile auto-scroll ---------- */
+
+if (window.matchMedia("(max-width:768px)").matches) {
+
+    setTimeout(() => {
+
+        const header = document.querySelector(".conversation-header");
+
+        if (!header) return;
+
+        header.scrollIntoView({
+
+            behavior: "smooth",
+
+            block: "start"
+
+        });
+
+    }, 50);
+
+}
+    
 };
+
+/* ============================================
+   BUILD SEARCH INDEX
+============================================ */
+
+App.buildSearchIndex = function () {
+
+    App.state.searchIndex = App.state.conversations.map(conversation => {
+
+        const date = new Date(conversation.date);
+
+        const keywords = new Set();
+
+        // Date formats
+        keywords.add(conversation.date);
+
+        keywords.add(String(date.getFullYear()));
+
+        keywords.add(
+            date.toLocaleString("en-US", {
+                month: "long"
+            }).toLowerCase()
+        );
+
+        keywords.add(
+            date.toLocaleString("en-US", {
+                month: "short"
+            }).toLowerCase()
+        );
+
+        keywords.add(String(date.getMonth() + 1));
+        keywords.add(String(date.getMonth() + 1).padStart(2, "0"));
+
+        keywords.add(String(date.getDate()));
+        keywords.add(String(date.getDate()).padStart(2, "0"));
+
+        keywords.add(
+            App.utils
+                .formatDate(conversation.date)
+                .toLowerCase()
+        );
+
+        // Message contents
+        conversation.messages.forEach(message => {
+
+            if (message.ko)
+                keywords.add(message.ko.toLowerCase());
+
+            if (message.en)
+                keywords.add(message.en.toLowerCase());
+
+            if (message.image || message.images?.length)
+                keywords.add("photo");
+
+            if (message.video || message.videos?.length)
+                keywords.add("video");
+
+            if (message.voice || message.voices?.length)
+                keywords.add("voice");
+
+        });
+
+        return {
+
+            conversation,
+
+            keywords: [...keywords]
+
+        };
+
+    });
+
+};
+
 /* ============================================
    INITIALIZE
 ============================================ */
@@ -779,6 +944,25 @@ App.init = async function () {
     cacheDOM();
 
     await App.loadArchive();
+
+const params = new URLSearchParams(window.location.search);
+
+const requestedDate = params.get("date");
+
+if (requestedDate) {
+
+    const conversation =
+        App.state.conversations.find(
+            c => c.date === requestedDate
+        );
+
+    if (conversation) {
+
+        App.state.selectedConversation = conversation;
+
+    }
+
+}
 
     App.state.initialized = true;
 
@@ -2086,6 +2270,66 @@ if (App.state.selectedConversation) {
 
 };
 
+App.matchConversation = function (entry, query) {
+
+    const tokens = query
+        .trim()
+        .toLowerCase()
+        .split(/\s+/)
+        .filter(Boolean);
+
+    let matches = 0;
+
+    for (const keyword of entry.keywords) {
+
+        const text = keyword.toLowerCase();
+
+        if (tokens.every(token => text.includes(token))) {
+            matches++;
+        }
+
+    }
+
+    return matches;
+
+};
+
+App.findSearchResults = function (query) {
+
+    const results = [];
+
+    App.state.searchIndex.forEach(entry => {
+
+        const matches =
+            App.matchConversation(entry, query);
+
+        if (!matches) return;
+
+        results.push({
+
+            conversation: entry.conversation,
+
+            matches
+
+        });
+
+    });
+
+    results.sort((a, b) => {
+
+        if (b.matches !== a.matches)
+            return b.matches - a.matches;
+
+        return new Date(b.conversation.date) -
+               new Date(a.conversation.date);
+
+    });
+
+    return results;
+
+};
+
+
 /* ============================================
    SEARCH
 ============================================ */
@@ -2100,7 +2344,11 @@ App.search = function (query) {
 
     if (!query) {
 
-        App.state.filtered = [...App.state.conversations];
+        App.state.filtered =
+            [...App.state.conversations];
+
+        App.state.expandedYears.clear();
+        App.state.expandedMonths.clear();
 
         App.render();
 
@@ -2108,33 +2356,48 @@ App.search = function (query) {
 
     }
 
-    App.state.filtered = App.state.conversations.filter(conversation => {
+    const results =
+        App.findSearchResults(query);
 
-        let matches = 0;
+App.renderSearchSuggestions(results);
 
-        conversation.messages.forEach(message => {
+    App.state.filtered =
+        results.map(r => r.conversation);
 
-            const ko = (message.ko || "").toLowerCase();
+    results.forEach(result => {
 
-            const en = (message.en || "").toLowerCase();
-
-            if (ko.includes(query)) matches++;
-
-            if (en.includes(query)) matches++;
-
-        });
-
-        if (matches > 0) {
-
-            App.state.searchMatches[conversation.date] = matches;
-
-            return true;
-
-        }
-
-        return false;
+        App.state.searchMatches[
+            result.conversation.date
+        ] = result.matches;
 
     });
+
+    App.state.expandedYears.clear();
+    App.state.expandedMonths.clear();
+
+    results.forEach(result => {
+
+        const year =
+            App.utils.getYear(result.conversation.date);
+
+        const month =
+            `${year}-${App.utils.getMonth(result.conversation.date)}`;
+
+        App.state.expandedYears.add(year);
+
+        App.state.expandedMonths.add(month);
+
+    });
+
+    if (results.length === 1) {
+
+        App.showConversation(
+            results[0].conversation
+        );
+
+        return;
+
+    }
 
     App.render();
 
@@ -2464,3 +2727,57 @@ console.log(
     }
 
 );
+
+App.renderSearchSuggestions = function(results){
+
+    const box = App.cache.searchResults;
+
+    if(!box) return;
+
+    box.innerHTML="";
+
+    if(!results.length){
+
+        box.classList.add("hidden");
+
+        return;
+
+    }
+
+    results.slice(0,8).forEach((result,index)=>{
+
+        const item=document.createElement("div");
+
+        item.className="search-result";
+
+        item.innerHTML=`
+
+            <div>
+
+                📅 ${App.utils.formatDate(result.conversation.date)}
+
+            </div>
+
+            <small>
+
+                ${result.conversation.messages.length} messages
+
+            </small>
+
+        `;
+
+        item.onclick=()=>{
+
+            box.classList.add("hidden");
+
+            App.showConversation(result.conversation);
+
+        };
+
+        box.appendChild(item);
+
+    });
+
+    box.classList.remove("hidden");
+
+}
