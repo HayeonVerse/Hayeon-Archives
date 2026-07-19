@@ -7936,6 +7936,20 @@
         }
     },
     {
+        "path": "2026/July/07 - Youtube Lucky Factory",
+        "info": {
+            "title": "Youtube Lucky Factory",
+            "date": "July 07",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://www.youtube.com/watch?v=NnDBfOYw7mY&t=10s"
+            ],
+            "cover": null,
+            "files": []
+        }
+    },
+    {
         "path": "2026/July/09 - X Post TripleS Official",
         "info": {
             "title": "X Post TripleS Official",
@@ -8007,6 +8021,23 @@
         }
     },
     {
+        "path": "2026/July/14 - Lucky_factory_studio",
+        "info": {
+            "title": "Lucky_factory_studio",
+            "date": "July 14",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "01.jpg",
+            "files": [
+                "01.jpg",
+                "02.jpg",
+                "03.jpg",
+                "04.jpg"
+            ]
+        }
+    },
+    {
         "path": "2026/July/14 - TripleS Cosmos Love n Pop Zenith Behind",
         "info": {
             "title": "TripleS Cosmos Love n Pop Zenith Behind",
@@ -8036,6 +8067,20 @@
                 "6a55cdaf22678d2efd2ba18f_zenith_051.jpg",
                 "6a55ce9658b476b4c668c788_트냅_0G6A0356.jpg"
             ]
+        }
+    },
+    {
+        "path": "2026/July/14 - Youtube Lucky Factory",
+        "info": {
+            "title": "Youtube Lucky Factory",
+            "date": "July 14",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://www.youtube.com/watch?v=Td_9l7KxNjA"
+            ],
+            "cover": null,
+            "files": []
         }
     },
     {
@@ -8106,9 +8151,7 @@
             "date": "June 02",
             "source": "Archive",
             "tags": [],
-            "video": [
-                "https://www.youtube.com/watch?v=q6LEb8bLopI&t=630s"
-            ],
+            "video": [],
             "cover": "01.jpg",
             "files": [
                 "01.jpg",
@@ -8116,6 +8159,20 @@
                 "03.jpg",
                 "04.jpg"
             ]
+        }
+    },
+    {
+        "path": "2026/June/02 - Youtube Lucky Factory",
+        "info": {
+            "title": "Youtube Lucky Factory",
+            "date": "June 02",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://www.youtube.com/watch?v=q6LEb8bLopI&t=630s"
+            ],
+            "cover": null,
+            "files": []
         }
     },
     {
@@ -8251,9 +8308,7 @@
             "date": "June 09",
             "source": "Archive",
             "tags": [],
-            "video": [
-                "https://www.youtube.com/watch?v=L5iGAvkdmY4"
-            ],
+            "video": [],
             "cover": "01.jpg",
             "files": [
                 "01.jpg",
@@ -8540,9 +8595,7 @@
             "date": "June 30",
             "source": "Archive",
             "tags": [],
-            "video": [
-                "youtube.com/watch?v=cPkqQSTZHKQ&feature=youtu.be"
-            ],
+            "video": [],
             "cover": "IMG_5136.jpg",
             "files": [
                 "IMG_5136.jpg",
@@ -8550,6 +8603,20 @@
                 "IMG_5138.jpg",
                 "IMG_5139.jpg"
             ]
+        }
+    },
+    {
+        "path": "2026/June/30 - Youtube Lucky Factory",
+        "info": {
+            "title": "Youtube Lucky Factory",
+            "date": "June 30",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "youtube.com/watch?v=cPkqQSTZHKQ&feature=youtu.be"
+            ],
+            "cover": null,
+            "files": []
         }
     },
     {
