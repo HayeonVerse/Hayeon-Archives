@@ -14,6 +14,20 @@
         }
     },
     {
+        "path": "2023/December/23 - Youtube TripleS Official",
+        "info": {
+            "title": "Youtube TripleS Official",
+            "date": "December 23",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://www.youtube.com/watch?v=mFQ2jlokX7o"
+            ],
+            "cover": null,
+            "files": []
+        }
+    },
+    {
         "path": "2023/December/25 - X Post",
         "info": {
             "title": "X Post",
@@ -55,6 +69,34 @@
                 "JHY_member_reveal_2.jpg",
                 "JHY_member_reveal_3.jpg"
             ]
+        }
+    },
+    {
+        "path": "2023/December/30 - Youtube TripleS Official",
+        "info": {
+            "title": "Youtube TripleS Official",
+            "date": "December 30",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://www.youtube.com/watch?v=s3IfM-u5hVc"
+            ],
+            "cover": null,
+            "files": []
+        }
+    },
+    {
+        "path": "2023/December/31 - Youtube TripleS Official",
+        "info": {
+            "title": "Youtube TripleS Official",
+            "date": "December 31",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://www.youtube.com/watch?v=jgNixjl-iW0"
+            ],
+            "cover": null,
+            "files": []
         }
     },
     {
@@ -884,6 +926,20 @@
         }
     },
     {
+        "path": "2024/February/01 - Youtube - Signal 240201 - TripleS Official",
+        "info": {
+            "title": "Youtube - Signal 240201 - TripleS Official",
+            "date": "February 01",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://www.youtube.com/watch?v=pK4R1nx9O3o"
+            ],
+            "cover": null,
+            "files": []
+        }
+    },
+    {
         "path": "2024/February/04 - X Post TripleS Official",
         "info": {
             "title": "X Post TripleS Official",
@@ -969,6 +1025,20 @@
                 "Fromm BG 2.jpg",
                 "Fromm PFP 5.jpg"
             ]
+        }
+    },
+    {
+        "path": "2024/February/12 - Youtube - Signal 240212 - TripleS Official",
+        "info": {
+            "title": "Youtube - Signal 240212 - TripleS Official",
+            "date": "February 12",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://www.youtube.com/watch?v=i9e6MOizKS4"
+            ],
+            "cover": null,
+            "files": []
         }
     },
     {
@@ -1115,6 +1185,20 @@
         }
     },
     {
+        "path": "2024/January/02 - Youtube - Signal 240102 - TripleS Official",
+        "info": {
+            "title": "Youtube - Signal 240102 - TripleS Official",
+            "date": "January 02",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://www.youtube.com/watch?v=SunIf1TcEw0"
+            ],
+            "cover": null,
+            "files": []
+        }
+    },
+    {
         "path": "2024/January/04 - Fromm PFP",
         "info": {
             "title": "Fromm PFP",
@@ -1126,6 +1210,20 @@
             "files": [
                 "FPFP1.jpg"
             ]
+        }
+    },
+    {
+        "path": "2024/January/04 - Youtube - Signal 240104 - TripleS Official",
+        "info": {
+            "title": "Youtube - Signal 240104 - TripleS Official",
+            "date": "January 04",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://www.youtube.com/watch?v=Wbxd6HYuR8M"
+            ],
+            "cover": null,
+            "files": []
         }
     },
     {
@@ -1172,6 +1270,20 @@
                 "JHYP.jpg",
                 "JHY_profile_2.jpg"
             ]
+        }
+    },
+    {
+        "path": "2024/January/05 - Youtube - Signal 240105 - TripleS Official",
+        "info": {
+            "title": "Youtube - Signal 240105 - TripleS Official",
+            "date": "January 05",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://www.youtube.com/watch?v=3SCF2HhsHxY"
+            ],
+            "cover": null,
+            "files": []
         }
     },
     {
@@ -1289,6 +1401,48 @@
         }
     },
     {
+        "path": "2024/January/13 - Youtube - Signal 240113 - TripleS Official",
+        "info": {
+            "title": "Youtube - Signal 240113 - TripleS Official",
+            "date": "January 13",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://www.youtube.com/watch?v=olyv6xjTJ9c"
+            ],
+            "cover": null,
+            "files": []
+        }
+    },
+    {
+        "path": "2024/January/16 - Youtube - Signal 240116 - TripleS Official",
+        "info": {
+            "title": "Youtube - Signal 240116 - TripleS Official",
+            "date": "January 16",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://www.youtube.com/watch?v=9_yVMsfpHVA"
+            ],
+            "cover": null,
+            "files": []
+        }
+    },
+    {
+        "path": "2024/January/19 - Youtube - Signal 240119 - TripleS Official",
+        "info": {
+            "title": "Youtube - Signal 240119 - TripleS Official",
+            "date": "January 19",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://www.youtube.com/watch?v=OrX8IDTEDWA"
+            ],
+            "cover": null,
+            "files": []
+        }
+    },
+    {
         "path": "2024/January/21 - Fromm",
         "info": {
             "title": "Fromm",
@@ -1360,6 +1514,20 @@
             "files": [
                 "P3.jpg"
             ]
+        }
+    },
+    {
+        "path": "2024/January/25 - Youtube - Signal 240125 - TripleS Official",
+        "info": {
+            "title": "Youtube - Signal 240125 - TripleS Official",
+            "date": "January 25",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://www.youtube.com/watch?v=12j0y2EyGrs"
+            ],
+            "cover": null,
+            "files": []
         }
     },
     {
