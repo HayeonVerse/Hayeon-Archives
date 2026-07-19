@@ -1,0 +1,440 @@
+{
+  "date": "2026-07-19",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "하잉",
+      "en": "Hii~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "프사 보영?",
+      "en": "Do you like my profile picture?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "일단 저거로 했는데",
+      "en": "I'm using this one for now,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이쁜사진 생기면 바꿀게ㅔ",
+      "en": "but I'll change it if I get a prettier photo."
+    },
+    {
+      "type": "hayeon",
+      "ko": "가오슝",
+      "en": "Kaohsiung."
+    },
+    {
+      "type": "hayeon",
+      "ko": "슝슝 갔다왔오",
+      "en": "I went there in a flash."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 망고가",
+      "en": "Seriously, the mangoes"
+    },
+    {
+      "type": "hayeon",
+      "ko": "엄청 달던데",
+      "en": "were so sweet."
+    },
+    {
+      "type": "hayeon",
+      "ko": "깜짝놀랐어",
+      "en": "I was so surprised."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이렇게 맛있는 망고 처음먹어봐",
+      "en": "I've never had mangoes this delicious before."
+    },
+    {
+      "type": "hayeon",
+      "ko": "밥도 야무지게 먹었어",
+      "en": "I ate really well too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나경언니랑",
+      "en": "With Nakyoung unnie,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "비빔우육면 우육면 신라면 두개에 김치4팩",
+      "en": "we had bibim beef noodles, beef noodle soup, two bowls of Shin Ramyun, and four packs of kimchi."
+    },
+    {
+      "type": "hayeon",
+      "ko": "한끼로 털어먹음",
+      "en": "We finished all of it in one meal."
+    },
+    {
+      "type": "hayeon",
+      "ko": "조금 더 오래있었으면 좋았겠지만",
+      "en": "I wish we could've stayed a little longer,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "거의 바로 와서 아쉽넹 ㅠ",
+      "en": "but we came back almost right away, so it was a bit disappointing. ㅠ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "맛집을 못갔어",
+      "en": "I didn't even get to visit any famous restaurants."
+    },
+    {
+      "type": "fan",
+      "ko": "빈이가 앞으로는 하연이 먹잘알이라고 먹는거 전부 따라한다고 선언했어",
+      "en": "Binnie declared that from now on she's going to trust Hayeon's food recommendations and copy everything Hayeon eats."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 ㅋㄹㅋㄹㅋ 너무 웃긴게",
+      "en": "No ㅋㄹㅋㄹㅋ What's so funny is..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "사실 가오슝 갈때",
+      "en": "When we went to Kaohsiung,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "빈이 따라먹었었는데",
+      "en": "I actually copied what Binnie ordered."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 맛이없어서",
+      "en": "It tasted so bad"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이제 빈이랑 반대로 먹어야겠다",
+      "en": "that I thought,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "생각했는데",
+      "en": "\"From now on, I should order the opposite of whatever Binnie gets.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "얘는 날 따라먹어야겠다 생각한게 너무 웃김",
+      "en": "But the fact that she came to the conclusion that she should copy me instead is so funny."
+    },
+    {
+      "type": "hayeon",
+      "ko": "빈이는 유명한 내 비행기친구임",
+      "en": "Binnie is famously my airplane buddy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맨날 붙어있어",
+      "en": "We're always stuck together."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 주빈이한테 서운한거",
+      "en": "But there's something I'm upset about with Joobin."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어젠가 주빈이가 착각해서 나랑 떨어져 앉는걸로 안거야",
+      "en": "Yesterday or the day before, Joobin thought we'd be sitting separately on the plane."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 막",
+      "en": "She was like,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어!! 이번엔 우리 같이 아니네",
+      "en": "\"Oh!! Looks like we're not together this time.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러는데 신나보였음.",
+      "en": "And she looked excited."
+    },
+    {
+      "type": "hayeon",
+      "ko": "야야 즐거워한다??",
+      "en": "I was like, \"Hey, are you actually happy about that??\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러고 확인했는데 역시나 옆자리❤️",
+      "en": "Then we checked, and of course we were sitting next to each other. ❤️"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 애착인형이 어딜갈라고",
+      "en": "Where does my favorite plushie think it's going?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "팍씨",
+      "en": "Hmph."
+    },
+    {
+      "type": "hayeon",
+      "ko": "비행기만 타면",
+      "en": "Whenever I get on a plane,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "무릎이 너무 아프다",
+      "en": "my knees hurt so much."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 다리가 긴탓일까? ㅎㅎㅎ",
+      "en": "Is it because my legs are so long? ㅎㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "요즘 여기저기",
+      "en": "These days,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "안아픈곳이 없어",
+      "en": "there isn't a single part of my body that doesn't hurt."
+    },
+    {
+      "type": "hayeon",
+      "ko": "늙크크인가",
+      "en": "Am I getting old? ㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "너지금머라그랫어?",
+      "en": "What did you just say?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎㅎㅎ",
+      "en": "ㅎㅎㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 늙크크면",
+      "en": "If I'm \"oldㅋㅋ,\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "늙늙크크크",
+      "en": "then..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "인가",
+      "en": "does that make it \"old oldㅋㅋㅋㅋ?\""
+    }    ,
+    {
+      "type": "fan",
+      "ko": "그거 살 쪄서 그런거야",
+      "en": "That's because you've gained weight."
+    },
+    {
+      "type": "hayeon",
+      "ko": "야",
+      "en": "Hey."
+    },
+    {
+      "type": "fan",
+      "ko": "ㅋㅌㅋㅌㅋㅌㅌㅋㅌㅋㅌㅌㅋㅌㅋㅌㅌㅋㅌㅋㅌㅋㅌㅌㅋㅌㅋㅌㅌㅋㅌㅋㅌㅋㅌㅋㅌㅋㅋㅋㅋㅋㅋ",
+      "en": "ㅋㅌㅋㅌㅋㅌㅌㅋㅌㅋㅌㅌㅋㅌㅋㅌㅌㅋㅌㅋㅌㅋㅌㅌㅋㅌㅋㅌㅌㅋㅌㅋㅌㅋㅌㅋㅌㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "우숴?",
+      "en": "You're laughing?"
+    },
+    {
+      "type": "fan",
+      "ko": "당신이 할머니가 되시더라도, 작은 돼지가 되시더라도, 저는 여전히 당신을 좋아합니다. 걱정 마세요, 언니.(o^^o)",
+      "en": "Even if you become a grandma, or even a little pig, I'll still like you. Don't worry, unnie. (o^^o)"
+    },
+    {
+      "type": "hayeon",
+      "ko": "작은 돼지는 왜껴있는데",
+      "en": "Why did you have to include \"little pig\"?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 이런거에 긁혀서",
+      "en": "I get so bothered by things like this."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런 댓글만 보이네",
+      "en": "They're the only comments I end up noticing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하",
+      "en": "Ha..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고",
+      "en": "Also..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "가오슝가기전에",
+      "en": "Before going to Kaohsiung,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "바빠서 못읽었던 편지들",
+      "en": "I finally read all the letters"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다봤는데",
+      "en": "that I hadn't had time to read because I was busy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "육랑맥스됐어",
+      "en": "My Yukrang level hit MAX."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 어쩜 이렇게",
+      "en": "Seriously..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀엽냐",
+      "en": "How are you all so cute?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "원래는 우주만큼 육랑했는데",
+      "en": "I already loved Yukrang as much as the universe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "읽고나선",
+      "en": "But after reading them,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "우주의 한계를 넘었어",
+      "en": "it went beyond the limits of the universe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "인간은 감히 상상도 못하는 영역까지",
+      "en": "It reached a realm that humans"
+    },
+    {
+      "type": "hayeon",
+      "ko": "간거야",
+      "en": "couldn't even imagine."
+    },
+    {
+      "type": "fan",
+      "ko": "무한대인가",
+      "en": "Infinite?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그치",
+      "en": "Exactly."
+    },
+    {
+      "type": "hayeon",
+      "ko": "막상 숙소 오니까",
+      "en": "As soon as I got back to the dorm,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "또 배고파서…",
+      "en": "I got hungry again..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나경언니랑 밥먹으러 가려구",
+      "en": "So I'm going to eat with Nakyoung unnie."
+    },
+    {
+      "type": "fan",
+      "ko": "기내식 안먹었어?",
+      "en": "Didn't you eat the in-flight meal?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "먹었어…돼지덮밥??",
+      "en": "I did... Pork rice bowl??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㅋㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "Y/n도 맛있는거 먹구",
+      "en": "Y/n, make sure you eat something delicious too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 주말이구나",
+      "en": "Oh, it's the weekend today."
+    },
+    {
+      "type": "hayeon",
+      "ko": "행복한 주말 되기를",
+      "en": "I hope you have a wonderful weekend."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내일 월요일이네",
+      "en": "Tomorrow's already Monday."
+    },
+    {
+      "type": "hayeon",
+      "ko": "수고",
+      "en": "Good luck."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎ",
+      "en": "ㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "메롱",
+      "en": "Bleh"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㄹㅋㄹㅋㄹㅋ 갈게",
+      "en": "ㅋㅋㄹㅋㄹㅋㄹㅋ I'm going now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑❤️육랑",
+      "en": "Harang ❤️ Yukrang"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해~~",
+      "en": "Haranghae~~"
+    }
+  ]
+}
