@@ -1668,11 +1668,11 @@ scroll-margin-top:90px;
 
 .fromm-viewer{
 
-    margin-top:0;
+    height:auto;
 
-    height:calc(100vh - 120px);
+    min-height:70vh;
 
-    overflow:auto;
+    overflow:visible;
 
 }
 
@@ -2063,5 +2063,77 @@ scroll-margin-top:90px;
 .share-btn:hover{
 
     background:rgba(82,217,187,.24);
+
+}
+
+/* ==========================================
+   BACK TO TOP
+========================================== */
+
+.back-to-top{
+
+    position:fixed;
+
+    right:24px;
+
+    bottom:24px;
+
+    width:52px;
+
+    height:52px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:var(--mint);
+
+    color:#0f172a;
+
+    font-size:22px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    box-shadow:0 8px 24px rgba(0,0,0,.25);
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transform:translateY(12px);
+
+    transition:.25s;
+
+    z-index:9999;
+
+}
+
+.back-to-top.show{
+
+    opacity:1;
+
+    visibility:visible;
+
+    transform:none;
+
+}
+
+.back-to-top:hover{
+
+    transform:translateY(-3px);
+
+}
+
+@media (max-width:768px){
+
+    .back-to-top{
+
+        right:18px;
+
+        bottom:18px;
+
+    }
 
 }

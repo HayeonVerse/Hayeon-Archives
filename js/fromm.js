@@ -133,6 +133,8 @@ cache: {
 
     },
 
+
+    
 /* ============================================
    UTILITIES
 ============================================ */
@@ -141,6 +143,82 @@ cache: {
 
 };
 
+App.initBackToTop = function () {
+
+    const btn = document.createElement("button");
+
+    btn.className = "back-to-top";
+
+    btn.innerHTML = "↑";
+
+    document.body.appendChild(btn);
+
+btn.onclick = () => {
+
+    if (window.matchMedia("(max-width:768px)").matches) {
+
+document.querySelector(".conversation-header")
+    ?.scrollIntoView({
+
+        behavior:"smooth",
+
+        block:"start"
+
+    });
+
+    } else {
+
+const header = App.cache.viewer.querySelector(".conversation-header");
+
+if (App.cache.viewer) {
+    App.cache.viewer.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
+
+    }
+
+};
+
+const update = () => {
+
+    let scrollTop;
+
+    if (window.matchMedia("(max-width:768px)").matches) {
+
+        scrollTop = window.scrollY;
+
+    } else {
+
+        scrollTop = App.cache.viewer.scrollTop;
+
+    }
+
+    btn.classList.toggle(
+        "show",
+        scrollTop > 350
+    );
+
+};
+
+    App.cache.viewer.addEventListener(
+
+        "scroll",
+
+        update
+
+    );
+
+    window.addEventListener(
+
+        "scroll",
+
+        update
+
+    );
+
+};
 /* ============================================
    SHORTCUTS
 ============================================ */
@@ -527,7 +605,14 @@ btn.onclick = () => {
 
     if (window.matchMedia("(max-width:768px)").matches){
 
-        document.body.classList.remove("timeline-open");
+        document.getElementById("fromm-container")
+            ?.scrollIntoView({
+
+                behavior:"instant",
+
+                block:"start"
+
+            });
 
     }
 
@@ -622,13 +707,13 @@ const index =
     App.getConversationIndex(conversation);
 
 const previous =
-    index > 0
-        ? App.state.filtered[index - 1]
+    index < App.state.filtered.length - 1
+        ? App.state.filtered[index + 1]
         : null;
 
 const next =
-    index < App.state.filtered.length - 1
-        ? App.state.filtered[index + 1]
+    index > 0
+        ? App.state.filtered[index - 1]
         : null;
 
     const header = App.utils.create(
@@ -832,27 +917,6 @@ header.appendChild(nav);
 
     );
 
-/* ---------- Mobile auto-scroll ---------- */
-
-if (window.matchMedia("(max-width:768px)").matches) {
-
-    setTimeout(() => {
-
-        const header = document.querySelector(".conversation-header");
-
-        if (!header) return;
-
-        header.scrollIntoView({
-
-            behavior: "smooth",
-
-            block: "start"
-
-        });
-
-    }, 50);
-
-}
     
 };
 
@@ -941,9 +1005,11 @@ App.init = async function () {
 
     ) return;
 
-    cacheDOM();
+cacheDOM();
 
-    await App.loadArchive();
+App.initBackToTop();
+
+await App.loadArchive();
 
 const params = new URLSearchParams(window.location.search);
 
@@ -2766,13 +2832,26 @@ App.renderSearchSuggestions = function(results){
 
         `;
 
-        item.onclick=()=>{
+item.onclick = ()=>{
 
-            box.classList.add("hidden");
+    box.classList.add("hidden");
 
-            App.showConversation(result.conversation);
+    App.showConversation(result.conversation);
 
-        };
+    if (window.matchMedia("(max-width:768px)").matches){
+
+        document.getElementById("fromm-container")
+            ?.scrollIntoView({
+
+                behavior:"instant",
+
+                block:"start"
+
+            });
+
+    }
+
+};
 
         box.appendChild(item);
 
