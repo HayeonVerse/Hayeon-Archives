@@ -1320,51 +1320,161 @@ box-shadow:
 
     }
 
-    .hero-banner{
+ /* =========================
+   MOBILE HERO
+========================= */
 
-        height:120px;
+.hero-banner{
 
-    }
+    height:160px;
 
-    .hero-photo{
+}
 
-        width:190px;
+.banner-title{
 
-        height:190px;
+    font-size:82px;
 
-        margin-top:-80px;
+    letter-spacing:2px;
 
-    }
+    opacity:.04;
 
-    .hero-card h1{
+}
 
-        font-size:36px;
+.banner-korean{
 
-    }
+    top:55px;
 
-    .hero-card h2{
+    font-size:34px;
 
-        font-size:24px;
+}
 
-    }
+.banner-subtitle{
 
-    .hero-subtitle{
+    top:16px;
 
-        font-size:16px;
+    font-size:12px;
 
-    }
+    letter-spacing:6px;
 
-    .hero-tags{
+}
 
-        padding:0 16px;
+.banner-member{
 
-    }
+    width:68px;
 
-    .hero-description{
+    height:92px;
 
-        padding:0 18px 28px;
+    top:16px;
 
-    }
+    right:16px;
+
+    border-radius:18px;
+
+}
+
+.banner-member::before{
+
+    font-size:28px;
+
+}
+
+.banner-member::after{
+
+    font-size:10px;
+
+}
+
+.banner-side{
+
+    left:12px;
+
+    top:30px;
+
+    font-size:14px;
+
+}
+
+.hero-photo{
+
+    width:180px;
+
+    height:180px;
+
+    margin-top:-90px;
+
+    border-width:5px;
+
+}
+
+.hero-card h1{
+
+    margin-top:20px;
+
+    font-size:40px;
+
+}
+
+.hero-card h2{
+
+    font-size:22px;
+
+}
+
+.hero-subtitle{
+
+    margin:12px 0 20px;
+
+    font-size:15px;
+
+}
+
+.hero-description{
+
+    padding:0 22px 28px;
+
+    font-size:15px;
+
+    line-height:1.7;
+
+}
+
+.hero-tags{
+
+    gap:10px;
+
+    padding:0 18px;
+
+}
+
+.hero-tags span{
+
+    padding:8px 14px;
+
+    font-size:13px;
+
+}
+
+.banner-dots,
+
+.floating-circle,
+
+.banner-hedgehog{
+
+    display:none;
+
+}
+
+.photo-glow{
+
+    top:145px;
+
+    width:220px;
+
+    height:220px;
+
+}
+
+
 
 .info-grid{
 
