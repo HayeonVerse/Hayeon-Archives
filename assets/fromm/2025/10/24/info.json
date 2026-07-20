@@ -1,0 +1,30 @@
+{
+  "date": "2025-10-24",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "모행",
+      "en": "What are you doing?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진부한거~?",
+      "en": "Something boring~?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "라이브킬건뎅…",
+      "en": "I'm about to go live though..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "바쁜가바?",
+      "en": "I guess you're busy?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "안바쁨 나한테 와",
+      "en": "If you're not busy, come to me."
+    }
+  ]
+}
