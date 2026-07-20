@@ -1,0 +1,568 @@
+{
+  "date": "2025-09-08",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "모해~",
+      "en": "What are you doing~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 공연끝나고 이벤트만 남았엉!",
+      "en": "After the performance, only the event is left!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "여기 날씨 엄청좋아",
+      "en": "The weather here is really nice."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하늘도 컴퓨터처럼 이쁘구",
+      "en": "The sky is pretty too, like computer graphics."
+    },
+    {
+      "type": "fan",
+      "ko": "주빈이랑 같은팀 됐는데 소감이 어때",
+      "en": "You ended up in the same team with Joobin. What are your thoughts?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "주빈이 왔구나!!!!!!",
+      "en": "Joobin came!!!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "방금 막 공연끝나서 몰라써!!!",
+      "en": "I just finished the concert, so I didn't know!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "주빈이 환영한다",
+      "en": "Welcome, Joobin."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 가족즈를",
+      "en": "I've got the Familyz"
+    },
+    {
+      "type": "hayeon",
+      "ko": "데리고있네",
+      "en": "with me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "음하하",
+      "en": "Mwahaha."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나머지 한명은 누가",
+      "en": "Who will be"
+    },
+    {
+      "type": "hayeon",
+      "ko": "멋지게 채워줄것인가",
+      "en": "the last person to complete it?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "만약 린언니오면",
+      "en": "If Lynn unnie joins,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "주빈 맘들 모임이야",
+      "en": "it'll be a Joobin moms gathering."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하루종일 주빈이만",
+      "en": "We'll probably spend all day"
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀여워할듯",
+      "en": "calling Joobin cute."
+    },
+    {
+      "type": "fan",
+      "ko": "근데 유빈이가 맏언니야!",
+      "en": "But Yubin is the oldest unnie!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그러니까 ㅋㅋㅋㅋㅋㅋ",
+      "en": "Exactly. ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "유빈언니랑",
+      "en": "Yubin unnie and I"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하루에 한번씩 통화해서",
+      "en": "talk on the phone once a day,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아직 안보고싶음",
+      "en": "so I don't miss her yet."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㅋㅋㅋㄹㅋㅋ",
+      "en": "ㅋㅋㅋㅋㅋㄹㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "하연아 마지막 멤버는 누구일까?",
+      "en": "Hayeon, who do you think the last member will be?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "두구두구두구두구",
+      "en": "*Drum roll...*"
+    },
+    {
+      "type": "hayeon",
+      "ko": "누굴 원해?",
+      "en": "Who do you want?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "혜린이도 좋지ㅣ",
+      "en": "Hyerin would be nice too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 혜린이한테",
+      "en": "I sent Hyerin"
+    },
+    {
+      "type": "hayeon",
+      "ko": "자니..?",
+      "en": "\"Are you sleeping..?\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "보냈는데",
+      "en": "but"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아직도 안봄이슈",
+      "en": "she still hasn't read it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "언제까지 자는거야",
+      "en": "How long is she going to sleep?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "수민이도 좋징",
+      "en": "Soomin would be good too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "무조건 07을",
+      "en": "Do you just want"
+    },
+    {
+      "type": "hayeon",
+      "ko": "데려오고깊은거야?",
+      "en": "to bring an '07 liner no matter what?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아ㅏ",
+      "en": "Ah..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "린언니오면",
+      "en": "If Lynn unnie joins,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "제니스에",
+      "en": "then in Zenith,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "시온언니 빼고",
+      "en": "except for Shion unnie,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "넥스트 다있다 ㅋㅋㅋㄹㅋㅋ",
+      "en": "all of NXT would be here. ㅋㅋㅋㄹㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "알피에는 빈이 빼고 다 가더니 ㅋㅋ",
+      "en": "In Alphie, everyone went except Binnie. ㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "흑흑 보고싶다 빈아",
+      "en": "*Sob sob* I miss you, Bin-a."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 수민이 하니까",
+      "en": "Speaking of Soomin..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "생각난건데",
+      "en": "that reminded me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "단톡방에 무슨",
+      "en": "In the group chat,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "자기 연습영상찍는데 귀신소리가 들어갔다",
+      "en": "she said that while filming a practice video, a ghost sound got recorded."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러길래",
+      "en": "So she said,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "헉!!!!",
+      "en": "\"Heol!!!!\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이랬는데",
+      "en": "I reacted like that,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "알고보니 본인 목소리였음;;",
+      "en": "but it turned out to be her own voice. ;;"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어그로",
+      "en": "Clickbait."
+    },
+    {
+      "type": "hayeon",
+      "ko": "레전드",
+      "en": "Legendary."
+    },
+    {
+      "type": "hayeon",
+      "ko": "주빈이가",
+      "en": "Then Joobin said,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "언니 목소리잖아;;",
+      "en": "\"Unnie, that's your voice. ;;\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러고 슬로우 영상까지 만들어서",
+      "en": "Then she even made a slow-motion video"
+    },
+    {
+      "type": "hayeon",
+      "ko": "보냄",
+      "en": "and sent it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "image": "image-01.webp"
+    },
+    {
+      "type": "hayeon",
+      "ko": "실시간",
+      "en": "Real-time."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㅋㅋ",
+      "en": "ㅋㄹㅋㄹㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘살짝",
+      "en": "Today I kind of have"
+    },
+    {
+      "type": "hayeon",
+      "ko": "승무원 느낌",
+      "en": "a flight attendant vibe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 이벤트하고 올겡",
+      "en": "I'll go do the event and come back."
+    },
+    {
+      "type": "hayeon",
+      "ko": "좀만 기다령~",
+      "en": "Wait just a little~"
+    },
+        {
+      "type": "hayeon",
+      "ko": "**(4분 후)**",
+      "en": "**(4 minutes later)**"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다시 와따!",
+      "en": "I came back!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "생각보다 빨리 등장",
+      "en": "Back sooner than expected."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하이 터치! 해써",
+      "en": "I just finished the high-touch!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "인디애나폴리스",
+      "en": "Indianapolis"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 너무 젛아",
+      "en": "is seriously so nice."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 화창해",
+      "en": "It's really sunny."
+    },
+    {
+      "type": "fan",
+      "ko": "날씨가 막 하연해?",
+      "en": "Is the weather very Hayeon-like?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어 막 하연 떠다녀",
+      "en": "Yeah, it's like Hayeon is floating around everywhere."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 보고싶?",
+      "en": "Do you miss me?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "더 표현해봐",
+      "en": "Express it more."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅇㅋ",
+      "en": "OK."
+    },
+    {
+      "type": "hayeon",
+      "image": "image-02.webp"
+    },
+    {
+      "type": "hayeon",
+      "ko": "키티잠옷 투어를 위해 산거야",
+      "en": "I bought these Hello Kitty pajamas for the tour."
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀엽지",
+      "en": "Cute, right?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀엽다 해라 우리엄마가 사줬다",
+      "en": "Say they're cute. My mom bought them for me."
+    },
+    {
+      "type": "fan",
+      "ko": "이거 혹시 쌩얼이야?? 자기 전?",
+      "en": "Is this your bare face by any chance?? Before going to sleep?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞",
+      "en": "Yep."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이날 유독",
+      "en": "That day,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘생겼길래",
+      "en": "I looked especially handsome,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "찍었어…",
+      "en": "so I took a picture..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하하하하라ㅏ!!!",
+      "en": "Hahahahara!!!"
+    },
+    {
+      "type": "fan",
+      "ko": "아 우뜩하지 쌩얼 너무좋아가지고 지금 날아서 북미갈듯",
+      "en": "Ah, what should I do? I love your bare face so much I feel like flying to North America right now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "와",
+      "en": "Wow."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내옆으로 ~",
+      "en": "Come next to me~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "같이 걷자 난 다궁금해~~~",
+      "en": "Walk with me, I'm curious 'bout everything~~~ (t/n: Lyrics to Style by Hearts2Hearts)"
+    },
+    {
+      "type": "fan",
+      "ko": "다시 보니 정말 사막여우 같네",
+      "en": "Looking again, you really do look like a fennec fox."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 요즘 추구미 사막여우야",
+      "en": "These days, my vibe goal is a fennec fox."
+    },
+    {
+      "type": "fan",
+      "ko": "민낯도 이렇게 매력적인 사람은 누구야?! 큰 소리로 그녀의 이름을 알려줘!",
+      "en": "Who is this person whose bare face is so attractive?! Say her name out loud!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "She is hayeon !🙂‍↕️",
+      "en": "She is Hayeon! 🙂‍↕️"
+    },
+    {
+      "type": "fan",
+      "ko": "밴쿠버~ ~ 네가 있는 곳으로 아무브옥~ ~ ~ 비행기가 안 뜨면 아윌스쿠버다이브~!!!",
+      "en": "Vancouver~~ To where you are I'll move on~~~ if there’s no plane, I’ll scuba dive~!!! (t/n: Lyrics to Vancouver by BIG Naughty)"
+    },
+    {
+      "type": "hayeon",
+      "ko": "와 나 이노래",
+      "en": "Wow, this song..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "비행기에서 계속 들음",
+      "en": "I kept listening to it on the plane."
+    },
+    {
+      "type": "hayeon",
+      "ko": "자자",
+      "en": "Alright."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 추천노래",
+      "en": "Today's song recommendation"
+    },
+    {
+      "type": "hayeon",
+      "ko": "벤쿠버 할거에요",
+      "en": "is 'Vancouver.'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금 몇개 도시했다고",
+      "en": "Now that we've done a few cities,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "여유가 좀 생겼어",
+      "en": "I've started to relax a little."
+    },
+    {
+      "type": "hayeon",
+      "ko": "정말",
+      "en": "Seriously,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "미안",
+      "en": "I'm sorry."
+    },
+    {
+      "type": "hayeon",
+      "ko": "배터리 1프로",
+      "en": "My battery is at 1%."
+    },
+    {
+      "type": "hayeon",
+      "ko": "충전기",
+      "en": "A charger..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아무도 없음",
+      "en": "Nobody has one."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 왜 안들고옴?",
+      "en": "Why didn't I bring mine?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "작별인사",
+      "en": "Time to say goodbye."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅃㄹ",
+      "en": "Quickly."
+    },
+    {
+      "type": "hayeon",
+      "ko": "안녕",
+      "en": "Bye."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해🥰",
+      "en": "Haranghae 🥰"
+    },
+    {
+      "type": "hayeon",
+      "ko": "또 올게 ㅜㅜ",
+      "en": "I'll come back again. ㅜㅜ"
+    }
+  ]
+}

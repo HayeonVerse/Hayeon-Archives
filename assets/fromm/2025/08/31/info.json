@@ -1,0 +1,428 @@
+{
+  "date": "2025-08-31",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "모해!!",
+      "en": "What are you doing!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 스케줄하고 잇즤",
+      "en": "I'm doing my schedule."
+    },
+    {
+      "type": "hayeon",
+      "ko": "캐리어 아직 못쌌어 ㅜㅠㅠㅠ",
+      "en": "I still haven't packed my suitcase. ㅜㅠㅠㅠ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭘챙겨야할까",
+      "en": "What should I pack?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 이번에 캐리어",
+      "en": "This time, my suitcase..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이쁜 아이보리 캐리어",
+      "en": "I bought a pretty ivory suitcase."
+    },
+    {
+      "type": "hayeon",
+      "ko": "큰거로 샀어",
+      "en": "I bought a big one."
+    },
+    {
+      "type": "hayeon",
+      "ko": "**Y/n**케이스로 딱이지",
+      "en": "**Y/n** fits perfectly inside the case."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㅋㄹㅋㅋㅋㅋ",
+      "en": "ㅋㅋㅋㄹㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아늑할거야~",
+      "en": "It'll be cozy~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 짐 싸는거",
+      "en": "Seriously, packing..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "리스트좀 공유해주세요",
+      "en": "Please share your packing list."
+    },
+    {
+      "type": "hayeon",
+      "ko": "막막하네요",
+      "en": "I'm totally lost."
+    },
+    {
+      "type": "hayeon",
+      "ko": "저번에 어떻게 가져갔는지 기억도 안나",
+      "en": "I don't even remember how I packed last time."
+    },
+    {
+      "type": "hayeon",
+      "ko": "룸메 아직 안정해졌는데",
+      "en": "My roommate hasn't been decided yet."
+    },
+    {
+      "type": "hayeon",
+      "ko": "누굴까",
+      "en": "Who will it be?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "예상해보자",
+      "en": "Let's guess."
+    },
+    {
+      "type": "hayeon",
+      "ko": "김채원?",
+      "en": "Kim Chaewon?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그럴수도 있고",
+      "en": "It could be."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 뭔가 시온언니랑 쓸거같은디",
+      "en": "I have a feeling I'll share with Shion-unnie."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그러타",
+      "en": "Yeah."
+    },
+    {
+      "type": "hayeon",
+      "ko": "밥 뭐시키지",
+      "en": "What should I order to eat?"
+    },
+    {
+      "type": "fan",
+      "ko": "소불고기! 이제 한식 잘 못 먹으니깡",
+      "en": "Beef bulgogi! Since you won't be able to eat Korean food often now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니야 미국가면",
+      "en": "No, when I go to America..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "한식을 젤 많이먹어..",
+      "en": "I actually eat Korean food the most."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이..이제 그만 미국 피자 먹자요 ㅠㅠ",
+      "en": "L-let's stop eating American pizza now. ㅠㅠ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "해도",
+      "en": "Even so..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 갈비탕~",
+      "en": "Today, galbitang~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "제육~",
+      "en": "Jeyuk~"
+    },
+    {
+      "type": "hayeon",
+      "image": "image-01.webp"
+    },
+    {
+      "type": "fan",
+      "ko": "머리끈은 왜 먹는고야?",
+      "en": "Why are you eating the hair tie?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "마시쪄",
+      "en": "It's tasty."
+    },
+    {
+      "type": "hayeon",
+      "ko": "청순하지 ㅋ",
+      "en": "Pure and innocent, right? ㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "헤헤",
+      "en": "Hehe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 일어난지 별로 안됐어~ 간단한거로 추천해바",
+      "en": "I haven't been awake for very long~ Recommend me something simple."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 신기한거 알려줄까",
+      "en": "Want me to tell you something really strange?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다이어트하는데 살이 찜",
+      "en": "I'm dieting, but I gained weight."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎ헤헿",
+      "en": "ㅎ헤헿"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 쌩눈",
+      "en": "My bare eyes..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "궁금하다고",
+      "en": "You keep saying you're curious."
+    },
+    {
+      "type": "hayeon",
+      "ko": "자꾸",
+      "en": "Constantly."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그러더라고!",
+      "en": "That's what you all keep saying!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이미지",
+      "en": "The image..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "완전 다름",
+      "en": "is completely different."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 안보낼래…",
+      "en": "Ah, I won't send it..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "마음이 바꼈어",
+      "en": "I changed my mind."
+    },
+    {
+      "type": "hayeon",
+      "ko": "안대안대",
+      "en": "No, no."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 몰랑",
+      "en": "Ah, whatever."
+    },
+    {
+      "type": "hayeon",
+      "ko": "안갔엌ㅎㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "Nopeㅎㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "헤어받는중",
+      "en": "I'm getting my hair done."
+    },
+    {
+      "type": "fan",
+      "ko": "그래서진짜안보내준다고",
+      "en": "So you're really not going to send it?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "원해?",
+      "en": "Do you want it?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사진이",
+      "en": "The photo..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "별로야",
+      "en": "isn't that good."
+    },
+    {
+      "type": "hayeon",
+      "image": "image-02.webp"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아몰라",
+      "en": "Ah, I don't know."
+    },
+    {
+      "type": "hayeon",
+      "ko": "몰라!!!!!!!",
+      "en": "I DON'T KNOW!!!!!!!"
+    },
+    {
+      "type": "fan",
+      "ko": "안마의자 앉아서 찍었구낭",
+      "en": "You took it while sitting in a massage chair."
+    },
+    {
+      "type": "hayeon",
+      "ko": "마자..",
+      "en": "That's right..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "머리핀",
+      "en": "The hairpin..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "유빈언니가 선물해줌",
+      "en": "Yubin-unnie gave it to me as a gift."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㄹㄹㅋㅋㄹㅋㅋ",
+      "en": "ㅋㅋㄹㄹㅋㅋㄹㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "좀만 기다령",
+      "en": "Wait just a little."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 밥좀",
+      "en": "I'm going to order some food."
+    },
+    {
+      "type": "hayeon",
+      "ko": "시키고 올게",
+      "en": "I'll be right back."
+    },
+    {
+      "type": "hayeon",
+      "ko": "시켜써",
+      "en": "I ordered it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그냥 브런치세트",
+      "en": "Just a brunch set."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "조식느낌으로",
+      "en": "Like breakfast."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나한텐 지금이 아침식사지",
+      "en": "For me, this is basically breakfast."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이제 메컵 들어간당",
+      "en": "Now it's time for makeup."
+    },
+        {
+      "type": "hayeon",
+      "ko": "**(2 hours 18 minutes later)**",
+      "en": "**(2 hours 18 minutes later)**"
+    },
+    {
+      "type": "hayeon",
+      "ko": "메컵하고",
+      "en": "I finished my makeup,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "한숨 잤어..",
+      "en": "and took a nap..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "헤헤",
+      "en": "Hehe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘더 홧팅하구~~",
+      "en": "Let's keep fighting for the rest of today too~~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 브런치세트는",
+      "en": "Ah, about the brunch set..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "가게에서 주문취소시켜서",
+      "en": "The restaurant canceled my order."
+    },
+    {
+      "type": "hayeon",
+      "ko": "부리또 시켰는데",
+      "en": "So I ordered a burrito instead,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그것마저 내꺼 아닌게 옴",
+      "en": "but even that arrived as someone else's order."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래서 환불받았어…",
+      "en": "So I ended up getting a refund..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "요즘 억까가 많아요~ ~",
+      "en": "These days it feels like everything is unfairly going against me~ ~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 스케줄 하러 갈게 ㅠㅠ",
+      "en": "I'm off to my schedule now. ㅠㅠ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "빠이빠잉",
+      "en": "Bye-bye!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해😍",
+      "en": "Haranghae😍"
+    }
+  ]
+}

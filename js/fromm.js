@@ -1899,11 +1899,10 @@ App.renderMessageMedia = function (message) {
     let hasMedia = false;
 
 const renderers = [
-
+    App.renderSticker,
     App.renderImage,
     App.renderVideo,
     App.renderVoice
-
 ];
 
 renderers.forEach(renderer => {
@@ -1920,6 +1919,42 @@ renderers.forEach(renderer => {
     return hasMedia
         ? wrapper
         : null;
+
+};
+
+App.renderSticker = function(message){
+
+    const stickers = App.utils.getMediaList(
+        message,
+        "sticker",
+        "stickers"
+    );
+
+    if(!stickers.length) return null;
+
+    const wrapper = App.createMediaWrapper("message-sticker");
+
+    stickers.forEach(file=>{
+
+        const img = App.utils.create("img");
+
+        img.loading = "lazy";
+
+        img.src = App.utils.resolveMediaPath(
+            {
+                ...message,
+                sticker:file
+            },
+            "sticker"
+        );
+
+        img.alt = "Sticker";
+
+        wrapper.appendChild(img);
+
+    });
+
+    return wrapper;
 
 };
 /* ============================================
