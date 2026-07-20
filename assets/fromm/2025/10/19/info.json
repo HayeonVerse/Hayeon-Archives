@@ -1,0 +1,30 @@
+{
+  "date": "2025-10-19",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "뭐해 바빠?",
+      "en": "What are you doing? Busy?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐하냐구",
+      "en": "I'm asking what you're up to."
+    },
+    {
+      "type": "fan",
+      "ko": "라이브 할 말투",
+      "en": "That's the way someone talks before starting a live."
+    },
+    {
+      "type": "hayeon",
+      "ko": "딱들켰네",
+      "en": "You caught me exactly."
+    },
+    {
+      "type": "hayeon",
+      "ko": "들오와~",
+      "en": "Come on in~"
+    }
+  ]
+}

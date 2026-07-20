@@ -1,0 +1,698 @@
+{
+  "date": "2025-10-07",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "즐추 보내는중~?",
+      "en": "Having a fun Chuseok~?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "맛있는거 많이 머거써?",
+      "en": "Did you eat lots of delicious things?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나두 잘쉬고 잘 먹구있엉",
+      "en": "I'm resting well and eating well too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 방금 생새우회 먹었어 ㅋㅋㅋㅋ",
+      "en": "I just ate raw shrimp sashimiㅋㅋㅋㅋ."
+    },
+    {
+      "type": "fan",
+      "ko": "해산물 많이 먹네 집안이 다 좋아하나??",
+      "en": "You eat a lot of seafood. Does your whole family like it?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아뉘",
+      "en": "Nope."
+    },
+    {
+      "type": "hayeon",
+      "ko": "가족중에 해산물 엄청좋아하는사람 나밖에 없어",
+      "en": "I'm the only one in my family who really loves seafood."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나를 위해서 시켜주시는편",
+      "en": "They usually order it just for me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어렸을때부터 으른입맛이라",
+      "en": "Ever since I was little, I've had an adult palate."
+    },
+    {
+      "type": "hayeon",
+      "ko": "혼자 막 특이한거 먹고 그랬어 ㅋㅋㅋㅋㅋㄹㅋ",
+      "en": "I'd always eat unusual things by myselfㅋㅋㅋㅋㅋ."
+    },
+    {
+      "type": "fan",
+      "ko": "못먹는 해산물 있어?",
+      "en": "Is there any seafood you can't eat?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "거의 없는데",
+      "en": "Almost none."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 바다맛 너무나는건 잘 안먹긴해",
+      "en": "I don't really eat the ones that taste too strongly of the sea."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금은 샤머 먹는중",
+      "en": "Right now I'm eating Shine Muscat grapes."
+    },
+    {
+      "type": "fan",
+      "ko": "진짜 완벽한 휴식 중이네",
+      "en": "You're really having the perfect vacation."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞아 먹고 자고 놀고",
+      "en": "Yep. Eat, sleep, and play."
+    },
+    {
+      "type": "fan",
+      "ko": "서울콘때 볼살 빵빵하겟당",
+      "en": "Your cheeks will be all puffy by the Seoul concert."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그거 눈에다 필터 끼고와야해",
+      "en": "You'll need to put a filter over your eyes."
+    },
+    {
+      "type": "hayeon",
+      "ko": "홀쭉해보이게",
+      "en": "So I look slimmer."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔지알지? ㅎㅎ",
+      "en": "You know what I mean, right?ㅎㅎ"
+    },
+    {
+      "type": "fan",
+      "ko": "배에 힘 줘야되는 상태야?",
+      "en": "Are you at the stage where you have to keep your stomach sucked in?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "당연하지",
+      "en": "Of course."
+    },
+    {
+      "type": "hayeon",
+      "ko": "클났엉..",
+      "en": "I'm in trouble..."
+    },
+    {
+      "type": "hayeon",
+      "image": "image-01.webp"
+    },
+    {
+      "type": "hayeon",
+      "ko": "저러고",
+      "en": "After that..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "신발벗고",
+      "en": "I took off my shoes,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "바다 드렁감",
+      "en": "and ran into the sea."
+    },
+    {
+      "type": "hayeon",
+      "ko": "영상 있는데 좀 추해서 소장할게^^",
+      "en": "I have a video too, but it's a little embarrassing, so I'll keep it to myself^^"
+    },
+    {
+      "type": "hayeon",
+      "ko": "말벌아저씨처럼",
+      "en": "Like that wasp uncle. **(t/n: Reference to a TV personality who dramatically chases away wasps.)**"
+    },
+    {
+      "type": "hayeon",
+      "ko": "치마 부여잡고 뛰어감",
+      "en": "I was holding onto my skirt while running."
+    },
+    {
+      "type": "fan",
+      "ko": "약간 나 잡아봐라~ 느낌?",
+      "en": "Kind of like a 'Catch me if you can~' vibe?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 말벌잡아라~ 이런느낌",
+      "en": "No, more like 'Catch the wasp~!'"
+    },
+    {
+      "type": "fan",
+      "ko": "말벌잡는거 너무 보고싶당",
+      "en": "I really want to see you catching wasps."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 말벌 잘잡을듯",
+      "en": "I think I'd actually be good at catching wasps."
+    },
+    {
+      "type": "hayeon",
+      "ko": "유튜브에서",
+      "en": "On YouTube,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "무슨 악어에다 탁 잡아서 기절시키는거 봤는데",
+      "en": "I saw someone catch one with a little crocodile toy and knock it out. **(t/n: A viral video using a toy crocodile to catch a wasp.)**"
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 재밌어보여",
+      "en": "It looked so fun."
+    },
+    {
+      "type": "hayeon",
+      "ko": "저사진 누가 찍었냐구?",
+      "en": "Who took that photo, you ask?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "엄마 아빠 오빠 셋중 누군지 모름",
+      "en": "I don't know whether it was my mom, dad, or brother."
+    },
+    {
+      "type": "hayeon",
+      "ko": "셋이서 무슨 경쟁하듯이",
+      "en": "The three of them were almost competing"
+    },
+    {
+      "type": "hayeon",
+      "ko": "날 찍고",
+      "en": "to take pictures of me,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 뻔뻔하게 포즈잡고있었읔ㄹㅋㄹㅋㄹㅋ",
+      "en": "and I shamelessly kept posingㅋㅋㅋㅋ."
+    },
+    {
+      "type": "hayeon",
+      "ko": "주변사람들이 놀랐을듯ㅋㄹㅋㄹ 코",
+      "en": "The people around us were probably wondering what was going onㅋㅋ."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가봤을때 오빠야",
+      "en": "I think it was my brother."
+    },
+    {
+      "type": "hayeon",
+      "ko": "엄마랑 아빠는 구도가",
+      "en": "My mom and dad's framing"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 아니라 바다가 더 많았던걸로 기억해",
+      "en": "had more of the sea than me, if I remember correctly."
+    },
+    {
+      "type": "fan",
+      "ko": "바다가 더 이뻐보이셧나봐",
+      "en": "Maybe the sea looked prettier."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아하~! 왠지 바다사진 많이 찍드라",
+      "en": "Aha~! They really did take a lot of photos of the sea."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이는 그래도 오빠랑 친한가보다 보통 싸우기 마련인데",
+      "en": "You seem pretty close with your brother though. Usually siblings fight a lot."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어렸을때는 많이 싸웠는데",
+      "en": "We fought a lot when we were younger."
+    },
+    {
+      "type": "hayeon",
+      "ko": "따로 사니까 안싸워",
+      "en": "But now that we live separately, we don't."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔지 알지",
+      "en": "You know what I mean."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리가족이 날 너무 좋아해 ㅎ",
+      "en": "My family really loves me.ㅎ"
+    },
+    {
+      "type": "hayeon",
+      "image": "image-02.webp"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이건 오늘",
+      "en": "This one is from today."
+    },
+    {
+      "type": "fan",
+      "ko": "자다일어난거 같이 생겼어",
+      "en": "You look like you just woke up."
+    },
+    {
+      "type": "hayeon",
+      "ko": "웅맞아정답",
+      "en": "Yep, correct."
+    },
+    {
+      "type": "hayeon",
+      "ko": "자고 일어나서",
+      "en": "I woke up,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "급하게 화장하고",
+      "en": "quickly put on some makeup,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "찍은",
+      "en": "and took it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "요즘 눈썹 진한게 좋앙",
+      "en": "I've been liking darker eyebrows lately."
+    },
+    {
+      "type": "fan",
+      "ko": "눈썹이 오늘따라 송충이다",
+      "en": "Your eyebrows look like caterpillars today."
+    },
+    {
+      "type": "hayeon",
+      "ko": "송충이라니;;;!!!!",
+      "en": "Caterpillars?! Seriously;;;!!!!"
+    },
+    {
+      "type": "fan",
+      "ko": "우리 아빠가 입는 히트텍같은걸 입어도 이쁘네💕",
+      "en": "Even wearing something like my dad's Heattech, you still look pretty💕 **(t/n: Heattech is UNIQLO's thermal clothing.)**"
+    },
+    {
+      "type": "hayeon",
+      "ko": ";; 내잠옷임!!!",
+      "en": ";; Those are my pajamas!!!"
+    },
+    {
+      "type": "fan",
+      "ko": "헐...멋있다...오빠불러도돼",
+      "en": "Whoa... that's cool... Can I call you oppa?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "불러 ㅋㅎ😎",
+      "en": "Go aheadㅋㅎ😎"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하석이네 ㅋㅋㅋㄹㅋ",
+      "en": "It's Haseok againㅋㅋㅋ."
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리가족도",
+      "en": "Even my family"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하석의 존재를 앎…;;",
+      "en": "knows Haseok exists now...;;"
+    },
+    {
+      "type": "fan",
+      "ko": "어머나 민망해라",
+      "en": "Oh my, that's embarrassing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "🫠😳",
+      "en": "🫠😳"
+    },
+        {
+      "type": "hayeon",
+      "ko": "아니 내가",
+      "en": "Also, I..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그 강아지영화있잖아",
+      "en": "You know that dog movie,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그 썰매끄는 개들인데",
+      "en": "the one with the sled dogs."
+    },
+    {
+      "type": "hayeon",
+      "ko": "CG야",
+      "en": "It's CGI."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그 허스키가 빌런이고",
+      "en": "The husky is the villain."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어쨌든 그 영화 넘 감동적임",
+      "en": "Anyway, that movie is so touching."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 제목 뭐지",
+      "en": "Wait, what was the title?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "주인공 개가",
+      "en": "The main dog..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "주인이 얼음빙판사이로 빠졌는데",
+      "en": "its owner falls through the ice,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "구해주고",
+      "en": "and the dog saves him,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "신뢰를 얻고",
+      "en": "earns his trust,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "선두 개로 인정받고 막",
+      "en": "gets recognized as the lead dog,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "개들의 리더가 되고",
+      "en": "and becomes the leader of the pack."
+    },
+    {
+      "type": "fan",
+      "ko": "마이펫의이중생활",
+      "en": "The Secret Life of Pets?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "겠냐구 ㅎㅎ",
+      "en": "As if it'd be thatㅎㅎ."
+    },
+    {
+      "type": "hayeon",
+      "ko": "콜 오브 와일드",
+      "en": "I think it's *The Call of the Wild*."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이건가봐",
+      "en": "That must be it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 감동 ㅜ",
+      "en": "It's seriously so touchingㅜ."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이 할 수 없는 세 가지 일",
+      "en": "Three things Hayeon can't do:"
+    },
+    {
+      "type": "fan",
+      "ko": "1. 웃기",
+      "en": "1. Make people laugh."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이 웃으면 주변 사람들 모두 따뜻함을 느끼게 되고, 지구 온도가 상승하면 지구도 따뜻해질 수 있다.",
+      "en": "If Hayeon laughs, everyone around her feels warmth, and if Earth's temperature rises, even the planet gets warmer."
+    },
+    {
+      "type": "fan",
+      "ko": "2. 울기",
+      "en": "2. Cry."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이 울면 모든 사람들도 함께 울게 되고, 해수면이 상승하면 지구는 심지어 멸망으로 향할 수 있다.",
+      "en": "If Hayeon cries, everyone cries with her, and as sea levels rise, the Earth could even head toward destruction."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오잉 가만히 있어야하네",
+      "en": "Oh? Then I should just stay still."
+    },
+    {
+      "type": "hayeon",
+      "ko": "가만히 있으면 난 지구의 영웅이야",
+      "en": "If I stay still, I'm the Earth's hero."
+    },
+    {
+      "type": "fan",
+      "ko": "세가지인데 왜 두가지만 있어",
+      "en": "You said three things, but there are only two."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그러네 ㅋㅋㅎㅋㄹㄹㅋㄹㅋㄹㅋ 이제 앎",
+      "en": "You're rightㅋㅋㅋㅋ I just realized."
+    },
+    {
+      "type": "fan",
+      "ko": "넌 내 영웅이잖아",
+      "en": "You're my hero, though."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래 난 앤트걸 ㅋ",
+      "en": "That's right, I'm Ant-Girlㅋ."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이 요즘 추구미가 뭐야",
+      "en": "What's your vibe these days?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 요즘",
+      "en": "These days..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "분위기있는~?",
+      "en": "Something atmospheric~?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이건 에겐테토로 정할수 없오",
+      "en": "You can't really classify this as egen or teto. **(t/n: Korean internet personality archetypes.)**"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그냥 느껴지는것.",
+      "en": "It's just a feeling."
+    },
+    {
+      "type": "hayeon",
+      "ko": "살짝 커피 좋아할것같고",
+      "en": "Like someone who seems as if they'd enjoy coffee."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔말알?",
+      "en": "You know what I mean?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "커피는 안먹지만 ㅎㅎㅎㅎ",
+      "en": "Even though I don't actually drink coffeeㅎㅎㅎㅎ."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 밴쿠버에서",
+      "en": "When I was in Vancouver,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "메이플시럽커피원두",
+      "en": "I bought maple syrup coffee beans"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사서 엄마 드림",
+      "en": "and gave them to my mom."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맛있데유",
+      "en": "She said they're delicious."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아빠한텐 젤리",
+      "en": "For my dad, I got jelly."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오빠한텐 밴쿠버사슴 인형",
+      "en": "And for my brother, a Vancouver deer plush."
+    },
+        {
+      "type": "hayeon",
+      "ko": "오ㅓ",
+      "en": "Oh."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나지금 생각남",
+      "en": "I just remembered something."
+    },
+    {
+      "type": "hayeon",
+      "ko": "가족들 한명한명 어울리는걸로",
+      "en": "I bought something that suited each member of my family."
+    },
+    {
+      "type": "hayeon",
+      "ko": "드림캐처인가",
+      "en": "I think they were dreamcatchers."
+    },
+    {
+      "type": "hayeon",
+      "ko": "사왔는데",
+      "en": "I bought them,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "와 이걸 까먹고",
+      "en": "but wow, I completely forgot about them."
+    },
+    {
+      "type": "hayeon",
+      "ko": "안가져옴",
+      "en": "I didn't bring them."
+    },
+    {
+      "type": "hayeon",
+      "ko": "캐리어에 있음 ;;;",
+      "en": "They're still in my suitcase..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "와",
+      "en": "Wow."
+    },
+    {
+      "type": "hayeon",
+      "ko": "프롬하다 생각남",
+      "en": "I only remembered because I was chatting on Fromm."
+    },
+    {
+      "type": "hayeon",
+      "ko": "미치겠다",
+      "en": "I'm going crazy."
+    },
+    {
+      "type": "fan",
+      "ko": "캐리어 아직도 정리 안했어?",
+      "en": "You still haven't unpacked your suitcase?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "기념품같은건 그냥 캐리어에 넣어놨었지..",
+      "en": "I just left souvenirs and things like that in my suitcase..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아휴 증말",
+      "en": "Ah, seriously..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 이쁜데 그거..",
+      "en": "They're really pretty too..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나중에 본가간다고 할때",
+      "en": "When I say I'm going back to my parents' house later,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "말해줘 챙기라고",
+      "en": "remind me to bring them."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋ",
+      "en": "ㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 이제 씻으러 간다유",
+      "en": "I'm going to wash up now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "곧 보자아",
+      "en": "See you soon~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "추석 마무리 잘 하구~~",
+      "en": "Finish up your Chuseok well~~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해!!😍",
+      "en": "Haranghae!! 😍"
+    }
+  ]
+}
