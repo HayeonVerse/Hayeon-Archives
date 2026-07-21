@@ -1,0 +1,658 @@
+{
+  "date": "2025-12-13",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "안녕~",
+      "en": "Hi~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐해?",
+      "en": "What are you doing?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "보고싶당",
+      "en": "I miss you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 주토피아 봤어!!",
+      "en": "I watched Zootopia!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "김채원이랑 보고왔는데",
+      "en": "I went to see it with Kim Chaewon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "역시 내 추구미 닉",
+      "en": "As expected, Nick is still my ideal vibe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "멋져",
+      "en": "He's so cool."
+    },
+    {
+      "type": "fan",
+      "ko": "오빠병 심해지겟다",
+      "en": "Your 'oppa syndrome' is only going to get worse."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 오빠병 없어",
+      "en": "I don't have oppa syndrome."
+    },
+    {
+      "type": "hayeon",
+      "ko": "연하남병",
+      "en": "I have younger-guy syndrome."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㅋㄹㅋㄹ",
+      "en": "ㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "미치겠다..ㅎ",
+      "en": "I'm going crazy..ㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이거지",
+      "en": "This is exactly it."
+    },
+    {
+      "type": "hayeon",
+      "image": "image-01.webp"
+    },
+    {
+      "type": "hayeon",
+      "ko": "누나 제가 그렇게 좋아요? ㅎ",
+      "en": "\"Noona, do you like me that much?ㅎ\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "제이름은 닉이에요",
+      "en": "\"My name is Nick.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 나는",
+      "en": "But I..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "자막버전으로 봤거든?",
+      "en": "I watched the subtitled version, you know?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "더빙으로 보고싶었는데…",
+      "en": "I wanted to watch the dubbed version though..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고 나는 그런 그래픽",
+      "en": "Also, those kinds of graphics..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "구경하는거 좋아하는게",
+      "en": "I really like looking at them."
+    },
+    {
+      "type": "hayeon",
+      "ko": "데",
+      "en": "You know..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "사실적 그래픽",
+      "en": "Really realistic graphics."
+    },
+    {
+      "type": "hayeon",
+      "ko": "자막 보느라 놓치고 그런거 너무 시러",
+      "en": "I hate missing details because I'm busy reading subtitles."
+    },
+    {
+      "type": "hayeon",
+      "ko": "또 보러 가고싶어",
+      "en": "I want to go watch it again."
+    },
+    {
+      "type": "hayeon",
+      "ko": "보러갈까?",
+      "en": "Should I go see it again?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㅋㄹㅋㄹㅋㄹㄹㅋ",
+      "en": "ㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "한국어로 꼭 볼거야",
+      "en": "I'm definitely going to watch it in Korean."
+    },
+    {
+      "type": "fan",
+      "ko": "더빙판은 애기들 많을듯",
+      "en": "There'll probably be a lot of little kids at the dubbed showing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 애기라 괜찮아",
+      "en": "I'm a kid too, so it's fine."
+    },
+    {
+      "type": "fan",
+      "ko": "추구미 닉이라면서요..",
+      "en": "I thought you said Nick was your ideal vibe..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "닉도 사실 애기가 꿈이야",
+      "en": "Nick secretly dreams of being a kid too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "닉은 사실 마음도 여리고 상처도 많지만 살아오면서",
+      "en": "Nick actually has a soft heart and a lot of emotional scars, but as he grew up..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "사회생활하면서 생긴 능청스러움과",
+      "en": "he developed that smooth, playful attitude from living in society,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "여유",
+      "en": "and that sense of composure."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그런게 포인트라고",
+      "en": "That's what makes him so appealing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나라고?",
+      "en": "Me, you say?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞는거 같기도하고",
+      "en": "I guess that does sound like me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 주토피아",
+      "en": "Anyway, Zootopia..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내용스포해도 되나",
+      "en": "Can I spoil the story?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "한다~",
+      "en": "I'm going to~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "주디가~",
+      "en": "Judy..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㄹㅋ",
+      "en": "ㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "알았어",
+      "en": "Alright."
+    },
+    {
+      "type": "hayeon",
+      "ko": "장난이고",
+      "en": "I'm just kidding."
+    },
+    {
+      "type": "hayeon",
+      "ko": "챌린지 게리 왜 니엔언니가 했냐묜",
+      "en": "As for why Nien-unnie played Gary in the challenge..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "앞에 있었어",
+      "en": "She was right in front of us."
+    },
+    {
+      "type": "hayeon",
+      "ko": "수민이가 섭외 해왔는데",
+      "en": "Soomin recruited her."
+    },
+    {
+      "type": "hayeon",
+      "ko": "색도 뭔가 딱 맞았어",
+      "en": "Even the colors matched perfectly."
+    },
+    {
+      "type": "fan",
+      "ko": "아니 하마다군 숏츠는 어쩌다찍은거야 너무웃김",
+      "en": "How did you end up filming that Hamada-kun Short? It was so funny."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 ㅋㄹㅋㄹㅋㄹ",
+      "en": "No, ㅋㅋㅋㅋ."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이거도 웃긴게",
+      "en": "The funny thing about that is..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "갑자기 김수민이",
+      "en": "Out of nowhere, Kim Soomin said,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 너랑 찍고싶은거 있어",
+      "en": "\"There's something I want to film with you.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔데?",
+      "en": "\"What is it?\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "걍 다이스키만 하면 된다고",
+      "en": "\"You just have to say 'daisuki.'\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래",
+      "en": "\"Okay.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "해서 찍음",
+      "en": "So we filmed it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "꽤 열정적으로 찍음",
+      "en": "We were actually pretty passionate about filming it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "추운데 밖에 나가서",
+      "en": "We even went outside even though it was cold."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "방금 연지랑",
+      "en": "Just now, Yeonji and I..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "찜닭먹어서",
+      "en": "ate jjimdak,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "소화가 안된다",
+      "en": "and now I can't digest it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "로제찜닭",
+      "en": "Rosé jjimdak."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 나 요즘 살빠짐",
+      "en": "But I've actually been losing weight lately."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔가",
+      "en": "Somehow..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "전 같으면",
+      "en": "Before,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "샵에서도",
+      "en": "even at the salon,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "안배고픈데 일단 먹어야할거같아서",
+      "en": "I'd eat even if I wasn't hungry because I felt like I should."
+    },
+    {
+      "type": "hayeon",
+      "ko": "시키고",
+      "en": "I'd order something,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그런적 많은데",
+      "en": "and I used to do that a lot."
+    },
+    {
+      "type": "hayeon",
+      "ko": "샵에서 아예안먹고",
+      "en": "But lately I don't eat at the salon at all."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하루에 과자 한봉지 먹었는데 배가 안고픈거야",
+      "en": "One day I only ate a single bag of snacks, and I still wasn't hungry."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 이러다 쓰러질까봐",
+      "en": "But I got worried I might collapse if I kept doing that,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "먹었어",
+      "en": "so I made myself eat."
+    },
+    {
+      "type": "hayeon",
+      "ko": "요즘 뭔가 이상해",
+      "en": "Something feels strange these days."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 아닌것같은 느낌",
+      "en": "It doesn't really feel like myself."
+    },
+    {
+      "type": "fan",
+      "ko": "너누구야",
+      "en": "Who are you?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "후아유",
+      "en": "Who are you?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘 먹을게",
+      "en": "I'll make sure to eat well."
+    },
+    {
+      "type": "hayeon",
+      "ko": "**NAME**껀데",
+      "en": "Because I belong to **NAME**."
+    },
+    {
+      "type": "hayeon",
+      "ko": "걱정 시키면 안되지",
+      "en": "I shouldn't make you worry."
+    },
+    {
+      "type": "hayeon",
+      "image": "image-02.webp"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어디 보냐구?",
+      "en": "\"Where am I looking?\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "거울",
+      "en": "The mirror."
+    },
+    {
+      "type": "fan",
+      "ko": "헐... 왜 이렇게 멋있어.",
+      "en": "Whoa... why are you so cool?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그러게~~",
+      "en": "I know, right~~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "가꼬이한 여성",
+      "en": "A cool woman."
+    },
+    {
+      "type": "fan",
+      "ko": "분명 몇달전까지 추구미 에겐이셨는데",
+      "en": "I'm pretty sure your ideal vibe was 'egen' until just a few months ago."
+    },
+    {
+      "type": "hayeon",
+      "ko": "시크한 에겐",
+      "en": "A chic egen."
+    },
+    {
+      "type": "hayeon",
+      "ko": "최종 추구미",
+      "en": "That's the final ideal vibe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 난",
+      "en": "But I..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다 가능이야",
+      "en": "can do them all."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 안에 자아는 많아서",
+      "en": "I have lots of different personalities inside me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "걱정마",
+      "en": "Don't worry."
+    },
+    {
+      "type": "hayeon",
+      "ko": "보고싶은자아 꺼내줄게",
+      "en": "I'll bring out whichever version of me you want to see."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "7번 꺼내주세요",
+      "en": "Please bring out personality number 7."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이야잇",
+      "en": "There we go!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "원래 등산은 겨울에 하는거시여~ ~^^",
+      "en": "Hiking is something you do in winter, you know~ ~^^"
+    },
+    {
+      "type": "hayeon",
+      "ko": "겨울 귤이 참~ ~ 달고 맛있읍니다~ ~!!",
+      "en": "Winter tangerines are so~ ~ sweet and delicious~ ~!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎㅎ",
+      "en": "Hehehe."
+    },
+    {
+      "type": "fan",
+      "ko": "여친자아는 없나요",
+      "en": "Do you have a girlfriend personality?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그건 본체 아니였어?",
+      "en": "Wasn't that my original form?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㄹㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "막내미도 보여주세요",
+      "en": "Show us your maknae side too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "응애ㅇㅇ!!!!!!",
+      "en": "Waaah!! I'm a baby!!!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "먀먀",
+      "en": "Mya mya."
+    },
+    {
+      "type": "hayeon",
+      "ko": "우우웅먀먀",
+      "en": "Uuuung mya mya."
+    },
+    {
+      "type": "fan",
+      "ko": "언니.미도 보여주세요",
+      "en": "Show us your unnie side too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "언니가 어려워?",
+      "en": "Is 'unnie' difficult?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "언니가 불편해?",
+      "en": "Does 'unnie' make you uncomfortable?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "언니가 잘할게",
+      "en": "Unnie will do better."
+    },
+    {
+      "type": "fan",
+      "ko": "래퍼여친미도 보여주새요",
+      "en": "Show us your rapper-girlfriend side too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "슥껄~",
+      "en": "Skrrt~"
+    },
+    {
+      "type": "fan",
+      "ko": "바보미는 없나요",
+      "en": "Do you have a silly side?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 아무것도 몰라ㅏㅏ",
+      "en": "I don't know anythinggg."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 너만 알아",
+      "en": "I only know you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 자아들 다 도망갔어",
+      "en": "All my personalities ran away."
+    },
+    {
+      "type": "hayeon",
+      "ko": "한번에 너무 많이 찾아서",
+      "en": "You called out too many of them at once."
+    },
+    {
+      "type": "hayeon",
+      "ko": "낼 또 팬싸하구",
+      "en": "I have another fansign tomorrow,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "스케줄 있으니깡",
+      "en": "and I have schedules too,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "빨리 자야겠엉",
+      "en": "so I should get to sleep early."
+    },
+    {
+      "type": "hayeon",
+      "ko": "또 올게",
+      "en": "I'll come back again."
+    },
+    {
+      "type": "hayeon",
+      "ko": "자아 퍼레이드는 다음 라이브에서",
+      "en": "I'll do the personality parade during the next live."
+    },
+    {
+      "type": "hayeon",
+      "ko": "해줄게",
+      "en": "I promise."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "세상에서 제일 하랑해~😍",
+      "en": "Haranghae the most in the whole world~ 😍"
+    }
+  ]
+}

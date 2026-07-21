@@ -1,0 +1,685 @@
+{
+  "date": "2025-12-14",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "뭐해~",
+      "en": "What are you doing~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 두바이빙수 시켰당",
+      "en": "I ordered Dubai shaved ice."
+    },
+    {
+      "type": "hayeon",
+      "ko": "키키ㅣ",
+      "en": "Kikii."
+    },
+    {
+      "type": "hayeon",
+      "ko": "곧 가대축이네",
+      "en": "The KBS Song Festival is coming up soon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "기대 돼?",
+      "en": "Are you looking forward to it?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 엄청 돼",
+      "en": "I'm really looking forward to it too."
+    },
+    {
+      "type": "fan",
+      "ko": "당연하지또얼마나예쁠거야",
+      "en": "Of course. Just how pretty are you going to be?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "많이 이뻐볼게",
+      "en": "I'll try to look really pretty."
+    },
+    {
+      "type": "hayeon",
+      "ko": "자랑스럽게~",
+      "en": "So you can be proud~"
+    },
+    {
+      "type": "fan",
+      "ko": "넌 항상 자랑스러와",
+      "en": "I'm always proud of you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아잉",
+      "en": "Aing~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 최근에",
+      "en": "Actually, recently..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "보조배터리",
+      "en": "My power bank..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "충전을 했는데",
+      "en": "I was charging it,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "왜 자꾸 안되는거야!! 하고 봤는데",
+      "en": "and I was like, 'Why does it keep not charging?!' So I checked..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "충전기가 꽃힌 상태로 부러진거야",
+      "en": "The charging cable had snapped while it was still plugged in."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 잘때 부러뜨렸나",
+      "en": "Maybe I broke it while I was sleeping."
+    },
+    {
+      "type": "hayeon",
+      "ko": "보조배터리 충전 입구에",
+      "en": "In the charging port of the power bank,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔가가 있길래 봤는데",
+      "en": "there was something stuck inside, so I looked..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "절대 안빠짐",
+      "en": "It absolutely won't come out."
+    },
+    {
+      "type": "fan",
+      "ko": "그래도 안 터져서 다행이네..",
+      "en": "At least it didn't explode..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "사실 자면서 감전 당했을수도",
+      "en": "Actually, maybe I got electrocuted while I was sleeping."
+    },
+    {
+      "type": "hayeon",
+      "ko": "감전의 여파로",
+      "en": "From the aftereffects of the shock,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "기억을 잃고 다시 잠든거지",
+      "en": "I lost my memory and just fell asleep again."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사진",
+      "image": "image-01.webp"
+    },
+    {
+      "type": "fan",
+      "ko": "요즘 너무 에겐에겐하다..",
+      "en": "Lately you've been so egen-egen..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그치",
+      "en": "Right?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "시크 도도 에겐",
+      "en": "Chic, elegant, and egen."
+    },
+    {
+      "type": "fan",
+      "ko": "시크도도랑 에겐이 공존이 돼?",
+      "en": "Can chic elegance and egen really coexist?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "가능하잖아",
+      "en": "Of course they can."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그게 난데?",
+      "en": "That's literally me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "살짝 그런거지",
+      "en": "It's kind of like that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "보기엔 시크하고 차갑고 멋진 언니느낌",
+      "en": "On the outside I look like a chic, cool, charismatic unnie."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 사실 에겐력 100% 귀염둥이",
+      "en": "But in reality I'm 100% egen and a total cutie."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "왜",
+      "en": "Why?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "**Y/n**가 추구하는게 아니야?",
+      "en": "Isn't that what **Y/n** strives for?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "**Y/n**가 추구하는건 나 아니야?",
+      "en": "Isn't what **Y/n** strives for... me?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "도달했네",
+      "en": "Then you've already reached your goal."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐 좀 먹었어??",
+      "en": "Did you eat anything??"
+    }    ,
+    {
+      "type": "fan",
+      "ko": "정도달",
+      "en": "Jeong reached."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그건 좀",
+      "en": "That kind of..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔가 도를 닦아야할것같은",
+      "en": "Makes it sound like I need to attain enlightenment."
+    },
+    {
+      "type": "hayeon",
+      "ko": "한번 당해보고싶어",
+      "en": "I kind of want to experience it once."
+    },
+    {
+      "type": "hayeon",
+      "ko": "도를 아십니까",
+      "en": "\"Do you know the Way?\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "관상이 너무 좋으셔서~",
+      "en": "\"Your physiognomy is so good~\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "조상님들이 보여요~",
+      "en": "\"I can see your ancestors~\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러면",
+      "en": "If they said that..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그쪽도 보여요",
+      "en": "\"I can see yours too.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "어깨에 있으시네",
+      "en": "\"They're standing on your shoulder.\""
+    },
+    {
+      "type": "fan",
+      "ko": "그쪽도 보여요 이빨에 고춧가루 낀거",
+      "en": "\"I can see something too—you've got chili flakes stuck in your teeth.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "오 이거 좋은데?",
+      "en": "Oh, that's actually a good one."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나한테 난감하고 곤란한말 하는사람한테",
+      "en": "If someone says something awkward or puts me on the spot,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아~ ㅎㅎ 이빨에 고춧가루 있어요",
+      "en": "\"Ah~ hehe, you've got chili flakes stuck in your teeth.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "하고 가버리면",
+      "en": "and then I just walk away..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "수치스러워서 말을 멈출듯",
+      "en": "They'd probably stop talking out of embarrassment."
+    },
+    {
+      "type": "fan",
+      "ko": "빼주세요 이러면 어떡해?",
+      "en": "What if they say, 'Can you take it out for me?'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 많아서 오래걸릴것같은데..",
+      "en": "\"There are too many, so I think it'll take a while...\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니면 반대로",
+      "en": "Or instead..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그렇게 말하면 안넘어가죠~",
+      "en": "\"Saying that won't work~\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "조상님들이 노하세요",
+      "en": "\"Your ancestors are upset.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "커피한잔 하면서 비법전수좀 해드릴게요~",
+      "en": "\"Let me teach you the secret over a cup of coffee~\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "한잔만 대접해주시면~",
+      "en": "\"Just treat me to one cup~\""
+    },
+    {
+      "type": "fan",
+      "ko": "그 사람이 사실 웨이브라 플러팅하는거 라면?",
+      "en": "What if that person is actually a WAV and is flirting with you?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "웨이브면",
+      "en": "If they're a WAV..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그런말 안해도 사주지",
+      "en": "I'd buy them coffee even if they didn't say any of that."
+    },
+    {
+      "type": "fan",
+      "ko": "상여자네",
+      "en": "That's such boss-lady energy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그럼~ ~~ ~",
+      "en": "Of course~~~~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "따라온나",
+      "en": "Come with me."
+    },
+    {
+      "type": "fan",
+      "ko": "진지하게 얼마까지 사줄 수 있어?",
+      "en": "Seriously, how expensive of a coffee would you buy?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "10만원짜리 커피도 사줄수있음",
+      "en": "I could even buy you a ₩100,000 coffee."
+    },
+    {
+      "type": "fan",
+      "ko": "엥그건너무너가손해",
+      "en": "Huh? That'd be way too much of a loss for you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "사랑에 손해가 어딨어~",
+      "en": "There's no such thing as a loss when it comes to love~"
+    },
+    {
+      "type": "fan",
+      "ko": "커피 원샷 100잔마셔도 정 안떨어지겠죠..?",
+      "en": "Even if I chugged 100 cups of coffee, you still wouldn't lose affection for me, right?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오히려 좋아 유튭각",
+      "en": "I'd actually like that. That's YouTube-worthy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "유튜브 수익은 제가 가질게요",
+      "en": "I'll be keeping the YouTube revenue though."
+    }    ,
+    {
+      "type": "fan",
+      "ko": "ㅋㄱㅋㅋㄱㅋㄱㄱㅋ 하요나 나즁에 유튜브 열어주면안대?? 개인채널??",
+      "en": "ㅋㅋㅋㅋ Hayona, could you open a YouTube channel someday?? A personal one??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㄹㅋ",
+      "en": "ㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "브이로그가 먹방이 될텐데",
+      "en": "My vlog would just turn into a mukbang though."
+    },
+    {
+      "type": "hayeon",
+      "ko": "저번에 말했잖아…",
+      "en": "I told you before..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "댓글에",
+      "en": "If someone comments,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "브이로근데 먹기만 하네 ㅉ",
+      "en": "\"This is supposed to be a vlog, but all she does is eat. Tsk.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "하면 상처받고 접는",
+      "en": "I'd get hurt and quit."
+    },
+    {
+      "type": "fan",
+      "ko": "내가 대댓글로 쉴드쳐줄게",
+      "en": "I'll reply to the comment and defend you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맛있게 먹잖아 한잔해",
+      "en": "\"She's eating so well. Cheers.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이렇게?",
+      "en": "Like that?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그댓글에 한번더 상처",
+      "en": "Then I'd get hurt by that reply too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "최종 접음",
+      "en": "And finally quit for good."
+    },
+    {
+      "type": "hayeon",
+      "ko": "완전히 접힌하연",
+      "en": "Completely folded-up Hayeon."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이 그런거에 상처 많이 받는 스타일이구나 ㅠㅠ",
+      "en": "So you're the type to get hurt by things like that. ㅠㅠ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그렇진 않아 ㅋㅋㅋ",
+      "en": "Not really. Hahaha."
+    },
+    {
+      "type": "fan",
+      "ko": "겁먹지 마. 만약 밤에 늙고 뚱뚱한 남자가 너를 자루에 넣어도, 왜냐하면 내가 산타클로스에게 크리스마스 선물로 너를 원한다고 말했기 때문이야.",
+      "en": "Don't be scared. Even if an old, chubby man puts you in a sack at night, it's only because I told Santa Claus I wanted you for Christmas."
+    },
+    {
+      "type": "hayeon",
+      "ko": "산타랑 이미 친구라 ㄱㅊ",
+      "en": "It's okay. I'm already friends with Santa."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그분도 많이 드시던데",
+      "en": "He eats a lot too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "풍채 유지비법이 다 있는것이야",
+      "en": "He's got his own secret for maintaining that physique."
+    },
+    {
+      "type": "fan",
+      "ko": "뭐야 올해 산타님 한국 들어오셨어?",
+      "en": "Wait, Santa came to Korea this year?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "여권 잃어버렸어서",
+      "en": "He lost his passport,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그 근처만 돌다가",
+      "en": "so he was just wandering around nearby."
+    },
+    {
+      "type": "hayeon",
+      "ko": "올해 올듯?",
+      "en": "Maybe he'll make it this year?"
+    },
+    {
+      "type": "fan",
+      "ko": "숙소는 잡으셨대?",
+      "en": "Did he book a place to stay?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "자고가면 늦는다고 당일에 바로 갈듯",
+      "en": "He said if he stayed overnight he'd be late, so he'll probably head back the same day."
+    },
+    {
+      "type": "hayeon",
+      "ko": "계속 여권없이 오려고 시도하다가",
+      "en": "He kept trying to come without a passport,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잡혀가지고 으이구",
+      "en": "and kept getting caught. Honestly..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나사에서도 숨기는건데",
+      "en": "Even NASA keeps this a secret."
+    },
+    {
+      "type": "hayeon",
+      "ko": "비밀이다",
+      "en": "It's a secret."
+    }    ,
+    {
+      "type": "fan",
+      "ko": "와 너 생각보다 아는 게 많구나",
+      "en": "Wow, you know more than I thought."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그럼~",
+      "en": "Of course~"
+    },
+    {
+      "type": "fan",
+      "ko": "이걸 아는 정하연 비밀요원이네",
+      "en": "Jeong Hayeon really is a secret agent for knowing all this."
+    },
+    {
+      "type": "hayeon",
+      "ko": "시켜줘 너만의 비밀요원",
+      "en": "Make me your own secret agent."
+    },
+    {
+      "type": "hayeon",
+      "ko": "말할거 있었는데",
+      "en": "There was something I wanted to say..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐였더라",
+      "en": "What was it again?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㅎㅋ",
+      "en": "ㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어 ㅋㅋ",
+      "en": "Oh, haha."
+    },
+    {
+      "type": "hayeon",
+      "ko": "사랑해",
+      "en": "I love you."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이는 크리스마스에 뭐하고 싶엉???",
+      "en": "Hayeon, what do you want to do on Christmas???"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 집에서 귤이랑 코코아 사서 따듯하게 영화볼거야",
+      "en": "I'm going to stay home, buy some tangerines and hot cocoa, and watch a movie all cozy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "크리스마스 감성 영화 추천좀",
+      "en": "Recommend me a Christmas movie."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나홀로집에 너무 많이 봤어",
+      "en": "I've watched Home Alone way too many times."
+    },
+    {
+      "type": "fan",
+      "ko": "트리플에스 시그널 재주행 어때?",
+      "en": "How about rewatching tripleS SIGNAL?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "숙소 한번 돌면 멤버들 다 보는데 머하러 영상을 봐~",
+      "en": "If I just walk around the dorm, I can see all the members. Why would I watch videos?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "부럽지?",
+      "en": "Jealous?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "두바이 빙수 왔당",
+      "en": "My Dubai shaved ice arrived!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 레전드",
+      "en": "But seriously..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 작아",
+      "en": "It's so tiny."
+    },
+    {
+      "type": "hayeon",
+      "ko": "손바닥 만한데",
+      "en": "It's only about the size of my palm,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "2만원임",
+      "en": "and it costs ₩20,000."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이건 아니지~",
+      "en": "That's just not right~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래도",
+      "en": "Still..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "쫀득하게 먹어볼게",
+      "en": "I'll savor every bite."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘자구",
+      "en": "Sleep well."
+    },
+    {
+      "type": "hayeon",
+      "ko": "또 올게ㅔ",
+      "en": "I'll come back again~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해❤️",
+      "en": "Haranghae ❤️"
+    }
+  ]
+}
