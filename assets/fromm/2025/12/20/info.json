@@ -1,0 +1,45 @@
+{
+  "date": "2025-12-20",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "바빠?",
+      "en": "Busy?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "라이브 할건데",
+      "en": "I'm going to go live."
+    },
+    {
+      "type": "hayeon",
+      "ko": "안바쁨 들어와~",
+      "en": "If you aren't busy, come join~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "**(38분 후)**",
+      "en": "**(38 minutes later)**"
+    },
+    {
+      "type": "hayeon",
+      "ko": "넘 배고프다",
+      "en": "I'm so hungry."
+    },
+    {
+      "type": "hayeon",
+      "ko": "회는 살 안쪄 맞지?",
+      "en": "Sashimi doesn't make you gain weight, right?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "맛저해~❤️",
+      "en": "Have a delicious dinner~ ❤️"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해💖",
+      "en": "Haranghae 💖"
+    }
+  ]
+}

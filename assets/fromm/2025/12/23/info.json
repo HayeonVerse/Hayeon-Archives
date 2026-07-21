@@ -1,0 +1,635 @@
+{
+  "date": "2025-12-23",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "넥스트가 벌써 2주년이라니 정말 첫 만남부터 우리 공개될때 두근두근 기다리던 기억 다 너무 생생한데 2년차 넥스트라니! 처음 들어올땐 몇년뒤엔 내가 뭘하고있을지 어떻게 하고있을지 진짜 궁금했는데 그때 써둔 일기에 답을할수 있어서 너무 좋아 2년동안 정말정말 많은 일들이 있었고 많은 추억들이 있어서 앞으로가 더 기대되고 지금 이렇게 과분한 사랑과 성장이 있었다 라고 답해주면 2년전 하연이가 진짜 좋아할것같아 앞으로도 열심히 할거야 지금처럼 나 믿어줘~",
+      "en": "It's already NXT's 2nd anniversary. From the moment we first met until the day we were revealed, I still vividly remember how excited and nervous I was while waiting. I can't believe we're already in NXT's second year! When I first joined, I was so curious about what I'd be doing and what kind of person I'd become a few years later. I'm so happy that I can finally answer the diary entry I wrote back then. So many things happened over these two years, and we made so many precious memories, so I'm even more excited for what's ahead. If I could tell Hayeon from two years ago that I would receive this much love and grow this much, I think she'd be so happy. I'll keep working hard from now on too, so trust me just like you always have~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "정말 하고싶은얘기 많지만",
+      "en": "There are really so many things I want to say, but..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "**Y/n**의 가슴으로 와닿았을거라 믿어",
+      "en": "I believe they've already reached **Y/n**'s heart."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 뭐했엉",
+      "en": "What did you do today?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이제 크리스마스 얼마 안남았네",
+      "en": "Christmas is almost here now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "김채원이랑 케잌이라도 살까 했는데",
+      "en": "I was thinking about buying a cake with Kim Chaewon..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "놈 배불러서 포기",
+      "en": "but we were way too full, so we gave up."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 채원이랑 데이트 했거든",
+      "en": "I went on a date with Chaewon today."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 많이 먹었어",
+      "en": "We seriously ate a lot."
+    },
+    {
+      "type": "hayeon",
+      "ko": "스테이크랑 라자냐 뇨끼 먹고",
+      "en": "We had steak, lasagna, and gnocchi."
+    },
+    {
+      "type": "hayeon",
+      "ko": "디저트 두쫀쿠랑 아이스크림 먹고",
+      "en": "Then we had Dubai chewy cookies and ice cream for dessert."
+    },
+    {
+      "type": "hayeon",
+      "ko": "피시방가서 게임하면서 라면2개 음료2개",
+      "en": "Then we went to a PC bang, played games, and ordered two ramyeon and two drinks."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 옵치 알려줬어",
+      "en": "I taught her how to play Overwatch."
+    },
+    {
+      "type": "hayeon",
+      "ko": "완전 언니였어 오늘",
+      "en": "I was totally the unnie today."
+    },
+    {
+      "type": "hayeon",
+      "ko": "채원이 자꾸 탱커로",
+      "en": "Chaewon kept playing tank..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "트롤하길래",
+      "en": "and kept trolling."
+    },
+    {
+      "type": "hayeon",
+      "ko": "힐러해서 나만 쫒아다녀",
+      "en": "So I made her switch to healer and just follow me around."
+    },
+    {
+      "type": "hayeon",
+      "ko": "박력있게",
+      "en": "Very confidently."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 딜러",
+      "en": "I played DPS."
+    },
+    {
+      "type": "hayeon",
+      "ko": "겐지 아니면 바스티온",
+      "en": "Either Genji or Bastion."
+    },
+    {
+      "type": "hayeon",
+      "ko": "왜 시러햌ㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "Why do you hate those? ㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "슬프다",
+      "en": "I'm sad."
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀막아 애들아",
+      "en": "Cover your ears, kids."
+    },
+    {
+      "type": "hayeon",
+      "ko": "옛날엔",
+      "en": "Back then..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "리퍼랑 솜브라",
+      "en": "I used to play Reaper and Sombra."
+    },
+    {
+      "type": "hayeon",
+      "ko": "했었는데",
+      "en": "Those were my mains."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오랜만에 하니까",
+      "en": "But since it's been so long..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "감이 안잡혀소",
+      "en": "I couldn't get back into the rhythm."
+    },
+    {
+      "type": "fan",
+      "ko": "픽이 하나같이 초딩 픽이네",
+      "en": "Every single one of your picks is an elementary school kid pick."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞긴해",
+      "en": "That's true."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어릴때 하다가",
+      "en": "I used to play when I was younger..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오랜만에 다시하는거라",
+      "en": "so I'm only just picking it up again after a long time."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㅋㄹㅋㄹ",
+      "en": "ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "언니가 메르시로 너만 꽂아줄게 언니 믿지",
+      "en": "Unnie will pocket-heal only you as Mercy. You trust me, right?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그거 진짜 플러팅이다",
+      "en": "That's seriously flirting."
+    },
+    {
+      "type": "fan",
+      "ko": "옵치 국룰 죽으면 라면먹기",
+      "en": "Overwatch rule: if you die, eat ramen."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짬뽕 흡입하다가 나가짐",
+      "en": "I got disconnected while inhaling my Jin Jjambbong."
+    },
+    {
+      "type": "hayeon",
+      "ko": "정신못차리고 먹다가",
+      "en": "I was eating so mindlessly..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "넘 오래먹었나바 ㅎ",
+      "en": "I guess I spent too long eating. ㅎ"
+    },
+    {
+      "type": "hayeon",
+      "image": "image-01.webp"
+    },
+            {
+          "type": "hayeon",
+          "ko": "나 믿지?",
+          "en": "You trust me, right?"
+        },
+        {
+          "type": "hayeon",
+          "ko": "내가 캐리할게",
+          "en": "I'll carry us."
+        },
+        {
+          "type": "hayeon",
+          "ko": "**Y/n**만의 메르시?",
+          "en": "**Y/n**'s very own Mercy?"
+        },
+        {
+          "type": "hayeon",
+          "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+          "en": "ㅋㅋㅋㅋㅋㅋ"
+        },
+        {
+          "type": "fan",
+          "ko": "메르시가 캐리를 어덯게해!!",
+          "en": "How is Mercy supposed to carry!!"
+        },
+        {
+          "type": "hayeon",
+          "ko": "왜 힐러도 중요하지",
+          "en": "Why? Healers are important too."
+        },
+        {
+          "type": "hayeon",
+          "ko": "아까 우리팀 힐러 ㄴㄱ냐",
+          "en": "Earlier, who was our team's healer?"
+        },
+        {
+          "type": "hayeon",
+          "ko": "왜 구석가서 쉬고있었는지",
+          "en": "Why were they AFK in the corner?"
+        },
+        {
+          "type": "hayeon",
+          "ko": "해명해",
+          "en": "Explain yourself."
+        },
+        {
+          "type": "fan",
+          "ko": "진짬뽕 먹고있었대",
+          "en": "They said they were eating Jin Jjambbong."
+        },
+        {
+          "type": "hayeon",
+          "ko": "아 그럼 ㅇㅈ",
+          "en": "Ah, then that's understandable."
+        },
+        {
+          "type": "fan",
+          "ko": "진짬뽕뒷광고야거의지금",
+          "en": "This is basically a hidden ad for Jin Jjambbong now."
+        },
+        {
+          "type": "hayeon",
+          "ko": "거의 앞광고지 ㅋㄹㅋㄹㅋㄹㅋ",
+          "en": "It's basically a front ad. ㅋㅋㅋㅋ"
+        },
+        {
+          "type": "hayeon",
+          "ko": "진짬뽕 연락주세요",
+          "en": "Jin Jjambbong, please contact me."
+        },
+        {
+          "type": "hayeon",
+          "ko": "야무지게 먹을수있습니다",
+          "en": "I can eat it very enthusiastically."
+        },
+        {
+          "type": "hayeon",
+          "ko": "촬영할때 주시는 라면 다 먹을수 있습니다",
+          "en": "I can finish every cup of ramen you give me during filming."
+        },
+        {
+          "type": "hayeon",
+          "ko": "근데 진짬뽕은",
+          "en": "But when it comes to Jin Jjambbong..."
+        },
+        {
+          "type": "hayeon",
+          "ko": "컵라면으로 전자레인지 돌려먹는게 제일 마시씀",
+          "en": "The best way is to microwave the cup ramen before eating it."
+        },
+        {
+          "type": "fan",
+          "ko": "맛잘알 특) 기름 안넣음",
+          "en": "Food expert trait: Doesn't add the flavor oil."
+        },
+        {
+          "type": "hayeon",
+          "ko": "맛잘목이지 진짬뽕은 기름이 맛의50인데",
+          "en": "That's the opposite of a food expert. The oil is 50% of Jin Jjambbong's flavor."
+        },
+        {
+          "type": "hayeon",
+          "ko": "안되겠네~",
+          "en": "That won't do~"
+        },
+        {
+          "type": "hayeon",
+          "ko": "근데 요즘 두쫀쿠 왜 맛없는것임?",
+          "en": "But why do Dubai chewy cookies taste bad these days?"
+        },
+        {
+          "type": "hayeon",
+          "ko": "입맛이 바뀐건가",
+          "en": "Did my taste change?"
+        },
+        {
+          "type": "hayeon",
+          "ko": "진짜 그냥 느끼",
+          "en": "They just taste greasy now."
+        },
+        {
+          "type": "fan",
+          "ko": "카페 포모꺼 진짜 맛있어...ㅜㅜ",
+          "en": "The ones from Cafe PO-MO are really good...ㅜㅜ"
+        },
+        {
+          "type": "hayeon",
+          "ko": "이미 머거봄",
+          "en": "I've already tried them."
+        },
+        {
+          "type": "hayeon",
+          "ko": "ㅋㄹㅋㄹㅋㄹㅋㅋㄹㅋ",
+          "en": "ㅋㅋㅋㅋㅋㅋ"
+        },
+        {
+          "type": "hayeon",
+          "ko": "암튼",
+          "en": "Anyway..."
+        },
+        {
+          "type": "hayeon",
+          "ko": "오늘 비 엄청 왔잖아",
+          "en": "It rained so much today."
+        },
+        {
+          "type": "hayeon",
+          "ko": "우산 없어서",
+          "en": "I didn't have an umbrella..."
+        },
+        {
+          "type": "hayeon",
+          "ko": "그냥 맞으면서 걸었는데",
+          "en": "so I just walked in the rain."
+        },
+        {
+          "type": "hayeon",
+          "ko": "크리스마스라고 반짝반짝 하니까",
+          "en": "Everything was sparkling because it's Christmas."
+        },
+        {
+          "type": "hayeon",
+          "ko": "너무 이쁘고",
+          "en": "It was so pretty."
+        },
+        {
+          "type": "hayeon",
+          "ko": "뭔가 청춘이였음",
+          "en": "It felt like a scene from youth."
+        },
+        {
+          "type": "hayeon",
+          "ko": "채원이는 핑크 국물떨어졌겠다 ㅋ",
+          "en": "Chaewon probably had pink broth dripping off her. ㅋ"
+        },
+        {
+          "type": "hayeon",
+          "image": "image-02.webp"
+        },
+        {
+          "type": "hayeon",
+          "ko": "1년만의 모찌즈",
+          "en": "Mochiz together again after one year."
+        },
+        {
+          "type": "hayeon",
+          "ko": "추구미가 정말 다르다",
+          "en": "Our desired vibes are really different."
+        },
+                {
+          "type": "hayeon",
+          "ko": "근데 나 머리자르고",
+          "en": "But after I cut my hair..."
+        },
+        {
+          "type": "hayeon",
+          "ko": "보통 그냥 머리 자르면",
+          "en": "Normally when I get a haircut..."
+        },
+        {
+          "type": "hayeon",
+          "ko": "오 잘랐네 언제 잘랐대~?",
+          "en": "\"Oh, you cut your hair? When did you do that?\""
+        },
+        {
+          "type": "hayeon",
+          "ko": "하고 끝나는데",
+          "en": "That's usually where it ends."
+        },
+        {
+          "type": "hayeon",
+          "ko": "이번엔",
+          "en": "But this time..."
+        },
+        {
+          "type": "hayeon",
+          "ko": "보는사람 모두",
+          "en": "everyone who saw me..."
+        },
+        {
+          "type": "hayeon",
+          "ko": "진짜 잘어울린다고 해줘서",
+          "en": "told me it really suits me."
+        },
+        {
+          "type": "hayeon",
+          "ko": "정말 뿌듯함",
+          "en": "I'm really proud."
+        },
+        {
+          "type": "hayeon",
+          "ko": "이정도로 모두가 어울린다 해준건",
+          "en": "I've never had this many people say it suits me so well."
+        },
+        {
+          "type": "hayeon",
+          "ko": "첨이야",
+          "en": "It's the first time."
+        },
+        {
+          "type": "fan",
+          "ko": "크리스마스이브야~ 뭔가 가슴이 몽글몽글",
+          "en": "It's Christmas Eve~ Somehow my heart feels all warm and fluffy."
+        },
+        {
+          "type": "hayeon",
+          "ko": "어 그러네",
+          "en": "Oh, you're right."
+        },
+        {
+          "type": "hayeon",
+          "ko": "12시 지났구나",
+          "en": "It's already past midnight."
+        },
+        {
+          "type": "fan",
+          "ko": "메리 크리스마스이브~",
+          "en": "Merry Christmas Eve~"
+        },
+        {
+          "type": "hayeon",
+          "ko": "이브~",
+          "en": "Eve~"
+        },
+        {
+          "type": "hayeon",
+          "ko": "곽연지 진짜 웃기네",
+          "en": "Kwak Yeonji is seriously so funny."
+        },
+        {
+          "type": "hayeon",
+          "ko": "이브~삼브~사브~",
+          "en": "\"Eve~ Threeve~ Fourve~\""
+        },
+        {
+          "type": "hayeon",
+          "ko": "장난치는줄 알았는데",
+          "en": "I thought she was joking..."
+        },
+        {
+          "type": "hayeon",
+          "ko": "진심이였던게 정말 충격적이다",
+          "en": "but finding out she was completely serious was honestly shocking."
+        },
+        {
+          "type": "hayeon",
+          "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+          "en": "ㅋㅋㅋㅋㅋㅋ"
+        },
+        {
+          "type": "hayeon",
+          "ko": "나 엊그저께",
+          "en": "The other day..."
+        },
+        {
+          "type": "hayeon",
+          "ko": "쌓였던 피로를 한번에 푼듯",
+          "en": "I think I got rid of all the fatigue that had built up at once."
+        },
+        {
+          "type": "hayeon",
+          "ko": "진짜 곰처럼 안깨고 계속 자서",
+          "en": "I seriously slept like a bear without waking up."
+        },
+        {
+          "type": "hayeon",
+          "ko": "시온언니가 놀라워했어",
+          "en": "Shion-unnie was amazed."
+        },
+        {
+          "type": "hayeon",
+          "ko": "잠깐깨서 배달시키고 다시 자고",
+          "en": "I woke up for a moment, ordered delivery, then went back to sleep."
+        },
+        {
+          "type": "hayeon",
+          "ko": "와있는 밥 먹고 자고",
+          "en": "I ate the food after it arrived, then went back to sleep again."
+        },
+        {
+          "type": "fan",
+          "ko": "와중에 배달은 시켰구만",
+          "en": "Even then, you still managed to order delivery."
+        },
+        {
+          "type": "hayeon",
+          "ko": "배달빼면시체",
+          "en": "Without delivery, I'm basically a corpse."
+        },
+        {
+          "type": "fan",
+          "ko": "겨울잠자는 고슴도치",
+          "en": "A hedgehog hibernating for winter."
+        },
+        {
+          "type": "hayeon",
+          "ko": "넘 푹자서 가시 다빠졌어",
+          "en": "I slept so deeply that all my spines fell out."
+        },
+        {
+          "type": "hayeon",
+          "ko": "가시 없는 고슴도치라니 너무 충격적이다",
+          "en": "A hedgehog without spines... that's too shocking."
+        },
+        {
+          "type": "hayeon",
+          "ko": "다시 붙힐게",
+          "en": "I'll stick them back on."
+        },
+        {
+          "type": "fan",
+          "ko": "가시 없음 걍 감자 아님?...",
+          "en": "Without spines, aren't you basically just a potato?..."
+        },
+        {
+          "type": "hayeon",
+          "ko": "말이 심하잖아!!!!",
+          "en": "That's so mean!!!!"
+        },
+        {
+          "type": "fan",
+          "ko": "쪄먹어야징",
+          "en": "Then I'll steam you and eat you."
+        },
+        {
+          "type": "hayeon",
+          "ko": "너무하잖아!!!!!",
+          "en": "That's too much!!!!!"
+        },
+        {
+          "type": "hayeon",
+          "ko": "오늘 사람많은곳 갔다왔더니",
+          "en": "I went somewhere crowded today..."
+        },
+        {
+          "type": "hayeon",
+          "ko": "기빨린다",
+          "en": "and I'm completely drained."
+        },
+        {
+          "type": "hayeon",
+          "ko": "미리 메리크리스마스야~❤️",
+          "en": "Merry Christmas in advance~ ❤️"
+        },
+        {
+          "type": "hayeon",
+          "ko": "선물은 나",
+          "en": "Your present is me."
+        },
+        {
+          "type": "hayeon",
+          "ko": "보고싶엉~",
+          "en": "I miss you~"
+        },
+        {
+          "type": "hayeon",
+          "ko": "워샹니❤️",
+          "en": "Wo xiang ni ❤️"
+        },
+        {
+          "type": "hayeon",
+          "voice": "voice-01.mp3"
+        },
+        {
+          "type": "hayeon",
+          "ko": "킄킄",
+          "en": "Hehe."
+        },
+        {
+          "type": "hayeon",
+          "voice": "voice-02.mp3"
+        },
+        {
+          "type": "hayeon",
+          "voice": "voice-03.mp3"
+        },
+        {
+          "type": "hayeon",
+          "ko": "어때 언어천재!!!",
+          "en": "How was that? Language genius!!!"
+        },
+        {
+          "type": "hayeon",
+          "ko": "잘자구",
+          "en": "Sleep well."
+        },
+        {
+          "type": "hayeon",
+          "ko": "하랑해❤️❤️",
+          "en": "Haranghae ❤️❤️"
+        }
+      ]
+    }
