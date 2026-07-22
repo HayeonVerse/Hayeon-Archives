@@ -1,0 +1,959 @@
+{
+  "date": "2026-01-29",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "내약혼자 뭐해",
+      "en": "What are you doing, my fiancé?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 자려고 누웠쥥",
+      "en": "I just laid down to go to sleep."
+    },
+    {
+      "type": "fan",
+      "ko": "숀자님이 구워준 고기어땟어",
+      "en": "How was the meat Shion-nim grilled for you?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "마싯써써",
+      "en": "It was so tasty."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 배부르다",
+      "en": "I'm so full."
+    },
+    {
+      "type": "fan",
+      "ko": "혈당 스파이크 안맞았어??",
+      "en": "Didn't you get a blood sugar spike??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "애사비의 힘!!",
+      "en": "The power of apple cider vinegar!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 두쫀쿠 다시 먹어봤거든",
+      "en": "I tried Dubai Chewy Cookie again today."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다시 입덕.",
+      "en": "I'm a fan again."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맛있긴 하네",
+      "en": "It really is tasty."
+    },
+    {
+      "type": "fan",
+      "ko": "ㅋㅌㅋㅌㅋㅌㅌㅋㅌㅋㅌㅋㅌㅌㅋㅌㅋㅌㅋ왤케사람이 갈대야",
+      "en": "ㅋㅌㅋㅌㅋㅌㅌㅋㅌㅋㅌㅋㅌㅌㅋㅌㅋㅌㅋ Why are you so easily swayed?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 원래 갈대야 ㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "I've always been like that ㅋㄹㅋㄹㅋㄹㅋㄹ."
+    },
+    {
+      "type": "hayeon",
+      "ko": "**Y/n**한테만 제외인거지",
+      "en": "**Y/n** is the only exception."
+    },
+    {
+      "type": "hayeon",
+      "ko": "노래 추천해줄게",
+      "en": "I'll recommend you a song."
+    },
+    {
+      "type": "hayeon",
+      "ko": "*차가워-chan*",
+      "en": "*Cold - chan*"
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 좋아",
+      "en": "I love it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "도입부가",
+      "en": "The intro..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내스타일이야",
+      "en": "It's exactly my style."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금 듣고있어",
+      "en": "I'm listening to it right now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㅎㅋㅋㅋ",
+      "en": "ㅋㄹㅋㅎㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "감성있다",
+      "en": "It's so emotional."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런게 새벽감성,.,,?",
+      "en": "Is this what they call late-night feelings,.,,?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "자기전에 책도 읽으려고",
+      "en": "I'm going to read a book before going to sleep too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나만 믿어",
+      "en": "Just trust me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 다 공부해서",
+      "en": "I'll study everything."
+    },
+    {
+      "type": "hayeon",
+      "ko": "머리쓸일 없게해줄게",
+      "en": "I'll make it so you never have to use your brain."
+    },
+    {
+      "type": "hayeon",
+      "ko": "**Y/n**는 내 손에 물만 묻히지마 ㅋ",
+      "en": "**Y/n**, just don't let my hands get wet ㅋ."
+    },
+        {
+      "type": "fan",
+      "ko": "육돌쇠와 하마님",
+      "en": "Hexdolsoe and Lady Ha."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하마..?",
+      "en": "Hippo..?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "정히포 또 끌어들이는거야?",
+      "en": "You're bringing up Jeong Hippo again?"
+    },
+    {
+      "type": "fan",
+      "ko": "내 머리는 호두껍질 깔때만 써",
+      "en": "I only use my head when cracking walnuts."
+    },
+    {
+      "type": "hayeon",
+      "ko": "호두깔때 쓰면 머리 쪼개져~",
+      "en": "If you use it to crack walnuts, your head will split open~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "근대",
+      "en": "Buot."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근육대지",
+      "en": "Muscle land."
+    },
+    {
+      "type": "hayeon",
+      "ko": "미안",
+      "en": "Sorry."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어떻게 하면 오타를 잘 넘길 수 있을까 고민하다가..",
+      "en": "I was thinking about how I could smoothly move past the typo..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하고싶던 말은…",
+      "en": "What I actually wanted to say was..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그냥 보고싶다고",
+      "en": "I just miss you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이 시간이라 그런지 더 아련해지고~ 보고싶고 그러는 날이다…",
+      "en": "Maybe because it's this late, I feel even more sentimental~ It's one of those days where I really miss you..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "🥀",
+      "en": "🥀"
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 진짜",
+      "en": "But seriously..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 에프가 된 이유중 하나는",
+      "en": "One of the reasons I became an F is..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "무조건",
+      "en": "Without a doubt..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "**Y/n**때문이야",
+      "en": "Because of **Y/n**."
+    },
+    {
+      "type": "fan",
+      "ko": "에어 프라이어?",
+      "en": "Air fryer?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "웅 바삭해졌지",
+      "en": "Yep, I got crispy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "자꾸 신경쓰이게 하고 ㅋ",
+      "en": "You keep making me pay attention to you ㅋ."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 앞에서 칠칠맞게…",
+      "en": "Being so clumsy in front of me..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나한테 이런사람은 너가 처음이야…",
+      "en": "You're the first person who's ever been like this with me..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "코로 라면 먹지 말라고 했잖아…",
+      "en": "I told you not to eat ramen through your nose..."
+    },
+    {
+      "type": "fan",
+      "ko": "코로 리코더도 부는데 왜ㅜㅜ",
+      "en": "But you play the recorder with your nose tooㅜㅜ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "부는거랑 들어가는거랑 같아????",
+      "en": "Is blowing something and putting something into it the same????"
+    },
+    {
+      "type": "hayeon",
+      "ko": "넌 항상 그렇게 아무것도 아닌것처럼 말하지!!!",
+      "en": "You always say things like they're no big deal!!!"
+    },
+    {
+      "type": "fan",
+      "ko": "우리싸우는거야?",
+      "en": "Are we fighting?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 ㅋ 내가 너랑 어떻게 싸우냐",
+      "en": "No ㅋ How could I ever fight with you?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "미치겠다 진짜 ㅎ",
+      "en": "I'm seriously going crazy ㅎ."
+    },
+    {
+      "type": "fan",
+      "ko": "내가 져줄게ㅎㅎㅎㅎ!!!!",
+      "en": "I'll let you winㅎㅎㅎㅎ!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "복싱 배워올게?",
+      "en": "Should I go learn boxing?"
+    },
+    {
+      "type": "fan",
+      "ko": "그럼 나는 같이 배울래",
+      "en": "Then I'll learn together with you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "원투챱챱챱",
+      "en": "One-two jab jab jab."
+    },
+        {
+      "type": "hayeon",
+      "ko": "날이 좋아서…",
+      "en": "Because the weather is nice..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "날이 좋지 않아서",
+      "en": "Because the weather isn't nice."
+    },
+    {
+      "type": "hayeon",
+      "ko": "날이 적당해서",
+      "en": "Because the weather is just right."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 항상 배고프다",
+      "en": "I'm always hungry."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㄹㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 갤러리보는데",
+      "en": "But I was looking through my gallery."
+    },
+    {
+      "type": "hayeon",
+      "ko": "투어 갔을때",
+      "en": "From when we went on tour."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뷰가 진짜 좋은 호텔이 있었는데",
+      "en": "There was a hotel with an amazing view."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔가 추억이 된게",
+      "en": "The fact that it's become a memory somehow..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "슬프다",
+      "en": "Makes me sad."
+    },
+    {
+      "type": "hayeon",
+      "ko": "시간아 ㅠ",
+      "en": "Time...ㅠ"
+    },
+    {
+      "type": "fan",
+      "ko": "언젠가는 이 시간도 다 추억이 되겟지...",
+      "en": "Someday, this moment will become a memory too..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 아름다운 추억이네",
+      "en": "That's such a beautiful memory."
+    },
+    {
+      "type": "hayeon",
+      "video": "video-01.mp4"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그때의 나",
+      "en": "That's me back then."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이날 라이브 하고싶었는데",
+      "en": "I wanted to do a live that day."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 허허벌판이여서 신호가 안잡혀서 못했었지 ㅠㅠ",
+      "en": "But it was such an open area that there was no signal, so I couldn't do itㅠㅠ"
+    },
+    {
+      "type": "fan",
+      "ko": "저때 왜케 턱선이 날렵하지?",
+      "en": "Why was your jawline so sharp back then?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "살쪘다는 말을 왜 돌려서해!!!!!!!",
+      "en": "Why are you saying I gained weight in such a roundabout way!!!!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아ㅎ",
+      "en": "Ahㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "미안 찔렸다",
+      "en": "Sorry, that hit a nerve."
+    },
+    {
+      "type": "fan",
+      "ko": "누나는 살쪄도 예뻐 ㅎ",
+      "en": "You're pretty even if you gain weight, noonaㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "누난 너무 옙훠~~~",
+      "en": "Noona is so pretty~~~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "미춰~~",
+      "en": "I'm going crazy~~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다시 난, 여기-백예린",
+      "en": "\"Here I Am Again\" - Baek Yerin."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이거 들으세요",
+      "en": "Give this a listen."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 좋다",
+      "en": "It's so good."
+    },
+    {
+      "type": "hayeon",
+      "ko": "사랑의 불시착 진짜 내 인생드라마야",
+      "en": "\"Crash Landing on You\" is seriously one of my favorite dramas."
+    },
+    {
+      "type": "hayeon",
+      "ko": "3번 본듯",
+      "en": "I think I've watched it three times."
+    },
+        {
+      "type": "fan",
+      "ko": "하연이가 세리동무보다 적응 잘할듯",
+      "en": "I think you'd adapt even better than Seri."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 그런 상황이였으면",
+      "en": "If I were in that kind of situation..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맨날 혼자 감자 삶아먹고",
+      "en": "I'd boil potatoes by myself every day."
+    },
+    {
+      "type": "hayeon",
+      "ko": "살 많이 쪄서",
+      "en": "I'd gain a lot of weight."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그곳 기준 최고 미녀가",
+      "en": "And by their standards..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "될것같아",
+      "en": "I'd probably become the prettiest woman there."
+    },
+    {
+      "type": "fan",
+      "ko": "걸려서 잡혀가면 오또케?",
+      "en": "What if you get caught and arrested?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "미인계 써야지",
+      "en": "I'd have to use my charms."
+    },
+    {
+      "type": "hayeon",
+      "ko": "제발 저를 놔주라우",
+      "en": "Please let me go~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그 북한말 이상하게 쓰시는분 너무 웃긴데",
+      "en": "That person who speaks North Korean in that funny way is so hilarious."
+    },
+    {
+      "type": "hayeon",
+      "ko": "수지님이랑 같이 snl",
+      "en": "The one who was on SNL with Suzy-nim."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하신",
+      "en": "You know..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 경상도에 오래살아가 말투가 이렇씨봉",
+      "en": "\"I've lived in Gyeongsang-do for so long that I talk like this, ssibong.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "사투리가 섞여부릿시부라와요",
+      "en": "Your dialect got all mixed up."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㄹㅋㄹㅋㅎㅋㄹㅋㅎㅋㄹㄹㅋㄹㅋㅎㅋㄹㅋㅋ",
+      "en": "ㅋㄹㅋㄹㄹㅋㄹㅋㅎㅋㄹㅋㅎㅋㄹㄹㅋㄹㅋㅎㅋㄹㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "감성적인 노래 들으면서",
+      "en": "Listening to emotional songs..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런얘기하니까",
+      "en": "While talking about things like this..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "깬다",
+      "en": "It snaps me out of it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "감성이",
+      "en": "The sentimental mood."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 고1때는",
+      "en": "When I was in my first year of high school..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "통학했으니까",
+      "en": "I commuted to school."
+    },
+    {
+      "type": "hayeon",
+      "ko": "새벽에 버스타고 학교가면서",
+      "en": "I'd take the bus to school early in the morning."
+    },
+    {
+      "type": "hayeon",
+      "ko": "드라마 ost들으몀서 가는게",
+      "en": "Listening to drama OSTs on the way..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나의 행복이였어",
+      "en": "That was my happiness."
+    },
+    {
+      "type": "hayeon",
+      "ko": "과몰입하는거",
+      "en": "Getting completely immersed."
+    },
+    {
+      "type": "hayeon",
+      "ko": "와 진짜 추억이다",
+      "en": "Wow, that's such a precious memory."
+    },
+        {
+      "type": "hayeon",
+      "ko": "맨날 5시에 일어나서",
+      "en": "I used to wake up at 5 every day."
+    },
+    {
+      "type": "hayeon",
+      "ko": "교복입고",
+      "en": "Put on my school uniform."
+    },
+    {
+      "type": "hayeon",
+      "ko": "6시쯤에",
+      "en": "Around 6 o'clock..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오빠깨워서",
+      "en": "I'd wake my older brother up."
+    },
+    {
+      "type": "hayeon",
+      "ko": "정류장 데려다달라고",
+      "en": "And ask him to take me to the bus stop."
+    },
+    {
+      "type": "hayeon",
+      "ko": "끌고나가서",
+      "en": "I'd drag him outside."
+    },
+    {
+      "type": "hayeon",
+      "ko": "버스기다리면서 편의점에서 아침먹고",
+      "en": "I'd eat breakfast from the convenience store while waiting for the bus."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지하철에서 중간중간 친구들 만나서",
+      "en": "I'd meet up with my friends along the way on the subway."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다같이 등산해서 올라가서",
+      "en": "Then we'd all hike up together."
+    },
+    {
+      "type": "hayeon",
+      "ko": "같이 연기수업받고",
+      "en": "Take acting classes together."
+    },
+    {
+      "type": "hayeon",
+      "ko": "매점가고..",
+      "en": "And go to the school store..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "벌써 졸업이네",
+      "en": "I've already graduated."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그땐 5시에 일어나도",
+      "en": "Back then, even waking up at 5..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "설렜어",
+      "en": "Made me excited."
+    },
+    {
+      "type": "hayeon",
+      "ko": "교복입고",
+      "en": "Putting on my school uniform."
+    },
+    {
+      "type": "hayeon",
+      "ko": "가서 무슨수업할지",
+      "en": "Wondering what class I'd have."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어떤 연기할지",
+      "en": "What kind of acting I'd do."
+    },
+    {
+      "type": "hayeon",
+      "ko": "발표 어떻게 할지 이런거",
+      "en": "How I'd do my presentation, things like that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리 학교는",
+      "en": "At our school..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "발표도 다",
+      "en": "Even presentations..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나가서 준비해온 작품 연기",
+      "en": "Were performing a piece you'd prepared in front of everyone."
+    },
+    {
+      "type": "hayeon",
+      "ko": "노래",
+      "en": "Singing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런거였어",
+      "en": "Things like that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래서 재밌었징",
+      "en": "That's why it was so fun."
+    },
+    {
+      "type": "fan",
+      "ko": "앞에 나가서 연기 하는거야?",
+      "en": "So you'd go to the front and act?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞아",
+      "en": "That's right."
+    },
+    {
+      "type": "hayeon",
+      "ko": "부끄러운데",
+      "en": "It's embarrassing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔가 잘 해내고",
+      "en": "But when you do well..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "점수 높게 받았을때의",
+      "en": "And get a high score..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뿌듯함",
+      "en": "It feels so rewarding."
+    },
+        {
+      "type": "hayeon",
+      "ko": "그리고 뭔가 예고라 그런지",
+      "en": "And maybe because it was an arts high school..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아침에 가도",
+      "en": "Even when I arrived in the morning..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "애들이 열정이 넘쳐서",
+      "en": "Everyone was overflowing with passion."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나보다 빨리와서",
+      "en": "They'd get there earlier than me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "기타치고 있고",
+      "en": "Some would be playing guitar."
+    },
+    {
+      "type": "hayeon",
+      "ko": "피아노치면서 노래 부르고 있고",
+      "en": "Others would be singing while playing the piano."
+    },
+    {
+      "type": "hayeon",
+      "ko": "막 합주를 하고있어 음악과 애들이",
+      "en": "The music department students would already be rehearsing together."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘가 얘들아 ㅠㅠ",
+      "en": "Take care, everyoneㅠㅠ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "가끔 우리학교 교복입은애들이",
+      "en": "Sometimes when I see students wearing my school's uniform..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오디션 나오고 이런거보면",
+      "en": "Showing up at auditions and things like that..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뿌듯해진다고 해야하나",
+      "en": "I don't know, it just makes me feel proud."
+    },
+    {
+      "type": "hayeon",
+      "ko": "친하지 않아도 느껴지는",
+      "en": "Even if I wasn't close with them, it's still something I can feel."
+    },
+    {
+      "type": "fan",
+      "ko": "아 근데 먼가 그런거 있어... 후배들 잘하는거 보면 먼가 좀 뿌듯하고 자랑스럽고 그래",
+      "en": "Ah, but I know what you mean... When you see your juniors doing well, you can't help but feel proud of them."
+    },
+    {
+      "type": "hayeon",
+      "ko": "애기들아 ㅋ 화이팅이다",
+      "en": "Kids, fightingㅋ."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이언니는 간다 ㅋ",
+      "en": "This unnie is off nowㅋ."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅎㄹㅋㅋㄹㄹㅋㅎㅋㅎㅋ",
+      "en": "ㅋㅎㄹㅋㅋㄹㄹㅋㅎㅋㅎㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "리라고 3학년3반 정하연선배!",
+      "en": "Lila High School, Grade 3 Class 3, senior Jeong Hayeon!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "저희 본적도 없는데 언니병좀 자제해주세요 익이요.",
+      "en": "We've never even met you, so please tone down the unnie syndrome. Anonymous."
+    },
+    {
+      "type": "hayeon",
+      "ko": "주륵",
+      "en": "Sob..."
+    },
+    {
+      "type": "fan",
+      "ko": "리라고 3학년 3반 정하연선배! 애인있나요 익명이요!",
+      "en": "Lila High School, Grade 3 Class 3, senior Jeong Hayeon! Do you have a boyfriend? Anonymous!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "약혼한걸로 압니다.",
+      "en": "As far as I know, she's engaged."
+    },
+    {
+      "type": "fan",
+      "ko": "리라고 3학년 3반 정하연선배 제거에요! 익이요!!",
+      "en": "Lila High School, Grade 3 Class 3, senior Jeong Hayeon is mine! Anonymous!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "제거 해달라고여?",
+      "en": "You're asking me to remove her?"
+    },
+        {
+      "type": "fan",
+      "ko": "리라고 3학년 3반 정하연선배 급식실 새치기 한다는데 진짜인가요ㅜㅜ 익이요..",
+      "en": "Lila High School, Grade 3 Class 3, senior Jeong Hayeon, I heard you cut in line at the cafeteria. Is it trueㅜㅜ Anonymous.."
+    },
+    {
+      "type": "hayeon",
+      "ko": "3학년이 먼저인 날이였어요.",
+      "en": "It was one of those days when third-years got to go first."
+    },
+    {
+      "type": "fan",
+      "ko": "리라고 3학년 3반 정하연선배 좋아해요 노익이요",
+      "en": "Lila High School, Grade 3 Class 3, senior Jeong Hayeon, I like you. Not anonymous."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎ 귀엽네?",
+      "en": "ㅎㅎ That's cute?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "애기야 커서 와~^^",
+      "en": "Baby, come back after you grow up~^^"
+    },
+    {
+      "type": "hayeon",
+      "ko": "먼저 졸업한다~😎",
+      "en": "I'll graduate first~😎"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅎㅋㄹㄹㅋㄹㄹㅋㄹㅋㄹㅎ",
+      "en": "ㅋㅎㅋㄹㄹㅋㄹㄹㅋㄹㅋㄹㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "졸업하기 싫다~",
+      "en": "I don't want to graduate~"
+    },
+    {
+      "type": "fan",
+      "ko": "교복 안버릴거지? 영원히 옷장에 두겠다고 해줘.",
+      "en": "You're not going to throw away your school uniform, right? Promise you'll keep it in your closet forever."
+    },
+    {
+      "type": "hayeon",
+      "ko": "입고다녀야지",
+      "en": "I should keep wearing it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㄹㄹㅋㅋㄹㅋㄹ",
+      "en": "ㅋㄹㄹㄹㅋㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "애기야",
+      "en": "Baby."
+    },
+    {
+      "type": "hayeon",
+      "ko": "시간이 많이 늦었다",
+      "en": "It's getting really late."
+    },
+    {
+      "type": "hayeon",
+      "ko": "키커야지~ ㅎㅎ",
+      "en": "You need to grow taller~ㅎㅎ"
+    },
+    {
+      "type": "fan",
+      "ko": "아니 어젠 결혼하자면서 오늘은 애기라 나 몇살인거애",
+      "en": "Wait, yesterday you wanted to get married, but today I'm a baby. So how old am I?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "매일 자아를 바꾸면 됨",
+      "en": "Just change your personality every day."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㄹㅋㅋㄹ",
+      "en": "ㅋㄹㅋㄹㄹㅋㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "자자 이제",
+      "en": "Alright, let's sleep now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "고생했어~~",
+      "en": "You worked hard today~~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘자구",
+      "en": "Sleep well."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해😘",
+      "en": "Haranghae😘"
+    }
+  ]
+}

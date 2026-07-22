@@ -1659,12 +1659,12 @@ const header =
 
 const icon =
     groupType === "idol"
-        ? "🦔"
-        : "🫡";
+        ? ""
+        : "";
 
 const name =
     groupType === "idol"
-        ? "Hayeon"
+        ? "하연이❤️"
         : "Fan";
 
 header.innerHTML = `

@@ -1,0 +1,585 @@
+{
+  "date": "2026-01-01",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "새해복 많이받아!!",
+      "en": "Happy New Year!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "해피뉴이어",
+      "en": "Happy New Year!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "안녕하세요 20살 정하연입니다",
+      "en": "Hello, I'm 20-year-old Jeong Hayeon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘부탁드립니다",
+      "en": "Please take good care of me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어제",
+      "en": "Yesterday..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "카운트다운 07즈랑",
+      "en": "I spent the countdown with the 07z."
+    },
+    {
+      "type": "hayeon",
+      "ko": "보내고",
+      "en": "We celebrated together."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다같이 안으면서",
+      "en": "We all hugged each other."
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리의 해다!!! 다 주궈써!!!",
+      "en": "\"It's our year!!! We're going to crush it!!!\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "해돋이도 보려고 했는데",
+      "en": "We were going to watch the sunrise too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나갔는데 너무너무 추운거야",
+      "en": "But when we went outside, it was freezing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "바로 전기장판으로",
+      "en": "So we immediately ran back to the heated blanket."
+    },
+    {
+      "type": "hayeon",
+      "ko": "넷이 뛰어들어감",
+      "en": "All four of us jumped under it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "선물 교환식도 !!",
+      "en": "We also did a gift exchange!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "했는데",
+      "en": "And..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내거는 키캡 20❤️ 이렇게 커스텀한거랑",
+      "en": "Mine was a custom keycap with '20❤️' on it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "못생긴 그 이빨달린 인형",
+      "en": "And that ugly doll with teeth."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이렇게 샀었는데",
+      "en": "Those were the gifts I bought."
+    },
+    {
+      "type": "hayeon",
+      "ko": "수민이가 받았고",
+      "en": "Soomin ended up receiving them."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나는 혜린이가 준비한",
+      "en": "And I received what Hyerin prepared."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이상한 도시락통같이 생긴 파우치랑",
+      "en": "A weird lunchbox-shaped pouch."
+    },
+    {
+      "type": "hayeon",
+      "ko": "충전기 캡? 중성마녀 그거 받음",
+      "en": "And a charger cap from Crayon Shin-chan."
+    },
+    {
+      "type": "hayeon",
+      "ko": "채원이는 수민이가 준비한 입욕제 받았고",
+      "en": "Chaewon received bath bombs from Soomin."
+    },
+    {
+      "type": "hayeon",
+      "ko": "혜린이는 채원이가 준비한 애기동화책이랑 신라면양말 받음",
+      "en": "Hyerin received a children's storybook and Shin Ramyun socks from Chaewon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 너무 웃겼어",
+      "en": "It was seriously so funny."
+    },
+    {
+      "type": "hayeon",
+      "ko": "07즈가 진짜 더더더 돈독해진 기분이야",
+      "en": "I really feel like the 07z have become even closer."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이제 미성년자를 만났어요? 못써먹네",
+      "en": "Now I can't use the 'Did you meet a minor?' joke anymore."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아쉽다",
+      "en": "That's a little disappointing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "자수하러 경찰서 안가도 되겠네 ㅋㅋㄹㅋㄹㄹㅋㅋㄹ",
+      "en": "I guess nobody has to turn themselves in at the police station anymoreㅋㅋㅋㅋ."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이제 내옆으로 와야겠네~",
+      "en": "Now you can come over to my side~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "언니 저 아직 미성년자인데 저랑 만나신거에요..?",
+      "en": "Unnie, I'm still a minor... does that mean you met with me?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이제 내가 경찰서야?….",
+      "en": "So... I'm the police station now?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 경찰서면",
+      "en": "If I'm the police station..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아직 다 경찰서 못 빠져나간거네",
+      "en": "Then none of you have managed to leave yet."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 떡국먹을라 했는데",
+      "en": "I was going to eat tteokguk today."
+    },
+    {
+      "type": "hayeon",
+      "ko": "먹지 말까",
+      "en": "Maybe I shouldn't."
+    },
+    {
+      "type": "hayeon",
+      "ko": "평생 안먹어서",
+      "en": "If I never eat it..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어디 가서도",
+      "en": "Then wherever I go..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아직 19이에요~",
+      "en": "I can keep saying I'm still 19~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㅋㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "떡국먹은 횟수로치면 난 100살넘엇어",
+      "en": "If age is based on how many bowls of tteokguk you've eaten, I'm over 100 years old."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어르신..",
+      "en": "Elder..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 아직 학교 졸업 안했으니까",
+      "en": "But I haven't graduated yet."
+    },
+    {
+      "type": "hayeon",
+      "ko": "교복은 입어",
+      "en": "So I still wear my school uniform."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "07즈 애들보다",
+      "en": "Compared to the other 07z..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "한달 늦게해서",
+      "en": "I graduate a month later."
+    },
+    {
+      "type": "hayeon",
+      "ko": "한달 더 학생..",
+      "en": "So I'm a student for one more month."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞아 늦게 해",
+      "en": "Yep, mine is later."
+    },
+    {
+      "type": "hayeon",
+      "ko": "대신 난 지금 방학이지만",
+      "en": "I'm on vacation right now though."
+    },
+    {
+      "type": "hayeon",
+      "ko": "걔넨 학교를 가야하지",
+      "en": "The others still have to go to school."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하하하하",
+      "en": "Hahaha."
+    },
+    {
+      "type": "fan",
+      "ko": "20살 되니까 달라진 거 있는 거 같아??",
+      "en": "Does anything feel different now that you're 20?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사실 아직 실감 안나",
+      "en": "Honestly, it still doesn't feel real."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하루가 지나갔다..?",
+      "en": "It's just... another day has passed?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이정도",
+      "en": "That's about it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "새벽 피시방 가능???",
+      "en": "I can go to a PC bang late at night now???"
+    },
+    {
+      "type": "hayeon",
+      "ko": "가서 초대할테니까",
+      "en": "I'll invite you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "들어와",
+      "en": "Come join me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㅋㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "이제 전출 나갈 수 있네ㅋㅋㅋㅋㅋ",
+      "en": "Now you can finally transfer outㅋㅋㅋㅋ."
+    },
+    {
+      "type": "hayeon",
+      "ko": "헐 그러게",
+      "en": "Oh wow, you're right."
+    },
+    {
+      "type": "hayeon",
+      "ko": "먼저 떠나가지 않아도 된다니",
+      "en": "I don't have to leave first anymore."
+    },
+    {
+      "type": "hayeon",
+      "ko": "2026",
+      "en": "2026."
+    },
+    {
+      "type": "hayeon",
+      "ko": "숫자부터 맘에들어 왠지",
+      "en": "I somehow like the number already."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘해보자!!!",
+      "en": "Let's do our best!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데",
+      "en": "But..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "절대 되지않을것같던 성인이 되는걸 보니까",
+      "en": "Seeing myself become an adult, something that felt like it'd never happen..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "시간 진짜 빠르고",
+      "en": "Time really flies."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그냥 눈 깜빡하면 서른 돼있을것 같아",
+      "en": "I feel like I'll blink and suddenly be thirty."
+    },
+    {
+      "type": "fan",
+      "ko": "깜빡해봐",
+      "en": "Try blinking."
+    },
+    {
+      "type": "hayeon",
+      "ko": "깜빡",
+      "en": "*Blink*"
+    },
+    {
+      "type": "hayeon",
+      "ko": "안돼있네~~",
+      "en": "Nope, not yet~~"
+    },
+    {
+      "type": "fan",
+      "ko": "당신은 40살입니다.",
+      "en": "You're 40 years old."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금이… 며 몇년도 죠…??",
+      "en": "Wh-what year is it now...??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "얼마나 잠들어 있었던거야!!!!",
+      "en": "How long was I asleep for!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "흙흙",
+      "en": "*Sob sob.*"
+    },
+    {
+      "type": "hayeon",
+      "ko": "날 진짜 동결건조 시킨거였어?",
+      "en": "Did you really freeze-dry me?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "왠지 너무 건조하더라",
+      "en": "No wonder I felt so dry."
+    },
+    {
+      "type": "hayeon",
+      "ko": "미스트 한통 다써야할듯",
+      "en": "I think I'll need an entire bottle of face mist."
+    },
+    {
+      "type": "fan",
+      "ko": "동결 건조면 동그란 볼 바싹 말랐나?",
+      "en": "If you're freeze-dried, do your round cheeks shrivel up too?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "헉 너무 징그러울것같아",
+      "en": "Heok, that sounds so creepy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "동결건조된 나라도 사랑해줄거야…?",
+      "en": "Would you still love me even if I were freeze-dried...?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 아바타가 돼도 사랑할거야?",
+      "en": "Would you still love me if I became an Avatar?"
+    },
+    {
+      "type": "fan",
+      "ko": "오이쁠듯",
+      "en": "I think you'd look pretty."
+    },
+    {
+      "type": "hayeon",
+      "ko": "인정",
+      "en": "Agreed."
+    },
+    {
+      "type": "fan",
+      "ko": "그럼 넌 육각단들이 아바타가 돼도 사랑해줄거야???",
+      "en": "Then would you still love the Hexagons if they became Avatars too?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그럼 나도 캡슐 들어가서 아바타 해야지",
+      "en": "Then I'll go into one of those capsules and become an Avatar too."
+    },
+    {
+      "type": "fan",
+      "ko": "난 에이와 할래",
+      "en": "I'll be Eywa."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그럼 내가 토르투막토 할게",
+      "en": "Then I'll be Toruk Makto."
+    },
+    {
+      "type": "hayeon",
+      "ko": "토크쿠막토",
+      "en": "Torukku Makto."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오타를 고쳤는데",
+      "en": "I fixed the typo..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "더 틀렸네",
+      "en": "But somehow made it even more wrong."
+    },
+    {
+      "type": "hayeon",
+      "ko": "떡국얘기하니까",
+      "en": "Talking about tteokguk..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "먹고싶어졌어",
+      "en": "Now I want to eat some."
+    },
+    {
+      "type": "fan",
+      "ko": "떡만둣국 어때",
+      "en": "How about tteok-mandu-guk?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "와 좋다",
+      "en": "Wow, that sounds good."
+    },
+    {
+      "type": "fan",
+      "ko": "다이어트를 하기로 한 게 아니야!",
+      "en": "Didn't you say you were starting a diet!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "떡국은 살안쪄… ㅎㅎㅎ",
+      "en": "Tteokguk doesn't make you gain weight... hehe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나이만 쪄~",
+      "en": "Only your age goes up~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 진짜로 살뺀다",
+      "en": "I really am going to lose weight."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이것만 맛있게 먹을게~",
+      "en": "I'll just enjoy this one meal~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "키키키ㅋ",
+      "en": "Hehehe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "1월1일 잘 보내구",
+      "en": "Have a wonderful January 1st."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맛있는 떡국 머거❤️",
+      "en": "Eat some delicious tteokguk. ❤️"
+    },
+    {
+      "type": "fan",
+      "ko": "하연이 새해 첫곡 알랴주고가",
+      "en": "Tell me the first song you listened to this New Year before you go."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 나는",
+      "en": "Ah, for me..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "가호님의",
+      "en": "It was Gaho's..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "시작",
+      "en": "\"Start\"."
+    },
+    {
+      "type": "hayeon",
+      "ko": "들었어",
+      "en": "That's what I listened to."
+    },
+    {
+      "type": "hayeon",
+      "ko": "가보쟈~!",
+      "en": "Let's go~!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "미리 잘 자구!!",
+      "en": "Sleep well in advance!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해❤️❤️",
+      "en": "Haranghae. ❤️❤️"
+    }
+  ]
+}

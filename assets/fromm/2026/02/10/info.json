@@ -1,0 +1,610 @@
+{
+  "date": "2026-02-10",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "모해~",
+      "en": "What are you doing~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 내일 졸업하는데 ㅎ",
+      "en": "I'm graduating tomorrowㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 고딩연하연이 좋은데",
+      "en": "I like high schooler Hayeon too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내일 보내주자",
+      "en": "Let's send her off tomorrow."
+    },
+    {
+      "type": "hayeon",
+      "ko": "고생했다.",
+      "en": "\"You worked hard.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이제 음방할때 다 대기하면서 잘때",
+      "en": "Now when we're waiting and sleeping during music show recordings,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "명동까지 학교 안들려서",
+      "en": "I won't have to stop by school before going all the way to Myeongdong."
+    },
+    {
+      "type": "hayeon",
+      "ko": "참 ..좋은…",
+      "en": "That's really... nice..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그치만 너무 슬프다~",
+      "en": "But it's so sad~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 근데",
+      "en": "But..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리학교는",
+      "en": "At our school,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "졸업식에 교복입고오지 말래",
+      "en": "they told us not to wear our uniforms to the graduation ceremony."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 입고싶음",
+      "en": "I want to wear mine too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "왜일까",
+      "en": "I wonder why."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 친구들은 그냥",
+      "en": "But my friends are probably just..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "입을것같은데",
+      "en": "going to wear them anyway."
+    },
+    {
+      "type": "hayeon",
+      "ko": "쌤한테 그냥 혼나고 입겠대",
+      "en": "They said they'll just get scolded by the teacher and wear them anyway."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 또 그러자니 신경쓰이고",
+      "en": "But if I do that too, I'll end up worrying about it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래서 들고가보려고",
+      "en": "So I think I'll just bring it with me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "일단 시작을 사복으로 하고",
+      "en": "I'll start off wearing regular clothes,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "중간에 체인지 해버리기",
+      "en": "then change halfway through."
+    },
+    {
+      "type": "hayeon",
+      "ko": "학교에서 교복입고 사진찍으려 했는디",
+      "en": "I wanted to take pictures at school wearing my uniform."
+    },
+    {
+      "type": "hayeon",
+      "ko": "일단",
+      "en": "For now..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "알잘딱으로",
+      "en": "I'll figure it out somehow."
+    },
+    {
+      "type": "hayeon",
+      "ko": "체인지 해볼게",
+      "en": "I'll try changing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하ㅏㅏㅓ",
+      "en": "Haaa..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "졸업…",
+      "en": "Graduation..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "정말",
+      "en": "Really..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "살면서",
+      "en": "In my life..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난는 내가",
+      "en": "I never thought that I..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "고등학교 졸업을 할거라곤",
+      "en": "would actually graduate from high school."
+    },
+    {
+      "type": "hayeon",
+      "ko": "상상도 못해봤는데",
+      "en": "I couldn't even imagine it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "안녕 리라..",
+      "en": "Goodbye, Lila..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "리라리라리라리라리",
+      "en": "Lila lila lila lilali."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 내일 컨셉",
+      "en": "My concept tomorrow..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "신비주의임",
+      "en": "is mysterious."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이제 학우들도 있으니까",
+      "en": "Since my classmates will be there too..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "차도녀 스타일",
+      "en": "Cold city girl style."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아님 레전드를 써볼까",
+      "en": "Or should I try going legendary?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 나대서",
+      "en": "I might stand out too much."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "무리 안할게.",
+      "en": "I won't overdo it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "졸업하지마 하연아 ㅠㅠ",
+      "en": "\"Don't graduate, Hayeonㅠㅠ\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "응!",
+      "en": "Okay!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "고딩하연 못보내 ㅠㅠ",
+      "en": "\"I can't let high schooler Hayeon goㅠㅠ\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "응!",
+      "en": "Okay!"
+    },
+    {
+      "type": "fan",
+      "ko": "음… 1인2역하는거야?",
+      "en": "Um... are you playing two roles by yourself?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내안의 자아와 얘기하고있어.",
+      "en": "I'm talking to the self inside me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리학교 쵝오",
+      "en": "My school is the best."
+    },
+    {
+      "type": "hayeon",
+      "ko": "짱짱",
+      "en": "The best."
+    },
+    {
+      "type": "fan",
+      "ko": "리라는 거꾸로해도 라리",
+      "en": "Lila is Lali even backwards."
+    },
+    {
+      "type": "hayeon",
+      "ko": "?",
+      "en": "?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "막무가내네",
+      "en": "That's so random."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 요즘 오컬트에",
+      "en": "Anyway, these days..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "푹 빠졌어",
+      "en": "I'm really into occult stuff."
+    },
+    {
+      "type": "hayeon",
+      "ko": "자기전에 계속 귀신영상 봐",
+      "en": "I keep watching ghost videos before bed."
+    },
+  {
+    "type": "hayeon",
+    "ko": "근데 진짜",
+    "en": "But seriously..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "귀신 무섭긴 하거든?",
+    "en": "Ghosts are scary, you know?"
+  },
+  {
+    "type": "hayeon",
+    "ko": "근데 없다고 믿으니까",
+    "en": "But because I believe they don't exist..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "사실 흉가 혼자 가래도",
+    "en": "Honestly, even if someone told me to go to a haunted house alone..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "사람이 무섭지 귀신은 안무서움",
+    "en": "People are scary, not ghosts."
+  },
+  {
+    "type": "fan",
+    "ko": "있오 .. 지금.. 뒤돌아보지마",
+    "en": "There is... right now... don't turn around."
+  },
+  {
+    "type": "hayeon",
+    "ko": "뒤돌면 침대라 숨 못쉬긴해",
+    "en": "If I turn around it's just my bed, so I wouldn't be able to breathe."
+  },
+  {
+    "type": "hayeon",
+    "ko": "진짜로",
+    "en": "Seriously..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "귀신이 있다고 믿는사람음",
+    "en": "People who believe ghosts exist..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "뭔가를 착각했거나",
+    "en": "either misunderstood something,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "뇌가 만들어낸 환각",
+    "en": "or it's a hallucination created by the brain,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "아니면 가위라 믿는 꿈",
+    "en": "or a dream they think was sleep paralysis."
+  },
+  {
+    "type": "hayeon",
+    "ko": "이런 느낌",
+    "en": "That's how I see it."
+  },
+  {
+    "type": "hayeon",
+    "ko": "나 가위 한번도 안눌려봤어",
+    "en": "I've never had sleep paralysis before."
+  },
+  {
+    "type": "hayeon",
+    "ko": "그래서 신기하긴해",
+    "en": "So it's kind of fascinating."
+  },
+  {
+    "type": "hayeon",
+    "ko": "누가 가위눌렸다 하면",
+    "en": "Whenever someone says they had sleep paralysis..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "나 기가 쎄긴해",
+    "en": "I guess I have strong energy."
+  },
+  {
+    "type": "hayeon",
+    "ko": "나 전에",
+    "en": "Before..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "막",
+    "en": "like..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "꿈으로 꾼게",
+    "en": "something I dreamed about..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "현실에서 일어나고",
+    "en": "ended up happening in real life."
+  },
+  {
+    "type": "hayeon",
+    "ko": "그런느낌 받은적 몇번",
+    "en": "I've experienced that feeling a few times."
+  },
+  {
+    "type": "hayeon",
+    "ko": "있긴해",
+    "en": "I really have."
+  },
+  {
+    "type": "hayeon",
+    "ko": "그리고 내가 꾼 꿈의 해몽이?",
+    "en": "And the interpretations of my dreams?"
+  },
+  {
+    "type": "hayeon",
+    "ko": "거의 맞아",
+    "en": "They're almost always right."
+  },
+  {
+    "type": "hayeon",
+    "ko": "나 그냥 춤 배워볼까 하고",
+    "en": "Back when I was just thinking about learning to dance..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "댄스학원 다닐때 였는데",
+    "en": "I was attending a dance academy."
+  },
+  {
+    "type": "hayeon",
+    "ko": "오디션 보기 며칠전에",
+    "en": "A few days before my audition..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "꿈에서",
+    "en": "in my dream..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "이빨이 막",
+    "en": "my teeth suddenly..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "후두둑 떨어지는거야",
+    "en": "started falling out."
+  },
+  {
+    "type": "hayeon",
+    "ko": "근데 주변에 상이 난다는 해몽이랑",
+    "en": "There are interpretations saying someone around you will pass away,"
+  },
+  {
+    "type": "hayeon",
+    "ko": "좋은 기회들이 생기는 해몽",
+    "en": "and another that says good opportunities will come."
+  },
+  {
+    "type": "hayeon",
+    "ko": "두개가 있는데",
+    "en": "There are those two interpretations."
+  },
+  {
+    "type": "hayeon",
+    "ko": "그 꿈 꾼날에",
+    "en": "On the day I had that dream..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "한번에 회사들한테",
+    "en": "I got contacted by several companies..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "연락 왔었어",
+    "en": "all at once."
+  },
+  {
+    "type": "fan",
+    "ko": "그중에 모드하우스 있었어?",
+    "en": "Was Modhaus one of them?"
+  },
+  {
+    "type": "hayeon",
+    "ko": "맞쥐",
+    "en": "Yep."
+  },
+  {
+    "type": "hayeon",
+    "ko": "그리거 회사 들어와서",
+    "en": "Then I joined the company..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "데뷔를 하였다",
+    "en": "and made my debut."
+  },
+  {
+    "type": "fan",
+    "ko": "이런 거 보면 가끔 운명이라는 게 있나 싶어",
+    "en": "Seeing things like this sometimes makes me think maybe destiny really does exist."
+  },
+  {
+    "type": "hayeon",
+    "ko": "운명 있지",
+    "en": "Destiny does exist."
+  },
+  {
+    "type": "hayeon",
+    "ko": "그건 믿어",
+    "en": "I believe in that."
+  },
+  {
+    "type": "hayeon",
+    "ko": "원래 안믿었는데",
+    "en": "I didn't use to believe in it."
+  },
+  {
+    "type": "hayeon",
+    "ko": "진짜 만나야할 사람은 저절로 만나져",
+    "en": "The people you're truly meant to meet just naturally come into your life."
+  },
+  {
+    "type": "hayeon",
+    "ko": "**Y/n**랑 나처럼",
+    "en": "Like **Y/n** and me."
+  },
+  {
+    "type": "hayeon",
+    "ko": "근데 진짜 신기하지 않아?",
+    "en": "But isn't it really amazing?"
+  },
+  {
+    "type": "hayeon",
+    "ko": "날 어떻게 어디서 어떤 모습을 보고 좋아하게 되고",
+    "en": "How, where, and what side of me you saw that made you like me."
+  },
+  {
+    "type": "hayeon",
+    "ko": "내가 마침 데뷔를 하고",
+    "en": "I just happened to debut."
+  },
+  {
+    "type": "hayeon",
+    "ko": "마침 우린 이렇게나 잘 맞고",
+    "en": "We just happened to get along this well."
+  },
+  {
+    "type": "hayeon",
+    "ko": "마침 난 너무 너스타일이고",
+    "en": "And I just happened to be exactly your type."
+  },
+  {
+    "type": "hayeon",
+    "ko": "이렇게 매력적이고 귀엽고",
+    "en": "Being this charming and cute."
+  },
+  {
+    "type": "hayeon",
+    "ko": "그치 ㅠㅠ🥹",
+    "en": "Right?ㅠㅠ🥹"
+  },
+  {
+    "type": "hayeon",
+    "ko": "ㅎㅎㅎ",
+    "en": "ㅎㅎㅎ"
+  },
+  {
+    "type": "hayeon",
+    "ko": "**Y/n**가 마침 내곁에 평생 두고싶은 사람이고",
+    "en": "**Y/n** just happens to be someone I want by my side for the rest of my life."
+  },
+  {
+    "type": "hayeon",
+    "ko": "이런게 운명이지 ㅎ",
+    "en": "That's what destiny isㅎ"
+  },
+  {
+    "type": "hayeon",
+    "ko": "내 단한번뿐인 졸업식에",
+    "en": "At my one and only graduation ceremony..."
+  },
+  {
+    "type": "hayeon",
+    "ko": "기억돼줘서 고마워~",
+    "en": "Thank you for remembering it with me~"
+  },
+  {
+    "type": "hayeon",
+    "ko": "완전 드라마 같았다 ㅋ",
+    "en": "It really felt like a dramaㅋ"
+  },
+  {
+    "type": "hayeon",
+    "ko": "내일 졸업 야무지게 하규올겡",
+    "en": "I'll graduate properly tomorrow and come back~"
+  },
+  {
+    "type": "hayeon",
+    "ko": "하연이 이제 자야지",
+    "en": "Hayeon should go to sleep now."
+  },
+  {
+    "type": "hayeon",
+    "ko": "사랑해 잘자",
+    "en": "I love you. Good night."
+  },
+  {
+    "type": "hayeon",
+    "ko": "하랑해🥳😍",
+    "en": "Haranghae🥳😍"
+  }
+  ]
+}

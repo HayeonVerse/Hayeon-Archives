@@ -2132,6 +2132,17 @@ scroll-margin-top:90px;
 
 }
 
+/* ===========================
+   Desktop Video Size
+=========================== */
+@media (min-width: 1024px) {
+
+    .message-video{
+        max-width: 320px;
+    }
+
+}
+
 @media (max-width:768px){
 
     .back-to-top{
@@ -2158,3 +2169,4 @@ scroll-margin-top:90px;
     height:auto;
     object-fit:contain;
 }
+

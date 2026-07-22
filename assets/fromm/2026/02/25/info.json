@@ -1,0 +1,457 @@
+{
+  "date": "2026-02-25",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "모행~",
+      "en": "What are you doing~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잠깐 시간 비어서 연락했엉",
+      "en": "I had a bit of free time so I texted you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "콘서트가 별로 안남아서",
+      "en": "The concert isn't far away anymore,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "떨리넹",
+      "en": "so I'm nervous."
+    },
+    {
+      "type": "hayeon",
+      "ko": "매 콘서트때 마다",
+      "en": "With every concert,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "확실히 전보다 잘하네 ㅎ",
+      "en": "I can definitely feel that I'm doing better than beforeㅎ."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이걸 보여주고싶은데",
+      "en": "I really want to show you that,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔가 맘처럼 안따라줘서 불안하지만",
+      "en": "but things don't always go the way I want, so I feel anxious."
+    },
+    {
+      "type": "hayeon",
+      "ko": "막상 하면 잘하겠지..??",
+      "en": "Still... once I get on stage, I'll do well, right??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "멋있게 보여쥴겡",
+      "en": "I'll show you a cool performance."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞다 최근에 진짜 오랜만에",
+      "en": "Oh right, recently"
+    },
+    {
+      "type": "hayeon",
+      "ko": "대학행사 하고왔자너",
+      "en": "I went to perform at a university event for the first time in a while."
+    },
+    {
+      "type": "hayeon",
+      "ko": "대학행사 하면",
+      "en": "When we did university events before,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "항상 언니오빠들이였는데",
+      "en": "it was always older students."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이제 동갑친구들이 앉아있으니까",
+      "en": "But now people my age were sitting there,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "마음이 이상했어",
+      "en": "and it felt kind of strange."
+    },
+    {
+      "type": "fan",
+      "ko": "혈 내년부터 동생들이임 어떡함….",
+      "en": "Starting next year they'll all be younger than me... what do I do...."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그러지마…",
+      "en": "Don't say that..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 데뷔 안했으면 저렇게 앉아서",
+      "en": "If I hadn't debuted, I would've been sitting there too,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리 멤버들 보면서",
+      "en": "watching our members"
+    },
+    {
+      "type": "hayeon",
+      "ko": "와 트리플에스다!!!!",
+      "en": "\"Wow, it's tripleS!!!!\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러고 있었으려나 ㅋㄹㅋㄹㅋㄹㅋㅋ",
+      "en": "Maybe that's what I would've been sayingㅋㅋㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "그 세계선이었으면 어떤 과 갔으려나",
+      "en": "If that were your universe, what major would you have chosen?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 경영학과지 ㅋ",
+      "en": "Business administration, of courseㅋ."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아님 법학?",
+      "en": "Or maybe law?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "서울대 가려다가",
+      "en": "I was going to go to Seoul National University,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나보다 더 잘 다닐수있는 사람한테",
+      "en": "but I yielded the spot to someone who'd do better than me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "양보한거지 ㅎ",
+      "en": "That's allㅎ."
+    },
+    {
+      "type": "fan",
+      "ko": "그냥 학식 맛있는 학교 가실거 같은데",
+      "en": "I feel like you'd just choose a school with good cafeteria food though."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㅋㄹ 그게 최고긴 해",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㅋㄹ That's the most important thing."
+    },
+    {
+      "type": "hayeon",
+      "image": "image-01.webp"
+    },
+    {
+      "type": "hayeon",
+      "ko": "안녕하세요 서울대 갈 뻔한 정하연입니다 ㅎㅎ",
+      "en": "Hello, this is Jeong Hayeon who almost went to Seoul National Universityㅎㅎ."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 그리고 나 염색했는데",
+      "en": "Oh, and I dyed my hair,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아무도 모르더라",
+      "en": "but no one noticed."
+    },
+    {
+      "type": "hayeon",
+      "ko": "일부로 말 안하고 있었는데..",
+      "en": "I purposely didn't say anything..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "전에는 노란끼 있는 브라윤인데",
+      "en": "Before, it was a yellow-toned brown,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금은 레드 섞인 브라운이야",
+      "en": "but now it's a red-mixed brown."
+    },
+    {
+      "type": "hayeon",
+      "ko": "살짝 체리색",
+      "en": "A slightly cherry color."
+    },
+    {
+      "type": "hayeon",
+      "ko": "흥",
+      "en": "Hmph."
+    },
+    {
+      "type": "hayeon",
+      "ko": "더 노력하세요!",
+      "en": "Try harder!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 날씨 진진진으로 좋다",
+      "en": "The weather today is seseseriously nice."
+    },
+    {
+      "type": "hayeon",
+      "ko": "퇴근하고",
+      "en": "After work,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "Faust보러 갈게",
+      "en": "I'm going to see Faust."
+    },
+    {
+      "type": "hayeon",
+      "ko": "언제 퇴근이냐구?",
+      "en": "\"When do you get off work?\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "몰라",
+      "en": "I don't know."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그냥 혼자 도망가야지",
+      "en": "I'll just run away by myself."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㄹㄹㅋㄹㅋㄹㅋㄹㅋㅋ",
+      "en": "ㅋㅋㄹㄹㅋㄹㅋㄹㅋㄹㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "넘 힘들!!!!!!!",
+      "en": "It's so tiring!!!!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "살려줭",
+      "en": "Save me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래도 해야지",
+      "en": "But I still have to do it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "Faust한테 무대 이쁘게 보여줘야지..",
+      "en": "I need to show Faust a pretty stage.."
+    },
+    {
+      "type": "hayeon",
+      "ko": "Sns올라왔엉?",
+      "en": "Did the SNS post go up?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 지금 이쁜데..?",
+      "en": "I look pretty right now..?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎㅎ",
+      "en": "ㅎㅎㅎ"
+    },
+    {
+      "type": "fan",
+      "ko": "근데 궁금한 게 sns 멘트는 하연이가 쓰는 거야?",
+      "en": "But I'm curious—does Hayeon write the SNS captions herself?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞아",
+      "en": "Yes."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이 영어 명언 요즘에는 왜 안써줘ㅠ",
+      "en": "Then why don't you post English quotes these daysㅠ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "놀림 너무 당해서 쿨타임 차야 해",
+      "en": "I got teased too much. I need a cooldown period."
+    },
+    {
+      "type": "fan",
+      "ko": "그것도 궁금해",
+      "en": "I'm curious about that too."
+    },
+    {
+      "type": "fan",
+      "ko": "몇년전인가 영어 문구 올렸…",
+      "en": "A few years ago you posted English phrases..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "네이버에 열심히 쳐서…",
+      "en": "I searched really hard on Naver..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 이제 네이버 말고 지피티한테 물어보려고!! 하하",
+      "en": "But now instead of Naver, I'm going to ask GPT!! Haha."
+    },
+    {
+      "type": "hayeon",
+      "ko": "네이버에",
+      "en": "On Naver,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "감동 명언",
+      "en": "\"Touching quotes,\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "멋있는 명언",
+      "en": "\"Cool quotes,\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "해서",
+      "en": "I'd search those"
+    },
+    {
+      "type": "hayeon",
+      "ko": "열심히 찾아야 괜찮은 글 나왔었는데",
+      "en": "and look really hard to find good ones."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이제 지피티 한테 시켜야겠어",
+      "en": "Now I'll just make GPT do it."
+    },
+    {
+      "type": "fan",
+      "ko": "진짜 어떡해 지금 회사에서 웃참못해서 화장실로 도망옴..",
+      "en": "What do I do? I couldn't hold in my laughter at work, so I ran to the bathroom.."
+    },
+    {
+      "type": "hayeon",
+      "ko": "화장실에서 웃으면 넘 무서울것같은데?",
+      "en": "Wouldn't it be scary if you laugh in the bathroom?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅌㅋㄹㅋㄹㅋㅋㅋㅋㅋㅋ",
+      "en": "ㅌㅋㄹㅋㄹㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "저메추 해줄 하연이 구함",
+      "en": "Looking for Hayeon to recommend dinner."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 맞다 멤버들 다같이",
+      "en": "Oh right, all the members together"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어제부터 계속 봄동비빔밥 먹고싶다고",
+      "en": "have been saying since yesterday that we want spring cabbage bibimbap."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 연습 중간에 시키자 해서",
+      "en": "So during practice today we said let's order it,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금 시켰을거야",
+      "en": "so they probably ordered it by now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "봄동 비빔밥❤️",
+      "en": "Spring cabbage bibimbap❤️"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 시켰어",
+      "en": "I ordered it too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "알고리즘에 봄동이랑 간장게장만 떠",
+      "en": "My algorithm only shows spring cabbage and soy sauce marinated crab."
+    },
+    {
+      "type": "hayeon",
+      "ko": "미치겠어",
+      "en": "I'm going crazy."
+    },
+    {
+      "type": "fan",
+      "ko": "난 너…///",
+      "en": "I'm going crazy over you…///"
+    },
+    {
+      "type": "hayeon",
+      "ko": "미치겠어?",
+      "en": "You're going crazy?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㅋㅋㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㅋㅋㅋ"
+    },
+{
+  "type": "hayeon",
+  "sticker": "sticker-01.webp"
+},
+{
+  "type": "hayeon",
+  "sticker": "sticker-02.webp"
+},
+    {
+      "type": "hayeon",
+      "ko": "이제 가보게써 ㅠ",
+      "en": "I have to go nowㅠ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "곧 출국이넹",
+      "en": "I'm leaving the country soon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "타이페이 첫콘 화이팅~😍",
+      "en": "First concert in Taipei, fighting~😍"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘도 화이팅이양",
+      "en": "Let's do our best today too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "좋은하루 보내구",
+      "en": "Have a good day."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해🫶❤️‍🔥",
+      "en": "Haranghae🫶❤️‍🔥"
+    }
+  ]
+}
