@@ -1,0 +1,407 @@
+{
+  "date": "2025-12-31",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "나의 10대의 마지막이야",
+      "en": "It's the last day of my teenage years."
+    },
+    {
+      "type": "hayeon",
+      "ko": "6시간뒤에 성인되는 하연..",
+      "en": "Hayeon will become an adult in six hours..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "07애들 줄 선물도 샀어",
+      "en": "I also bought gifts for the 07z."
+    },
+    {
+      "type": "hayeon",
+      "ko": "완전 귀여운거",
+      "en": "They're really cute."
+    },
+    {
+      "type": "hayeon",
+      "ko": "서로 비밀하기로 해서",
+      "en": "We promised to keep them a secret from each other."
+    },
+    {
+      "type": "hayeon",
+      "ko": "비밀이야~",
+      "en": "So it's a secret~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나중에 공개하고",
+      "en": "I'll reveal them later."
+    },
+    {
+      "type": "hayeon",
+      "ko": "알려줄게",
+      "en": "Then I'll tell you all about them."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "직접 만들었어!!",
+      "en": "I even made one myself!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고 하나는 키링같은거",
+      "en": "And another one is like a keyring."
+    },
+    {
+      "type": "hayeon",
+      "ko": "먹는거 아님ㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "It's not something you eat thoughㅋㅋㅋㅋ."
+    },
+    {
+      "type": "hayeon",
+      "ko": "혜린 채원이랑",
+      "en": "I'm with Hyerin and Chaewon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "밥먹으러 왔엉",
+      "en": "We came to eat together."
+    },
+    {
+      "type": "hayeon",
+      "ko": "수민이는",
+      "en": "Soomin is..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "부모님과",
+      "en": "With her parents."
+    },
+    {
+      "type": "hayeon",
+      "ko": "있어ㅓ",
+      "en": "Right now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "카운트다운 같이 하기로해서",
+      "en": "We're meeting up later to do the countdown together."
+    },
+    {
+      "type": "hayeon",
+      "ko": "좀이따 볼거야",
+      "en": "I'll see them in a little while."
+    },
+    {
+      "type": "hayeon",
+      "ko": "사람 너무 많을거같아",
+      "en": "I think there are going to be so many people."
+    },
+    {
+      "type": "hayeon",
+      "ko": "윌리를 찾아라처럼",
+      "en": "It's going to be like *Where's Waldo?*"
+    },
+    {
+      "type": "hayeon",
+      "ko": "07즈를 찾아라!",
+      "en": "Find the 07z!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 많이 춥더라",
+      "en": "It was really cold today."
+    },
+    {
+      "type": "hayeon",
+      "ko": "따듯하게 입고",
+      "en": "Dress warmly."
+    },
+    {
+      "type": "hayeon",
+      "ko": "새해복 많이 받기",
+      "en": "I hope you receive lots of New Year's blessings."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 절 받아",
+      "en": "Please accept my New Year's bow."
+    },
+    {
+      "type": "hayeon",
+      "sticker": "sticker-01.webp"
+    },
+    {
+      "type": "fan",
+      "ko": "두번하면안된다",
+      "en": "Don't bow twice."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 ㅎㅎ 두번 아니였어~? ㅎㅎ",
+      "en": "Ah haha, wasn't it supposed to be twice~? Haha."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "두번 하면 나는……. 새해를 맞이하지 못하겠지",
+      "en": "If you bow twice... I probably won't make it to the New Year."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㄹㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아직 안했어",
+      "en": "I haven't bowed yet."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 올해",
+      "en": "This year..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "열심히 사랑했다.",
+      "en": "I loved with all my heart."
+    },
+    {
+      "type": "hayeon",
+      "ko": "**Y/n**",
+      "en": "**Y/n**."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내년엔 더 뜨겁게 사랑한다.",
+      "en": "Next year, I'll love you even more passionately."
+    },
+    {
+      "type": "hayeon",
+      "ko": "**Y/n**",
+      "en": "**Y/n**."
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리 진짜",
+      "en": "Let's really..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내년도 화이팅이야",
+      "en": "Do our best next year too."
+    },
+    {
+      "type": "hayeon",
+      "image": "image-01.webp"
+    },
+    {
+      "type": "hayeon",
+      "ko": "19.99999999살 하연이",
+      "en": "19.99999999-year-old Hayeon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "보기엔 첨보다 좀 성숙해 졌지?",
+      "en": "I look a bit more mature than when we first met, don't I?"
+    },
+    {
+      "type": "fan",
+      "ko": "하연언니나뭔가언니한테좋아함의감정이아니라진짜찐으로사랑하는것같아.. 없으면못살겠고너무연애통이와.",
+      "en": "Hayeon-unnie... I don't think it's just liking you anymore. I think I genuinely love you. It feels like I can't live without you, and I get lovesick."
+    },
+    {
+      "type": "hayeon",
+      "ko": "헉 그거 나돈데",
+      "en": "Heok... I'm the same."
+    },
+    {
+      "type": "hayeon",
+      "ko": "고치는법 아는사람?",
+      "en": "Does anyone know how to fix that?"
+    },
+    {
+      "type": "fan",
+      "ko": "나도 몰라서 계속 저렇게 살고 있어..",
+      "en": "I don't know either, so I've just been living like this..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅌㅌㅋㄹㅋㄹㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋㅋ",
+      "en": "ㅋㅋㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "고치지 말자~",
+      "en": "Then let's not fix it~"
+    },
+    {
+      "type": "fan",
+      "ko": "아이돌이 딸 같은 건 어떡해야 함.. 내가 키워야할 거 같고 육아통? 오는 거",
+      "en": "What do I do if my idol feels like my daughter... Like I have to raise you and I get parenting pains?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그건 진짜 영원해야 한다는 뜻 아닐까",
+      "en": "Doesn't that mean it has to last forever?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 이렇게 프롬하고",
+      "en": "After talking on Fromm like this today..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "딱 1월1일에 다시 오면",
+      "en": "If I come back exactly on January 1st..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜",
+      "en": "It'll really..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "기분 이상할거같아",
+      "en": "Feel so strange."
+    },
+    {
+      "type": "fan",
+      "ko": "하연아 나 너 동결건조해도돼?",
+      "en": "Hayeon, can I freeze-dry you?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ 많이 부풀듯",
+      "en": "ㅋㅋㅋㅋ I'd probably puff up a lot."
+    },
+    {
+      "type": "hayeon",
+      "ko": "19살의 하연 동결건조⭐️",
+      "en": "Freeze-dried 19-year-old Hayeon⭐️"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 20살 이라니이",
+      "en": "I can't believe I'm turning twenty..."
+    },
+    {
+      "type": "fan",
+      "ko": "19살의 정하연 음메 보내주세요..",
+      "en": "Please send one last 19-year-old Jeong Hayeon voice message..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "음메~",
+      "en": "Moo~"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-01.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "웨이팅 중이야…",
+      "en": "We're waiting for a table..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎ하하",
+      "en": "Haha."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하이디",
+      "en": "Haidilao."
+    },
+    {
+      "type": "hayeon",
+      "ko": "응",
+      "en": "Yeah."
+    },
+    {
+      "type": "hayeon",
+      "ko": "비밀!!",
+      "en": "It's a secret!!"
+    },
+    {
+      "type": "fan",
+      "ko": "아니근데예약그거도안하고간거야?",
+      "en": "Wait, you went without even making a reservation?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "해도 느려!!!!",
+      "en": "It's still slow even if you make one!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "유빈언니 있었으면",
+      "en": "If Yubin-unnie were here..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "VIP로 바로 들어갔을듯",
+      "en": "We probably would've gone straight in as VIPs."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "암튼",
+      "en": "Anyway..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맛있게 먹겠습니당",
+      "en": "I'm going to enjoy my meal."
+    },
+    {
+      "type": "hayeon",
+      "ko": "떵개하고올겡",
+      "en": "I'll go eat and come back."
+    },
+    {
+      "type": "hayeon",
+      "ko": "해피뉴이어~❤️",
+      "en": "Happy New Year~ ❤️"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내년에 봥",
+      "en": "See you next year~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "올해 마지막",
+      "en": "For the last time this year..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해❤️❤️❤️",
+      "en": "Haranghae. ❤️❤️❤️"
+    }
+  ]
+}
