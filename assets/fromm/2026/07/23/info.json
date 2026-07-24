@@ -1,0 +1,927 @@
+{
+  "date": "2026-07-23",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "머해",
+      "en": "What are you doing?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래비티 떴규낭",
+      "en": "Gravity is out~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "제니스가 열심히 고룬거양",
+      "en": "Zenith worked really hard choosing everything."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맘에들어?",
+      "en": "Do you like it?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐가 보고싶어?",
+      "en": "What do you want to see?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오호",
+      "en": "Oho."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 맞아",
+      "en": "Oh, right."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나이제 운동좀 해야겠다 싶어서",
+      "en": "I figured it's about time I started exercising again."
+    },
+    {
+      "type": "hayeon",
+      "ko": "저번에 수민이 끌고나가서",
+      "en": "So the other day I dragged Soomin outside,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "3시간 동안 뛰었어",
+      "en": "and we ran for three hours."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 웃긴게",
+      "en": "The funniest part was,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "수민이랑 나랑 속도가 너무 달라서",
+      "en": "our running speeds were completely different."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 계속 맞춰서 뛰어주다가",
+      "en": "I kept slowing down to match her pace,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나만 너무 운동이 안되고",
+      "en": "so I barely got any exercise,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "수민이만 힘들어하는거야",
+      "en": "while Soomin was the only one getting exhausted."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래서 막판에",
+      "en": "So near the end,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "너때문에 내가 운동이 안되잖아 하면서 등밀어주면서 계속 뛰었는데",
+      "en": "I kept pushing her from behind, saying, \"Because of you I'm not getting any exercise!\" while we kept running."
+    },
+    {
+      "type": "hayeon",
+      "ko": "막판에 수민이가 자기 버리고 먼저 뛰라길래",
+      "en": "Then at the very end, Soomin told me to leave her behind and keep going."
+    },
+    {
+      "type": "hayeon",
+      "ko": "열심히 따라와~ 하고",
+      "en": "So I said, \"Do your best and catch up~\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "뛰다가 뒤를 봤는데 안보이는거야",
+      "en": "I ran ahead, then looked back... and she was nowhere to be seen."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래서 계속 기다리는데",
+      "en": "So I kept waiting,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다리 다친 강아지처럼",
+      "en": "and she came running like a puppy with an injured leg,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "절뚝 거리면서 열심히 뛰어오다가",
+      "en": "limping while trying her best to catch up,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "가!!!!!!! 먼저 가!!!!!!!! 가!!!!!",
+      "en": "\"GO!!!!!!! JUST GO!!!!!!!! GO!!!!!\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러먄서 뛰어오는거임",
+      "en": "she was yelling while running toward me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㅎㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㅎㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 너무 귀여웠어",
+      "en": "She was seriously so cute."
+    },
+    {
+      "type": "hayeon",
+      "ko": "옆에 러닝하시는 다른 사람들 다 쳐다보는데",
+      "en": "Everyone else who was out running kept staring at us,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "굴하지않고",
+      "en": "but she didn't care at all."
+    },
+    {
+      "type": "hayeon",
+      "ko": "가!!!!!!!!!!!!",
+      "en": "\"GO!!!!!!!!!!!!\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러는데",
+      "en": "she just kept shouting."
+    },
+    {
+      "type": "hayeon",
+      "ko": "웃겨 죽는줄",
+      "en": "I thought I was going to die laughing."
+    },
+    {
+      "type": "fan",
+      "ko": "너무 이뻐서 쳐다보신거 아닐까?",
+      "en": "Maybe they were staring because you two were so pretty?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리의 상태는 거지꼴이였어 ㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "We looked like absolute messes. ㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 이상하게 쳐다보심",
+      "en": "They were definitely looking at us weirdly."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 웃겨 김수민",
+      "en": "Kim Soomin is seriously so funny."
+    },
+        {
+      "type": "hayeon",
+      "ko": "수민이 요즘 나 괴롭히고있어",
+      "en": "Soomin has been bullying me lately."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맨날 전화와서",
+      "en": "She calls me every day,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "왜? 이러면",
+      "en": "and whenever I answer, \"What is it?\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 전화하는게 이유가 필요해????!!! 왜 왜라고 말하는거야 자꾸????",
+      "en": "she goes, \"Do I need a reason to call you????!!! Why do you always ask 'why'????\""
+    },
+    {
+      "type": "fan",
+      "ko": "근데 수민이 자기전에 리네랑 맨날 전화한데..",
+      "en": "But I heard Soomin calls Rinne every night before going to sleep..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래 이말을 듣고",
+      "en": "Right, after hearing that,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래서 난 받을때마다",
+      "en": "now every time she calls,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "너 나한테 몇번째로 전화한거야",
+      "en": "I ask, \"What number call am I today?\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "물어봄",
+      "en": "That's what I ask her."
+    },
+    {
+      "type": "fan",
+      "ko": "근데너도수민이가첫번째맞아?",
+      "en": "But are you Soomin's first call too?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 전화를 잘 안걸어",
+      "en": "I don't really make phone calls."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 먼저 연락을 애초에",
+      "en": "I don't usually contact people first"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘 안하고",
+      "en": "to begin with."
+    },
+    {
+      "type": "hayeon",
+      "ko": "요즘 계속",
+      "en": "Lately,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "새로운 이쁜 노트랑 샤프 사서",
+      "en": "I've been buying pretty new notebooks and mechanical pencils,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "숙소에서 계속 그림이랑 글만",
+      "en": "and at the dorm I've just been drawing and writing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "쓰고있어",
+      "en": "That's all I've been doing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "컨셉같아요..",
+      "en": "That sounds like a whole concept..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 이미지가 워낙 웃기고 막 사랑스럽고 귀엽고 여신이라 그렇지",
+      "en": "It's only because my image is already funny, lovable, cute, and goddess-like."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 또 한 감수성 한다구",
+      "en": "But I'm actually quite sentimental too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 웨이브 생각하면서 구림 하나 그려서",
+      "en": "I drew something while thinking about WAV."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나중에 보내줄게",
+      "en": "I'll send it to you later."
+    },
+    {
+      "type": "fan",
+      "ko": "똥그려줘",
+      "en": "Draw poop."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아오",
+      "en": "Agh."
+    },
+    {
+      "type": "hayeon",
+      "ko": "똥얘기는 나이상관없이",
+      "en": "Talking about poop,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "치트키인건가",
+      "en": "is it a cheat code no matter your age?"
+    },
+    {
+      "type": "fan",
+      "ko": "글은 어떤거 쓰는데? 채원이 디스랩같은건가?",
+      "en": "What kind of things are you writing? Like Chaewon's diss rap?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그건 평소에 하고",
+      "en": "I do that normally."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "최근엔 아주 심오한 글을 썼어",
+      "en": "Recently I've been writing something much deeper."
+    },
+    {
+      "type": "hayeon",
+      "ko": "사람의 안일함과 운명",
+      "en": "Things like human complacency and destiny."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런 느낌",
+      "en": "That kind of theme."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뒤늦은 사춘기 아니고요..",
+      "en": "It's not late puberty..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "예술가병이라고 해주세요",
+      "en": "Please call it 'artist syndrome.'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하하",
+      "en": "하하."
+    },
+    {
+      "type": "hayeon",
+      "ko": "한 문장정도만",
+      "en": "If I were to reveal just one sentence..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "공개하자면",
+      "en": "it would be:"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리움과 슬픔은 필연적이지만 죄책과 좌절은 운명과도 같다고 생각했다",
+      "en": "I thought longing and sadness were inevitable, but guilt and despair were something akin to fate."
+    },
+    {
+      "type": "hayeon",
+      "ko": "죄책과 후회 그리움이 섞여 내린 눈물은 아무맛이 나지 않을것이다",
+      "en": "Tears shed with guilt, regret, and longing mixed together would have no taste."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런 굉장히 심오하고 아티스트적인",
+      "en": "It's something really profound and artistic,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "멋있는 글이지 ㅋ",
+      "en": "a pretty cool piece of writing, right? ㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 너무 억울해서",
+      "en": "Honestly, it's so unfair."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 초딩서부터 시랑 소설 계속 쓰던 노트들",
+      "en": "I want to show you the notebooks where I've been writing poems and novels since elementary school,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "보여주고싶지만",
+      "en": "but..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "참을게.",
+      "en": "I'll hold back."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뷰끄러우니깡",
+      "en": "It's embarrassing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가쓴 글중에",
+      "en": "Out of everything I've written,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "젤 맘에 들고 완성도 있는건",
+      "en": "the one I'm most satisfied with, and the most complete,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "추리소설이야",
+      "en": "is a mystery novel."
+    },
+    {
+      "type": "hayeon",
+      "ko": "주인공이 한 오피스텔로 들어가게 되면서 일어나는",
+      "en": "It's about a main character who moves into an officetel,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이웃들과의 관계",
+      "en": "and the relationships that develop with the neighbors."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런게 재밌어",
+      "en": "That's the part I find interesting."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 버킷리스트는",
+      "en": "One of the things on my bucket list is"
+    },
+    {
+      "type": "hayeon",
+      "ko": "문장공부 잘 해서",
+      "en": "to seriously study writing,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나의 책 하나 내는거",
+      "en": "and publish a book of my own."
+    },
+    {
+      "type": "hayeon",
+      "ko": "번지점프는 이미 이뤘어",
+      "en": "I've already crossed bungee jumping off my bucket list."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 이제 나인걸 숨기고 내서",
+      "en": "But next, I want to publish it without anyone knowing it's me,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "무명작가",
+      "en": "as an unknown author,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런 신비감까지",
+      "en": "with that kind of mysterious feeling."
+    },
+        {
+      "type": "fan",
+      "ko": "진짜아무도관심없으면어떡해...?ㅠ",
+      "en": "But what if literally nobody cares...? ㅠ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "주변인들한테 몇권 돌리고 마는거지 뭐…",
+      "en": "Then I'll just hand out a few copies to the people around me..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그럼 나중에 내가 밝힐듯 ㅋㅋㄹㅋㄹㄹㅋㅋ",
+      "en": "Then later I'll probably reveal that it was me. ㅋㅋㄹㅋㄹㄹㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사실 나야!!! 내가 쓴거라고!!! 제발 읽어봐!!!",
+      "en": "\"It was me!!! I wrote it!!! Please read it!!!\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "재밌는 인생이다",
+      "en": "Life is fun."
+    },
+    {
+      "type": "hayeon",
+      "ko": "책을 아주 심오하게 써서",
+      "en": "I'll write an incredibly profound book,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "가스라이팅을 해서",
+      "en": "brainwash everyone with it,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다 보고나면 다 하연교를 믿고있는",
+      "en": "so that after finishing it, everyone ends up believing in the Church of Hayeon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그런 세상을 만들겠어!!!",
+      "en": "I'll create a world like that!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하하하핳하하하하하ㅏㅏㅏㅏㅏ!!!!!!!",
+      "en": "Mwahahaha!!!!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "몰랐겠지만",
+      "en": "You probably didn't know,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이미Y/n는 하연교 라면",
+      "en": "but if there were a Church of Hayeon,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "믿을래?",
+      "en": "would you believe in it?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하를 믿습니까?",
+      "en": "Do you believe in Ha?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "움하하ㅏ",
+      "en": "Mwahaha."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하연을 믿으면",
+      "en": "If you believe in Hayeon,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "눈이 개안하고 하연을 닮아져 귀여워지며! 모든일이 잘 풀릴것입니다",
+      "en": "your eyes will be opened, you'll become as cute as Hayeon, and everything in your life will go well!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎㅎㅎ",
+      "en": "ㅎㅎㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "최근에 샵 쌤한테",
+      "en": "Recently, at the salon,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "쌤 여기 귀신있어요",
+      "en": "I joked, \"Teacher, there's a ghost here.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러고 장난쳤는데",
+      "en": "I was just teasing them,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "쌤이 진짜 믿으셔서",
+      "en": "but the stylist actually believed me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어떻게 생겼는데…?",
+      "en": "\"What does it look like...?\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "몇살이래…?",
+      "en": "\"How old is it...?\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "막 이러시는거야 ㅋㄹㅋㄹㅋㄹ",
+      "en": "They kept asking me that. ㅋㄹㅋㄹㅋㄹ"
+    },
+        {
+      "type": "hayeon",
+      "ko": "그래서 내가",
+      "en": "So I said,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어린 남자애가 쌤한테 매달려 있어요!!!",
+      "en": "\"There's a little boy clinging onto you, teacher!!!\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이랬는데 쌤이",
+      "en": "Then the stylist went,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 가라고해ㅠㅠㅠ!!!!",
+      "en": "\"Ah, tell him to go away!!!! ㅠㅠㅠ\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "떨어지라고 해!!ㅠㅠㅠㅠ",
+      "en": "\"Tell him to let go!! ㅠㅠㅠㅠ\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러시는거야",
+      "en": "They actually said that."
+    },
+    {
+      "type": "fan",
+      "ko": "속아주는건가? 아니면 진심?",
+      "en": "Were they just playing along, or were they serious?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 그래서 나도",
+      "en": "So I asked too,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "막 놀리다가",
+      "en": "after teasing them for a bit,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "쌤 근데 진심으로 믿으신거 아니죠?",
+      "en": "\"Teacher... you didn't actually believe me, right?\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "했는데",
+      "en": "I asked,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐야!!! 아니였어!!!!??",
+      "en": "and they replied, \"What!!! It wasn't real!!!!??\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러시는거야",
+      "en": "That's what they said."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 웃겼다",
+      "en": "It was so funny."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 폰 꺼져서 바로 충전하고 왔어",
+      "en": "Anyway, my phone died, so I went to charge it right away."
+    },
+    {
+      "type": "hayeon",
+      "ko": "빠르지",
+      "en": "That was quick, right?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금 1프로 됐어",
+      "en": "It's at 1% now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아무튼",
+      "en": "Anyway,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런 썰들이 있었다",
+      "en": "those were today's stories."
+    },
+    {
+      "type": "fan",
+      "sticker": "sticker-01.gif"
+    },
+    {
+      "type": "fan",
+      "ko": "하연아, 이제 이모티콘도 보낼 수 있는 거 알아?",
+      "en": "Hayeon, did you know you can send stickers now?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 내거는 왤케 못생긴걸로",
+      "en": "Why did they make mine so ugly?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "해놓으셨댜",
+      "en": "That's what they gave me."
+    },
+    {
+      "type": "hayeon",
+      "sticker": "sticker-02.gif"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐야 이게",
+      "en": "What is this?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 징그러워",
+      "en": "It's so creepy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 다현언니가 그린거라구..?",
+      "en": "Wait... Dahyun unnie drew this...?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나처럼 심오한 예술감각이 있네..",
+      "en": "She has profound artistic sense, just like me..."
+    },
+        {
+      "type": "hayeon",
+      "ko": "헐 주빈이 귀여워",
+      "en": "Whoa, Joobin is so cute."
+    },
+    {
+      "type": "hayeon",
+      "ko": "갑자기 내 향이 나서 연락했대",
+      "en": "She suddenly messaged me because she caught my scent."
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀여웡 ㅠㅠㅠ",
+      "en": "So cute. ㅠㅠㅠ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "향수 바꿨거등",
+      "en": "I changed my perfume, you know."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금은",
+      "en": "Right now,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "킬리안 우먼 인 골드 인가",
+      "en": "I think it's Kilian Woman in Gold."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이건 살짝",
+      "en": "This one has a slightly"
+    },
+    {
+      "type": "hayeon",
+      "ko": "성숙한 향인데",
+      "en": "more mature scent."
+    },
+    {
+      "type": "hayeon",
+      "ko": "전에는 더 중성적이고 코튼 그런거 썼징",
+      "en": "Before, I used more gender-neutral, cotton-like fragrances."
+    },
+    {
+      "type": "fan",
+      "ko": "근데 나이가 들수록 찾는 향도 달라지고 그래??",
+      "en": "Do the kinds of scents you like change as you get older?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 그렇더라",
+      "en": "Yeah, they actually do."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어릴땐 막 과일향 섬유유연제 향",
+      "en": "When I was younger, I liked fruity scents and fabric softener smells."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런게 좋다가",
+      "en": "Those were my favorites."
+    },
+    {
+      "type": "hayeon",
+      "ko": "점점 코튼 파우더 이런게 좋다가",
+      "en": "Then I gradually started liking cotton powder scents."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이젠 살짝 플로럴파우더",
+      "en": "Now I like slightly floral powder scents."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런 느낌",
+      "en": "That's the kind of fragrance I like now."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이가 싫어하는 향은 어떤거야?? 이게 더 궁금해 사실",
+      "en": "What kind of scents do you dislike? I'm actually more curious about that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "싫어하는건",
+      "en": "The ones I don't like are..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아빠 스킨냄새 같은거랑 진한 우드 이런거",
+      "en": "things like my dad's aftershave or really strong woody fragrances."
+    },
+    {
+      "type": "hayeon",
+      "ko": "쨍한 냄새나 찐한거 싫어하는듯",
+      "en": "I don't think I like sharp or overpowering scents."
+    },
+    {
+      "type": "hayeon",
+      "ko": "자연스러운 느낌 은은한게 좋아",
+      "en": "I prefer natural, subtle fragrances."
+    },
+    {
+      "type": "fan",
+      "sticker": "sticker-03.gif"
+    },
+    {
+      "type": "fan",
+      "ko": "이거 정하연 나가 토끼래",
+      "en": "They said this bunny is supposed to be Jeong Hayeon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다현 언니가? ㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋ",
+      "en": "Dahyun unnie made it? ㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "징글징글벨토끼",
+      "en": "It should be called the 'Jingle Jingle Bell Bunny.'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런거로 해야될듯!!!",
+      "en": "Something like that would fit better!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하하하ㅏ",
+      "en": "Hahaha."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이제 샤워하러 가야긋다",
+      "en": "I should go take a shower now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "밖에 공기가 완전 물을 머금고 있던데",
+      "en": "The air outside is completely full of moisture."
+    },
+    {
+      "type": "hayeon",
+      "ko": "습하다 습해",
+      "en": "It's so humid."
+    },
+    {
+      "type": "hayeon",
+      "ko": "제습기 틀고 있는즁",
+      "en": "I've got the dehumidifier running."
+    },
+    {
+      "type": "hayeon",
+      "ko": "Y/n도 시원한 샤워 하시구",
+      "en": "You should take a nice cool shower too, Y/n."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 갈겡",
+      "en": "I'm heading off now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해😙😙",
+      "en": "Haranghae 😙😙"
+    }
+  ]
+}

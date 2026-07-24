@@ -580,6 +580,20 @@
         }
     },
     {
+        "path": "2024/December/06 - Japan Official Fanclub Wav Movie",
+        "info": {
+            "title": "Japan Official Fanclub Wav Movie",
+            "date": "December 06",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "jpfc.mp4",
+            "files": [
+                "jpfc.mp4"
+            ]
+        }
+    },
+    {
         "path": "2024/December/06 - Yotube Shorts - TripleS Official",
         "info": {
             "title": "Yotube Shorts - TripleS Official",
@@ -712,6 +726,20 @@
             "cover": "melon.mp4",
             "files": [
                 "melon.mp4"
+            ]
+        }
+    },
+    {
+        "path": "2024/December/14 - Japan Official Fanclub Wav Movie",
+        "info": {
+            "title": "Japan Official Fanclub Wav Movie",
+            "date": "December 14",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "jpfc.mp4",
+            "files": [
+                "jpfc.mp4"
             ]
         }
     },
@@ -3824,6 +3852,22 @@
         }
     },
     {
+        "path": "2025/August/26 - Modelpress",
+        "info": {
+            "title": "Modelpress",
+            "date": "August 26",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "01.jpg",
+            "files": [
+                "01.jpg",
+                "02.jpg",
+                "03.jpg"
+            ]
+        }
+    },
+    {
         "path": "2025/August/27 - Fromm",
         "info": {
             "title": "Fromm",
@@ -4792,6 +4836,20 @@
         }
     },
     {
+        "path": "2025/July/02 - X Post TripleS Japan Official",
+        "info": {
+            "title": "X Post TripleS Japan Official",
+            "date": "July 02",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "alive25.mp4",
+            "files": [
+                "alive25.mp4"
+            ]
+        }
+    },
+    {
         "path": "2025/July/03 -  X Post TripleS Official",
         "info": {
             "title": "X Post TripleS Official",
@@ -4949,6 +5007,20 @@
         }
     },
     {
+        "path": "2025/July/17 - X Post TripleS Japan Official",
+        "info": {
+            "title": "X Post TripleS Japan Official",
+            "date": "July 17",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "alive25.mp4",
+            "files": [
+                "alive25.mp4"
+            ]
+        }
+    },
+    {
         "path": "2025/July/17 - Yubin Fromm",
         "info": {
             "title": "Yubin Fromm",
@@ -5007,6 +5079,35 @@
         }
     },
     {
+        "path": "2025/July/19 - X Post TripleS Japan Official",
+        "info": {
+            "title": "X Post TripleS Japan Official",
+            "date": "July 19",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "01.jpg",
+            "files": [
+                "01.jpg"
+            ]
+        }
+    },
+    {
+        "path": "2025/July/20 - X Post Model Press",
+        "info": {
+            "title": "X Post Model Press",
+            "date": "July 20",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "01.jpg",
+            "files": [
+                "01.jpg",
+                "02.jpg"
+            ]
+        }
+    },
+    {
         "path": "2025/July/21 - Fromm",
         "info": {
             "title": "Fromm",
@@ -5017,6 +5118,34 @@
             "cover": "IMG_8568.PNG",
             "files": [
                 "IMG_8568.PNG"
+            ]
+        }
+    },
+    {
+        "path": "2025/July/21 - X Post TripleS Japan Official",
+        "info": {
+            "title": "X Post TripleS Japan Official",
+            "date": "July 21",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "01.jpg",
+            "files": [
+                "01.jpg"
+            ]
+        }
+    },
+    {
+        "path": "2025/July/22 - X Post Tower_Shibuya",
+        "info": {
+            "title": "X Post Tower_Shibuya",
+            "date": "July 22",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "01.jpg",
+            "files": [
+                "01.jpg"
             ]
         }
     },
@@ -5102,6 +5231,20 @@
             "files": [
                 "683efb332a7d7d5015e579e9_ASS25_4_149.jpg",
                 "683efb3fbcdecaa492dc2e11_ASS25_4_150.jpg"
+            ]
+        }
+    },
+    {
+        "path": "2025/June/03 - X Post TripleS Japan Official",
+        "info": {
+            "title": "X Post TripleS Japan Official",
+            "date": "June 03",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "ultist.mp4",
+            "files": [
+                "ultist.mp4"
             ]
         }
     },
@@ -5512,6 +5655,20 @@
         }
     },
     {
+        "path": "2025/March/28 - Japan Official Fanclub Wav Movie",
+        "info": {
+            "title": "Japan Official Fanclub Wav Movie",
+            "date": "March 28",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "jp fc.mp4",
+            "files": [
+                "jp fc.mp4"
+            ]
+        }
+    },
+    {
         "path": "2025/March/31 - Fromm",
         "info": {
             "title": "Fromm",
@@ -5665,7 +5822,8 @@
             "video": [],
             "cover": "1.jpg",
             "files": [
-                "1.jpg"
+                "1.jpg",
+                "2.jpg"
             ]
         }
     },
@@ -5768,8 +5926,10 @@
             "source": "Archive",
             "tags": [],
             "video": [],
-            "cover": "Korean-Trend1_main_desktop.png",
+            "cover": "01.jpg",
             "files": [
+                "01.jpg",
+                "02.jpg",
                 "Korean-Trend1_main_desktop.png",
                 "korean_cold_img_p1.png",
                 "korean_warm_img_p1.png",
@@ -5998,9 +6158,9 @@
             "source": "Archive",
             "tags": [],
             "video": [],
-            "cover": "xpost.mp4",
+            "cover": "ultist.mp4",
             "files": [
-                "xpost.mp4"
+                "ultist.mp4"
             ]
         }
     },
@@ -6148,6 +6308,20 @@
                 "683409cb162e2706901e308f_ASS25_3_249.jpg",
                 "683409e6fc47d4d4e77a1873_ASS25_3_251.jpg",
                 "68340c7d02de03cc7b1df811_S19_하연.jpg"
+            ]
+        }
+    },
+    {
+        "path": "2025/May/27 - X Post TripleS Japan Official",
+        "info": {
+            "title": "X Post TripleS Japan Official",
+            "date": "May 27",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "ultist.mp4",
+            "files": [
+                "ultist.mp4"
             ]
         }
     },
@@ -6422,6 +6596,21 @@
         }
     },
     {
+        "path": "2025/November/23 - Cosmo Room",
+        "info": {
+            "title": "Cosmo Room",
+            "date": "November 23",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "01.jpg",
+            "files": [
+                "01.jpg",
+                "02.jpg"
+            ]
+        }
+    },
+    {
         "path": "2025/November/23 - Fromm",
         "info": {
             "title": "Fromm",
@@ -6551,6 +6740,20 @@
             "cover": "IMG_9755.jpg",
             "files": [
                 "IMG_9755.jpg"
+            ]
+        }
+    },
+    {
+        "path": "2025/November/30 - X Post Line Music",
+        "info": {
+            "title": "X Post Line Music",
+            "date": "November 30",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "LineMusic.mp4",
+            "files": [
+                "LineMusic.mp4"
             ]
         }
     },
@@ -6784,21 +6987,6 @@
         }
     },
     {
-        "path": "2025/September/05 -",
-        "info": {
-            "title": "",
-            "date": "September 05",
-            "source": "Archive",
-            "tags": [],
-            "video": [],
-            "cover": "IMG_2714.jpg",
-            "files": [
-                "IMG_2714.jpg",
-                "IMG_2722.webp"
-            ]
-        }
-    },
-    {
         "path": "2025/September/05 - Fromm",
         "info": {
             "title": "Fromm",
@@ -6810,6 +6998,21 @@
             "files": [
                 "IMG_2352.PNG",
                 "IMG_2353.PNG"
+            ]
+        }
+    },
+    {
+        "path": "2025/September/05 - KanStarpress",
+        "info": {
+            "title": "KanStarpress",
+            "date": "September 05",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "IMG_2714.jpg",
+            "files": [
+                "IMG_2714.jpg",
+                "IMG_2722.webp"
             ]
         }
     },
@@ -7116,6 +7319,22 @@
         }
     },
     {
+        "path": "2026/April/07 - Cosmo Room",
+        "info": {
+            "title": "Cosmo Room",
+            "date": "April 07",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "01.jpg",
+            "files": [
+                "01.jpg",
+                "02.jpg",
+                "03.jpg"
+            ]
+        }
+    },
+    {
         "path": "2026/April/07 - Fromm",
         "info": {
             "title": "Fromm",
@@ -7162,6 +7381,20 @@
         }
     },
     {
+        "path": "2026/April/15 - X Post TripleS Japan Official",
+        "info": {
+            "title": "X Post TripleS Japan Official",
+            "date": "April 15",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "01.jpg",
+            "files": [
+                "01.jpg"
+            ]
+        }
+    },
+    {
         "path": "2026/April/16 - Fromm",
         "info": {
             "title": "Fromm",
@@ -7180,6 +7413,20 @@
         "info": {
             "title": "X Post TripleS Official",
             "date": "April 16",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "01.jpg",
+            "files": [
+                "01.jpg"
+            ]
+        }
+    },
+    {
+        "path": "2026/April/17 - X Post TripleS Japan Official",
+        "info": {
+            "title": "X Post TripleS Japan Official",
+            "date": "April 17",
             "source": "Archive",
             "tags": [],
             "video": [],
@@ -8029,6 +8276,20 @@
         }
     },
     {
+        "path": "2026/January/30 - Cosmo Room",
+        "info": {
+            "title": "Cosmo Room",
+            "date": "January 30",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "01.jpg",
+            "files": [
+                "01.jpg"
+            ]
+        }
+    },
+    {
         "path": "2026/July/01 - TripleS Cosmos Assemble26 Love n Pop behind",
         "info": {
             "title": "TripleS Cosmos Assemble26 Love n Pop behind",
@@ -8328,6 +8589,20 @@
         }
     },
     {
+        "path": "2026/July/16 - Cosmo Room",
+        "info": {
+            "title": "Cosmo Room",
+            "date": "July 16",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "mco behind.mp4",
+            "files": [
+                "mco behind.mp4"
+            ]
+        }
+    },
+    {
         "path": "2026/July/17 - X Post TripleS Official",
         "info": {
             "title": "X Post TripleS Official",
@@ -8409,6 +8684,20 @@
         }
     },
     {
+        "path": "2026/July/24 - Japan Official Fanclub Wav Movie Update",
+        "info": {
+            "title": "Japan Official Fanclub Wav Movie Update",
+            "date": "July 24",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "jp.jpg",
+            "files": [
+                "jp.jpg"
+            ]
+        }
+    },
+    {
         "path": "2026/June/01 - X Post TripleS Official",
         "info": {
             "title": "X Post TripleS Official",
@@ -8451,6 +8740,21 @@
             ],
             "cover": null,
             "files": []
+        }
+    },
+    {
+        "path": "2026/June/03 - Cosmo Room",
+        "info": {
+            "title": "Cosmo Room",
+            "date": "June 03",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "202607240957220.png",
+            "files": [
+                "202607240957220.png",
+                "202607240957221.png"
+            ]
         }
     },
     {

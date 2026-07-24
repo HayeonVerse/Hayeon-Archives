@@ -1,0 +1,505 @@
+{
+  "date": "2026-03-21",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "뭐행",
+      "en": "What are you doing?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 요즘 해산물에 더 빠져서",
+      "en": "Lately I've been really into seafood."
+    },
+    {
+      "type": "hayeon",
+      "ko": "5일 연속 저녁 해산물이야",
+      "en": "I've had seafood for dinner five days in a row."
+    },
+    {
+      "type": "hayeon",
+      "ko": "엊그제는 활전복16미 시켜서 혼자 다먹고 총알오징어찜도 먹었어..",
+      "en": "The day before yesterday I ordered 16 live abalones and ate them all by myself, and I also had steamed baby squid."
+    },
+    {
+      "type": "fan",
+      "ko": "너 바다에 살아?",
+      "en": "Do you live in the ocean?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "바다에 사는애들보다 더먹고있어",
+      "en": "I'm eating more seafood than the things that actually live in the ocean."
+    },
+    {
+      "type": "hayeon",
+      "ko": "방금도 해삼 멍게 전복 개불",
+      "en": "Just now I had sea cucumber, sea squirt, abalone, and spoon worms."
+    },
+    {
+      "type": "hayeon",
+      "ko": "먹었ㄴ어",
+      "en": "I ate all of that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "전복 미리 먹어놔",
+      "en": "You should eat abalone while you still can."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 다 먹을것같으니까",
+      "en": "I feel like I'm going to eat it all."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 이미 아가미 생겼지",
+      "en": "I've probably already grown gills."
+    },
+    {
+      "type": "hayeon",
+      "ko": "곧 바다로 갈수도",
+      "en": "I might move to the ocean soon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 머리색 바꿔오면",
+      "en": "If I came back with a different hair color,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어떨거같앙",
+      "en": "what do you think it'd be like?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "산신령 느낌으로 백금발이나",
+      "en": "Platinum blonde like a mountain spirit,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "인어공주처럼 레드나",
+      "en": "or red like a mermaid."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이랬는데",
+      "en": "I was thinking about those..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이미 한걸수도 있잖앙",
+      "en": "But what if I already did it?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎ",
+      "en": "ㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "낼 팬싸에서 첫공개!?",
+      "en": "First reveal at tomorrow's fansign!?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㄹㅋㄹㅋㅋㄹ",
+      "en": "ㅋㄹㅋㄹㄹㅋㄹㅋㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "넝담",
+      "en": "Just kidding."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이걸속네",
+      "en": "You actually fell for that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㄹㅋㅋㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㄹㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "낼 머리 후보",
+      "en": "Tomorrow's hairstyle candidates:"
+    },
+    {
+      "type": "hayeon",
+      "ko": "짧게 c컬",
+      "en": "Short C-curl."
+    },
+    {
+      "type": "hayeon",
+      "ko": "긴 웨이브",
+      "en": "Long waves."
+    },
+    {
+      "type": "hayeon",
+      "ko": "긴 웨이브가 압도적으로 많네",
+      "en": "Long waves are winning by a landslide."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅇㅋ",
+      "en": "Okay."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 나",
+      "en": "But..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "속눈썹 안붙히는게 더 이뻐?",
+      "en": "Do I look prettier without fake eyelashes?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "셀프할때는 안붙히고",
+      "en": "I don't wear them when I do my own makeup."
+    },
+    {
+      "type": "hayeon",
+      "ko": "샵가면 붙히는데",
+      "en": "But they put them on at the salon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "붙히면 뭔가 빡! 이렇게 되고",
+      "en": "When I wear them, I look sharper."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니면 좀 동그래져",
+      "en": "Without them, I look softer and rounder."
+    },
+    {
+      "type": "hayeon",
+      "ko": "최근 시그널도",
+      "en": "Even in my recent SIGNAL,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "안붙히긴했어",
+      "en": "I wasn't wearing them."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그 최근 릴스",
+      "en": "And in that recent Reel too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그럼 낼 긴웨이브에 속눈썹 안붙혀야지",
+      "en": "Then tomorrow I'll go with long waves and no fake eyelashes."
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리 올해 컴백",
+      "en": "Our comeback this year..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "기대 돼?",
+      "en": "Are you looking forward to it?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다행이네ㅔ",
+      "en": "That's a relief."
+    },
+    {
+      "type": "hayeon",
+      "ko": "열심히 잘 만들어 보게쓰",
+      "en": "I'll work hard to make it great."
+    },
+        {
+      "type": "hayeon",
+      "ko": "뭔가 느낌이 달라",
+      "en": "Somehow it feels different."
+    },
+    {
+      "type": "hayeon",
+      "ko": "준비하는게",
+      "en": "Preparing for it..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어떻게 다른진 모르겠는데",
+      "en": "I don't know exactly what's different,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "떨린다거 해야하나",
+      "en": "but maybe it's because I'm nervous."
+    },
+    {
+      "type": "hayeon",
+      "ko": "암튼!",
+      "en": "Anyway!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "기대 해 달라~",
+      "en": "Please look forward to it~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고",
+      "en": "And..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "많이 보고싶어",
+      "en": "I miss you a lot."
+    },
+    {
+      "type": "hayeon",
+      "ko": "볼 날 많으니까",
+      "en": "But we'll have lots of chances to see each other,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "좋네",
+      "en": "so that's nice."
+    },
+    {
+      "type": "hayeon",
+      "ko": "컴백을 오랜만에 하는것같은데",
+      "en": "It feels like it's been a while since our last comeback,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그사이에 뭔갈 많이해서",
+      "en": "but we've done so many things in between,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아직 크리스마스얼론 활동기같애",
+      "en": "that it still feels like we're promoting 'Christmas Alone.'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅎㅋㄹㅎㅋㄹㅎㅋㅋㅎㅋㅎ",
+      "en": "ㅋㅎㅋㄹㅎㅋㄹㅎㅋㅋㅎㅋㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리한텐 아직 크리스마스지 뭐~",
+      "en": "For us, it's still Christmas anyway~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "요즘 날씨 좋더라",
+      "en": "The weather's been really nice lately."
+    },
+    {
+      "type": "hayeon",
+      "ko": "따듯하고",
+      "en": "It's warm too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 봄이 싫어",
+      "en": "But I don't like spring."
+    },
+    {
+      "type": "hayeon",
+      "ko": "콧물 눈물",
+      "en": "Runny nose, watery eyes..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "눈 간지럽고 이제 난",
+      "en": "My eyes get itchy, and now..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "렌즈 못낀다",
+      "en": "I can't even wear contact lenses."
+    },
+    {
+      "type": "hayeon",
+      "ko": "원래 알러지 없었는데",
+      "en": "I never used to have allergies."
+    },
+    {
+      "type": "hayeon",
+      "ko": "꽃가루랑 비염",
+      "en": "But now I have pollen allergies and rhinitis."
+    },
+    {
+      "type": "hayeon",
+      "ko": "생겼어",
+      "en": "I ended up getting them."
+    },
+    {
+      "type": "hayeon",
+      "ko": "엄마랑 오빠만 비염이라",
+      "en": "Only my mom and older brother had rhinitis."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 맨날 놀렸는데",
+      "en": "I used to tease them all the time."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 생길줄은..",
+      "en": "I never thought I'd end up getting it too..."
+    },
+    {
+      "type": "fan",
+      "ko": "24시간 꽃가루 날리면 힘들겠다ㅜ",
+      "en": "If pollen were floating around 24 hours a day, that'd be roughㅜ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아ㅎ 내가 꽃이라?",
+      "en": "Ahㅎ Because I'm the flower?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아름다운자 그 고통을 견뎌라",
+      "en": "Those who are beautiful must endure that suffering."
+    },
+    {
+      "type": "hayeon",
+      "ko": "넵 ㅎㅎㅎ",
+      "en": "Yep. ㅎㅎㅎ"
+    },
+    {
+      "type": "fan",
+      "ko": "너 좀 많이 견뎌야겠는데",
+      "en": "Then you'll have to endure a lot."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 많이 무리 할게",
+      "en": "Then I'll push myself a lot."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㅎㅎㅎㅋㅎㅎ",
+      "en": "ㅋㄹㅋㅎㅎㅎㅋㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "씻고 자야하는데…",
+      "en": "I need to wash up and go to bed..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "해산물 먹으니까",
+      "en": "But after eating all that seafood,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "몸이 보양이 돼서",
+      "en": "my body feels so nourished,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잠이 안오네",
+      "en": "that I can't fall asleep."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고 엄마가 송이버섯도 보내줘서",
+      "en": "And my mom sent me some pine mushrooms too,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "생으로 먹었거든",
+      "en": "so I ate them raw."
+    },
+    {
+      "type": "hayeon",
+      "ko": "요즘 완전 건강보양아저씨입맛이야",
+      "en": "These days, I have the taste buds of a health-obsessed middle-aged man."
+    },
+    {
+      "type": "hayeon",
+      "ko": "사진 보내주고싶은데",
+      "en": "I want to send you some photos,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아직 다 미공개라",
+      "en": "but they're all still unreleased."
+    },
+    {
+      "type": "hayeon",
+      "ko": "찍어둔거 풀리면",
+      "en": "Once they get released,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "보내줄겡",
+      "en": "I'll send them to you~"
+    },
+    {
+      "type": "fan",
+      "ko": "송이버섯이?",
+      "en": "The pine mushrooms?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "겠냐궄ㅎㅋㅎㅋㅋㄹ",
+      "en": "Do you really think so? ㅎㅋㅎㅋㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "송이버섯은 그냥 네이버 쳐서 봐~",
+      "en": "Just search for pine mushrooms on Naver~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㄹㅋㅋㅎㅋㄹㄹㅋㄹ",
+      "en": "ㅋㄹㄹㅋㅋㅎㅋㄹㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 이제 씻으러 갈게유",
+      "en": "I'm going to wash up now~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘자구",
+      "en": "Sleep well,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "푹자구",
+      "en": "and get plenty of rest."
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀싱꿍꺼❤️‍🔥",
+      "en": "Sweet dreamies~ ❤️‍🔥"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "좋은꿈꿔",
+      "en": "Have sweet dreams."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해❤️❤️",
+      "en": "Haranghae ❤️❤️"
+    }
+  ]
+}
