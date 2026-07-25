@@ -1,6 +1,14 @@
 Website:
 https://hayeonarchive.com
 
-This website is a fan-made archive created by fans. It is NOT affiliated with MODHAUS, tripleS, or Jeong Hayeon. All photos, translations, chats, logos and media belong to their respective owners.
+## License
 
-© 2026 Hayeon Archive
+The website source code is licensed under the MIT License.
+
+See the LICENSE file for details.
+
+## Disclaimer
+
+Hayeon Archive is an unofficial fan-made archive and is not affiliated with Jeong Hayeon, MODHAUS, Fromm, COSMO, or any related company.
+
+All trademarks and media belong to their respective owners.
