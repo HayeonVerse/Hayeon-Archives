@@ -506,14 +506,31 @@ videos.forEach(videoUrl => {
     box.appendChild(header);
     box.appendChild(media);
 
+let hoverTimer;
+
 box.addEventListener("mouseenter", () => {
 
-    loadRemainingPreview(box, grid);
+    hoverTimer = setTimeout(() => {
+
+        box.classList.add("expanded");
+        loadRemainingPreview(box, grid);
+
+    }, 300);
+
+});
+
+box.addEventListener("mouseleave", () => {
+
+    clearTimeout(hoverTimer);
+
+    box.classList.remove("expanded");
 
 });
 
     return box;
 }
+
+
 
 function loadRemainingPreview(box, grid) {
 

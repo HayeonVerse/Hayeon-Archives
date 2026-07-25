@@ -573,9 +573,11 @@ align-items:start;
 
 }
 
+
+
 /* Expand image albums */
 
-.archive-day:hover .media-grid{
+.archive-day.expanded .media-grid{
 
     max-height:760px;
 
