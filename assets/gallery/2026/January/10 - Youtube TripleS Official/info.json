@@ -4,9 +4,10 @@
     "source": "Archive",
     "tags": [],
     "video": [
-        "https://www.youtube.com/watch?v=xkTYvmgas6Q",
-        "https://www.youtube.com/shorts/t_2dGSvpG6c"
+        "https://www.youtube.com/watch?v=xkTYvmgas6Q"
     ],
-    "cover": null,
-    "files": []
+    "cover": "sweetie.mp4",
+    "files": [
+        "sweetie.mp4"
+    ]
 }

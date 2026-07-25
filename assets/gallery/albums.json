@@ -8171,11 +8171,11 @@
             "date": "January 04",
             "source": "Archive",
             "tags": [],
-            "video": [
-                "https://www.youtube.com/shorts/tKEtwA82g1c"
-            ],
-            "cover": null,
-            "files": []
+            "video": [],
+            "cover": "lv20.mp4",
+            "files": [
+                "lv20.mp4"
+            ]
         }
     },
     {
@@ -8260,11 +8260,12 @@
             "source": "Archive",
             "tags": [],
             "video": [
-                "https://www.youtube.com/watch?v=xkTYvmgas6Q",
-                "https://www.youtube.com/shorts/t_2dGSvpG6c"
+                "https://www.youtube.com/watch?v=xkTYvmgas6Q"
             ],
-            "cover": null,
-            "files": []
+            "cover": "sweetie.mp4",
+            "files": [
+                "sweetie.mp4"
+            ]
         }
     },
     {
