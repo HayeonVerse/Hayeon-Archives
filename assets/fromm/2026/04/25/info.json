@@ -1,0 +1,25 @@
+{
+  "date": "2026-04-25",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "머해",
+      "en": "What are you doing?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "바쁘?",
+      "en": "Busy?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "라이브 킨다~",
+      "en": "I'm going live~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "드러와라~",
+      "en": "Come in~"
+    }
+  ]
+}

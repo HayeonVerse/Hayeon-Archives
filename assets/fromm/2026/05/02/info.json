@@ -1,0 +1,35 @@
+{
+  "date": "2026-05-02",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "모하나",
+      "en": "What are you doing?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "모아나?",
+      "en": "Moana?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 씻기 전 잠깐",
+      "en": "Before I go shower,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "라이브",
+      "en": "I'm going live"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㄱㄱ",
+      "en": "Let's go~"
+    }
+  ]
+}
