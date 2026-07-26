@@ -1,0 +1,856 @@
+{
+  "date": "2026-06-24",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "뭐행",
+      "en": "What are you doing?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 누어있엉",
+      "en": "I'm lying down~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어제 퇴근하고나서 지금까지",
+      "en": "Ever since I got off work yesterday,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "쭉 잤어 계석",
+      "en": "I've basically been sleeping the entire time."
+    },
+    {
+      "type": "hayeon",
+      "sticker": "sticker-01.webp"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이건 또 머지",
+      "en": "What's this one supposed to be?"
+    },
+    {
+      "type": "hayeon",
+      "sticker": "sticker-02.webp"
+    },
+    {
+      "type": "hayeon",
+      "sticker": "sticker-03.webp"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이건 나다",
+      "en": "This one's me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이름이 두두야?",
+      "en": "Its name is Dudu?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "배가 두둑하긴하네",
+      "en": "Its belly does look pretty full."
+    },
+    {
+      "type": "hayeon",
+      "image": "image-01.webp"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 손가락에 살쪘어",
+      "en": "I've gained weight in my fingers."
+    },
+    {
+      "type": "fan",
+      "ko": "어쩐지 타이핑 칠 때 오타나시더라",
+      "en": "No wonder you keep making typos while typing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "폭신거리긴 해",
+      "en": "They are kind of squishy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "렌즈 안낀사진 오랜만이지",
+      "en": "It's been a while since you've seen a photo of me without contacts, right?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "렌즈 안끼면",
+      "en": "If I don't wear contacts,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "눈이 안보여서",
+      "en": "I can't see,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "껴야대",
+      "en": "so I have to wear them."
+    },
+    {
+      "type": "fan",
+      "ko": "구럼 투명으로껴줘",
+      "en": "Then wear clear ones."
+    },
+    {
+      "type": "hayeon",
+      "ko": "투명도 껴봤거든?",
+      "en": "I tried clear lenses too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔가 파래지는게 싫어",
+      "en": "I don't like how they make my eyes look kind of blue."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 방금 죽먹었는데",
+      "en": "Ah, I just ate some porridge."
+    },
+    {
+      "type": "hayeon",
+      "ko": "소화됐당",
+      "en": "I've already digested it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "저메추 해줘",
+      "en": "Recommend dinner for me."
+    },
+    {
+      "type": "fan",
+      "ko": "간장게장 족발 수육 잔치국수 탕수육 술떡 물냉면 비빔냉면 차돌된장찌개 짜장면 월남쌈 짬뽕 잡탕밥 돼지갈비 유부 소갈비 참치김치찌개 보리밥 호박떡 육개장 팔보채 벌집삼겹살 버블티 평양냉면 알밥 대패삼겹살 꽈배기도넛 초밥 회오리감자 호미빙 오징어버터구이 연탄불고기 오레오빙수 연두부 회덮밥 깐풍기 미역국 물회 콩나물국밥 오징어회 참치회 고등어구이 명란젓 배추김치 고사리 크림카레우동 갈비찜 치맥 돈까스 볶음김치 계란말이 숯불닭갈비 소고기무국 곰탕 갈비탕 호박전 치즈감자고로케 쫄병스낵 케밥 골뱅이무침 깍두기 비빔국수 꽃빵 참치비빔밥 불고기버거 겉절이 수제비 파전 명이나물 피자찐빵 오돌뼈 양념게장 팟타이 떡볶이 뼈해장국 가리비구이",
+      "en": "Soy sauce marinated crab, jokbal, bossam, banquet noodles, sweet and sour pork, rice cake, mul naengmyeon, bibim naengmyeon, beef brisket soybean paste stew, jajangmyeon, Vietnamese spring rolls, jjamppong, assorted seafood fried rice, pork ribs, fried tofu, beef ribs, tuna kimchi stew, barley rice, pumpkin rice cake, yukgaejang, palbochae, honeycomb pork belly, bubble tea, Pyongyang naengmyeon, fish roe rice bowl, thinly sliced pork belly, twisted doughnut, sushi, tornado potato, bingsu, butter grilled squid, charcoal grilled bulgogi, Oreo bingsu, soft tofu, raw fish rice bowl, kkanpunggi, seaweed soup, mulhoe, bean sprout soup with rice, raw squid, tuna sashimi, grilled mackerel, pollock roe, napa cabbage kimchi, fernbrake, cream curry udon, braised short ribs, chicken & beer, tonkatsu, stir-fried kimchi, rolled omelet, charcoal grilled dakgalbi, beef radish soup, gomtang, galbitang, pumpkin pancake, cheese potato croquette, Jjolbyeong Snack, kebab, spicy sea snail salad, cubed radish kimchi, bibim guksu, steamed buns, tuna bibimbap, bulgogi burger, fresh kimchi, sujebi, pajeon, pickled wild garlic leaves, pizza-filled steamed bun, spicy cartilage, spicy marinated crab, pad thai, tteokbokki, pork bone hangover soup, grilled scallops."
+    },
+    {
+      "type": "hayeon",
+      "ko": "보법이 다른데?",
+      "en": "That's a whole different level."
+    },
+    {
+      "type": "hayeon",
+      "ko": "저장해놔야지…",
+      "en": "I should save that..."
+    },
+    {
+      "type": "fan",
+      "ko": "쫄병스낵이있는데 저건 밥이 아니잖아",
+      "en": "There was even Jjolbyeong Snack in there. That's not a meal."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㄹㅋㅎㅋㅎㅋㄹㄹㅋ 저정도면 음식 생각 날때마다 적어놓은것 같음ㅋㅎㅎㅋ",
+      "en": "ㄹㅋㅎㅋㅎㅋㄹㄹㅋ At this point it looks like you've been writing down every food that comes to mind ㅋㅎㅎㅋ."
+    },
+    {
+      "type": "hayeon",
+      "ko": "닭갈비 맛있겠다",
+      "en": "Dakgalbi sounds good."
+    },
+    {
+      "type": "fan",
+      "ko": "닭갈비는 가서 먹고 볶음밥까지 해야 한끼임",
+      "en": "If you're eating dakgalbi, the fried rice afterward is part of the meal."
+    },
+    {
+      "type": "hayeon",
+      "ko": "당연하지!!",
+      "en": "Of course!!"
+    }    ,
+    {
+      "type": "hayeon",
+      "ko": "아 맞아 요즘",
+      "en": "Oh right, these days,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 취미를 다 없애고",
+      "en": "I've gotten rid of all my hobbies."
+    },
+    {
+      "type": "hayeon",
+      "ko": "방에만 있거든",
+      "en": "I just stay in my room."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이유는 딱히 없긴 한데",
+      "en": "There's not really a reason though."
+    },
+    {
+      "type": "fan",
+      "ko": "침대에 누워있는게 취미야?",
+      "en": "Is lying in bed your hobby now?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그런가봐",
+      "en": "I guess so."
+    },
+    {
+      "type": "hayeon",
+      "ko": "원래 잠도 못자서 전생 3번은 다녀와야 잤는데",
+      "en": "I used to have such bad insomnia that it felt like I had to live through three past lives before I could finally sleep."
+    },
+    {
+      "type": "hayeon",
+      "ko": "요즘은 쉬면",
+      "en": "But these days, whenever I get a break,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "20시간 자는듯",
+      "en": "I sleep for like 20 hours."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㅎㅎㅎㅋ",
+      "en": "ㅋㄹㅋㄹㅋㅎㅎㅎㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "근데 원래 취미 뭐였음?",
+      "en": "What were your hobbies before?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "독서? 그런느낌",
+      "en": "Reading? Something like that."
+    },
+    {
+      "type": "fan",
+      "ko": "거짓말",
+      "en": "Liar."
+    },
+    {
+      "type": "fan",
+      "ko": "배달리스트책이런거읽지",
+      "en": "You probably read delivery menus like they're books."
+    },
+    {
+      "type": "hayeon",
+      "ko": "노래방책 이런거",
+      "en": "Or karaoke song books."
+    },
+    {
+      "type": "fan",
+      "ko": "난어릴때 취미 배달책 읽기였어..",
+      "en": "When I was little, my hobby was reading delivery menus..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "좋다…",
+      "en": "I like that..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고 요즘 내 유튜브 시청목록",
+      "en": "And these days, my YouTube watch history..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다 8시간 마크 asmr",
+      "en": "is basically all 8-hour Minecraft ASMR."
+    },
+    {
+      "type": "hayeon",
+      "ko": "막 이런거임",
+      "en": "Stuff like that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅎㅎㅋㅎㅋㅎㅎㅋㅎㅋ",
+      "en": "ㅋㅎㅎㅋㅎㅋㅎㅎㅋㅎㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "요즘 동심으로 돌아가서",
+      "en": "Lately I've kind of gone back to my childhood."
+    },
+    {
+      "type": "hayeon",
+      "ko": "몇년전 도티님 영상",
+      "en": "I've been watching Dotty's videos from years ago."
+    },
+    {
+      "type": "hayeon",
+      "ko": "찾아보고",
+      "en": "Looking them up,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다시 그러고 있어",
+      "en": "and watching them again."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㅎㅋㅎ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㅎㅋㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔가 커서 보니까",
+      "en": "Watching them now that I'm older,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다른느낌이야",
+      "en": "it feels different."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어릴땐 아무생각없이 재밌게 봤는데",
+      "en": "When I was younger, I just watched them because they were fun."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금은",
+      "en": "But now..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "도티님이 열심히 하시는게",
+      "en": "I can see how hard Dotty worked."
+    },
+    {
+      "type": "hayeon",
+      "ko": "보이고 뭔지 알지",
+      "en": "You know what I mean?"
+    },
+    {
+      "type": "fan",
+      "ko": "우리 하연이 언제 이렇게 성장함 ㅠㅠ",
+      "en": "When did our Hayeon grow up so much? ㅠㅠ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "고마워… 비록 마크영상만 보는 잼민일지리도",
+      "en": "Thank you... Even if I'm just a kid who only watches Minecraft videos."
+    },
+    {
+      "type": "hayeon",
+      "ko": "날 이렇게 사랑해주다니…",
+      "en": "You still love me like this..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 근데",
+      "en": "But seriously..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 168 안같아?",
+      "en": "Don't I look like I'm 168 cm?"
+    },
+    {
+      "type": "fan",
+      "ko": "188정도?",
+      "en": "More like 188?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아아 ㅎㅎ",
+      "en": "Ahhh ㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 168이라고 하면",
+      "en": "Whenever I say I'm 168,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다",
+      "en": "everyone goes,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "에!? 거짓말!!",
+      "en": "\"Huh!? No way!!\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러셔서",
+      "en": "That's what they say,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 그렇게 작아보이나…",
+      "en": "so I wonder if I really look that short..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "얼굴이 귀여워서?",
+      "en": "Is it because my face looks cute?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎㅎㅎ",
+      "en": "ㅎㅎㅎㅎ"
+    }    ,
+    {
+      "type": "fan",
+      "ko": "모아이 석상마냥 땅에 키 숨기고 있는거지...",
+      "en": "You're hiding your height underground like a Moai statue..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "모아이 석상이 지구 반대편까지 이어져있잖아",
+      "en": "Moai statues go all the way through the Earth to the other side, right?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 사실은 반대편까지 이어져서",
+      "en": "Actually, I'm connected all the way to the other side too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내발이 거꾸로 돌아다니거 있어",
+      "en": "So my feet are walking upside down over there."
+    },
+    {
+      "type": "hayeon",
+      "ko": "반대편에서",
+      "en": "On the other side,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이제 행운의 발이라고",
+      "en": "they call them lucky feet,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "문지르고 소원빌고있어",
+      "en": "rub them, and make wishes."
+    },
+    {
+      "type": "fan",
+      "ko": "간지럽겠다",
+      "en": "That must tickle."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하도 문질러서 이제 감각이 없어",
+      "en": "They've rubbed them so much that I can't feel anything anymore."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금 나한테 있는 발은",
+      "en": "The feet I have here now..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "착한사람한테만 보여",
+      "en": "can only be seen by good people."
+    },
+    {
+      "type": "hayeon",
+      "ko": "보여?",
+      "en": "Can you see them?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어때",
+      "en": "How do they look?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "안보여?",
+      "en": "You can't see them?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "풉 거짓말인데!!!!",
+      "en": "Pfft, I was lying!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "안보이겠냐!!",
+      "en": "Of course you can't see them!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㅎㅎㅋㅎㅋㅎㅋㅋㅋㅋ",
+      "en": "ㅋㄹㅋㅎㅎㅋㅎㅋㅎㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 진짜 배달음식 너무 질렸어",
+      "en": "I'm seriously so tired of delivery food."
+    },
+    {
+      "type": "hayeon",
+      "ko": "먹기 시러",
+      "en": "I don't want to eat it anymore."
+    },
+    {
+      "type": "hayeon",
+      "ko": "엄마한테 말했더니 며칠전에",
+      "en": "I told my mom that, and a few days ago..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "엄마가 닭볶음탕 해줌",
+      "en": "she made dakbokkeumtang for me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "헤헤",
+      "en": "Hehe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "집밥이 최고야",
+      "en": "Home-cooked food is the best."
+    },
+    {
+      "type": "hayeon",
+      "ko": "전에는 배달더 걍 똑같은 음식이지 집밥이 왜그립지",
+      "en": "Before, I used to think, 'Delivery food is basically the same thing. Why would I miss home cooking?'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "싶었거든",
+      "en": "That's what I thought."
+    },
+    {
+      "type": "hayeon",
+      "ko": "몇년째 배달만 먹으면",
+      "en": "But after eating delivery food for years..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "집밥이 최곤걸 느낀다",
+      "en": "you realize home-cooked meals really are the best."
+    },
+    {
+      "type": "fan",
+      "ko": "브로콜리 보고 싶어!! 사진 있어?",
+      "en": "I want to see Broccoli!! Do you have a picture?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "브로콜리 아니라고ㅋㅎㅋㅎㅎㅋㅎㅎㅎㄹㅋㅋ",
+      "en": "It's not Broccoli ㅋㅎㅋㅎㅎㅋㅎㅎㅎㄹㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 근데 문제가",
+      "en": "But here's the problem."
+    },
+    {
+      "type": "hayeon",
+      "ko": "가족이 다다르게 불러서",
+      "en": "Everyone in my family calls the dog something different."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐가 찐 이름인지 모르겠네",
+      "en": "I don't even know what its real name is anymore."
+    }    ,
+    {
+      "type": "fan",
+      "ko": "난 부르클린이라고 부를게ㅜ그럼",
+      "en": "Then I'll call it Brooklynㅜ."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 킨더조이",
+      "en": "I'll call it Kinder Joy."
+    },
+    {
+      "type": "fan",
+      "ko": "코카콜리라고 불러도 되나",
+      "en": "Can I call it Coca-Coli?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㄹㅋㄹㄹㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㄹㅋㄹㄹㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 저번에 금별이라고 했잖아",
+      "en": "Didn't I say its name was Geumbyeol before?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "금비래",
+      "en": "It's actually Geumbi."
+    },
+    {
+      "type": "hayeon",
+      "ko": "골드스타가 아니라 골드레인이였어",
+      "en": "Not Gold Star—it was Gold Rain."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아빠는 금비가 부르고",
+      "en": "My dad calls it Geumbi."
+    },
+    {
+      "type": "hayeon",
+      "ko": "엄마는 브로콜리라 부르고",
+      "en": "My mom calls it Broccoli."
+    },
+    {
+      "type": "fan",
+      "ko": "아빠는 금비가 부른다는게 무슨말이야..?",
+      "en": "What do you mean 'Geumbi calls your dad'..?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅅㅋㄹㄹㅋㅋㄹㄹㅋㅋㅎㅋㅎㅋㅎㅋㅎㅋㅎㅋㅎㅋㅎㅋㅎㅋㅎ",
+      "en": "ㅋㅅㅋㄹㄹㅋㅋㄹㄹㅋㅋㅎㅋㅎㅋㅎㅋㅎㅋㅎㅋㅎㅋㅎㅋㅎㅋㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "금비가 아빠를 부르긴 하지",
+      "en": "Well, Geumbi does call for my dad."
+    },
+    {
+      "type": "hayeon",
+      "ko": "섞어서",
+      "en": "I mixed them up."
+    },
+    {
+      "type": "hayeon",
+      "ko": "금비로콜리",
+      "en": "Geumbiroccoli."
+    },
+    {
+      "type": "hayeon",
+      "ko": "성까지 붙히면",
+      "en": "And if you add a family name..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "정금비로콜리",
+      "en": "Jung Geumbiroccoli."
+    },
+    {
+      "type": "fan",
+      "ko": "뭔가보더콜리같다..",
+      "en": "That kind of sounds like Border Collie..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "종이 보더콜리야",
+      "en": "The breed actually is a Border Collie."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 내가 프롬에선 안말했나??",
+      "en": "Oh, did I never mention that on Fromm??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "라이브에서 말했구나",
+      "en": "I talked about it during the live."
+    },
+    {
+      "type": "hayeon",
+      "ko": "라이브를 들어왔어야지.",
+      "en": "You should've joined the live."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어허",
+      "en": "Ahem."
+    },
+    {
+      "type": "hayeon",
+      "ko": "암튼 설명하면",
+      "en": "Anyway, to explain..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 보더콜리랑 사냥개? 종이 합쳐진 강아지아닌 개를 키우게 되었고 이름은 금비인데 브로콜리고 킨더조이고 코카콜라맛있다",
+      "en": "I'm raising a dog—well, not just any dog, it's a mix of a Border Collie and I think a hunting dog breed. Its name is Geumbi, but it's also Broccoli, Kinder Joy... and Coca-Cola tastes good."
+    },
+    {
+      "type": "fan",
+      "ko": "정금비브로콜리금별코카콜라킨더조이로해주세요",
+      "en": "Let's call it Jung Geumbi Broccoli Geumbyeol Coca-Cola Kinder Joy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "외우는데 한달걸리겠다",
+      "en": "It'd take a month just to memorize that."
+    },
+    {
+      "type": "fan",
+      "ko": "부르는데도 한달걸릴듯...",
+      "en": "It'd probably take a month just to call its name..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "부르는데 잠들듯",
+      "en": "I'd fall asleep before I finished saying it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이름 부르고 있는데 이미 다른곳 가있고",
+      "en": "By the time I finished calling it, it'd already be somewhere else."
+    },
+    {
+      "type": "fan",
+      "ko": "응원법에 금~~이도 넣자!!",
+      "en": "Let's put 'Geum~~' into the fanchant too!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 묵음처리도 있는거야?",
+      "en": "Oh, so there are silent letters too?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㅅㅋㄹㅋㄹㅋㄹㄹㅋ",
+      "en": "ㅋㄹㅋㅅㅋㄹㅋㄹㅋㄹㄹㅋ"
+    }    ,
+    {
+      "type": "fan",
+      "ko": "그래서 석가모니는 몇살이라고??",
+      "en": "So how old is Seokgamoni again??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "대한민국 1살 안됐엉",
+      "en": "Not even one year old in Korean age yet."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㄹㅋㅋㄹㅎㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㄹㅋㅋㄹㅎㅋㄹㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "아직 쪼끄맣겠다 그럼",
+      "en": "Then it must still be tiny."
+    },
+    {
+      "type": "hayeon",
+      "ko": "과연?",
+      "en": "Really?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "코카콜라 몸집을 무시하지마",
+      "en": "Don't underestimate Coca-Cola's size."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 몸집정도는 될걸",
+      "en": "It's probably about my size."
+    },
+    {
+      "type": "fan",
+      "ko": "콜리플라워 많이 크다..",
+      "en": "Cauliflower is pretty big then..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "더커질듯",
+      "en": "It'll probably get even bigger."
+    },
+    {
+      "type": "fan",
+      "ko": "와리가리 좀 크긴하네",
+      "en": "Warigari is pretty big."
+    },
+    {
+      "type": "hayeon",
+      "ko": "와리가맄ㅎㅋㅎㅋㅎㅋㅎㅋㅋㅎㅋㅎㅎ 미쳤다",
+      "en": "Warigari ㅋㅎㅋㅎㅋㅎㅋㅎㅋㅋㅎㅋㅎㅎ that's crazy."
+    },
+    {
+      "type": "fan",
+      "ko": "보더콜리 중형견 아냐?",
+      "en": "Isn't a Border Collie a medium-sized dog?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "혼혈이라 더 큰듯",
+      "en": "Since it's a mixed breed, I think it'll be bigger."
+    },
+    {
+      "type": "fan",
+      "ko": "롤리폴리 사진 있어? 어캐 생겼는지 궁금하다",
+      "en": "Do you have a picture of Roly Poly? I'm curious what it looks like."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 직접 이쁘게 찍어올게",
+      "en": "I'll take a nice picture myself and show you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아빠가 찍어서 보내주는건 다",
+      "en": "The ones my dad sends are always..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "궁뎅이만 나오거나 각도가 안이뻐",
+      "en": "just pictures of its butt, or the angle isn't flattering."
+    },
+    {
+      "type": "fan",
+      "ko": "강아지 이름이 기모바지야?",
+      "en": "Is the dog's name Gimobaji?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니아니 멜빵바지",
+      "en": "No, no. It's Suspenders."
+    },
+    {
+      "type": "hayeon",
+      "ko": "암튼 갈래말래 사진은 이쁘게 찍어서 나중에 보여줄겡",
+      "en": "Anyway, I'll take a nice picture of Whatever-Its-Name-Is and show you later."
+    },
+    {
+      "type": "hayeon",
+      "ko": "밥먹어야겠당",
+      "en": "I should go eat now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "Y/n도 잘챙겨먹구",
+      "en": "Y/n, make sure you eat well too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "좋은하루 보내~",
+      "en": "Have a great day~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 뭐먹을진 못정했어",
+      "en": "I still haven't decided what to eat."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎ",
+      "en": "ㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "미리 잘자ㅏ",
+      "en": "Good night in advance~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해❤️❤️",
+      "en": "Haranghae ❤️❤️"
+    }
+  ]
+}
