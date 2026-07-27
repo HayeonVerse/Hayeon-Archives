@@ -432,6 +432,12 @@ footer{
     margin:24px 0;
 }
 
+.footer-btn,
+.footer-btn:link,
+.footer-btn:visited {
+    color: #0F172A;
+}
+
 .footer-btn{
     display:inline-flex;
     align-items:center;
@@ -1268,6 +1274,46 @@ body{
 
     opacity:.8;
 
+}
+
+
+
+.footer-email-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:12px;
+
+    min-width:340px;
+    margin-top:14px;
+    padding:12px 22px;
+
+    border-radius:999px;
+
+    background:var(--mint);
+    color:#0F172A;
+
+    cursor:pointer;
+
+    transition:.25s;
+}
+
+.footer-email-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 24px rgba(82,217,187,.35);
+}
+
+.footer-email-btn span{
+    user-select:text;
+}
+
+.copy-icon{
+    margin-left:auto;
+    opacity:.8;
+    transition:.2s;
+}
+
+.footer-email-btn:hover .copy-icon{
+    opacity:1;
 }
 
 .footer-email {
