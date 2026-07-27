@@ -1269,3 +1269,23 @@ body{
     opacity:.8;
 
 }
+
+.footer-email {
+    margin: 14px 0 22px;
+    font-size: 0.95rem;
+}
+
+.footer-email a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.footer-email a:hover {
+    text-decoration: underline;
+}
+
+footer h4 {
+    margin: 24px 0 10px;
+    color: var(--accent-color);
+    font-size: 1rem;
+}
