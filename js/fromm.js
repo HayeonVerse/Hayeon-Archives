@@ -909,13 +909,14 @@ if (window.innerWidth <= 768) {
 
 header.appendChild(nav);
 
-    container.appendChild(header);
+container.appendChild(header);
 
-    container.appendChild(
 
-        App.renderConversationBody(conversation)
+container.appendChild(
 
-    );
+    App.renderConversationBody(conversation)
+
+);
 
     
 };
@@ -1496,58 +1497,196 @@ if (App.cache.stats.years)
 
 };
 
+
+/* ============================================
+   ARCHIVE NOTICE
+============================================ */
+
+App.renderArchiveNotice = function (notice) {
+
+    const card = App.utils.create(
+        "div",
+        `archive-notice ${notice.type || "info"}`
+    );
+
+    if (notice.icon) {
+        const icon = App.utils.create(
+            "span",
+            "archive-notice-icon"
+        );
+
+        icon.textContent = notice.icon;
+        card.appendChild(icon);
+    }
+
+    const content = App.utils.create(
+        "div",
+        "archive-notice-content"
+    );
+
+    if (notice.title) {
+        const title = App.utils.create(
+            "div",
+            "archive-notice-title"
+        );
+
+        title.textContent = notice.title;
+        content.appendChild(title);
+    }
+
+    // NEW: notice image
+    if (notice.image) {
+
+        const [year, month, day] = notice._conversation.date.split("-");
+
+        const img = App.utils.create("img");
+        img.className = "archive-notice-image";
+        img.src = `${App.config.dataRoot}${year}/${month}/${day}/${notice.image}`;
+        img.alt = "Notice image";
+        img.loading = "lazy";
+
+        img.addEventListener("click", () => {
+            App.openImage(img.src);
+        });
+
+        content.appendChild(img);
+    }
+
+    const text = App.utils.create(
+        "div",
+        "archive-notice-text"
+    );
+
+    text.textContent = notice.text;
+    content.appendChild(text);
+
+    card.appendChild(content);
+
+    return card;
+};
+
+App.renderWelcomeMessage = function (message) {
+
+    const card = App.utils.create(
+        "div",
+        "welcome-message"
+    );
+
+    const badge = App.utils.create(
+        "div",
+        "welcome-badge"
+    );
+
+    badge.textContent =
+        message.label || "💌 Welcome Message";
+
+    const body = App.utils.create(
+        "div",
+        "welcome-body"
+    );
+
+    body.appendChild(
+        App.renderMessageBody(message)
+    );
+
+    card.append(
+        badge,
+        body
+    );
+
+    return card;
+
+};
+
 /* ============================================
    PLACEHOLDER RENDER
 ============================================ */
 
 App.renderConversationBody = function (conversation) {
 
-    const container =
-        App.utils.create(
-            "article",
-            "fromm-conversation"
-        );
+    
+    const container = App.utils.create(
+        "article",
+        "fromm-conversation"
+    );
 
     if (!conversation.messages?.length) {
-
         return container;
-
     }
 
-    let currentGroup = null;
+    const notices = [...(conversation.notices || [])]
+        .sort((a, b) => (a.position ?? 0) - (b.position ?? 0));
 
+    let noticeIndex = 0;
+    let currentGroup = null;
     let currentSender = null;
 
-    conversation.messages.forEach(message => {
-message._conversation = conversation;
-if (message.type !== currentSender) {
+    conversation.messages.forEach((message, index) => {
 
-    currentSender = message.type;
+while (
+    noticeIndex < notices.length &&
+    notices[noticeIndex].position === index
+) {
 
-    currentGroup =
-        App.renderSenderGroup(
-            message.type
-        );
+    notices[noticeIndex]._conversation = conversation;
 
     container.appendChild(
-        currentGroup
+        App.renderArchiveNotice(notices[noticeIndex])
     );
+
+    // Start a new sender group after a notice
+    currentGroup = null;
+    currentSender = null;
+
+    noticeIndex++;
+}
+
+if (message.type === "welcome") {
+
+    container.appendChild(
+        App.renderWelcomeMessage(message)
+    );
+
+    currentGroup = null;
+    currentSender = null;
+
+    return;
 
 }
 
-const bubble =
-    App.renderMessage(message);
+        message._conversation = conversation;
 
-const messages =
-    currentGroup.querySelector(
-        ".group-messages"
-    );
+        if (message.type !== currentSender) {
 
-messages.appendChild(bubble);
+            currentSender = message.type;
 
-App.updateBubbleClasses(messages);
+            currentGroup = App.renderSenderGroup(message.type);
+
+            container.appendChild(currentGroup);
+
+        }
+
+        const bubble = App.renderMessage(message);
+
+        const messages =
+            currentGroup.querySelector(".group-messages");
+
+        messages.appendChild(bubble);
+
+        App.updateBubbleClasses(messages);
 
     });
+
+while (noticeIndex < notices.length) {
+
+    notices[noticeIndex]._conversation = conversation;
+
+    container.appendChild(
+        App.renderArchiveNotice(notices[noticeIndex])
+    );
+
+    noticeIndex++;
+}
 
     return container;
 

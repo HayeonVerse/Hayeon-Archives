@@ -1,5 +1,14 @@
 {
   "date": "2025-09-17",
+  "notices": [
+  {
+    "icon": "🖼️",
+    "type": "event",
+    "text": "Hayeon changed her Fromm profile picture.",
+    "image": "image-01.webp",
+    "position": 30
+  }
+],
   "messages": [
     {
       "type": "hayeon",

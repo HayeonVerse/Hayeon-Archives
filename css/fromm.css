@@ -230,6 +230,272 @@
     animation:conversationFade .22s ease;
 
 }
+
+/* ==========================================
+   ARCHIVE NOTICE
+========================================== */
+
+.archive-notices{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+    margin:0 0 28px;
+
+}
+
+.archive-notice{
+
+    display:flex;
+
+    gap:18px;
+
+    padding:20px 22px;
+
+    border-radius:18px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    background:rgba(255,255,255,.04);
+
+    backdrop-filter:blur(14px);
+
+    transition:.25s;
+
+}
+
+.archive-notice:hover{
+
+    transform:translateY(-2px);
+
+    border-color:rgba(82,217,187,.35);
+
+}
+
+.archive-notice-icon{
+
+    font-size:34px;
+
+    flex-shrink:0;
+
+    display:flex;
+
+    align-items:flex-start;
+
+    justify-content:center;
+
+    width:48px;
+
+}
+
+.archive-notice-content{
+
+    flex:1;
+
+}
+
+.archive-notice-content h3{
+
+    margin:0 0 10px;
+
+    font-size:20px;
+
+    font-weight:700;
+
+}
+
+.archive-notice-content p{
+
+    margin:0;
+
+    color:var(--text-light);
+
+    line-height:1.75;
+
+}
+
+.archive-notice-button{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    margin-top:18px;
+
+    padding:10px 18px;
+
+    border-radius:999px;
+
+    background:var(--mint);
+
+    color:#111;
+
+    font-weight:700;
+
+    text-decoration:none;
+
+    transition:.25s;
+
+}
+
+.archive-notice-button:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 8px 20px rgba(82,217,187,.30);
+
+}
+
+/* ==========================================
+   NOTICE TYPES
+========================================== */
+
+.archive-notice.info{
+
+    border-left:5px solid #4da3ff;
+
+}
+
+.archive-notice.event{
+
+    border-left:5px solid var(--mint);
+
+}
+
+.archive-notice.important{
+
+    border-left:5px solid #ff6b6b;
+
+}
+
+.archive-notice.fun{
+
+    border-left:5px solid #ffd166;
+
+}
+
+.archive-notice.music{
+
+    border-left:5px solid #b388ff;
+
+}
+
+.archive-notice.live{
+
+    border-left:5px solid #ff7ac8;
+
+}
+
+@media (max-width:768px){
+
+.archive-notice{
+
+    padding:18px;
+
+    gap:14px;
+
+}
+
+.archive-notice-icon{
+
+    font-size:28px;
+
+    width:36px;
+
+}
+
+.archive-notice-content h3{
+
+    font-size:18px;
+
+}
+
+.archive-notice-content p{
+
+    font-size:14px;
+
+}
+
+}
+
+.welcome-message{
+
+    max-width:520px;
+    margin:20px auto;
+
+    padding:18px;
+
+    border-radius:18px;
+
+    background:var(--card-bg);
+
+    border:1px solid var(--border-color);
+
+    text-align:center;
+
+}
+
+.welcome-badge{
+
+    display:inline-block;
+
+    margin-bottom:12px;
+
+    padding:4px 10px;
+
+    border-radius:999px;
+
+    background:rgba(82,217,187,.15);
+
+    color:var(--accent);
+
+    font-weight:700;
+
+    font-size:.8rem;
+
+}
+
+.welcome-body{
+
+    line-height:1.8;
+
+}
+
+.archive-notice-content{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:24px;
+}
+
+.archive-notice-text{
+    flex:1;
+}
+
+.archive-notice-image{
+    width:72px;
+    height:72px;
+    flex-shrink:0;
+
+    border-radius:50%;
+    object-fit:cover;
+
+    border:2px solid rgba(82,217,187,.35);
+    cursor:pointer;
+
+    transition:.25s;
+}
+
+.archive-notice-image:hover{
+    transform:scale(1.06);
+}
+
 /* ==========================================
    CONVERSATION CARD
 ========================================== */

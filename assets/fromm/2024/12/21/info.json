@@ -1,5 +1,19 @@
 {
   "date": "2024-12-21",
+  "notices": [
+    {
+      "icon": "🌙",
+      "type": "time",
+      "text": "Starting at 12:33 AM",
+      "position": 0
+    },
+    {
+      "icon": "🌆",
+      "type": "time",
+      "text": "Later that day — Starting at 7:35 PM",
+      "position": 52
+    }
+  ],
   "messages": [
     {
       "type": "hayeon",
@@ -13,11 +27,6 @@
     },
     {
       "type": "hayeon",
-      "ko": "가요대축제 끝난기념",
-      "en": "To celebrate the end of the KBS Song Festival."
-    },
-    {
-      "type": "hayeon",
       "ko": "Mma에선 렌즈에 힘주고",
       "en": "At the MMA, I focused on my contact lenses."
     },
@@ -28,18 +37,28 @@
     },
     {
       "type": "hayeon",
+      "ko": "어때!!",
+      "en": "How was it!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 아쉬움도 많고 행복함도 많았던 무대같아",
+      "en": "I think today's stage was one with both a lot of regrets and a lot of happiness."
+    },
+    {
+      "type": "hayeon",
       "ko": "우리 트리플에스가 연말무대에 설수있다는건 진짜",
-      "en": "The fact that tripleS can stand on year-end stages is truly..."
+      "en": "The fact that tripleS gets to stand on an end-of-year stage is really..."
     },
     {
       "type": "hayeon",
       "ko": "꿈같은 이야기야 너무 고마워 ㅜㅠ",
-      "en": "like a dream. Thank you so muchㅜㅠ"
+      "en": "Like a dream. Thank you so much. ㅜㅠ"
     },
     {
       "type": "hayeon",
       "ko": "오늘도",
-      "en": "Today too..."
+      "en": "Today too,"
     },
     {
       "type": "hayeon",
@@ -48,33 +67,43 @@
     },
     {
       "type": "hayeon",
+      "ko": "웨이브가 있을걸생각하니까",
+      "en": "just thinking that Wav would be there"
+    },
+    {
+      "type": "hayeon",
       "ko": "힘이 너무 났어",
-      "en": "I felt so energized."
+      "en": "gave me so much strength."
     },
     {
       "type": "hayeon",
       "ko": "연말 무대에 선다는게",
-      "en": "Standing on year-end stages..."
+      "en": "Standing on an end-of-year stage..."
     },
     {
       "type": "hayeon",
       "ko": "노력도 중요하고 에너지 소비도 그만큼될텐데",
-      "en": "takes a lot of effort and uses up just as much energy."
+      "en": "takes a lot of effort and uses up that much energy,"
     },
     {
       "type": "hayeon",
       "ko": "지금까지도 괜찮은걸보면",
-      "en": "But seeing that I'm still doing okay..."
+      "en": "but seeing that I'm still doing okay,"
     },
     {
       "type": "hayeon",
-      "ko": "Y/n 의 응원이 나한테 닿았나보다",
-      "en": "your support must have reached me."
+      "ko": "Y/n의 응원이 나한테 닿았나보다",
+      "en": "I guess Y/n's support reached me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "항상 고마워",
+      "en": "Thank you, always."
     },
     {
       "type": "hayeon",
       "ko": "첫 합동무대도하고",
-      "en": "I also got to perform my first collaboration stage."
+      "en": "I also had my first collaboration stage."
     },
     {
       "type": "hayeon",
@@ -84,7 +113,7 @@
     {
       "type": "hayeon",
       "ko": "우리 새해로 넘어가는순간에도",
-      "en": "When we welcome the New Year..."
+      "en": "When we welcome the New Year,"
     },
     {
       "type": "hayeon",
@@ -95,6 +124,664 @@
       "type": "hayeon",
       "ko": "같이있자!!",
       "en": "Let's stay together!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "트리플되고나서",
+      "en": "Since becoming part of tripleS,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "첫 새해",
+      "en": "it's our first New Year."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리거 오늘 머리 깐이유를 물어본 사람이 많은데",
+      "en": "Also, a lot of people asked why I showed my forehead today."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔가 연말느낌 나면서 새로운 느낌을 주고싶어서",
+      "en": "I wanted to give off an end-of-year vibe while trying something new."
+    },
+    {
+      "type": "hayeon",
+      "ko": "생각하는데 아무래도",
+      "en": "Thinking about it,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "앞머리가 있는 상태에 머리는 다해봄…",
+      "en": "I feel like I've already tried every hairstyle with bangs..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "셀카",
+      "en": "I took"
+    },
+    {
+      "type": "hayeon",
+      "ko": "많이 찍었어",
+      "en": "a lot of selfies."
+    },
+    {
+      "type": "hayeon",
+      "ko": "시간될때 보내줄게ㅔ",
+      "en": "I'll send them when I have timeee."
+    },
+    {
+      "type": "hayeon",
+      "ko": "완전 냉미녀 st",
+      "en": "Totally cold beauty style."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅎㅎㅋㅎㅋㅎㄹㄹㅋ",
+      "en": "ㅋㅎㅎㅋㅎㅋㅎㄹㄹㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "하연이 근데 케플러 채현님이랑 연습 하다가 친해진거야?? 초련 무대 하다가 서로 보고 웃던데 ㅋㅋㅋㅋ",
+      "en": "Hayeon, did you become close with Kep1er's Chaehyun while practicing?? I saw you two looking at each other and smiling during the performanceㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아ㅏ",
+      "en": "Ahh."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그파트때 안무쌤이",
+      "en": "During that part,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아무나 상관없이",
+      "en": "our choreography teacher said,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "자유롭게 놀아주세요",
+      "en": "\"Have fun freely with anyone.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "라고 하셨는데",
+      "en": "That's what they told us."
+    },
+    {
+      "type": "hayeon",
+      "ko": "연습때부터",
+      "en": "Ever since practice,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "눈이 슬쩍 마주치고",
+      "en": "our eyes would meet,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "웃어주셔서",
+      "en": "and she'd smile at me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "암묵적으로",
+      "en": "So naturally,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "서로를",
+      "en": "we kind of"
+    },
+    {
+      "type": "hayeon",
+      "ko": "보기로한",
+      "en": "ended up deciding"
+    },
+    {
+      "type": "hayeon",
+      "ko": "느낌",
+      "en": "to look at each other."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 채현님 조아해",
+      "en": "I like Chaehyun."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래서 좋았따",
+      "en": "So I was really happy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "시간이 많이 늦어따ㅏ",
+      "en": "It's gotten really lateee."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 잘준비하고 슬슬 자야지ㅣ",
+      "en": "I should get ready and head to bed too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘자구",
+      "en": "Sleep well,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해!!!!😍",
+      "en": "Haranghae!!!! 😍"
+    },
+    {
+      "type": "hayeon",
+      "ko": "저메추좀!!",
+      "en": "Recommend me something for dinner!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 내일부터 투어를위한 다이어트야",
+      "en": "Starting tomorrow, I'm going on a diet for the tour."
+    },
+    {
+      "type": "hayeon",
+      "ko": "가요대축제를 위한 다이어트를 끝내고",
+      "en": "I finally finished dieting for the KBS Song Festival."
+    },
+    {
+      "type": "hayeon",
+      "ko": "와 올라오능거",
+      "en": "Now that it's over,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다 먹고싶다",
+      "en": "I want to eat everything."
+    },
+    {
+      "type": "hayeon",
+      "ko": "닭발과 곱창이 많은이유는",
+      "en": "The reason there are so many recommendations for chicken feet and gopchang..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내취향을 파악한거겠지?",
+      "en": "is because you've figured out my taste, right?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅎㅋㄹㄹㅋㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅎㅋㄹㄹㅋㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 티저 떳구나",
+      "en": "Ah, the teaser is out."
+    },
+    {
+      "type": "fan",
+      "ko": "오늘 나온 월드투어 티저? 되게 추워보이네",
+      "en": "The world tour teaser that came out today? It looks really cold."
+    },
+    {
+      "type": "hayeon",
+      "ko": "저거 진짜 숨참고 찍음",
+      "en": "I seriously had to hold my breath while filming that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "바람이 따가웠어 차가워서",
+      "en": "The wind stung because it was so cold."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔가 삘받아서",
+      "en": "I suddenly got inspired."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘은 똥머리다!!!",
+      "en": "\"Today I'm doing a bun hairstyle!!!\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이랬는데",
+      "en": "That's what I said,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "야외촬영인걸 깨달은",
+      "en": "and then realized it was an outdoor shoot."
+    },
+    {
+      "type": "hayeon",
+      "ko": "설렌다 벌써",
+      "en": "I'm already excited."
+    },
+    {
+      "type": "hayeon",
+      "ko": "월투",
+      "en": "The world tour..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "3주도 안남아써ㅓㅓ",
+      "en": "There's less than three weeks lefttt."
+    },
+    {
+      "type": "hayeon",
+      "ko": "기대하라구우",
+      "en": "Look forward to ittt."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어제 릴스",
+      "en": "Yesterday,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "많이찍었음",
+      "en": "I filmed a lot of Reels."
+    },
+    {
+      "type": "hayeon",
+      "ko": "채원이랑 찍었구",
+      "en": "I filmed with Chaewon,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "수민이랑도 찍고",
+      "en": "and with Soomin,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다른것도 찍그",
+      "en": "and some other things too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니",
+      "en": "But,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "김수민이랑 찍는데 자꾸",
+      "en": "while I was filming with Kim Soomin,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "김채원",
+      "en": "Kim Chaewon kept saying,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "니네 둘이 뭐하냐고",
+      "en": "\"What are you two doing?\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐찍는건데",
+      "en": "\"What are you filming?\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐야?",
+      "en": "\"What is it?\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "먼데?",
+      "en": "\"What are you doing?\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "계석",
+      "en": "She kept"
+    },
+    {
+      "type": "hayeon",
+      "ko": "질투 쩜",
+      "en": "getting jealous."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고",
+      "en": "And then,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나한테",
+      "en": "she told me,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "야 너 나랑이거 찍어",
+      "en": "\"Hey, film this with me.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이거 외웡!!",
+      "en": "\"Memorize this!!\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이래서",
+      "en": "So,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "찍음",
+      "en": "we filmed it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "스포?",
+      "en": "Spoiler?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "음",
+      "en": "Hmm."
+    },
+    {
+      "type": "hayeon",
+      "image": "image-01.PNG"
+    },
+        {
+      "type": "hayeon",
+      "ko": "스포",
+      "en": "Spoiler."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 다른사람같다구?",
+      "en": "I look like a completely different person?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 근데 진짜",
+      "en": "But seriously,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하는 스타일링에따라",
+      "en": "depending on the styling,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "느낌 완전 달라",
+      "en": "my vibe changes completely."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 뭔가",
+      "en": "But somehow,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이날",
+      "en": "that day,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "호불호 많이 갈림",
+      "en": "people were really divided."
+    },
+    {
+      "type": "hayeon",
+      "ko": "멤버들중에서도",
+      "en": "Even among the members,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "야 너 평소에도 까고다니면 안돼? 아니 진짜 너무이뻐",
+      "en": "\"Hey, why don't you wear your forehead exposed more often? Seriously, you're so pretty.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러는 사람과",
+      "en": "there were people saying that,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 깠네? 왜깠어..?",
+      "en": "\"You showed your forehead today? Why did you do that...?\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러는사람",
+      "en": "and people saying that,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "들로 나뉨",
+      "en": "so everyone was split into two groups."
+    },
+    {
+      "type": "hayeon",
+      "ko": "샵쌤들은 모두가 아니 하연이 앞머리 없애고 다녀!!! 이러시거",
+      "en": "All the stylists were like, \"No, Hayeon! Just get rid of your bangs and keep it like that!!!\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래서 이걸 깐머파 다현언니에게 말했더니",
+      "en": "So I told Dahyun unnie, who's on Team Forehead,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오히려좋아 두개 다하셈!",
+      "en": "\"Even better! Just do both!\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "오 그런 방법이",
+      "en": "\"Oh... that's a way to do it.\""
+    },
+    {
+      "type": "hayeon",
+      "image": "image-02.PNG"
+    },
+    {
+      "type": "hayeon",
+      "ko": "가끔 까는걸로",
+      "en": "I'll just show my forehead once in a while."
+    },
+    {
+      "type": "hayeon",
+      "ko": "원래 저렇게 깐머리였으면",
+      "en": "If having my forehead exposed had been my normal look,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "앞머리 내린게 호불호가 갈렸겠지?",
+      "en": "then having bangs would've probably been the controversial one, right?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅎㅋㅎㄹㄹㅋㄹㅋㄹ",
+      "en": "ㅋㅎㅋㅎㄹㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "릴스도",
+      "en": "For the Reels too,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "각단씨들이",
+      "en": "I picked ones"
+    },
+    {
+      "type": "hayeon",
+      "ko": "좋아할만한걸로",
+      "en": "that Hexagons would like."
+    },
+    {
+      "type": "hayeon",
+      "ko": "골라찍었어",
+      "en": "I chose and filmed them."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이 두고 수민이 채원이 질투하는구나 인기는 피곤해",
+      "en": "Soomin and Chaewon are getting jealous over Hayeon. Being popular must be exhausting."
+    },
+    {
+      "type": "hayeon",
+      "ko": "날 좋아하는사람은 왤케 많을까 ㅎㅎ😎",
+      "en": "Why are there so many people who like me? ㅎㅎ😎"
+    },
+    {
+      "type": "fan",
+      "ko": "너가 여기저기 매력을 흘리고 다녀서 그래",
+      "en": "Because you're leaving your charm everywhere you go."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그걸 주은사람도 많다는게 문제지 ㅎ",
+      "en": "The problem is that so many people pick it up.ㅎ"
+    },
+    {
+      "type": "fan",
+      "ko": "채현님도 하연이 매력에 빠져서 친해질거라던데",
+      "en": "I heard Chaehyun is going to become close to you after falling for your charm too."
+    },
+        {
+      "type": "hayeon",
+      "ko": "머얔ㅋㅋㅋㅋ",
+      "en": "Whatㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜?",
+      "en": "Really?"
+    },
+    {
+      "type": "fan",
+      "ko": "하연이가 어제 한 말 보시고 귀엽대ㅋㅋㅋㅋㅋ",
+      "en": "They said you were cute after seeing what you said yesterdayㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 설레는데?",
+      "en": "Ah, that makes my heart flutter?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이쁜여자가 귀엽다하닠가",
+      "en": "Being called cute by a pretty girl..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "설레네",
+      "en": "really makes my heart flutter."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이름에 채 들어간 사람들을 좋아하네 내가",
+      "en": "I guess I like people whose names have 'Chae' in them."
+    },
+    {
+      "type": "hayeon",
+      "ko": "채연 채원",
+      "en": "Chaeyeon, Chaewon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 나",
+      "en": "Wait."
+    },
+    {
+      "type": "hayeon",
+      "ko": "밥시켜야 대는데",
+      "en": "I need to order food."
+    },
+    {
+      "type": "hayeon",
+      "ko": "프롬하다가 까머금",
+      "en": "I completely forgot because I was on Fromm."
+    },
+    {
+      "type": "hayeon",
+      "ko": "골라져",
+      "en": "I've decided."
+    },
+    {
+      "type": "hayeon",
+      "ko": "야채곱창?",
+      "en": "Vegetable gopchang?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅇㅋ 야겁",
+      "en": "Okay, veggie gopchang it is."
+    },
+    {
+      "type": "hayeon",
+      "ko": "혼자 머글거임",
+      "en": "I'm going to eat it all by myself."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㄹㅋㄹㅋㄹㄹㅋㅋㄹ",
+      "en": "ㅋㄹㄹㅋㄹㅋㄹㄹㅋㅋㄹ"
+    },
+    {
+      "type": "fan",
+      "ko": "이제 누가 냄새맡고 한입만 시전하러 올듯",
+      "en": "Now someone's probably going to smell it and come over asking for 'just one bite.'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나경언니 예상",
+      "en": "I'm predicting Nakyoung unnie."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 이제 진짜 시키러감",
+      "en": "Okay, I'm really going to order now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘준비 잘하구",
+      "en": "Get ready well."
+    },
+    {
+      "type": "hayeon",
+      "ko": "담에 또 오께",
+      "en": "I'll come back again next time."
+    },
+    {
+      "type": "hayeon",
+      "ko": "미리잘자ㅏ",
+      "en": "Good night in advanceee."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해❄️🤍",
+      "en": "Haranghae❄️🤍"
     }
-  ]
+]
 }
