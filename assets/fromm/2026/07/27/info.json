@@ -1,0 +1,597 @@
+{
+  "date": "2026-07-27",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "모해",
+      "en": "What are you doing?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어제 숙소에 에어컨이 안나오는거야",
+      "en": "Yesterday, the air conditioner at the dorm stopped working."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 더워서 잠도 안오고",
+      "en": "It was so hot that I couldn't even fall asleep."
+    },
+    {
+      "type": "hayeon",
+      "ko": "방이 거의 찜통이였는데",
+      "en": "The room was practically like a sauna."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래서 거실에서 계속 그림그리면서 있었거든",
+      "en": "So I stayed in the living room drawing the whole time."
+    },
+    {
+      "type": "hayeon",
+      "image": "image-01.webp"
+    },
+    {
+      "type": "hayeon",
+      "ko": "육각이 팬아트그렸어",
+      "en": "I drew Hexagoni fan art."
+    },
+    {
+      "type": "hayeon",
+      "ko": "육각단 하면 생각나는 긍적적인 이미지를",
+      "en": "I took the positive image that comes to mind when I think of Hexagons"
+    },
+    {
+      "type": "hayeon",
+      "ko": "캐릭터화 시킨거야",
+      "en": "and turned it into a character."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㄹㅋㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㄹㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 저번에",
+      "en": "Last time,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "육각단 캐릭터 그려오겠다고 했던게",
+      "en": "I said I'd draw a Hexagons character,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "생각나서",
+      "en": "and I remembered that,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그렸쥐",
+      "en": "so I drew it."
+    },
+    {
+      "type": "fan",
+      "ko": "하여니 어릴때 미술학원 다닌적 있엉?!?!",
+      "en": "Hayeon, did you ever go to an art academy when you were little?!?!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그건 아닌데",
+      "en": "Not really."
+    },
+    {
+      "type": "hayeon",
+      "ko": "유치원때부터",
+      "en": "Ever since kindergarten,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "동화책 따라그리고",
+      "en": "I liked copying illustrations from storybooks"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런거 좋아해서",
+      "en": "and things like that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "재능이랄까 ㅋ",
+      "en": "Maybe it's just a talent of mine ㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "샤프 색깔 하연이 색깔이네 머야",
+      "en": "The color of your mechanical pencil is Hayeon's color."
+    },
+    {
+      "type": "hayeon",
+      "ko": "일부로 민트색으로 샀엉 ㅎㅎㅎ",
+      "en": "I bought the mint-colored one on purpose ㅎㅎㅎ"
+    },
+    {
+      "type": "fan",
+      "ko": "민트색보면 의미부여해?",
+      "en": "Do you get sentimental whenever you see mint?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "살짝 친밀감들긴 해 ㅋㄹㅋㄹㅋㄹ",
+      "en": "I do feel a little sense of familiarity ㅋㄹㅋㄹㅋㄹ"
+    },
+        {
+      "type": "hayeon",
+      "ko": "요즘 글 그림이",
+      "en": "These days, writing and drawing"
+    },
+    {
+      "type": "hayeon",
+      "ko": "취미가되니까",
+      "en": "have become my hobbies,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 막 요조숙녀같고",
+      "en": "I really feel like a proper young lady,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "교양있어 보이고",
+      "en": "and I look so elegant,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔지알지",
+      "en": "you know what I mean."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎ핳하하하하ㅏㅏ",
+      "en": "ㅎ핳하하하하ㅏㅏ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이제 음성이 돼?",
+      "en": "Does voice work now?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어디써",
+      "en": "Where do I use it?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "에",
+      "en": "Eh."
+    },
+    {
+      "type": "hayeon",
+      "ko": "안되는데",
+      "en": "It doesn't work."
+    },
+    {
+      "type": "hayeon",
+      "ko": "업데이트하라고~",
+      "en": "It says I need to update~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 Y/n랑 데이트할건데",
+      "en": "I was going to go on a date with Y/n."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㄹㅋㅋㄹㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㄹㅋㅋㄹㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "크크킄ㅋㅋㅋㅋ",
+      "en": "크크킄ㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "업데이트 안뜨는데",
+      "en": "The update isn't showing up, though."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 해올게 담에 올때",
+      "en": "I'll do it before I come back next time."
+    },
+    {
+      "type": "hayeon",
+      "image": "image-02.webp"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이거도 그렸다",
+      "en": "I drew this one too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "누구 그런건 없어",
+      "en": "It's not supposed to be anyone in particular."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그냥 손이 가는대로 그렸을뿐",
+      "en": "I just drew whatever my hand felt like drawing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오 유연언니 닮긴 했네",
+      "en": "Oh... it does kind of look like Yooyeon unnie."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오래 안걸렴ㅅ어",
+      "en": "It didn't take very long."
+    },
+    {
+      "type": "hayeon",
+      "ko": "둘다 한 10분정도 그린거같은데",
+      "en": "I think I spent about 10 minutes on each of them."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래서 디테일이 아직 부족혀",
+      "en": "So they're still lacking in detail."
+    },
+    {
+      "type": "fan",
+      "ko": "신기하다 넌 확실히 예체능인가봐",
+      "en": "That's amazing. You're definitely more of an arts person."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 그건 나도 느끼긴해",
+      "en": "Honestly, I feel that too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "공부는 하라고만 하면 의욕 없어지고",
+      "en": "Whenever someone tells me to study, I lose all motivation."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘한다 잘한다 해도 짜증만 나고 하기싫고",
+      "en": "Even if people praise me and tell me I'm doing well, I just get annoyed and don't want to do it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "의자에 앉아있는거 못하고",
+      "en": "I could never sit still in a chair."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그랬어서",
+      "en": "So because I was like that,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 뭐가되든 예체능쪽 하긴 하겠구나 싶었어",
+      "en": "I figured that no matter what I became, it'd probably be something in the arts."
+    },
+    {
+      "type": "fan",
+      "ko": "만우절 때 그렸던 그림이랑 비교하면 발전이 너무 큰 것 같아요!",
+      "en": "Compared to the drawing you did on April Fools', I think you've improved so much!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그건 컨셉이지~~",
+      "en": "That was just for the concept~~"
+    },
+        {
+      "type": "hayeon",
+      "ko": "그래서 시험볼때",
+      "en": "So whenever I had exams,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "애들은 시험지 비어있는곳을 풀이하느라 다 쓰는데",
+      "en": "everyone else would fill up the blank spaces on their test papers with their work,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 혼자 거기 그림그리고 있었음",
+      "en": "but I'd be over there drawing instead."
+    },
+    {
+      "type": "hayeon",
+      "ko": "시험끝나면 내 시험지는 거의 스케치북",
+      "en": "By the end of the exam, my test paper was basically a sketchbook."
+    },
+    {
+      "type": "hayeon",
+      "ko": "원래 시험은 단기기억으로",
+      "en": "For exams, I usually relied on short-term memory."
+    },
+    {
+      "type": "hayeon",
+      "ko": "시험 직전에 시험나온다는거 달달외우고",
+      "en": "I'd memorize everything that was likely to be on the test right before it started,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "받자마자 아는거 싹다 풀고",
+      "en": "answer everything I knew as soon as I got the paper,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "자야지",
+      "en": "and then go to sleep."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 한국사는 열심히 풀었어",
+      "en": "I did work hard on Korean History, though."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그건 공부라기보단 드라마처럼",
+      "en": "It didn't really feel like studying—it was more like watching a drama."
+    },
+    {
+      "type": "hayeon",
+      "ko": "스토리 자체가 너무 기억에 남으니까 쉬웠고",
+      "en": "The stories themselves were so memorable that it made it easy."
+    },
+    {
+      "type": "fan",
+      "ko": "지구과학은?? 하연이 우주 관심 많잖아",
+      "en": "What about Earth Science?? You're really interested in space, Hayeon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그건 문제만 흥미로워하고 답은 뭐 ㅎㅎ",
+      "en": "The questions are interesting, but the answers... well ㅎㅎ"
+    },
+    {
+      "type": "fan",
+      "ko": "수학은 물어볼 필요도 없겠네ㅋㅋㅋㅋ",
+      "en": "I guess there's no need to even ask about mathㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "쉿",
+      "en": "Shh."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 완벽하면 인간미가 없잖아 ㅋ",
+      "en": "If I'm too perfect, I won't seem human ㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "젤 좋아하는 과목은 머였어",
+      "en": "What was your favorite subject?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "과목은 모르겠고",
+      "en": "I'm not sure about my favorite subject,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 Y/n 좋아해",
+      "en": "but I like Y/n."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎㅎㅎㅎㅎ",
+      "en": "ㅎㅎㅎㅎㅎㅎ"
+    },
+    {
+      "type": "fan",
+      "ko": "오늘 저메추해줘!!",
+      "en": "Recommend me something for dinner today!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 방금 삼겹살에 볶음김치 먹었어 배달로",
+      "en": "I just had samgyeopsal and stir-fried kimchi delivered."
+    },
+    {
+      "type": "fan",
+      "ko": "시온이가 요즘 하연이 때문에 회 먹기 시작했다던데ㅋㅋㅋㅋㅋㅋ",
+      "en": "I heard Sion started eating sashimi because of you these daysㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞아 ㅋㅋㅎㅎㅋㅋㅋㅋ",
+      "en": "That's right ㅋㅋㅎㅎㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "가족이야",
+      "en": "We're family."
+    },
+    {
+      "type": "hayeon",
+      "ko": "혼자 시켜서 치즈불닭이랑",
+      "en": "I ordered cheese buldak just for myself."
+    },
+    {
+      "type": "fan",
+      "ko": "갑자기 갑각류 알러지가 생기면 어떡할거야",
+      "en": "What if you suddenly develop a shellfish allergy?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그럼 난 아무것도 먹을 수 없어…..",
+      "en": "Then I wouldn't be able to eat anything….."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어제 그 양즈깐루??",
+      "en": "That Yangzi Ganlu yesterday??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 맛있더라",
+      "en": "It was so delicious."
+    },
+    {
+      "type": "hayeon",
+      "ko": "가리는 음식이 없다보니",
+      "en": "Since I'm not picky with food,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어른들 먹는거 옆에서 먹고 하다보니",
+      "en": "I'd always eat whatever the adults were eating."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어린데 어른들 먹는 음식 먹는애가 나밖에 없으니까",
+      "en": "I was the only kid who ate grown-up food,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "신기해서 막 사주시고",
+      "en": "so they thought it was fascinating and kept buying food for me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "할아버지가 광어 대짜리를 혼자 먹으라고 사주셔서",
+      "en": "My grandpa even bought me a large platter of flatfish just for me to eat."
+    },
+    {
+      "type": "hayeon",
+      "ko": "질릴때까지 먹고 그랬었다",
+      "en": "I'd eat it until I got tired of it."
+    },
+        {
+      "type": "fan",
+      "ko": "원래 입주 초기 때 입 짧은 이미지였는데 어쩌다가 돼지력 아이돌이 된것인가...",
+      "en": "At the beginning after you moved in, you had the image of being a small eater. How did you end up becoming an idol with such a big appetite..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그때 나 44였는데…",
+      "en": "Back then, I weighed 44kg..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금 생각해보면 진짜 말랐었다 생각이 드네",
+      "en": "Thinking back now, I really was so skinny."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금은 말할 수 없어",
+      "en": "I can't say it now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어젠가",
+      "en": "Was it yesterday?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "팬싸에서 나경언니한테",
+      "en": "At the fansign, I asked Nakyoung unnie,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 살쪘지",
+      "en": "\"I've gained weight, haven't I?\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "하니까",
+      "en": "And then,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "너 원래 포동포동 했엉~",
+      "en": "\"You were always chubby~\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이래서 나 너무 충격이였어",
+      "en": "She said that, and I was so shocked."
+    },
+    {
+      "type": "hayeon",
+      "ko": "몰라ㅏㅏ",
+      "en": "I don't knowㅏㅏ"
+    },
+    {
+      "type": "hayeon",
+      "sticker": "sticker-01.gif"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사실 난 만족하긴 해",
+      "en": "Honestly, I'm satisfied."
+    },
+    {
+      "type": "hayeon",
+      "ko": "먹느라 행복했고!!",
+      "en": "I've been happy eating!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런 내 모습 사랑해주는 Y/n있고!!!",
+      "en": "And I have Y/n who loves me just the way I am!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 몸도 건강하고!!!",
+      "en": "My body is healthy too!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "얼매나 좋아",
+      "en": "How wonderful is that?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "행복만 하면 돼~",
+      "en": "As long as we're happy~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "Y/n도 행복만 해",
+      "en": "Y/n, I hope you're happy too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아프지 말고",
+      "en": "Don't get sick,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "좋은일만 생기길",
+      "en": "and I hope only good things happen to you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 밖에 날씨도 좋아보이네ㅔ",
+      "en": "The weather outside looks nice today too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하루 힘차게 보내구",
+      "en": "Have an energetic day,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 응원할게~",
+      "en": "I'll be cheering you on~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "가볼겡",
+      "en": "I'm off now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해😍😍",
+      "en": "Haranghae😍😍"
+    }
+  ]
+}
