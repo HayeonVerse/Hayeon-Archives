@@ -2,6 +2,51 @@
   "date": "2024-12-25",
   "messages": [
     {
+      "type": "hayeon",
+      "ko": "메리 크리스마스!!!",
+      "en": "Merry Christmas!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐하고있어??",
+      "en": "What are you doing??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "맛있는거 먹구있나~?",
+      "en": "Are you eating something delicious~?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나는 삼겹살 꾸워 먹어찌ㅣ",
+      "en": "I grilled some samgyeopsal and ate it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "크리스마스라고",
+      "en": "Since it's Christmas,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "여기저기 사람들 막",
+      "en": "there are people everywhere,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "몰렸을텐데",
+      "en": "it's probably really crowded."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그런건 나에겐 사치다 하고",
+      "en": "I figured that's a luxury for me,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그냥 삼겹살ㅋㄹㅋㅎㅋㄹㅋㅎ",
+      "en": "so I just had samgyeopsalㅋㄹㅋㅎㅋㄹㅋㅎ"
+    },
+    {
       "type": "fan",
       "ko": "까마귀 선물은 마음에드니",
       "en": "Did you like the crow gift?"
@@ -9,22 +54,22 @@
     {
       "type": "hayeon",
       "ko": "아 그거받고",
-      "en": "Ah, after getting that..."
+      "en": "Ah, after getting that,"
     },
     {
       "type": "hayeon",
       "ko": "징그러워서",
-      "en": "It was so gross."
+      "en": "it was so creepy,"
     },
     {
       "type": "hayeon",
       "ko": "여기저기",
-      "en": "So I went around..."
+      "en": "that I gave it away"
     },
     {
       "type": "hayeon",
       "ko": "주고",
-      "en": "giving them away."
+      "en": "here and there,"
     },
     {
       "type": "hayeon",
@@ -39,22 +84,22 @@
     {
       "type": "hayeon",
       "ko": "진짜 같아서 뭔가",
-      "en": "It looked so real somehow."
+      "en": "It looked so real that it gave me"
     },
     {
       "type": "hayeon",
       "ko": "불쾌한 골짜기느낌",
-      "en": "It gave me an uncanny valley feeling."
+      "en": "that uncanny valley feeling."
     },
     {
       "type": "hayeon",
       "ko": "그때",
-      "en": "At the time..."
+      "en": "At that moment,"
     },
     {
       "type": "hayeon",
       "ko": "나는 적어도",
-      "en": "At the very least,"
+      "en": "I thought at least,"
     },
     {
       "type": "hayeon",
@@ -64,17 +109,17 @@
     {
       "type": "hayeon",
       "ko": "피자담요",
-      "en": "a pizza blanket..."
+      "en": "a pizza blanket,"
     },
     {
       "type": "hayeon",
       "ko": "뭔가 실용성있는거라도",
-      "en": "or at least something practical..."
+      "en": "or at least something practical"
     },
     {
       "type": "hayeon",
       "ko": "걸료라",
-      "en": "I was hoping I'd get something like that."
+      "en": "would've been nice."
     },
     {
       "type": "hayeon",
@@ -84,17 +129,1159 @@
     {
       "type": "hayeon",
       "ko": "까마귀",
-      "en": "a crow..."
+      "en": "a crow."
     },
     {
       "type": "hayeon",
-      "ko": "....",
-      "en": "...."
+      "ko": "….",
+      "en": "…."
     },
     {
       "type": "hayeon",
       "ko": "심지어 날지도 못하는",
-      "en": "And it couldn't even fly."
+      "en": "It couldn't even fly."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 근데 유독",
+      "en": "But for some reason,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "올해가",
+      "en": "this year"
+    },
+    {
+      "type": "hayeon",
+      "ko": "크리스마스 느낌",
+      "en": "doesn't really feel like Christmas."
+    },
+    {
+      "type": "hayeon",
+      "ko": "없다",
+      "en": "Not at all."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그냥 휴일같음",
+      "en": "It just feels like a holiday."
+    },
+    {
+      "type": "hayeon",
+      "ko": "작년엔",
+      "en": "Last year,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "가족이랑",
+      "en": "with my family,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "영화보고",
+      "en": "we watched a movie,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사촌동생들",
+      "en": "my younger cousins"
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리집 와서",
+      "en": "came over to our house,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 파스타 만들고",
+      "en": "I made pasta,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "애들 초코칩쿠키",
+      "en": "and the kids wanted"
+    },
+    {
+      "type": "hayeon",
+      "ko": "만들고싶다ㅎㅐ서",
+      "en": "to make chocolate chip cookies,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "믹스사다가 굽고",
+      "en": "so we bought a baking mix and baked them."
+    },
+    {
+      "type": "hayeon",
+      "ko": "했었는데",
+      "en": "That's what we did."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이 무슨 파스타 할줄 알음",
+      "en": "What kinds of pasta can you make, Hayeon?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "재료만 있다몀",
+      "en": "As long as I have the ingredients,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "모든 파스타 가능",
+      "en": "I can make any kind of pasta."
+    },
+        {
+      "type": "fan",
+      "ko": "멤버들한테 해 준 적 있어?",
+      "en": "Have you ever made it for the members?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "숙소에서 요리라….",
+      "en": "Cooking at the dorm..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그건 정말 사치야",
+      "en": "That's really a luxury."
+    },
+    {
+      "type": "hayeon",
+      "ko": "배달로",
+      "en": "With food delivery,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "30분만에 뭐든지",
+      "en": "anything you want"
+    },
+    {
+      "type": "hayeon",
+      "ko": "완성되어서 오는데",
+      "en": "arrives in about 30 minutes,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "굳이",
+      "en": "so why would I"
+    },
+    {
+      "type": "hayeon",
+      "ko": "?",
+      "en": "?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고 내가",
+      "en": "And if I did cook,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "요리하면",
+      "en": ""
+    },
+    {
+      "type": "hayeon",
+      "ko": "시온언니 옆에서",
+      "en": "Sion unnie would be next to me like,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 좀 치우면서 해!!",
+      "en": "\"Hey, clean up while you're cooking!!\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러면서",
+      "en": "while saying that,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "옆에서 막 치우고있을듯",
+      "en": "she'd probably be cleaning up beside me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㄹㅋㄹㄹㅋㄹㅋㄹ",
+      "en": "ㄹㅋㄹㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 숙소엄마거든",
+      "en": "She's basically the dorm mom."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 저번에",
+      "en": "The other day,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "픽업가야하는데",
+      "en": "I had to leave for a pickup,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "배고프다하니까",
+      "en": "and when I said I was hungry,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "직접구운 고구마와 귤 두유를",
+      "en": "she packed roasted sweet potatoes, tangerines, and soy milk"
+    },
+    {
+      "type": "hayeon",
+      "ko": "봉지에 싸주심",
+      "en": "into a bag for me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "엄마..?🥹",
+      "en": "Mom..?🥹"
+    },
+    {
+      "type": "hayeon",
+      "ko": "감동먹어버리기",
+      "en": "I was so touched."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니",
+      "en": "Anyway,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이번에",
+      "en": "there are"
+    },
+    {
+      "type": "hayeon",
+      "ko": "영화 새로나온거",
+      "en": "so many new movies"
+    },
+    {
+      "type": "hayeon",
+      "ko": "엄청 많자나여",
+      "en": "coming out lately."
+    },
+    {
+      "type": "hayeon",
+      "ko": "곧",
+      "en": "There are also"
+    },
+    {
+      "type": "hayeon",
+      "ko": "개봉하는거도",
+      "en": "a lot of movies"
+    },
+    {
+      "type": "hayeon",
+      "ko": "많거",
+      "en": "coming out soon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데!!!!!!",
+      "en": "But!!!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 영화 보고시픈데!!!!!!!",
+      "en": "I really want to watch movies!!!!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다 보지못하는게",
+      "en": "The fact that I can't watch them all"
+    },
+    {
+      "type": "hayeon",
+      "ko": "넘 슬픔",
+      "en": "makes me so sad."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 완전",
+      "en": "I really like"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진지한 영화 좋아",
+      "en": "serious movies."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이번에 개봉한것도",
+      "en": "The one that just came out"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진지영화라",
+      "en": "is a serious movie,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "보고싶은건데",
+      "en": "so I really want to see it."
+    },
+    {
+      "type": "fan",
+      "ko": "소방관!!!!!! 나 친구랑 보다가 오열쇼함…",
+      "en": "Firefighters!!!!!! I watched it with a friend and ended up crying my eyes out…"
+    },
+    {
+      "type": "hayeon",
+      "ko": "보고시퍼ㅠㅠㅜ",
+      "en": "I want to watch itㅠㅠㅜ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이게 실화라며",
+      "en": "I heard it's based on a true story."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래서",
+      "en": "So,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그영화를 보기위해",
+      "en": "before watching the movie,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 그 사건의 전말이 담긴영상과",
+      "en": "I already watched videos explaining the whole incident"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그런 사전조사를",
+      "en": "and did all that background research."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다 해놨다고",
+      "en": "I already prepared myself."
+    },
+        {
+      "type": "fan",
+      "ko": "하연아 꼬꼬무 보면 돼",
+      "en": "Hayeon, you should watch 꼬꼬무."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이미 ㅈ봤지!!",
+      "en": "I've already watched it!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 항상",
+      "en": "But every time,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "멤버들한테",
+      "en": "when I ask the members"
+    },
+    {
+      "type": "hayeon",
+      "ko": "보러가자고하면",
+      "en": "to go watch a movie,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "피곤하다",
+      "en": "\"I'm tired.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 잘거임 다른사람 찾으셈",
+      "en": "\"I'm going to sleep. Go ask someone else.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "보기로해놓고도",
+      "en": "Even if we've already made plans,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 난 오늘 아닌듯",
+      "en": "\"Ah, I don't think today's the day.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 그럼 어뜨케!!!",
+      "en": "Then what am I supposed to do!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "혼자 봐!!!",
+      "en": "\"Go watch it alone!!!\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "혼자 무서워서 못봐ㅠㅠㅠ",
+      "en": "\"I can't watch it alone because I'm scaredㅠㅠㅠ\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이래 맨날",
+      "en": "It's always like that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 근데",
+      "en": "Ah, but..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이번 소방관은",
+      "en": "For *Firefighters*,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "혼영에 도전해볼까해",
+      "en": "I think I might try going to see it by myself."
+    },
+    {
+      "type": "hayeon",
+      "ko": "눈물콧물 쏟아진다니까",
+      "en": "People say you'll cry your eyes out,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "마음것 쏟을수있게",
+      "en": "so I can cry as much as I want."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㅎㅋㅎㅋㄹ",
+      "en": "ㅋㄹㅋㅎㅋㅎㅋㄹ"
+    },
+    {
+      "type": "fan",
+      "ko": "영화관에서 육각단 만나면 어떡해 ㅋㅋㅋㅋ",
+      "en": "What if you run into a Hexagon at the movie theater?ㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "눈물묻은 팝콘 줘야지…",
+      "en": "I'd have to give them my tear-soaked popcorn..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "흙ㅎ흙 드실래여..?",
+      "en": "S-sniff... would you like some..?"
+    },
+    {
+      "type": "fan",
+      "ko": "젤 좋아하는 영화나 젤 재미있게 본 영화도 궁금행",
+      "en": "I'm also curious what your favorite movie is, or the most enjoyable one you've watched."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나는…",
+      "en": "For me..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나는….",
+      "en": "Hmm..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "흠",
+      "en": "Hmm."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이번에",
+      "en": "Recently,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "범죄도시였나",
+      "en": "was it *The Roundup*..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 1을 못봤었는데",
+      "en": "I hadn't seen the first one."
+    },
+    {
+      "type": "hayeon",
+      "ko": "1 못본 상태로 봐도",
+      "en": "Even without watching the first movie,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "스토리가",
+      "en": "the story"
+    },
+    {
+      "type": "hayeon",
+      "ko": "쉴새없이",
+      "en": "kept me engaged"
+    },
+    {
+      "type": "hayeon",
+      "ko": "흥미진진한거야",
+      "en": "the whole time."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 범죄도시가",
+      "en": "Ah, it wasn't *The Roundup*."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아닌가",
+      "en": "Or was it?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그거 뭐야",
+      "en": "What was it called again?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "베테랑이네",
+      "en": "Oh, it was *Veteran*."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞다",
+      "en": "That's right."
+    },
+    {
+      "type": "hayeon",
+      "ko": "미안 헷갈렸엌ㅋㅋㅋ",
+      "en": "Sorry, I got them mixed upㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "황정민배우님",
+      "en": "Actor Hwang Jung-min"
+    },
+    {
+      "type": "hayeon",
+      "ko": "연기를 진짜",
+      "en": "is seriously"
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 잘하셔서",
+      "en": "such an incredible actor."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고내가 항상",
+      "en": "And something I always"
+    },
+    {
+      "type": "hayeon",
+      "ko": "보러가는건",
+      "en": "make sure to watch is"
+    },
+    {
+      "type": "hayeon",
+      "ko": "미니언즈나",
+      "en": "*Minions*"
+    },
+    {
+      "type": "hayeon",
+      "ko": "디즈니에서 나오는",
+      "en": "or any"
+    },
+    {
+      "type": "hayeon",
+      "ko": "애니메이션",
+      "en": "Disney animated movie."
+    },
+    {
+      "type": "hayeon",
+      "ko": "무조건 봐야함",
+      "en": "I absolutely have to watch them."
+    },
+    {
+      "type": "hayeon",
+      "ko": "모아나 못봄…",
+      "en": "I haven't watched *Moana*..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 볼시간이",
+      "en": "No, it's just that"
+    },
+    {
+      "type": "hayeon",
+      "ko": "없었지",
+      "en": "I didn't have time."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 보고싶었는데!!!!!",
+      "en": "I really wanted to watch it!!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 지금",
+      "en": "I'm going to"
+    },
+    {
+      "type": "hayeon",
+      "ko": "영화 봐야겠어 숙소에서",
+      "en": "watch a movie at the dorm now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "추천해죠",
+      "en": "Recommend me one."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 보면 후회안한다",
+      "en": "One that I'll definitely never regret watching."
+    },
+    {
+      "type": "hayeon",
+      "ko": "한시도 쉬지않고 재밌는",
+      "en": "Something that's exciting from beginning to end,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그런 영화",
+      "en": "a movie like that."
+    },
+    {
+      "type": "fan",
+      "ko": "컨저링",
+      "en": "The Conjuring."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이미",
+      "en": "I've already"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다봐서 안무서움",
+      "en": "watched them all, so they're not scary anymore."
+    },
+    {
+      "type": "hayeon",
+      "ko": "헐 나경언니랑 공포영화",
+      "en": "Oh! I should watch a horror movie with Nakyoung unnie."
+    },
+    {
+      "type": "hayeon",
+      "ko": "봐야겠다",
+      "en": "That sounds fun."
+    },
+    {
+      "type": "fan",
+      "ko": "나키 무서운거 잘봐???",
+      "en": "Is Naky good with scary movies???"
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리 밥먹을때마다",
+      "en": "Whenever we eat,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "무서운거나 소름돋는거",
+      "en": "we watch scary or creepy things."
+    },
+    {
+      "type": "hayeon",
+      "ko": "봄",
+      "en": "We do it all the time."
+    },
+        {
+      "type": "fan",
+      "ko": "트리플에스 최고 겁쟁이가 누구야???",
+      "en": "Who's the biggest scaredy-cat in tripleS???"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내예상 유바미",
+      "en": "I think it's Yubami."
+    },
+    {
+      "type": "hayeon",
+      "ko": "무서운 얘기",
+      "en": "Whenever someone tries"
+    },
+    {
+      "type": "hayeon",
+      "ko": "할라고만 하면",
+      "en": "to tell a scary story,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀막고",
+      "en": "she covers her ears,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "채연언니랑 무서운영상 틀면 방으로 들어감",
+      "en": "and if Chaeyeon unnie puts on a scary video, she goes straight into her room."
+    },
+    {
+      "type": "fan",
+      "ko": "유빈이가 내년은 하연유빈 커플상 예상한다던데",
+      "en": "Yubin said she thinks Hayeon and Yubin will win the Best Couple award next year."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㅋㄹㄹㅋㄹㅋㄹ 맞아 나한테도 말함",
+      "en": "ㅋㄹㅋㅋㄹㄹㅋㄹㅋㄹ That's right, she told me too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 우리 평소엔 맨날 붙어있고",
+      "en": "But we're always together in our daily lives,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그러는데",
+      "en": "we really are,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "카메라앞에서 찍힌건 별로없어서",
+      "en": "but there aren't many moments of us together on camera,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘 모르는듯",
+      "en": "so I guess people don't really know."
+    },
+    {
+      "type": "fan",
+      "ko": "그래서 어제 유빈이한테 왜 전화함?",
+      "en": "So why did you call Yubin yesterday?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 언니 방에 올라갈려고했는데",
+      "en": "I was going to go up to her room,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "집간데!!!!",
+      "en": "but she'd already gone home!!!!"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-01.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㅋㄹㅋㄹㄹㅋ",
+      "en": "ㅋㄹㅋㅋㄹㅋㄹㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그냥 해봤어",
+      "en": "I just felt like calling."
+    },
+    {
+      "type": "fan",
+      "ko": "하연아 캐롤불러줘🤍",
+      "en": "Hayeon, sing a Christmas carol for us🤍"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-02.mp3"
+    },
+        {
+      "type": "hayeon",
+      "voice": "voice-03.mp3"
+    },
+    {
+      "type": "fan",
+      "ko": "너 가사 모르지 ㅋ",
+      "en": "You don't know the lyrics, do you?ㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "응 아니쥬!!!",
+      "en": "Yep, I don't!!!"
+    },
+    {
+      "type": "fan",
+      "ko": "가사 다 틀렸쥬 시크릿 쥬쥬",
+      "en": "You got all the lyrics wrong, Secret Jouju."
+    },
+    {
+      "type": "hayeon",
+      "ko": "응아니주 소피루비쥬",
+      "en": "Nope, it's Sophie Ruby."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-04.mp3"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-05.mp3"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-06.mp3"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-07.mp3"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-08.mp3"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-09.mp3"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-10.mp3"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-11.mp3"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-12.mp3"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-13.mp3"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-14.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "생각보다 잘아는군..",
+      "en": "You know it better than I expected.."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-15.mp3"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-16.mp3"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-17.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "바나나킥이라니..",
+      "en": "Banana Kick, seriously.."
+    },
+    {
+      "type": "hayeon",
+      "ko": "바나나한테 사과해",
+      "en": "Apologize to the bananas."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-18.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "밸런스 게임하자",
+      "en": "Let's play a balance game."
+    },
+    {
+      "type": "hayeon",
+      "ko": "1시간씩 늦게오는친구 vs 빨리오는친구",
+      "en": "A friend who's always one hour late vs. a friend who's always early."
+    },
+    {
+      "type": "hayeon",
+      "ko": "빨리오는친구는 대신",
+      "en": "The early friend,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "자기가 먼저 가놓고",
+      "en": "gets there first,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "왤케 늦냐고",
+      "en": "then keeps asking,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "1분에 한번씩 전화함",
+      "en": "\"Why are you so late?\" while calling you once every minute."
+    },
+    {
+      "type": "hayeon",
+      "ko": "늦는 친구는",
+      "en": "The late friend,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "항상 늦게 와놓고 사과도 안함",
+      "en": "is always late and never apologizes."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 늦게오는 친구를 고를개",
+      "en": "I'd choose the friend who's always late."
+    },
+    {
+      "type": "hayeon",
+      "ko": "걍",
+      "en": "I'd just"
+    },
+    {
+      "type": "hayeon",
+      "ko": "딴거 하고있음 오겠지",
+      "en": "do something else while waiting."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하고",
+      "en": "I'd just think,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "항상 가볍기만한 친구vs 항상 진지한 친구",
+      "en": "\"They'll show up eventually.\" Next one: a friend who's always joking vs. a friend who's always serious."
+    },
+        {
+      "type": "hayeon",
+      "ko": "내가 고민을 말하면",
+      "en": "If I told them about a problem,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "야 그게뭐 ㅋㅋㅋ 그건 걍 그거아님?ㅋㅋㄹㄹㅋㄹㄹㅋㄹㄹㅋㄹ",
+      "en": "\"What?ㅋㅋㅋ Isn't it just that?ㅋㅋㄹㄹㅋㄹㄹㅋㄹㄹㅋㄹ\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니면",
+      "en": "Or..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "고민말하면",
+      "en": "if I shared a problem,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 그러면 너가 그렇게 하고 이렇게하고",
+      "en": "\"Then you should do this, then do that.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "단점은",
+      "en": "The downside is,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "장난쳐도",
+      "en": "even if you joke around,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이건 이렇고 저건 저렇고",
+      "en": "they'll explain everything seriously,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "야 장난이잖아… 해줘야",
+      "en": "and you'd have to say, \"Hey, I was just joking...\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "아..!",
+      "en": "\"Ah..!\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이럼",
+      "en": "That's how it'd go."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 … 후자",
+      "en": "I'd choose... the latter."
+    },
+    {
+      "type": "hayeon",
+      "ko": "장난 안치면 되니까",
+      "en": "I can just not joke around."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "fan",
+      "ko": "난 전자.. 고민 말 안 하면 돼..",
+      "en": "I'd choose the first one... I just wouldn't tell them my problems.."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오 그런 방법도 있네",
+      "en": "Oh, that's another way to look at it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "자기 자랑만 하는친구vs 남 험담만 하는친구",
+      "en": "A friend who only brags about themselves vs. a friend who only talks badly about other people."
+    },
+    {
+      "type": "hayeon",
+      "ko": "자랑하는 친구는",
+      "en": "The friend who brags,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "무슨얘기던 자기 자랑으로 이어짐",
+      "en": "turns every conversation into talking about themselves."
+    },
+    {
+      "type": "hayeon",
+      "ko": "후자는 지나가는 사람들마다",
+      "en": "The other one,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "헐 저사람왜저래",
+      "en": "would look at every person walking by and say,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이럼",
+      "en": "\"What's wrong with that person?\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 전자",
+      "en": "I'd choose the first one."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 못지않게 내자랑 하면됨",
+      "en": "I'd just brag about myself too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎ",
+      "en": "ㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "야 그건 내가 더 잘할듯~~?",
+      "en": "\"Hey, I think I'd be even better at that~~?\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러면서",
+      "en": "I'd say something like that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㅋㄹㅋㄹㄹ",
+      "en": "ㅋㄹㅋㅋㄹㅋㄹㄹ"
+    },
+    {
+      "type": "fan",
+      "ko": "하연아 너 진짜 n이다",
+      "en": "Hayeon, you're such an N."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 내가 최근에 진짜 느꼈어",
+      "en": "No, but I really realized it recently."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 상상하는거때문에 집중이",
+      "en": "I get so caught up in imagining things that I can't even concentrate."
+    },
+    {
+      "type": "hayeon",
+      "ko": "안될정도로",
+      "en": "It's gotten that bad."
+    },
+    {
+      "type": "hayeon",
+      "ko": "막 이러면 어떡하지 이러면? 이러면?",
+      "en": "I'm constantly thinking, \"What if this happens? What if that happens?\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러면서",
+      "en": "while"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 머리속에 나와 내가 대화를해",
+      "en": "having conversations with myself inside my head."
+    },
+    {
+      "type": "hayeon",
+      "ko": "좀 이상하긴한데",
+      "en": "It's a little weird, though."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㄹㄹㄹㅎㅋㅎㅎㅋㅋㅎ",
+      "en": "ㄹㄹㄹㅎㅋㅎㅎㅋㅋㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 이제",
+      "en": "I'm going to"
+    },
+    {
+      "type": "hayeon",
+      "ko": "영화를 보겠엉",
+      "en": "watch a movie now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "공포영화 열심히 찾아볼듯",
+      "en": "I'll look hard for a horror movie."
+    },
+    {
+      "type": "hayeon",
+      "ko": "크리스마스 잘 보내구",
+      "en": "Have a wonderful Christmas."
+    },
+    {
+      "type": "hayeon",
+      "ko": "1시간 남았지만",
+      "en": "Even though there's only an hour left."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅎㅋㅎㄹㅋ 하랑햐ㅑ",
+      "en": "ㅋㅎㅋㅎㄹㅋ Haranghaeㅑ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "🎄🎄",
+      "en": "🎄🎄"
     }
   ]
 }
