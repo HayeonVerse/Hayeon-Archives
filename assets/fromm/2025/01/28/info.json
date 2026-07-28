@@ -4,12 +4,15 @@
     {
       "type": "hayeon",
       "ko": "뭐해ㅐ",
-      "en": "What are you doing?"
+      "en": "What are you up tooo?"
     },
     {
       "type": "hayeon",
-      "ko": "2",
-      "en": "2"
+      "image": "image-01.PNG"
+    },
+    {
+      "type": "hayeon",
+      "image": "image-02.PNG"
     },
     {
       "type": "hayeon",
@@ -18,51 +21,48 @@
     },
     {
       "type": "hayeon",
-      "image": "image-01.PNG"
-    },
-        {
-      "type": "hayeon",
-      "image": "image-02.PNG"
-    },
-    {
-      "type": "hayeon",
       "ko": "내가 만든 라자냐랑 파스타얌",
-      "en": "This is lasagna and pasta that I made."
+      "en": "I made this lasagna and pasta."
     },
     {
       "type": "hayeon",
       "ko": "라자냐 루 소스까디 다 내가만들어써",
-      "en": "I made all of the lasagna, including the sauce."
+      "en": "I even made the lasagna roux and sauce all by myself."
     },
     {
       "type": "hayeon",
       "ko": "칼로리 폭탄이라",
-      "en": "Because it's a calorie bomb."
+      "en": "It's a total calorie bomb,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "가족들 만들어주고",
+      "en": "so I made it for my family,"
     },
     {
       "type": "hayeon",
       "ko": "난 또띠아먹어또",
-      "en": "I'm just eating tortillas instead."
+      "en": "and I ate a tortilla instead."
     },
     {
       "type": "hayeon",
       "ko": "오빠가",
-      "en": "My older brother."
+      "en": "My older brother"
     },
     {
       "type": "hayeon",
       "ko": "사먹는맛이래",
-      "en": "Said that it tastes like something you'd buy to eat."
+      "en": "said it tasted like something you'd buy at a restaurant."
     },
     {
       "type": "hayeon",
       "ko": "쵝오의 칭찬아님??",
-      "en": "Isn't that the highest praise??"
+      "en": "Isn't that the best compliment ever??"
     },
     {
       "type": "hayeon",
       "ko": "나중에 만들어줄게",
-      "en": "I'll make it for you next time."
+      "en": "I'll make it for you someday."
     },
     {
       "type": "hayeon",
@@ -72,27 +72,392 @@
     {
       "type": "hayeon",
       "ko": "자랑하려고 보냈어 ㅎㅎ",
-      "en": "I sent this just to brag ㅎㅎ."
+      "en": "I sent it because I wanted to show it off. ㅎㅎ"
     },
     {
       "type": "hayeon",
       "ko": "한식고수 증하연이",
-      "en": "Jeong Hayeon, the master of Korean food."
+      "en": "Jeong Hayeon, master of Korean cuisine,"
     },
     {
       "type": "hayeon",
       "ko": "양식까지",
-      "en": "Now even mastering Western food."
+      "en": "has conquered Western food too."
     },
     {
       "type": "hayeon",
       "ko": "크",
-      "en": "크"
+      "en": "Hehe."
     },
     {
       "type": "hayeon",
       "ko": "요리하는게 재밌었어요! 😃",
-      "en": "Cooking was really fun! 😃"
+      "en": "Cooking was so much fun! 😃"
+    },
+    {
+      "type": "hayeon",
+      "ko": "벌써 어두워졌네",
+      "en": "It's already gotten dark."
+    },
+    {
+      "type": "hayeon",
+      "ko": "밖에",
+      "en": "Outside,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금 달 봐봐",
+      "en": "look at the moon right now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그롬 우리 동시에 같은달을",
+      "en": "Then we'll be looking at the same moon"
+    },
+    {
+      "type": "hayeon",
+      "ko": "보는거야",
+      "en": "at the same time."
+    },
+    {
+      "type": "hayeon",
+      "ko": "같이있는거같지",
+      "en": "It'll feel like we're together."
+    },
+    {
+      "type": "hayeon",
+      "ko": "크크크킄ㅋ",
+      "en": "크크크킄ㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "우린 항상 같이 잇자나 맞지?",
+      "en": "We're always together anyway, right?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그치ㅣ",
+      "en": "That's right."
+    },
+    {
+      "type": "hayeon",
+      "ko": "눈 너무많이 내렸더라",
+      "en": "It snowed so much."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜",
+      "en": "Seriously,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "조심하고",
+      "en": "be careful,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "넘어지면 전치4주야",
+      "en": "if you fall, you'll end up with four weeks of recovery."
+    },
+    {
+      "type": "fan",
+      "ko": "병문안 와줄거지?",
+      "en": "You'll come visit me in the hospital, right?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "넘어지지말라고",
+      "en": "I'm telling you not to fall."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "fan",
+      "ko": "하연 병문안에 전치4주면 감수할만하다",
+      "en": "Four weeks of recovery would be worth it if Hayeon came to visit me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "왜그러는겨",
+      "en": "Why would you do that?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아프냐?",
+      "en": "Are you hurting?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 아프다",
+      "en": "Then I'd be hurting too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "안아파도 볼수있으니까 아프지 말라겈ㄹㅋㄹㄹㅋ",
+      "en": "You can see me without getting hurt, so don't get hurt.ㅋㄹㅋㄹㄹㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "언젠가 라이브 공연에서 육각단의 모든 응원봉이 목발이 될 수도 있다",
+      "en": "One day, all of Yukgakdan's light sticks at a live show might turn into crutches."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니",
+      "en": "Come on."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㄹㅋㄹㅋㄹ이왕이면 빛나는 목발로들고 오세여",
+      "en": "ㅋㄹㅋㄹㄹㅋㄹㅋㄹ At least bring glowing crutches."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "누가 더 멋진목발인가 대결할듯",
+      "en": "It'd turn into a competition to see who has the coolest crutches."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아하잇 이 초등학생들아",
+      "en": "Oh my, you elementary school kids."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "긁?",
+      "en": "Triggered?"
+    },
+    {
+      "type": "fan",
+      "ko": "아니 진짜초딩은 하연이라 안긁ㅋㅋ",
+      "en": "Nope, the real elementary school kid is you, Hayeon, so I'm not triggered.ㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "참나",
+      "en": "Seriously."
+    },
+    {
+      "type": "hayeon",
+      "ko": "긁고 긁히는 관계",
+      "en": "We're always teasing and getting teased."
+    },
+    {
+      "type": "fan",
+      "ko": "효자손이네",
+      "en": "Sounds like a backscratcher."
+    },
+    {
+      "type": "hayeon",
+      "ko": "좋다 시원하네",
+      "en": "Nice, that's refreshing."
+    },
+    {
+      "type": "fan",
+      "ko": "그래서 오늘 머햇어",
+      "en": "So what did you do today?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐했겠어ㅇ~~",
+      "en": "What do you think I did~~?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "Y/n생각만 했지~~",
+      "en": "I was only thinking about Y/n~~"
+    },
+    {
+      "type": "fan",
+      "ko": "하 거짓말…",
+      "en": "Ha... liar..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어허",
+      "en": "Hey now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜라니까요",
+      "en": "I'm serious."
+    },
+    {
+      "type": "fan",
+      "ko": "혹시 하연이 시즌즈그리팅스 셀카 올려주실 수 있나요?ㅋㅋㅋㄹㄹㄹㅋㄹㅋㄹㅋㄹ하연이 얼굴 보고 싶다ㅠㅠㅠㅠ",
+      "en": "Could you upload one of your Season's Greetings selfies?ㅋㅋㅋㄹㄹㄹㅋㄹㅋㄹㅋㄹ I miss seeing your face.ㅠㅠㅠㅠ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "Sns에 귀욥게 올려줄게",
+      "en": "I'll post a cute one on social media."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내폰으로 사진을 많이 안찍었어 ㅠㅠ",
+      "en": "I didn't take many pictures with my own phone.ㅠㅠ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "저녁은 머목지",
+      "en": "What should I have for dinner?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐먹었어??",
+      "en": "What did you eat??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그러쿤… 난모먹지",
+      "en": "I see... What should I eat?"
+    },
+    {
+      "type": "fan",
+      "ko": "어른들이랑ㅇ육회머고요",
+      "en": "I had yukhoe with the adults."
+    },
+    {
+      "type": "hayeon",
+      "ko": "육회 맛있겠당ㅇ",
+      "en": "Yukhoe sounds delicious."
+    },
+    {
+      "type": "fan",
+      "ko": "치킨 시켜먹어 명절 국룰임",
+      "en": "Order fried chicken. It's basically a holiday tradition."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 치킨 깊티있는데",
+      "en": "Oh, I have a chicken gifticon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "써야즤",
+      "en": "I should use it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맛있는거 많이 드시구여",
+      "en": "Eat lots of delicious food,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "저녁먹었으면",
+      "en": "and if you've already had dinner,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "야식도",
+      "en": "have some"
+    },
+    {
+      "type": "hayeon",
+      "ko": "드시구여",
+      "en": "late-night snacks too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "알았어?",
+      "en": "Okay?"
+    },
+    {
+      "type": "fan",
+      "ko": "야식 먹으면 살 너무 찌는데",
+      "en": "But if I eat late-night snacks, I'll gain too much weight."
+    },
+    {
+      "type": "hayeon",
+      "ko": "찌면 머어때",
+      "en": "So what if you do?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "쪄도 안쪄도 좋아~",
+      "en": "I like you whether you gain weight or not~"
+    },
+    {
+      "type": "fan",
+      "ko": "동글동글해져서 나타날게",
+      "en": "Then I'll show up all round and chubby."
+    },
+    {
+      "type": "hayeon",
+      "ko": "좋다",
+      "en": "Sounds good."
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀여우면 장땡이야",
+      "en": "As long as you're cute, that's all that matters."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내눈엔 다 귀여워",
+      "en": "Everyone looks cute to me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "육깍지 눈에 껴서",
+      "en": "I guess I'm wearing 'Yukgakdan glasses.'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔가 단어가 웃기긴한데",
+      "en": "That phrase sounds kind of funny though."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하고시픈거 다해ㅐ",
+      "en": "Do everything you want to do."
+    },
+    {
+      "type": "hayeon",
+      "ko": "안좋은거만 하지말구",
+      "en": "Just don't do anything bad."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 이제 가족들이랑 메뉴 고를겤ㄹㅋㄹㄹㅋ",
+      "en": "I'm going to go pick what to eat with my family now.ㅋㄹㅋㄹㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "미리 잘자ㅎㅎ",
+      "en": "Sleep well in advance.ㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "푹쉬어용",
+      "en": "Get lots of rest."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해🥰",
+      "en": "Haranghae🥰"
     }
   ]
 }

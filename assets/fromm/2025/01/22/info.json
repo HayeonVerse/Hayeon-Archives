@@ -4,7 +4,736 @@
     {
       "type": "hayeon",
       "ko": "정하연 입주 1주년이라지? 정말 엊그제 입주한거같은데 어느새 1년이란 시간이 흘렀구나 정말 시간이 야속하군 하지만 입주 초반때 어색어색 쑥스쑥스 하연이가 어렴풋이 기억이 나며 그땐 그랬지 웃음이 나기도 하는군 핳 트리플에스가 된건 내 인생에 행운일것이야 트리플에스… 평생 함께 지냈으면 좋겠네!!",
-      "en": "Jeong Hayeon’s 1st move-in anniversary, is it? It really feels like I just moved in the other day, but already a year has passed. Time really is indifferent. But the awkward and shy Hayeon from the early days of moving in faintly comes to mind. Back then, I was like that, and it makes me laugh sometimes 핳. Becoming part of tripleS is a blessing in my life. tripleS… I hope we stay together for a lifetime!!"
+      "en": "So it's already been one year since Jeong Hayeon joined tripleS, huh? It really feels like I only joined the other day, but somehow a whole year has already passed. Time can be so cruel. Still, I can vaguely remember how awkward and shy Hayeon was back when she had just joined, and thinking about those days makes me smile. Haha. Becoming part of tripleS has truly been one of the greatest blessings of my life. tripleS... I hope we can stay together forever!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅎㅋㅎㅎㅋㅎㅋㅎㄹ",
+      "en": "ㅋㅎㅋㅎㅎㅋㅎㅋㅎㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "말투가 이런이유는",
+      "en": "The reason I'm talking like this is"
+    },
+    {
+      "type": "hayeon",
+      "ko": "부끄러워서용",
+      "en": "because I'm embarrassed."
+    },
+    {
+      "type": "fan",
+      "ko": "요즘 매일 말투가 바뀌세요 선생님",
+      "en": "Your way of speaking changes every day lately, teacher."
+    },
+    {
+      "type": "hayeon",
+      "ko": "요즘 나",
+      "en": "These days,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "리프레시를 심어주고있어",
+      "en": "I'm giving"
+    },
+    {
+      "type": "hayeon",
+      "ko": "Y/n한테",
+      "en": "To Y/n"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다른여자 생각 안나게?",
+      "en": "something fresh so you won't think about other girls."
+    },
+    {
+      "type": "hayeon",
+      "ko": "여봐라",
+      "en": "You there!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "답장을 빨리 하거라",
+      "en": "Reply to me at once!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어때",
+      "en": "How's that?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "매순간 달라지는 여자",
+      "en": "A girl who's different every moment."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎ헤헤",
+      "en": "ㅎ헤헤"
+    },
+    {
+      "type": "hayeon",
+      "ko": "가방을",
+      "en": "I finished organizing"
+    },
+    {
+      "type": "hayeon",
+      "ko": "정리 하거",
+      "en": "my bag"
+    },
+    {
+      "type": "hayeon",
+      "ko": "왔또",
+      "en": "and I'm back."
+    },
+    {
+      "type": "hayeon",
+      "ko": "퇴근쓰",
+      "en": "I'm off work~"
+    },
+    {
+      "type": "fan",
+      "ko": "ㄹㅈㄷ너다중인격이지",
+      "en": "Legendary... you seriously have multiple personalities, don't you?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "yes…?",
+      "en": "Yes...?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "(나 완전 cill하다….🤍)",
+      "en": "(I'm totally cill....🤍)"
+    },
+    {
+      "type": "fan",
+      "ko": "Chill 아냐?",
+      "en": "Don't you mean 'chill'?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "OK",
+      "en": "OK."
+    },
+    {
+      "type": "hayeon",
+      "ko": "Chill chill맞게 스펠링을 틀리다니",
+      "en": "Imagine misspelling 'chill' while trying to spell 'chill' correctly."
+    },
+    {
+      "type": "fan",
+      "ko": "두둥chill 두둥chill",
+      "en": "Doo-doong chill~ Doo-doong chill~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "(헉 완전 …!chill성 사이다)",
+      "en": "(Whoa... that's totally a chill cider!)"
+    },
+    {
+      "type": "fan",
+      "ko": "아니 이거 밈이야?",
+      "en": "Wait, is this a meme?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이 밈을 모르다니",
+      "en": "You don't know this meme?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "당신은 건강한 휴대폰 사용을 하고있는것 입니다",
+      "en": "That means you have healthy phone habits."
+    },
+    {
+      "type": "hayeon",
+      "ko": "Chill찬 합니다",
+      "en": "Very chill-worthy."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이 깁미더머니도 알고 있니",
+      "en": "Hayeon, do you know 'Gimme the Money' too?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "I know",
+      "en": "I know."
+    },
+    {
+      "type": "fan",
+      "ko": "아 말투 동숲주민같앸ㅋㅋㅋㅋㅋㅋ 귀여워엉",
+      "en": "ㅋㅋㅋㅋㅋㅋ, the way you talk sounds like an Animal Crossing villagerㅋㅋㅋㅋ You're so cute."
+    },
+    {
+      "type": "hayeon",
+      "ko": "끼라삐리 바랍삐라아뽀리띠리따ㅏ돈 띠리 가져와라 빠라",
+      "en": "Kirappiri barappiria apporittiritta~ Bring me the money~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이게 동숲 주민이지",
+      "en": "Now *that's* an Animal Crossing villager."
+    },
+    {
+      "type": "fan",
+      "ko": "돈 가져오라고 하는 건 너구리 아저씨뿐이잖아",
+      "en": "The only one telling you to bring money is that raccoon guy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "저격 ㅈㅅ",
+      "en": "Oops, sorry for calling him out."
+    },
+    {
+      "type": "fan",
+      "ko": "happy 1st anniversary hayeon i'm so proud of how far you've come and i'm happy that i was able to see you grow 💗",
+      "en": "happy 1st anniversary hayeon i'm so proud of how far you've come, and I'm happy that I was able to watch you grow. 💗"
+    },
+    {
+      "type": "hayeon",
+      "ko": "Oh my gosh! I’m so happy for you",
+      "en": "Oh my gosh! I'm so happy for you."
+    },
+    {
+      "type": "fan",
+      "ko": "I love you cill girl",
+      "en": "I love you, cill girl."
+    },
+    {
+      "type": "hayeon",
+      "ko": "Me too thank you",
+      "en": "Me too, thank you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "갑자기 루나 자아가",
+      "en": "My Luna personality suddenly came out."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎ",
+      "en": "ㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "영어 잘한다고?",
+      "en": "You think I'm good at English?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "딱 저런 기본적인것만",
+      "en": "I can only do basic things like that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "할줄할고",
+      "en": "That's about all I can do."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 오늘",
+      "en": "Anyway, today"
+    },
+    {
+      "type": "hayeon",
+      "ko": "영어레슨",
+      "en": "I had an English lesson,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하는데",
+      "en": "and"
+    },
+    {
+      "type": "hayeon",
+      "ko": "새로 뵙는",
+      "en": "it was with a"
+    },
+    {
+      "type": "hayeon",
+      "ko": "선생님인데",
+      "en": "new teacher,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "현지인",
+      "en": "who was a native speaker,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이셔서",
+      "en": "so..."
+    },
+    {
+      "type": "fan",
+      "ko": "원어민이라고 하지 않아 보통?",
+      "en": "Don't people usually say 'native speaker'?"
+    },
+        {
+      "type": "hayeon",
+      "ko": "I’m sorry",
+      "en": "I'm sorry."
+    },
+    {
+      "type": "hayeon",
+      "ko": "와",
+      "en": "Wow."
+    },
+    {
+      "type": "hayeon",
+      "ko": "웃기다",
+      "en": "That's hilarious."
+    },
+    {
+      "type": "hayeon",
+      "ko": "현지인이래",
+      "en": "I actually said 'local person.'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "fan",
+      "ko": "한국어 레슨도 받아야겠다......",
+      "en": "Looks like you need Korean lessons too..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그럴게 ㅎ",
+      "en": "I guess I should.ㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "암튼",
+      "en": "Anyway,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "자기소개 할때",
+      "en": "when I was introducing myself,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "마이 네임 이즈 하연 정!!",
+      "en": "I said, 'My name is Hayeon Jeong!!'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이랬는데",
+      "en": "That's what I said,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이름을",
+      "en": "but they"
+    },
+    {
+      "type": "hayeon",
+      "ko": "쩡으로 들으셔서",
+      "en": "heard my name as 'Jjeong.'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "수업내내",
+      "en": "The entire lesson,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "next ~~ 쩡~~?",
+      "en": "'Next~~ Jjeong~~?'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러샤서",
+      "en": "that's what they kept saying,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 웃겼음",
+      "en": "and it was so funny."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진심으로 내 이름을 쩡으로 알고 계셨어",
+      "en": "They genuinely thought my name was Jjeong."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고 후반엔",
+      "en": "Then later on,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 해명해서",
+      "en": "I finally explained it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아~~!!",
+      "en": "\"Ah~~!!\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "그럼 닉네임으로 쩡이라 부른다",
+      "en": "\"Then I'll just call you Jjeong as a nickname.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러셨엌ㅎㅋㅎㅎㅋ",
+      "en": "That's what they saidㅎㅋㅎㅎㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "But my name is Luna…",
+      "en": "But my name is Luna..."
+    },
+    {
+      "type": "fan",
+      "ko": "Jeong Luna?",
+      "en": "Jeong Luna?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "직역하면",
+      "en": "If you translate it literally,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "정달이",
+      "en": "\"Jeong Moon.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러넼ㅋㅎㅋㄹㄹㅋ",
+      "en": "it ends up sounding like thatㅋㅎㅋㄹㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-01.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어때",
+      "en": "How was it?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "버터 잔뜩발린",
+      "en": "My heavily buttered"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나의 발음~?",
+      "en": "pronunciation~?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "현지인 같다고?",
+      "en": "I sounded like a native speaker?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "걍 한국인 같다는거네?",
+      "en": "So I just sounded like a Korean person?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "응응~",
+      "en": "Mhm~"
+    },
+    {
+      "type": "fan",
+      "ko": "원주민같음",
+      "en": "You sounded like a villager."
+    },
+    {
+      "type": "hayeon",
+      "ko": "마을지을까?",
+      "en": "Should I build a village?"
+    },
+    {
+      "type": "fan",
+      "ko": "마크 주민소리로 기강잡자",
+      "en": "Assert your dominance with Minecraft villager sounds."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-02.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어떤데",
+      "en": "How was that?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "쩔지",
+      "en": "Pretty awesome, right?"
+    },
+    {
+      "type": "fan",
+      "ko": "흙파는소리해주라",
+      "en": "Do the sound of digging dirt."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-03.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "대충들으면 똑같다고오!!!",
+      "en": "If you don't listen too closely, it sounds exactly the same!!!"
+    },
+    {
+      "type": "fan",
+      "ko": "육각단 성대모사 해주라",
+      "en": "Do an impression of Yukgakdan."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-04.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러고 있을듯",
+      "en": "It'd probably sound like this."
+    },
+    {
+      "type": "fan",
+      "ko": "지금 마크 2900원~~인데",
+      "en": "Minecraft is only ₩2,900 right now~~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "놀리냐ㅑㅑㅑㅑ",
+      "en": "Are you making fun of meeeeee?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 9900원 줬는데ㅔㅔㅔㅔ",
+      "en": "I paid ₩9,900 for ittttt!"
+    },
+    {
+      "type": "fan",
+      "ko": "야야 언니가 7000원 주께",
+      "en": "Hey, hey. I'll give you ₩7,000."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이왕이면 9900원으로….",
+      "en": "If you're giving me money, make it ₩9,900 instead..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아핰ㅋ",
+      "en": "Ahahaㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아이 농담농담",
+      "en": "I'm kidding, I'm kidding."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 맞아",
+      "en": "Oh, right."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아까 토마토 먹거싶어서",
+      "en": "Earlier I wanted to eat some tomatoes,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "토매이러",
+      "en": "'tomayto,'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "한거였는데",
+      "en": "that's why I said it like that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "시켜야징",
+      "en": "I should order some."
+    },
+    {
+      "type": "hayeon",
+      "ko": "토마토도 시킬수 있냐니",
+      "en": "Can you believe you can even order tomatoes?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "바쁘다바따 빠르다빨라 현대사회",
+      "en": "Busy, busy. Fast, fast. Modern society."
+    },
+    {
+      "type": "hayeon",
+      "ko": "안되는게 어딨어",
+      "en": "What *can't* you do these days?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 언제 바따라 했어",
+      "en": "When did I ever say 'batta'?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "안착한사람한테만 보이능거에요~~",
+      "en": "Only naughty people can see it~~"
+    },
+    {
+      "type": "fan",
+      "ko": "아 안보읻다 하연이 바빠 라규 했는데?",
+      "en": "Huh? I saw 'Hayeon busy' though?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "메롱 거짓말인데.",
+      "en": "Bleh~ I was just kidding."
+    },
+    {
+      "type": "fan",
+      "ko": "정하연 너 몇살이약",
+      "en": "Jeong Hayeon, how old are you?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "19쨜",
+      "en": "Nineteen."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-05.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니야",
+      "en": "Never mind."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그냥",
+      "en": "I'll just"
+    },
+    {
+      "type": "hayeon",
+      "ko": "편의점애서 사먹어야징",
+      "en": "buy it at the convenience store instead."
+    },
+    {
+      "type": "fan",
+      "ko": "편의점 가면 딴 것도 먹고 싶어지는데",
+      "en": "But if you go to the convenience store, you'll end up wanting to buy other things too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그런 유혹에 쉽게 흔들리지않지.",
+      "en": "I'm not easily tempted by things like that."
+    },
+    {
+      "type": "fan",
+      "ko": "저러고 아이스크림 사오겠지...",
+      "en": "Watch you come back with ice cream instead..."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-06.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "흥!!!!!!!!!!",
+      "en": "Hmph!!!!!!!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사실 코푼거에요",
+      "en": "I was actually just blowing my nose."
+    },
+    {
+      "type": "fan",
+      "ko": "아 오해할뻔 ^^",
+      "en": "Ah, I almost misunderstood. ^^"
+    },
+    {
+      "type": "hayeon",
+      "ko": "^^",
+      "en": "^^"
+    },
+    {
+      "type": "fan",
+      "ko": "아이노잼🍀🍀🍀🍀🍀🍀🍀🍀🍀",
+      "en": "No fun at all🍀🍀🍀🍀🍀🍀🍀🍀🍀"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이쁘게 꾸민다고해서 긁히지 않는건 아니에요🥰",
+      "en": "Just because you decorate it nicely doesn't mean it won't hurt my feelings🥰"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 토마토 사러 갈거임",
+      "en": "I'm going to buy tomatoes now."
+    },
+    {
+      "type": "fan",
+      "ko": "ㅂㅇ",
+      "en": "Bye."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 미련 없어보여",
+      "en": "You don't seem sad to see me go at all."
+    },
+    {
+      "type": "fan",
+      "ko": "하연님 가지마세여😭😭😭😱😱😱🥲🥲🥹🥹🥳🥳",
+      "en": "Hayeon, please don't go😭😭😭😱😱😱🥲🥲🥹🥹🥳🥳"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎㅎ",
+      "en": "ㅎㅎㅎ"
+    },
+    {
+      "type": "fan",
+      "ko": "사랑해",
+      "en": "I love you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "😉",
+      "en": "😉"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이만 가도록하지",
+      "en": "I suppose I'll get going now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "주빈이한테 같이가다 해야징",
+      "en": "I'll ask Joobin if she wants to go with me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "미리 잘자",
+      "en": "Sleep well in advance."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해ㅐ🥰🥰😚😚",
+      "en": "Haranghae🥰🥰😚😚"
     }
   ]
 }
