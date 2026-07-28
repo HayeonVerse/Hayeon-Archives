@@ -1,6 +1,7 @@
 {
     "scripts": {
         "gallery": "node Script/generate-gallery.js",
+        "gallery:v2": "node builder/gallery/cli.js",
         "archive": "node Script/generate-archive.js"
     }
 }

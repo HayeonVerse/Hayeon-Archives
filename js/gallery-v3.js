@@ -608,14 +608,29 @@ function openImage(src) {
 }
 
 function openVideo(src) {
+
     clearYT();
 
     lightbox.style.display = "flex";
+
     lightboxImage.style.display = "none";
+
     lightboxVideo.style.display = "block";
 
+    lightboxVideo.pause();
+
+    lightboxVideo.removeAttribute("src");
+
+    lightboxVideo.load();
+
     lightboxVideo.src = src;
+
+    lightboxVideo.currentTime = 0;
+
+    lightboxVideo.load();
+
     lightboxVideo.play();
+
 }
 
 function openYoutube(url) {
@@ -652,6 +667,8 @@ function closeLightbox() {
     lightboxVideo.src = "";
     clearYT();
 }
+
+
 
 /* -----------------------------
    MEDIA NAV

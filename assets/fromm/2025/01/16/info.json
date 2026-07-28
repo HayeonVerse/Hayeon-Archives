@@ -4,137 +4,522 @@
     {
       "type": "hayeon",
       "ko": "오늘은 주빈이 생일. 모두 축하 해주셨나요?",
-      "en": "Today is Joobin's birthday. Did everyone congratulate her?"
+      "en": "Today's Joobin's birthday. Did everyone wish her a happy birthday?"
     },
     {
       "type": "hayeon",
       "ko": "주빈이가 태어난지",
-      "en": "Since Joobin was born..."
-    },
-    {
-      "type": "hayeon",
-      "ko": "몇년이야…",
-      "en": "How many years has it been..."
+      "en": "It's been"
     },
     {
       "type": "hayeon",
       "ko": "16",
-      "en": "16"
+      "en": "16..."
     },
     {
       "type": "hayeon",
       "ko": "17",
-      "en": "17"
+      "en": "17..."
     },
     {
       "type": "hayeon",
       "ko": "년 째네요",
-      "en": "It's been 17 years now."
+      "en": "years since Joobin was born."
     },
     {
       "type": "hayeon",
       "ko": "주빈이는 현제 일반고가 아니라 고등학교 입학 개념은 아니지만",
-      "en": "Joobin isn't attending a regular high school right now, so it's not really the usual 'starting high school' situation."
+      "en": "Since Joobin isn't attending a regular high school, it doesn't really feel like she's entering high school,"
     },
     {
       "type": "hayeon",
       "ko": "나이로 치면 어엿한 고등학생이 되었네요",
-      "en": "But age-wise, she's become a proper high school student."
+      "en": "but by age, she's officially become a high school student."
     },
     {
       "type": "hayeon",
       "ko": "믿기시나요 우리만의 아기 주빈이가 고등학생이라니요",
-      "en": "Can you believe it? Our little baby Joobin is already a high school student."
+      "en": "Can you believe it? Our little Joobin is a high school student now."
     },
     {
       "type": "hayeon",
       "ko": "정말 믿을수 없습니다",
-      "en": "I really can't believe it."
+      "en": "I still can't believe it."
     },
     {
       "type": "hayeon",
       "ko": "주빈친구는 평소에",
-      "en": "Joobin is someone who usually..."
+      "en": "Joobin has always been someone who"
     },
     {
       "type": "hayeon",
       "ko": "자기가 맡은바를 최선을다해 해결하고 이룸으로서",
-      "en": "always gives her all to fulfill the responsibilities she's given."
+      "en": "gives her all to whatever she's responsible for,"
     },
     {
       "type": "hayeon",
       "ko": "많은 성장을한 친구인데요",
-      "en": "She's grown so much because of that."
+      "en": "and she's grown so much because of it."
     },
     {
       "type": "hayeon",
       "ko": "가장 가까운곳에서 지켜본 저로선",
-      "en": "From my perspective, as someone who's watched her up close..."
+      "en": "As someone who's watched her from the closest,"
     },
     {
       "type": "hayeon",
       "ko": "남들이 성숙하고 어른스러운 아이이다 다큰것같다 라는 이야기를 하지만",
-      "en": "people say she's mature, grown-up, and seems like an adult already."
+      "en": "people often say she's mature, grown-up, and very adult-like,"
     },
     {
       "type": "hayeon",
       "ko": "사실은 마음이 아주여리고 여느 또래와같이 지나가는 낙엽에 웃기도하고 울기도하는 그런 아이입니다",
-      "en": "But in reality, she has a very soft heart, and just like anyone her age, she's the kind of person who can laugh or cry over something as simple as a falling leaf."
+      "en": "but in reality, she's very soft-hearted. Just like anyone her age, she'll laugh at a falling leaf one moment and cry the next."
     },
     {
       "type": "hayeon",
-      "ko": "흙흙",
-      "en": "*sniff sniff*"
+      "ko": "흙흙.",
+      "en": "*Sniff sniff.*"
     },
     {
       "type": "hayeon",
       "ko": "때론 절 동생이라고 생각하는건지",
-      "en": "Sometimes I wonder if she thinks I'm the younger one."
+      "en": "Sometimes I wonder if she thinks I'm the younger one,"
     },
     {
       "type": "hayeon",
       "ko": "아주그냥 언니행세를 하지만",
-      "en": "She acts like she's the unnie all the time."
+      "en": "because she acts like the older sister all the time,"
     },
     {
       "type": "hayeon",
       "ko": "그래도 참 귀여운 동생이랍니다",
-      "en": "Even so, she's such an adorable little sister."
+      "en": "but she's still such an adorable little sister."
+    },
+        {
+      "type": "fan",
+      "ko": "(그게맞지….)",
+      "en": "(That's right....)"
+    },
+    {
+      "type": "hayeon",
+      "ko": "남아주시길 바랍니다.",
+      "en": "Please continue to stay with us."
+    },
+    {
+      "type": "fan",
+      "ko": "좋은 말씀 중에 잠시 재채기 좀 하겠습니다",
+      "en": "Excuse me, I'll just sneeze for a moment during your wonderful speech."
+    },
+    {
+      "type": "fan",
+      "ko": "에취~~~",
+      "en": "Achoo~~~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "블레스 유",
+      "en": "Bless you."
     },
     {
       "type": "hayeon",
       "ko": "어찌되었든 다시한번 주빈친구의 생일을 축하합니다",
-      "en": "Anyway, once again, happy birthday to Joobin!"
+      "en": "Anyway, once again, happy birthday to our friend Joobin."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞다 요즘 독감유행하는데 다들 조심하시고 건강하십시오",
+      "en": "Oh right, the flu's been going around lately, so everyone please stay healthy and take care."
+    },
+    {
+      "type": "fan",
+      "ko": "하연친구 생일도 벌써 얼마 안남았어요~",
+      "en": "Hayeon, your birthday isn't too far away either~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "예?8개월 남았지만…",
+      "en": "Excuse me? It's still eight months away..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "감사합니다",
+      "en": "Thank you though."
+    },
+    {
+      "type": "fan",
+      "ko": "아니 지금 8월인디?",
+      "en": "Wait, isn't it August right now?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "과거에서 오신건가요 미래인가요",
+      "en": "Did you come from the past or the future?"
+    },
+    {
+      "type": "fan",
+      "ko": "나만 이 흐름에 못 따라가는 걸까 혹시",
+      "en": "Am I the only one who's lost here?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "흐르지 않고있다면 믿으시겠습니까?",
+      "en": "What if I told you there wasn't any flow to begin with?"
     },
     {
       "type": "hayeon",
       "ko": "잠시!",
-      "en": "Wait a second!"
+      "en": "One moment!"
     },
     {
       "type": "hayeon",
       "ko": "주빈이가 가지고싶은 선물을 골라왔어요!",
-      "en": "I brought the gift Joobin said she wanted!"
+      "en": "I've picked out a gift that Joobin wants!"
     },
     {
       "type": "hayeon",
       "ko": "춘식이 그릇이군요",
-      "en": "It's a Choonsik bowl."
+      "en": "It's a Chunsik bowl."
     },
     {
       "type": "hayeon",
       "ko": "이것은 저도 생일때 위시에 넣어놓곤",
-      "en": "I remember putting this on my own birthday wishlist too."
+      "en": "I actually put this on my birthday wishlist too,"
     },
     {
       "type": "hayeon",
       "ko": "받길 기도하며있었던 기억이 있네요!!",
-      "en": "I even remember hoping and praying that I'd receive it!!"
+      "en": "and I remember hoping so badly that I'd receive it!!"
     },
     {
       "type": "hayeon",
       "ko": "핳하 민망하네요",
       "en": "Haha... that's a little embarrassing."
+    },
+    {
+      "type": "fan",
+      "ko": "하연친구는 올해 받고 싶은거 있어요?!",
+      "en": "Hayeon, is there anything you want to receive this year?!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "음..",
+      "en": "Hmm..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "Y/n이라면 믿으시겠습니까?",
+      "en": "What if I said... Y/n?"
+    },
+    {
+      "type": "fan",
+      "ko": "어디감",
+      "en": "Where'd you go?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "부끄러워서 도망감",
+      "en": "I got embarrassed and ran away."
+    },
+    {
+      "type": "fan",
+      "ko": "말투 드디어 돌아왓군",
+      "en": "Your usual way of talking is finally back."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어엇!!!!",
+      "en": "Huh!!!!"
+    },
+    {
+      "type": "fan",
+      "ko": "하연아, 밥은 먹었어?",
+      "en": "Hayeon, have you eaten yet?"
+    },
+        {
+      "type": "hayeon",
+      "ko": "밥 얘기를 꺼내지 마시오",
+      "en": "Do not bring up food."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아ㅏㅏㅏㅏㅏ까먹고 먹지 않았다.",
+      "en": "Ahhh... I forgot to eat."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 지금 배고픔 상태이다",
+      "en": "I am currently in a state of hunger."
+    },
+    {
+      "type": "fan",
+      "ko": "까먹고 안 먹었다는줄",
+      "en": "I thought you meant you forgot and didn't eat."
+    },
+    {
+      "type": "fan",
+      "ko": "ㅋㅋㅋㅋ",
+      "en": "ㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 까먹고 안먹었다",
+      "en": "Ah, I *did* forget and didn't eat."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㅋㅋㅋㅋ",
+      "en": "ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "야 그럼 빨리 밥 먹어 하연아",
+      "en": "Then hurry up and go eat, Hayeon."
+    },
+    {
+      "type": "fan",
+      "ko": "뭐 먹을래 닭볶음탕? 닭발? ㅋㄹ",
+      "en": "What do you want? Dakbokkeumtang? Chicken feet?ㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그러지 마시오!!",
+      "en": "Don't do this to me!!"
+    },
+    {
+      "type": "fan",
+      "ko": "아 오늘 처음 채팅시작했는데 이방은 이런 분위기인가? 하고 당황중이었자나!",
+      "en": "Ah, I just joined the chat today and was wondering, 'Is this what this chatroom is always like?' I was so confused!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "원래 이런 장소.입니다!!",
+      "en": "This is how this place normally is!!"
+    },
+    {
+      "type": "fan",
+      "ko": "07즈 중에 제일 조신할거라 생각했는데... 내가 크게 헛발질을 했고마잉...",
+      "en": "I thought you'd be the most well-mannered among the '07 liners... I was completely wrong..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그것은 착각이 아니다.",
+      "en": "That wasn't a misunderstanding."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나의 취미는 독서.입니다",
+      "en": "My hobby is reading."
+    },
+    {
+      "type": "hayeon",
+      "ko": "당신의",
+      "en": "What was"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하연 입덕 계기는",
+      "en": "your reason"
+    },
+    {
+      "type": "hayeon",
+      "ko": "무엇 입니까?",
+      "en": "for becoming a Hayeon fan?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하며 들었군요",
+      "en": "That's what I'd ask."
+    },
+    {
+      "type": "fan",
+      "ko": "하며들다 못해 하연된 상태입니다",
+      "en": "I didn't just become a Hayeon fan... I've become Hayeon herself."
+    },
+    {
+      "type": "hayeon",
+      "ko": "도플갱어다!!!!!!",
+      "en": "A doppelgänger!!!!!!"
+    },
+    {
+      "type": "fan",
+      "ko": "요즘 당신은 김채원 얘기를 많이 안 하는데 헤어졌습니까?",
+      "en": "You haven't talked much about Kim Chaewon lately... did you two break up?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "연습실을 같이 자주쓰지 못한다….",
+      "en": "We don't get to use the practice room together very often..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "자주만날수 없다..",
+      "en": "So we don't get to see each other that much..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아!!!!",
+      "en": "Ah!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "여기가 어디야",
+      "en": "Where am I?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "혹시 지금",
+      "en": "By any chance,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "몇년도인가요",
+      "en": "what year is it right now?"
+    },
+    {
+      "type": "fan",
+      "ko": "장거리 연애를 합니까?",
+      "en": "Are you two in a long-distance relationship?"
+    },
+        {
+      "type": "hayeon",
+      "ko": "ㅋㄹㄹㅋㅋㄹㄹㅋㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㄹㅋㅋㄹㄹㅋㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사귀는 사이였군",
+      "en": "So we were dating after all."
+    },
+    {
+      "type": "fan",
+      "ko": "하지만 여러분은 베스트 커플 후보에 오르지 못했습니다..",
+      "en": "Unfortunately, you two weren't nominated for Best Couple..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어이쿠",
+      "en": "Oh dear."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㄹㅋㅋㄹㄹㅋㅎㅋ",
+      "en": "ㅋㄹㄹㅋㅋㄹㄹㅋㅎㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "얘기하니까 보고싶네",
+      "en": "Now that we're talking about her, I miss her."
+    },
+    {
+      "type": "fan",
+      "ko": "나를?",
+      "en": "Me?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㅋㄹㅋㄹㅋㄹ 어",
+      "en": "ㅋㄹㅋㅋㄹㅋㄹㅋㄹ Uh... yeah."
+    },
+    {
+      "type": "hayeon",
+      "ko": "배고파!!!!!",
+      "en": "I'm hungry!!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "배고차서 정신이 이상해진듯",
+      "en": "I think hunger is making me lose my mind."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㄹㅋㄹㅋ",
+      "en": "ㅋㄹㄹㅋㄹㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "채원이가 하연이 보고 싶대 지금",
+      "en": "Chaewon says she misses you right now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그럼 김채원한테",
+      "en": "Then tell Kim Chaewon"
+    },
+    {
+      "type": "hayeon",
+      "ko": "끝말잇기하자고 전해줘",
+      "en": "that I want to play a word-chain game with her."
+    },
+    {
+      "type": "hayeon",
+      "ko": "기차",
+      "en": "Train."
+    },
+    {
+      "type": "fan",
+      "ko": "차지할게 너를…🥀 이래",
+      "en": "She'd probably say, 'I'll make you mine…🥀'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "…를…를….",
+      "en": "...'mine'... 'mine'...."
+    },
+    {
+      "type": "hayeon",
+      "ko": "을…",
+      "en": "...'eul'..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 안해",
+      "en": "I'm not playing anymore."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 이제 잘준비를",
+      "en": "I'm going to get ready for bed now..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "할게…",
+      "en": "now..."
+    },
+    {
+      "type": "fan",
+      "ko": "배고픔을 뒤로하고...",
+      "en": "Leaving your hunger behind..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "고럼",
+      "en": "Yup."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 잔당",
+      "en": "I'm going to sleep."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘자거",
+      "en": "Sleep well,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내꿈꿩",
+      "en": "dream of me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해🦄",
+      "en": "Haranghae🦄"
     }
   ]
 }

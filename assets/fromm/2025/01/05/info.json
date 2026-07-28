@@ -1,0 +1,595 @@
+{
+  "date": "2025-01-05",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "2025 19살 19번 정하연 등장",
+      "en": "2025! Nineteen-year-old, No. 19 Jeong Hayeon has arrived!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "새해복 많이 받아ㅏㅏ",
+      "en": "Happy New Yearrr!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 이제 고쓰리라구",
+      "en": "I'm a high school senior now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘도 난 투어 연습해찌ㅣ",
+      "en": "I practiced for the tour again today."
+    },
+    {
+      "type": "fan",
+      "ko": "새해 첫날에 뭐 했어요 울 애기",
+      "en": "What did you do on the first day of the new year, our baby?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "연습…ㅎㅎ",
+      "en": "Practice...ㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 기뻐요 ㅎㅎ",
+      "en": "I'm happy thoughㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 근데",
+      "en": "Ah, but..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "새해 넘어가는 12시에는",
+      "en": "When it turned midnight for the New Year,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잠깐 본가 들려서",
+      "en": "I stopped by my parents' house for a bit"
+    },
+    {
+      "type": "hayeon",
+      "ko": "가족들과 있었어",
+      "en": "and spent some time with my family."
+    },
+    {
+      "type": "fan",
+      "ko": "새해 첫 곡은 뭐 들었어?????",
+      "en": "What was the first song you listened to in the New Year?????"
+    },
+    {
+      "type": "hayeon",
+      "ko": "투어 준비 노래를 들었징",
+      "en": "I listened to the songs we're preparing for the tour."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이도 떡국 잘 먹었니이",
+      "en": "Did you eat tteokguk too, Hayeon?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리 엄마가 끓여줌",
+      "en": "My mom made it for me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어맘 전화왔다",
+      "en": "Oh, my mom's calling."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잠만",
+      "en": "Hold on."
+    },
+    {
+      "type": "hayeon",
+      "ko": "엄마 얘기하는거 어케알고",
+      "en": "How did she know we were talking about her?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "딱 전화가",
+      "en": "She called at that exact moment."
+    },
+    {
+      "type": "hayeon",
+      "ko": "미안해 ㅠㅠ",
+      "en": "Sorryㅠㅠ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "엄마가 두부랑 샐러드랑 이런거 먹으래",
+      "en": "My mom told me to eat tofu, salad, and things like that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㄹㅋㅋㄹㅋㄹㄹㅋ",
+      "en": "ㅋㄹㄹㅋㅋㄹㅋㄹㄹㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "하연이는 새해에 소소한 목표가 있나요? 내 목표는 너와 몇 번 만나고 싶은 것이다ㅋㅋㄹㅋㄹㅋㄹ",
+      "en": "Do you have any small goals for the New Year? My goal is to meet you a few timesㅋㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나느은",
+      "en": "For me..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "음",
+      "en": "Hmm."
+    },
+    {
+      "type": "hayeon",
+      "ko": "모든 방면에서",
+      "en": "In every aspect,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "좀 여유로워지고 성장하는거",
+      "en": "I want to become more relaxed and grow as a person."
+    },
+    {
+      "type": "hayeon",
+      "ko": "가 목표",
+      "en": "That's my goal."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 구리고",
+      "en": "Ah, and also..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "Y/n더 많이 만나는거?",
+      "en": "Meeting Y/n more often?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리 1년이나 된사이야",
+      "en": "We've already known each other for a whole year."
+    },
+    {
+      "type": "hayeon",
+      "ko": "일단 해가 넘어갔으니까 1년이지 ㅎ",
+      "en": "Since the year has changed, it's officially been one yearㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리",
+      "en": "We"
+    },
+    {
+      "type": "hayeon",
+      "ko": "건강하게 오래보자고",
+      "en": "promised to stay healthy"
+    },
+    {
+      "type": "hayeon",
+      "ko": "말했었잖아",
+      "en": "and be together for a long time,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그약속",
+      "en": "That promise..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "안 잊었지???",
+      "en": "You haven't forgotten it, right???"
+    },
+    {
+      "type": "hayeon",
+      "ko": "19살 하연이는 또 무슨 모습을 보여줄지",
+      "en": "I wonder what kind of side nineteen-year-old Hayeon will show everyone."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 기대된다",
+      "en": "I'm looking forward to it too."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이가 1년뒤에 성인이라니….",
+      "en": "I can't believe Hayeon will be an adult in a year...."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그니까",
+      "en": "I know, right?"
+    },
+    {
+      "type": "fan",
+      "ko": "19살하여니…..금발하여니……",
+      "en": "Nineteen-year-old Hayeon..... Blonde Hayeon......"
+    },
+    {
+      "type": "hayeon",
+      "ko": "헐",
+      "en": "Whoa."
+    },
+    {
+      "type": "hayeon",
+      "ko": "금발 하고싶당",
+      "en": "I want to go blonde."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 근데사실",
+      "en": "But honestly..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "시온언니 린언니 설린언니",
+      "en": "Shion unnie, Lynn unnie, and Sullin unnie"
+    },
+    {
+      "type": "hayeon",
+      "ko": "성인됐는데도",
+      "en": "are adults now,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "별로 실감이 나지않아",
+      "en": "but it still doesn't really feel real."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나또한",
+      "en": "I think"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그럴듯",
+      "en": "I'll probably be the same."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나이만 올라간 고등학생",
+      "en": "Just a high school student who's gotten a year older."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㄹㅋㅋㄹㅋㄹ",
+      "en": "ㅋㄹㄹㅋㅋㄹㅋㄹ"
+    },
+    {
+      "type": "fan",
+      "ko": "너 고등학교 대빵이야 이제",
+      "en": "You're the boss of the high school now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅇㅈ",
+      "en": "Facts."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내밑으로 다 집합!!",
+      "en": "Everyone younger than me, line up!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "야야",
+      "en": "Hey, hey."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 고쓰리야",
+      "en": "I'm a high school senior."
+    },
+    {
+      "type": "hayeon",
+      "ko": "6학년이라고?",
+      "en": "Sixth grade?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 고든학교6학년?",
+      "en": "Ah, Gordon School, sixth grade?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "???:우리 형 고든학교 6학년이거든?!!!",
+      "en": "???: My older brother's in the sixth grade at Gordon School, okay?!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그짤",
+      "en": "That meme..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나같음 뭔가",
+      "en": "kind of feels like me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㄹㅋㄹㄹㄹ",
+      "en": "ㅋㄹㄹㅋㄹㄹㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 그러던 시절이있었지…허허",
+      "en": "I had a phase like that too... hehe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어워즈 시그널이 떴어??",
+      "en": "Did the Awards Signal come out??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 봐야겠구만~~",
+      "en": "I should go watch it too~~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "에 나도 안보임",
+      "en": "Eh? I can't see it either."
+    },
+    {
+      "type": "fan",
+      "ko": "애기 저거 찍는 날 눈 아팠니? 눈을 자꾸 깜빡이네",
+      "en": "Baby, did your eye hurt the day you filmed that? You kept blinking."
+    },
+    {
+      "type": "hayeon",
+      "ko": "웅 이번영상에선 날 보지 말아줘…ㅋㄹㄹㅋㅋㄹㅋㄹㄹㅋㅋㄹㅋㄹㄹㅋㅋㄹ",
+      "en": "Yeah... don't look at me in this video…ㅋㄹㄹㅋㅋㄹㅋㄹㄹㅋㅋㄹㅋㄹㄹㅋㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "눈이 넘 시려서",
+      "en": "My eyes were stinging so much,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "눈을 거의 감고있을거야",
+      "en": "I was practically keeping them closed."
+    },
+    {
+      "type": "hayeon",
+      "ko": "저러고 나서 안대낌",
+      "en": "After that, I ended up wearing an eye patch."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 모든상이",
+      "en": "Seriously, every award"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내꺼다 ㅋ",
+      "en": "belongs to meㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다보고옴",
+      "en": "I watched all of it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "소통상도 내꺼",
+      "en": "Best Communication Award? Mine."
+    },
+    {
+      "type": "hayeon",
+      "ko": "성장상도 내꺼",
+      "en": "Growth Award? Mine."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘먹상? 내꺼",
+      "en": "Best Eating Award? Mine."
+    },
+    {
+      "type": "hayeon",
+      "ko": "밥상 내꺼",
+      "en": "Dinner table? Mine."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎㅎㅎ",
+      "en": "ㅎㅎㅎㅎ"
+    },
+        {
+      "type": "fan",
+      "ko": "상하나가 빠졌네..베커상 정하연❤️육각단",
+      "en": "You forgot one award... Best Couple Award: Jeong Hayeon❤️Hexagons."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 그러내",
+      "en": "Oh, you're right."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐냐;;;",
+      "en": "What the...;;;"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이걸 빼먹네",
+      "en": "How could I forget that one?"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-01.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다른곳에서 답을 받아버렸다",
+      "en": "I ended up getting the answer from somewhere else."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다현언닠ㅎㅋㄹㄹ",
+      "en": "Dahyun unnieㅋㅎㅋㄹㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 너무 귀엽네ㅋㄹㅋㄹㅋㄹ",
+      "en": "Ah, that's so cuteㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가.",
+      "en": "Me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 귀엽다고",
+      "en": "I'm the cute one."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-02.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㄹㅋㄹㅋㄹㅋㅋㄹ",
+      "en": "ㅋㄹㄹㅋㄹㅋㄹㅋㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다현언니는",
+      "en": "Dahyun unnie"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 나의것임",
+      "en": "really belongs to me."
+    },
+    {
+      "type": "fan",
+      "ko": "예쁜건 다 나의 소유 뭐그런거야?",
+      "en": "So basically, everything pretty belongs to you?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그게 맞음",
+      "en": "Exactly."
+    },
+    {
+      "type": "fan",
+      "ko": "트리플에스 다 정하연 소유잖아",
+      "en": "Then all of tripleS belongs to Jeong Hayeon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞긴해",
+      "en": "That's true."
+    },
+    {
+      "type": "fan",
+      "ko": "저도 껴주심 안될까",
+      "en": "Can I be included too?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래",
+      "en": "Sure."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 요즘",
+      "en": "These days,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "응팔 정주행중인대",
+      "en": "I've been rewatching *Reply 1988*."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 그 감성이 좋아서",
+      "en": "I just love the vibe of it so much,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "옛날 노래들 플리까지 만들어서",
+      "en": "I even made a playlist of old songs,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "들으면서 잠",
+      "en": "and I fall asleep listening to it."
+    },
+    {
+      "type": "fan",
+      "ko": "헐 나도 응팔 짱조아해서 한 네번은 본듯",
+      "en": "No way, I love *Reply 1988* too. I think I've watched it about four times."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 지금 다섯번은 본거같음 ㅋㄹㅋㄹㄹㅋ",
+      "en": "I think I'm on my fifth time nowㅋㄹㅋㄹㄹㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "정하연 서울 사투리 기가막히게 할듯ㅋㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "I bet Jeong Hayeon could do the Seoul dialect perfectlyㅋㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋ뭔지앎",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋ I know exactly what you mean."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-03.mp3"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-04.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이 세상의 모든복을 다가져!!!!",
+      "en": "May you receive every blessing in this world!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "올해 하시는일 다 잘되시길 기원하겠습니다",
+      "en": "I sincerely hope everything you do this year goes well."
+    },
+    {
+      "type": "hayeon",
+      "ko": "건강하세요",
+      "en": "Please stay healthy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "만수무강 서비스.",
+      "en": "A long life and good health service."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-05.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘자ㅏㅏ",
+      "en": "Good nighttt."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑행😚😚",
+      "en": "Haranghae😚😚"
+    }
+  ]
+}
