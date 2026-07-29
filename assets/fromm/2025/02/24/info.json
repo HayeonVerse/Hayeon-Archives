@@ -1,0 +1,694 @@
+ {
+  "date": "2025-02-24",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "드디어!",
+      "en": "Finally!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "브이로그",
+      "en": "The vlog"
+    },
+    {
+      "type": "hayeon",
+      "ko": "업로드 소식을 접하고",
+      "en": "was uploaded,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뛰어왔습니다",
+      "en": "so I came running."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 오랜먼에",
+      "en": "It's been a while since I"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아뷰다비 영상 보니꺼",
+      "en": "watched the Abu Dhabi vlog,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "더시 가고싶당",
+      "en": "and now I want to go back again."
+    },
+    {
+      "type": "fan",
+      "ko": "오타 왜이래 ㅋㅋㅋㅋㅋ 네일 새로했우?",
+      "en": "What's with all the typos? ㅋㅋㅋㅋㅋ Did you get your nails redone?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아이 투어룰 한달쯤 가있으니까",
+      "en": "Well, I was on tour for about a month,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "네일항게",
+      "en": "so my nails"
+    },
+    {
+      "type": "hayeon",
+      "ko": "길어지다가 찢어진겨",
+      "en": "grew out and started breaking."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오눌 제거 했는데",
+      "en": "I took them off today,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "손톱이 사라지니꺼",
+      "en": "and now that my nails are gone,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "타자가 안쳐져",
+      "en": "I can't type properly."
+    },
+    {
+      "type": "hayeon",
+      "ko": "대충치고",
+      "en": "I'm just typing roughly"
+    },
+    {
+      "type": "hayeon",
+      "ko": "자동완성으로",
+      "en": "and letting autocorrect"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하는중",
+      "en": "do the rest."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나",
+      "en": "Since"
+    },
+    {
+      "type": "hayeon",
+      "ko": "투리풀에스",
+      "en": "joining tripleS,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하면소 해외를",
+      "en": "I've been traveling overseas"
+    },
+    {
+      "type": "hayeon",
+      "ko": "여기저기",
+      "en": "to all kinds of places,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "가보고있는데",
+      "en": "and getting to experience them."
+    },
+    {
+      "type": "hayeon",
+      "ko": "정말 트리플에스 안왂우묜",
+      "en": "If I hadn't joined tripleS,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "경험하지 못 ",
+      "en": "I would've never been able"
+    },
+    {
+      "type": "hayeon",
+      "ko": "할",
+      "en": "to"
+    },
+    {
+      "type": "hayeon",
+      "ko": "경험이러",
+      "en": "have experiences like these."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 좋다",
+      "en": "I'm really happy."
+    },
+    {
+      "type": "fan",
+      "ko": "해석: 나 트리플에스를 하면서 해외를 여기저기 가보고 있는데 정말 트리플에스 안 했으면 경험하지 못할 경험이라 너무 좋다 ",
+      "en": "Translation: Since joining tripleS, I've been able to travel overseas and experience things I never would've if I hadn't joined. I'm really happy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그치",
+      "en": "Right?"
+    },
+    {
+      "type": "fan",
+      "ko": "하여니 음성인싣으로 해바 채팅",
+      "en": "HaYeon, try chatting with voice recognition."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅇㅌㅇㅌ",
+      "en": "ㅇㅌㅇㅌ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅇㅋㅇㅋ",
+      "en": "Okay, okay."
+    },
+    {
+      "type": "hayeon",
+      "ko": "안녕하세요. 저는 하연 입니다.",
+      "en": "Hello. I'm HaYeon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오 음성인식 신기하다",
+      "en": "Oh, voice recognition is pretty cool."
+    },
+    {
+      "type": "fan",
+      "ko": "마라샹궈 읽어봐",
+      "en": "Try reading 'malaxiangguo.'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "마라샹 궈궈",
+      "en": "Mala... xiang... guo guo."
+    },
+    {
+      "type": "fan",
+      "ko": "훠궈도 ㄱㄱㄱㄱ",
+      "en": "Try 'huoguo' too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "훠궈",
+      "en": "Huoguo."
+    },
+    {
+      "type": "hayeon",
+      "ko": "엥",
+      "en": "Huh?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "되는데?",
+      "en": "It works?"
+    },
+        {
+      "type": "fan",
+      "ko": "햄부기햄북 햄북어 햄북스딱스 함부르크햄부가우가 햄비기햄부거 햄부가티햄부기온앤 온 을 차려오거라. 햄부기햄북 햄북어 햄북스딱스 함부르크햄부가우가 햄비기햄부거 햄부가티햄부기온앤 온 을 차려오라고 하지않앗느냐. ㄱㄱ",
+      "en": "Prepare 'Hambugi Hambuk Hambugeo Hambukseu Ttakseu Hamburg Hambugauga Hambigi Hambugeo Hambugati Hambugion-and-on.' Didn't I tell you to prepare 'Hambugi Hambuk Hambugeo Hambukseu Ttakseu Hamburg Hambugauga Hambigi Hambugeo Hambugati Hambugion-and-on'? Go, go."
+    },
+    {
+      "type": "hayeon",
+      "ko": "행복이 행복 햄버거 햄벅 스 박스 함부르크 햄버거 우가 햄 햄 햄 부가티 햄 북이 오늘 차려 오거라",
+      "en": "\"Happiness happiness... hamburger... hambuk... box... Hamburg... hamburger... uga... ham ham ham... Bugatti... Hambugi... bring it out today...\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅌㄹㅌㄹㅋㄹㄹㅌㄹㅌㄹ",
+      "en": "ㅋㄹㅌㄹㅌㄹㅋㄹㄹㅌㄹㅌㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 너무 윳기네",
+      "en": "Ah, this is so funny."
+    },
+    {
+      "type": "hayeon",
+      "ko": "킄ㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "킄ㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "간장 공장 공장장은 간공강장이고 된장 공장 공장장은 간공간장이다 이것도 해줘",
+      "en": "Try this one too: 'The soy sauce factory manager is Ganjang Gonggangjang, and the soybean paste factory manager is Gangongganjang.'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "간장 공장 공장장은 간 공장장이고 된장공장 공장장은 간 공장장 장 이것도 해 줘 뭐야?",
+      "en": "\"The soy sauce factory manager is the soy sauce factory manager, and the soybean paste factory manager is the soy sauce factory mana...\" What is this?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅌㄹㅋㄹㅋㄹㅋㄹㅌㄹㅋㄹㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅌㄹㅋㄹㅋㄹㅋㄹㅌㄹㅋㄹㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "끝까지 읽어 버렸네",
+      "en": "I ended up reading the whole thing."
+    },
+    {
+      "type": "fan",
+      "ko": "사랑해 해줘",
+      "en": "Say 'I love you.'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사랑해",
+      "en": "I love you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "안녕 호호호 호호 사랑한단다",
+      "en": "\"Hello, hohoho, hoho... I love you.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "우와 이거 웃기다",
+      "en": "Wow, this is funny."
+    },
+    {
+      "type": "fan",
+      "ko": "우리지금감동포인트잖아",
+      "en": "That was supposed to be the emotional moment."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 그랬어?",
+      "en": "Oh, was it?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎ",
+      "en": "ㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-01.mp3"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-02.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런 여자 어떤데",
+      "en": "So, what do you think of a girl like this?"
+    },
+    {
+      "type": "fan",
+      "ko": "그거 같다 내가 좋아? 근데 왜 그렇게 했엌",
+      "en": "That sounded like that 'Do you like me?' thing. But why did you say it like that?"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-03.mp3"
+    },
+    {
+      "type": "fan",
+      "ko": "언니 '다이스키다요' 이거 한번만 듣고싶어요......ㅠㅠ",
+      "en": "Unnie, I want to hear you say 'Daisuki da yo' just once......ㅠㅠ"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-04.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "유진언니가",
+      "en": "YooJin unnie"
+    },
+    {
+      "type": "hayeon",
+      "ko": "유빈언니가",
+      "en": "Gong YuBin unnie"
+    },
+    {
+      "type": "hayeon",
+      "ko": "왔어",
+      "en": "came over."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내방애",
+      "en": "to my room."
+    },
+    {
+      "type": "hayeon",
+      "ko": "초콜릿 줬오",
+      "en": "They gave me chocolate."
+    },
+    {
+      "type": "hayeon",
+      "ko": "유진언니한테",
+      "en": "I also gave some"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도",
+      "en": "to YooJin unnie."
+    },
+    {
+      "type": "hayeon",
+      "ko": "미국에서 사온 먹을거",
+      "en": "snacks I bought in the U.S."
+    },
+    {
+      "type": "hayeon",
+      "ko": "주고",
+      "en": "too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "유빈언니가",
+      "en": "Then Gong YuBin unnie"
+    },
+    {
+      "type": "hayeon",
+      "ko": "순대",
+      "en": "tempted me"
+    },
+    {
+      "type": "hayeon",
+      "ko": "같이 먹자고",
+      "en": "to eat sundae together."
+    },
+    {
+      "type": "hayeon",
+      "ko": "꼬시길래",
+      "en": "She kept trying to convince me,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 진짜 안돼",
+      "en": "but I was like, 'No, I really can't.'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이제 넘어가는 하연이가 아니야!!",
+      "en": "HaYeon doesn't fall for that anymore!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다른사람 없어?",
+      "en": "'Isn't there anyone else?'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러니까",
+      "en": "When I said that,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그냥 나랑 먹고싶었대",
+      "en": "she said she just wanted to eat with me."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-05.mp3"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-06.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어 맞어",
+      "en": "Oh, right."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이번에 증사 뽑구",
+      "en": "I got some ID photos printed,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "민증",
+      "en": "and"
+    },
+    {
+      "type": "hayeon",
+      "ko": "신청했음",
+      "en": "applied for my resident ID card."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 민증사진",
+      "en": "But the ID photos..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "엄빠 주고",
+      "en": "I gave some to my mom and dad,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "3갸 남았는데",
+      "en": "and I only had three left."
+    },
+    {
+      "type": "hayeon",
+      "ko": "수민 채원 혜린",
+      "en": "I gave them to SooMin, ChaeWon, and HyeRin."
+    },
+    {
+      "type": "hayeon",
+      "ko": "만 줬어",
+      "en": "That's all."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 주고나니까",
+      "en": "But after giving them away,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내거 가지고 있는게 없ㄴ는겨",
+      "en": "I realized I didn't even keep one for myself."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹ 쿠 ㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹ 쿠 ㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "Y/n주려했는데",
+      "en": "I was going to give one to Y/n,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다 주고너니 사려졌다",
+      "en": "but after giving them all away, there weren't any left."
+    },
+    {
+      "type": "hayeon",
+      "ko": "김채원 핸드폰 뒤에 있을걸",
+      "en": "There's probably one on the back of Kim ChaeWon's phone."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나중에 몰래 봐봐",
+      "en": "Sneak a look later."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 투어다녀와서",
+      "en": "After we came back from the tour,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "김채원 오랜만에 봤는데",
+      "en": "I saw Kim ChaeWon again for the first time in a while,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어딜가든",
+      "en": "and no matter where I went,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내옆에 와있음",
+      "en": "she was right beside me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 뭐",
+      "en": "I was like,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 포켓몬인줄",
+      "en": "'Is she my Pokémon or something?'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다들 내가 많이 보고싶었나봐 ㅎㅎㅎ",
+      "en": "I guess everyone really missed me. ㅎㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-07.mp3"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-08.mp3"
+    },
+        {
+      "type": "fan",
+      "ko": "아니나는 하연이 가져갈래",
+      "en": "No, I'm taking HaYeon instead."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-09.mp3"
+    },
+    {
+      "type": "fan",
+      "ko": "아직 시차 적응 안 됐어요?",
+      "en": "Haven't you adjusted to the time difference yet?"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-10.mp3"
+    },
+    {
+      "type": "fan",
+      "ko": "하연아 `아 가라고요 아가 라고요 ’해도 돼요🥹",
+      "en": "HaYeon, can you say 'Ah, go away... I said baby,' please? 🥹"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이거 했었자나",
+      "en": "I already did this before."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래도 해볼게 ㅎ",
+      "en": "But I'll do it again. ㅎ"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-11.mp3"
+    },
+    {
+      "type": "fan",
+      "ko": "설린이가 너 제일 웃긴 한국인이래 ㅋㅋㅋ",
+      "en": "Sullin said you're the funniest Korean she knows. ㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "헐",
+      "en": "Whoa."
+    },
+    {
+      "type": "hayeon",
+      "ko": "최고의 칭찬이네",
+      "en": "That's the greatest compliment."
+    },
+    {
+      "type": "hayeon",
+      "ko": "크",
+      "en": "Nice."
+    },
+    {
+      "type": "hayeon",
+      "ko": "언니도 내가 아는태국인중에 젤웃기긴해 어어",
+      "en": "She's also the funniest Thai person I know, yeah."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아는 태국인 언니밖에 없긴해 어어",
+      "en": "Although... she's the only Thai unnie I know. Yeah."
+    },
+    {
+      "type": "hayeon",
+      "ko": "김채원 영통옴",
+      "en": "Kim ChaeWon video called me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지 할말하고 끊음",
+      "en": "She said what she wanted to say and then hung up."
+    },
+    {
+      "type": "hayeon",
+      "ko": "행서멀리 갔더라",
+      "en": "She'd already gone off to her schedule."
+    },
+    {
+      "type": "hayeon",
+      "ko": "행사",
+      "en": "An event."
+    },
+    {
+      "type": "hayeon",
+      "ko": "채원아 잘자렴",
+      "en": "Sleep well, ChaeWon."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-12.mp3"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-13.mp3"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-14.mp3"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-15.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "왠지 충전이",
+      "en": "For some reason,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "안되더라",
+      "en": "it wasn't charging."
+    },
+    {
+      "type": "hayeon",
+      "ko": "영화추천받은거",
+      "en": "I'll make sure to"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘 반영해서",
+      "en": "take your movie recommendations"
+    },
+    {
+      "type": "hayeon",
+      "ko": "골라볼게",
+      "en": "into consideration when I pick one."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘자구",
+      "en": "Sleep well,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 잘 잘게",
+      "en": "I'll get some good sleep too."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-16.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해ㅐ😻😉",
+      "en": "Haranghae 😻😉"
+    }
+  ]
+}
