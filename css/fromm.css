@@ -2248,6 +2248,11 @@ scroll-margin-top:90px;
 
 .search-results{
 
+    max-height:180px;
+    overflow-y:auto;
+    overflow-x:auto;
+    overscroll-behavior:contain;
+
     width:100%;
 
     margin:0 0 24px;
@@ -2258,10 +2263,22 @@ scroll-margin-top:90px;
 
     border-radius:18px;
 
-    overflow:hidden;
-
     box-shadow:0 8px 22px rgba(0,0,0,.18);
 
+}
+
+.search-results::-webkit-scrollbar{
+    width:6px;
+}
+
+.search-results::-webkit-scrollbar-thumb{
+    background:rgba(82,217,187,.35);
+    border-radius:999px;
+}
+
+.search-result.active{
+    background:var(--accent);
+    color:#fff;
 }
 
 .search-results.hidden{
@@ -2436,3 +2453,101 @@ scroll-margin-top:90px;
     object-fit:contain;
 }
 
+/* Hide on desktop */
+
+.conversation-nav-bottom{
+    display:none;
+}
+
+@media (max-width:768px){
+
+    .conversation-nav-bottom{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        gap:12px;
+
+        margin-top:24px;
+        padding-top:20px;
+        border-top:1px solid var(--border);
+    }
+
+    .conversation-nav-bottom .share-btn{
+        grid-column:1;
+    }
+
+    .conversation-nav-bottom button{
+        width:100%;
+    }
+}
+
+.search-wrapper{
+    position:relative;
+    flex:1 1 auto;
+    width:100%;
+}
+
+.search-wrapper .fromm-search{
+    width:100%;
+    padding-right:48px;
+    box-sizing:border-box;
+}
+
+.search-clear{
+
+    position:absolute;
+    top:50%;
+    right:12px;
+
+    transform:translateY(-50%);
+
+    width:30px;
+    height:30px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border:none;
+    border-radius:50%;
+
+    background:transparent;
+
+    color:var(--text);
+
+    cursor:pointer;
+
+    opacity:0;
+    visibility:hidden;
+
+    transition:.2s;
+}
+
+.search-clear:hover{
+
+    background:rgba(82,217,187,.18);
+
+}
+
+.search-clear.hidden{
+
+    opacity:0;
+    visibility:hidden;
+
+}
+
+.search-clear:not(.hidden){
+
+    opacity:1;
+    visibility:visible;
+
+}
+
+@media (max-width:768px){
+
+    .search-clear:not(.hidden){
+
+        display:flex;
+
+    }
+
+}

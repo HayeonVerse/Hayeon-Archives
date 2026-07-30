@@ -66,6 +66,9 @@ searchSuggestions: [],
 
 selectedSuggestion: -1,
 
+previewYears: null,
+previewMonths: null,
+
 expandedYears: new Set(),
 
 expandedMonths: new Set(),
@@ -112,6 +115,8 @@ cache: {
     search: null,
 
     searchResults: null,
+
+    searchClear: null,
 
         languageButtons: [],
 
@@ -244,8 +249,11 @@ App.cache.sidebar =
 App.cache.viewer =
     $(".fromm-viewer");
 
-    App.cache.search =
-        $("#search-input");
+App.cache.search =
+    $("#search-input");
+
+App.cache.searchClear =
+    $("#search-clear");
 
 App.cache.searchResults =
     $("#search-results");
@@ -272,6 +280,26 @@ App.cache.stats.voices =
         $("#year-count");
 
 }
+
+document.addEventListener("click", (event) => {
+
+    const search = App.cache.search;
+    const results = App.cache.searchResults;
+
+    if (
+        !search.contains(event.target) &&
+        !results.contains(event.target)
+    ) {
+
+results.classList.add("hidden");
+
+App.state.selectedSuggestion = -1;
+
+App.restoreTimelinePreview();
+
+    }
+
+});
 
 /* ============================================
    BASIC HELPERS
@@ -486,18 +514,19 @@ App.buildTimeline = function () {
 
 yearTitle.onclick = () => {
 
-    if (App.state.expandedYears.has(year)) {
+if (App.state.expandedYears.has(year)) {
 
-        App.state.expandedYears.delete(year);
+    App.state.expandedYears.clear();
 
-    } else {
+} else {
 
-        App.state.expandedYears.add(year);
+    App.state.expandedYears = new Set([year]);
 
-    }
+    App.state.expandedMonths.clear();
 
-    App.buildTimeline();
+}
 
+App.buildTimeline();
 App.saveUIState();
 
 };
@@ -535,16 +564,15 @@ if (!App.state.expandedYears.has(year)) {
 
 if (App.state.expandedMonths.has(monthKey)) {
 
-    App.state.expandedMonths.delete(monthKey);
+    App.state.expandedMonths.clear();
 
 } else {
 
-    App.state.expandedMonths.add(monthKey);
+    App.state.expandedMonths = new Set([monthKey]);
 
 }
 
-                    App.buildTimeline();
-
+App.buildTimeline();
 App.saveUIState();
 
                 };
@@ -642,9 +670,14 @@ App.getConversationIndex = function (conversation) {
 
 };
 
+
+
 App.showConversation = function (conversation) {
 
     App.state.selectedConversation = conversation;
+
+App.cache.searchResults.classList.add("hidden");
+App.state.selectedSuggestion = -1;
 
 const url = new URL(window.location);
 
@@ -658,9 +691,13 @@ const year =
 const month =
     `${year}-${App.utils.getMonth(conversation.date)}`;
 
-App.state.expandedYears.add(year);
+App.state.expandedYears =
+    new Set([year]);
 
-App.state.expandedMonths.add(month);
+App.state.expandedMonths =
+    new Set([month]);
+
+App.buildTimeline();
 
 App.saveUIState();
 
@@ -918,8 +955,49 @@ container.appendChild(
 
 );
 
+const bottomNav = App.utils.create(
+    "div",
+    "conversation-nav conversation-nav-bottom"
+);
+
+const bottomPrev = prevBtn.cloneNode(true);
+
+const bottomNext = nextBtn.cloneNode(true);
+bottomPrev.onclick = () => {
+    if (!previous) return;
+
+    App.showConversation(previous);
+
+    requestAnimationFrame(() => {
+        document.querySelector(".conversation-header")
+            ?.scrollIntoView({
+                behavior: "instant",
+                block: "start"
+            });
+    });
+};
+
+bottomNext.onclick = () => {
+    if (!next) return;
+
+    App.showConversation(next);
+
+    requestAnimationFrame(() => {
+        document.querySelector(".conversation-header")
+            ?.scrollIntoView({
+                behavior: "instant",
+                block: "start"
+            });
+    });
+};
+
+bottomNav.append(bottomPrev, bottomNext);
+
+container.appendChild(bottomNav);
     
 };
+
+
 
 /* ============================================
    BUILD SEARCH INDEX
@@ -1496,6 +1574,7 @@ if (App.cache.stats.years)
         stats.years.size;
 
 };
+
 
 
 /* ============================================
@@ -2437,48 +2516,34 @@ App.openImage = function (src) {
 
 App.render = function () {
 
-const ui =
-    App.loadUIState();
-
-App.state.expandedYears =
-    new Set();
-
-App.state.expandedMonths =
-    new Set();
+const ui = App.loadUIState();
 
 if (!App.state.selectedConversation && ui.conversation) {
 
     const remembered =
         App.state.filtered.find(
-
             c => c.date === ui.conversation
-
         );
 
     if (remembered) {
 
-        App.state.selectedConversation =
-            remembered;
+        App.state.selectedConversation = remembered;
 
     }
 
 }
 
-if (App.state.selectedConversation) {
+if (!App.state.expandedYears.size && ui.years) {
 
-    const year =
-        App.utils.getYear(
-            App.state.selectedConversation.date
-        );
+    App.state.expandedYears =
+        new Set(ui.years);
 
-    const month =
-        `${year}-${App.utils.getMonth(
-            App.state.selectedConversation.date
-        )}`;
+}
 
-    App.state.expandedYears.add(year);
+if (!App.state.expandedMonths.size && ui.months) {
 
-    App.state.expandedMonths.add(month);
+    App.state.expandedMonths =
+        new Set(ui.months);
 
 }
 
@@ -2488,24 +2553,15 @@ App.buildTimeline();
 
 if (App.state.selectedConversation) {
 
-    App.showConversation(
-        App.state.selectedConversation
-    );
+    App.showConversation(App.state.selectedConversation);
 
 } else {
 
+    App.buildTimeline();
+
     App.cache.container.innerHTML = `
-        <div class="viewer-placeholder">
-
-            <h2>Select a conversation</h2>
-
-            <p>
-                Choose a conversation from the timeline.
-            </p>
-
-        </div>
+         
     `;
-
 }
 
 };
@@ -2570,6 +2626,45 @@ App.findSearchResults = function (query) {
 };
 
 
+App.previewConversation = function (conversation) {
+
+    if (!conversation) return;
+
+App.focusTimeline(conversation);
+
+};
+
+App.focusTimeline = function (conversation) {
+
+    if (!conversation) return;
+
+    const year = App.utils.getYear(conversation.date);
+    const month = `${year}-${App.utils.getMonth(conversation.date)}`;
+
+    App.state.expandedYears = new Set([year]);
+    App.state.expandedMonths = new Set([month]);
+
+    App.buildTimeline();
+
+};
+
+App.restoreTimelinePreview = function () {
+
+    if (!App.state.previewYears) return;
+
+    App.state.expandedYears =
+        App.state.previewYears;
+
+    App.state.expandedMonths =
+        App.state.previewMonths;
+
+    App.state.previewYears = null;
+    App.state.previewMonths = null;
+
+    App.buildTimeline();
+
+};
+
 /* ============================================
    SEARCH
 ============================================ */
@@ -2580,6 +2675,11 @@ App.search = function (query) {
 
     App.state.search = query;
 
+App.cache.searchClear?.classList.toggle(
+    "hidden",
+    !query
+);
+
     App.state.searchMatches = {};
 
     if (!query) {
@@ -2587,10 +2687,14 @@ App.search = function (query) {
         App.state.filtered =
             [...App.state.conversations];
 
-        App.state.expandedYears.clear();
-        App.state.expandedMonths.clear();
+App.restoreTimelinePreview();
 
         App.render();
+
+App.cache.searchResults.classList.add("hidden");
+
+App.state.searchSuggestions = [];
+App.state.selectedSuggestion = -1;
 
         return;
 
@@ -2599,7 +2703,10 @@ App.search = function (query) {
     const results =
         App.findSearchResults(query);
 
-App.renderSearchSuggestions(results);
+App.state.searchSuggestions = results;
+App.state.selectedSuggestion = -1;
+
+
 
     App.state.filtered =
         results.map(r => r.conversation);
@@ -2609,23 +2716,6 @@ App.renderSearchSuggestions(results);
         App.state.searchMatches[
             result.conversation.date
         ] = result.matches;
-
-    });
-
-    App.state.expandedYears.clear();
-    App.state.expandedMonths.clear();
-
-    results.forEach(result => {
-
-        const year =
-            App.utils.getYear(result.conversation.date);
-
-        const month =
-            `${year}-${App.utils.getMonth(result.conversation.date)}`;
-
-        App.state.expandedYears.add(year);
-
-        App.state.expandedMonths.add(month);
 
     });
 
@@ -2641,6 +2731,7 @@ App.renderSearchSuggestions(results);
 
     App.render();
 
+    App.renderSearchSuggestions(results);
 };
 
 /* ============================================
@@ -2693,6 +2784,33 @@ App.bindEvents = function () {
         );
 
     }
+
+App.cache.search.addEventListener("focus", () => {
+
+    if (
+        App.cache.search.value.trim() &&
+        App.state.searchSuggestions.length
+    ) {
+        App.renderSearchSuggestions(
+            App.state.searchSuggestions
+        );
+    }
+
+});
+
+if (App.cache.searchClear) {
+
+    App.cache.searchClear.addEventListener("click", () => {
+
+        App.cache.search.value = "";
+
+        App.search("");
+
+        App.cache.search.focus();
+
+    });
+
+}
 
     App.cache.languageButtons.forEach(button => {
 
@@ -2812,6 +2930,75 @@ App.bindKeyboard = function () {
             tag === "INPUT" ||
             tag === "TEXTAREA";
 
+if (
+    document.activeElement === App.cache.search &&
+    App.state.searchSuggestions.length
+) {
+
+    if (event.key === "ArrowDown") {
+
+        event.preventDefault();
+
+        App.state.selectedSuggestion = Math.min(
+            App.state.selectedSuggestion + 1,
+            App.state.searchSuggestions.length - 1
+        );
+
+        App.previewConversation(
+            App.state.searchSuggestions[
+                App.state.selectedSuggestion
+            ].conversation
+        );
+
+        return;
+    }
+
+    if (event.key === "ArrowUp") {
+
+        event.preventDefault();
+
+        App.state.selectedSuggestion = Math.max(
+            App.state.selectedSuggestion - 1,
+            0
+        );
+
+        App.previewConversation(
+            App.state.searchSuggestions[
+                App.state.selectedSuggestion
+            ].conversation
+        );
+
+        return;
+    }
+
+    if (event.key === "Enter") {
+
+        event.preventDefault();
+
+        const selected =
+            App.state.searchSuggestions[
+                App.state.selectedSuggestion
+            ];
+
+        if (selected) {
+
+            App.cache.searchResults.classList.add("hidden");
+
+App.restoreTimelinePreview();
+
+            App.showConversation(selected.conversation);
+
+App.cache.searchResults.classList.add("hidden");
+
+App.state.searchSuggestions = [];
+App.state.selectedSuggestion = -1;
+
+        }
+
+        return;
+    }
+}
+
         if (typing && event.key !== "Escape") {
 
             return;
@@ -2832,9 +3019,16 @@ App.bindKeyboard = function () {
 
                 if (document.activeElement === App.cache.search) {
 
-                    App.cache.search.value = "";
+App.cache.search.value = "";
 
-                    App.search("");
+App.cache.searchResults.classList.add("hidden");
+
+App.state.searchSuggestions = [];
+App.state.selectedSuggestion = -1;
+
+App.restoreTimelinePreview();
+
+App.search("");
 
                     App.cache.search.blur();
 
@@ -2984,11 +3178,23 @@ App.renderSearchSuggestions = function(results){
 
     }
 
-    results.slice(0,8).forEach((result,index)=>{
+box.onmouseleave = () => {
+
+    App.state.selectedSuggestion = -1;
+
+    App.restoreTimelinePreview();
+
+};
+
+    results.forEach((result,index)=>{
 
         const item=document.createElement("div");
 
         item.className="search-result";
+
+if (index === App.state.selectedSuggestion) {
+    item.classList.add("active");
+}
 
         item.innerHTML=`
 
@@ -3006,9 +3212,19 @@ App.renderSearchSuggestions = function(results){
 
         `;
 
+item.onmouseenter = () => {
+
+    App.state.selectedSuggestion = index;
+
+    App.previewConversation(result.conversation);
+
+};
+
 item.onclick = ()=>{
 
     box.classList.add("hidden");
+
+App.restoreTimelinePreview();
 
     App.showConversation(result.conversation);
 
@@ -3034,3 +3250,4 @@ item.onclick = ()=>{
     box.classList.remove("hidden");
 
 }
+

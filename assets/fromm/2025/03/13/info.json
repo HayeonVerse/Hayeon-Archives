@@ -1,0 +1,445 @@
+{
+  "date": "2025-03-13",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "오늘 날씨 너무좋다~",
+      "en": "The weather is so nice today~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "요즘 날 점점 풀려서",
+      "en": "The weather's been getting warmer lately,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "비록 날씨를 즐기진 못하고있지만",
+      "en": "even though I haven't really been able to enjoy it,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "좋다..",
+      "en": "it's nice..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "촌캉스 넘재밌었지",
+      "en": "The countryside getaway was so much fun."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 너무 행복했어",
+      "en": "I was so happy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 꿈같은 촌캉스 이후",
+      "en": "But after that dream-like countryside getaway,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "바로 하루종일 연습하니까",
+      "en": "I went straight back to practicing all day,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜",
+      "en": "and honestly,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "음 꿈이였나",
+      "en": "it almost felt like it was just a dream."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그만큼 재밌었어",
+      "en": "That's how much fun it was."
+    },
+    {
+      "type": "hayeon",
+      "ko": "기대할만해",
+      "en": "It's definitely something to look forward to."
+    },
+    {
+      "type": "hayeon",
+      "ko": "재밌었어",
+      "en": "It was really fun."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어떻게 나올진 모르겠지만",
+      "en": "I don't know how it'll turn out,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 ㅋㄹㅋㄹㅋㄹ 일단 우린 재밌었어",
+      "en": "but seriously ㅋㄹㅋㄹㅋㄹ we definitely had a great time."
+    },
+    {
+      "type": "fan",
+      "ko": "그럼 재밌겠지 뭐 정하연 나오면 재미 보장임",
+      "en": "Then it'll definitely be fun. If Jeong HaYeon is in it, fun is guaranteed."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞긴해",
+      "en": "True."
+    },
+    {
+      "type": "hayeon",
+      "ko": "서핑부원도 모집하던데",
+      "en": "They're recruiting members for the surfing club too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "서핑타러 와?",
+      "en": "Want to come surfing?"
+    },
+    {
+      "type": "fan",
+      "ko": "서핑동아리는 수영복입고 가야해?",
+      "en": "Do you have to wear a swimsuit to join the surfing club?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "당연하지",
+      "en": "Of course."
+    },
+    {
+      "type": "hayeon",
+      "ko": "레쉬가드에 레깅스",
+      "en": "A rash guard and leggings."
+    },
+    {
+      "type": "hayeon",
+      "ko": "물안경이랑 수모없으면",
+      "en": "If you don't have goggles and a swim cap,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "출입불가임",
+      "en": "entry is prohibited."
+    },
+    {
+      "type": "hayeon",
+      "ko": "왜 포기함.",
+      "en": "Why'd you give up already?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니면",
+      "en": "Or..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "해녀복",
+      "en": "wear a haenyeo suit."
+    },
+    {
+      "type": "hayeon",
+      "ko": "입어",
+      "en": "Put one on."
+    },
+    {
+      "type": "hayeon",
+      "ko": "해녀복에",
+      "en": "While wearing the haenyeo suit,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "망에 성게 3개 담아오면 ㅇㅈ드림",
+      "en": "bring back three sea urchins in a net, and I'll 인정드림."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이도 그렇게 하면 저도 할게용!",
+      "en": "If you do it too, then I'll do it!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 나도?",
+      "en": "Ah, me too?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 양보할게",
+      "en": "I'll make an exception for you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아무거나 입고와.",
+      "en": "Just wear whatever you want."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㄹㅋㄹㅋㅋㅋ",
+      "en": "ㅋㄹㅋㄹㄹㅋㄹㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 서울콘 올백 의지가 다시 타오르고있는데 어쩌지",
+      "en": "My determination to do an all-back hairstyle for the Seoul concert is coming back... what should I do?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 근데",
+      "en": "No, but..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 이뻐",
+      "en": "it's seriously so pretty."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아예",
+      "en": "Not completely,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "쫙",
+      "en": "not fully slicked"
+    },
+    {
+      "type": "hayeon",
+      "ko": "넘기는거 아니고",
+      "en": "straight back,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이쁘게",
+      "en": "but elegantly"
+    },
+    {
+      "type": "hayeon",
+      "ko": "넘기는 뭔지알아?",
+      "en": "swept back. You know what I mean?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아히잇",
+      "en": "Ahiiit!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜",
+      "en": "Seriously."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그럼 활동때 한다",
+      "en": "Then I'll do it during promotions."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㄹㅇ",
+      "en": "For real."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이쁘다니까",
+      "en": "I'm telling you, it's pretty."
+    },
+    {
+      "type": "hayeon",
+      "ko": "기대하고 있어봐",
+      "en": "Just wait and look forward to it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "까암짝 놀란다 그냥",
+      "en": "You're just going to be completely surprised."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+        {
+      "type": "fan",
+      "ko": "멤버들이 하지 말라고 한거 아녔어 근데?ㅋㅋㅋ",
+      "en": "Didn't the members tell you not to do it though? ㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "저번에 한번 샵에서 슬쩍 보여줬었거든",
+      "en": "I actually tried showing it at the salon once."
+    },
+    {
+      "type": "hayeon",
+      "ko": "반대했던 멤버들도",
+      "en": "Even the members who were against it"
+    },
+    {
+      "type": "hayeon",
+      "ko": "모두 이쁘다고했어",
+      "en": "all said it looked pretty."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아냐 활동 중간에",
+      "en": "Actually,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하고싶을때",
+      "en": "I'll do it"
+    },
+    {
+      "type": "hayeon",
+      "ko": "할게",
+      "en": "whenever I feel like it during promotions."
+    },
+    {
+      "type": "hayeon",
+      "ko": "서울콘땐",
+      "en": "For the Seoul concert,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "알잘딱",
+      "en": "I'll figure it out properly."
+    },
+    {
+      "type": "hayeon",
+      "ko": "해볼게",
+      "en": "I'll make it work."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "와 근데",
+      "en": "Wow, but..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "곧 만날것들이",
+      "en": "there are so many chances we'll be seeing each other soon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "많으니까",
+      "en": "There are a lot of them,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 막 설레",
+      "en": "so I'm seriously getting excited."
+    },
+    {
+      "type": "hayeon",
+      "ko": "두근두근",
+      "en": "My heart's racing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "연습하다가도",
+      "en": "Even while I'm practicing,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 이거 보여줄생각하니까 설레네싶고",
+      "en": "I think, 'I can't wait to show everyone this,' and I get excited all over again."
+    },
+    {
+      "type": "fan",
+      "ko": "너 나 좋아해..?",
+      "en": "Do you like me..?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그런듯",
+      "en": "Seems like it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "암튼 나",
+      "en": "Anyway,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "엄청 설레면서",
+      "en": "I'm practicing"
+    },
+    {
+      "type": "hayeon",
+      "ko": "연습하고있으니까",
+      "en": "while feeling really excited,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "설레면서 기다려",
+      "en": "so you should wait with excitement too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "Y/n도",
+      "en": "You too,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "보여줄게!!!!",
+      "en": "I'll show you!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "우오아아ㅏㅏㅏ!!!!",
+      "en": "Wooooaaahhhhh!!!!"
+    },
+    {
+      "type": "fan",
+      "ko": "투어 갔다 오더니 체력이 늘었나봐",
+      "en": "Looks like your stamina really improved after the tour."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이거 진짜 맞아",
+      "en": "That's actually true."
+    },
+    {
+      "type": "hayeon",
+      "ko": "유후",
+      "en": "Yoo-hoo!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "곧만나",
+      "en": "See you soon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎㅎㅎㅎ",
+      "en": "ㅎㅎㅎㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사랑해",
+      "en": "I love you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고 하랑해😘",
+      "en": "And Haranghae. 😘"
+    },
+    {
+      "type": "hayeon",
+      "ko": "안뇽~",
+      "en": "Bye~"
+    }
+  ]
+}
