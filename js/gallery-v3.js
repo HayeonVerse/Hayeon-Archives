@@ -217,9 +217,18 @@ function renderArchive(archive) {
     galleryContainer.innerHTML = "";
 
     const monthOrder = [
-        "January","February","March","April",
-        "May","June","July","August",
-        "September","October","November","December"
+    "December",
+    "November",
+    "October",
+    "September",
+    "August",
+    "July",
+    "June",
+    "May",
+    "April",
+    "March",
+    "February",
+    "January"
     ];
 
     Object.keys(archive).sort((a,b)=>b-a).forEach(year => {
