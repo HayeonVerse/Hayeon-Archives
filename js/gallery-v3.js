@@ -21,6 +21,27 @@ let ytFrame = null;
 
 let currentFilter = "all";
 
+let sortOrder =
+    localStorage.getItem("gallery-sort") || "desc";
+
+const sortSelect =
+    document.getElementById("sort-select");
+
+sortSelect.value = sortOrder;
+
+sortSelect.addEventListener("change", () => {
+
+    sortOrder = sortSelect.value;
+
+    localStorage.setItem(
+        "gallery-sort",
+        sortOrder
+    );
+
+    buildArchive(filterAlbums(loadedAlbums));
+
+});
+
 function updateStats() {
 
     let albums = loadedAlbums.length;
@@ -231,7 +252,13 @@ function renderArchive(archive) {
     "January"
     ];
 
-    Object.keys(archive).sort((a,b)=>b-a).forEach(year => {
+    Object.keys(archive)
+    .sort((a, b) =>
+        sortOrder === "desc"
+            ? b - a
+            : a - b
+    )
+    .forEach(year => {
 
         const yearBox = document.createElement("div");
         yearBox.className = "archive-year";
@@ -274,7 +301,12 @@ yearHeader.onclick = () => {
         !isOpen ? `▼ ${year}` : `▶ ${year}`;
 };
 
-        monthOrder.forEach(month => {
+        const months =
+    sortOrder === "desc"
+        ? monthOrder
+        : [...monthOrder].reverse();
+
+months.forEach(month => {
 
             if (!archive[year][month]) return;
 
@@ -340,7 +372,11 @@ dayGrid.className = "archive-days";
 const fragment = document.createDocumentFragment();
 
 const days = archive[year][month]
-    .sort((a,b)=>Number(b.day)-Number(a.day));
+    .sort((a, b) =>
+        sortOrder === "desc"
+            ? Number(b.day) - Number(a.day)
+            : Number(a.day) - Number(b.day)
+    );
 
 for (const dayGroup of days) {
     fragment.appendChild(createDay(dayGroup));

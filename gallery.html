@@ -198,23 +198,36 @@
 
 </section>
 
-<section class="gallery-filter">
+<section class="gallery-toolbar">
 
-<button class="filter-btn active" data-filter="all">
-    📂 All
-</button>
+    <div class="gallery-filter">
 
-<button class="filter-btn" data-filter="image">
-    📷 Photos
-</button>
+        <button class="filter-btn active" data-filter="all">
+            📂 All
+        </button>
 
-<button class="filter-btn" data-filter="video">
-    🎥 Videos
-</button>
+        <button class="filter-btn" data-filter="image">
+            📷 Photos
+        </button>
 
-<button class="filter-btn" data-filter="youtube">
-    ▶️ YouTube
-</button>
+        <button class="filter-btn" data-filter="video">
+            🎥 Videos
+        </button>
+
+        <button class="filter-btn" data-filter="youtube">
+            ▶️ YouTube
+        </button>
+
+    </div>
+
+    <div class="gallery-sort">
+        <label for="sort-select"></label>
+
+        <select id="sort-select">
+            <option value="desc">Newest First</option>
+            <option value="asc">Oldest First</option>
+        </select>
+    </div>
 
 </section>
 
