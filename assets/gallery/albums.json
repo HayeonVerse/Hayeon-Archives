@@ -2571,6 +2571,20 @@
         }
     },
     {
+        "path": "2026/August/01",
+        "info": {
+            "title": "01",
+            "date": "August 01",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "birthday.jpg",
+            "files": [
+                "birthday.jpg"
+            ]
+        }
+    },
+    {
         "path": "2026/April/30 - Youtube Lucky Factory",
         "info": {
             "title": "Youtube Lucky Factory",
