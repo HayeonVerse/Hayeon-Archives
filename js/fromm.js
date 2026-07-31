@@ -380,21 +380,36 @@ App.setLoading = function (loading) {
    FETCH JSON
 ============================================ */
 
-App.fetchJSON = async function (url) {
+App.fetchJSON = async function (url, retries = 3) {
 
-    const response = await fetch(url);
+    for (let attempt = 1; attempt <= retries; attempt++) {
 
-    if (!response.ok) {
+        try {
 
-        throw new Error(
+            const response = await fetch(url);
 
-            `Unable to load ${url}`
+            if (!response.ok) {
+                throw new Error(
+                    `HTTP ${response.status} ${response.statusText}`
+                );
+            }
 
-        );
+            return await response.json();
 
+        } catch (error) {
+
+            console.warn(
+                `Fetch failed (${attempt}/${retries}) for ${url}`,
+                error
+            );
+
+            if (attempt === retries) {
+                throw error;
+            }
+
+            await new Promise(resolve => setTimeout(resolve, 500));
+        }
     }
-
-    return await response.json();
 
 };
 
