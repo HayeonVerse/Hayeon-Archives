@@ -1,0 +1,750 @@
+{
+  "date": "2025-05-28",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "하요이 등장",
+      "en": "HaYoi has arrived."
+    },
+    {
+      "type": "hayeon",
+      "ko": "모하냥",
+      "en": "Whatcha doing~?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "히요이는",
+      "en": "HiYoi"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘",
+      "en": "today"
+    },
+    {
+      "type": "hayeon",
+      "ko": "유빈언니랑",
+      "en": "went with YuBin unnie"
+    },
+    {
+      "type": "hayeon",
+      "ko": "소고기 머금",
+      "en": "to eat beef."
+    },
+    {
+      "type": "hayeon",
+      "ko": "우설도 먹음!",
+      "en": "I had beef tongue too!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "제대로 우설 첨먹는데",
+      "en": "It was my first time having proper beef tongue,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "기가막히드라",
+      "en": "and it was incredible."
+    },
+    {
+      "type": "fan",
+      "ko": "저번에 먹은 거 아니었어??",
+      "en": "Didn't you have it before??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "저번엔 뭔가",
+      "en": "Last time it was more like"
+    },
+    {
+      "type": "hayeon",
+      "ko": "반찬느낌으로",
+      "en": "a side dish,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나온",
+      "en": "served"
+    },
+    {
+      "type": "hayeon",
+      "ko": "일본식당이였어",
+      "en": "at a Japanese restaurant."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이번엔 두꺼운 우설!!!",
+      "en": "This time it was thick-cut beef tongue!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 유빈언니랑 진짜",
+      "en": "Seriously, YuBin unnie and I"
+    },
+    {
+      "type": "hayeon",
+      "ko": "맨날 붙어있는거 같음..",
+      "en": "are together all the time these days..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "저번엔 유빈언니가",
+      "en": "The other day YuBin unnie"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내방에서 자구가!!!!!!!",
+      "en": "slept in my room!!!!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이래서 언니방에서 자고",
+      "en": "Then I went and slept in her room,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어제는 언니가 내방에서 잠",
+      "en": "and yesterday she slept in my room."
+    },
+    {
+      "type": "hayeon",
+      "ko": "4인실 이긴한데",
+      "en": "It's a four-person room,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내침대는 커튼",
+      "en": "but my bed has curtains,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "쳐져있어서",
+      "en": "around it,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래도 아늑해",
+      "en": "so it's still really cozy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "유빈언니 나 너무조아행 ㅎ",
+      "en": "I like YuBin unnie so much. ㅎ"
+    },
+    {
+      "type": "fan",
+      "ko": "그럼 채연이가 자고 간 이후로 하연 침대 입성 두번째야?",
+      "en": "So after ChaeYeon slept over, YuBin unnie is the second person to sleep in your bed?"
+    },
+        {
+      "type": "hayeon",
+      "ko": "그러네",
+      "en": "I guess you're right."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 침대 인기가 많네",
+      "en": "My bed is pretty popular."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 살짝 우린",
+      "en": "I think we're kind of..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아끼는 사이",
+      "en": "the type to really care for each other."
+    },
+    {
+      "type": "hayeon",
+      "ko": "느낌",
+      "en": "That's how it feels."
+    },
+    {
+      "type": "hayeon",
+      "ko": "성격이 비슷해서 그런가",
+      "en": "Maybe it's because our personalities are similar."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 보는거 같애",
+      "en": "She kind of feels like I'm looking at myself."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그냥",
+      "en": "Anyway..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "최애 멤버는",
+      "en": "My favorite member is"
+    },
+    {
+      "type": "hayeon",
+      "ko": "따로 있어..ㅎ",
+      "en": "someone else..ㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "누구게~",
+      "en": "Guess who~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "유빈언니는 최애 멤버고 말고를 떠나",
+      "en": "Setting aside the idea of a 'favorite member,' YuBin unnie..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔가 멤버보다",
+      "en": "feels less like a fellow member"
+    },
+    {
+      "type": "hayeon",
+      "ko": "친한 언니 느낌이 들어서",
+      "en": "and more like a really close older sister."
+    },
+    {
+      "type": "hayeon",
+      "ko": "최애🩷이런 느낌은 아니고",
+      "en": "So it's not that kind of 'favorite 🩷' feeling."
+    },
+    {
+      "type": "hayeon",
+      "ko": "최애멤버",
+      "en": "My favorite member is..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "카에데 언니🦦",
+      "en": "Kaede unnie. 🦦"
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 무해해",
+      "en": "She's just so harmless."
+    },
+    {
+      "type": "hayeon",
+      "ko": "사람이",
+      "en": "That's just the kind of person she is."
+    },
+    {
+      "type": "fan",
+      "ko": "내 최애멤버는 누구게",
+      "en": "Guess who my favorite member is."
+    },
+        {
+      "type": "hayeon",
+      "ko": "나여야지",
+      "en": "It has to be me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "카에언니는 진짜",
+      "en": "Kaede unnie is seriously..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "대박이야",
+      "en": "amazing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "얼굴 너무 귀엽고 이쁜데",
+      "en": "She's so cute and pretty,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "성격도 유쾌하고",
+      "en": "and her personality is so cheerful too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 춤 노래 다",
+      "en": "On top of that, her dancing and singing are both"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘해",
+      "en": "really good."
+    },
+    {
+      "type": "fan",
+      "ko": "만능캐네 누가 생각나네 육각",
+      "en": "She's an all-rounder... reminds me of someone, Hexagon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나볼때 그래~!",
+      "en": "Just think that whenever you look at me~!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "?",
+      "en": "?"
+    },
+    {
+      "type": "fan",
+      "ko": "만약에 내 최애가 너였는데 다른 멤버로 바뀌면 어떡할꺼야?",
+      "en": "What if you were my favorite member, but then my favorite changed to another member? What would you do?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그러면…",
+      "en": "In that case..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다시 꼬시면 되지",
+      "en": "I'd just win you over again."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다른 멤버로 돌아가는 눈동자는",
+      "en": "I can't stop your eyes from wandering to another member,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 막을순 없는데",
+      "en": "that's not something I can control."
+    },
+    {
+      "type": "hayeon",
+      "ko": "마음은 잡아둘수 있어서 ㅎ",
+      "en": "But I can keep hold of your heart. ㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "자신감",
+      "en": "Confidence."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 매력이 그냥 매력이 아니라~",
+      "en": "My charm isn't just ordinary charm~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "Y/n는 나랑 잘맞아",
+      "en": "Y/n and I are a really good match."
+    },
+    {
+      "type": "hayeon",
+      "ko": "왜냐구?",
+      "en": "Want to know why?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "음",
+      "en": "Hmm..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 젤 잘해줄수 있으니까",
+      "en": "Because I can take the best care of you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "약 먹구와써",
+      "en": "I just took my medicine."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아픈거 아니구",
+      "en": "I'm not sick,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "영양제~?",
+      "en": "it's just vitamins~?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "요즘 날씨",
+      "en": "The weather lately"
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무좋아!!",
+      "en": "has been so nice!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "보고싶당",
+      "en": "I miss you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 그리고",
+      "en": "Oh, and..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "프롬 프사 바꾸거 싶으게",
+      "en": "I want to change my Fromm profile picture."
+    },
+    {
+      "type": "hayeon",
+      "ko": "배제전쟁에서",
+      "en": "From Badge War,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그 꽃밭에서",
+      "en": "the one in the flower field..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "찍은사진이",
+      "en": "The photos I took there"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 넘 잘나와서",
+      "en": "turned out so, so well,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "기다리는 중이야..",
+      "en": "so I'm waiting for them..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "배전 나오자마자",
+      "en": "As soon as Badge War comes out,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "바꿀게여",
+      "en": "I'll change it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜",
+      "en": "I seriously"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사랑스러움..",
+      "en": "look so adorable..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅅㅋㄹㅋㅎㅎㅋㅋㅎㅎㅋ",
+      "en": "ㅋㅅㅋㄹㅋㅎㅎㅋㅋㅎㅎㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "장난이고",
+      "en": "Just kidding."
+    },
+    {
+      "type": "hayeon",
+      "ko": "으응..",
+      "en": "Mmm..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가",
+      "en": "I..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 요즘 좀",
+      "en": "Lately, I've been kind of..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀여워",
+      "en": "cute."
+    },
+    {
+      "type": "hayeon",
+      "ko": "성인이 다가오니까",
+      "en": "Now that becoming an adult is getting closer,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "막 귀여워지고 싶네",
+      "en": "I suddenly want to be cute."
+    },
+    {
+      "type": "hayeon",
+      "ko": "응애",
+      "en": "I'm a baby."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-01.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어때",
+      "en": "How is it?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 귀엽지",
+      "en": "I'm super cute, right?"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-02.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "숀엄마 안잔다~",
+      "en": "Shion's mom isn't sleeping~"
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-03.mp3"
+    },
+    {
+      "type": "fan",
+      "ko": "거기서 너가 젤 시끄러어…",
+      "en": "You're the loudest one there..."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-04.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니이",
+      "en": "Nooo."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-05.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎ",
+      "en": "ㅎ"
+    },
+    {
+      "type": "fan",
+      "ko": "나 바보야?",
+      "en": "Am I an idiot?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "웅",
+      "en": "Yep."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하요이밖에 모르는 바보~?",
+      "en": "An idiot who only knows HaYoi~?"
+    },
+    {
+      "type": "fan",
+      "ko": "너도 바부야",
+      "en": "You're a dummy too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "왜왜~?ㅎㅎㅎ",
+      "en": "Why, why~?ㅎㅎㅎ"
+    },
+    {
+      "type": "fan",
+      "ko": "그냥",
+      "en": "Just because."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "fan",
+      "ko": "하연이는 누가 너한테 자기가 미래를 봤는데 다음주에 너가 나한테 고백하니까 미리 저장명 바꾸라고 하면 어떻게 할거야?\n갑자기 궁금해짐",
+      "en": "HaYeon, what would you do if someone told you they saw the future, and that next week you'd confess to me, so I should change your contact name in advance?\nI suddenly got curious."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "음",
+      "en": "Hmm..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내꺼…?",
+      "en": "Mine...?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "미래를 봤는데",
+      "en": "If they really saw the future,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 고백을 한다",
+      "en": "and I'm the one confessing..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "거기 어디야",
+      "en": "Where is this person?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "용하네",
+      "en": "They must be a real fortune teller."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다음주는 너무 먼거 아닌가",
+      "en": "Isn't next week a little too far away?"
+    },
+    {
+      "type": "fan",
+      "ko": "미래를봤어\n3초뒤에너가고백을한대\n3\n2\n1 자 시작!!!!!",
+      "en": "I saw the future.\nIt says you'll confess in 3 seconds.\n3\n2\n1\nGo!!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "조..조 좋아해!!!!!",
+      "en": "I-I like you!!!!!"
+    },
+    {
+      "type": "fan",
+      "ko": "하요이 배지전쟁 어땠어",
+      "en": "HaYoi, how was Badge War?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "기대하라니까~",
+      "en": "I told you to look forward to it~"
+    },
+    {
+      "type": "fan",
+      "ko": "하연아 사... 사...\n사는 동안 많이 버시오",
+      "en": "HaYeon, lo... lo...\nMay you earn lots of money in your lifetime."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아ㅏ 감사합니다..",
+      "en": "Ah... thank you..."
+    },
+    {
+      "type": "fan",
+      "ko": "분량이야 배지야 이거만 말해주라",
+      "en": "Just tell me this was it screentime or badges?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "고를수 없어",
+      "en": "I can't choose."
+    },
+    {
+      "type": "hayeon",
+      "ko": "재밌게 봐",
+      "en": "Just enjoy watching it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎ",
+      "en": "ㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "편집이 어케될진 모르겠지만",
+      "en": "I don't know how it'll be edited,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "재밌었어",
+      "en": "but it was really fun."
+    },
+    {
+      "type": "fan",
+      "ko": "예뿌게잘해주세요",
+      "en": "Please make HaYeon look pretty."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이쁘게는 좀 힘들수도",
+      "en": "That might be a little difficult..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "얼굴을 포기하고",
+      "en": "I might have to sacrifice looking pretty"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어어 ..",
+      "en": "Uhh..."
+    },
+    {
+      "type": "fan",
+      "ko": "봄방학 때부터 점점 이미지는 포기하는 거 같다??",
+      "en": "Ever since Spring Break, it feels like you've been gradually giving up on your image??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "예능인이 되어가고있어..",
+      "en": "I'm slowly becoming an entertainer..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "초심을 잡을게",
+      "en": "I'll go back to my original mindset."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 초심부터가 예능이였다고?",
+      "en": "Oh, my original mindset was being an entertainer from the start?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "안타깝네…",
+      "en": "That's unfortunate..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㄹㅋㄹㅋㅋㄹ",
+      "en": "ㅋㄹㅋㄹㄹㅋㄹㅋㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 이제 자러가려구",
+      "en": "I'm going to sleep now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘자구",
+      "en": "Sleep well,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "꿈에서 봥",
+      "en": "see you in my dreams."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘자🩷",
+      "en": "Good night. 🩷"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해💕",
+      "en": "Haranghae💕"
+    }
+  ]
+}

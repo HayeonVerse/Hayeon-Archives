@@ -1,0 +1,544 @@
+{
+  "date": "2025-05-13",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "나와써!!",
+      "en": "It's finally out!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하고싶은말 엄청많아~",
+      "en": "I have so many things I want to tell you~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "시간 돼?",
+      "en": "Do you have some time?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뮤비 봤어~??",
+      "en": "Did you watch the music video~??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "물속에 들어가서 찍는거",
+      "en": "The scene where I had to film underwater..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다른멤버들은 힘들어했는데",
+      "en": "the other members had a hard time with it,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 처음부터 잘했어!!",
+      "en": "but I was good at it right from the start!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "자랑 ㅎ",
+      "en": "Just bragging. ㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고 개인씬도 표정 잘한다고그래써!!",
+      "en": "They also told me I was really good at the facial expressions in my solo scenes!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고 수록곡!",
+      "en": "And the B-side tracks!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다 들었어?",
+      "en": "Did you listen to all of them?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐가 젤좋아",
+      "en": "Which one do you like the most?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내파트는 어딘지 다 알겠어?",
+      "en": "Can you tell where all my parts are?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 내파트중",
+      "en": "Out of my parts,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "좋은건",
+      "en": "my favorites are..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "럽투럽 후반에",
+      "en": "near the end of Love2Love,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "저음으로",
+      "en": "where I sing in a lower register,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "럽미 하덜 스트롱걸이였나",
+      "en": "\"Love me harder, strong girl\"... was that the line?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "몰라",
+      "en": "I don't remember."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그거 조아",
+      "en": "I like that part."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고",
+      "en": "And..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어우불",
+      "en": "Firework Diary,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "도입부",
+      "en": "the intro."
+    },
+    {
+      "type": "hayeon",
+      "ko": "조아",
+      "en": "I like it."
+    },
+    {
+      "type": "fan",
+      "ko": "그리고 그 혹시 럽차일드에서 타로를 봤어 미래를 봤어 여기 너임?",
+      "en": "Also, in Love Child, the line 'I read the tarot, I saw the future'... is that you?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나임",
+      "en": "That's me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고 쇼케!!",
+      "en": "And the showcase!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "추리소설",
+      "en": "Detective Soseol."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어때",
+      "en": "What did you think?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 내가",
+      "en": "It's exactly the kind of"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하고싶던 청순한",
+      "en": "innocent concept"
+    },
+    {
+      "type": "hayeon",
+      "ko": "안무라서 하면서도",
+      "en": "and choreography I've always wanted to do,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "재밌는 노래야",
+      "en": "so it's really fun to perform."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이제 꽁꽁 숨기던게",
+      "en": "Now that everything I'd been keeping tightly under wraps"
+    },
+    {
+      "type": "hayeon",
+      "ko": "공개되니까 행복하다",
+      "en": "has finally been revealed, I'm really happy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고 뮤비에",
+      "en": "Also, in the music video,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "왜 어깨만 젖어있냐면",
+      "en": "if you're wondering why only my shoulders were wet..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "사실 계속 온몸이 젖어있어야하는",
+      "en": "I was actually supposed to have my whole body soaking wet"
+    },
+    {
+      "type": "hayeon",
+      "ko": "장면밖에 안찍어서",
+      "en": "for every scene we filmed,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하루종일 물뿌렸단말이야",
+      "en": "so they kept spraying me with water all day."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하요이추었떵",
+      "en": "HaYoni was freezing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "암튼",
+      "en": "Anyway,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그 들어가기 직전에도",
+      "en": "even right before filming,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "헤메쌤이 와서",
+      "en": "the hair and makeup staff came over,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "물 촥촥뿌리고 햄ㅅ는데",
+      "en": "sprayed water all over me,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "계속 마르는거야",
+      "en": "but it kept drying off."
+    },
+    {
+      "type": "fan",
+      "ko": "뜨거운여자네",
+      "en": "You're one hot woman."
+    },
+        {
+      "type": "hayeon",
+      "ko": "핫한여자지",
+      "en": "I'm a hot girl."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래서",
+      "en": "So..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "결국",
+      "en": "in the end,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어깨쪽만",
+      "en": "only my shoulders"
+    },
+    {
+      "type": "hayeon",
+      "ko": "동그랗게",
+      "en": "ended up"
+    },
+    {
+      "type": "hayeon",
+      "ko": "젖어있었어",
+      "en": "being wet in little patches."
+    },
+    {
+      "type": "hayeon",
+      "ko": "딱히 메세지는 없어",
+      "en": "There wasn't any special meaning behind it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어제 다 천천히 말하고깊았는데",
+      "en": "I wanted to talk about everything slowly yesterday,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 체력",
+      "en": "but my energy"
+    },
+    {
+      "type": "hayeon",
+      "ko": "방전",
+      "en": "was completely drained."
+    },
+    {
+      "type": "hayeon",
+      "ko": "곧 라이브도 하니까~",
+      "en": "We'll be doing a live soon anyway~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "쇼케기념",
+      "en": "To celebrate the showcase,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "선물",
+      "en": "here's a gift."
+    },
+    {
+      "type": "hayeon",
+      "image": "image-01.PNG"
+    },
+    {
+      "type": "hayeon",
+      "ko": "연습실 하연",
+      "en": "HaYeon in the practice room."
+    },
+    {
+      "type": "hayeon",
+      "ko": "금발하연 ㅎ",
+      "en": "Blonde HaYeon. ㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "시세이도 광고찍을때",
+      "en": "When I filmed the Shiseido commercial,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "열심히 뺏던 금발인데",
+      "en": "I worked really hard to get my hair this blonde,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금은 갈색으로 뒤덮혀있어…ㅎㅎ",
+      "en": "but now it's completely covered up with brown again...ㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "넘 아쉬워 ㅜㅜ",
+      "en": "I'm so sad about it. ㅜㅜ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 시세이도 엠버서더가 되어서",
+      "en": "I'm so happy"
+    },
+    {
+      "type": "hayeon",
+      "ko": "기쁩니다",
+      "en": "to have become a Shiseido ambassador."
+    },
+    {
+      "type": "hayeon",
+      "ko": "저거찍고 뮤비찍어야해서",
+      "en": "After filming that, I had to go shoot the music video,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "블루 하고",
+      "en": "so I dyed it blue,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "거의",
+      "en": "and then"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다음날 바로 덮었어",
+      "en": "covered it up again almost the very next day."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 머리 ㅠ",
+      "en": "My poor hair... ㅠ"
+    },
+    {
+      "type": "fan",
+      "ko": "정하연 강아디지만 머릿결은 개털되면 안..되...",
+      "en": "Jeong HaYeon may be a puppy, but your hair definitely shouldn't turn into dog fur..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다행히도 개털은 안됐구",
+      "en": "Thankfully, it didn't end up like dog fur."
+    },
+    {
+      "type": "hayeon",
+      "ko": "문방구에서 파는 2000원짜리 미미의 머리 느낌?",
+      "en": "It feels more like the hair on one of those 2,000 won Mimi dolls they sell at stationery stores."
+    },
+    {
+      "type": "hayeon",
+      "ko": "더 안좋은건가 ㅎㅎ",
+      "en": "Maybe that's even worse. ㅎㅎ"
+    },
+    {
+      "type": "fan",
+      "ko": "빗자루돼써...? ㅜㅜ",
+      "en": "Did it turn into a broom...? ㅜㅜ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "방청소 머리카락으로 하는중!",
+      "en": "I'm cleaning my room with my hair now!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아냐 열심히 관이라고니까",
+      "en": "No, I've been taking really good care of it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "관리하고",
+      "en": "I'm taking care of it,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이써",
+      "en": "don't worry."
+    },
+    {
+      "type": "hayeon",
+      "ko": "관이라고니까 이러넼ㅋㅎㅋㅎㅋㅎㅎ",
+      "en": "I typed 'gwani (coffin)' instead of 'gwanri (care).' ㅋㅋㅎㅋㅎㅋㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "관이씨 안녕하세요",
+      "en": "Hello, Mr. Coffin."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이 응원법 찍을 때 피곤했어?",
+      "en": "Were you tired when you filmed the fan chant guide?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이거 말해주고싶었는데",
+      "en": "I actually wanted to tell you about this."
+    },
+    {
+      "type": "hayeon",
+      "ko": "갑자기 몸상태가 안좋아서",
+      "en": "I suddenly wasn't feeling well,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "걱정할까봐 열심히 숨어있었는데",
+      "en": "and I tried my best to keep it hidden because I didn't want you to worry."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그러고 병원갔더니",
+      "en": "Then I went to the hospital,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "담날 바로 괜찮아짐",
+      "en": "and I was completely fine the very next day."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 정말 스트롱 걸인가봐",
+      "en": "I guess I really am a strong girl."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금은 완전",
+      "en": "Now I'm totally"
+    },
+    {
+      "type": "hayeon",
+      "ko": "괜춘하다",
+      "en": "doing great."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 자동완성이",
+      "en": "Seriously, autocorrect..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "왜저래",
+      "en": "what's wrong with it?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㄹㅋㅋㅎㅋㅎㅋㅎ",
+      "en": "ㅋㄹㄹㅋㅋㅎㅋㅎㅋㅎ"
+    },
+    {
+      "type": "fan",
+      "ko": "하연이 네일 뗀거 아니지?? 프롬 타자가 정확하고 빨라짐",
+      "en": "You didn't take your nails off, did you?? Your Fromm typing got way faster and more accurate."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아냐 익숙해진거야",
+      "en": "No, I just got used to them."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아맞아",
+      "en": "Oh, right!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "배지전쟁도",
+      "en": "Badge War"
+    },
+    {
+      "type": "hayeon",
+      "ko": "곧 나오잖아",
+      "en": "is coming out soon too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 기대해라",
+      "en": "Seriously, look forward to it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "곧 라이브에서 봅시다",
+      "en": "See you on the live soon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 준비하고있을께 ㅎ",
+      "en": "I'll go get ready. ㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "빠빠잉!",
+      "en": "Bye-bye!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해~~~",
+      "en": "Haranghae~~~"
+    }
+  ]
+}
