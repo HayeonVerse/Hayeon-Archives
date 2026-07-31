@@ -1,0 +1,338 @@
+{
+  "date": "2025-07-06",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "하이!",
+      "en": "Hi!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "쌀국수 시켜써~",
+      "en": "I ordered pho~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "요즘 정말 정신없는 하루하루를 보내고이써",
+      "en": "I've been having such hectic days lately."
+    },
+    {
+      "type": "fan",
+      "ko": "자른 머리 길이 딱 좋은듯",
+      "en": "I think your new hair length is just right."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진쫘~?",
+      "en": "Reaaally~?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "자른게 훨씬 낫다고 하더라",
+      "en": "People said it looks much better after I cut it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "사실 머리카락을 살려주기위해 어쩔수없이 잘랐지만…",
+      "en": "Honestly, I had no choice but to cut it to save my hair..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 더 짧게 자르고싶긴해",
+      "en": "I actually want to cut it even shorter."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 뭔가 조금만 더?",
+      "en": "Just... maybe a little shorter?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 거울을 보는데",
+      "en": "When I looked in the mirror today,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "주렁주렁 있던 상한 머리들이",
+      "en": "all those damaged ends"
+    },
+    {
+      "type": "hayeon",
+      "ko": "없으니까 정말 후련하고",
+      "en": "were gone, and it felt so refreshing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "삶의 질이 올라갔어 지금",
+      "en": "My quality of life has gone up."
+    },
+    {
+      "type": "hayeon",
+      "ko": "머리 말리는데 10분도 안걸림",
+      "en": "It doesn't even take 10 minutes to dry my hair anymore."
+    },
+    {
+      "type": "hayeon",
+      "image": "image-01.PNG"
+    },
+    {
+      "type": "hayeon",
+      "ko": "조금 잘랐다고 어려보여서",
+      "en": "Just because I cut it a little, I look younger."
+    },
+    {
+      "type": "hayeon",
+      "ko": "단발하면 초등학생 ㄱㄴ?",
+      "en": "If I get a bob, could I pass as an elementary school kid?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㅋㄹㅋㄹㅋㅋㅋ",
+      "en": "ㅋㅋㅋㄹㅋㄹㅋㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "삭발하면 응애시절로 가는거야? ㅋㅋㅋㅋ",
+      "en": "So if you shave your head, do you go all the way back to being a baby? ㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그러네..",
+      "en": "I guess so..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "애기도 삭발이긴해..",
+      "en": "Babies are kind of bald too..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "시간 되돌리기!!!",
+      "en": "Turning back time!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "우이이이ㅣ잉",
+      "en": "Wiiiiiiiing!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "삭발!!!",
+      "en": "Shave it all off!!!"
+    },
+    {
+      "type": "fan",
+      "ko": "너 머리 밀면 내 머리라도 떼어줄 거임 ㅜㅜ",
+      "en": "If you shave your head, I'll give you some of my hair. ㅜㅜ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "헉 반반 가지자…",
+      "en": "Oh! Then let's split it in half..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 왼쪽 머리 주라..",
+      "en": "Give me the left half..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "왼얼사라",
+      "en": "Because my left side is my best side."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㅋㄹㅋㅋㄹㅋㅋ",
+      "en": "ㅋㄹㅋㄹㅋㅋㄹㅋㅋㄹㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 지금",
+      "en": "Right now,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "밥이 입에 들어가야",
+      "en": "I need to get some food into my mouth"
+    },
+    {
+      "type": "hayeon",
+      "ko": "정신이 맑아질것같아",
+      "en": "before I can think straight."
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리 엄마가 나 이제 파악한게",
+      "en": "My mom has figured me out now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 엄마한테 짜증내면",
+      "en": "Whenever I get grumpy with her,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "너 밥안먹었냐",
+      "en": "she asks, 'Did you skip a meal?'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러면",
+      "en": "Then I go..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "웅…",
+      "en": "Yeah..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "밥 먹고올게…",
+      "en": "I'll go eat..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "항상이래",
+      "en": "It's always like that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그러고 나서 다시 통화하면",
+      "en": "Then when we talk again afterward..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "웅 엄마~?",
+      "en": "'Hi, Mom~?'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "밥 와따!!",
+      "en": "My food's here!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "히히히",
+      "en": "Hehehe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "윙도 같이 시켰오",
+      "en": "I ordered some wings too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "육수를",
+      "en": "While pouring"
+    },
+    {
+      "type": "hayeon",
+      "ko": "붓다가",
+      "en": "the broth"
+    },
+    {
+      "type": "hayeon",
+      "ko": "허벅지에 흘림",
+      "en": "I spilled it on my thigh."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 뜨거워!!!",
+      "en": "It was so hot!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "미취겠넹",
+      "en": "I'm going crazy."
+    },
+    {
+      "type": "hayeon",
+      "image": "image-02.PNG"
+    },
+    {
+      "type": "hayeon",
+      "ko": "양심적으로 닭으로 바꿨엉",
+      "en": "I made the responsible choice and went with chicken instead."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎ",
+      "en": "ㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "화상은 안입었어",
+      "en": "I didn't get burned."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이정도 뜨거움은 견딜수 있지 ㅋ",
+      "en": "I can handle this much heat. ㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "샤워도 ㄱㄴ",
+      "en": "I could even shower in water this hot."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그건 아닌가 ㅎㅎ",
+      "en": "…Or maybe not. ㅎㅎ"
+    },
+    {
+      "type": "fan",
+      "ko": "내심장은 하여니때문에 맨날 화상",
+      "en": "My heart gets burned every day because of you, HaYeon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔가 가사같다",
+      "en": "That kind of sounds like song lyrics."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㄹㅋㄹㅋㄹㅋㅋㄹㄹㅋ",
+      "en": "ㅋㄹㄹㅋㄹㅋㄹㅋㅋㄹㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 행복하게 먹으러 가볼겡",
+      "en": "I'm going to happily enjoy my meal now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "행복한 저녁 보내구",
+      "en": "Have a wonderful evening."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내생각 꼭 하기",
+      "en": "Make sure you think about me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "🩷",
+      "en": "🩷"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해😉",
+      "en": "Haranghae😉"
+    }
+  ]
+}

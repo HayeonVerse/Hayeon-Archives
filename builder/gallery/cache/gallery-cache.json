@@ -12875,6 +12875,24 @@
                 }
             },
             "updated": 1785395394265
+        },
+        "2026/July/31 - Cosmo Room - Sohyun Update": {
+            "fingerprint": "2b019590bf6357481d8c0ecea4f388dd513ca682",
+            "album": {
+                "path": "2026/July/31 - Cosmo Room - Sohyun Update",
+                "info": {
+                    "title": "Cosmo Room - Sohyun Update",
+                    "date": "July 31",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "20260731130109_0.mp4",
+                    "files": [
+                        "20260731130109_0.mp4"
+                    ]
+                }
+            },
+            "updated": 1785503554829
         }
     }
 }

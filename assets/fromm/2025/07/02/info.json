@@ -1,0 +1,474 @@
+{
+  "date": "2025-07-02",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "나 진짜 자기전에",
+      "en": "Before I really go to bed..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잠깐",
+      "en": "just for a bit,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "왔는데",
+      "en": "I came back."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하고싶은 말이",
+      "en": "There are"
+    },
+    {
+      "type": "hayeon",
+      "ko": "많어",
+      "en": "so many things I want to say."
+    },
+    {
+      "type": "hayeon",
+      "ko": "일단 어제",
+      "en": "First of all, yesterday..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 시험을 본다고 했을때",
+      "en": "when I said I had an exam,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "답장에 3번으로 찍으라한사람",
+      "en": "everyone who told me to guess number 3..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다나와",
+      "en": "Step forward."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하",
+      "en": "Sigh..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내필은 4번이였는데",
+      "en": "My gut feeling was number 4,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "한번 육각파워 믿어보자 하고",
+      "en": "but I thought, 'Let's trust Hexagon power just this once,'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "3번 했지",
+      "en": "so I picked number 3."
+    },
+    {
+      "type": "hayeon",
+      "ko": "3번은 3개고",
+      "en": "There were only three number 3 answers,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "4번은",
+      "en": "but number 4..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "4개 더라고",
+      "en": "had four."
+    },
+    {
+      "type": "hayeon",
+      "ko": "조금 배신감이",
+      "en": "I felt"
+    },
+    {
+      "type": "hayeon",
+      "ko": "컸다",
+      "en": "a little betrayed."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그 한 문제가",
+      "en": "That one question"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 마음을",
+      "en": "really"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아프게했어",
+      "en": "hurt my feelings."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㅇㅋㄹㄹㅋㅋㄹ",
+      "en": "ㅋㄹㅋㅇㅋㄹㄹㅋㅋㄹ"
+    },
+    {
+      "type": "fan",
+      "ko": "그래서 조리였어? 비조리였어?",
+      "en": "So... was it cooked or uncooked?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 그리고",
+      "en": "Oh, and..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이거",
+      "en": "about that..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "비조리로 온거야;;;",
+      "en": "It came uncooked. ;;;"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그 새벽에",
+      "en": "In the middle of the night,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "혼자 냄비에 넣고",
+      "en": "I had to put everything into a pot by myself,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "끓이고",
+      "en": "and boil it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "막 부풀어서 더 흘리고",
+      "en": "It kept overflowing,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "배추는 안익고",
+      "en": "the cabbage wouldn't cook,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "면 넣으니까 이번엔 국물이 안끓어",
+      "en": "then after I added the noodles, the broth stopped boiling."
+    },
+    {
+      "type": "hayeon",
+      "ko": "와 진짜",
+      "en": "Seriously..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "미치는줄",
+      "en": "I thought I was going to lose my mind."
+    },
+    {
+      "type": "hayeon",
+      "ko": "유빈언니도 밥시켜서",
+      "en": "Yubin unnie had ordered food too,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내옆에서 구경하심",
+      "en": "so she was just watching me from beside me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니",
+      "en": "And..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그 쌈도 같이 오니까",
+      "en": "since the wraps came with it,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "만약 비조리면",
+      "en": "I thought,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "쌈을 먹어야지 했잖아",
+      "en": "'If it's uncooked, I'll just eat the wraps.'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "쌈이 딱 두개 온거야..",
+      "en": "But there were only two wraps..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "사장님에게 엄청난 배신감을",
+      "en": "I felt so betrayed"
+    },
+    {
+      "type": "hayeon",
+      "ko": "느끼고",
+      "en": "by the restaurant owner."
+    },
+    {
+      "type": "hayeon",
+      "ko": "배신감 파티야 지금",
+      "en": "It's just one betrayal after another today."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다사다난했어",
+      "en": "It was quite an eventful experience."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그사이에",
+      "en": "But..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데",
+      "en": "in the end..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "열심히 끓여서 그런가",
+      "en": "maybe because I worked so hard cooking it,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진ㅁ자 맛있긴 했어",
+      "en": "it was actually really delicious."
+    },
+    {
+      "type": "fan",
+      "ko": "조리로 시켰으면 더 맛있었겠다",
+      "en": "It probably would've been even better if it had arrived cooked."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그러게…",
+      "en": "I know..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 나 살찐줄 알았거든?",
+      "en": "I honestly thought I'd gained weight."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 인치를 재봤는데 허리",
+      "en": "But I measured myself today,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "줄었다는거야",
+      "en": "and my waist had gotten smaller."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 다이어트를 하지 않았는데 그럴수가 있나?",
+      "en": "I wasn't even dieting, so how is that possible?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "배에 힘 안줌 ㄹㅇ",
+      "en": "I wasn't even sucking my stomach in. Seriously."
+    },
+    {
+      "type": "hayeon",
+      "ko": "크",
+      "en": "Heh."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뿌듯",
+      "en": "I'm proud."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 그리고",
+      "en": "Oh, and..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아캔스탑미",
+      "en": "\"I Can't Stop Me.\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "생각보다",
+      "en": "It might be"
+    },
+    {
+      "type": "hayeon",
+      "ko": "파격적일지도",
+      "en": "more bolder than you expect."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 부분에서라기보다",
+      "en": "Not necessarily because of my part,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다방면에서",
+      "en": "but in many different ways."
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리 첫 콘서트 커버무대이기도 하고",
+      "en": "It's also our first concert cover stage."
+    },
+    {
+      "type": "hayeon",
+      "ko": "사실 우리 곡이 아니니까",
+      "en": "Since it's not originally our song,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리의 새로운 느낌을",
+      "en": "I think you'll get to see"
+    },
+    {
+      "type": "hayeon",
+      "ko": "볼수있지않을까",
+      "en": "a different side of us."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 보여주는 첫 커버무대네",
+      "en": "It's the first cover stage I'll be showing you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "열심히 하는중…",
+      "en": "I'm working hard on it..."
+    },
+    {
+      "type": "fan",
+      "ko": "하연 파트 예상해보는 중",
+      "en": "I'm trying to guess which part you'll have."
+    },
+    {
+      "type": "hayeon",
+      "ko": "예상은 어딘데",
+      "en": "So what's your prediction?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "예상을 벗어날수도",
+      "en": "It might be completely different from what you're expecting."
+    },
+    {
+      "type": "hayeon",
+      "ko": "랩~? 흠",
+      "en": "Rap? Hmm..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "몰라",
+      "en": "Who knows."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아무도 맞추지 못했어",
+      "en": "No one's guessed it correctly."
+    },
+    {
+      "type": "fan",
+      "ko": "사실 파트없는거임 ㅋㅋㅋㅋㅋ",
+      "en": "Plot twist: you don't actually have a part. ㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 그런거임?",
+      "en": "Oh, is that how it is?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뒤에서 추임새 역할",
+      "en": "So I'm just in the back doing ad-libs?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "유후!!",
+      "en": "\"Yoo-hoo!!\""
+    },
+    {
+      "type": "fan",
+      "ko": "디디딩디디딩~",
+      "en": "\"Di-di-ding di-di-ding~\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 그게이제 음원이아니라",
+      "en": "So instead of that being in the track..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내입에서 나는 소리야?",
+      "en": "it's coming out of my mouth?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나쁘지 않네",
+      "en": "Not bad."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "암튼 기대해",
+      "en": "Anyway, look forward to it."
+    },
+    {
+      "type": "hayeon",
+      "video": "video-01.mp4"
+    },
+    {
+      "type": "hayeon",
+      "ko": "I love you 💕",
+      "en": "I love you 💕"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사랑해ㅐ",
+      "en": "I love youuu."
+    },
+    {
+      "type": "hayeon",
+      "ko": "볼수있지않을까",
+      "en": "Maybe you'll get to see it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "모르겠으면 오늘부터 알기~~~",
+      "en": "If you don't know yet, start figuring it out from today~~~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 자러 갈게",
+      "en": "I'm going to bed now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘자용",
+      "en": "Sleep well."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해😘",
+      "en": "Haranghae😘"
+    }
+  ]
+}

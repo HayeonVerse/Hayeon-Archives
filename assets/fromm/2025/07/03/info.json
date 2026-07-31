@@ -1,0 +1,47 @@
+{
+  "date": "2025-07-03",
+    "notices": [
+    {
+      "icon": "📺",
+      "type": "time",
+      "text": "After the Live",
+      "position": 3
+    }
+  ],
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "라이브 킬려구",
+      "en": "I'm about to go live."
+    },
+    {
+      "type": "hayeon",
+      "ko": "들어올랭?",
+      "en": "Are you coming?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "킨다아",
+      "en": "I'm starting ittt."
+    },
+    {
+      "type": "hayeon",
+      "image": "image-01.PNG"
+    },
+    {
+      "type": "hayeon",
+      "ko": "선물😘",
+      "en": "A gift for you.😘"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘자",
+      "en": "Good night."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해!",
+      "en": "Haranghae!"
+    }
+  ]
+}

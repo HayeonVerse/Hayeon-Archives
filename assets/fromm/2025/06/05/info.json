@@ -1,0 +1,375 @@
+{
+  "date": "2025-06-05",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "Y/n머해",
+      "en": "Y/n, what are you doing?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 잘준비 해따",
+      "en": "I'm all ready for bed."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 오늘 아무것도 못머거떠 ㅠㅠ",
+      "en": "I haven't eaten anything today. ㅠㅠ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니ㅣ",
+      "en": "No, no..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "바쁘고 막 시간없고 그런거 아니구",
+      "en": "It's not because I was busy or didn't have time."
+    },
+    {
+      "type": "hayeon",
+      "ko": "밥을 먹으려면",
+      "en": "It's just that to eat,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "메뉴고르고 결제하고 배달 기다리고 세팅하고",
+      "en": "I have to choose what I want, pay for it, wait for the delivery, and set everything up."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그 과정이 너무 귀찮아서",
+      "en": "That whole process felt like too much of a hassle."
+    },
+    {
+      "type": "hayeon",
+      "ko": "먹보 정하연이!!",
+      "en": "Jeong HaYeon, the foodie!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "먹는게 귀찮다니!!",
+      "en": "Actually finding eating to be a hassle!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래서 안먹어써",
+      "en": "So I just didn't eat."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 이렇게 귀찮을수가 있나",
+      "en": "I can't believe I was that lazy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "심지어 오늘은",
+      "en": "On top of that,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "폰 하는것도 귀찮아서",
+      "en": "even using my phone felt like too much work today,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "거의 안함",
+      "en": "so I barely touched it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 안무레슨 했징",
+      "en": "I had choreography practice today."
+    },
+    {
+      "type": "fan",
+      "ko": "디지털 디톡스네",
+      "en": "Sounds like a digital detox."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어쩌다보니 ㅋㅋㅎㅋㅋ",
+      "en": "It just kind of happened. ㅋㅋㅎㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어쩌다 이렇게 됐을까",
+      "en": "How did I end up like this?"
+    },
+    {
+      "type": "fan",
+      "ko": "하지만 육각단 디톡스는 실패했당",
+      "en": "But your Hexagon detox failed."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그걸 어떻게해~",
+      "en": "How could I ever do that~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "Y/n없으면 더 무기력해질걸",
+      "en": "Without Y/n, I'd become even more unmotivated."
+    },
+    {
+      "type": "fan",
+      "ko": "나 보면 힘나?",
+      "en": "Do I give you strength?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "힘이 막 나",
+      "en": "I really do feel energized."
+    },
+    {
+      "type": "fan",
+      "ko": "우리가 녹용이네",
+      "en": "Then we're your deer antler extract."
+    },
+    {
+      "type": "hayeon",
+      "ko": "헉",
+      "en": "Oh!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 맘을 녹용🩷",
+      "en": "You melt my heart. 🩷"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니이",
+      "en": "Nooo..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘준비 다했는데",
+      "en": "I'm already completely ready for bed,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "컵라면 하나만 머글까?",
+      "en": "should I just have a cup of ramen?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "일본에서 사온거",
+      "en": "The one I bought in Japan."
+    },
+    {
+      "type": "hayeon",
+      "ko": "머글께",
+      "en": "I'm going to eat that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "보고싶네",
+      "en": "I miss you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "보고싶다구",
+      "en": "I said I miss you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎ 라면이",
+      "en": "ㅎㅎ The ramen."
+    },
+    {
+      "type": "hayeon",
+      "ko": "라면보러 가야징",
+      "en": "I'm going to go see my ramen."
+    },
+    {
+      "type": "fan",
+      "ko": "응그래나도너아니고마라탕이보고싶엇어정말로",
+      "en": "Yeah, sure. Actually, it's not you I miss it's malatang."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㄹㅋㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ 머라거?!",
+      "en": "ㅋㄹㄹㅋㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ What did you just say?!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니야",
+      "en": "No."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 보고싶어",
+      "en": "I miss you too."
+    },
+    {
+      "type": "fan",
+      "ko": "마라탕이",
+      "en": "The malatang."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "Y/n",
+      "en": "Y/n."
+    },
+    {
+      "type": "hayeon",
+      "ko": "보구싶다구",
+      "en": "I said I miss you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "삐지지ㅣ마ㅏ",
+      "en": "Don't sulk."
+    },
+    {
+      "type": "fan",
+      "ko": "얼만큼",
+      "en": "How much?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나를 보고싶어하는것보다 내가 조금더 많이?",
+      "en": "Maybe a little more than you miss me?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니야 아직 안먹으러 갔어",
+      "en": "No, I haven't gone to eat yet."
+    },
+    {
+      "type": "hayeon",
+      "ko": "답장 보고있는거야!!",
+      "en": "I'm reading your replies!!"
+    },
+    {
+      "type": "fan",
+      "ko": "하연인 프롬 답장 실시간으로 보이게 해놔? 아님 따로 들어가야 보이게 해놔?",
+      "en": "Do your Fromm replies show up in real time, or do you have to open them separately?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "따로",
+      "en": "Separately."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래서 하나씩 천천히 자",
+      "en": "So I go through them one by one,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "봐",
+      "en": "slowly."
+    },
+    {
+      "type": "hayeon",
+      "ko": "실시간은",
+      "en": "If it were real-time,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "넘 빨라서",
+      "en": "it'd be way too fast,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "대화가 안될것 같던데",
+      "en": "and I don't think we'd be able to have a conversation."
+    },
+    {
+      "type": "hayeon",
+      "ko": "언니들은 잘 하더라",
+      "en": "The unnies are really good at it, though."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이는 엠카 교복무대 이후로 리라아트고 친구들이 뭔가 반응 한거 없어?",
+      "en": "After your M Countdown school uniform stage, did your friends at Lila Art High react at all?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "친구들은",
+      "en": "My friends were like,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그거입구 학교나 와;;",
+      "en": "\"Just wear that to school already. ;;\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런 느낌이고",
+      "en": "That was basically their reaction."
+    },
+    {
+      "type": "hayeon",
+      "ko": "쌤들은",
+      "en": "And my teachers were like,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리 리라의 연예인~~",
+      "en": "\"Our Lila celebrity~~\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "홍보부장 잘하고 있어~~",
+      "en": "\"You're doing a great job as our publicity ambassador~~\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러셨어",
+      "en": "That's what they said."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 홍보부장이야",
+      "en": "I'm the school's publicity ambassador."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이래뵈도 학교에서 맡긴 역할도 있디ㅏ구",
+      "en": "Believe it or not, I actually have an official role at school."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 이제 라면 먹으러 갈래!",
+      "en": "I'm going to go eat my ramen now!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금 위산이",
+      "en": "I think my stomach acid"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나오는거같애",
+      "en": "is starting to come up."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅎㅋㅎㅋㅎㅋㅎㅎㅋ",
+      "en": "ㅋㅎㅋㅎㅋㅎㅋㅎㅎㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하요이 갈겡",
+      "en": "HaYoi's heading off."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘자ㅏ🥰",
+      "en": "Good night. 🥰"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해🧚💕",
+      "en": "Haranghae🧚💕"
+    }
+  ]
+}
