@@ -102,6 +102,41 @@ albums.push({
 
 scan(GALLERY);
 
+albums.sort((a, b) => {
+
+    const parse = (album) => {
+
+        const parts = album.path.split("/");
+
+        const year = Number(parts[0]);
+
+        const months = {
+            January: 0,
+            February: 1,
+            March: 2,
+            April: 3,
+            May: 4,
+            June: 5,
+            July: 6,
+            August: 7,
+            September: 8,
+            October: 9,
+            November: 10,
+            December: 11
+        };
+
+        const month = months[parts[1]];
+
+        const day = Number(parts[2].split("-")[0].trim());
+
+        return new Date(year, month, day);
+
+    };
+
+    return parse(b) - parse(a);
+
+});
+
 fs.writeFileSync(
     `${GALLERY}/albums.json`,
     JSON.stringify(albums, null, 4)

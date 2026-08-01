@@ -4,6 +4,10 @@ const path = require("path");
 const CONFIG = require("./config");
 
 const {
+    generateVideoThumbnail
+} = require("./thumbnail");
+
+const {
 
     isImage,
 
@@ -107,6 +111,29 @@ const title =
             .trim()
         : album.folder;
 
+let cover = pickCover(
+    album.files
+);
+
+if (
+    cover &&
+    isVideo(cover)
+) {
+
+    const generated =
+        generateVideoThumbnail(
+            album.fullPath,
+            cover
+        );
+
+    if (generated) {
+
+        cover = generated;
+
+    }
+
+}
+
 const info = {
 
     title,
@@ -119,15 +146,28 @@ const info = {
 
     video: [],
 
-    cover: pickCover(
-        album.files
-    ),
+    cover,
 
     files
 
 };
 
 info.video = readLinks(video);
+
+if (info.cover) {
+
+    info.coverType = isVideo(info.cover)
+        ? "video"
+        : "image";
+
+}
+else if (info.video.length) {
+
+    info.cover = info.video[0];
+
+    info.coverType = "youtube";
+
+}
 
 const infoPath = path.join(
     album.fullPath,
