@@ -178,7 +178,7 @@ async function loadLatestfromm(){
 
     <div class="latest-fromm-description">
 
-        Read the newest translated fromm conversation.
+        Read the newest translated Cosmo Talk conversation.
 
     </div>
 
