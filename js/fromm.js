@@ -1135,32 +1135,37 @@ App.initBackToTop();
 await App.loadArchive();
 
 const params = new URLSearchParams(window.location.search);
-
 const requestedDate = params.get("date");
 
 if (requestedDate) {
 
-    const conversation =
-        App.state.conversations.find(
-            c => c.date === requestedDate
-        );
+    const conversation = App.state.conversations.find(
+        c => c.date === requestedDate
+    );
 
     if (conversation) {
-
         App.state.selectedConversation = conversation;
-
     }
 
-App.state.openedFromLink = !!requestedDate;
+} else {
 
-App.state.expandedYears.clear();
-App.state.expandedMonths.clear();
+    const rememberedDate = App.loadLastConversation();
 
+    if (rememberedDate) {
+        App.state.selectedConversation =
+            App.state.conversations.find(
+                c => c.date === rememberedDate
+            ) || null;
+    }
+
+    if (!App.state.selectedConversation) {
+        App.state.selectedConversation =
+            App.state.conversations[0] || null;
+    }
 }
 
-    App.state.initialized = true;
-
-    App.render();
+App.state.initialized = true;
+App.render();
 
     App.events.emit(
 
@@ -2524,41 +2529,7 @@ App.openImage = function (src) {
 
 App.render = function () {
 
-const ui =
-    App.state.openedFromLink
-        ? {}
-        : App.loadUIState();
-
-// Only auto-open a conversation on the first page load.
-if (
-    !App.state.initialized &&
-    !App.state.selectedConversation
-) {
-
-    const rememberedDate =
-        App.loadLastConversation();
-
-    if (rememberedDate) {
-
-        const remembered =
-            App.state.filtered.find(
-                c => c.date === rememberedDate
-            );
-
-        if (remembered) {
-            App.state.selectedConversation = remembered;
-        }
-
-    }
-
-    if (
-        !App.state.selectedConversation &&
-        App.state.filtered.length
-    ) {
-        App.state.selectedConversation =
-            App.state.filtered[0];
-    }
-}
+    const ui = App.loadUIState();
 
 if (!App.state.expandedYears.size && ui.years) {
 
