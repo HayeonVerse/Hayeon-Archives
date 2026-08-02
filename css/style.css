@@ -1884,6 +1884,28 @@ footer h4 {
 
 }
 
+.profile-actions{
+    margin-top:24px;
+    width:100%;
+}
+
+.profile-actions .hero-btn{
+    width:100%;
+    justify-content:center;
+    padding:18px 28px;
+    border-radius:18px;
+    font-size:1rem;
+}
+
+@media(max-width:900px){
+
+    .profile-actions{
+        display:flex;
+        justify-content:center;
+    }
+
+}
+
 @media(max-width:900px){
 
     .profile-card{
