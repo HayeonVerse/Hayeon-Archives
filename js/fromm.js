@@ -1151,9 +1151,16 @@ if (requestedDate) {
 
     }
 
+App.state.openedFromLink = !!requestedDate;
+
+App.state.expandedYears.clear();
+App.state.expandedMonths.clear();
+
 }
 
     App.state.initialized = true;
+
+    App.render();
 
     App.events.emit(
 
@@ -2517,7 +2524,10 @@ App.openImage = function (src) {
 
 App.render = function () {
 
-const ui = App.loadUIState();
+const ui =
+    App.state.openedFromLink
+        ? {}
+        : App.loadUIState();
 
 // Only auto-open a conversation on the first page load.
 if (
@@ -3142,18 +3152,7 @@ App.openLastConversation = function () {
    READY EVENT
 ============================================ */
 
-App.events.on(
 
-    "archiveLoaded",
-
-    () => {
-
-
-        App.render();
-
-    }
-
-);
 
 /* ============================================
    FINAL INITIALIZATION

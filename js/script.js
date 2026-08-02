@@ -187,21 +187,21 @@ async function loadLatestfromm(){
 
     <div class="latest-fromm-actions">
 
-        <a
-            href="fromm.html"
-            class="hero-btn hero-primary">
+<a
+    href="fromm.html?date=${latest.date}"
+    class="hero-btn hero-primary">
 
-            Read Now
+    Read Now
 
-        </a>
+</a>
 
-        <a
-            href="fromm.html"
-            class="hero-btn hero-secondary">
+<a
+    href="fromm.html"
+    class="hero-btn hero-secondary">
 
-            Browse Archive
+    Browse Archive
 
-        </a>
+</a>
 
     </div>
 
