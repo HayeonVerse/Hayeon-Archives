@@ -1,216 +1,1928 @@
 [
-    "2026/07/31",
-    "2026/07/27",
-    "2026/07/23",
-    "2026/07/19",
-    "2026/07/14",
-    "2026/07/10",
-    "2026/07/06",
-    "2026/07/05",
-    "2026/07/01",
-    "2026/06/28",
-    "2026/06/24",
-    "2026/06/20",
-    "2026/06/18",
-    "2026/06/12",
-    "2026/06/11",
-    "2026/06/10",
-    "2026/06/08",
-    "2026/06/05",
-    "2026/06/03",
-    "2026/05/30",
-    "2026/05/29",
-    "2026/05/27",
-    "2026/05/18",
-    "2026/05/13",
-    "2026/05/11",
-    "2026/05/09",
-    "2026/05/02",
-    "2026/05/01",
-    "2026/04/28",
-    "2026/04/25",
-    "2026/04/20",
-    "2026/04/16",
-    "2026/04/14",
-    "2026/04/07",
-    "2026/04/06",
-    "2026/04/02",
-    "2026/03/30",
-    "2026/03/24",
-    "2026/03/21",
-    "2026/03/17",
-    "2026/03/11",
-    "2026/03/04",
-    "2026/02/28",
-    "2026/02/25",
-    "2026/02/22",
-    "2026/02/16",
-    "2026/02/13",
-    "2026/02/10",
-    "2026/02/07",
-    "2026/02/01",
-    "2026/01/29",
-    "2026/01/28",
-    "2026/01/25",
-    "2026/01/24",
-    "2026/01/21",
-    "2026/01/18",
-    "2026/01/16",
-    "2026/01/14",
-    "2026/01/09",
-    "2026/01/08",
-    "2026/01/06",
-    "2026/01/01",
-    "2025/12/31",
-    "2025/12/28",
-    "2025/12/26",
-    "2025/12/23",
-    "2025/12/20",
-    "2025/12/19",
-    "2025/12/18",
-    "2025/12/14",
-    "2025/12/13",
-    "2025/12/10",
-    "2025/12/03",
-    "2025/12/01",
-    "2025/11/26",
-    "2025/11/23",
-    "2025/11/20",
-    "2025/11/18",
-    "2025/11/17",
-    "2025/11/12",
-    "2025/11/11",
-    "2025/11/09",
-    "2025/11/04",
-    "2025/10/30",
-    "2025/10/24",
-    "2025/10/22",
-    "2025/10/19",
-    "2025/10/16",
-    "2025/10/12",
-    "2025/10/11",
-    "2025/10/07",
-    "2025/10/04",
-    "2025/09/30",
-    "2025/09/23",
-    "2025/09/20",
-    "2025/09/17",
-    "2025/09/15",
-    "2025/09/10",
-    "2025/09/08",
-    "2025/09/05",
-    "2025/09/04",
-    "2025/08/31",
-    "2025/08/27",
-    "2025/08/22",
-    "2025/08/21",
-    "2025/08/19",
-    "2025/08/18",
-    "2025/08/15",
-    "2025/08/11",
-    "2025/08/07",
-    "2025/08/04",
-    "2025/08/02",
-    "2025/08/01",
-    "2025/07/30",
-    "2025/07/26",
-    "2025/07/24",
-    "2025/07/21",
-    "2025/07/17",
-    "2025/07/10",
-    "2025/07/06",
-    "2025/07/03",
-    "2025/07/02",
-    "2025/07/01",
-    "2025/06/28",
-    "2025/06/23",
-    "2025/06/18",
-    "2025/06/15",
-    "2025/06/14",
-    "2025/06/10",
-    "2025/06/05",
-    "2025/06/02",
-    "2025/05/30",
-    "2025/05/28",
-    "2025/05/24",
-    "2025/05/20",
-    "2025/05/18",
-    "2025/05/16",
-    "2025/05/13",
-    "2025/05/10",
-    "2025/05/06",
-    "2025/05/02",
-    "2025/05/01",
-    "2025/04/28",
-    "2025/04/25",
-    "2025/04/19",
-    "2025/04/14",
-    "2025/04/12",
-    "2025/04/11",
-    "2025/04/06",
-    "2025/04/02",
-    "2025/03/31",
-    "2025/03/30",
-    "2025/03/29",
-    "2025/03/27",
-    "2025/03/22",
-    "2025/03/20",
-    "2025/03/16",
-    "2025/03/13",
-    "2025/03/08",
-    "2025/03/04",
-    "2025/03/03",
-    "2025/03/01",
-    "2025/02/27",
-    "2025/02/26",
-    "2025/02/24",
-    "2025/02/20",
-    "2025/02/17",
-    "2025/02/14",
-    "2025/02/13",
-    "2025/02/09",
-    "2025/02/07",
-    "2025/02/04",
-    "2025/02/03",
-    "2025/02/02",
-    "2025/01/28",
-    "2025/01/26",
-    "2025/01/23",
-    "2025/01/22",
-    "2025/01/20",
-    "2025/01/16",
-    "2025/01/13",
-    "2025/01/08",
-    "2025/01/05",
-    "2024/12/27",
-    "2024/12/25",
-    "2024/12/23",
-    "2024/12/21",
-    "2024/12/18",
-    "2024/11/06",
-    "2024/11/05",
-    "2024/10/30",
-    "2024/10/06",
-    "2024/09/18",
-    "2024/09/11",
-    "2024/09/05",
-    "2024/08/26",
-    "2024/08/23",
-    "2024/08/18",
-    "2024/08/06",
-    "2024/08/03",
-    "2024/08/02",
-    "2024/07/31",
-    "2024/07/30",
-    "2024/07/25",
-    "2024/07/21",
-    "2024/07/15",
-    "2024/07/11",
-    "2024/07/05",
-    "2024/06/26",
-    "2024/06/24",
-    "2024/06/23",
-    "2024/06/21",
-    "2024/06/20",
-    "2024/06/18"
+    {
+        "folder": "2026/07/31",
+        "date": "2026-07-31",
+        "messages": 61,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 1
+    },
+    {
+        "folder": "2026/07/27",
+        "date": "2026-07-27",
+        "messages": 119,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 1
+    },
+    {
+        "folder": "2026/07/23",
+        "date": "2026-07-23",
+        "messages": 185,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 3
+    },
+    {
+        "folder": "2026/07/19",
+        "date": "2026-07-19",
+        "messages": 87,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/07/14",
+        "date": "2026-07-14",
+        "messages": 191,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/07/10",
+        "date": "2026-07-10",
+        "messages": 160,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/07/06",
+        "date": "2026-07-06",
+        "messages": 67,
+        "images": 3,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/07/05",
+        "date": "2026-07-05",
+        "messages": 119,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/07/01",
+        "date": "2026-07-01",
+        "messages": 33,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/06/28",
+        "date": "2026-06-28",
+        "messages": 74,
+        "images": 0,
+        "videos": 0,
+        "voices": 1,
+        "stickers": 2
+    },
+    {
+        "folder": "2026/06/24",
+        "date": "2026-06-24",
+        "messages": 171,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 3
+    },
+    {
+        "folder": "2026/06/20",
+        "date": "2026-06-20",
+        "messages": 3,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/06/18",
+        "date": "2026-06-18",
+        "messages": 80,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/06/12",
+        "date": "2026-06-12",
+        "messages": 36,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/06/11",
+        "date": "2026-06-11",
+        "messages": 49,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/06/10",
+        "date": "2026-06-10",
+        "messages": 147,
+        "images": 0,
+        "videos": 0,
+        "voices": 3,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/06/08",
+        "date": "2026-06-08",
+        "messages": 145,
+        "images": 1,
+        "videos": 0,
+        "voices": 2,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/06/05",
+        "date": "2026-06-05",
+        "messages": 83,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/06/03",
+        "date": "2026-06-03",
+        "messages": 68,
+        "images": 1,
+        "videos": 0,
+        "voices": 2,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/05/30",
+        "date": "2026-05-30",
+        "messages": 85,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 1
+    },
+    {
+        "folder": "2026/05/29",
+        "date": "2026-05-29",
+        "messages": 71,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/05/27",
+        "date": "2026-05-27",
+        "messages": 58,
+        "images": 0,
+        "videos": 0,
+        "voices": 1,
+        "stickers": 1
+    },
+    {
+        "folder": "2026/05/18",
+        "date": "2026-05-18",
+        "messages": 39,
+        "images": 0,
+        "videos": 0,
+        "voices": 3,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/05/13",
+        "date": "2026-05-13",
+        "messages": 25,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/05/11",
+        "date": "2026-05-11",
+        "messages": 175,
+        "images": 0,
+        "videos": 0,
+        "voices": 8,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/05/09",
+        "date": "2026-05-09",
+        "messages": 95,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/05/02",
+        "date": "2026-05-02",
+        "messages": 6,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/05/01",
+        "date": "2026-05-01",
+        "messages": 143,
+        "images": 0,
+        "videos": 0,
+        "voices": 2,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/04/28",
+        "date": "2026-04-28",
+        "messages": 66,
+        "images": 0,
+        "videos": 0,
+        "voices": 1,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/04/25",
+        "date": "2026-04-25",
+        "messages": 4,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/04/20",
+        "date": "2026-04-20",
+        "messages": 192,
+        "images": 0,
+        "videos": 0,
+        "voices": 12,
+        "stickers": 1
+    },
+    {
+        "folder": "2026/04/16",
+        "date": "2026-04-16",
+        "messages": 31,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/04/14",
+        "date": "2026-04-14",
+        "messages": 158,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 1
+    },
+    {
+        "folder": "2026/04/07",
+        "date": "2026-04-07",
+        "messages": 109,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 1
+    },
+    {
+        "folder": "2026/04/06",
+        "date": "2026-04-06",
+        "messages": 46,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/04/02",
+        "date": "2026-04-02",
+        "messages": 55,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/03/30",
+        "date": "2026-03-30",
+        "messages": 138,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/03/24",
+        "date": "2026-03-24",
+        "messages": 15,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/03/21",
+        "date": "2026-03-21",
+        "messages": 100,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/03/17",
+        "date": "2026-03-17",
+        "messages": 146,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/03/11",
+        "date": "2026-03-11",
+        "messages": 41,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/03/04",
+        "date": "2026-03-04",
+        "messages": 182,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 1
+    },
+    {
+        "folder": "2026/02/28",
+        "date": "2026-02-28",
+        "messages": 38,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/02/25",
+        "date": "2026-02-25",
+        "messages": 91,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 2
+    },
+    {
+        "folder": "2026/02/22",
+        "date": "2026-02-22",
+        "messages": 36,
+        "images": 0,
+        "videos": 0,
+        "voices": 1,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/02/16",
+        "date": "2026-02-16",
+        "messages": 65,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/02/13",
+        "date": "2026-02-13",
+        "messages": 32,
+        "images": 1,
+        "videos": 0,
+        "voices": 1,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/02/10",
+        "date": "2026-02-10",
+        "messages": 121,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/02/07",
+        "date": "2026-02-07",
+        "messages": 124,
+        "images": 1,
+        "videos": 0,
+        "voices": 1,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/02/01",
+        "date": "2026-02-01",
+        "messages": 12,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/01/29",
+        "date": "2026-01-29",
+        "messages": 191,
+        "images": 0,
+        "videos": 1,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/01/28",
+        "date": "2026-01-28",
+        "messages": 176,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/01/25",
+        "date": "2026-01-25",
+        "messages": 141,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/01/24",
+        "date": "2026-01-24",
+        "messages": 96,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/01/21",
+        "date": "2026-01-21",
+        "messages": 65,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/01/18",
+        "date": "2026-01-18",
+        "messages": 113,
+        "images": 1,
+        "videos": 0,
+        "voices": 5,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/01/16",
+        "date": "2026-01-16",
+        "messages": 274,
+        "images": 0,
+        "videos": 1,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/01/14",
+        "date": "2026-01-14",
+        "messages": 154,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 1
+    },
+    {
+        "folder": "2026/01/09",
+        "date": "2026-01-09",
+        "messages": 289,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/01/08",
+        "date": "2026-01-08",
+        "messages": 138,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/01/06",
+        "date": "2026-01-06",
+        "messages": 3,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2026/01/01",
+        "date": "2026-01-01",
+        "messages": 116,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/12/31",
+        "date": "2025-12-31",
+        "messages": 81,
+        "images": 1,
+        "videos": 0,
+        "voices": 1,
+        "stickers": 1
+    },
+    {
+        "folder": "2025/12/28",
+        "date": "2025-12-28",
+        "messages": 179,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/12/26",
+        "date": "2025-12-26",
+        "messages": 226,
+        "images": 1,
+        "videos": 0,
+        "voices": 2,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/12/23",
+        "date": "2025-12-23",
+        "messages": 127,
+        "images": 2,
+        "videos": 0,
+        "voices": 3,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/12/20",
+        "date": "2025-12-20",
+        "messages": 8,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/12/19",
+        "date": "2025-12-19",
+        "messages": 200,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 1
+    },
+    {
+        "folder": "2025/12/18",
+        "date": "2025-12-18",
+        "messages": 127,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/12/14",
+        "date": "2025-12-14",
+        "messages": 136,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/12/13",
+        "date": "2025-12-13",
+        "messages": 131,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/12/10",
+        "date": "2025-12-10",
+        "messages": 317,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/12/03",
+        "date": "2025-12-03",
+        "messages": 185,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/12/01",
+        "date": "2025-12-01",
+        "messages": 200,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/11/26",
+        "date": "2025-11-26",
+        "messages": 262,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/11/23",
+        "date": "2025-11-23",
+        "messages": 111,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/11/20",
+        "date": "2025-11-20",
+        "messages": 91,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/11/18",
+        "date": "2025-11-18",
+        "messages": 66,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/11/17",
+        "date": "2025-11-17",
+        "messages": 51,
+        "images": 1,
+        "videos": 0,
+        "voices": 3,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/11/12",
+        "date": "2025-11-12",
+        "messages": 100,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/11/11",
+        "date": "2025-11-10",
+        "messages": 108,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 3
+    },
+    {
+        "folder": "2025/11/09",
+        "date": "2025-11-09",
+        "messages": 30,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/11/04",
+        "date": "2025-11-04",
+        "messages": 266,
+        "images": 0,
+        "videos": 0,
+        "voices": 2,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/10/30",
+        "date": "2025-10-30",
+        "messages": 175,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/10/24",
+        "date": "2025-10-24",
+        "messages": 5,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/10/22",
+        "date": "2025-10-22",
+        "messages": 256,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 3
+    },
+    {
+        "folder": "2025/10/19",
+        "date": "2025-10-19",
+        "messages": 5,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/10/16",
+        "date": "2025-10-16",
+        "messages": 237,
+        "images": 0,
+        "videos": 0,
+        "voices": 10,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/10/12",
+        "date": "2025-10-12",
+        "messages": 12,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/10/11",
+        "date": "2025-10-11",
+        "messages": 191,
+        "images": 0,
+        "videos": 0,
+        "voices": 1,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/10/07",
+        "date": "2025-10-07",
+        "messages": 139,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/10/04",
+        "date": "2025-10-04",
+        "messages": 196,
+        "images": 1,
+        "videos": 0,
+        "voices": 5,
+        "stickers": 7
+    },
+    {
+        "folder": "2025/09/30",
+        "date": "2025-09-30",
+        "messages": 145,
+        "images": 1,
+        "videos": 0,
+        "voices": 9,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/09/23",
+        "date": "2025-09-23",
+        "messages": 65,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/09/20",
+        "date": "2025-09-20",
+        "messages": 198,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/09/17",
+        "date": "2025-09-17",
+        "messages": 178,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/09/15",
+        "date": "2025-09-15",
+        "messages": 185,
+        "images": 0,
+        "videos": 0,
+        "voices": 2,
+        "stickers": 1
+    },
+    {
+        "folder": "2025/09/10",
+        "date": "2025-09-10",
+        "messages": 173,
+        "images": 2,
+        "videos": 0,
+        "voices": 2,
+        "stickers": 4
+    },
+    {
+        "folder": "2025/09/08",
+        "date": "2025-09-08",
+        "messages": 113,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/09/05",
+        "date": "2025-09-05",
+        "messages": 40,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/09/04",
+        "date": "2025-09-04",
+        "messages": 59,
+        "images": 1,
+        "videos": 1,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/08/31",
+        "date": "2025-08-31",
+        "messages": 85,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/08/27",
+        "date": "2025-08-27",
+        "messages": 137,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/08/22",
+        "date": "2025-08-22",
+        "messages": 37,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/08/21",
+        "date": "2025-08-21",
+        "messages": 158,
+        "images": 1,
+        "videos": 0,
+        "voices": 3,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/08/19",
+        "date": "2025-08-19",
+        "messages": 104,
+        "images": 3,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/08/18",
+        "date": "2025-08-18",
+        "messages": 105,
+        "images": 2,
+        "videos": 0,
+        "voices": 3,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/08/15",
+        "date": "2025-08-15",
+        "messages": 153,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/08/11",
+        "date": "2025-08-11",
+        "messages": 75,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/08/07",
+        "date": "2025-08-07",
+        "messages": 168,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/08/04",
+        "date": "2025-08-04",
+        "messages": 129,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/08/02",
+        "date": "2025-08-02",
+        "messages": 86,
+        "images": 0,
+        "videos": 0,
+        "voices": 1,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/08/01",
+        "date": "2025-08-01",
+        "messages": 40,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/07/30",
+        "date": "2025-07-30",
+        "messages": 115,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/07/26",
+        "date": "2025-07-26",
+        "messages": 209,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/07/24",
+        "date": "2025-07-24",
+        "messages": 88,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/07/21",
+        "date": "2025-07-21",
+        "messages": 50,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/07/17",
+        "date": "2025-07-17",
+        "messages": 172,
+        "images": 2,
+        "videos": 0,
+        "voices": 2,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/07/10",
+        "date": "2025-07-10",
+        "messages": 196,
+        "images": 4,
+        "videos": 0,
+        "voices": 3,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/07/06",
+        "date": "2025-07-06",
+        "messages": 67,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/07/03",
+        "date": "2025-07-03",
+        "messages": 7,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/07/02",
+        "date": "2025-07-02",
+        "messages": 94,
+        "images": 0,
+        "videos": 1,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/07/01",
+        "date": "2025-07-01",
+        "messages": 175,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/06/28",
+        "date": "2025-06-28",
+        "messages": 37,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/06/23",
+        "date": "2025-06-23",
+        "messages": 97,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/06/18",
+        "date": "2025-06-18",
+        "messages": 171,
+        "images": 0,
+        "videos": 1,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/06/15",
+        "date": "2025-06-15",
+        "messages": 2,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/06/14",
+        "date": "2025-06-14",
+        "messages": 86,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/06/10",
+        "date": "2025-06-10",
+        "messages": 156,
+        "images": 1,
+        "videos": 0,
+        "voices": 1,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/06/05",
+        "date": "2025-06-05",
+        "messages": 74,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/06/02",
+        "date": "2025-06-02",
+        "messages": 70,
+        "images": 1,
+        "videos": 0,
+        "voices": 1,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/05/30",
+        "date": "2025-05-30",
+        "messages": 59,
+        "images": 0,
+        "videos": 1,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/05/28",
+        "date": "2025-05-28",
+        "messages": 150,
+        "images": 0,
+        "videos": 0,
+        "voices": 5,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/05/24",
+        "date": "2025-05-24",
+        "messages": 45,
+        "images": 0,
+        "videos": 1,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/05/20",
+        "date": "2025-05-20",
+        "messages": 38,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/05/18",
+        "date": "2025-05-18",
+        "messages": 37,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/05/16",
+        "date": "2025-05-16",
+        "messages": 28,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/05/13",
+        "date": "2025-05-13",
+        "messages": 108,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/05/10",
+        "date": "2025-05-10",
+        "messages": 51,
+        "images": 0,
+        "videos": 0,
+        "voices": 3,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/05/06",
+        "date": "2025-05-06",
+        "messages": 118,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/05/02",
+        "date": "2025-05-02",
+        "messages": 283,
+        "images": 0,
+        "videos": 0,
+        "voices": 11,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/05/01",
+        "date": "2025-05-01",
+        "messages": 122,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/04/28",
+        "date": "2025-04-28",
+        "messages": 188,
+        "images": 0,
+        "videos": 0,
+        "voices": 3,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/04/25",
+        "date": "2025-04-25",
+        "messages": 80,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/04/19",
+        "date": "2025-04-19",
+        "messages": 96,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/04/14",
+        "date": "2025-04-14",
+        "messages": 202,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/04/12",
+        "date": "2025-04-12",
+        "messages": 72,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/04/11",
+        "date": "2025-04-11",
+        "messages": 86,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/04/06",
+        "date": "2025-04-06",
+        "messages": 159,
+        "images": 0,
+        "videos": 0,
+        "voices": 3,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/04/02",
+        "date": "2025-04-02",
+        "messages": 81,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/03/31",
+        "date": "2025-03-31",
+        "messages": 123,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/03/30",
+        "date": "2025-03-30",
+        "messages": 26,
+        "images": 0,
+        "videos": 0,
+        "voices": 1,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/03/29",
+        "date": "2025-03-29",
+        "messages": 49,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/03/27",
+        "date": "2025-03-27",
+        "messages": 130,
+        "images": 0,
+        "videos": 0,
+        "voices": 2,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/03/22",
+        "date": "2025-03-22",
+        "messages": 187,
+        "images": 0,
+        "videos": 1,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/03/20",
+        "date": "2025-03-20",
+        "messages": 80,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/03/16",
+        "date": "2025-03-16",
+        "messages": 122,
+        "images": 0,
+        "videos": 0,
+        "voices": 6,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/03/13",
+        "date": "2025-03-13",
+        "messages": 88,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/03/08",
+        "date": "2025-03-08",
+        "messages": 27,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/03/04",
+        "date": "2025-03-04",
+        "messages": 219,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/03/03",
+        "date": "2025-03-03",
+        "messages": 305,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/03/01",
+        "date": "2025-03-01",
+        "messages": 117,
+        "images": 1,
+        "videos": 0,
+        "voices": 6,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/02/27",
+        "date": "2025-02-27",
+        "messages": 146,
+        "images": 0,
+        "videos": 0,
+        "voices": 3,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/02/26",
+        "date": "2025-02-26",
+        "messages": 157,
+        "images": 1,
+        "videos": 0,
+        "voices": 1,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/02/24",
+        "date": "2025-02-24",
+        "messages": 141,
+        "images": 0,
+        "videos": 0,
+        "voices": 16,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/02/20",
+        "date": "2025-02-20",
+        "messages": 159,
+        "images": 3,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/02/17",
+        "date": "2025-02-17",
+        "messages": 129,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/02/14",
+        "date": "2025-02-14",
+        "messages": 237,
+        "images": 0,
+        "videos": 0,
+        "voices": 8,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/02/13",
+        "date": "2025-02-13",
+        "messages": 109,
+        "images": 0,
+        "videos": 0,
+        "voices": 2,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/02/09",
+        "date": "2025-02-09",
+        "messages": 174,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/02/07",
+        "date": "2025-02-07",
+        "messages": 273,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/02/04",
+        "date": "2025-02-04",
+        "messages": 96,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/02/03",
+        "date": "2025-02-03",
+        "messages": 228,
+        "images": 1,
+        "videos": 1,
+        "voices": 1,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/02/02",
+        "date": "2025-02-02",
+        "messages": 104,
+        "images": 3,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/01/28",
+        "date": "2025-01-28",
+        "messages": 92,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/01/26",
+        "date": "2025-01-26",
+        "messages": 40,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/01/23",
+        "date": "2025-01-23",
+        "messages": 177,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/01/22",
+        "date": "2025-01-22",
+        "messages": 148,
+        "images": 0,
+        "videos": 0,
+        "voices": 6,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/01/20",
+        "date": "2025-01-20",
+        "messages": 176,
+        "images": 1,
+        "videos": 0,
+        "voices": 2,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/01/16",
+        "date": "2025-01-16",
+        "messages": 104,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/01/13",
+        "date": "2025-01-13",
+        "messages": 156,
+        "images": 2,
+        "videos": 0,
+        "voices": 1,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/01/08",
+        "date": "2025-01-08",
+        "messages": 135,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2025/01/05",
+        "date": "2025-01-05",
+        "messages": 119,
+        "images": 0,
+        "videos": 0,
+        "voices": 5,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/12/27",
+        "date": "2024-12-27",
+        "messages": 127,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/12/25",
+        "date": "2024-12-25",
+        "messages": 260,
+        "images": 0,
+        "videos": 0,
+        "voices": 18,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/12/23",
+        "date": "2024-12-23",
+        "messages": 12,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/12/21",
+        "date": "2024-12-21",
+        "messages": 154,
+        "images": 2,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/12/18",
+        "date": "2024-12-18",
+        "messages": 155,
+        "images": 1,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/11/06",
+        "date": "2024-11-06",
+        "messages": 28,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/11/05",
+        "date": "2024-11-05",
+        "messages": 8,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/10/30",
+        "date": "2024-10-30",
+        "messages": 20,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/10/06",
+        "date": "2024-10-06",
+        "messages": 40,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/09/18",
+        "date": "2024-09-18",
+        "messages": 24,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/09/11",
+        "date": "2024-09-11",
+        "messages": 43,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/09/05",
+        "date": "2024-09-05",
+        "messages": 57,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/08/26",
+        "date": "2024-08-26",
+        "messages": 30,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/08/23",
+        "date": "2024-08-23",
+        "messages": 114,
+        "images": 1,
+        "videos": 1,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/08/18",
+        "date": "2024-08-18",
+        "messages": 50,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/08/06",
+        "date": "2024-08-06",
+        "messages": 25,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/08/03",
+        "date": "2024-08-03",
+        "messages": 15,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/08/02",
+        "date": "2024-08-02",
+        "messages": 1,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/07/31",
+        "date": "2024-07-31",
+        "messages": 142,
+        "images": 0,
+        "videos": 0,
+        "voices": 1,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/07/30",
+        "date": "2024-07-30",
+        "messages": 40,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/07/25",
+        "date": "2024-07-25",
+        "messages": 31,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/07/21",
+        "date": "2024-07-21",
+        "messages": 46,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/07/15",
+        "date": "2024-07-15",
+        "messages": 23,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/07/11",
+        "date": "2024-07-11",
+        "messages": 23,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/07/05",
+        "date": "2024-07-05",
+        "messages": 73,
+        "images": 0,
+        "videos": 0,
+        "voices": 2,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/06/26",
+        "date": "2024-06-26",
+        "messages": 119,
+        "images": 2,
+        "videos": 0,
+        "voices": 1,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/06/24",
+        "date": "2024-06-24",
+        "messages": 71,
+        "images": 0,
+        "videos": 0,
+        "voices": 3,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/06/23",
+        "date": "2024-06-23",
+        "messages": 118,
+        "images": 0,
+        "videos": 0,
+        "voices": 4,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/06/21",
+        "date": "2024-06-21",
+        "messages": 68,
+        "images": 0,
+        "videos": 0,
+        "voices": 9,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/06/20",
+        "date": "2024-06-20",
+        "messages": 105,
+        "images": 0,
+        "videos": 0,
+        "voices": 0,
+        "stickers": 0
+    },
+    {
+        "folder": "2024/06/18",
+        "date": "2024-06-18",
+        "messages": 191,
+        "images": 2,
+        "videos": 0,
+        "voices": 6,
+        "stickers": 0
+    }
 ]

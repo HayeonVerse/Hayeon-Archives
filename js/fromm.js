@@ -79,7 +79,11 @@ search: "",
 
     currentVoice: null,
 
+    archive: [],
+
     conversations: [],
+
+    conversationCache: new Map(),
 
     filtered: [],
 
@@ -441,6 +445,22 @@ App.loadConversation = async function (folder) {
 
 };
 
+App.getConversation = async function (folder) {
+
+    if (App.state.conversationCache.has(folder)) {
+
+        return App.state.conversationCache.get(folder);
+
+    }
+
+    const conversation = await App.loadConversation(folder);
+
+    App.state.conversationCache.set(folder, conversation);
+
+    return conversation;
+
+};
+
 /* ============================================
    LOAD EVERYTHING
 ============================================ */
@@ -454,22 +474,24 @@ App.loadArchive = async function () {
         const index =
             await App.loadIndex();
 
+App.state.archive = index;
+
+const loading = document.getElementById("timeline-list");
+
+loading.innerHTML = `
+    <div class="timeline-loading">
+        Loading conversations...
+    </div>
+`;
+
 const conversations =
-    await Promise.all(
-
-        index.map(folder =>
-
-            App.loadConversation(folder)
-
-        )
-
+    await App.fetchJSON(
+        `${App.config.dataRoot}archive-data.json`
     );
 
-        App.state.conversations =
-            conversations;
+App.state.conversations = conversations;
 
-        App.state.filtered =
-            [...conversations];
+App.state.filtered = [...conversations];
 
 App.buildSearchIndex();
 
@@ -691,6 +713,7 @@ App.showConversation = function (conversation) {
 
     App.state.selectedConversation = conversation;
 
+
 App.cache.searchResults.classList.add("hidden");
 App.state.selectedSuggestion = -1;
 
@@ -865,13 +888,15 @@ closeBtn.onclick = () => {
 
     App.state.selectedConversation = null;
 
+    localStorage.removeItem("fromm-last-conversation");
+
     App.saveUIState();
 
-const url = new URL(window.location);
+    const url = new URL(window.location);
 
-url.searchParams.delete("date");
+    url.searchParams.delete("date");
 
-history.replaceState({}, "", url);
+    history.replaceState({}, "", url);
 
     App.render();
 
@@ -1056,24 +1081,28 @@ App.buildSearchIndex = function () {
         );
 
         // Message contents
-        conversation.messages.forEach(message => {
+if (conversation.messages) {
 
-            if (message.ko)
-                keywords.add(message.ko.toLowerCase());
+    conversation.messages.forEach(message => {
 
-            if (message.en)
-                keywords.add(message.en.toLowerCase());
+        if (message.ko)
+            keywords.add(message.ko.toLowerCase());
 
-            if (message.image || message.images?.length)
-                keywords.add("photo");
+        if (message.en)
+            keywords.add(message.en.toLowerCase());
 
-            if (message.video || message.videos?.length)
-                keywords.add("video");
+        if (message.image || message.images?.length)
+            keywords.add("photo");
 
-            if (message.voice || message.voices?.length)
-                keywords.add("voice");
+        if (message.video || message.videos?.length)
+            keywords.add("video");
 
-        });
+        if (message.voice || message.voices?.length)
+            keywords.add("voice");
+
+    });
+
+}
 
         return {
 
@@ -1505,88 +1534,45 @@ App.utils.scrollTo = function (element) {
 
 App.updateStatistics = function () {
 
+    const archive = App.state.archive;
+
     const stats = {
-        conversations: App.state.filtered.length,
-        messages: 0,
-        images: 0,
-        videos: 0,
-        voices: 0,
-        years: new Set()
+
+        conversations: archive.length,
+
+        messages: archive.reduce((sum, item) => sum + (item.messages || 0), 0),
+
+        images: archive.reduce((sum, item) => sum + (item.images || 0), 0),
+
+        videos: archive.reduce((sum, item) => sum + (item.videos || 0), 0),
+
+        voices: archive.reduce((sum, item) => sum + (item.voices || 0), 0),
+
+        years: new Set(
+            archive.map(item => item.date.slice(0, 4))
+        ).size
+
     };
 
-    App.state.filtered.forEach(conversation => {
-
-        stats.years.add(
-            App.utils.getYear(conversation.date)
-        );
-
-        if (!conversation.messages) return;
-
-        stats.messages += conversation.messages.length;
-
-conversation.messages.forEach(message => {
-
-    stats.images += App.utils.getMediaList(
-        message,
-        "image",
-        "images"
-    ).length;
-
-    stats.videos += App.utils.getMediaList(
-        message,
-        "video",
-        "videos"
-    ).length;
-
-    stats.voices += App.utils.getMediaList(
-        message,
-        "voice",
-        "voices"
-    ).length;
-
-});
-
-    });
-
-App.state.statistics = {
-
-    conversations: stats.conversations,
-
-    messages: stats.messages,
-
-    images: stats.images,
-
-    videos: stats.videos,
-
-    voices: stats.voices,
-
-    years: stats.years.size
-
-};
+    App.state.statistics = stats;
 
     if (App.cache.stats.conversations)
-        App.cache.stats.conversations.textContent =
-            stats.conversations;
+        App.cache.stats.conversations.textContent = stats.conversations;
 
-if (App.cache.stats.messages)
-    App.cache.stats.messages.textContent =
-        stats.messages;
+    if (App.cache.stats.messages)
+        App.cache.stats.messages.textContent = stats.messages;
 
-if (App.cache.stats.images)
-    App.cache.stats.images.textContent =
-        stats.images;
+    if (App.cache.stats.images)
+        App.cache.stats.images.textContent = stats.images;
 
-if (App.cache.stats.videos)
-    App.cache.stats.videos.textContent =
-        stats.videos;
+    if (App.cache.stats.videos)
+        App.cache.stats.videos.textContent = stats.videos;
 
-if (App.cache.stats.voices)
-    App.cache.stats.voices.textContent =
-        stats.voices;
+    if (App.cache.stats.voices)
+        App.cache.stats.voices.textContent = stats.voices;
 
-if (App.cache.stats.years)
-    App.cache.stats.years.textContent =
-        stats.years.size;
+    if (App.cache.stats.years)
+        App.cache.stats.years.textContent = stats.years;
 
 };
 
@@ -2533,19 +2519,35 @@ App.render = function () {
 
 const ui = App.loadUIState();
 
-if (!App.state.selectedConversation && ui.conversation) {
+// Only auto-open a conversation on the first page load.
+if (
+    !App.state.initialized &&
+    !App.state.selectedConversation
+) {
 
-    const remembered =
-        App.state.filtered.find(
-            c => c.date === ui.conversation
-        );
+    const rememberedDate =
+        App.loadLastConversation();
 
-    if (remembered) {
+    if (rememberedDate) {
 
-        App.state.selectedConversation = remembered;
+        const remembered =
+            App.state.filtered.find(
+                c => c.date === rememberedDate
+            );
+
+        if (remembered) {
+            App.state.selectedConversation = remembered;
+        }
 
     }
 
+    if (
+        !App.state.selectedConversation &&
+        App.state.filtered.length
+    ) {
+        App.state.selectedConversation =
+            App.state.filtered[0];
+    }
 }
 
 if (!App.state.expandedYears.size && ui.years) {
