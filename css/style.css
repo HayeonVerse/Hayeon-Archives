@@ -1670,13 +1670,11 @@ footer h4 {
 }
 
 .latest-fromm-left{
-
     display:flex;
-
     flex-direction:column;
-
     gap:14px;
 
+    width:100%;
 }
 
 .latest-fromm-tag{
@@ -1712,13 +1710,19 @@ footer h4 {
 }
 
 .latest-fromm-actions{
+    display:flex;
+    gap:14px;
+    margin-top:8px;
+}
+
+.latest-fromm-actions .hero-btn{
+    flex:1;
+    min-height:58px;
 
     display:flex;
-
-    gap:14px;
-
-    margin-top:8px;
-
+    align-items:center;
+    justify-content:center;
+    text-align:center;
 }
 
 @media(max-width:900px){
@@ -1730,6 +1734,14 @@ footer h4 {
         align-items:flex-start;
 
     }
+
+.latest-fromm-actions{
+    width:100%;
+}
+
+.latest-fromm-actions .hero-btn{
+    flex:1;
+}
 
 }
 

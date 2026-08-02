@@ -160,6 +160,9 @@ async function loadLatestfromm(){
 
         const latest = archive[0];
 
+        const date =
+         latest.folder.replace(/\//g, ".");
+
         container.innerHTML = `
 
 <div class="latest-fromm-left">
@@ -172,7 +175,7 @@ async function loadLatestfromm(){
 
     <div class="latest-fromm-date">
 
-        ${latest.replace(/\//g,".")}
+        ${date}
 
     </div>
 
@@ -188,7 +191,7 @@ async function loadLatestfromm(){
             href="fromm.html"
             class="hero-btn hero-primary">
 
-            Read Conversation
+            Read Now
 
         </a>
 
