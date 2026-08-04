@@ -1,5 +1,38 @@
 [
     {
+        "path": "2026/August/04 - X Post Lucky Factory",
+        "info": {
+            "title": "X Post Lucky Factory",
+            "date": "August 04",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "01.jpg",
+            "files": [
+                "01.jpg",
+                "02.jpg",
+                "03.jpg",
+                "04.jpg"
+            ],
+            "coverType": "image"
+        }
+    },
+    {
+        "path": "2026/August/04 - Youtube Lucky Factory",
+        "info": {
+            "title": "Youtube Lucky Factory",
+            "date": "August 04",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://www.youtube.com/watch?v=oyZPX2DjyGU"
+            ],
+            "cover": "https://www.youtube.com/watch?v=oyZPX2DjyGU",
+            "files": [],
+            "coverType": "youtube"
+        }
+    },
+    {
         "path": "2026/August/03 - X Post 1theK Official",
         "info": {
             "title": "X Post 1theK Official",
