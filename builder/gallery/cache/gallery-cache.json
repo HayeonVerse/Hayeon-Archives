@@ -12956,7 +12956,7 @@
             "updated": 1785838852925
         },
         "2026/August/04 - Youtube Lucky Factory": {
-            "fingerprint": "4d492ed0eb75edbf2e78e1ee8f6f1403a716aeb4",
+            "fingerprint": "359326801c9bcd96b9446821dc96b7965948ac49",
             "album": {
                 "path": "2026/August/04 - Youtube Lucky Factory",
                 "info": {
@@ -12965,14 +12965,20 @@
                     "source": "Archive",
                     "tags": [],
                     "video": [
-                        "https://www.youtube.com/watch?v=oyZPX2DjyGU"
+                        "https://www.youtube.com/watch?v=oyZPX2DjyGU",
+                        "https://www.youtube.com/shorts/9WwrFVUjQNY",
+                        "https://www.youtube.com/shorts/UEWIlEpRxvs",
+                        "https://www.youtube.com/shorts/XgPF5VL6Hc8",
+                        "https://www.youtube.com/shorts/kV01W8Mp7LE"
                     ],
-                    "cover": "https://www.youtube.com/watch?v=oyZPX2DjyGU",
-                    "files": [],
-                    "coverType": "youtube"
+                    "cover": "maxresdefault.jpg",
+                    "files": [
+                        "maxresdefault.jpg"
+                    ],
+                    "coverType": "image"
                 }
             },
-            "updated": 1785838852931
+            "updated": 1785844563634
         }
     }
 }

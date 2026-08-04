@@ -4,9 +4,15 @@
     "source": "Archive",
     "tags": [],
     "video": [
-        "https://www.youtube.com/watch?v=oyZPX2DjyGU"
+        "https://www.youtube.com/watch?v=oyZPX2DjyGU",
+        "https://www.youtube.com/shorts/9WwrFVUjQNY",
+        "https://www.youtube.com/shorts/UEWIlEpRxvs",
+        "https://www.youtube.com/shorts/XgPF5VL6Hc8",
+        "https://www.youtube.com/shorts/kV01W8Mp7LE"
     ],
-    "cover": "https://www.youtube.com/watch?v=oyZPX2DjyGU",
-    "files": [],
-    "coverType": "youtube"
+    "cover": "maxresdefault.jpg",
+    "files": [
+        "maxresdefault.jpg"
+    ],
+    "coverType": "image"
 }
