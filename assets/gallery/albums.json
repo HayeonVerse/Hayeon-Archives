@@ -1723,9 +1723,9 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg",
-                "02.jpg",
-                "03.jpg"
-            ]
+                "02.jpg"
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1740,6 +1740,21 @@
             "files": [
                 "1775552987188.png"
             ]
+        }
+    },
+    {
+        "path": "2026/April/06 - Cosmo Room Update with Sohyun",
+        "info": {
+            "title": "Cosmo Room Update with Sohyun",
+            "date": "April 06",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "CRUSH.jpg",
+            "files": [
+                "CRUSH.jpg"
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2969,6 +2984,22 @@
             "files": [
                 "lv20.mp4"
             ]
+        }
+    },
+    {
+        "path": "2026/January/04 - Yubin Fromm",
+        "info": {
+            "title": "Yubin Fromm",
+            "date": "January 04",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "01.jpg",
+            "files": [
+                "01.jpg",
+                "02.jpg"
+            ],
+            "coverType": "image"
         }
     },
     {

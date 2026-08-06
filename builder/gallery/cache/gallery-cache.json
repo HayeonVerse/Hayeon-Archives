@@ -9356,7 +9356,7 @@
             "updated": 1785570530432
         },
         "2026/April/07 - Cosmo Room": {
-            "fingerprint": "8447a307f205603a1e2871ac45176dc09cec9c17",
+            "fingerprint": "b742be6066292c83402bbbe151160a2888e41d35",
             "album": {
                 "path": "2026/April/07 - Cosmo Room",
                 "info": {
@@ -9368,12 +9368,12 @@
                     "cover": "01.jpg",
                     "files": [
                         "01.jpg",
-                        "02.jpg",
-                        "03.jpg"
-                    ]
+                        "02.jpg"
+                    ],
+                    "coverType": "image"
                 }
             },
-            "updated": 1785570530433
+            "updated": 1786024072160
         },
         "2026/April/07 - Fromm": {
             "fingerprint": "a9d83dd0c93cdc7dc3122cc033c65d7efaf8797b",
@@ -13007,6 +13007,45 @@
                 }
             },
             "updated": 1786023311425
+        },
+        "2026/April/06 - Cosmo Room Update with Sohyun": {
+            "fingerprint": "9058bdaf468c2175dab74770e26fad7571647952",
+            "album": {
+                "path": "2026/April/06 - Cosmo Room Update with Sohyun",
+                "info": {
+                    "title": "Cosmo Room Update with Sohyun",
+                    "date": "April 06",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "CRUSH.jpg",
+                    "files": [
+                        "CRUSH.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1786024072156
+        },
+        "2026/January/04 - Yubin Fromm": {
+            "fingerprint": "ce46fdf3b49592f453f39984577dd3cdda96b6cc",
+            "album": {
+                "path": "2026/January/04 - Yubin Fromm",
+                "info": {
+                    "title": "Yubin Fromm",
+                    "date": "January 04",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "01.jpg",
+                    "files": [
+                        "01.jpg",
+                        "02.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1786024072164
         }
     }
 }
