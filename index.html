@@ -1,456 +1,300 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0">
-
-    <title>
-        Hayeon Archive
-    </title>
+    <title>Hayeon Archive</title>
 
     <meta
-        name="description"
-        content="Fan-made archive dedicated to Jeong Hayeon featuring Gallery and translated Fromm/Cosmo Talk conversations.">
+      name="description"
+      content="Fan-made archive dedicated to Jeong Hayeon featuring Gallery and translated Fromm/Cosmo Talk conversations."
+    />
 
+    <meta name="theme-color" content="#52D9BB" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://hayeonarchive.com/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Hayeon Archive" />
+    <meta property="og:title" content="Hayeon Archive" />
     <meta
-        name="theme-color"
-        content="#52D9BB">
+      property="og:description"
+      content="Fan-made archive dedicated to Jeong Hayeon featuring Gallery, translated Fromm/Cosmo Talk conversations, photos, videos, and more."
+    />
+    <meta property="og:url" content="https://hayeonarchive.com/" />
+    <meta
+      property="og:image"
+      content="https://hayeonarchive.com/assets/images/og-image-v2.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Hayeon Archive" />
 
-<!-- Canonical -->
-<link rel="canonical" href="https://hayeonarchive.com/">
-
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Hayeon Archive">
-<meta property="og:title" content="Hayeon Archive">
-<meta property="og:description" content="Fan-made archive dedicated to Jeong Hayeon featuring Gallery, translated Fromm/Cosmo Talk conversations, photos, videos, and more.">
-<meta property="og:url" content="https://hayeonarchive.com/">
-<meta property="og:image" content="https://hayeonarchive.com/assets/images/og-image-v2.jpg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Hayeon Archive">
-
-<!-- Twitter/X -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Hayeon Archive">
-<meta name="twitter:description" content="Fan-made archive dedicated to Jeong Hayeon featuring Gallery, translated Fromm/Cosmo Talk conversations, photos, videos, and more.">
-<meta name="twitter:image" content="https://hayeonarchive.com/assets/images/og-image-v2.jpg">
-       
-<link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.min.css">
+    <!-- Twitter/X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hayeon Archive" />
+    <meta
+      name="twitter:description"
+      content="Fan-made archive dedicated to Jeong Hayeon featuring Gallery, translated Fromm/Cosmo Talk conversations, photos, videos, and more."
+    />
+    <meta
+      name="twitter:image"
+      content="https://hayeonarchive.com/assets/images/og-image-v2.jpg"
+    />
 
     <link
-        rel="stylesheet"
-        href="css/style.css">
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.min.css"
+    />
 
-<!-- Favicon -->
-<link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
+    <link rel="stylesheet" href="css/style.css" />
 
-<link rel="icon"
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon/favicon.ico" sizes="any" />
+
+    <link
+      rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets/favicon/favicon-32x32.png">
+      href="assets/favicon/favicon-32x32.png"
+    />
 
-<link rel="icon"
+    <link
+      rel="icon"
       type="image/png"
       sizes="16x16"
-      href="assets/favicon/favicon-16x16.png">
+      href="assets/favicon/favicon-16x16.png"
+    />
 
-<link rel="apple-touch-icon"
+    <link
+      rel="apple-touch-icon"
       sizes="180x180"
-      href="assets/favicon/apple-touch-icon.png">
+      href="assets/favicon/apple-touch-icon.png"
+    />
 
-<link rel="manifest"
-      href="site.webmanifest">
+    <link rel="manifest" href="site.webmanifest" />
+  </head>
 
-        
-</head>
-
-<body class="home-page">
-
-<!-- ==========================================
+  <body class="home-page">
+    <!-- ==========================================
      NAVBAR
 ========================================== -->
 
-<nav class="navbar">
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <img src="assets/logo.png" alt="Hayeon Archive Logo" />
 
-<a href="index.html" class="logo">
+        <span>Hayeon Archive</span>
+      </a>
 
-    <img src="assets/logo.png" alt="Hayeon Archive Logo">
+      <div class="nav-links">
+        <a href="index.html" class="active"> Home </a>
 
-    <span>Hayeon Archive</span>
+        <a href="profile.html">Profile</a>
 
-</a>
+        <a href="gallery.html"> Gallery </a>
 
-    <div class="nav-links">
+        <a href="fromm.html"> Cosmo Talk </a>
 
-        <a
-            href="index.html"
-            class="active">
+        <button id="mode">🌙</button>
+      </div>
+    </nav>
 
-            Home
-
-        </a>
-
-<a href="profile.html">Profile</a>
-
-        <a href="gallery.html">
-
-            Gallery
-
-        </a>
-
-        <a href="fromm.html">
-
-            Cosmo Talk
-
-        </a>
-
-        <button id="mode">
-
-            🌙
-
-        </button>
-
-    </div>
-
-</nav>
-
-<!-- ==========================================
+    <!-- ==========================================
      HERO
 ========================================== -->
 
-<section class="hero">
-
-    <div class="hero-container">
-
+    <section class="hero">
+      <div class="hero-container">
         <!-- Left -->
 
         <div class="hero-content">
+          <div class="hero-tag">✦ Fan Archive</div>
 
-            <div class="hero-tag">
+          <h1>
+            JEONG<br />
+            HAYEON
+          </h1>
 
-                ✦ Fan Archive
+          <p>
+            A fan-made archive dedicated to preserving Jeong Hayeon's gallery
+            updates, translated Fromm/Cosmo Talk conversations, photos, videos,
+            and memorable moments in one organized place.
+          </p>
 
-            </div>
+          <div class="hero-actions">
+            <a href="gallery.html" class="hero-btn hero-primary">
+              Browse Gallery
+            </a>
 
-            <h1>
-
-                JEONG<br>
-                HAYEON
-
-            </h1>
-
-            <p>
-
-                A fan-made archive dedicated to preserving
-                Jeong Hayeon's gallery updates, translated
-                Fromm/Cosmo Talk conversations, photos, videos, and
-                memorable moments in one organized place.
-
-            </p>
-
-            <div class="hero-actions">
-
-                <a
-                    href="gallery.html"
-                    class="hero-btn hero-primary">
-
-                    Browse Gallery
-
-                </a>
-
-                <a
-                    href="fromm.html"
-                    class="hero-btn hero-secondary">
-
-                    Browse Cosmo Talk
-
-                </a>
-
-            </div>
-
+            <a href="fromm.html" class="hero-btn hero-secondary">
+              Browse Cosmo Talk
+            </a>
+          </div>
         </div>
 
         <!-- Right -->
 
-<div class="hero-image">
+        <div class="hero-image">
+          <div class="hero-photo">
+            <img
+              id="hero-image-a"
+              class="hero-image-layer active"
+              src=""
+              alt="Jeong Hayeon"
+            />
 
-    <div class="hero-photo">
+            <img
+              id="hero-image-b"
+              class="hero-image-layer"
+              src=""
+              alt="Jeong Hayeon"
+            />
 
-        <img
-            id="hero-image-a"
-            class="hero-image-layer active"
-            src=""
-            alt="Jeong Hayeon"
-        >
+            <div class="hero-photo-info">
+              <span id="hero-title"> Loading... </span>
 
-        <img
-            id="hero-image-b"
-            class="hero-image-layer"
-            src=""
-            alt="Jeong Hayeon"
-        >
-
-        <div class="hero-photo-info">
-
-            <span id="hero-title">
-
-                Loading...
-
-            </span>
-
-            <small id="hero-date">
-
-                Loading...
-
-            </small>
-
+              <small id="hero-date"> Loading... </small>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
 
-    </div>
-
-</div>
-
-    </div>
-
-</section>
-
-
-<!-- ==========================================
+    <!-- ==========================================
      MAIN
 ========================================== -->
 
-<main class="gallery-wrapper">
+    <main class="gallery-wrapper">
+      <section class="home-notice">
+        <div class="notice-card">
+          <h3>📢 Archive Status</h3>
 
-<section class="home-notice">
+          <p>Hayeon Archive is currently under active development.</p>
 
-    <div class="notice-card">
+          <p>
+            Many photos, videos, and translated Fromm/Cosmo Talk conversations
+            are still being added as the archive continues to grow.
+          </p>
 
-        <h3>📢 Archive Status</h3>
-
-        <p>
-            Hayeon Archive is currently under active development.
-        </p>
-
-        <p>
-            Many photos, videos, and translated Fromm/Cosmo Talk conversations are still being added as the archive continues to grow.
-        </p>
-
-        <p>
+          <p>
             Some content may be missing, incomplete, or temporarily unavailable.
-            We appreciate your patience and support while we continue preserving Hayeon's content.
-        </p>
-
-    </div>
-
-</section>
-<!-- ==========================================
+            We appreciate your patience and support while we continue preserving
+            Hayeon's content.
+          </p>
+        </div>
+      </section>
+      <!-- ==========================================
      LATEST GALLERY
 ========================================== -->
 
-<section class="section-title">
+      <section class="section-title">
+        <h2>Latest Gallery</h2>
 
-    <h2>
+        <p>Recently added gallery albums.</p>
+      </section>
 
-        Latest Gallery
+      <section id="latest-gallery" class="album-grid"></section>
 
-    </h2>
-
-    <p>
-
-        Recently added gallery albums.
-
-    </p>
-
-</section>
-
-<section
-    id="latest-gallery"
-    class="album-grid">
-
-</section>
-
-<section class="home-section">
-
-    <div class="container">
-
-        <div class="section-title">
-
+      <section class="home-section">
+        <div class="container">
+          <div class="section-title">
             <div>
+              <h2 class="section-heading">Latest Cosmo Talk</h2>
 
-                <h2 class="section-heading">
-
-                    Latest Cosmo Talk
-
-                </h2>
-
-                <p class="section-description">
-
-                    Read the newest translated Cosmo Talk conversation from Jeong Hayeon.
-
-                </p>
-
+              <p class="section-description">
+                Read the newest translated Cosmo Talk conversation from Jeong
+                Hayeon.
+              </p>
             </div>
+          </div>
 
+          <div id="latest-fromm" class="latest-fromm-card">Loading...</div>
         </div>
+      </section>
 
-        <div
-            id="latest-fromm"
-            class="latest-fromm-card"
-        >
-
-            Loading...
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ==========================================
+      <!-- ==========================================
      ABOUT
 ========================================== -->
 
-<section class="home-section profile-section">
-
-    <div class="container">
-
-        <div class="section-title">
-
+      <section class="home-section profile-section">
+        <div class="container">
+          <div class="section-title">
             <div>
+              <h2 class="section-heading">Profile</h2>
 
-                <h2 class="section-heading">
-
-                    Profile
-
-                </h2>
-
-                <p class="section-description">
-
-                    Learn more about Jeong Hayeon.
-
-                </p>
-
+              <p class="section-description">Learn more about Jeong Hayeon.</p>
             </div>
+          </div>
 
-        </div>
-
-        <div class="profile-card">
-
+          <div class="profile-card">
             <div class="profile-image">
-
-                <img
-                    src="assets/profile/profile.webp"
-                    alt="Jeong Hayeon"
-                >
-
+              <img src="assets/profile/profile.webp" alt="Jeong Hayeon" />
             </div>
 
             <div class="profile-content">
+              <h3>JEONG HAYEON</h3>
 
-                <h3>
+              <p class="profile-description">
+                Jeong Hayeon is the nineteenth revealed member of
+                <strong>tripleS</strong>, leader of <strong>zenith</strong>, and
+                a versatile performer recognized for her bright personality and
+                distinctive vocals..
+              </p>
 
-                    JEONG HAYEON
+              <div class="profile-info">
+                <div class="profile-item">
+                  <strong>Birthday</strong>
 
-                </h3>
+                  <span>January 9, 2007</span>
+                </div>
 
-                <p class="profile-description">
+                <div class="profile-item">
+                  <strong>Group</strong>
 
-                    Jeong Hayeon is the nineteenth revealed member of
-                <strong>tripleS</strong>, leader of
-                <strong>zenith</strong>, and a versatile
-                performer recognized for her bright
-                personality and distinctive vocals..
+                  <span>tripleS</span>
+                </div>
 
-                </p>
+                <div class="profile-item profile-color">
+                  <strong> Official Color Medium Turquoise </strong>
 
-<div class="profile-info">
+                  <div class="color-swatch"></div>
+                </div>
 
-    <div class="profile-item">
+                <div class="profile-item">
+                  <strong>Representative Emoji</strong>
 
-        <strong>Birthday</strong>
+                  <div class="representative">
+                    <span>Hedgehog</span>
 
-        <span>January 9, 2007</span>
+                    <div class="representative-icon">🦔</div>
+                  </div>
+                </div>
+              </div>
 
-    </div>
-
-    <div class="profile-item">
-
-        <strong>Group</strong>
-
-        <span>tripleS</span>
-
-    </div>
-
-<div class="profile-item profile-color">
-
-
-    <strong>
-
-        Official Color
-Medium Turquoise
-    </strong>
-
-    <div class="color-swatch"></div>
-
-
-</div>
-
-    <div class="profile-item">
-
-        <strong>Representative Emoji</strong>
-
-        <div class="representative">
-
-    <span>Hedgehog</span>
-
-    <div class="representative-icon">
-
-        🦔
-
-    </div>
-
-</div>
-
-    </div>
-
-</div>
-
-<div class="profile-actions">
-    <a href="profile.html" class="hero-btn hero-primary">
-        View Full Profile
-    </a>
-</div>
-
+              <div class="profile-actions">
+                <a href="profile.html" class="hero-btn hero-primary">
+                  View Full Profile
+                </a>
+              </div>
             </div>
-
+          </div>
         </div>
+      </section>
+    </main>
 
-    </div>
-
-</section>
-
-
-
-</main>
-
-<!-- ==========================================
+    <!-- ==========================================
      FOOTER
 ========================================== -->
 
-<div id="footer"></div>
+    <div id="footer"></div>
 
-<script src="js/components.js"></script>
+    <script src="js/components.js"></script>
 
-<script src="js/script.js"></script>
-
-</body>
-
+    <script src="js/script.js"></script>
+  </body>
 </html>

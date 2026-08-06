@@ -1,707 +1,461 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-
-    <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Profile • Hayeon Archive</title>
 
-<!-- SEO -->
-<meta
-    name="description"
-    content="Profile, biography, facts, favorites, and information about Jeong Hayeon.">
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Profile, biography, facts, favorites, and information about Jeong Hayeon."
+    />
 
-<meta
-    name="theme-color"
-    content="#52D9BB">
+    <meta name="theme-color" content="#52D9BB" />
 
-<!-- Canonical -->
-<link
-    rel="canonical"
-    href="https://hayeonarchive.com/profile.html">
+    <!-- Canonical -->
+    <link rel="canonical" href="https://hayeonarchive.com/profile.html" />
 
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Hayeon Archive">
-<meta property="og:title" content="Jeong Hayeon Profile | Hayeon Archive">
-<meta property="og:description" content="Explore Jeong Hayeon's profile, biography, facts, favorites, identity, and career in one place.">
-<meta property="og:url" content="https://hayeonarchive.com/profile.html">
-<meta property="og:image" content="https://hayeonarchive.com/assets/images/og-image-v2.jpg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Jeong Hayeon Profile">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Hayeon Archive" />
+    <meta property="og:title" content="Jeong Hayeon Profile | Hayeon Archive" />
+    <meta
+      property="og:description"
+      content="Explore Jeong Hayeon's profile, biography, facts, favorites, identity, and career in one place."
+    />
+    <meta property="og:url" content="https://hayeonarchive.com/profile.html" />
+    <meta
+      property="og:image"
+      content="https://hayeonarchive.com/assets/images/og-image-v2.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Jeong Hayeon Profile" />
 
-<!-- Twitter / X -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Jeong Hayeon Profile | Hayeon Archive">
-<meta name="twitter:description" content="Explore Jeong Hayeon's profile, biography, facts, favorites, identity, and career in one place.">
-<meta name="twitter:image" content="https://hayeonarchive.com/assets/images/og-image-v2.jpg">
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Jeong Hayeon Profile | Hayeon Archive"
+    />
+    <meta
+      name="twitter:description"
+      content="Explore Jeong Hayeon's profile, biography, facts, favorites, identity, and career in one place."
+    />
+    <meta
+      name="twitter:image"
+      content="https://hayeonarchive.com/assets/images/og-image-v2.jpg"
+    />
 
-<link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.min.css"
+    />
     <!-- Main CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- Profile CSS -->
-    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/profile.css" />
 
-<!-- Favicon -->
-<link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon/favicon.ico" sizes="any" />
 
-<link rel="icon"
+    <link
+      rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets/favicon/favicon-32x32.png">
+      href="assets/favicon/favicon-32x32.png"
+    />
 
-<link rel="icon"
+    <link
+      rel="icon"
       type="image/png"
       sizes="16x16"
-      href="assets/favicon/favicon-16x16.png">
+      href="assets/favicon/favicon-16x16.png"
+    />
 
-<link rel="apple-touch-icon"
+    <link
+      rel="apple-touch-icon"
       sizes="180x180"
-      href="assets/favicon/apple-touch-icon.png">
+      href="assets/favicon/apple-touch-icon.png"
+    />
 
-<link rel="manifest"
-      href="site.webmanifest">
+    <link rel="manifest" href="site.webmanifest" />
+  </head>
 
-</head>
-
-<body>
-
-<!-- ==========================================
+  <body>
+    <!-- ==========================================
      NAVBAR
 ========================================== -->
 
-<nav class="navbar">
-
-    <a href="index.html" class="logo">
-
-        <img
-            src="assets/logo.png"
-            alt="Hayeon Archive">
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <img src="assets/logo.png" alt="Hayeon Archive" />
 
         <span>Hayeon Archive</span>
+      </a>
 
-    </a>
+      <div class="nav-links">
+        <a href="index.html"> Home </a>
 
-    <div class="nav-links">
+        <a href="profile.html" class="active"> Profile </a>
 
-        <a href="index.html">
+        <a href="gallery.html"> Gallery </a>
 
-            Home
+        <a href="fromm.html"> Cosmo Talk </a>
 
-        </a>
+        <button id="mode">🌙</button>
+      </div>
+    </nav>
 
-        <a
-            href="profile.html"
-            class="active">
-
-            Profile
-
-        </a>
-
-        <a href="gallery.html">
-
-            Gallery
-
-        </a>
-
-        <a href="fromm.html">
-
-            Cosmo Talk
-
-        </a>
-
-
-
-        <button id="mode">
-
-            🌙
-
-        </button>
-
-    </div>
-
-</nav>
-
-<!-- ==========================================
+    <!-- ==========================================
      MAIN
 ========================================== -->
 
-<main class="profile-page">
+    <main class="profile-page">
+      <!-- HERO -->
 
-    <!-- HERO -->
-
-    <section class="profile-hero">
-
+      <section class="profile-hero">
         <div class="hero-card">
+          <div class="hero-banner">
+            <div class="banner-glow glow-1"></div>
 
-            <div class="hero-banner">
+            <div class="banner-glow glow-2"></div>
 
-    <div class="banner-glow glow-1"></div>
+            <div class="banner-glow glow-3"></div>
 
-    <div class="banner-glow glow-2"></div>
+            <div class="banner-side">tripleS</div>
 
-    <div class="banner-glow glow-3"></div>
+            <div class="banner-subtitle">HAYEON ARCHIVE</div>
 
-<div class="banner-side">
+            <div class="banner-korean">정하연</div>
 
-    tripleS
+            <div class="banner-member"></div>
 
-</div>
+            <div class="banner-dots left"></div>
 
+            <div class="banner-dots right"></div>
 
-    <div class="banner-subtitle">
+            <svg
+              class="banner-line"
+              viewBox="0 0 1000 250"
+              preserveAspectRatio="none"
+            >
+              <path d="M0,160 C180,90 360,240 520,170 S820,90 1000,170" />
+            </svg>
 
-        HAYEON ARCHIVE
+            <div class="star star-1"></div>
+            <div class="star star-2"></div>
+            <div class="star star-3"></div>
+            <div class="star star-4"></div>
+            <div class="star star-5"></div>
+            <div class="star star-6"></div>
 
-    </div>
+            <div class="floating-circle circle-a"></div>
+            <div class="floating-circle circle-b"></div>
+            <div class="floating-circle circle-c"></div>
 
-    <div class="banner-korean">
+            <div class="banner-hedgehog">
+              <img src="assets/profile/hedgehog.png" alt="Hedgehog" />
+            </div>
 
-        정하연
-
-    </div>
-
-    <div class="banner-member">
-
-       
-
-    </div>
-
-    <div class="banner-dots left"></div>
-
-    <div class="banner-dots right"></div>
-
-<svg
-    class="banner-line"
-    viewBox="0 0 1000 250"
-    preserveAspectRatio="none">
-
-    <path
-
-        d="M0,160 C180,90 360,240 520,170 S820,90 1000,170"
-
-    />
-
-</svg>
-
-<div class="star star-1"></div>
-<div class="star star-2"></div>
-<div class="star star-3"></div>
-<div class="star star-4"></div>
-<div class="star star-5"></div>
-<div class="star star-6"></div>
-
-<div class="floating-circle circle-a"></div>
-<div class="floating-circle circle-b"></div>
-<div class="floating-circle circle-c"></div>
-
-<div class="banner-hedgehog">
-
-    <img
-        src="assets/profile/hedgehog.png"
-        alt="Hedgehog">
-
-</div>
-
-<svg
-    class="banner-highlight"
-    viewBox="0 0 1200 220"
-    preserveAspectRatio="none">
-
-<path
-
-d="M0 150
+            <svg
+              class="banner-highlight"
+              viewBox="0 0 1200 220"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M0 150
 C220 120 340 170 520 135
 S840 100 1200 145"
+              />
+            </svg>
 
- />
-
-</svg>
-
-<svg
-    class="banner-wave"
-    viewBox="0 0 1200 230"
-    preserveAspectRatio="none">
-
-    <path d="
+            <svg
+              class="banner-wave"
+              viewBox="0 0 1200 230"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="
         M0 140
         C180 120 350 170 520 145
         S850 100 1200 140
         L1200 230
         L0 230
         Z
-    "/>
+    "
+              />
+            </svg>
+          </div>
 
-</svg>
+          <div class="photo-glow"></div>
 
-</div>
+          <img
+            src="assets/profile/hayeon.webp"
+            alt="Jeong Hayeon"
+            class="hero-photo"
+          />
 
-<div class="photo-glow"></div>
+          <h1>Jeong HaYeon</h1>
 
-            <img
-                src="assets/profile/hayeon.webp"
-                alt="Jeong Hayeon"
-                class="hero-photo">
+          <h2>정하연</h2>
 
+          <p class="hero-subtitle">tripleS • All-rounder</p>
 
-            <h1>
+          <div class="hero-tags">
+            <span>🦔 Hedgehog</span>
 
-                Jeong HaYeon
+            <span>🎤 All-rounder</span>
 
-            </h1>
+            <span>🧠 ENTP</span>
 
-            <h2>
+            <span>⬡ Hexagon</span>
+          </div>
 
-                정하연
-
-            </h2>
-
-            <p class="hero-subtitle">
-
-                tripleS • All-rounder
-
-            </p>
-
-            <div class="hero-tags">
-
-                <span>🦔 Hedgehog</span>
-
-                <span>🎤 All-rounder</span>
-
-                <span>🧠 ENTP</span>
-
-                <span>⬡ Hexagon</span>
-
-            </div>
-
-            <p class="hero-description">
-
-                The nineteenth revealed member of
-                <strong>tripleS</strong>, leader of
-                <strong>zenith</strong>, and a versatile
-                performer recognized for her bright
-                personality and distinctive vocals.
-
-            </p>
-
+          <p class="hero-description">
+            The nineteenth revealed member of
+            <strong>tripleS</strong>, leader of <strong>zenith</strong>, and a
+            versatile performer recognized for her bright personality and
+            distinctive vocals.
+          </p>
         </div>
+      </section>
 
-</section>
-
-<!-- ==========================================
+      <!-- ==========================================
      BASIC INFORMATION
 ========================================== -->
 
-<section class="profile-section">
+      <section class="profile-section">
+        <div class="section-title">
+          <h2>Basic Information</h2>
 
-    <div class="section-title">
-
-        <h2>Basic Information</h2>
-
-        <p>
-            General information about Jeong HaYeon.
-        </p>
-
-    </div>
-
-    <div class="info-grid">
-
-        <div class="info-card">
-
-            <span class="info-label">
-                Stage Name
-            </span>
-
-            <span class="info-value">
-                Hayeon (하연)
-            </span>
-
+          <p>General information about Jeong HaYeon.</p>
         </div>
 
-        <div class="info-card">
+        <div class="info-grid">
+          <div class="info-card">
+            <span class="info-label"> Stage Name </span>
 
-            <span class="info-label">
-                Birth Name
-            </span>
+            <span class="info-value"> Hayeon (하연) </span>
+          </div>
 
-            <span class="info-value">
-                Jeong HaYeon (정하연)
-            </span>
+          <div class="info-card">
+            <span class="info-label"> Birth Name </span>
 
+            <span class="info-value"> Jeong HaYeon (정하연) </span>
+          </div>
+
+          <div class="info-card">
+            <span class="info-label"> English Name </span>
+
+            <span class="info-value"> Luna Jeong </span>
+          </div>
+
+          <div class="info-card">
+            <span class="info-label"> Birthday </span>
+
+            <span class="info-value"> August 1, 2007 </span>
+          </div>
+
+          <div class="info-card">
+            <span class="info-label"> Nationality </span>
+
+            <span class="info-value"> South Korean </span>
+          </div>
+
+          <div class="info-card">
+            <span class="info-label"> MBTI </span>
+
+            <span class="info-value"> ENTP </span>
+          </div>
+
+          <div class="info-card">
+            <span class="info-label"> Position </span>
+
+            <span class="info-value"> All-rounder </span>
+          </div>
+
+          <div class="info-card">
+            <span class="info-label"> Official Fandom </span>
+
+            <span class="info-value"> WAV </span>
+          </div>
+
+          <div class="info-card">
+            <span class="info-label"> Nicknames </span>
+
+            <span class="info-value"> Hedgehog, Haseok, Hayoi, Chocoball </span>
+          </div>
+
+          <div class="info-card">
+            <span class="info-label"> Height </span>
+
+            <span class="info-value"> 166 cm </span>
+          </div>
         </div>
+      </section>
 
-        <div class="info-card">
-
-            <span class="info-label">
-                English Name
-            </span>
-
-            <span class="info-value">
-                Luna Jeong
-            </span>
-
-        </div>
-
-        <div class="info-card">
-
-            <span class="info-label">
-                Birthday
-            </span>
-
-            <span class="info-value">
-                August 1, 2007
-            </span>
-
-        </div>
-
-        <div class="info-card">
-
-            <span class="info-label">
-                Nationality
-            </span>
-
-            <span class="info-value">
-                South Korean
-            </span>
-
-        </div>
-
-        <div class="info-card">
-
-            <span class="info-label">
-                MBTI
-            </span>
-
-            <span class="info-value">
-                ENTP
-            </span>
-
-        </div>
-
-        <div class="info-card">
-
-            <span class="info-label">
-                Position
-            </span>
-
-            <span class="info-value">
-                All-rounder
-            </span>
-
-        </div>
-
-        <div class="info-card">
-
-            <span class="info-label">
-                Official Fandom
-            </span>
-
-            <span class="info-value">
-                WAV
-            </span>
-
-        </div>
-
-        <div class="info-card">
-
-            <span class="info-label">
-                Nicknames
-            </span>
-
-            <span class="info-value">
-                Hedgehog, Haseok, Hayoi, Chocoball
-            </span>
-
-        </div>
-
-        <div class="info-card">
-
-            <span class="info-label">
-                Height
-            </span>
-
-            <span class="info-value">
-                166 cm
-            </span>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ==========================================
+      <!-- ==========================================
      IDENTITY
 ========================================== -->
 
-<section class="profile-section">
+      <section class="profile-section">
+        <div class="section-title">
+          <h2>Identity</h2>
 
-    <div class="section-title">
+          <p>Symbols and elements that represent Hayeon.</p>
+        </div>
 
-        <h2>Identity</h2>
-
-        <p>
-
-            Symbols and elements that represent Hayeon.
-
-        </p>
-
-    </div>
-
-    <div class="identity-grid">
-
-        <div class="identity-card">
-
+        <div class="identity-grid">
+          <div class="identity-card">
             <div class="identity-icon">🦔</div>
 
             <h3>Representative Emoji</h3>
 
             <p>Hedgehog</p>
+          </div>
 
-        </div>
-
-        <div class="identity-card">
-
+          <div class="identity-card">
             <div class="identity-icon">⬡</div>
 
             <h3>Personal Fandom</h3>
 
             <p>Hexagon</p>
+          </div>
 
-        </div>
-
-        <div class="identity-card">
-
+          <div class="identity-card">
             <div class="identity-icon">💚</div>
 
             <h3>Official Color</h3>
 
-             <div class="color-swatch"></div>
+            <div class="color-swatch"></div>
 
-            <p>Medium Turquoise [#52D9BB] </p>
+            <p>Medium Turquoise [#52D9BB]</p>
+          </div>
 
-        </div>
-
-        <div class="identity-card signature-card">
-
+          <div class="identity-card signature-card">
             <div class="identity-icon">✍️</div>
 
             <h3>Official Signature</h3>
 
             <img
-                src="assets/profile/signature.webp"
-                alt="Jeong HaYeon Signature">
-
+              src="assets/profile/signature.webp"
+              alt="Jeong HaYeon Signature"
+            />
+          </div>
         </div>
+      </section>
 
-    </div>
-
-</section>
-
-<!-- ==========================================
+      <!-- ==========================================
      TRIPLES PROFILE
 ========================================== -->
 
-<section class="profile-section">
+      <section class="profile-section">
+        <div class="section-title">
+          <h2>tripleS Profile</h2>
 
-    <div class="section-title">
+          <p>Hayeon's journey as a member of tripleS.</p>
+        </div>
 
-        <h2>tripleS Profile</h2>
-
-        <p>
-
-            Hayeon's journey as a member of tripleS.
-
-        </p>
-
-    </div>
-
-    <div class="triples-grid">
-
-        <div class="triples-card">
-
-            <span class="triples-label">
-
-                Member Number
-
-            </span>
+        <div class="triples-grid">
+          <div class="triples-card">
+            <span class="triples-label"> Member Number </span>
 
             <strong>S19</strong>
+          </div>
 
-        </div>
-
-        <div class="triples-card">
-
-            <span class="triples-label">
-
-                Group
-
-            </span>
+          <div class="triples-card">
+            <span class="triples-label"> Group </span>
 
             <strong>tripleS</strong>
+          </div>
 
-        </div>
-
-        <div class="triples-card">
-
-            <span class="triples-label">
-
-                Agency
-
-            </span>
+          <div class="triples-card">
+            <span class="triples-label"> Agency </span>
 
             <strong>MODHAUS</strong>
+          </div>
 
-        </div>
-
-        <div class="triples-card">
-
-            <span class="triples-label">
-
-                First Revealed
-
-            </span>
+          <div class="triples-card">
+            <span class="triples-label"> First Revealed </span>
 
             <strong>December 23, 2023</strong>
+          </div>
 
-        </div>
-
-        <div class="triples-card">
-
-            <span class="triples-label">
-
-                First Musical Appearance
-
-            </span>
+          <div class="triples-card">
+            <span class="triples-label"> First Musical Appearance </span>
 
             <strong>NXT - Just Do It</strong>
+          </div>
 
-        </div>
-
-        <div class="triples-card">
-
-            <span class="triples-label">
-
-                Official Debut
-
-            </span>
+          <div class="triples-card">
+            <span class="triples-label"> Official Debut </span>
 
             <strong>May 8, 2024</strong>
+          </div>
 
-        </div>
-
-        <div class="triples-card">
-
-            <span class="triples-label">
-
-                Debut Album
-
-            </span>
+          <div class="triples-card">
+            <span class="triples-label"> Debut Album </span>
 
             <strong>ASSEMBLE24</strong>
+          </div>
 
-        </div>
-
-        <div class="triples-card">
-
-            <span class="triples-label">
-
-                Title Track
-
-            </span>
+          <div class="triples-card">
+            <span class="triples-label"> Title Track </span>
 
             <strong>Girls Never Die</strong>
+          </div>
 
-        </div>
-
-        <div class="triples-card">
-
-            <span class="triples-label">
-
-                Current Units
-
-            </span>
+          <div class="triples-card">
+            <span class="triples-label"> Current Units </span>
 
             <strong>NXT · Alphie · Zenith</strong>
+          </div>
 
-        </div>
-
-        <div class="triples-card">
-
-            <span class="triples-label">
-
-                Leader Of
-
-            </span>
+          <div class="triples-card">
+            <span class="triples-label"> Leader Of </span>
 
             <strong>Zenith</strong>
+          </div>
 
-        </div>
-
-        <div class="triples-card">
-
-            <span class="triples-label">
-
-                Academy prior to debuting
-
-            </span>
+          <div class="triples-card">
+            <span class="triples-label"> Academy prior to debuting </span>
 
             <strong>FLAT9 Dance & Vocal Academy</strong>
+          </div>
 
-        </div>
-
-        <div class="triples-card">
-
-            <span class="triples-label">
-
-                Position
-
-            </span>
+          <div class="triples-card">
+            <span class="triples-label"> Position </span>
 
             <strong>All-rounder</strong>
-
+          </div>
         </div>
+      </section>
 
-    </div>
-
-</section>
-
-<!-- ==========================================
+      <!-- ==========================================
      FAVORITES
 ========================================== -->
 
-<section class="profile-section">
+      <section class="profile-section">
+        <div class="section-title">
+          <h2>❤️ Hayeon's Favorites</h2>
 
-    <div class="section-title">
+          <p>
+            A collection of Hayeon's favorite things, hobbies, games,
+            characters, and more.
+          </p>
+        </div>
 
-        <h2>❤️ Hayeon's Favorites</h2>
+        <!-- Favorite Foods -->
 
-        <p>
+        <div class="favorite-group">
+          <h3>🍽 Favorite Foods</h3>
 
-            A collection of Hayeon's favorite things, hobbies,
-            games, characters, and more.
-
-        </p>
-
-    </div>
-
-    <!-- Favorite Foods -->
-
-    <div class="favorite-group">
-
-        <h3>🍽 Favorite Foods</h3>
-
-        <div class="favorite-chips">
-
+          <div class="favorite-chips">
             <span>🍣 Sushi</span>
 
             <span>🦀 Seafood</span>
@@ -709,38 +463,29 @@ S840 100 1200 145"
             <span>🥩 Meat</span>
 
             <span>🌿🍫 Mint Chocolate </span>
-
-
+          </div>
         </div>
 
-    </div>
+        <!-- Hobbies -->
 
-    <!-- Hobbies -->
+        <div class="favorite-group">
+          <h3>✍️ Hobbies</h3>
 
-    <div class="favorite-group">
-
-        <h3>✍️ Hobbies</h3>
-
-        <div class="favorite-chips">
-
+          <div class="favorite-chips">
             <span>✍️ Writing</span>
 
             <span>🍽 Eating</span>
 
             <span>☕ Visiting Fancy Cafés</span>
-
+          </div>
         </div>
 
-    </div>
+        <!-- Games -->
 
-    <!-- Games -->
+        <div class="favorite-group">
+          <h3>🎮 Favorite Games</h3>
 
-    <div class="favorite-group">
-
-        <h3>🎮 Favorite Games</h3>
-
-        <div class="favorite-chips">
-
+          <div class="favorite-chips">
             <span>⛏ Minecraft</span>
 
             <span>🧱 Roblox</span>
@@ -748,273 +493,195 @@ S840 100 1200 145"
             <span>🔫 PUBG</span>
 
             <span>🦸 Overwatch</span>
-
+          </div>
         </div>
 
-    </div>
+        <!-- Characters -->
 
-    <!-- Characters -->
+        <div class="favorite-group">
+          <h3>🎬 Favorite Characters</h3>
 
-    <div class="favorite-group">
-
-        <h3>🎬 Favorite Characters</h3>
-
-        <div class="favorite-chips">
-
+          <div class="favorite-chips">
             <span>🍌 Minions from Despicable Me</span>
 
             <span>🌳 Totoro from My Neighbor Totoro</span>
 
             <span>🐧 Petty from Pororo</span>
-
+          </div>
         </div>
 
-    </div>
+        <!-- Music -->
 
-    <!-- Music -->
+        <div class="favorite-group">
+          <h3>🎵 Music Taste</h3>
 
-<div class="favorite-group">
+          <div class="favorite-chips">
+            <span>🎧 R&B</span>
+          </div>
 
-    <h3>🎵 Music Taste</h3>
+          <div class="spotify-card">
+            <h4>Hayeon's Music Recommendations</h4>
 
-    <div class="favorite-chips">
+            <p>
+              Songs recommended by Hayeon throughout livestreams, Fromm, Cosmo
+              Talk, interviews, and other official content.
+            </p>
 
-        <span>🎧 R&B</span>
+            <a
+              href="https://open.spotify.com/playlist/0E05YoWcr1FsYBOWowDJd7?si=qmDiSxz0Qy6MWs32K7-mXA&utm_source=copy-link"
+              target="_blank"
+              rel="noopener"
+            >
+              🎵 Open Playlist
+            </a>
+          </div>
+        </div>
 
-    </div>
+        <!-- Dislikes -->
 
-    <div class="spotify-card">
+        <div class="favorite-group">
+          <h3>🚫 Dislikes</h3>
 
-        <h4>Hayeon's Music Recommendations</h4>
-
-        <p>
-
-            Songs recommended by Hayeon throughout
-            livestreams, Fromm, Cosmo Talk, interviews,
-            and other official content.
-
-        </p>
-
-        <a
-             href="https://open.spotify.com/playlist/0E05YoWcr1FsYBOWowDJd7?si=qmDiSxz0Qy6MWs32K7-mXA&utm_source=copy-link"
-            target="_blank"
-            rel="noopener">
-
-            🎵 Open Playlist
-
-        </a>
-
-    </div>
-
-</div>
-
-    <!-- Dislikes -->
-
-    <div class="favorite-group">
-
-        <h3>🚫 Dislikes</h3>
-
-        <div class="favorite-chips">
-
+          <div class="favorite-chips">
             <span>🍊 Oranges</span>
 
             <span>🥒 Cucumbers</span>
 
             <span>🍈 Melons</span>
-
+          </div>
         </div>
+      </section>
 
-    </div>
-
-</section>
-
-<!-- ==========================================
+      <!-- ==========================================
      FUN FACTS
 ========================================== -->
 
-<section class="profile-section">
+      <section class="profile-section">
+        <div class="section-title">
+          <h2>⭐ Fun Facts</h2>
 
-    <div class="section-title">
+          <p>Interesting facts and milestones about Jeong HaYeon.</p>
+        </div>
 
-        <h2>⭐ Fun Facts</h2>
-
-        <p>
-
-            Interesting facts and milestones about
-            Jeong HaYeon.
-
-        </p>
-
-    </div>
-
-    <div class="facts-grid">
-
-        <article class="fact-card">
-
+        <div class="facts-grid">
+          <article class="fact-card">
             <div class="fact-icon">⬡</div>
 
             <h3>Hexagon</h3>
 
             <p>
-
-                During a profile activity, Hayeon
-                accidentally called a pentagon a
-                "hexagon." Fans loved the moment,
-                and "Hexagon" naturally became the
-                nickname for her personal fandom.
-
+              During a profile activity, Hayeon accidentally called a pentagon a
+              "hexagon." Fans loved the moment, and "Hexagon" naturally became
+              the nickname for her personal fandom.
             </p>
+          </article>
 
-        </article>
-
-        
-        <article class="fact-card">
-
+          <article class="fact-card">
             <div class="fact-icon">🎨</div>
 
             <h3>Artist</h3>
 
             <p>
-
-                Hayeon created the artwork for the
-                2025 April Fool's Day Objekt
-                (357Z).
-
+              Hayeon created the artwork for the 2025 April Fool's Day Objekt
+              (357Z).
             </p>
+          </article>
 
-        </article>
-
-        <article class="fact-card">
-
+          <article class="fact-card">
             <div class="fact-icon">🎤</div>
 
             <h3>Whistle Register</h3>
 
             <p>
-
-                She performed the whistle notes in
-                <strong>Just Do It</strong> after
-                Joobin encouraged her to record them.
-
+              She performed the whistle notes in
+              <strong>Just Do It</strong> after Joobin encouraged her to record
+              them.
             </p>
+          </article>
 
-        </article>
-
-        <article class="fact-card">
-
+          <article class="fact-card">
             <div class="fact-icon">🎓</div>
 
             <h3>Education</h3>
 
             <p>
-HaYeon attended Samhyeon Elementary School, Minrak Middle School, and
-                Graduated from
-                <strong>Lila Art High School</strong>
-                on February 11, 2026.
-
+              HaYeon attended Samhyeon Elementary School, Minrak Middle School,
+              and Graduated from
+              <strong>Lila Art High School</strong>
+              on February 11, 2026.
             </p>
+          </article>
 
-        </article>
-
-        <article class="fact-card">
-
+          <article class="fact-card">
             <div class="fact-icon">🎭</div>
 
             <h3>Family</h3>
 
             <p>
-
-                Hayeon is the niece of South Korean
-                actor <strong>Im Hyung-joon</strong>,
-                known for the
-                <strong>Marrying the Mafia</strong>
-                film series.
-
+              Hayeon is the niece of South Korean actor
+              <strong>Im Hyung-joon</strong>, known for the
+              <strong>Marrying the Mafia</strong>
+              film series.
             </p>
+          </article>
 
-        </article>
-
-        <article class="fact-card">
-
+          <article class="fact-card">
             <div class="fact-icon">💃</div>
 
             <h3>Training</h3>
 
             <p>
-
-                Before debuting, Hayeon trained at
-                FLAT9 Dance & Vocal Academy,
-                alongside fellow tripleS members
-                Dahyun and Joobin.
-
+              Before debuting, Hayeon trained at FLAT9 Dance & Vocal Academy,
+              alongside fellow tripleS members Dahyun and Joobin.
             </p>
+          </article>
 
-        </article>
-
-        <article class="fact-card">
-
+          <article class="fact-card">
             <div class="fact-icon">🌟</div>
 
             <h3>Childhood Dream</h3>
 
             <p>
-
-                She admired Chaeyeon after watching
-                <em>Tok!Tok! Boni, Hani</em> as a
-                child. Years later they debuted
-                together in tripleS.
-
+              She admired Chaeyeon after watching
+              <em>Tok!Tok! Boni, Hani</em> as a child. Years later they debuted
+              together in tripleS.
             </p>
+          </article>
 
-        </article>
-
-        <article class="fact-card">
-
+          <article class="fact-card">
             <div class="fact-icon">👨‍👩‍👧</div>
 
             <h3>Family</h3>
 
             <p>
-
-                HaYeon was born in Pyeongchon-dong, Dongan-gu, Anyang, Gyeonggi-do, South Korea on August 1, 2007. Her family consists of her parents and one older brother (born 2004)
-
+              HaYeon was born in Pyeongchon-dong, Dongan-gu, Anyang,
+              Gyeonggi-do, South Korea on August 1, 2007. Her family consists of
+              her parents and one older brother (born 2004)
             </p>
+          </article>
 
-        </article>
-
-        <article class="fact-card">
-
+          <article class="fact-card">
             <div class="fact-icon">🐬</div>
 
             <h3>Special Talent</h3>
 
             <p>
-
-                One of her specialties is singing
-                extremely high notes, which she
-                jokingly describes as sounding like
-                a dolphin.
-
+              One of her specialties is singing extremely high notes, which she
+              jokingly describes as sounding like a dolphin.
             </p>
+          </article>
+        </div>
+      </section>
+    </main>
 
-        </article>
-
-    </div>
-
-</section>
-
-</main>
-
-<!-- ==========================================
+    <!-- ==========================================
      FOOTER
 ========================================== -->
 
-<div id="footer"></div>
+    <div id="footer"></div>
 
-<script src="js/components.js"></script>
+    <script src="js/components.js"></script>
 
-<script src="js/script.js"></script>
-
-</body>
-
+    <script src="js/script.js"></script>
+  </body>
 </html>

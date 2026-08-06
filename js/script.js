@@ -1,84 +1,63 @@
 const b = document.getElementById("mode");
 
 function updateThemeButton() {
+  const dark = document.documentElement.classList.contains("dark");
 
-    const dark = document.documentElement.classList.contains("dark");
-
-    b.textContent = dark ? "☀️" : "🌙";
-
+  b.textContent = dark ? "☀️" : "🌙";
 }
 
 if (localStorage.theme === "dark") {
-
-    document.documentElement.classList.add("dark");
-
+  document.documentElement.classList.add("dark");
 }
 
 updateThemeButton();
 
 b.addEventListener("click", () => {
+  document.documentElement.classList.toggle("dark");
 
-    document.documentElement.classList.toggle("dark");
+  localStorage.theme = document.documentElement.classList.contains("dark")
+    ? "dark"
+    : "light";
 
-    localStorage.theme =
-        document.documentElement.classList.contains("dark")
-            ? "dark"
-            : "light";
+  b.classList.add("spin");
 
-    b.classList.add("spin");
+  updateThemeButton();
 
-    updateThemeButton();
-
-    setTimeout(() => {
-
-        b.classList.remove("spin");
-
-    }, 400);
-
+  setTimeout(() => {
+    b.classList.remove("spin");
+  }, 400);
 });
 
 /* ==========================================
    HOME - LATEST GALLERY
 ========================================== */
 
-async function loadLatestGallery(){
+async function loadLatestGallery() {
+  const container = document.getElementById("latest-gallery");
 
-    const container =
-        document.getElementById("latest-gallery");
+  if (!container) return;
 
-    if(!container) return;
+  try {
+    const response = await fetch("assets/gallery/albums.json");
 
-    try{
+    const albums = await response.json();
 
-        const response =
-            await fetch("assets/gallery/albums.json");
+    container.innerHTML = albums
+      .slice(0, 3)
+      .map((album) => {
+        const cover = album.info.cover || "";
 
-        const albums =
-            await response.json();
+        const isVideo = cover.toLowerCase().endsWith(".mp4");
 
-        container.innerHTML =
-            albums
-            .slice(0,3)
-            .map(album=>{
+        const mediaCount = album.info.files.length + album.info.video.length;
 
-    const cover = album.info.cover || "";
-
-    const isVideo =
-        cover.toLowerCase().endsWith(".mp4");
-
-    const mediaCount =
-        album.info.files.length +
-        album.info.video.length;
-
-    return `
+        return `
 
 <article class="home-album-card">
 
     ${
-        isVideo
-        ?
-
-`<video
+      isVideo
+        ? `<video
     muted
     playsinline
     preload="metadata"
@@ -87,10 +66,7 @@ async function loadLatestGallery(){
         src="assets/gallery/${album.path}/${cover}"
         type="video/mp4">
 </video>`
-
-        :
-
-`<img
+        : `<img
     src="assets/gallery/${album.path}/${cover}"
     alt="${album.info.title}"
 >`
@@ -115,17 +91,11 @@ async function loadLatestGallery(){
 </article>
 
 `;
-
-}).join("");
-
-    }
-
-    catch(error){
-
-        console.error(error);
-
-    }
-
+      })
+      .join("");
+  } catch (error) {
+    console.error(error);
+  }
 }
 
 loadLatestGallery();
@@ -134,36 +104,27 @@ loadLatestGallery();
    HOME - LATEST fromm
 ========================================== */
 
-async function loadLatestfromm(){
+async function loadLatestfromm() {
+  const container = document.getElementById("latest-fromm");
 
-    const container =
-        document.getElementById("latest-fromm");
+  if (!container) return;
 
-    if(!container) return;
+  try {
+    const response = await fetch("assets/fromm/archive.json");
 
-    try{
+    const archive = await response.json();
 
-        const response =
-            await fetch("assets/fromm/archive.json");
+    if (!archive.length) {
+      container.textContent = "No conversations found.";
 
-        const archive =
-            await response.json();
+      return;
+    }
 
-        if(!archive.length){
+    const latest = archive[0];
 
-            container.textContent =
-                "No conversations found.";
+    const date = latest.folder.replace(/\//g, ".");
 
-            return;
-
-        }
-
-        const latest = archive[0];
-
-        const date =
-         latest.folder.replace(/\//g, ".");
-
-        container.innerHTML = `
+    container.innerHTML = `
 
 <div class="latest-fromm-left">
 
@@ -208,15 +169,9 @@ async function loadLatestfromm(){
 </div>
 
 `;
-
-    }
-
-    catch(error){
-
-        console.error(error);
-
-    }
-
+  } catch (error) {
+    console.error(error);
+  }
 }
 
 loadLatestfromm();
@@ -231,110 +186,68 @@ let currentHero = 0;
 
 let showingA = true;
 
-async function loadHero(){
+async function loadHero() {
+  try {
+    const response = await fetch("data/featured.json");
 
-    try{
+    heroItems = await response.json();
 
-        const response =
-            await fetch("data/featured.json");
+    if (!heroItems.length) return;
 
-        heroItems =
-            await response.json();
+    const imageA = document.getElementById("hero-image-a");
 
-        if(!heroItems.length)
-            return;
+    const imageB = document.getElementById("hero-image-b");
 
-        const imageA =
-            document.getElementById("hero-image-a");
+    const title = document.getElementById("hero-title");
 
-        const imageB =
-            document.getElementById("hero-image-b");
+    const date = document.getElementById("hero-date");
 
-        const title =
-            document.getElementById("hero-title");
+    imageA.src = heroItems[0].image;
 
-        const date =
-            document.getElementById("hero-date");
+    imageA.classList.add("active");
 
-        imageA.src =
-            heroItems[0].image;
+    title.textContent = heroItems[0].title;
 
-        imageA.classList.add("active");
+    date.textContent = heroItems[0].date;
 
-        title.textContent =
-            heroItems[0].title;
-
-        date.textContent =
-            heroItems[0].date;
-
-        setInterval(
-            changeHero,
-            6000
-        );
-
-    }
-
-    catch(error){
-
-        console.error(error);
-
-    }
-
+    setInterval(changeHero, 6000);
+  } catch (error) {
+    console.error(error);
+  }
 }
 
-function changeHero(){
+function changeHero() {
+  if (heroItems.length < 2) return;
 
-    if(heroItems.length < 2)
-        return;
+  currentHero = (currentHero + 1) % heroItems.length;
 
-    currentHero =
-        (currentHero + 1) %
-        heroItems.length;
+  const hero = heroItems[currentHero];
 
-    const hero =
-        heroItems[currentHero];
+  const imageA = document.getElementById("hero-image-a");
 
-    const imageA =
-        document.getElementById("hero-image-a");
+  const imageB = document.getElementById("hero-image-b");
 
-    const imageB =
-        document.getElementById("hero-image-b");
+  const title = document.getElementById("hero-title");
 
-    const title =
-        document.getElementById("hero-title");
+  const date = document.getElementById("hero-date");
 
-    const date =
-        document.getElementById("hero-date");
+  const nextImage = showingA ? imageB : imageA;
 
-    const nextImage =
-        showingA
-            ? imageB
-            : imageA;
+  const currentImage = showingA ? imageA : imageB;
 
-    const currentImage =
-        showingA
-            ? imageA
-            : imageB;
+  nextImage.src = hero.image;
 
-    nextImage.src =
-        hero.image;
+  nextImage.onload = () => {
+    nextImage.classList.add("active");
 
-    nextImage.onload = () => {
+    currentImage.classList.remove("active");
 
-        nextImage.classList.add("active");
+    title.textContent = hero.title;
 
-        currentImage.classList.remove("active");
+    date.textContent = hero.date;
 
-        title.textContent =
-            hero.title;
-
-        date.textContent =
-            hero.date;
-
-        showingA = !showingA;
-
-    };
-
+    showingA = !showingA;
+  };
 }
 
 loadHero();
