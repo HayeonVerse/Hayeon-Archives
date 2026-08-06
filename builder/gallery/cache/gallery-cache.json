@@ -12980,6 +12980,33 @@
                 }
             },
             "updated": 1785844563634
+        },
+        "2026/August/06 - TripleS Cosmo Blog Baby Flower 1st Week Behind": {
+            "fingerprint": "6809a4c9f9c84da88f0419930e4043162fd3a1a5",
+            "album": {
+                "path": "2026/August/06 - TripleS Cosmo Blog Baby Flower 1st Week Behind",
+                "info": {
+                    "title": "TripleS Cosmo Blog Baby Flower 1st Week Behind",
+                    "date": "August 06",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "group-01.jpg",
+                    "files": [
+                        "group-01.jpg",
+                        "group-02.jpg",
+                        "image-01.jpg",
+                        "image-02.jpg",
+                        "image-03.jpg",
+                        "image-04.jpg",
+                        "image-05.jpg",
+                        "image-06.jpg",
+                        "image-07.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1786023311425
         }
     }
 }
