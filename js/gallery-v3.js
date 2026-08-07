@@ -12,6 +12,39 @@ const lightboxImage = document.getElementById("lightbox-image");
 const lightboxVideo = document.getElementById("lightbox-video");
 const closeButton = document.getElementById("close-lightbox");
 
+const IMAGE_EXTENSIONS = new Set(["jpg", "jpeg", "png", "gif", "webp"]);
+const YOUTUBE_ID_PATTERN =
+  /(?:youtube\.com\/watch\?v=|youtu\.be\/|\/shorts\/)([a-zA-Z0-9_-]{11})/;
+
+function isImageFile(fileName) {
+  if (!fileName) return false;
+  const ext = fileName.split(".").pop().toLowerCase();
+  return IMAGE_EXTENSIONS.has(ext);
+}
+
+function normalizeVideoList(videoList) {
+  if (!Array.isArray(videoList)) return [];
+  return videoList.filter(Boolean);
+}
+
+function getYoutubeVideoId(url) {
+  if (!url) return null;
+  const match = url.match(YOUTUBE_ID_PATTERN);
+  return match ? match[1] : null;
+}
+
+function setLightboxMediaState(type, isVisible) {
+  if (lightboxImage) {
+    lightboxImage.style.display =
+      type === "image" && isVisible ? "block" : "none";
+  }
+
+  if (lightboxVideo) {
+    lightboxVideo.style.display =
+      type === "video" && isVisible ? "block" : "none";
+  }
+}
+
 let currentAlbum = [];
 let currentAlbumPath = "";
 let currentMediaIndex = 0;
@@ -44,23 +77,15 @@ function updateStats() {
   loadedAlbums.forEach((album) => {
     // Count local files
     album.info.files.forEach((file) => {
-      const ext = file.split(".").pop().toLowerCase();
-
-      if (["jpg", "jpeg", "png", "gif", "webp"].includes(ext)) {
+      if (isImageFile(file)) {
         photos++;
       } else {
         videos++;
       }
     });
 
-    // Count YouTube links
-    if (album.info.video) {
-      if (Array.isArray(album.info.video)) {
-        youtube += album.info.video.length;
-      } else {
-        youtube++;
-      }
-    }
+    const youtubeVideos = normalizeVideoList(album.info.video);
+    youtube += youtubeVideos.length;
   });
 
   document.getElementById("gallery-albums").textContent = albums;
@@ -77,19 +102,9 @@ function filterAlbums(albums) {
   return albums.filter((album) => {
     const files = album.info.files || [];
 
-    const hasImage = files.some((file) => {
-      const ext = file.split(".").pop().toLowerCase();
-      return ["jpg", "jpeg", "png", "gif", "webp"].includes(ext);
-    });
-
-    const hasVideo = files.some((file) => {
-      const ext = file.split(".").pop().toLowerCase();
-      return !["jpg", "jpeg", "png", "gif", "webp"].includes(ext);
-    });
-
-    const hasYoutube =
-      album.info.video &&
-      (Array.isArray(album.info.video) ? album.info.video.length : true);
+    const hasImage = files.some(isImageFile);
+    const hasVideo = files.some((file) => !isImageFile(file));
+    const hasYoutube = normalizeVideoList(album.info.video).length > 0;
 
     switch (currentFilter) {
       case "image":
@@ -113,35 +128,14 @@ function filterAlbums(albums) {
 function getYoutubeEmbed(url) {
   if (!url) return "";
 
-  if (url.includes("youtu.be/")) {
-    const id = url.split("youtu.be/")[1].split("?")[0];
-    return `https://www.youtube.com/embed/${id}`;
-  }
-
-  if (url.includes("watch?v=")) {
-    return url.replace("watch?v=", "embed/").split("&")[0];
-  }
-
-  if (url.includes("/shorts/")) {
-    return url.replace("/shorts/", "/embed/");
-  }
-
-  return url;
+  const id = getYoutubeVideoId(url);
+  return id ? `https://www.youtube.com/embed/${id}` : url;
 }
 
 function getYoutubeThumbnail(url) {
   if (!url) return "";
 
-  let id = "";
-
-  if (url.includes("youtu.be/")) {
-    id = url.split("youtu.be/")[1].split("?")[0];
-  } else if (url.includes("watch?v=")) {
-    id = url.split("watch?v=")[1].split("&")[0];
-  } else if (url.includes("/shorts/")) {
-    id = url.split("/shorts/")[1].split("?")[0];
-  }
-
+  const id = getYoutubeVideoId(url);
   return id ? `https://i.ytimg.com/vi/${id}/hqdefault.jpg` : "";
 }
 
@@ -323,8 +317,7 @@ function renderArchive(archive) {
           if (monthContent.children.length === 0) {
             const dayGrid = document.createElement("div");
             dayGrid.className = "archive-days";
-
-            const fragment = document.createDocumentFragment();
+            monthContent.appendChild(dayGrid);
 
             const days = archive[year][month].sort((a, b) =>
               sortOrder === "desc"
@@ -332,21 +325,26 @@ function renderArchive(archive) {
                 : Number(a.day) - Number(b.day),
             );
 
-            for (const dayGroup of days) {
-              fragment.appendChild(createDay(dayGroup));
+            let dayIndex = 0;
+
+            function renderNextBatch() {
+              const fragment = document.createDocumentFragment();
+              const endIndex = Math.min(dayIndex + 2, days.length);
+
+              while (dayIndex < endIndex) {
+                fragment.appendChild(createDay(days[dayIndex]));
+                dayIndex++;
+              }
+
+              dayGrid.appendChild(fragment);
+
+              if (dayIndex < days.length) {
+                requestAnimationFrame(renderNextBatch);
+              }
             }
 
-            dayGrid.appendChild(fragment);
-            monthContent.appendChild(dayGrid);
+            requestAnimationFrame(renderNextBatch);
           }
-
-          // scroll
-          setTimeout(() => {
-            monthHeader.scrollIntoView({
-              behavior: "smooth",
-              block: "start",
-            });
-          }, 50);
         };
 
         monthBox.appendChild(monthHeader);
@@ -382,8 +380,7 @@ function createDay(dayGroup) {
     videos = 0;
 
   files.forEach((f) => {
-    const ext = f.split(".").pop().toLowerCase();
-    if (["jpg", "jpeg", "png", "gif", "webp"].includes(ext)) photos++;
+    if (isImageFile(f)) photos++;
     else videos++;
   });
 
@@ -407,14 +404,12 @@ function createDay(dayGroup) {
     album.previewLoaded = false;
 
     const previewFiles = album.info.files.slice(0, 4);
-
-    const hiddenCount = album.info.files.length - 4;
+    const previewFragment = document.createDocumentFragment();
 
     previewFiles.forEach((file, index) => {
-      const ext = file.split(".").pop().toLowerCase();
       const src = `assets/gallery/${album.path}/${file}`;
 
-      if (["jpg", "jpeg", "png", "gif", "webp"].includes(ext)) {
+      if (isImageFile(file)) {
         const img = document.createElement("img");
 
         img.src = src;
@@ -425,7 +420,7 @@ function createDay(dayGroup) {
           openAlbum(album.path, index);
         };
 
-        grid.appendChild(img);
+        previewFragment.appendChild(img);
       } else {
         const vid = document.createElement("video");
 
@@ -440,15 +435,17 @@ function createDay(dayGroup) {
           openAlbum(album.path, index);
         };
 
-        grid.appendChild(vid);
+        previewFragment.appendChild(vid);
       }
     });
 
-    const videos = Array.isArray(album.info.video)
-      ? album.info.video
-      : album.info.video
+    const videos = normalizeVideoList(
+      Array.isArray(album.info.video)
+        ? album.info.video
+        : album.info.video
         ? [album.info.video]
-        : [];
+        : [],
+    );
 
     videos.forEach((videoUrl) => {
       const wrapper = document.createElement("div");
@@ -479,8 +476,10 @@ function createDay(dayGroup) {
         openYoutube(videoUrl);
       };
 
-      grid.appendChild(wrapper);
+      previewFragment.appendChild(wrapper);
     });
+
+    grid.appendChild(previewFragment);
   });
 
   media.appendChild(grid);
@@ -509,47 +508,48 @@ function loadRemainingPreview(box, grid) {
   if (box.dataset.previewLoaded) return;
 
   box.dataset.previewLoaded = "true";
+  const albums = Array.from(grid.albumData || []);
+  let albumIndex = 0;
 
-  grid.albumData.forEach((album) => {
+  function processNextAlbum() {
+    if (albumIndex >= albums.length) return;
+
+    const album = albums[albumIndex++];
     const remainingFiles = album.info.files.slice(4);
+    const extraFragment = document.createDocumentFragment();
 
     remainingFiles.forEach((file, index) => {
-      const ext = file.split(".").pop().toLowerCase();
-
       const src = `assets/gallery/${album.path}/${file}`;
 
-      if (["jpg", "jpeg", "png", "gif", "webp"].includes(ext)) {
+      if (isImageFile(file)) {
         const img = document.createElement("img");
-
         img.src = src;
         img.loading = "lazy";
-
         img.onclick = (e) => {
           e.stopPropagation();
-
           openAlbum(album.path, index + 4);
         };
-
-        grid.appendChild(img);
+        extraFragment.appendChild(img);
       } else {
         const vid = document.createElement("video");
-
         vid.src = src;
         vid.muted = true;
         vid.preload = "metadata";
         vid.playsInline = true;
         vid.disablePictureInPicture = true;
-
         vid.onclick = (e) => {
           e.stopPropagation();
-
           openAlbum(album.path, index + 4);
         };
-
-        grid.appendChild(vid);
+        extraFragment.appendChild(vid);
       }
     });
-  });
+
+    grid.appendChild(extraFragment);
+    requestAnimationFrame(processNextAlbum);
+  }
+
+  requestAnimationFrame(processNextAlbum);
 }
 
 /* -----------------------------
@@ -559,8 +559,7 @@ function openImage(src) {
   clearYT();
 
   lightbox.style.display = "flex";
-  lightboxImage.style.display = "block";
-  lightboxVideo.style.display = "none";
+  setLightboxMediaState("image", true);
 
   lightboxImage.src = src;
 }
@@ -569,10 +568,7 @@ function openVideo(src) {
   clearYT();
 
   lightbox.style.display = "flex";
-
-  lightboxImage.style.display = "none";
-
-  lightboxVideo.style.display = "block";
+  setLightboxMediaState("video", true);
 
   lightboxVideo.pause();
 
@@ -591,8 +587,8 @@ function openVideo(src) {
 
 function openYoutube(url) {
   lightbox.style.display = "flex";
-  lightboxImage.style.display = "none";
-  lightboxVideo.style.display = "none";
+  setLightboxMediaState("image", false);
+  setLightboxMediaState("video", false);
 
   clearYT();
 
@@ -645,9 +641,8 @@ function openAlbum(path, index) {
 function openCurrentMedia() {
   const file = currentAlbum[currentMediaIndex];
   const src = `assets/gallery/${currentAlbumPath}/${file}`;
-  const ext = file.split(".").pop().toLowerCase();
 
-  if (["jpg", "jpeg", "png", "gif", "webp"].includes(ext)) {
+  if (isImageFile(file)) {
     openImage(src);
   } else {
     openVideo(src);
