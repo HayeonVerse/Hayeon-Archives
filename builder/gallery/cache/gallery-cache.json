@@ -13046,6 +13046,25 @@
                 }
             },
             "updated": 1786024072164
+        },
+        "2026/August/08 - Cosmo Live Thumbnail": {
+            "fingerprint": "335678cb9a3d66d8ab70e27f4d90add9a7201f5c",
+            "album": {
+                "path": "2026/August/08 - Cosmo Live Thumbnail",
+                "info": {
+                    "title": "Cosmo Live Thumbnail",
+                    "date": "August 08",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "thumbnail - 나 놀아쥬.jpg",
+                    "files": [
+                        "thumbnail - 나 놀아쥬.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1786174496577
         }
     }
 }
