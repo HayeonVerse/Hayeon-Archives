@@ -1,5 +1,20 @@
 [
     {
+        "path": "2026/August/10 - Cosmo Talk",
+        "info": {
+            "title": "Cosmo Talk",
+            "date": "August 10",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "image-01.png",
+            "files": [
+                "image-01.png"
+            ],
+            "coverType": "image"
+        }
+    },
+    {
         "path": "2026/August/08 - Cosmo Live Thumbnail",
         "info": {
             "title": "Cosmo Live Thumbnail",

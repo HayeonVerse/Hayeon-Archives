@@ -1,0 +1,619 @@
+{
+  "date": "2026-08-10",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "모행",
+      "en": "What are you doing?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 양즈깐루 먹고있엉",
+      "en": "I'm eating Yangzi Ganlu."
+    },
+    {
+      "type": "hayeon",
+      "ko": "요즘 빠졌어",
+      "en": "I've been really into it lately."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니",
+      "en": "No, I mean,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "저녁으로 먹구있는데",
+      "en": "I'm having it for dinner,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이게 그릭요거트랑 망고랑 자몽이여서",
+      "en": "and since it's Greek yogurt, mango, and grapefruit,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "죄책감이 덜해",
+      "en": "I feel less guilty about it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "배전 티저나왔어~?",
+      "en": "Did the Badge War teaser come out~?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "보고올게",
+      "en": "I'll go watch it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "와우",
+      "en": "Wow."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㄹㅋㅋㄹㅋㄹㄹㅋㅋㄹ",
+      "en": "ㅋㄹㄹㅋㅋㄹㅋㄹㄹㅋㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 목소리 왤케많이나와",
+      "en": "Why does my voice come out so much?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "재밌겠다",
+      "en": "This looks fun."
+    },
+    {
+      "type": "hayeon",
+      "ko": "스케일 장난 아니였어",
+      "en": "The scale was insane."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 우리는 서바이벌 시켜놓으면",
+      "en": "Seriously, if you put us in a survival game,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "찐텐으로 싸워서 재밌어",
+      "en": "it's fun because we actually get into it and fight for real."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리 너무 진심으로 해서",
+      "en": "We take it way too seriously,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "끝나고 몇분동안 찐텐 어색",
+      "en": "that for a few minutes afterward it was genuinely awkward."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎ….",
+      "en": "ㅎㅎ…."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런느낌ㅎㅋㄹㅋㄹㅋ",
+      "en": "It was kind of like this ㅎㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "중간즁간 위기가 이ㅛ었는데",
+      "en": "There were some crises here and there in the middle,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그럴때마다 내가",
+      "en": "and whenever that happened, I'd go,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "방송이다 애들아!!!!! 방송!!!",
+      "en": "Guys, we're on a broadcast!!!!! Broadcast!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이럼",
+      "en": "like that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 구리구",
+      "en": "Oh, and then,"
+    },
+    {
+      "type": "hayeon",
+      "image": "image-01.png"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이거주려",
+      "en": "I'm going to give you this."
+    },
+    {
+      "type": "hayeon",
+      "ko": "와따",
+      "en": "There we go."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오랜만에 사진",
+      "en": "A photo for the first time in a while."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "완전 양즈깐루처럼 생김",
+      "en": "It looks exactly like Yangzi Ganlu."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "배지전쟁 근데",
+      "en": "But in Badge War,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "토론하는 장면",
+      "en": "the scene where we're debating"
+    },
+    {
+      "type": "hayeon",
+      "ko": "완전 핀조명이라",
+      "en": "has a really strong spotlight on us,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내얼굴 진짜 표독하게 나온다",
+      "en": "so my face looks really fierce."
+    },
+    {
+      "type": "hayeon",
+      "ko": "걱정되네 ㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "I'm a little worried ㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "몰라 재밌으면 됐지",
+      "en": "Whatever, as long as it's fun."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내일 아침일찍 나가야 되는데",
+      "en": "I have to leave early tomorrow morning,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "재밌을듯",
+      "en": "but it should be fun."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞아 누너예 파트 나와써",
+      "en": "Right, my part in 'Replay' came out."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 녹음하고 왔으",
+      "en": "I went and recorded it today."
+    },
+    {
+      "type": "hayeon",
+      "ko": "애드립 너무 많고",
+      "en": "There are so many ad-libs,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "곡이 진짜 생각보다 어려워",
+      "en": "and the song is honestly harder than I expected."
+    },
+    {
+      "type": "hayeon",
+      "ko": "느낌 살리는게 쉽지 않았어요",
+      "en": "It wasn't easy to capture the right feel."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 파트 맞춰봐",
+      "en": "Try to guess my part."
+    },
+    {
+      "type": "hayeon",
+      "ko": "음~",
+      "en": "Hmm~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐 맞춘사람도있고 틀린사람도 있고~",
+      "en": "Well, some of you got it right and some got it wrong~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "콘서트에서 공개됩니다",
+      "en": "It will be revealed at the concert."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이제 또 빡연습 들어가겠구만",
+      "en": "Looks like we're going into intense practice again."
+    },
+    {
+      "type": "hayeon",
+      "ko": "화이팅이당",
+      "en": "Fighting!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금 에어컨물 뚝뚝 떨어지는곳 바로 밑에서",
+      "en": "Right now, I'm sitting directly underneath a place where the air conditioner is dripping water,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "또 야무지게 먹는중이야",
+      "en": "and I'm eating away again."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고 갈머때 사진 봤는데",
+      "en": "And I looked at photos from when I had brown hair,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 안되겠어",
+      "en": "and I really can't do it anymore."
+    },
+    {
+      "type": "hayeon",
+      "ko": "덮어야겠어",
+      "en": "I need to cover it up."
+    },
+    {
+      "type": "hayeon",
+      "ko": "금발이 이뻐서 아쉽겠지만",
+      "en": "I know you might be sad because blonde looked pretty,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "갈발하면 하길 잘했다 하거같아 다들",
+      "en": "but I think once I go brown, everyone will say I made the right choice."
+    },
+    {
+      "type": "hayeon",
+      "ko": "누가 지우언니한테",
+      "en": "Someone told Jiwoo unnie"
+    },
+    {
+      "type": "hayeon",
+      "ko": "에어컨밑에서 뭐 먹는다고 말했어",
+      "en": "that I was eating under the air conditioner."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "에어컨밑에서 뭐먹냐고 연락옴",
+      "en": "She messaged me asking what I was eating under the air conditioner."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㅋㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㅋㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "소름 돋을뻔",
+      "en": "That almost gave me goosebumps."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지우언니 나 왤케 좋아하냐고 물업봐봐",
+      "en": "Ask Jiwoo unnie why she likes me so much."
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀여워서?",
+      "en": "Because I'm cute?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀여운건 알아가지구!",
+      "en": "At least she knows I'm cute!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "흥",
+      "en": "Hmph."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞다 오늘 빨리 자려고 했는데",
+      "en": "Oh right, I was going to sleep early today,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아까 녹음 끝나고 와서 ",
+      "en": "but after I came back from recording earlier,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "안녕자두야 또 보다가 잠들어서",
+      "en": "I fell asleep again while watching Hello Jadoo,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사실 한 9시쯤에 깼어",
+      "en": "and actually woke up around 9."
+    },
+    {
+      "type": "hayeon",
+      "ko": "안녕자두야가 은근 잠이 잘오ㅓ",
+      "en": "Hello Jadoo actually makes me sleepy pretty easily."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어릴때 티비보다 잠드는 느낌처럼",
+      "en": "It feels like falling asleep while watching TV when you're a kid."
+    },
+    {
+      "type": "hayeon",
+      "ko": "야근데완전 여름방학한초딩같애",
+      "en": "Hey, but this is totally like being an elementary school kid on summer vacation."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그런 감성을 추구하는중이야 ㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "That's the kind of vibe I'm going for ㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "엄마가 만든 간장계란밥 먹고",
+      "en": "Eating soy sauce egg rice made by Mom,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "소파에서 잠들락 말락하는",
+      "en": "dozing off on the sofa,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "엄마는 설거지하고있고",
+      "en": "Mom is doing the dishes,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오빠는 팽이돌리고 있고",
+      "en": "and my older brother is spinning a top."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔가 그감성",
+      "en": "That's the kind of vibe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그러고 있으면 저녁 돼서 ",
+      "en": "And then when evening comes,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "가족 다같이 ",
+      "en": "the whole family would"
+    },
+    {
+      "type": "hayeon",
+      "ko": "인라인 타러 나가고 줄넘기나 배드민턴 치고",
+      "en": "go out to rollerblade, jump rope, or play badminton together."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 추억이다",
+      "en": "It brings back so many memories."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐지? 나랑같은시대 사람이였어?",
+      "en": "What? Were you from the same era as me?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "07년생이 은근 옛날 감성이라니까",
+      "en": "I told you, being born in '07 has a surprisingly old-school vibe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리때는 그래도 이웃끼리 친하고 다같이 모이고",
+      "en": "Back then, neighbors were still close and everyone would gather together,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "애들 다같이 놀이터 나외서 놀고 그랬지",
+      "en": "and all the kids would go out and play at the playground together."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 진짜 07이 마지노선 느낌인게",
+      "en": "But honestly, '07 feels like the cutoff,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "07인데 맏이면 이런감성 잘 모름",
+      "en": "because if you're a 2007-liner and the oldest child, you might not really know this kind of vibe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 막내고 오빠 언니랑 자란애들은",
+      "en": "But if you're the youngest and grew up with older brothers and sisters,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이감성으로 자란 느낌",
+      "en": "it feels like you grew up with this kind of nostalgia."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐지",
+      "en": "What is this?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 젊꼰인가",
+      "en": "Am I becoming a young boomer?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "느꼈으니 다행이다…",
+      "en": "I'm glad you felt it too…"
+    },
+    {
+      "type": "hayeon",
+      "ko": " 경도랑 지탈 많이 했었는뎅",
+      "en": " I used to play Cops and Robbers and Jailbreak a lot too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "와와",
+      "en": "Wow wow."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 딱지치기",
+      "en": "I played ttakji."
+    },
+    {
+      "type": "hayeon",
+      "ko": "고무딱지",
+      "en": "Rubber ttakji."
+    },
+    {
+      "type": "hayeon",
+      "ko": "쿠키런 대왕 블랙딱지가 내 최애였음",
+      "en": "My favorite was the Cookie Run King Black Ttakji."
+    },
+    {
+      "type": "hayeon",
+      "ko": "동전넣고",
+      "en": "You'd put in a coin,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "딱지 뿌리는애들도 있었는데",
+      "en": "and there were also kids who would hand out ttakji."
+    },
+    {
+      "type": "hayeon",
+      "ko": "놀이터 정상에 올라가서",
+      "en": "They'd climb to the top of the playground"
+    },
+    {
+      "type": "hayeon",
+      "ko": "딱지 뿌린다~~~ 이러면",
+      "en": "and shout, \"I'm throwing ttakji~~~!\""
+    },
+    {
+      "type": "hayeon",
+      "ko": "애들 밑에서 기다리고있는",
+      "en": "while the kids waited below."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 뿌리는거엔 좋은거 잘 없었음",
+      "en": "But there usually wasn't anything good among the ones they threw."
+    },
+    {
+      "type": "hayeon",
+      "ko": "살짝 형광노랑 천사맛쿠키 딱지",
+      "en": "Like slightly fluorescent yellow Angel Cookie ttakji."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런거",
+      "en": "Stuff like that."
+    },
+    {
+      "type": "fan",
+      "ko": "그럼 하연이도 그 띠부씰 같은 거 모았었어???",
+      "en": "Then did you collect those sticker seals too???"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 안모았는데",
+      "en": "I didn't collect them,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리 오빠가 포켓몬 띠부실",
+      "en": "but my older brother collected Pokémon stickers"
+    },
+    {
+      "type": "hayeon",
+      "ko": "최근에도 모아서 ㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "and even recently, ㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나보고 막 포켓몬 빵 빨리 먹으라고",
+      "en": "He'd tell me to hurry up and eat the Pokémon bread"
+    },
+    {
+      "type": "hayeon",
+      "ko": "빵만주고 띠부실 가져가고",
+      "en": "and give me just the bread while taking the sticker."
+    },
+    {
+      "type": "fan",
+      "ko": "혹시 하연 누나 시대 때는 고무줄놀이나 구슬치기 이런 거했나요??",
+      "en": "Back in Hayeon unnie's time, did you play games like jump rope or marbles??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그정도는 아니야…",
+      "en": "Not that far back…"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이젠 나 다시 자러 가보께",
+      "en": "Now I'm going to go back to sleep."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘자구",
+      "en": "Sleep well."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해😘😘",
+      "en": "Haranghae😘😘"
+    }
+  ]
+}
