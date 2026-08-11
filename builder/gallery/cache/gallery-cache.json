@@ -13084,6 +13084,49 @@
                 }
             },
             "updated": 1786376638976
+        },
+        "2026/August/11 - X Post Lucky Factory": {
+            "fingerprint": "6d76813cae10be6680eb49fba8469a042768dc1d",
+            "album": {
+                "path": "2026/August/11 - X Post Lucky Factory",
+                "info": {
+                    "title": "X Post Lucky Factory",
+                    "date": "August 11",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "image-01.jpg",
+                    "files": [
+                        "image-01.jpg",
+                        "image-02.jpg",
+                        "image-03.jpg",
+                        "image-04.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1786443840201
+        },
+        "2026/August/11 - Youtube Lucky Factory": {
+            "fingerprint": "036fa7e8cb1ef9a6ba311e91b9917cdce68ede36",
+            "album": {
+                "path": "2026/August/11 - Youtube Lucky Factory",
+                "info": {
+                    "title": "Youtube Lucky Factory",
+                    "date": "August 11",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [
+                        "https://www.youtube.com/watch?v=y5ZBJBarwrU"
+                    ],
+                    "cover": "maxresdefault.jpg",
+                    "files": [
+                        "maxresdefault.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1786443840208
         }
     }
 }
