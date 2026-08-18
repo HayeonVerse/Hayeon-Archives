@@ -13129,7 +13129,7 @@
             "updated": 1786443840208
         },
         "2026/August/18 - X Post Lucky Factory": {
-            "fingerprint": "abcab75a8cac98912284ea95dc055b490e784adb",
+            "fingerprint": "5ca44e329e48645713bb5d64149c5f1c5fa07dfb",
             "album": {
                 "path": "2026/August/18 - X Post Lucky Factory",
                 "info": {
@@ -13138,15 +13138,16 @@
                     "source": "Archive",
                     "tags": [],
                     "video": [],
-                    "cover": "image-01.jpg",
+                    "cover": "23D1A4E5-10C4-4A08-BB37-7697D64ABE84.jpg",
                     "files": [
+                        "23D1A4E5-10C4-4A08-BB37-7697D64ABE84.jpg",
                         "image-01.jpg",
                         "image-02.jpg"
                     ],
                     "coverType": "image"
                 }
             },
-            "updated": 1787049259278
+            "updated": 1787050496529
         },
         "2026/August/18 - Youtube Lucky Factory": {
             "fingerprint": "baf7fe84cb45f3a9efce700c7b39ef353715745c",
