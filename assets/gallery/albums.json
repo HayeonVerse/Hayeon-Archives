@@ -1,5 +1,20 @@
 [
     {
+        "path": "2026/August/21 - Cosmo Talk",
+        "info": {
+            "title": "Cosmo Talk",
+            "date": "August 21",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "video-01.mp4",
+            "files": [
+                "video-01.mp4"
+            ],
+            "coverType": "video"
+        }
+    },
+    {
         "path": "2026/August/18 - X Post Lucky Factory",
         "info": {
             "title": "X Post Lucky Factory",
