@@ -13188,6 +13188,37 @@
                 }
             },
             "updated": 1787306188491
+        },
+        "2026/August/21 - Cosmo Blog Baby Flower Week 2 Behind": {
+            "fingerprint": "b91ecc928cb3f23fc2c5e2f6de381d9da338cfbc",
+            "album": {
+                "path": "2026/August/21 - Cosmo Blog Baby Flower Week 2 Behind",
+                "info": {
+                    "title": "Cosmo Blog Baby Flower Week 2 Behind",
+                    "date": "August 21",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "group-01.jpg",
+                    "files": [
+                        "group-01.jpg",
+                        "group-02.jpg",
+                        "group-03.jpg",
+                        "group-04.jpg",
+                        "group-05.jpg",
+                        "group-06.jpg",
+                        "image-01.jpg",
+                        "image-02.jpg",
+                        "image-03.jpg",
+                        "image-04.jpg",
+                        "image-05.jpg",
+                        "image-06.jpg",
+                        "image-07.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1787315796330
         }
     }
 }
