@@ -13259,6 +13259,48 @@
                 }
             },
             "updated": 1787819449914
+        },
+        "2026/August/27 - Cosmo Blog Badge War 4 Ep 1 Behind": {
+            "fingerprint": "6ebbd9ae607b63bcd27be076afd5adb56dfeaf5e",
+            "album": {
+                "path": "2026/August/27 - Cosmo Blog Badge War 4 Ep 1 Behind",
+                "info": {
+                    "title": "Cosmo Blog Badge War 4 Ep 1 Behind",
+                    "date": "August 27",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "group-01.jpg",
+                    "files": [
+                        "group-01.jpg",
+                        "group-02.jpg",
+                        "group-03.jpg",
+                        "group-04.jpg",
+                        "group-05.jpg",
+                        "group-06.jpg",
+                        "group-07.jpg",
+                        "group-08.jpg",
+                        "group-09.jpg",
+                        "group-10.jpg",
+                        "group-11.jpg",
+                        "group-12.jpg",
+                        "group-13.jpg",
+                        "group-14.jpg",
+                        "group-15.jpg",
+                        "image-01.jpg",
+                        "image-02.jpg",
+                        "image-03.jpg",
+                        "image-04.jpg",
+                        "image-05.jpg",
+                        "image-06.jpg",
+                        "image-07.jpg",
+                        "image-08.jpg",
+                        "image-09.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1787838677101
         }
     }
 }
