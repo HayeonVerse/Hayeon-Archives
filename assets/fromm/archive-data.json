@@ -1,5 +1,459 @@
 [
     {
+        "folder": "2026/08/29",
+        "date": "2026-08-29",
+        "messages": [
+            {
+                "type": "hayeon",
+                "ko": "모행",
+                "en": "What are you doing?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "난 방금 족발 먹었엉",
+                "en": "I just had jokbal."
+            },
+            {
+                "type": "hayeon",
+                "ko": "계속 족발 먹고싶었는데",
+                "en": "I've been wanting to eat jokbal this whole time,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "드디어 오늘 먹었다",
+                "en": "and I finally had it today."
+            },
+            {
+                "type": "hayeon",
+                "ko": "아니 배지전쟁 나온거 봤는데",
+                "en": "I watched the new episode of Badge War,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "리액션 왕 예상대로였어",
+                "en": "and the reaction king was exactly as expected."
+            },
+            {
+                "type": "hayeon",
+                "ko": "내 모든 운을 배전3에 다 쓴걸까..?",
+                "en": "Did I use up all my luck on Badge War 3..?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "분량땄으면 된거긴 해~~",
+                "en": "As long as I got screen time, that's enough~~"
+            },
+            {
+                "type": "fan",
+                "ko": "블록 쌓기 진짜 대신 해주고싶었어",
+                "en": "I really wanted to do the block stacking for you."
+            },
+            {
+                "type": "hayeon",
+                "ko": "아니 그거 생각보다 더 어렵다니까",
+                "en": "No, I'm telling you, that was harder than it looked."
+            },
+            {
+                "type": "hayeon",
+                "ko": "보기보다 엄청 무거워",
+                "en": "It was really heavy."
+            },
+            {
+                "type": "hayeon",
+                "ko": "내가 스트롱 걸이라 잘 든거임 ㅋ",
+                "en": "I was able to lift it because I'm a strong girl ㅋ"
+            },
+            {
+                "type": "hayeon",
+                "sticker": "sticker-01.gif"
+            },
+            {
+                "type": "fan",
+                "ko": "하연아 이번 시즌 왜이리 탱커의 역할이 된거야,,,",
+                "en": "Hayeon, why did you end up becoming the tank this season,,,?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "그니까 나 원래 딜런데…",
+                "en": "Exactly, I'm actually a damage dealer…"
+            },
+            {
+                "type": "fan",
+                "sticker": "sticker-02.gif"
+            },
+            {
+                "type": "fan",
+                "ko": "너랑 유연이가 달리기 전에 했던 그 장면도 진짜 너무 웃겼어ㅋㅋㅋㅋㅋㄹㄹㅋㄹㅋ",
+                "en": "That scene you and Yooyeon did before the race was so funnyㅋㅋㅋㅋㅋㄹㄹㅋㄹㅋ"
+            },
+            {
+                "type": "hayeon",
+                "ko": "ㅋㄹㅋㄹㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+                "en": "ㅋㄹㅋㄹㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+            },
+            {
+                "type": "hayeon",
+                "ko": "그거 달리기 하기 전에",
+                "en": "Before the race,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "유연언니랑 서로 막겠다고 다리 올리고있다가",
+                "en": "Yooyeon unnie and I were putting our legs up to block each other,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "피디님이",
+                "en": "and the PD said,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "유연하연 경고입니다",
+                "en": "\"Yooyeon and Hayeon, that's a warning.\""
+            },
+            {
+                "type": "hayeon",
+                "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+                "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ"
+            },
+            {
+                "type": "fan",
+                "ko": "하연은 왜 이렇게 매력이 넘치는 거야? 나 진짜 완전히 빠졌어",
+                "en": "Why are you so full of charm, Hayeon? I'm seriously completely hooked."
+            },
+            {
+                "type": "hayeon",
+                "ko": "나도 진짜 곤란해",
+                "en": "I'm really in trouble too."
+            },
+            {
+                "type": "hayeon",
+                "ko": "왜이렇게 매력적이여서",
+                "en": "Why are you so charming?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "참 ㅎㅎ",
+                "en": "Seriously ㅎㅎ"
+            },
+            {
+                "type": "fan",
+                "ko": "어우...",
+                "en": "Oh wow..."
+            },
+            {
+                "type": "hayeon",
+                "ko": "어우 이런다?",
+                "en": "Oh, you're doing this?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "이미 빠져있으면서 ㅎ",
+                "en": "When you're already hooked ㅎ"
+            },
+            {
+                "type": "hayeon",
+                "ko": "Y/n는 수영 못하나 보네",
+                "en": "Looks like Y/n can't swim."
+            },
+            {
+                "type": "hayeon",
+                "ko": "빠져나오질 못하고 있으니까",
+                "en": "Since you can't get out."
+            },
+            {
+                "type": "fan",
+                "ko": "할 줄 아는데 안 나가는 건데?",
+                "en": "I can swim, I just don't want to get out."
+            },
+            {
+                "type": "hayeon",
+                "ko": "그런거 같지",
+                "en": "That's what it seems like."
+            },
+            {
+                "type": "hayeon",
+                "ko": "내가 가둬놓은거야",
+                "en": "I'm the one keeping you trapped."
+            },
+            {
+                "type": "hayeon",
+                "ko": "나가고 싶어도 못나가지",
+                "en": "Even if you want to get out, you can't."
+            },
+            {
+                "type": "hayeon",
+                "ko": "어딜나가",
+                "en": "Where are you going?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "ㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎ",
+                "en": "ㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎ"
+            },
+            {
+                "type": "hayeon",
+                "ko": "그리고 배전때 주빈이랑 룸메였는데",
+                "en": "And I was roommates with Joobin during Badge War,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "일부로 그렇게 짜신건가",
+                "en": "I wonder if they intentionally arranged it that way."
+            },
+            {
+                "type": "hayeon",
+                "ko": "굴하지 않고 주빈이 킹받게 하기",
+                "en": "So I could keep getting on Joobin's nerves without backing down."
+            },
+            {
+                "type": "fan",
+                "ko": "빈이한테 꾬짝못하는거 신기",
+                "en": "It's amazing how you can't do anything against Bini."
+            },
+            {
+                "type": "hayeon",
+                "ko": "봐주는거지~",
+                "en": "I'm going easy on her~"
+            },
+            {
+                "type": "hayeon",
+                "ko": "근데 나도 놀란게",
+                "en": "But what surprised me too was,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "배전 보는데 내가",
+                "en": "when I watched Badge War, I looked"
+            },
+            {
+                "type": "hayeon",
+                "ko": "힘이 세보이더라고",
+                "en": "really strong."
+            },
+            {
+                "type": "fan",
+                "ko": "아무래도 벌크업 덕을 본거같아",
+                "en": "I think you have your bulking to thank for that."
+            },
+            {
+                "type": "hayeon",
+                "ko": "맞는듯",
+                "en": "I think so too."
+            },
+            {
+                "type": "hayeon",
+                "ko": "왼손에 김수민 오른손에 곽연지",
+                "en": "Kim SooMin in my left hand, Kwak YeonJi in my right,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "왼발 주빈 오른발 정혜린",
+                "en": "Joobin under my left foot, Jeong HyeRin under my right,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "이 라인업이면",
+                "en": "with this lineup,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "이렇게 떠도 내가 이길듯",
+                "en": "I think I'd still win even if they all came at me like this."
+            },
+            {
+                "type": "fan",
+                "ko": "채원이는 눈으로도 이기나?",
+                "en": "Would Chaewon win just with her eyes?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "걔는 입김만 불어도 이기고",
+                "en": "She'd win just by blowing on me,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "바람한번 불어주면 100미터는 날아가",
+                "en": "one gust of wind from her and I'd fly 100 meters."
+            },
+            {
+                "type": "hayeon",
+                "ko": "이번 게임에서",
+                "en": "In this game,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "나위 카리스마있고 멋있는 모습이 많이 담겨",
+                "en": "a lot of my charismatic and cool moments were captured,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "아주 만족합니다",
+                "en": "so I'm very satisfied."
+            },
+            {
+                "type": "hayeon",
+                "ko": "ㅋㄹㅋㅋㄹㅋㄹㅋㄹㄹㅋㅋ",
+                "en": "ㅋㄹㅋㅋㄹㅋㄹㅋㄹㄹㅋㅋ"
+            },
+            {
+                "type": "fan",
+                "ko": "하연이 요즘 스포하고 싶어서 입 근질근질하겠다 아주",
+                "en": "Hayeon, your mouth must be itching to spoil things these days."
+            },
+            {
+                "type": "hayeon",
+                "ko": "맞아 ",
+                "en": "Exactly."
+            },
+            {
+                "type": "hayeon",
+                "ko": "어디까지 말해야할지",
+                "en": "I don't know how much I'm allowed to say,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "이 썰 풀면 뒤에 내용알고",
+                "en": "because if I tell this story, you'll know what happens afterward,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "막 이래서",
+                "en": "and then it'll be like that,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "말이 막 막히네",
+                "en": "so I keep getting stuck on what to say."
+            },
+            {
+                "type": "fan",
+                "ko": "스파이 2명만 스포좀",
+                "en": "Just spoil the two spies for us."
+            },
+            {
+                "type": "hayeon",
+                "ko": "서연 지우",
+                "en": "SeoYeon, JiWoo"
+            },
+            {
+                "type": "hayeon",
+                "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+                "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+            },
+            {
+                "type": "fan",
+                "ko": "요원도 스포해줘",
+                "en": "Spoil the agent too."
+            },
+            {
+                "type": "hayeon",
+                "ko": "하연",
+                "en": "Hayeon"
+            },
+            {
+                "type": "hayeon",
+                "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+                "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ"
+            },
+            {
+                "type": "hayeon",
+                "ko": "밥먹은거 치우고 왔당",
+                "en": "I cleaned up after eating and came back."
+            },
+            {
+                "type": "hayeon",
+                "ko": "오버워치 신캐",
+                "en": "The new Overwatch character"
+            },
+            {
+                "type": "hayeon",
+                "ko": "나닮음",
+                "en": "looks like me."
+            },
+            {
+                "type": "hayeon",
+                "ko": "디몬",
+                "en": "Demon."
+            },
+            {
+                "type": "hayeon",
+                "ko": "ㅋ",
+                "en": "ㅋ"
+            },
+            {
+                "type": "hayeon",
+                "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+                "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ"
+            },
+            {
+                "type": "fan",
+                "ko": "오버워치 경쟁전 해봤어??",
+                "en": "Have you played Overwatch competitive??"
+            },
+            {
+                "type": "hayeon",
+                "ko": "나 해봤어",
+                "en": "I have."
+            },
+            {
+                "type": "hayeon",
+                "ko": "근데 2승하고 3연패 하길래",
+                "en": "But after winning two and then losing three in a row,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "멈춰있음",
+                "en": "I stopped."
+            },
+            {
+                "type": "hayeon",
+                "ko": "팀차이야",
+                "en": "It's a team diff."
+            },
+            {
+                "type": "hayeon",
+                "ko": "이건 내 잘못이 아니야",
+                "en": "This isn't my fault."
+            },
+            {
+                "type": "hayeon",
+                "ko": "나 샤워하러 가야겠어",
+                "en": "I should go take a shower."
+            },
+            {
+                "type": "hayeon",
+                "ko": "새로삼 스크럽을 빨리 해봐야대",
+                "en": "I bought a new scrub, so I need to try it soon."
+            },
+            {
+                "type": "hayeon",
+                "ko": "헤헤",
+                "en": "Hehe"
+            },
+            {
+                "type": "hayeon",
+                "ko": "소확행",
+                "en": "A little happiness."
+            },
+            {
+                "type": "hayeon",
+                "ko": "샤워하러 갈겡ㅇ",
+                "en": "I'm gonna go shower~~"
+            },
+            {
+                "type": "hayeon",
+                "ko": "맛있는거 먹구",
+                "en": "Eat something delicious,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "하랑해ㅐ~~",
+                "en": "Haranghae~~"
+            }
+        ]
+    },
+    {
         "folder": "2026/08/23",
         "date": "2026-08-23",
         "messages": [
