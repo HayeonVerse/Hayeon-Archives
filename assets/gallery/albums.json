@@ -1,5 +1,40 @@
 [
     {
+        "path": "2026/September/01 - X Post Lucky Factory",
+        "info": {
+            "title": "X Post Lucky Factory",
+            "date": "September 01",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "image-01.jpg",
+            "files": [
+                "image-01.jpg",
+                "image-02.jpg",
+                "image-03.jpg",
+                "image-04.jpg"
+            ],
+            "coverType": "image"
+        }
+    },
+    {
+        "path": "2026/September/01 - Youtube Lucky Factory",
+        "info": {
+            "title": "Youtube Lucky Factory",
+            "date": "September 01",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://www.youtube.com/watch?v=Iu-JvMXm3WM"
+            ],
+            "cover": "maxresdefault.jpg",
+            "files": [
+                "maxresdefault.jpg"
+            ],
+            "coverType": "image"
+        }
+    },
+    {
         "path": "2026/August/27 - Cosmo Blog Badge War 4 Ep 1 Behind",
         "info": {
             "title": "Cosmo Blog Badge War 4 Ep 1 Behind",
