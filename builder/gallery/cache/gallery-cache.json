@@ -13346,6 +13346,46 @@
                 }
             },
             "updated": 1788257372583
+        },
+        "2026/September/02 - Cosmo Vloge Badge War 4 Behind": {
+            "fingerprint": "4da062b07d9c146a9e49bd26d6f3a575ea5e6118",
+            "album": {
+                "path": "2026/September/02 - Cosmo Vloge Badge War 4 Behind",
+                "info": {
+                    "title": "Cosmo Vloge Badge War 4 Behind",
+                    "date": "September 02",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "group-01.jpg",
+                    "files": [
+                        "group-01.jpg",
+                        "group-02.jpg",
+                        "group-03.jpg",
+                        "group-04.jpg",
+                        "group-05.jpg",
+                        "group-06.jpg",
+                        "group-07.jpg",
+                        "group-08.jpg",
+                        "group-09.jpg",
+                        "image-01.jpg",
+                        "image-02.jpg",
+                        "image-03.jpg",
+                        "image-04.jpg",
+                        "image-05.jpg",
+                        "image-06.jpg",
+                        "image-07.jpg",
+                        "image-08.jpg",
+                        "image-09.jpg",
+                        "image-10.jpg",
+                        "image-11.jpg",
+                        "image-12.jpg",
+                        "image-013.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1788437827473
         }
     }
 }
