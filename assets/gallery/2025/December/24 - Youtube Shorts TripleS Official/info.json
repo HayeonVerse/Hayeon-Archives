@@ -7,6 +7,7 @@
         "https://www.youtube.com/shorts/LsOxfpgNraQ",
         "https://www.youtube.com/shorts/nS-bFgTBjYg"
     ],
-    "cover": null,
-    "files": []
+    "cover": "https://www.youtube.com/shorts/LsOxfpgNraQ",
+    "files": [],
+    "coverType": "youtube"
 }

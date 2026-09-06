@@ -7,5 +7,6 @@
     "cover": "melon.mp4",
     "files": [
         "melon.mp4"
-    ]
+    ],
+    "coverType": "video"
 }

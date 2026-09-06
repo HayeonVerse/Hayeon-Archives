@@ -9,5 +9,6 @@
     "cover": "password.mp4",
     "files": [
         "password.mp4"
-    ]
+    ],
+    "coverType": "video"
 }

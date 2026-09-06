@@ -7,5 +7,6 @@
     "cover": "princess.mp4",
     "files": [
         "princess.mp4"
-    ]
+    ],
+    "coverType": "video"
 }

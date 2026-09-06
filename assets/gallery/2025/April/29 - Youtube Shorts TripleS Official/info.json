@@ -7,5 +7,6 @@
     "cover": "school.mp4",
     "files": [
         "school.mp4"
-    ]
+    ],
+    "coverType": "video"
 }

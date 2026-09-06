@@ -1,5 +1,20 @@
 [
     {
+        "path": "2026/September/04 - Cosmo Live Thumbnail",
+        "info": {
+            "title": "Cosmo Live Thumbnail",
+            "date": "September 04",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "F677033A-715A-4968-958B-437F23F05F3B.jpg",
+            "files": [
+                "F677033A-715A-4968-958B-437F23F05F3B.jpg"
+            ],
+            "coverType": "image"
+        }
+    },
+    {
         "path": "2026/September/02 - Cosmo Vloge Badge War 4 Behind",
         "info": {
             "title": "Cosmo Vloge Badge War 4 Behind",
@@ -371,10 +386,10 @@
             "tags": [],
             "video": [],
             "cover": "birthday.jpg",
-            "coverType": "image",
             "files": [
                 "birthday.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -388,7 +403,8 @@
             "cover": "20260731130109_0.mp4",
             "files": [
                 "20260731130109_0.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -403,7 +419,8 @@
             "files": [
                 "20260727083712_0.png",
                 "20260727083716_0.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -417,7 +434,8 @@
             "cover": "jp.jpg",
             "files": [
                 "jp.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -434,7 +452,8 @@
                 "02.jpg",
                 "03.jpg",
                 "04.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -447,8 +466,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=EyG9xqX3ohI"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=EyG9xqX3ohI",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -462,7 +482,8 @@
             "cover": "20260719042750_0.png",
             "files": [
                 "20260719042750_0.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -482,7 +503,8 @@
                 "6a5c54ccbbf4d4b2a17f7f01_트냅_7.jpg",
                 "6a5c54d34dbbbca08297b8b6_트냅_8.jpg",
                 "6a5c523ee3ebb7d58719acb6_메가콘_1.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -498,7 +520,8 @@
                 "01.jpg",
                 "02.jpg",
                 "hayeon.mp4"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -512,7 +535,8 @@
             "cover": "mco behind.mp4",
             "files": [
                 "mco behind.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -529,7 +553,8 @@
                 "02.jpg",
                 "03.jpg",
                 "04.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -546,7 +571,8 @@
                 "02.jpg",
                 "03.jpg",
                 "04.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -578,7 +604,8 @@
                 "6a55cd9e75731a5ffe271493_zenith_049.jpg",
                 "6a55cdaf22678d2efd2ba18f_zenith_051.jpg",
                 "6a55ce9658b476b4c668c788_트냅_0G6A0356.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -591,8 +618,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=Td_9l7KxNjA"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=Td_9l7KxNjA",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -606,7 +634,8 @@
             "cover": "image-01.png",
             "files": [
                 "image-01.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -634,7 +663,8 @@
                 "6a50959991de4d378797dc14_DB2_26.jpg",
                 "6a50962018d826c8cfa7e94e_DB2_35.jpg",
                 "6a5099999454773f96c3acd2_DB2_61.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -647,8 +677,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=xcycCFsfGIQ"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=xcycCFsfGIQ",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -663,7 +694,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -680,7 +712,8 @@
                 "02.jpg",
                 "03.jpg",
                 "04.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -693,8 +726,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=NnDBfOYw7mY&t=10s"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=NnDBfOYw7mY&t=10s",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -710,7 +744,8 @@
                 "Image-01.jpeg",
                 "Image-02.jpeg",
                 "Image-03.jpeg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -724,7 +759,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -739,7 +775,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -754,7 +791,8 @@
             "files": [
                 "Image-01.jpeg",
                 "Image-02.jpeg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -773,7 +811,8 @@
                 "6a4764b1b1028c56e2defa5a_DB_00044.jpg",
                 "6a4767d1741e9c9a87fa1f73_트냅_00020.jpg",
                 "6a47648d0fa7eefe5f9f2d7d_DB_00041.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -786,8 +825,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=2QCmz2S_TcU"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=2QCmz2S_TcU",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -811,7 +851,8 @@
                 "6a44eb7766a714271777dec8_24_62.jpg",
                 "6a44ecd2d8eab1be31b62ed0_24_84.jpg",
                 "6a44ecde8bfcfdeadfbd20e9_24_85.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -828,7 +869,8 @@
                 "IMG_5137.jpg",
                 "IMG_5138.jpg",
                 "IMG_5139.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -841,8 +883,9 @@
             "video": [
                 "youtube.com/watch?v=cPkqQSTZHKQ&feature=youtu.be"
             ],
-            "cover": null,
-            "files": []
+            "cover": "youtube.com/watch?v=cPkqQSTZHKQ&feature=youtu.be",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -857,7 +900,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -871,7 +915,8 @@
             "cover": "1782290335038.png",
             "files": [
                 "1782290335038.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -884,8 +929,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=DcTZ3E45BZ8&t=5s"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=DcTZ3E45BZ8&t=5s",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -901,7 +947,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -920,7 +967,8 @@
                 "04.jpg",
                 "6a364ec7fb64c8b93b0169e5_P day2_079.jpg",
                 "6a364441e2381aba29379cfd_P day2_078.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -934,7 +982,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -949,7 +998,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -963,7 +1013,8 @@
             "cover": "1781709941000.png",
             "files": [
                 "1781709941000.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -978,7 +1029,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -995,7 +1047,8 @@
                 "02.jpg",
                 "03.jpg",
                 "04.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1009,7 +1062,8 @@
             "cover": "1781260966796.png",
             "files": [
                 "1781260966796.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1029,7 +1083,8 @@
                 "05.jpg",
                 "06.jpg",
                 "07.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1043,7 +1098,8 @@
             "cover": "Hycw.mp4",
             "files": [
                 "Hycw.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -1057,7 +1113,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1074,7 +1131,8 @@
                 "02.jpg",
                 "03.jpg",
                 "04.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1091,7 +1149,8 @@
                 "02.jpg",
                 "03.jpg",
                 "04.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1113,7 +1172,8 @@
                 "6a27a5b5ce9fc91515c43039_P day1_2_트냅19.jpg",
                 "6a27a5f2a2786d96aa85a07c_P day1_2_트냅25.jpg",
                 "6a279e15c6e29cf06d7e7e28_P day1_2_트냅27.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1128,7 +1188,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1141,8 +1202,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=L5iGAvkdmY4"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=L5iGAvkdmY4",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -1156,7 +1218,8 @@
             "cover": "1780923497240.png",
             "files": [
                 "1780923497240.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1172,7 +1235,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1193,7 +1257,8 @@
                 "6a237382f68980a89723942e_P day1_1_트냅19.jpg",
                 "6a2372569ead5e87a0f85a58_P day1_1_110.jpg",
                 "6a23726751d05ada75129f93_P day1_1_112.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1207,7 +1272,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1221,7 +1287,8 @@
             "cover": "1785057417678.png",
             "files": [
                 "1785057417678.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1237,7 +1304,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1253,7 +1321,8 @@
                 "01.jpg",
                 "02.jpg",
                 "05.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1267,7 +1336,8 @@
             "cover": "hayeon.mp4",
             "files": [
                 "hayeon.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -1282,7 +1352,8 @@
             "files": [
                 "202607240957220.png",
                 "202607240957221.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1296,7 +1367,8 @@
             "cover": "1780488462794.png",
             "files": [
                 "1780488462794.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1309,8 +1381,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=b_-ZYJsuXp4"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=b_-ZYJsuXp4",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -1327,7 +1400,8 @@
                 "02.jpg",
                 "03.jpg",
                 "04.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1340,8 +1414,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=q6LEb8bLopI&t=630s"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=q6LEb8bLopI&t=630s",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -1355,7 +1430,8 @@
             "cover": "04.jpg",
             "files": [
                 "04.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1369,7 +1445,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1384,7 +1461,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1447,7 +1525,8 @@
                 "6a16811643e5083d39c8d55b_tripleS rose_040.jpg",
                 "6a168103831decc5ea20b64a_tripleS rose_038.jpg",
                 "6a168939831decc5ea239da9_tripleS-rose_105.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1464,7 +1543,8 @@
                 "02.jpg",
                 "03.jpg",
                 "04.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1477,8 +1557,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=FkuWJB6nPk0"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=FkuWJB6nPk0",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -1495,7 +1576,8 @@
                 "02.jpg",
                 "03.jpg",
                 "04.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1508,8 +1590,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=P8LD9UN0a00"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=P8LD9UN0a00",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -1523,7 +1606,8 @@
             "cover": "IMG_0430.jpg",
             "files": [
                 "IMG_0430.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1538,7 +1622,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1566,7 +1651,8 @@
                 "6a07e702930b7b118b4b3995_MSNZ SEOUL day2_039.jpg",
                 "6a07e46256771bb225947153_MSNZ SEOUL day2_002.jpg",
                 "6a07ea5044949a22425ec148_MSNZ SEOUL day2_103.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1580,7 +1666,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1595,7 +1682,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1612,7 +1700,8 @@
                 "02.jpg",
                 "03.jpg",
                 "04.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1625,8 +1714,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=mML18z4B7Wo"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=mML18z4B7Wo",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -1640,7 +1730,8 @@
             "cover": "1778302050821.png",
             "files": [
                 "1778302050821.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1654,7 +1745,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1668,7 +1760,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1682,7 +1775,8 @@
             "cover": "02.jpg",
             "files": [
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1696,7 +1790,8 @@
             "cover": "IMG_8427.jpg",
             "files": [
                 "IMG_8427.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1711,7 +1806,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1731,7 +1827,8 @@
                 "05.jpg",
                 "06.jpg",
                 "07.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1744,8 +1841,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=UwIBqvUGd58"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=UwIBqvUGd58",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -1758,8 +1856,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=stje93uMZfU"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=stje93uMZfU",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -1772,8 +1871,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=EdWGpA5ZyJk"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=EdWGpA5ZyJk",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -1793,7 +1893,8 @@
                 "69f07feaaf3d8fd0a8e5023d_MSNZ SEOUL day1_45.jpg",
                 "69f0801feb2713e84d9ad724_MSNZ SEOUL day1_50.jpg",
                 "69f0808156a928ca04ebb145_MSNZ SEOUL day1_58.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1806,8 +1907,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=gkRebr_9yTk"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=gkRebr_9yTk",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -1831,7 +1933,8 @@
                 "69eb7a5537052b1eb4fef859_JWHY_LG_07.jpg",
                 "69eb7aa40ed26032367aec58_JWHY_LG_16.jpg",
                 "69eb792ec226f70d2b4e822a_JWHY_LG_12.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1854,7 +1957,8 @@
                 "69eb13347c3c9a3ee6ca4e4d_MSNZ SEOUL tnap_052.jpg",
                 "69eb24388a123030b441b7a5_MSNZ SEOUL tnap_105.jpg",
                 "69eb25696edb2df05a1adddf_MSNZ SEOUL tnap_117.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1877,7 +1981,8 @@
                 "69e5837d667d75a0a44d6b0e_MSNZ SEOUL tnap_021.jpg",
                 "69e5890c1027728a666209f6_MSNZ SEOUL tnap_073.jpg",
                 "69e58388094531abe01128a5_MSNZ SEOUL tnap_022.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1890,8 +1995,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=jBfdeXEgH0k"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=jBfdeXEgH0k",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -1905,7 +2011,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1919,7 +2026,8 @@
             "cover": "20260416_211543.jpg",
             "files": [
                 "20260416_211543.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1933,7 +2041,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1946,8 +2055,9 @@
             "video": [
                 "https://www.youtube.com/shorts/qJBRFHPATbo"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/qJBRFHPATbo",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -1961,7 +2071,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1975,7 +2086,8 @@
             "cover": "1776141270468.png",
             "files": [
                 "1776141270468.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -1993,7 +2105,8 @@
                 "03.jpg",
                 "04.jpg",
                 "05.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2023,7 +2136,8 @@
             "cover": "1775552987188.png",
             "files": [
                 "1775552987188.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2052,7 +2166,8 @@
             "cover": "HFJuCyMaAAAEFEr.jpg",
             "files": [
                 "HFJuCyMaAAAEFEr.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2068,7 +2183,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2081,8 +2197,9 @@
             "video": [
                 "https://www.youtube.com/shorts/qAWGY8FtE6s"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/qAWGY8FtE6s",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -2096,7 +2213,8 @@
             "cover": "hy&sl.mp4",
             "files": [
                 "hy&sl.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -2110,7 +2228,8 @@
             "cover": "20260330.png",
             "files": [
                 "20260330.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2124,7 +2243,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2138,8 +2258,9 @@
                 "https://www.youtube.com/watch?v=qWwe4CieBaU",
                 "https://www.youtube.com/shorts/Kjtj7DQRFPQ"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=qWwe4CieBaU",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -2158,7 +2279,8 @@
                 "69c29b09b9c223dac17edb1f_taipei_101.jpg",
                 "69c2984fa2ac2df3d76e939a_taipei_100.jpg",
                 "69c2994ae70b36a6e1511a06_taipei_025.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2172,7 +2294,8 @@
             "cover": "HjBCiV03cIw.jpg",
             "files": [
                 "HjBCiV03cIw.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2186,7 +2309,8 @@
             "cover": "20260324.png",
             "files": [
                 "20260324.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2199,8 +2323,9 @@
             "video": [
                 "https://www.youtube.com/shorts/YJ1psPn1EWY"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/YJ1psPn1EWY",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -2214,7 +2339,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2227,8 +2353,9 @@
             "video": [
                 "https://www.youtube.com/shorts/szk9E7e6iIU"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/szk9E7e6iIU",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -2244,7 +2371,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2258,7 +2386,8 @@
             "cover": "MxQRuuFgUoU.jpg",
             "files": [
                 "MxQRuuFgUoU.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2273,7 +2402,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2289,7 +2419,8 @@
             "cover": "password.mp4",
             "files": [
                 "password.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -2303,7 +2434,8 @@
             "cover": "20260304.png",
             "files": [
                 "20260304.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2316,8 +2448,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=a2B6s_3xe1U"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=a2B6s_3xe1U",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -2333,7 +2466,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2346,8 +2480,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=1VnDAVOCmm8"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=1VnDAVOCmm8",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -2361,7 +2496,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2374,8 +2510,9 @@
             "video": [
                 "https://www.youtube.com/shorts/uXXQYinHpJg"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/uXXQYinHpJg",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -2422,7 +2559,8 @@
                 "69a13938206662b51c222c7b.jpg",
                 "69a13851927060146fcf89c.jpg",
                 "321321.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2435,8 +2573,9 @@
             "video": [
                 "https://www.youtube.com/shorts/urgJVwrFXiI"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/urgJVwrFXiI",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -2449,8 +2588,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=l6_kYcon6yE"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=l6_kYcon6yE",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -2464,7 +2604,8 @@
             "cover": "IMG_3017.jpg",
             "files": [
                 "IMG_3017.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2481,7 +2622,8 @@
                 "02.jpg",
                 "03.jpg",
                 "04.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2495,7 +2637,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2511,7 +2654,8 @@
             "cover": "07z love.mp4",
             "files": [
                 "07z love.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -2525,7 +2669,8 @@
             "cover": "07z.mp4",
             "files": [
                 "07z.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -2550,7 +2695,8 @@
                 "6996c0134eb3546b90bbe481_hanteo_032.jpg",
                 "6996c00543bd4f8607dd7e6b_hanteo_031.jpg",
                 "6996c202337364f466823e59_hanteo_077.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2564,7 +2710,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2578,7 +2725,8 @@
             "cover": "wav.mp4",
             "files": [
                 "wav.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -2612,7 +2760,8 @@
                 "699305615867b43894f5e2f8_2026FW_032.jpg",
                 "699305665932a7994e5f7b38_2026FW_033.jpg",
                 "6993057608322f06234339a7_2026FW_035.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2625,8 +2774,9 @@
             "video": [
                 "https://www.youtube.com/shorts/lsIT65gMXPU"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/lsIT65gMXPU",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -2641,7 +2791,8 @@
             "files": [
                 "20260216 - 1.png",
                 "20260216 - 2.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2655,7 +2806,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2670,7 +2822,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2683,8 +2836,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=yWisqSL7RoM"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=yWisqSL7RoM",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -2698,7 +2852,8 @@
             "cover": "image.png",
             "files": [
                 "image.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2712,7 +2867,8 @@
             "cover": "IMG_5411.PNG",
             "files": [
                 "IMG_5411.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2726,7 +2882,8 @@
             "cover": "내가 졌다.mp4",
             "files": [
                 "내가 졌다.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -2742,7 +2899,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2757,7 +2915,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2770,8 +2929,9 @@
             "video": [
                 "https://www.youtube.com/shorts/X5l3IsAz_6Q"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/X5l3IsAz_6Q",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -2785,7 +2945,8 @@
             "cover": "IMG_5065.PNG",
             "files": [
                 "IMG_5065.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2798,8 +2959,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=IbK0K-bmG6I"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=IbK0K-bmG6I",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -2827,7 +2989,8 @@
                 "698545849c6a04d07b3a3956_Shanghai_031.jpg",
                 "6985466488f10bf8e2a819bf_Shanghai_040.jpg",
                 "698546825438f68a2199eb3e_Shanghai_041.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2841,7 +3004,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2854,8 +3018,9 @@
             "video": [
                 "https://www.youtube.com/shorts/m5Z2OfNNsqo"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/m5Z2OfNNsqo",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -2871,7 +3036,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2884,8 +3050,9 @@
             "video": [
                 "https://www.youtube.com/shorts/bh4nwwGqbjc"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/bh4nwwGqbjc",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -2899,7 +3066,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2913,7 +3081,8 @@
             "cover": "video-01.mp4",
             "files": [
                 "video-01.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -2926,8 +3095,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=T7IP3pok7SI"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=T7IP3pok7SI",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -2942,7 +3112,8 @@
             "files": [
                 "IMG_4455.PNG",
                 "IMG_4456.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2955,8 +3126,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=lJ5j644UNpo"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=lJ5j644UNpo",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -2969,8 +3141,9 @@
             "video": [
                 "https://www.youtube.com/shorts/KEqaRGFqw5E"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/KEqaRGFqw5E",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -2985,7 +3158,8 @@
             "files": [
                 "IMG_4340.PNG",
                 "IMG_4341.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -2998,8 +3172,9 @@
             "video": [
                 "https://www.youtube.com/shorts/pf53E-p5RXU"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/pf53E-p5RXU",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -3012,8 +3187,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=NkhQm8bapOQ"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=NkhQm8bapOQ",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -3026,8 +3202,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=DzXUEC4pKLM"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=DzXUEC4pKLM",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -3047,7 +3224,8 @@
                 "6971ae7dc8979b219e5c1be2_KBSGAYO_121.jpg",
                 "6971ae8886b690a5111cc2a7_KBSGAYO_122.jpg",
                 "69719eb1a433d423c43e9f7f_KBSGAYO_127.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3061,7 +3239,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3075,7 +3254,8 @@
             "cover": "IMG_4047.PNG",
             "files": [
                 "IMG_4047.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3091,7 +3271,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3105,7 +3286,8 @@
             "cover": "IMG_3821.PNG",
             "files": [
                 "IMG_3821.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3119,7 +3301,8 @@
             "cover": "5706365680024155_0x0.mp4",
             "files": [
                 "5706365680024155_0x0.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -3132,8 +3315,9 @@
             "video": [
                 "https://www.youtube.com/shorts/x5VuU8ez3gg"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/x5VuU8ez3gg",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -3149,7 +3333,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3162,8 +3347,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=suHxgAzjFxo"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=suHxgAzjFxo",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -3177,7 +3363,8 @@
             "cover": "IMG_3214.PNG",
             "files": [
                 "IMG_3214.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3193,7 +3380,8 @@
             "cover": "sweetie.mp4",
             "files": [
                 "sweetie.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -3207,7 +3395,8 @@
             "cover": "IMG_2984.PNG",
             "files": [
                 "IMG_2984.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3221,7 +3410,8 @@
             "cover": "IMG_2982.PNG",
             "files": [
                 "IMG_2982.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3236,7 +3426,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3253,7 +3444,8 @@
                 "02.jpg",
                 "03.jpg",
                 "04.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3267,7 +3459,8 @@
             "cover": "lv20.mp4",
             "files": [
                 "lv20.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -3298,7 +3491,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3312,7 +3506,8 @@
             "cover": "IMG_2428.PNG",
             "files": [
                 "IMG_2428.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3331,7 +3526,8 @@
                 "6954ac039c3700d0834206e6_msnz_039.jpg",
                 "6954ac9717d59b50d03b6c71_msnz_052.jpg",
                 "6954acb1f9b069a9b04833fa_msnz_053.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3346,7 +3542,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3359,8 +3556,9 @@
             "video": [
                 "https://www.youtube.com/shorts/kHInMua1_ok"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/kHInMua1_ok",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -3374,7 +3572,8 @@
             "cover": "IMG_2060.PNG",
             "files": [
                 "IMG_2060.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3394,7 +3593,8 @@
                 "694c28f143c5d214e7cb871b_Happy Christmas_065.jpg",
                 "694c29121c65c0462f51479a_Happy Christmas_069.jpg",
                 "694c292386269ad21d74291b_Happy Christmas_070.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3407,8 +3607,9 @@
             "video": [
                 "https://www.youtube.com/shorts/2i_D7aEkWpo"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/2i_D7aEkWpo",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -3427,7 +3628,8 @@
                 "694bae5347109b8b04cfe138_Christmas eve_056.jpg",
                 "694baebcc954ba3e76b3ff5a_Christmas eve_057.jpg",
                 "694baff8b91132e75b4f0092_Christmas eve_072.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3443,7 +3645,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3457,8 +3660,9 @@
                 "https://www.youtube.com/shorts/LsOxfpgNraQ",
                 "https://www.youtube.com/shorts/nS-bFgTBjYg"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/LsOxfpgNraQ",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -3473,7 +3677,8 @@
             "files": [
                 "IMG_1925.PNG",
                 "IMG_1926.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3489,7 +3694,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3505,7 +3711,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3519,7 +3726,8 @@
             "cover": "live-thumbnail-hayeon-q90u2q9bp0.jpg",
             "files": [
                 "live-thumbnail-hayeon-q90u2q9bp0.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3532,8 +3740,9 @@
             "video": [
                 "https://www.youtube.com/shorts/3eNunw0EY24"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/3eNunw0EY24",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -3547,7 +3756,8 @@
             "cover": "IMG_1533.PNG",
             "files": [
                 "IMG_1533.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3564,7 +3774,8 @@
                 "02.jpg",
                 "04.jpg",
                 "05.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3578,8 +3789,9 @@
                 "https://www.youtube.com/watch?v=5oDGF0krFGo",
                 "https://www.youtube.com/watch?v=yURHU9pGsXo"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=5oDGF0krFGo",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -3593,7 +3805,8 @@
             "cover": "IMG_1410.PNG",
             "files": [
                 "IMG_1410.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3611,7 +3824,8 @@
                 "6941387c427f097bf3e57fdd_hanteo_056.jpg",
                 "69413659e385d945af3d87f8_hanteo_008.jpg",
                 "6941388343342e4b49cdb271_hanteo_057.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3626,7 +3840,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3640,7 +3855,8 @@
             "cover": "IMG_1242.PNG",
             "files": [
                 "IMG_1242.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3656,7 +3872,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3671,7 +3888,8 @@
             "files": [
                 "IMG_1056.PNG",
                 "IMG_1057.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3687,7 +3905,8 @@
                 "693b7b1cc35458fc1f38aaa9_tripleS_코엑스_21.jpg",
                 "693b7bcbfb84fcf45a1bd526_tripleS_코엑스_32.jpg",
                 "693b7bd50cfed99bc9166f14_tripleS_코엑스_33.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3711,7 +3930,8 @@
                 "69355f18c77bc5806f92b5a5_zenith_022.jpg",
                 "69355f42b95a4e04e343d83f_zenith_028.jpg",
                 "69355f872b192c4ce89d284b_zenith_038.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3725,7 +3945,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3739,7 +3960,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3753,8 +3975,9 @@
                 "https://www.youtube.com/watch?v=1Ljz8avp1KE",
                 "https://www.youtube.com/watch?v=G_I8hHQvem8"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=1Ljz8avp1KE",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -3771,7 +3994,8 @@
                 "02.jpg",
                 "03.jpg",
                 "04.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3784,8 +4008,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=IZvEeaeMvQQ"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=IZvEeaeMvQQ",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -3799,7 +4024,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3813,7 +4039,8 @@
             "cover": "image.png",
             "files": [
                 "image.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3828,7 +4055,8 @@
             "files": [
                 "IMG_9865.PNG",
                 "IMG_9868.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3844,7 +4072,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3858,7 +4087,8 @@
             "cover": "IMG_9755.jpg",
             "files": [
                 "IMG_9755.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3872,7 +4102,8 @@
             "cover": "LineMusic.mp4",
             "files": [
                 "LineMusic.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -3886,7 +4117,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3900,7 +4132,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3914,7 +4147,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3929,7 +4163,8 @@
             "files": [
                 "IMG_9417.PNG",
                 "IMG_9419.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3943,7 +4178,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3957,8 +4193,9 @@
                 "https://www.youtube.com/watch?v=TvmLPQ7iBLQ&feature=youtu.be",
                 "https://www.youtube.com/watch?v=8GnCq1E1XVA&feature=youtu.be"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=TvmLPQ7iBLQ&feature=youtu.be",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -3972,7 +4209,8 @@
             "cover": "live-thumbnail-hayeon-yesjk0kqgb.jpg",
             "files": [
                 "live-thumbnail-hayeon-yesjk0kqgb.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -3987,7 +4225,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4001,7 +4240,8 @@
             "cover": "IMG_8761.PNG",
             "files": [
                 "IMG_8761.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4016,7 +4256,8 @@
             "files": [
                 "IMG_8807.jpg",
                 "IMG_8808.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4034,7 +4275,8 @@
                 "03.jpg",
                 "04.jpg",
                 "05.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4048,7 +4290,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4062,7 +4305,8 @@
             "cover": "live-thumbnail-hayeon-ui8ilczyl1.jpg",
             "files": [
                 "live-thumbnail-hayeon-ui8ilczyl1.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4076,7 +4320,8 @@
             "cover": "IMG_8566.PNG",
             "files": [
                 "IMG_8566.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4090,7 +4335,8 @@
             "cover": "live-thumbnail-hayeon-g1i9e7x56u.jpg",
             "files": [
                 "live-thumbnail-hayeon-g1i9e7x56u.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4104,7 +4350,8 @@
             "cover": "IMG_8232.PNG",
             "files": [
                 "IMG_8232.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4117,8 +4364,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=tM0w3aXM_a0"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=tM0w3aXM_a0",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -4133,7 +4381,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4147,7 +4396,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4161,7 +4411,8 @@
             "cover": "IMG_7768.PNG",
             "files": [
                 "IMG_7768.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4175,7 +4426,8 @@
             "cover": "IMG_7486.PNG",
             "files": [
                 "IMG_7486.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4191,7 +4443,8 @@
                 "snaplytics.io_photo_1.jpg",
                 "snaplytics.io_photo_2.jpg",
                 "snaplytics.io_photo_3.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4205,7 +4458,8 @@
             "cover": "IMG_3344.jpg",
             "files": [
                 "IMG_3344.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4219,7 +4473,8 @@
             "cover": "IMG_6988.PNG",
             "files": [
                 "IMG_6988.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4233,7 +4488,8 @@
             "cover": "live-thumbnail-hayeon-pbq8d2n5mr.jpg",
             "files": [
                 "live-thumbnail-hayeon-pbq8d2n5mr.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4247,7 +4503,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4261,7 +4518,8 @@
             "cover": "live-thumbnail-hayeon-t8rolde766.jpg",
             "files": [
                 "live-thumbnail-hayeon-t8rolde766.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4277,7 +4535,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4291,7 +4550,8 @@
             "cover": "IMG_5417.PNG",
             "files": [
                 "IMG_5417.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4306,7 +4566,8 @@
             "files": [
                 "IMG_4638.PNG",
                 "IMG_4639.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4320,7 +4581,8 @@
             "cover": "IMG_4491.jpg",
             "files": [
                 "IMG_4491.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4334,7 +4596,8 @@
             "cover": "IMG_4365.PNG",
             "files": [
                 "IMG_4365.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4349,7 +4612,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4363,7 +4627,8 @@
             "cover": "IMG_4184.PNG",
             "files": [
                 "IMG_4184.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4378,7 +4643,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4392,7 +4658,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4408,7 +4675,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4424,7 +4692,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4440,7 +4709,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4455,7 +4725,8 @@
             "files": [
                 "IMG_3410.PNG",
                 "IMG_3413.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4469,7 +4740,8 @@
             "cover": "IMG_3169.PNG",
             "files": [
                 "IMG_3169.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4483,7 +4755,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4498,7 +4771,8 @@
             "files": [
                 "IMG_2749.PNG",
                 "IMG_2750.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4512,7 +4786,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4528,7 +4803,8 @@
                 "IMG_2708.jpg",
                 "IMG_2709.jpg",
                 "IMG_2710.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4541,8 +4817,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=VinC46tUw0s"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=VinC46tUw0s",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -4557,7 +4834,8 @@
             "files": [
                 "IMG_2592.PNG",
                 "IMG_2600.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4579,7 +4857,8 @@
                 "68be4234a1986c9ea7c358ea_jeju_126.jpg",
                 "68be42785ba7eb0d9eb90386_jeju_130.jpg",
                 "68be4225059e5d6ef4b941b0_jeju_125.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4593,7 +4872,8 @@
             "cover": "08.jpg",
             "files": [
                 "08.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4607,7 +4887,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4622,7 +4903,8 @@
             "files": [
                 "IMG_2352.PNG",
                 "IMG_2353.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4637,7 +4919,8 @@
             "files": [
                 "IMG_2714.jpg",
                 "IMG_2722.webp"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4651,7 +4934,8 @@
             "cover": "live-thumbnail-hayeon-zhrbru4w76.jpg",
             "files": [
                 "live-thumbnail-hayeon-zhrbru4w76.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4666,7 +4950,8 @@
             "files": [
                 "5573955654432523_0x0.mp4",
                 "IMG_2199.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4680,7 +4965,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4693,8 +4979,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=CnWTD6WPVCk"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=CnWTD6WPVCk",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -4708,7 +4995,8 @@
             "cover": "IMG_2147.jpg",
             "files": [
                 "IMG_2147.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4723,7 +5011,8 @@
             "files": [
                 "IMG_1972.PNG",
                 "IMG_1974.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4737,7 +5026,8 @@
             "cover": "IMG_1711.PNG",
             "files": [
                 "IMG_1711.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4753,7 +5043,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4769,7 +5060,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4783,7 +5075,8 @@
             "cover": "IMG_1225.PNG",
             "files": [
                 "IMG_1225.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4797,7 +5090,8 @@
             "cover": "250820.mp4",
             "files": [
                 "250820.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -4813,7 +5107,8 @@
                 "IMG_0363.jpg",
                 "IMG_0365.jpg",
                 "IMG_0368.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4829,7 +5124,8 @@
                 "IMG_1074.PNG",
                 "IMG_1075.PNG",
                 "IMG_1076.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4845,7 +5141,8 @@
             "cover": "Gytpn9kaYAAuo5e.jpg",
             "files": [
                 "Gytpn9kaYAAuo5e.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4860,7 +5157,8 @@
             "files": [
                 "IMG_0957.PNG",
                 "IMG_0959.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4889,7 +5187,8 @@
                 "689f3246dc238bad7f3adb78_badge_3_68.jpg",
                 "689f314928fff07fde3b322f_badge_3_39.jpg",
                 "689f3161079b9411326e35e8_badge_3_42.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4907,7 +5206,8 @@
                 "03.jpg",
                 "04.jpg",
                 "GyduJawa4AAiC0E.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4921,7 +5221,8 @@
             "cover": "IMG_0640.PNG",
             "files": [
                 "IMG_0640.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4935,7 +5236,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4949,7 +5251,8 @@
             "cover": "image.png",
             "files": [
                 "image.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4963,7 +5266,8 @@
             "cover": "IMG_0154.PNG",
             "files": [
                 "IMG_0154.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -4977,7 +5281,8 @@
             "cover": "11.mp4",
             "files": [
                 "11.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -4992,7 +5297,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5006,7 +5312,8 @@
             "cover": "IMG_9867.PNG",
             "files": [
                 "IMG_9867.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5020,7 +5327,8 @@
             "cover": "GxvuO-zbQAA6LQx.jpg",
             "files": [
                 "GxvuO-zbQAA6LQx.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5035,7 +5343,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5049,7 +5358,8 @@
             "cover": "IMG_9681.PNG",
             "files": [
                 "IMG_9681.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5073,7 +5383,8 @@
                 "688e4e4ff24d1d187542473b_badge_2_063.jpg",
                 "688e4e55c8e03e6e612ee487_badge_2_064.jpg",
                 "688e4f869052b142b7736b09_S19_하연.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5088,7 +5399,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5102,7 +5414,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5116,7 +5429,8 @@
             "cover": "IMG_9249.PNG",
             "files": [
                 "IMG_9249.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5130,7 +5444,8 @@
             "cover": "IMG_8974.jpg",
             "files": [
                 "IMG_8974.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5144,7 +5459,8 @@
             "cover": "IMG_8927.PNG",
             "files": [
                 "IMG_8927.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5158,7 +5474,8 @@
             "cover": "IMG_8729.PNG",
             "files": [
                 "IMG_8729.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5172,7 +5489,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5186,7 +5504,8 @@
             "cover": "IMG_8568.PNG",
             "files": [
                 "IMG_8568.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5200,7 +5519,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5215,7 +5535,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5229,7 +5550,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5256,7 +5578,8 @@
                 "68789f1f2620e23ae494039e_badge_1_062.jpg",
                 "68789f071731b5385f7ba1f2_badge_1_059.jpg",
                 "IMG_3085.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5272,7 +5595,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5287,7 +5611,8 @@
             "files": [
                 "IMG_8287.PNG",
                 "IMG_8304.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5301,7 +5626,8 @@
             "cover": "alive25.mp4",
             "files": [
                 "alive25.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -5316,7 +5642,8 @@
             "files": [
                 "IMG_8321.jpg",
                 "IMG_8322.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5332,7 +5659,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5347,7 +5675,8 @@
             "files": [
                 "concert.jpg",
                 "concert1.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5363,7 +5692,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5380,7 +5710,8 @@
                 "IMG_7335.PNG",
                 "IMG_7336.PNG",
                 "IMG_7338.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5396,7 +5727,8 @@
                 "IMG_7340.jpg",
                 "IMG_7341.jpg",
                 "IMG_9086.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5412,7 +5744,8 @@
                 "01.jpg",
                 "02.jpg",
                 "D-5.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5427,7 +5760,8 @@
             "files": [
                 "IMG_7127.PNG",
                 "IMG_7132.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5443,7 +5777,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5458,7 +5793,8 @@
             "files": [
                 "IMG_7004.PNG",
                 "live-thumbnail-hayeon-7eo9fvhife.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5472,7 +5808,8 @@
             "cover": "3185977505730595_0x0.mp4",
             "files": [
                 "3185977505730595_0x0.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -5486,7 +5823,8 @@
             "cover": "alive25.mp4",
             "files": [
                 "alive25.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -5501,7 +5839,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5516,7 +5855,8 @@
             "files": [
                 "IMG_6920.PNG",
                 "IMG_6921.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5530,7 +5870,8 @@
             "cover": "IMG_6673.PNG",
             "files": [
                 "IMG_6673.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5545,7 +5886,8 @@
             "files": [
                 "IMG_3671.jpg",
                 "IMG_3672.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5559,7 +5901,8 @@
             "cover": "9d1d3d51-209d-408c-8671-eec278e53724.png",
             "files": [
                 "9d1d3d51-209d-408c-8671-eec278e53724.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5573,7 +5916,8 @@
             "cover": "06253791857639635_0x0.mp4",
             "files": [
                 "06253791857639635_0x0.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -5589,7 +5933,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5603,7 +5948,8 @@
             "cover": "live-thumbnail-hayeon-73gz5u6ikk.jpg",
             "files": [
                 "live-thumbnail-hayeon-73gz5u6ikk.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5617,7 +5963,8 @@
             "cover": "IMG_5839.PNG",
             "files": [
                 "IMG_5839.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5632,7 +5979,8 @@
             "files": [
                 "IMG_1974.jpg",
                 "IMG_1975.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5655,7 +6003,8 @@
                 "684958a79755096357de8780_3week_159.jpg",
                 "684958b5a9eae03f3638f1be_3week_160.jpg",
                 "684958bdf20550e4704df629_3week_161.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5668,8 +6017,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=NBm7DlIWRJQ"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=NBm7DlIWRJQ",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -5685,7 +6035,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5699,7 +6050,8 @@
             "cover": "IMG_5507.PNG",
             "files": [
                 "IMG_5507.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5713,7 +6065,8 @@
             "cover": "01.jpg",
             "files": [
                 "01.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5727,7 +6080,8 @@
             "cover": "IMG_5289.jpg",
             "files": [
                 "IMG_5289.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5744,7 +6098,8 @@
                 "img_5285.jpg",
                 "img_5286.jpg",
                 "img_5287.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5760,7 +6115,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5791,7 +6147,8 @@
                 "683ff65099c82ccedcb19f64_2week_030.jpg",
                 "683fff3a70953f1f9190bca8_2week_163.jpg",
                 "683fff073cf211a250253a1c_2week_165.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5806,7 +6163,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5821,7 +6179,8 @@
             "files": [
                 "683efb3fbcdecaa492dc2e11_ASS25_4_150.jpg",
                 "683efb332a7d7d5015e579e9_ASS25_4_149.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5835,7 +6194,8 @@
             "cover": "ultist.mp4",
             "files": [
                 "ultist.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -5849,7 +6209,8 @@
             "cover": "IMG_4598.PNG",
             "files": [
                 "IMG_4598.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5864,7 +6225,8 @@
             "files": [
                 "10339450268829964_0x0.mp4",
                 "IMG_4136.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5880,7 +6242,8 @@
                 "1.jpg",
                 "2.jpg",
                 "100.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5900,7 +6263,8 @@
                 "6837ea75d079ec18a9297d62_1week_85.jpg",
                 "6837eaf77335d3816515d6ea_1week_99.jpg",
                 "6837eb11a5f69b981acf1b91_1week_100.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5914,7 +6278,8 @@
             "cover": "1.jpg",
             "files": [
                 "1.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5934,7 +6299,8 @@
                 "6836bc1514602359191b0324_1week_83.jpg",
                 "6836bd35d5f190f806282b43_1week_103.jpg",
                 "6836bd485b07e5e11dcb5e33_1week_105.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5948,7 +6314,8 @@
             "cover": "ultist.mp4",
             "files": [
                 "ultist.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -5979,7 +6346,8 @@
                 "68333650da7d8cb8cd4dd504_ASS25_3_057.jpg",
                 "68333700e4a085ddddd531e3_ASS25_3_072.jpg",
                 "683402946a04676502d9fa83_ASS25_3_223.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -5994,7 +6362,8 @@
             "files": [
                 "IMG_8172.jpg",
                 "IMG_8173.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6010,7 +6379,8 @@
                 "1.jpg",
                 "2.jpg",
                 "100.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6024,7 +6394,8 @@
             "cover": "05543501097043624_0x0.mp4",
             "files": [
                 "05543501097043624_0x0.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -6038,7 +6409,8 @@
             "cover": "1.jpg",
             "files": [
                 "1.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6052,7 +6424,8 @@
             "cover": "nme.mp4",
             "files": [
                 "nme.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -6066,7 +6439,8 @@
             "cover": "1.jpg",
             "files": [
                 "1.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6080,7 +6454,8 @@
             "cover": "22.jpg",
             "files": [
                 "22.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6094,7 +6469,8 @@
             "cover": "ultist.mp4",
             "files": [
                 "ultist.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -6109,7 +6485,8 @@
             "files": [
                 "21.jpg",
                 "212.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6123,7 +6500,8 @@
             "cover": "IMG_5811.jpg",
             "files": [
                 "IMG_5811.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6138,7 +6516,8 @@
             "files": [
                 "GrXurUabEAAYxbx.jpg",
                 "IMG_3019.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6152,7 +6531,8 @@
             "cover": "GrYZrfRbAAQ0fw5.png",
             "files": [
                 "GrYZrfRbAAQ0fw5.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6167,7 +6547,8 @@
             "files": [
                 "20.jpg",
                 "201.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6184,7 +6565,8 @@
                 "NME-THE-COVER-TRIPLES-2-CREDIT-Sewon-Jun-HinkchiWorks2160x2700-1068x1335.jpg",
                 "NME-THE-COVER-TRIPLES-CREDIT-Sewon-Jun-HinkchiWorks1990x2488-1068x1335.jpg",
                 "NME-THE-COVER-TRIPLES-HERO-CREDIT-Sewon-Jun-HinkchiWorks2560x1707-2136x1424.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6199,7 +6581,8 @@
             "files": [
                 "18.jpg",
                 "188.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6213,7 +6596,8 @@
             "cover": "17.jpg",
             "files": [
                 "17.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6227,7 +6611,8 @@
             "cover": "16.jpg",
             "files": [
                 "16.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6241,7 +6626,8 @@
             "cover": "IMG_3619.jpg",
             "files": [
                 "IMG_3619.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6255,7 +6641,8 @@
             "cover": "IMG_2644.png",
             "files": [
                 "IMG_2644.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6269,7 +6656,8 @@
             "cover": "IMG_3606.jpg",
             "files": [
                 "IMG_3606.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6286,7 +6674,8 @@
                 "2.jpg",
                 "3.jpg",
                 "15.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6305,7 +6694,8 @@
                 "6824569b1772a0e3942dfb10_Show_지우카에데소현하연.jpg",
                 "6824571d27055346b15106c8_show_S19_하연.jpg",
                 "682457385ed7fe83e4c44d8e_show_S19_하연_2.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6320,7 +6710,8 @@
             "files": [
                 "bw.jpg",
                 "IMG_3211.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6334,7 +6725,8 @@
             "cover": "IMG_2409.PNG",
             "files": [
                 "IMG_2409.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6355,7 +6747,8 @@
                 "occasion1_img_p1.png",
                 "occasion2_img_p1.png",
                 "Personal-Style-CEP-HeYeon_main_desktop.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6381,7 +6774,8 @@
             "cover": "imgUrl20250507043738811.jpg",
             "files": [
                 "imgUrl20250507043738811.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6412,7 +6806,8 @@
                 "6820e4f1e22f22c0154ed479_ASS25_S19 하연.jpg",
                 "6820e5d718f3be073617bc28_ASS25_034.jpg",
                 "6820e10dd973842c02b374c5_ASS25_053.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6430,7 +6825,8 @@
                 "3.jpg",
                 "4.jpg",
                 "5.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6444,7 +6840,8 @@
             "cover": "1.jpg",
             "files": [
                 "1.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6470,7 +6867,8 @@
                 "681c2f8f1b21b2cd702e2e6d_NG_59.jpg",
                 "681c2f29dadf9ad590de9a0e_NG_46.jpg",
                 "681c2f828188343a83be153a_NG_57.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6485,7 +6883,8 @@
             "files": [
                 "1.jpg",
                 "2.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6500,7 +6899,8 @@
             "files": [
                 "1.jpg",
                 "2.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6516,7 +6916,8 @@
                 "6819c9aa6b4d67c1cd519bc1_24_35.jpg",
                 "6819de52f5cd0bd42d2f05dc_24_65.jpg",
                 "6819de6318a47548fa64a571_24_66.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6530,7 +6931,8 @@
             "cover": "GqQqNNRaAAAqVX6.jpg",
             "files": [
                 "GqQqNNRaAAAqVX6.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6544,7 +6946,8 @@
             "cover": "IMG_9088.jpg",
             "files": [
                 "IMG_9088.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6558,7 +6961,8 @@
             "cover": "GqFjLMwbYAAtltS.jpg",
             "files": [
                 "GqFjLMwbYAAtltS.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6571,8 +6975,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=rmytet9VbYQ"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=rmytet9VbYQ",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -6588,7 +6993,8 @@
                 "68133b1a2fbd3082fcb2f0dc_NG_35.jpg",
                 "68133b1f08eb6f709b21b68a_NG_36.jpg",
                 "68133b29ccf83d6bac59ac77_NG_37.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6602,7 +7008,8 @@
             "cover": "IMG_7345.jpg",
             "files": [
                 "IMG_7345.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6617,7 +7024,8 @@
             "files": [
                 "1.jpg",
                 "2.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6631,7 +7039,8 @@
             "cover": "school.mp4",
             "files": [
                 "school.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -6645,7 +7054,8 @@
             "cover": "IMG_7200.jpg",
             "files": [
                 "IMG_7200.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6662,7 +7072,8 @@
                 "2.jpg",
                 "3.jpg",
                 "4.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6676,7 +7087,8 @@
             "cover": "hayeon_1.jpg",
             "files": [
                 "hayeon_1.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6690,7 +7102,8 @@
             "cover": "1.jpg",
             "files": [
                 "1.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6707,7 +7120,8 @@
                 "IMG_6297.jpg",
                 "IMG_6298.jpg",
                 "IMG_6299.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6720,8 +7134,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=3k9T9EnbLmw"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=3k9T9EnbLmw",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -6736,7 +7151,8 @@
             "files": [
                 "1.jpg",
                 "2.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6750,7 +7166,8 @@
             "cover": "IMG_0580.PNG",
             "files": [
                 "IMG_0580.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6774,7 +7191,8 @@
                 "6801d99f3449964e48bc7441_NG_57.jpg",
                 "6801d807308b724480799ab6_NG_15.jpg",
                 "6801d816308b72448079a3e8_NG_27.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6790,7 +7208,8 @@
                 "1.jpg",
                 "2.jpg",
                 "3.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6805,7 +7224,8 @@
             "files": [
                 "IMG_0333.PNG",
                 "IMG_0334.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6819,7 +7239,8 @@
             "cover": "espresso.mp4",
             "files": [
                 "espresso.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -6834,7 +7255,8 @@
             "files": [
                 "3s.mp4",
                 "japan.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -6847,8 +7269,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=PowMGbNj0pE"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=PowMGbNj0pE",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -6864,7 +7287,8 @@
                 "1.jpg",
                 "2.jpg",
                 "3.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6879,7 +7303,8 @@
             "files": [
                 "IMG_9743.PNG",
                 "IMG_9745.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6895,7 +7320,8 @@
             "cover": "hayeon.mp4",
             "files": [
                 "hayeon.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -6910,7 +7336,8 @@
             "files": [
                 "IMG_0041.jpg",
                 "IMG_0042.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6923,8 +7350,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=A_SSyMjme4c"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=A_SSyMjme4c",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -6939,7 +7367,8 @@
             "files": [
                 "IMG_9605.PNG",
                 "IMG_9606.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6953,7 +7382,8 @@
             "cover": "jp fc.mp4",
             "files": [
                 "jp fc.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -6968,7 +7398,8 @@
             "files": [
                 "1.jpg",
                 "2.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -6982,7 +7413,8 @@
             "cover": "7551077287646957_0x0.mp4",
             "files": [
                 "7551077287646957_0x0.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -6996,7 +7428,8 @@
             "cover": "IMG_8643.PNG",
             "files": [
                 "IMG_8643.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7010,7 +7443,8 @@
             "cover": "IMG_8458.PNG",
             "files": [
                 "IMG_8458.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7024,7 +7458,8 @@
             "cover": "IMG_8416.PNG",
             "files": [
                 "IMG_8416.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7041,7 +7476,8 @@
                 "2.jpg",
                 "3.jpg",
                 "4.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7055,7 +7491,8 @@
             "cover": "IMG_8309.PNG",
             "files": [
                 "IMG_8309.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7069,7 +7506,8 @@
             "cover": "profileupdate.jpg",
             "files": [
                 "profileupdate.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7083,7 +7521,8 @@
             "cover": "IMG_8140.PNG",
             "files": [
                 "IMG_8140.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7096,8 +7535,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=2bcq3yDf2FE"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=2bcq3yDf2FE",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -7110,8 +7550,9 @@
             "video": [
                 "https://www.youtube.com/shorts/3VrjKGA1fCo"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/3VrjKGA1fCo",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -7127,7 +7568,8 @@
                 "IMG_7839.PNG",
                 "IMG_7840.PNG",
                 "IMG_7841.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7143,7 +7585,8 @@
                 "GkOPbf0XcAAg5B4.jpg",
                 "GkOPbfEbQAA7Tyo.jpg",
                 "GkOPbfrXMAAW5c3.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7157,7 +7600,8 @@
             "cover": "IMG_1272.jpg",
             "files": [
                 "IMG_1272.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7172,7 +7616,8 @@
             "files": [
                 "IMG_7616.PNG",
                 "IMG_7617.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7189,7 +7634,8 @@
                 "Gj-nfx1awAE8n2f.jpg",
                 "Gj-nfx1bgAA8pCH.jpg",
                 "Gj-nfxza4AArha-.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7202,8 +7648,9 @@
             "video": [
                 "https://www.youtube.com/shorts/pmwVrktYh3c"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/pmwVrktYh3c",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -7218,7 +7665,8 @@
             "files": [
                 "IMG_7065.PNG",
                 "IMG_7068.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7234,7 +7682,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7248,7 +7697,8 @@
             "cover": "cometrue.mp4",
             "files": [
                 "cometrue.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -7263,7 +7713,8 @@
             "files": [
                 "IMG_6919.PNG",
                 "IMG_6925.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7279,7 +7730,8 @@
                 "01.jpg",
                 "02.jpg",
                 "03.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7294,7 +7746,8 @@
             "files": [
                 "01.jpg",
                 "02.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7311,7 +7764,8 @@
                 "02.jpg",
                 "03.jpg",
                 "04.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7326,7 +7780,8 @@
             "files": [
                 "12112332367131073_0x0.mp4",
                 "IMG_6595.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7342,7 +7797,8 @@
                 "IMG_6429.PNG",
                 "IMG_6430.PNG",
                 "IMG_6434.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7357,7 +7813,8 @@
             "files": [
                 "IMG_6257.PNG",
                 "IMG_6258.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7371,7 +7828,8 @@
             "cover": "GiSxOaVbUAAC6.jpg",
             "files": [
                 "GiSxOaVbUAAC6.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7391,7 +7849,8 @@
                 "IMG_5385.jpg",
                 "IMG_5386.jpg",
                 "IMG_5387.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7405,7 +7864,8 @@
             "cover": "IMG_5830.PNG",
             "files": [
                 "IMG_5830.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7420,7 +7880,8 @@
             "files": [
                 "GhUXFbwa8AAwZ7M.jpg",
                 "GhUXFbybcAAvRhE.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7435,7 +7896,8 @@
             "files": [
                 "IMG_5554.PNG",
                 "IMG_5555.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7459,7 +7921,8 @@
                 "IMG_5202.jpg",
                 "IMG_5203.jpg",
                 "IMG_5204.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7473,7 +7936,8 @@
             "cover": "troublemaker.mp4",
             "files": [
                 "troublemaker.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -7487,7 +7951,8 @@
             "cover": "IMG_4648.PNG",
             "files": [
                 "IMG_4648.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7503,7 +7968,8 @@
                 "GfuSosdaQAA2qxw.jpg",
                 "GfuSosebYAAQZPZ.jpg",
                 "GfuSoshb0AAWtA.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7517,8 +7983,9 @@
                 "https://www.youtube.com/shorts/HPUqJGpzQtI",
                 "https://www.youtube.com/shorts/W5_e6ZmuIew"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/HPUqJGpzQtI",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -7532,7 +7999,8 @@
             "cover": "xmas.jpg",
             "files": [
                 "xmas.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7547,7 +8015,8 @@
             "files": [
                 "IMG_4478.PNG",
                 "IMG_4482.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7564,7 +8033,8 @@
                 "aqur.jpg",
                 "drink.jpg",
                 "mochi.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7577,8 +8047,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=qaHZQZQ89WM"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=qaHZQZQ89WM",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -7594,7 +8065,8 @@
                 "IMG_4433.jpg",
                 "IMG_4434.jpg",
                 "IMG_4435.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7609,7 +8081,8 @@
             "files": [
                 "IMG_4417.PNG",
                 "IMG_4418.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7623,7 +8096,8 @@
             "cover": "19.png",
             "files": [
                 "19.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7638,7 +8112,8 @@
             "files": [
                 "Fromm PFP 12.PNG",
                 "IMG_4331.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7652,7 +8127,8 @@
             "cover": "IMG_4274.PNG",
             "files": [
                 "IMG_4274.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7669,7 +8145,8 @@
                 "IMG_5725.jpg",
                 "IMG_5726.jpg",
                 "IMG_5727.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7683,7 +8160,8 @@
             "cover": "jpfc.mp4",
             "files": [
                 "jpfc.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -7699,7 +8177,8 @@
                 "IMG_4206.PNG",
                 "IMG_4209.PNG",
                 "IMG_4211.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7713,7 +8192,8 @@
             "cover": "IMG_4226.jpg",
             "files": [
                 "IMG_4226.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7727,7 +8207,8 @@
             "cover": "melon.mp4",
             "files": [
                 "melon.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -7741,7 +8222,8 @@
             "cover": "IMG_4173.PNG",
             "files": [
                 "IMG_4173.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7755,7 +8237,8 @@
             "cover": "IMG_4147.jpg",
             "files": [
                 "IMG_4147.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7776,7 +8259,8 @@
                 "IMG_4090.jpg",
                 "IMG_4091.jpg",
                 "IMG_4092.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7791,7 +8275,8 @@
             "files": [
                 "IMG_2841.jpg",
                 "IMG_2842.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7805,7 +8290,8 @@
             "cover": "IMG_4054.PNG",
             "files": [
                 "IMG_4054.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7819,7 +8305,8 @@
             "cover": "jpfc.mp4",
             "files": [
                 "jpfc.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -7832,8 +8319,9 @@
             "video": [
                 "https://www.youtube.com/shorts/41acIpg3Pgs"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/41acIpg3Pgs",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -7849,7 +8337,8 @@
                 "IMG_3979.jpg",
                 "IMG_3980.jpg",
                 "IMG_3981.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7862,8 +8351,9 @@
             "video": [
                 "https://www.youtube.com/shorts/FuDlUPjsLK0"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/FuDlUPjsLK0",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -7878,7 +8368,8 @@
             "files": [
                 "7477763510823912_0x0.mp4",
                 "IMG_3933.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7892,7 +8383,8 @@
             "cover": "x.jpg",
             "files": [
                 "x.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7908,7 +8400,8 @@
                 "20241130_231042.jpg",
                 "20241130_231043.jpg",
                 "20241130_231045.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7921,8 +8414,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=WOJNqhc5UHY"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=WOJNqhc5UHY",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -7936,7 +8430,8 @@
             "cover": "IMG_3727.PNG",
             "files": [
                 "IMG_3727.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7957,7 +8452,8 @@
                 "IMG_3656.jpg",
                 "IMG_3657.jpg",
                 "IMG_3658.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7973,7 +8469,8 @@
                 "IMG_3598.PNG",
                 "IMG_3599.PNG",
                 "IMG_3600.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -7990,7 +8487,8 @@
                 "IMG_7090.jpg",
                 "IMG_7091.jpg",
                 "IMG_7092.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8003,8 +8501,9 @@
             "video": [
                 "https://youtu.be/GqQdoyPX7z0?si=_4abszi_nmzHiGT_"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://youtu.be/GqQdoyPX7z0?si=_4abszi_nmzHiGT_",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -8018,7 +8517,8 @@
             "cover": "IMG_3396.PNG",
             "files": [
                 "IMG_3396.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8035,7 +8535,8 @@
                 "IMG_4779.jpg",
                 "IMG_4780.jpg",
                 "IMG_4781.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8051,7 +8552,8 @@
                 "IMG_3262.jpg",
                 "IMG_3263.jpg",
                 "IMG_3264.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8065,7 +8567,8 @@
             "cover": "IMG_3188.PNG",
             "files": [
                 "IMG_3188.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8080,7 +8583,8 @@
             "files": [
                 "IMG_3167.PNG",
                 "IMG_3180.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8095,7 +8599,8 @@
             "files": [
                 "IMG_3069.PNG",
                 "IMG_3072.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8112,7 +8617,8 @@
                 "cha.jpg",
                 "self.jpg",
                 "sta.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8127,7 +8633,8 @@
             "files": [
                 "6339172401382749_0x0.mp4",
                 "IMG_2949.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8140,8 +8647,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=-0y0liRrPlA"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=-0y0liRrPlA",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -8155,7 +8663,8 @@
             "cover": "IMG_9464.jpg",
             "files": [
                 "IMG_9464.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8170,7 +8679,8 @@
             "files": [
                 "IMG_2777.jpg",
                 "IMG_2778.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8184,7 +8694,8 @@
             "cover": "IMG_2573.PNG",
             "files": [
                 "IMG_2573.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8200,7 +8711,8 @@
                 "Fromm BG 7.PNG",
                 "Fromm PFP 11.PNG",
                 "IMG_2515.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8216,7 +8728,8 @@
                 "IMG_4807.jpg",
                 "IMG_4808.jpg",
                 "IMG_4809.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8230,8 +8743,9 @@
                 "https://youtu.be/RnUueR4DsTc?si=b38Cgj2zG8Kf3Yiu",
                 "https://youtu.be/aiDJWudd4vk?si=GCvrVQoYNVYmOeHg"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://youtu.be/RnUueR4DsTc?si=b38Cgj2zG8Kf3Yiu",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -8245,7 +8759,8 @@
             "cover": "IMG_2171.PNG",
             "files": [
                 "IMG_2171.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8259,7 +8774,8 @@
             "cover": "IMG_2121.PNG",
             "files": [
                 "IMG_2121.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8273,7 +8789,8 @@
             "cover": "6742724757778216_0x0.mp4",
             "files": [
                 "6742724757778216_0x0.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -8288,7 +8805,8 @@
             "files": [
                 "IMG_1839.PNG",
                 "IMG_2024.JPG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8302,7 +8820,8 @@
             "cover": "musinsa.mp4",
             "files": [
                 "musinsa.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -8317,7 +8836,8 @@
             "files": [
                 "IMG_2974.jpg",
                 "IMG_2975.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8333,7 +8853,8 @@
                 "IMG_1685.jpg",
                 "IMG_1953.jpg",
                 "img.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8349,7 +8870,8 @@
                 "IMG_1414.PNG",
                 "IMG_1417.PNG",
                 "IMG_1418.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8362,8 +8884,9 @@
             "video": [
                 "https://www.youtube.com/shorts/_H0W6VFqVK4"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/_H0W6VFqVK4",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -8378,7 +8901,8 @@
             "files": [
                 "IMG_0739.PNG",
                 "IMG_0740.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8392,7 +8916,8 @@
             "cover": "IMG_0520.PNG",
             "files": [
                 "IMG_0520.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8413,7 +8938,8 @@
                 "IMG_0177.PNG",
                 "IMG_0199.PNG",
                 "IMG_0200.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8427,7 +8953,8 @@
             "cover": "lalalals.mp4",
             "files": [
                 "lalalals.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -8441,7 +8968,8 @@
             "cover": "IMG_5701.jpg",
             "files": [
                 "IMG_5701.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8457,7 +8985,8 @@
                 "IMG_5657.jpg",
                 "IMG_5658.jpg",
                 "IMG_5659.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8473,7 +9002,8 @@
                 "IMG_5353.jpg",
                 "IMG_5354.jpg",
                 "IMG_5355.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8486,8 +9016,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=tY0YRsllcM0"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=tY0YRsllcM0",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -8502,7 +9033,8 @@
             "files": [
                 "5796101289430398_0x0.mp4",
                 "IMG_9531.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8515,8 +9047,9 @@
             "video": [
                 "https://youtu.be/td8E8PmY0E0?si=9GMEHAfvDPd0mxmn"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://youtu.be/td8E8PmY0E0?si=9GMEHAfvDPd0mxmn",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -8530,7 +9063,8 @@
             "cover": "atmosphere_1723889633639.png",
             "files": [
                 "atmosphere_1723889633639.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8544,7 +9078,8 @@
             "cover": "Fromm PFP 10.PNG",
             "files": [
                 "Fromm PFP 10.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8558,7 +9093,8 @@
             "cover": "IMG_0237.jpg",
             "files": [
                 "IMG_0237.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8572,7 +9108,8 @@
             "cover": "IMG_8079.PNG",
             "files": [
                 "IMG_8079.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8589,7 +9126,8 @@
                 "20240807_001607.jpg",
                 "20240807_001609.jpg",
                 "20240807_001610.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8604,7 +9142,8 @@
             "files": [
                 "IMG_6471.jpg",
                 "IMG_6472.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8617,8 +9156,9 @@
             "video": [
                 "https://youtu.be/Um8T-7CTrzc?si=VB165HpnhvXNGyYU"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://youtu.be/Um8T-7CTrzc?si=VB165HpnhvXNGyYU",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -8632,7 +9172,8 @@
             "cover": "IMG_6283.jpg",
             "files": [
                 "IMG_6283.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8646,7 +9187,8 @@
             "cover": "IMG_6020.jpg",
             "files": [
                 "IMG_6020.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8660,7 +9202,8 @@
             "cover": "IMG_7101.PNG",
             "files": [
                 "IMG_7101.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8674,7 +9217,8 @@
             "cover": "IMG_7095.PNG",
             "files": [
                 "IMG_7095.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8689,7 +9233,8 @@
             "files": [
                 "IMG_5561.jpg",
                 "IMG_5562.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8708,7 +9253,8 @@
                 "10043_EBB3B4ECA095EBB3B8.png",
                 "10053_.jpg",
                 "10054_.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8721,8 +9267,9 @@
             "video": [
                 "https://www.youtube.com/shorts/nQRtB9Ynz0k"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/nQRtB9Ynz0k",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -8738,7 +9285,8 @@
                 "IMG_3177.jpg",
                 "IMG_3178.jpg",
                 "IMG_3179.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8755,7 +9303,8 @@
                 "IMG_6499.PNG",
                 "IMG_6500.PNG",
                 "IMG_6501.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8770,7 +9319,8 @@
             "files": [
                 "IMG_5856.PNG",
                 "IMG_5857.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8784,7 +9334,8 @@
             "cover": "hayeoneat.mp4",
             "files": [
                 "hayeoneat.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -8798,7 +9349,8 @@
             "cover": "IMG_5480.PNG",
             "files": [
                 "IMG_5480.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8811,8 +9363,9 @@
             "video": [
                 "https://www.youtube.com/shorts/SUzoo1aU7Z8"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/SUzoo1aU7Z8",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -8826,7 +9379,8 @@
             "cover": "IMG_5075.jpg",
             "files": [
                 "IMG_5075.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8842,7 +9396,8 @@
                 "IMG_4369.jpg",
                 "IMG_4370.jpg",
                 "IMG_4395.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8857,7 +9412,8 @@
             "files": [
                 "IMG_4544.jpg",
                 "IMG_4545.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8872,7 +9428,8 @@
             "files": [
                 "IMG_5174.jpg",
                 "IMG_5175.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8887,7 +9444,8 @@
             "files": [
                 "atmosphere_1719895636733.png",
                 "atmosphere_1719895637199.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8901,7 +9459,8 @@
             "cover": "IMG_4759.PNG",
             "files": [
                 "IMG_4759.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8915,7 +9474,8 @@
             "cover": "IMG_4603.PNG",
             "files": [
                 "IMG_4603.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8929,7 +9489,8 @@
             "cover": "CuteHayeon.mp4",
             "files": [
                 "CuteHayeon.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -8944,7 +9505,8 @@
             "files": [
                 "IMG_4530.PNG",
                 "IMG_4531.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8959,7 +9521,8 @@
             "files": [
                 "IMG_7615.jpg",
                 "IMG_7616.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8973,7 +9536,8 @@
             "cover": "IMG_4047.PNG",
             "files": [
                 "IMG_4047.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -8987,7 +9551,8 @@
             "cover": "IMG_4046.PNG",
             "files": [
                 "IMG_4046.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9002,7 +9567,8 @@
             "files": [
                 "IMG_5084.jpg",
                 "IMG_5088.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9018,7 +9584,8 @@
                 "IMG_5051.jpg",
                 "IMG_5052.jpg",
                 "IMG_5053.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9031,8 +9598,9 @@
             "video": [
                 "https://youtu.be/yU4cDaltVaQ?si=0A1yMzN9H7Q7vQLE"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://youtu.be/yU4cDaltVaQ?si=0A1yMzN9H7Q7vQLE",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -9048,7 +9616,8 @@
                 "IMG_3296.PNG",
                 "IMG_3297.PNG",
                 "IMG_3298.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9065,7 +9634,8 @@
                 "IMG_3182.jpg",
                 "IMG_3184.jpg",
                 "IMG_3185.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9081,7 +9651,8 @@
                 "IMG_2019.jpg",
                 "IMG_2020.jpg",
                 "IMG_2021.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9097,7 +9668,8 @@
                 "240601.jpg",
                 "sbs.jpg",
                 "snapinsta.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9112,7 +9684,8 @@
             "files": [
                 "IMG_2780.PNG",
                 "IMG_2781.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9129,7 +9702,8 @@
                 "1957_EBB3B4ECA095EBB3B8.png",
                 "7991_EBB3B4ECA095EBB3B8.png",
                 "8111_EBB3B4ECA095EBB3B8.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9142,8 +9716,9 @@
             "video": [
                 "https://www.youtube.com/shorts/2T5kWqIGfR4"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/2T5kWqIGfR4",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -9157,7 +9732,8 @@
             "cover": "IMG_9266.jpg",
             "files": [
                 "IMG_9266.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9170,8 +9746,9 @@
             "video": [
                 "https://www.youtube.com/shorts/0OUf7SkU4Eg"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/0OUf7SkU4Eg",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -9188,7 +9765,8 @@
                 "IMG_1600.PNG",
                 "IMG_1601.PNG",
                 "IMG_1602.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9205,7 +9783,8 @@
                 "IMG_5013.jpg",
                 "xpj.jpg",
                 "xpo.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9220,7 +9799,8 @@
             "files": [
                 "240518-triplescosmos-1791699775777300885-1.jpg",
                 "240518-triplescosmos-1791699775777300885-2.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9233,8 +9813,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=80QH-4sdAgI"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=80QH-4sdAgI",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -9249,7 +9830,8 @@
             "files": [
                 "IMG_3106.jpg",
                 "IMG_3107.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9263,7 +9845,8 @@
             "cover": "IMG_1072.jpg",
             "files": [
                 "IMG_1072.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9278,7 +9861,8 @@
             "files": [
                 "IMG_0988.jpg",
                 "IMG_0989.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9293,7 +9877,8 @@
             "files": [
                 "Fromm BG 6.PNG",
                 "Fromm PFP 8.PNG"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9308,7 +9893,8 @@
             "files": [
                 "IMG_0591.jpg",
                 "IMG_0593.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9323,7 +9909,8 @@
             "files": [
                 "IMG_9302.jpg",
                 "IMG_9303.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9337,7 +9924,8 @@
             "cover": "IMG_9496.jpg",
             "files": [
                 "IMG_9496.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9352,7 +9940,8 @@
             "files": [
                 "cf713178-e018-495a-a4e1-c4b3f2c3a94e.jpg",
                 "IMG_8789.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9365,8 +9954,9 @@
             "video": [
                 "https://youtu.be/hOxwNVk--UQ?si=xVwp8N-YAnSQgpIt"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://youtu.be/hOxwNVk--UQ?si=xVwp8N-YAnSQgpIt",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -9382,7 +9972,8 @@
                 "20171256_045.jpg",
                 "IMG_8172.jpg",
                 "Mgz_Sub_IMG_20240508103721.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9395,8 +9986,9 @@
             "video": [
                 "https://www.youtube.com/shorts/NzXohi7N7ow"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/NzXohi7N7ow",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -9413,7 +10005,8 @@
                 "-3.jpg",
                 "-10.jpg",
                 "9e5b0db3f742c223.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9427,7 +10020,8 @@
             "cover": "S19.jpg",
             "files": [
                 "S19.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9441,7 +10035,8 @@
             "cover": "IMG_7825.jpg",
             "files": [
                 "IMG_7825.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9454,8 +10049,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=OnkMN_XxRNw"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=OnkMN_XxRNw",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -9476,7 +10072,8 @@
                 "Picsart_24-05-03_22-03-59-813.jpg",
                 "Picsart_24-05-03_23-53-22-518.jpg",
                 "Picsart_24-05-04_00-16-05-771.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9490,7 +10087,8 @@
             "cover": "IMG_6783.jpg",
             "files": [
                 "IMG_6783.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9504,7 +10102,8 @@
             "cover": "IMG_5559.jpg",
             "files": [
                 "IMG_5559.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9519,7 +10118,8 @@
             "files": [
                 "IMG_5246.jpg",
                 "IMG_5247.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9534,7 +10134,8 @@
             "files": [
                 "hayeon_gnd.jpeg",
                 "IMG_5209.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9548,7 +10149,8 @@
             "cover": "1000022626.mp4",
             "files": [
                 "1000022626.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -9562,7 +10164,8 @@
             "cover": "triplescosmos_-_1779366726968504412.jpg",
             "files": [
                 "triplescosmos_-_1779366726968504412.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9576,7 +10179,8 @@
             "cover": "1000022553.png",
             "files": [
                 "1000022553.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9590,7 +10194,8 @@
             "cover": "IMG_4624.jpg",
             "files": [
                 "IMG_4624.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9605,7 +10210,8 @@
             "files": [
                 "1000022354.png",
                 "1000022355.mp4"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9619,7 +10225,8 @@
             "cover": "IMG_7731.jpg",
             "files": [
                 "IMG_7731.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9635,7 +10242,8 @@
                 "1000022279.png",
                 "1000022280.png",
                 "1000022281.mp4"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9649,7 +10257,8 @@
             "cover": "1000022243.mp4",
             "files": [
                 "1000022243.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -9663,7 +10272,8 @@
             "cover": "1000022132.mp4",
             "files": [
                 "1000022132.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -9678,7 +10288,8 @@
             "files": [
                 "Fromm BG 5.png",
                 "Fromm PFP 7.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9692,7 +10303,8 @@
             "cover": "1000022020.png",
             "files": [
                 "1000022020.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9705,8 +10317,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=bF0kAnyF_0U"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=bF0kAnyF_0U",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -9720,7 +10333,8 @@
             "cover": "IMG_4041.jpg",
             "files": [
                 "IMG_4041.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9733,8 +10347,9 @@
             "video": [
                 "https://www.youtube.com/shorts/KRUz8PsL3l4"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/KRUz8PsL3l4",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -9748,7 +10363,8 @@
             "cover": "1000021858.png",
             "files": [
                 "1000021858.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9762,7 +10378,8 @@
             "cover": "IMG_3493.jpg",
             "files": [
                 "IMG_3493.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9776,7 +10393,8 @@
             "cover": "IMG_3413.jpg",
             "files": [
                 "IMG_3413.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9789,8 +10407,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=FxkxdnmA1rs"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=FxkxdnmA1rs",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -9808,7 +10427,8 @@
                 "Fromm BG 3.png",
                 "Fromm BG 4.png",
                 "Fromm PFP 6.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9822,7 +10442,8 @@
             "cover": "1000021247.mp4",
             "files": [
                 "1000021247.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -9837,7 +10458,8 @@
             "files": [
                 "IMG_6141.jpg",
                 "IMG_8965.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9853,7 +10475,8 @@
                 "IMG_2341.jpg",
                 "IMG_2342.jpg",
                 "IMG_2343.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9867,7 +10490,8 @@
             "cover": "princess.mp4",
             "files": [
                 "princess.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -9881,7 +10505,8 @@
             "cover": "1000021098.png",
             "files": [
                 "1000021098.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9896,7 +10521,8 @@
             "files": [
                 "IMG_1378.jpg",
                 "IMG_1379.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9911,7 +10537,8 @@
             "files": [
                 "1000020763.mp4",
                 "1000020767.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9927,7 +10554,8 @@
                 "GGwLEG1aIAACNGH.png",
                 "GGwLEGyaYAApHZ4.png",
                 "GGwLEGzawAAVKrb.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9941,8 +10569,9 @@
                 "https://youtube.com/shorts/VU5XhJZmw4c?si=DSpIhR2e1hkrXCn0",
                 "https://www.youtube.com/shorts/Z_RdPoJ7J4c"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://youtube.com/shorts/VU5XhJZmw4c?si=DSpIhR2e1hkrXCn0",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -9960,7 +10589,8 @@
                 "1000020604.png",
                 "1000020605.png",
                 "1000020606.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9974,7 +10604,8 @@
             "cover": "IMG_0715.jpg",
             "files": [
                 "IMG_0715.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -9988,7 +10619,8 @@
             "cover": "1000020427.png",
             "files": [
                 "1000020427.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10004,7 +10636,8 @@
                 "IMG_9885.jpg",
                 "IMG_9886.jpg",
                 "IMG_9887.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10024,7 +10657,8 @@
                 "chk2.jpg",
                 "chk3.jpg",
                 "chk4.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10037,8 +10671,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=i9e6MOizKS4"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=i9e6MOizKS4",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -10053,7 +10688,8 @@
             "files": [
                 "Fromm BG 2.jpg",
                 "Fromm PFP 5.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10068,7 +10704,8 @@
             "files": [
                 "P6.jpg",
                 "P7.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10082,7 +10719,8 @@
             "cover": "20240208.png",
             "files": [
                 "20240208.png"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10097,7 +10735,8 @@
             "files": [
                 "20240206 Video.mp4",
                 "GFqL_rwXsAApjgb.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10112,7 +10751,8 @@
             "files": [
                 "IMG_7137.jpg",
                 "IMG_7138.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10126,7 +10766,8 @@
             "cover": "240204.jpg",
             "files": [
                 "240204.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10139,8 +10780,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=pK4R1nx9O3o"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=pK4R1nx9O3o",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -10153,8 +10795,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=Mwb1DnJSuy8"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=Mwb1DnJSuy8",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -10168,7 +10811,8 @@
             "cover": "FPFP4.jpg",
             "files": [
                 "FPFP4.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10182,7 +10826,8 @@
             "cover": "240126-1.jpg",
             "files": [
                 "240126-1.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10196,7 +10841,8 @@
             "cover": "240126.jpg",
             "files": [
                 "240126.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10209,8 +10855,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=12j0y2EyGrs"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=12j0y2EyGrs",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -10224,7 +10871,8 @@
             "cover": "P3.jpg",
             "files": [
                 "P3.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10240,7 +10888,8 @@
                 "IMG_3340.jpg",
                 "IMG_3341.jpg",
                 "IMG_3342.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10256,7 +10905,8 @@
                 "240123-.jpg",
                 "240123.jpg",
                 "240123a.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10269,8 +10919,9 @@
             "video": [
                 "https://youtu.be/J5lOKZJH9HI?si=pND-gZ6QDG5h1nDV"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://youtu.be/J5lOKZJH9HI?si=pND-gZ6QDG5h1nDV",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -10284,7 +10935,8 @@
             "cover": "P2.jpg",
             "files": [
                 "P2.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10297,8 +10949,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=OrX8IDTEDWA"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=OrX8IDTEDWA",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -10311,8 +10964,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=9_yVMsfpHVA"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=9_yVMsfpHVA",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -10326,7 +10980,8 @@
             "cover": "FPFP3.jpg",
             "files": [
                 "FPFP3.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10339,8 +10994,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=olyv6xjTJ9c"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=olyv6xjTJ9c",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -10353,8 +11009,9 @@
             "video": [
                 "https://www.youtube.com/shorts/FwQRjF83aYg"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/FwQRjF83aYg",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -10369,7 +11026,8 @@
             "files": [
                 "Haus.jpg",
                 "JHY_wtth_instagram.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10383,7 +11041,8 @@
             "cover": "IMG_1923.jpg",
             "files": [
                 "IMG_1923.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10397,7 +11056,8 @@
             "cover": "P1.jpg",
             "files": [
                 "P1.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10410,8 +11070,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=K7QIApdD_vQ"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=K7QIApdD_vQ",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -10426,7 +11087,8 @@
             "files": [
                 "FBG1.jpg",
                 "FPFP2.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10441,7 +11103,8 @@
             "files": [
                 "IMG_1035.jpg",
                 "IMG_1037.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10456,7 +11119,8 @@
             "files": [
                 "JHY_profile_2.jpg",
                 "JHYP.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10469,8 +11133,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=3SCF2HhsHxY"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=3SCF2HhsHxY",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -10483,8 +11148,9 @@
             "video": [
                 "https://www.youtube.com/shorts/m0cGDLJ9kC0"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/shorts/m0cGDLJ9kC0",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -10498,7 +11164,8 @@
             "cover": "FPFP1.jpg",
             "files": [
                 "FPFP1.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10511,8 +11178,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=Wbxd6HYuR8M"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=Wbxd6HYuR8M",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -10528,7 +11196,8 @@
             "cover": "hyjb.mp4",
             "files": [
                 "hyjb.mp4"
-            ]
+            ],
+            "coverType": "video"
         }
     },
     {
@@ -10541,8 +11210,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=SunIf1TcEw0"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=SunIf1TcEw0",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -10555,8 +11225,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=jgNixjl-iW0"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=jgNixjl-iW0",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -10569,8 +11240,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=s3IfM-u5hVc"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=s3IfM-u5hVc",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -10586,7 +11258,8 @@
                 "JHY_member_reveal_1.jpg",
                 "JHY_member_reveal_2.jpg",
                 "JHY_member_reveal_3.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10599,8 +11272,9 @@
             "video": [
                 "https://youtu.be/bpVG7JttVVM?si=zqjEySnNJpwArWow"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://youtu.be/bpVG7JttVVM?si=zqjEySnNJpwArWow",
+            "files": [],
+            "coverType": "youtube"
         }
     },
     {
@@ -10614,7 +11288,8 @@
             "cover": "NXTGD.jpg",
             "files": [
                 "NXTGD.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10628,7 +11303,8 @@
             "cover": "NXTD.jpg",
             "files": [
                 "NXTD.jpg"
-            ]
+            ],
+            "coverType": "image"
         }
     },
     {
@@ -10641,8 +11317,9 @@
             "video": [
                 "https://www.youtube.com/watch?v=mFQ2jlokX7o"
             ],
-            "cover": null,
-            "files": []
+            "cover": "https://www.youtube.com/watch?v=mFQ2jlokX7o",
+            "files": [],
+            "coverType": "youtube"
         }
     }
 ]

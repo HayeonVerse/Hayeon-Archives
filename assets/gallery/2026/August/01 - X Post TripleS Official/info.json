@@ -5,8 +5,8 @@
     "tags": [],
     "video": [],
     "cover": "birthday.jpg",
-    "coverType": "image",
     "files": [
         "birthday.jpg"
-    ]
+    ],
+    "coverType": "image"
 }

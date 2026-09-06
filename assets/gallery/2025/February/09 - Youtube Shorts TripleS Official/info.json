@@ -7,5 +7,6 @@
     "cover": "cometrue.mp4",
     "files": [
         "cometrue.mp4"
-    ]
+    ],
+    "coverType": "video"
 }

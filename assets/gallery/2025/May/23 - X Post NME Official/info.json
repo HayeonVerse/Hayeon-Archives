@@ -7,5 +7,6 @@
     "cover": "nme.mp4",
     "files": [
         "nme.mp4"
-    ]
+    ],
+    "coverType": "video"
 }

@@ -9,5 +9,6 @@
     "cover": "sweetie.mp4",
     "files": [
         "sweetie.mp4"
-    ]
+    ],
+    "coverType": "video"
 }

@@ -6,6 +6,7 @@
     "video": [
         "https://www.youtube.com/watch?v=9_yVMsfpHVA"
     ],
-    "cover": null,
-    "files": []
+    "cover": "https://www.youtube.com/watch?v=9_yVMsfpHVA",
+    "files": [],
+    "coverType": "youtube"
 }

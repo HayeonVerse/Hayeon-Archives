@@ -9,5 +9,6 @@
     "cover": "hayeon.mp4",
     "files": [
         "hayeon.mp4"
-    ]
+    ],
+    "coverType": "video"
 }

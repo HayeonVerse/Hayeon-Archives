@@ -7,5 +7,6 @@
     "cover": "troublemaker.mp4",
     "files": [
         "troublemaker.mp4"
-    ]
+    ],
+    "coverType": "video"
 }

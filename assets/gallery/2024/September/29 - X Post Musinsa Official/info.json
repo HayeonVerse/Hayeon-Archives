@@ -7,5 +7,6 @@
     "cover": "musinsa.mp4",
     "files": [
         "musinsa.mp4"
-    ]
+    ],
+    "coverType": "video"
 }

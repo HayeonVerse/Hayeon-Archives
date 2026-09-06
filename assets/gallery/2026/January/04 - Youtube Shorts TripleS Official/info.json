@@ -7,5 +7,6 @@
     "cover": "lv20.mp4",
     "files": [
         "lv20.mp4"
-    ]
+    ],
+    "coverType": "video"
 }

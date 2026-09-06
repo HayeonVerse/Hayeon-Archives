@@ -7,5 +7,6 @@
     "cover": "image-01.png",
     "files": [
         "image-01.png"
-    ]
+    ],
+    "coverType": "image"
 }

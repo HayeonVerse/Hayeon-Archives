@@ -7,5 +7,6 @@
     "cover": "espresso.mp4",
     "files": [
         "espresso.mp4"
-    ]
+    ],
+    "coverType": "video"
 }

@@ -7,5 +7,6 @@
     "cover": "profileupdate.jpg",
     "files": [
         "profileupdate.jpg"
-    ]
+    ],
+    "coverType": "image"
 }

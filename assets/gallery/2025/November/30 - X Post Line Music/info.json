@@ -7,5 +7,6 @@
     "cover": "LineMusic.mp4",
     "files": [
         "LineMusic.mp4"
-    ]
+    ],
+    "coverType": "video"
 }

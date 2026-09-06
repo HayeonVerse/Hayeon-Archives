@@ -9,5 +9,6 @@
     "cover": "hyjb.mp4",
     "files": [
         "hyjb.mp4"
-    ]
+    ],
+    "coverType": "video"
 }

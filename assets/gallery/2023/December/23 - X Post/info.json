@@ -7,5 +7,6 @@
     "cover": "NXTD.jpg",
     "files": [
         "NXTD.jpg"
-    ]
+    ],
+    "coverType": "image"
 }

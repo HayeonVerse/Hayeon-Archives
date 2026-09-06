@@ -7,5 +7,6 @@
     "cover": "wav.mp4",
     "files": [
         "wav.mp4"
-    ]
+    ],
+    "coverType": "video"
 }
