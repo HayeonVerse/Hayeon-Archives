@@ -14089,6 +14089,27 @@
                 }
             },
             "updated": 1788863873890
+        },
+        "2026/September/08 - Youtube Lucky Factory": {
+            "fingerprint": "d28860b2f0bc40f32254a5704fef28d9360bd2a6",
+            "album": {
+                "path": "2026/September/08 - Youtube Lucky Factory",
+                "info": {
+                    "title": "Youtube Lucky Factory",
+                    "date": "September 08",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [
+                        "https://youtu.be/9itQVKZh5AQ?si=HEhKIIWmDxM_Jt1Q"
+                    ],
+                    "cover": "maxresdefault.jpg",
+                    "files": [
+                        "maxresdefault.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1788867557450
         }
     }
 }

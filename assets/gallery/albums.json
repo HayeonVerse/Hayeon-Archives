@@ -18,6 +18,23 @@
         }
     },
     {
+        "path": "2026/September/08 - Youtube Lucky Factory",
+        "info": {
+            "title": "Youtube Lucky Factory",
+            "date": "September 08",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://youtu.be/9itQVKZh5AQ?si=HEhKIIWmDxM_Jt1Q"
+            ],
+            "cover": "maxresdefault.jpg",
+            "files": [
+                "maxresdefault.jpg"
+            ],
+            "coverType": "image"
+        }
+    },
+    {
         "path": "2026/September/04 - Cosmo Live Thumbnail",
         "info": {
             "title": "Cosmo Live Thumbnail",
