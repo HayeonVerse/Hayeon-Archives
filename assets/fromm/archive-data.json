@@ -1,5 +1,31 @@
 [
     {
+        "folder": "2026/09/13",
+        "date": "2026-09-13",
+        "messages": [
+            {
+                "type": "hayeon",
+                "ko": "모해ㅐ",
+                "en": "What are you doingㅐ"
+            },
+            {
+                "type": "hayeon",
+                "ko": "잠들기 전에",
+                "en": "Before I go to sleep,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "잠깐 라이부 하려구",
+                "en": "I'm going to go live for a little while."
+            },
+            {
+                "type": "hayeon",
+                "ko": "드러와!",
+                "en": "Come in!"
+            }
+        ]
+    },
+    {
         "folder": "2026/09/11",
         "date": "2026-09-11",
         "messages": [
@@ -175,8 +201,8 @@
             },
             {
                 "type": "hayeon",
-                "ko": "나는 대장이고 FaustLD는 육각단",
-                "en": "I'm the leader and FaustLD is Yukgakdan."
+                "ko": "나는 대장이고 Y/n는 육각단",
+                "en": "I'm the leader and Y/n is Hexagon."
             },
             {
                 "type": "hayeon",
@@ -185,8 +211,8 @@
             },
             {
                 "type": "hayeon",
-                "ko": "나 뿐만이 아니라 FaustLD의 캐릭터도 같이 섞여있는 ",
-                "en": "so it's not just mine, but a character that also has FaustLD's character mixed in,"
+                "ko": "나 뿐만이 아니라 Y/n의 캐릭터도 같이 섞여있는 ",
+                "en": "so it's not just mine, but a character that also has Y/n's character mixed in,"
             },
             {
                 "type": "hayeon",
@@ -205,8 +231,8 @@
             },
             {
                 "type": "hayeon",
-                "ko": "내 캐릭터이자 FaustLD 캐릭터",
-                "en": "It's my character and FaustLD's character."
+                "ko": "내 캐릭터이자 Y/n 캐릭터",
+                "en": "It's my character and Y/n's character."
             },
             {
                 "type": "hayeon",
@@ -215,13 +241,13 @@
             },
             {
                 "type": "hayeon",
-                "ko": "난 장각이 보면 FaustLD를 떠올리고",
-                "en": "When I see Janggak, I think of FaustLD,"
+                "ko": "난 장각이 보면 Y/n를 떠올리고",
+                "en": "When I see Janggak, I think of Y/n,"
             },
             {
                 "type": "hayeon",
-                "ko": "FaustLD는 장각이로 날 생각하고",
-                "en": "and FaustLD thinks of me through Janggak,"
+                "ko": "Y/n는 장각이로 날 생각하고",
+                "en": "and Y/n thinks of me through Janggak,"
             },
             {
                 "type": "hayeon",
