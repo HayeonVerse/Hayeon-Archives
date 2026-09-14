@@ -14171,6 +14171,28 @@
                 }
             },
             "updated": 1789295654594
+        },
+        "2026/September/14 - Youtube TripleS Official": {
+            "fingerprint": "76b4fc073e4a4bae87c175c69f792c5f4a52e551",
+            "album": {
+                "path": "2026/September/14 - Youtube TripleS Official",
+                "info": {
+                    "title": "Youtube TripleS Official",
+                    "date": "September 14",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [
+                        "https://www.youtube.com/shorts/BWmlanDOHxE",
+                        "https://www.youtube.com/watch?v=EFAq8PxhqOE"
+                    ],
+                    "cover": "maxresdefault.jpg",
+                    "files": [
+                        "maxresdefault.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1789387250320
         }
     }
 }

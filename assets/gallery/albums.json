@@ -1,5 +1,23 @@
 [
     {
+        "path": "2026/September/14 - Youtube TripleS Official",
+        "info": {
+            "title": "Youtube TripleS Official",
+            "date": "September 14",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://www.youtube.com/shorts/BWmlanDOHxE",
+                "https://www.youtube.com/watch?v=EFAq8PxhqOE"
+            ],
+            "cover": "maxresdefault.jpg",
+            "files": [
+                "maxresdefault.jpg"
+            ],
+            "coverType": "image"
+        }
+    },
+    {
         "path": "2026/September/13 - Cosmo Live Thumbnail - 잠깐 노라조",
         "info": {
             "title": "Cosmo Live Thumbnail - 잠깐 노라조",
