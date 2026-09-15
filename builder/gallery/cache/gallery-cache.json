@@ -14193,6 +14193,50 @@
                 }
             },
             "updated": 1789387250320
+        },
+        "2026/September/15 - X Post Lucky Factory": {
+            "fingerprint": "56ea910d9cc6400d8b1459f289bdf1ad2fd6d364",
+            "album": {
+                "path": "2026/September/15 - X Post Lucky Factory",
+                "info": {
+                    "title": "X Post Lucky Factory",
+                    "date": "September 15",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "hayoi.jpg",
+                    "files": [
+                        "hayoi.jpg",
+                        "hayoi2.jpg",
+                        "hayoi3.jpg",
+                        "hayoi4.jpg",
+                        "hayoi5.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1789466858666
+        },
+        "2026/September/15 - Youtube Lucky Factory": {
+            "fingerprint": "37e63e63a204df633c263194fe16c14dde60757f",
+            "album": {
+                "path": "2026/September/15 - Youtube Lucky Factory",
+                "info": {
+                    "title": "Youtube Lucky Factory",
+                    "date": "September 15",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [
+                        "https://youtu.be/1t-NaqKq2Bo?si=wH00zSN-kChCiV2C"
+                    ],
+                    "cover": "maxresdefault.jpg",
+                    "files": [
+                        "maxresdefault.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1789466858688
         }
     }
 }

@@ -1,5 +1,41 @@
 [
     {
+        "path": "2026/September/15 - X Post Lucky Factory",
+        "info": {
+            "title": "X Post Lucky Factory",
+            "date": "September 15",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "hayoi.jpg",
+            "files": [
+                "hayoi.jpg",
+                "hayoi2.jpg",
+                "hayoi3.jpg",
+                "hayoi4.jpg",
+                "hayoi5.jpg"
+            ],
+            "coverType": "image"
+        }
+    },
+    {
+        "path": "2026/September/15 - Youtube Lucky Factory",
+        "info": {
+            "title": "Youtube Lucky Factory",
+            "date": "September 15",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://youtu.be/1t-NaqKq2Bo?si=wH00zSN-kChCiV2C"
+            ],
+            "cover": "maxresdefault.jpg",
+            "files": [
+                "maxresdefault.jpg"
+            ],
+            "coverType": "image"
+        }
+    },
+    {
         "path": "2026/September/14 - Youtube TripleS Official",
         "info": {
             "title": "Youtube TripleS Official",
