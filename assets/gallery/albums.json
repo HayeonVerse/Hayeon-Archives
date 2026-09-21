@@ -1,5 +1,21 @@
 [
     {
+        "path": "2026/September/21 - Cosmo Talk",
+        "info": {
+            "title": "Cosmo Talk",
+            "date": "September 21",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "image-01.png",
+            "files": [
+                "image-01.png",
+                "image-02.png"
+            ],
+            "coverType": "image"
+        }
+    },
+    {
         "path": "2026/September/17 - X Post TripleS Official",
         "info": {
             "title": "X Post TripleS Official",
