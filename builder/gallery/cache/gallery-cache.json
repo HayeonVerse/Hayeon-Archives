@@ -14365,6 +14365,28 @@
                 }
             },
             "updated": 1790132487071
+        },
+        "2026/September/23 - tripleS Cosmos Blog S7-S12 Behind": {
+            "fingerprint": "f0effe12693d71e43601c9b0154342c992dffaa3",
+            "album": {
+                "path": "2026/September/23 - tripleS Cosmos Blog S7-S12 Behind",
+                "info": {
+                    "title": "tripleS Cosmos Blog S7-S12 Behind",
+                    "date": "September 23",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "image-01.jpg",
+                    "files": [
+                        "image-01.jpg",
+                        "image-02.jpg",
+                        "image-03.jpg",
+                        "image-04.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1790165725961
         }
     }
 }
