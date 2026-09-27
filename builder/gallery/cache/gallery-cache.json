@@ -14487,6 +14487,25 @@
                 }
             },
             "updated": 1790512423894
+        },
+        "2026/September/27 - Cosmo Talk PFP Change": {
+            "fingerprint": "f7ea6cd70d25634062093329bfc081703f54ccfe",
+            "album": {
+                "path": "2026/September/27 - Cosmo Talk PFP Change",
+                "info": {
+                    "title": "Cosmo Talk PFP Change",
+                    "date": "September 27",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "pfp.png",
+                    "files": [
+                        "pfp.png"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1790519192446
         }
     }
 }

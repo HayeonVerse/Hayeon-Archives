@@ -1,5 +1,30 @@
 [
     {
+        "folder": "2026/09/27",
+        "date": "2026-09-27",
+        "notices": [
+            {
+                "icon": "🖼️",
+                "type": "event",
+                "text": "Hayeon changed her Cosmo Talk profile picture.",
+                "image": "pfp.PNG",
+                "position": 0
+            },
+            {
+                "icon": "⭐",
+                "type": "event",
+                "text": "Hayeon changed her Cosmo Talk name to 하요이🤓.",
+                "position": 1
+            }
+        ],
+        "messages": [
+            {
+                "type": "hayeon",
+                "image": "pfp.png"
+            }
+        ]
+    },
+    {
         "folder": "2026/09/25",
         "date": "2026-09-25",
         "messages": [
