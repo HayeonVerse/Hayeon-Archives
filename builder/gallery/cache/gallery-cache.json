@@ -14463,6 +14463,30 @@
                 }
             },
             "updated": 1790472998819
+        },
+        "2026/September/27 - tripleS Cosmos Blog S19-S24 Behind": {
+            "fingerprint": "273d6884ef5187918e1f106666c37936da1ba310",
+            "album": {
+                "path": "2026/September/27 - tripleS Cosmos Blog S19-S24 Behind",
+                "info": {
+                    "title": "tripleS Cosmos Blog S19-S24 Behind",
+                    "date": "September 27",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "6ab75d6b44e3a2f9c0569bf3_S19_4.jpg",
+                    "files": [
+                        "6ab75d6b44e3a2f9c0569bf3_S19_4.jpg",
+                        "6ab75da6394b229a3f8fa8c4_S19_11.jpg",
+                        "6ab75dae8e5eb4e325c9fe6b_S19_12.jpg",
+                        "6ab75e05b1b6eb96b4e666a8_S20_9.jpg",
+                        "6ab75ea69fefde4f167a617f_S21_13.jpg",
+                        "6ab76013fc48dd534c043d93_S23_18.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1790512423894
         }
     }
 }
