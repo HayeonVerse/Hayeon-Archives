@@ -1,5 +1,766 @@
 [
     {
+        "folder": "2026/09/28",
+        "date": "2026-09-28",
+        "messages": [
+            {
+                "type": "hayeon",
+                "ko": "레슨 끄읕~",
+                "en": "Lesson done~"
+            },
+            {
+                "type": "hayeon",
+                "ko": "모해",
+                "en": "What are you doing?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "프사 바꿨엉",
+                "en": "I changed my profile picture."
+            },
+            {
+                "type": "hayeon",
+                "ko": "보고싶어!!!!!!",
+                "en": "I miss you!!!!!!"
+            },
+            {
+                "type": "fan",
+                "ko": "🤓 이거는 왜 붙였어 ㅋㅋㅋ",
+                "en": "Why did you add 🤓 ㅋㅋㅋ"
+            },
+            {
+                "type": "hayeon",
+                "ko": "이 이모티콘이 내 최애야",
+                "en": "This emoji is my favorite."
+            },
+            {
+                "type": "hayeon",
+                "ko": "바보같이 생겨서 귀엽잖아",
+                "en": "It looks so silly, so it's cute."
+            },
+            {
+                "type": "fan",
+                "ko": "닮음",
+                "en": "You look alike."
+            },
+            {
+                "type": "hayeon",
+                "ko": "그건 아니고.",
+                "en": "That's not it."
+            },
+            {
+                "type": "fan",
+                "ko": "🫪 <- 이것도 바보 같아서 좋음",
+                "en": "🫪 <- I like this one too because it looks silly."
+            },
+            {
+                "type": "hayeon",
+                "ko": "얜 미간 스페이스 너무 눌러놔서 좀 별루",
+                "en": "This one has its space between the eyebrows squished too much, so I don't really like it."
+            },
+            {
+                "type": "hayeon",
+                "ko": "명절 잘 보냈엉?",
+                "en": "Did you have a good holiday?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "나도 먹고자고 로블럭스하고 했더니",
+                "en": "I also spent mine eating, sleeping, and playing Roblox,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "시간이 금방 갔어",
+                "en": "so the time went by really fast."
+            },
+            {
+                "type": "fan",
+                "ko": "두배 된 거 아니여?",
+                "en": "Didn't you double in size?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "살짝..?",
+                "en": "A little..?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "그래서 레슨할때",
+                "en": "So during my lesson,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "평소보다 더빡세게 춰서",
+                "en": "I danced harder than usual"
+            },
+            {
+                "type": "hayeon",
+                "ko": "수분빼고왔어 ㅋㄹㅋㅋㅋ",
+                "en": "to sweat out some water weight ㅋㄹㅋㅋㅋ"
+            },
+            {
+                "type": "fan",
+                "ko": "나지금두찜로제찜닭이랑맘스터치핫싸이순살치킨이너무먹고싶어",
+                "en": "Right now I really want Dujjim rose jjimdak and Mom's Touch Hot Spicy Boneless Chicken."
+            },
+            {
+                "type": "hayeon",
+                "ko": "자세하네…",
+                "en": "That's very specific…"
+            },
+            {
+                "type": "hayeon",
+                "ko": "난 저녁 육개장라면",
+                "en": "I had Yukgaejang ramen for dinner."
+            },
+            {
+                "type": "hayeon",
+                "ko": "먹었우",
+                "en": "I ate it."
+            },
+            {
+                "type": "hayeon",
+                "ko": "라면먹으면 부실하게 먹었다는 생각이 있었는데",
+                "en": "I used to feel like I was eating poorly whenever I had ramen,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "요즘은 라면에 빠져서",
+                "en": "but lately I'm obsessed with ramen,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "너무 맛있어",
+                "en": "and it's so good."
+            },
+            {
+                "type": "hayeon",
+                "ko": "집 가서도 아침에",
+                "en": "Even when I go home, in the morning"
+            },
+            {
+                "type": "hayeon",
+                "ko": "엄마가 차려주는 밥이랑 라면",
+                "en": "I eat the meal Mom makes and ramen."
+            },
+            {
+                "type": "hayeon",
+                "ko": "이렇게 먹음",
+                "en": "That's how I eat."
+            },
+            {
+                "type": "hayeon",
+                "ko": "편의점이 천국으로 보여요…",
+                "en": "Convenience stores look like heaven to me…"
+            },
+            {
+                "type": "fan",
+                "ko": "라면은 뭐 제일 좋아한다고 했지??",
+                "en": "Which ramen did you say you liked the most again??"
+            },
+            {
+                "type": "hayeon",
+                "ko": "진짬뽕!!!",
+                "en": "Jin Jjambbong!!!"
+            },
+            {
+                "type": "hayeon",
+                "ko": "진짬뽕 광고모델 되는게 나의 가장 큰 꿈이다.",
+                "en": "My biggest dream is to become the advertising model for Jin Jjambbong."
+            },
+            {
+                "type": "hayeon",
+                "ko": "그럴려면 앞으로",
+                "en": "For that to happen,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "진짬뽕으로 만든 가방에",
+                "en": "I need a bag made with Jin Jjambbong,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "진짬뽕 써있는 옷에",
+                "en": "clothes with Jin Jjambbong written on them,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "핸드폰 케에스도 진짬뽕으로 바꾸고",
+                "en": "change my phone case to Jin Jjambbong too,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "배경화면도 바꾸고",
+                "en": "change my wallpaper,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "늘 들고다니면",
+                "en": "and carry it around all the time."
+            },
+            {
+                "type": "hayeon",
+                "ko": "좀 눈에 띄지않을까",
+                "en": "Wouldn't I stand out a little?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "광고모델이 되고싶은 이유는",
+                "en": "The reason I want to become an advertising model"
+            },
+            {
+                "type": "hayeon",
+                "ko": "진짬뽕 열박스는 보내주시지 않을까 하는",
+                "en": "is because I'm hoping they'd send me at least ten boxes of Jin Jjambbong."
+            },
+            {
+                "type": "hayeon",
+                "ko": "흑심.",
+                "en": "That's my ulterior motive."
+            },
+            {
+                "type": "hayeon",
+                "ko": "음흐흐흐흐",
+                "en": "음흐흐흐흐"
+            },
+            {
+                "type": "fan",
+                "ko": "하연이 안졸려?",
+                "en": "Hayeon, aren't you sleepy?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "몇시간 뒤에 다시 나가야하는데",
+                "en": "I have to go out again in a few hours,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "애매하게 자면 더졸려서",
+                "en": "and if I sleep for an awkward amount of time, I'll be even sleepier."
+            },
+            {
+                "type": "hayeon",
+                "ko": "아니 밤새는건 아니구",
+                "en": "No, I'm not staying up all night."
+            },
+            {
+                "type": "hayeon",
+                "ko": "딱 어느정도 자야 개운하게 깨는 시간있잖아",
+                "en": "You know how there's a certain amount of time you need to sleep to wake up feeling refreshed?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "몇시간 자야 덜피곤하고",
+                "en": "I'm trying to figure out how many hours I need to sleep"
+            },
+            {
+                "type": "hayeon",
+                "ko": "그걸 해보랴고",
+                "en": "so I won't be as tired."
+            },
+            {
+                "type": "hayeon",
+                "ko": "근데 이시간에 깨있네??",
+                "en": "But you're still awake at this hour??"
+            },
+            {
+                "type": "hayeon",
+                "ko": "뭐하고 있었던거야",
+                "en": "What were you doing?"
+            },
+            {
+                "type": "fan",
+                "ko": "너무너무 잠이 안와가지규 밀린 유튜브 봤어...😭😭😭😭😭😭😭",
+                "en": "I really couldn't sleep, so I watched all the YouTube videos I'd fallen behind on...😭😭😭😭😭😭😭"
+            },
+            {
+                "type": "hayeon",
+                "ko": "그렇게 유튜브 보면",
+                "en": "If you watch YouTube like that,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "더 잠 안온다!!",
+                "en": "you'll have an even harder time sleeping!!"
+            },
+            {
+                "type": "fan",
+                "ko": "근데 하연이두 과학영상 보다 자잖아",
+                "en": "But you also watch science videos before sleeping."
+            },
+            {
+                "type": "hayeon",
+                "ko": "그건 자기 위해 보는 영상이잖앙..",
+                "en": "Those are videos I watch to help me sleep.."
+            },
+            {
+                "type": "fan",
+                "ko": "자기?",
+                "en": "Sleep?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "ㅋㅎㅋㅎㅋㅋㅋㅋㅋㅋㅋ",
+                "en": "ㅋㅎㅋㅎㅋㅋㅋㅋㅋㅋㅋ"
+            },
+            {
+                "type": "fan",
+                "ko": "피곤한데 자기 싫어",
+                "en": "I'm tired, but I don't want to sleep."
+            },
+            {
+                "type": "hayeon",
+                "ko": "나 싫어?",
+                "en": "Don't you like me?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "ㅋㄹㅋㄹㅋㅎㅎㅋㅎㅋㅎㅋㅎㅋㅋ",
+                "en": "ㅋㄹㅋㄹㅋㅎㅎㅋㅎㅋㅎㅋㅎㅋㅋ"
+            },
+            {
+                "type": "fan",
+                "ko": "집에 벌레 나왔는데 어떡해요? 저 못 잡겠어요ㅠㅠㅠ",
+                "en": "A bug came into my house. What do I do? I can't catch itㅠㅠㅠ"
+            },
+            {
+                "type": "hayeon",
+                "ko": "나도 벌레 못잡는데…",
+                "en": "I can't catch bugs either…"
+            },
+            {
+                "type": "hayeon",
+                "ko": "옆에 있어주는것까진 가능",
+                "en": "I can at least stay by your side."
+            },
+            {
+                "type": "hayeon",
+                "ko": "같이 무서워하면서",
+                "en": "We can be scared together."
+            },
+            {
+                "type": "fan",
+                "ko": "만약 바퀴벌레가 24마리라면?",
+                "en": "What if there were 24 cockroaches?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "이건 무슨 예시야 ㅋㄹㅋㅋㅋ",
+                "en": "What kind of example is this? ㅋㄹㅋㅋㅋ"
+            },
+            {
+                "type": "hayeon",
+                "ko": "다죽여야지",
+                "en": "I'd have to kill them all."
+            },
+            {
+                "type": "hayeon",
+                "ko": "내 손으론 못죽이니까",
+                "en": "I can't kill them with my own hands,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "그래 하나씩 이름 지어주고",
+                "en": "so I'll give each one a name"
+            },
+            {
+                "type": "hayeon",
+                "ko": "집안일이나 시켜야지",
+                "en": "and make them do housework."
+            },
+            {
+                "type": "hayeon",
+                "ko": "너네는 소파밑에 쓰레기를 먹고 너네는 주방쓰레기 먹고 너네는 문앞에서 보초 서",
+                "en": "You guys eat the trash under the sofa, you guys eat the kitchen trash, and you guys stand guard by the door."
+            },
+            {
+                "type": "fan",
+                "ko": "근데 좀 징그러울듯",
+                "en": "But that would be kind of gross."
+            },
+            {
+                "type": "hayeon",
+                "ko": "근데 진짜 신기한게",
+                "en": "But what's really interesting is,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "벌레는 진짜 징그럽고 무서운데",
+                "en": "bugs are really gross and scary,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "바다에 사는애들이 사실 더 징그럽게 생겼거든",
+                "en": "but creatures that live in the ocean actually look even grosser."
+            },
+            {
+                "type": "hayeon",
+                "ko": "생각하기 나름이야 다",
+                "en": "It's all about how you look at things."
+            },
+            {
+                "type": "fan",
+                "ko": "바다에 사는 애들은 맛있잖아 그래도",
+                "en": "But sea creatures are tasty at least."
+            },
+            {
+                "type": "hayeon",
+                "ko": "곤충들도 맛있어",
+                "en": "Insects are tasty too."
+            },
+            {
+                "type": "hayeon",
+                "ko": "새우나 물고기 이런애들도 진짜 징그럽게 생겼는데",
+                "en": "Shrimp and fish and things like that look really gross too,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "조개도 징그러움",
+                "en": "and clams are gross too."
+            },
+            {
+                "type": "hayeon",
+                "ko": "조개 헤엄치는거 봤어???",
+                "en": "Have you ever seen a clam swim???"
+            },
+            {
+                "type": "hayeon",
+                "ko": "혀 나와서 막 기어다니는거",
+                "en": "With its tongue sticking out and crawling around."
+            },
+            {
+                "type": "hayeon",
+                "ko": "근데 곤충들이 보기엔 우리가 징그럽겠지",
+                "en": "But from an insect's point of view, we'd probably look gross too."
+            },
+            {
+                "type": "hayeon",
+                "ko": "맛있으면 된거긴 해",
+                "en": "As long as it tastes good, I guess it's fine."
+            },
+            {
+                "type": "hayeon",
+                "ko": "손질은 우리가 잘 안하니까..",
+                "en": "Since we don't usually have to prepare them ourselves.."
+            },
+            {
+                "type": "fan",
+                "ko": "그래서 곤충이 맛있는지 어떻게 알아? 하연이 먹어봤어?",
+                "en": "So how do you know if insects are tasty? Have you tried them, Hayeon?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "나 사실",
+                "en": "Actually,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "베어그릴스님 카메라맨이야",
+                "en": "I'm Bear Grylls' cameraman."
+            },
+            {
+                "type": "hayeon",
+                "ko": "숨기고 있었어",
+                "en": "I've been keeping it a secret."
+            },
+            {
+                "type": "hayeon",
+                "ko": "투잡이라 항상 바빠",
+                "en": "I have two jobs, so I'm always busy."
+            },
+            {
+                "type": "hayeon",
+                "ko": "아까 한국왔어",
+                "en": "I just got back to Korea."
+            },
+            {
+                "type": "fan",
+                "ko": "알바 투잡도 힘든데 아이돌이랑 베어그릴스 카메라맨을 투잡뛰네",
+                "en": "Even working two part-time jobs is hard, but you're doing two jobs as an idol and Bear Grylls' cameraman."
+            },
+            {
+                "type": "hayeon",
+                "ko": "마법소녀잖아",
+                "en": "I'm a magical girl."
+            },
+            {
+                "type": "hayeon",
+                "ko": "날아다니는거지",
+                "en": "I fly around."
+            },
+            {
+                "type": "fan",
+                "ko": "카메라맨 하면서 본 동물 뭐 있어?",
+                "en": "What animals have you seen while working as a cameraman?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "유니콘",
+                "en": "A unicorn."
+            },
+            {
+                "type": "hayeon",
+                "ko": "진짜 있더라",
+                "en": "They really exist."
+            },
+            {
+                "type": "hayeon",
+                "ko": "숲속에 있는 폭포에서 봤는데",
+                "en": "I saw one at a waterfall in the forest,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "상상처럼은 안생겼고",
+                "en": "but it didn't look the way I imagined."
+            },
+            {
+                "type": "hayeon",
+                "ko": "긴 무지개빛 털에 이쁜 날개인줄 알았는데",
+                "en": "I thought it would have long rainbow-colored fur and pretty wings,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "단발머리더라..",
+                "en": "but it had short hair.."
+            },
+            {
+                "type": "hayeon",
+                "ko": "심경에 변화가있었나봐",
+                "en": "I guess it had a change of heart."
+            },
+            {
+                "type": "hayeon",
+                "ko": "최근에 자르셨대",
+                "en": "Apparently, it cut it recently."
+            },
+            {
+                "type": "fan",
+                "ko": "단발병 걸리샸네",
+                "en": "It got the short-hair bug."
+            },
+            {
+                "type": "hayeon",
+                "ko": "그거 잘 넘겨야 하는데ㅜ",
+                "en": "It needs to get through that phase wellㅜ"
+            },
+            {
+                "type": "fan",
+                "ko": "나중에 맘 바뀌시묜 붙임머리 해드려야겠다ㅠㅠㅠ",
+                "en": "If it changes its mind later, I should get it hair extensionsㅠㅠㅠ"
+            },
+            {
+                "type": "hayeon",
+                "ko": "괜찮아 내가 피스 몇개 주고왔어",
+                "en": "It's okay, I left it a few hair pieces."
+            },
+            {
+                "type": "hayeon",
+                "ko": "브릿지처럼 이마쪽에 한가닥 붙혀줬어",
+                "en": "I put one strand near its forehead like a highlight."
+            },
+            {
+                "type": "fan",
+                "ko": "ㅋㅋㅋㅋ 유니콘 기분 더 나빠지는 거 아니지",
+                "en": "ㅋㅋㅋㅋ The unicorn isn't going to feel even worse, right?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "아냐 환하게 웃었어",
+                "en": "No, it smiled brightly."
+            },
+            {
+                "type": "hayeon",
+                "ko": "이빨 되게 많더라",
+                "en": "It had so many teeth."
+            },
+            {
+                "type": "fan",
+                "ko": "이름은 유레카?",
+                "en": "Was its name Eureka?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "옼ㅎㅋㅎㅋㄹㅋㅋ",
+                "en": "옼ㅎㅋㅎㅋㄹㅋㅋ"
+            },
+            {
+                "type": "hayeon",
+                "ko": "기억하네",
+                "en": "You remember."
+            },
+            {
+                "type": "hayeon",
+                "ko": "내 상상의 친구 이름",
+                "en": "That's the name of my imaginary friend."
+            },
+            {
+                "type": "fan",
+                "ko": "유남쌩 아니었어요?",
+                "en": "Wasn't it Yunamssaeng?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "못알아들으셨다해서 그건 안돼",
+                "en": "You said you couldn't understand that one, so that won't work."
+            },
+            {
+                "type": "hayeon",
+                "ko": "나 드립력이 많이 떨어져서",
+                "en": "My joke skills have really declined,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "가족이랑 더 있으면 채워져",
+                "en": "but they get replenished when I spend more time with my family."
+            },
+            {
+                "type": "hayeon",
+                "ko": "서로 웃길려고 하다보니까",
+                "en": "Since we all try to make each other laugh,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "가족이랑 있다 오면 드립력이 늘어서오는데",
+                "en": "I come back with better joke skills after being with my family."
+            },
+            {
+                "type": "hayeon",
+                "ko": "그걸 방송에서 못쓰는 이유는",
+                "en": "The reason I can't use them on broadcasts is"
+            },
+            {
+                "type": "hayeon",
+                "ko": "우린항상",
+                "en": "we always"
+            },
+            {
+                "type": "hayeon",
+                "ko": "서로의 살짝의 조롱과 못생긴 표정이 디폴트라",
+                "en": "default to lightly making fun of each other and making ugly faces,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "방송에서 못쓰는게 아쉽다",
+                "en": "so it's a shame I can't use that on broadcasts."
+            },
+            {
+                "type": "hayeon",
+                "ko": "나도 다현언니처럼",
+                "en": "I also want to, like DaHyun unnie,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "가족과함께 라방을 켜보고싶군",
+                "en": "try going live with my family."
+            },
+            {
+                "type": "hayeon",
+                "ko": "맞다 다현언니 아버님이 내가 최애라고 하셨대",
+                "en": "Oh right, DaHyun unnie's dad said I'm his favorite."
+            },
+            {
+                "type": "fan",
+                "ko": "반대로 하연이아버님 최애는 누구셔?",
+                "en": "On the other hand, who's your dad's favorite?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "우리 아빠는 내꺼밖에 안봐",
+                "en": "My dad only watches my stuff."
+            },
+            {
+                "type": "hayeon",
+                "ko": "하루종일 내꺼만 봐서",
+                "en": "He watches only my stuff all day,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "엄마랑 오빠가 노이로제 걸릴것같다고 그만보라고 한대 ㅋㅎㅋㄹㅋㄹㅋㄹㅋㅋ",
+                "en": "so Mom and my brother tell him to stop because they think they're going to go crazy ㅋㅎㅋㄹㅋㄹㅋㄹㅋㅋ"
+            },
+            {
+                "type": "hayeon",
+                "ko": "엄마도 맨날 내꺼보고",
+                "en": "Mom also watches my stuff all the time,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "오빠는 안보는척 모르는척 하면서",
+                "en": "and my brother pretends he doesn't watch or know anything,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "다 봄 ㅋ",
+                "en": "but he watches it all ㅋ"
+            },
+            {
+                "type": "fan",
+                "ko": "혹시 운명미소녀도 보셨대?",
+                "en": "Did they happen to watch 'Destiny Magical Girl' too?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "아니 그거 내 앞에서 틀어서",
+                "en": "No, they played that in front of me,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "너무 수치스러웠음",
+                "en": "so it was so embarrassing."
+            },
+            {
+                "type": "hayeon",
+                "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㅎㅋ",
+                "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㅎㅋ"
+            },
+            {
+                "type": "fan",
+                "ko": "ㅋㅋㅋㅋㅋ불미스러운일이네",
+                "en": "ㅋㅋㅋㅋㅋ That's quite an unfortunate incident."
+            },
+            {
+                "type": "hayeon",
+                "ko": "너무 불미스러워",
+                "en": "Such an unfortunate incident."
+            },
+            {
+                "type": "hayeon",
+                "ko": "나 슬슬 자야겠당",
+                "en": "I should probably go to sleep soon."
+            },
+            {
+                "type": "hayeon",
+                "ko": "시간 늦었는데",
+                "en": "It's late,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "연락 해줘서 고마워~",
+                "en": "so thank you for contacting me~"
+            },
+            {
+                "type": "hayeon",
+                "ko": "잘자구~",
+                "en": "Sleep well~"
+            },
+            {
+                "type": "hayeon",
+                "ko": "아니면",
+                "en": "Or"
+            },
+            {
+                "type": "hayeon",
+                "ko": "오늘 화이팅 하구!",
+                "en": "have a good day today!"
+            },
+            {
+                "type": "hayeon",
+                "ko": "하랑해😘😘",
+                "en": "Haranghae😘😘"
+            }
+        ]
+    },
+    {
         "folder": "2026/09/27",
         "date": "2026-09-27",
         "notices": [
@@ -7,7 +768,7 @@
                 "icon": "🖼️",
                 "type": "event",
                 "text": "Hayeon changed her Cosmo Talk profile picture.",
-                "image": "pfp.PNG",
+                "image": "notice.png",
                 "position": 0
             },
             {
