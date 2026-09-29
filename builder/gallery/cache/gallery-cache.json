@@ -14507,12 +14507,57 @@
             },
             "updated": 1790519192446
         },
-        "2026/September/29 - Youtube Post TripleS Official": {
+        "2026/September/29 - X Post Lucky Factory Studio": {
+            "fingerprint": "ef14e08fce3a76fb9db4a4e1c043b7fa78a14a9a",
+            "album": {
+                "path": "2026/September/29 - X Post Lucky Factory Studio",
+                "info": {
+                    "title": "X Post Lucky Factory Studio",
+                    "date": "September 29",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "6A6D4E15-FCD6-413D-9241-D115437BBD45.jpg",
+                    "files": [
+                        "6A6D4E15-FCD6-413D-9241-D115437BBD45.jpg",
+                        "87F2DBA7-BB64-47EE-8A70-CF941E5ABD77.jpg",
+                        "A96F904C-E27B-47EE-A0F5-506F91A74076.jpg",
+                        "F4A68606-1585-4800-8376-84B3FCF1248B.jpg",
+                        "unnamed.webp",
+                        "unnamwed_1.webp"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1790678919894
+        },
+        "2026/September/29 - Youtube Lucky Factory Studio": {
+            "fingerprint": "357abff7a0434b74a31b5daa0b9bccbb453f3367",
+            "album": {
+                "path": "2026/September/29 - Youtube Lucky Factory Studio",
+                "info": {
+                    "title": "Youtube Lucky Factory Studio",
+                    "date": "September 29",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [
+                        "https://youtu.be/Iq63t-BBMLU?si=glkrpeF5uUPZNWiR"
+                    ],
+                    "cover": "maxresdefault.jpg",
+                    "files": [
+                        "maxresdefault.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1790678919898
+        },
+        "2026/September/29 - Youtube Shorts TripleS Official": {
             "fingerprint": "8796bd2481c6672e86733fb5730c0776783e305b",
             "album": {
-                "path": "2026/September/29 - Youtube Post TripleS Official",
+                "path": "2026/September/29 - Youtube Shorts TripleS Official",
                 "info": {
-                    "title": "Youtube Post TripleS Official",
+                    "title": "Youtube Shorts TripleS Official",
                     "date": "September 29",
                     "source": "Archive",
                     "tags": [],
@@ -14526,7 +14571,7 @@
                     "coverType": "image"
                 }
             },
-            "updated": 1790674666575
+            "updated": 1790678919901
         }
     }
 }

@@ -1,8 +1,45 @@
 [
     {
-        "path": "2026/September/29 - Youtube Post TripleS Official",
+        "path": "2026/September/29 - X Post Lucky Factory Studio",
         "info": {
-            "title": "Youtube Post TripleS Official",
+            "title": "X Post Lucky Factory Studio",
+            "date": "September 29",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "6A6D4E15-FCD6-413D-9241-D115437BBD45.jpg",
+            "files": [
+                "6A6D4E15-FCD6-413D-9241-D115437BBD45.jpg",
+                "87F2DBA7-BB64-47EE-8A70-CF941E5ABD77.jpg",
+                "A96F904C-E27B-47EE-A0F5-506F91A74076.jpg",
+                "F4A68606-1585-4800-8376-84B3FCF1248B.jpg",
+                "unnamed.webp",
+                "unnamwed_1.webp"
+            ],
+            "coverType": "image"
+        }
+    },
+    {
+        "path": "2026/September/29 - Youtube Lucky Factory Studio",
+        "info": {
+            "title": "Youtube Lucky Factory Studio",
+            "date": "September 29",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://youtu.be/Iq63t-BBMLU?si=glkrpeF5uUPZNWiR"
+            ],
+            "cover": "maxresdefault.jpg",
+            "files": [
+                "maxresdefault.jpg"
+            ],
+            "coverType": "image"
+        }
+    },
+    {
+        "path": "2026/September/29 - Youtube Shorts TripleS Official",
+        "info": {
+            "title": "Youtube Shorts TripleS Official",
             "date": "September 29",
             "source": "Archive",
             "tags": [],
