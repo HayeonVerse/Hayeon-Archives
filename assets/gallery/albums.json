@@ -1,5 +1,21 @@
 [
     {
+        "path": "2026/October/02 - Cosmo Room",
+        "info": {
+            "title": "Cosmo Room",
+            "date": "October 02",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "IMG_8755.jpg",
+            "files": [
+                "IMG_8755.jpg",
+                "IMG_8756.jpg"
+            ],
+            "coverType": "image"
+        }
+    },
+    {
         "path": "2026/September/29 - X Post Lucky Factory Studio",
         "info": {
             "title": "X Post Lucky Factory Studio",
