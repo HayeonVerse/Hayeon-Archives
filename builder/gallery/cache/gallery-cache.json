@@ -14698,6 +14698,27 @@
                 }
             },
             "updated": 1791281163406
+        },
+        "2026/October/06 - Youtube Shorts Haena Official": {
+            "fingerprint": "354291b8f9cd6859e0ca3d831ec7063882fcf14d",
+            "album": {
+                "path": "2026/October/06 - Youtube Shorts Haena Official",
+                "info": {
+                    "title": "Youtube Shorts Haena Official",
+                    "date": "October 06",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [
+                        "https://www.youtube.com/shorts/Woq9mf5vDXI"
+                    ],
+                    "cover": "maxresdefault.jpg",
+                    "files": [
+                        "maxresdefault.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1791288965201
         }
     }
 }
