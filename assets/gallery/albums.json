@@ -1,5 +1,42 @@
 [
     {
+        "path": "2026/October/06 - X Post Lucky Factory Studio",
+        "info": {
+            "title": "X Post Lucky Factory Studio",
+            "date": "October 06",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "unnamed (1).webp",
+            "files": [
+                "unnamed (1).webp",
+                "unnamed (2).webp",
+                "unnamed (3).webp",
+                "unnamed (4).webp",
+                "unnamed (5).webp",
+                "unnamed.webp"
+            ],
+            "coverType": "image"
+        }
+    },
+    {
+        "path": "2026/October/06 - Youtube Lucky Factory Studio",
+        "info": {
+            "title": "Youtube Lucky Factory Studio",
+            "date": "October 06",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://www.youtube.com/watch?v=bO7Xsd8ghUo"
+            ],
+            "cover": "maxresdefault.jpg",
+            "files": [
+                "maxresdefault.jpg"
+            ],
+            "coverType": "image"
+        }
+    },
+    {
         "path": "2026/October/06 - Youtube Shorts TripleS Official",
         "info": {
             "title": "Youtube Shorts TripleS Official",
