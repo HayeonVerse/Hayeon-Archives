@@ -14408,7 +14408,7 @@
             "updated": 1790172872205
         },
         "2026/September/25 - Cosmo Room": {
-            "fingerprint": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "fingerprint": "59729a690a326484d9f55e290bcbdf1ac2e15e03",
             "album": {
                 "path": "2026/September/25 - Cosmo Room",
                 "info": {
@@ -14417,11 +14417,17 @@
                     "source": "Archive",
                     "tags": [],
                     "video": [],
-                    "cover": null,
-                    "files": []
+                    "cover": "20260925033141_0.mp4",
+                    "files": [
+                        "20260925033141_0.mp4",
+                        "20260925033202_2.mp4",
+                        "20260925033202_3.mp4",
+                        "20260925033202_4.mp4"
+                    ],
+                    "coverType": "video"
                 }
             },
-            "updated": 1790332776128
+            "updated": 1791375732264
         },
         "2026/September/25 - X Post TripleS Official": {
             "fingerprint": "619adb7d7d81e2f054d05afe1eb07ee93321ce86",
