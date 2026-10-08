@@ -14763,6 +14763,25 @@
                 }
             },
             "updated": 1791451167080
+        },
+        "2026/October/08 - Cosmo Live Thumbnail": {
+            "fingerprint": "30ed2eec3931e882d260bd67424a4f77ce80df08",
+            "album": {
+                "path": "2026/October/08 - Cosmo Live Thumbnail",
+                "info": {
+                    "title": "Cosmo Live Thumbnail",
+                    "date": "October 08",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "2026-10-08_HaYeon_COSMO-LIVE-thumbnail.jpg",
+                    "files": [
+                        "2026-10-08_HaYeon_COSMO-LIVE-thumbnail.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1791454477210
         }
     }
 }

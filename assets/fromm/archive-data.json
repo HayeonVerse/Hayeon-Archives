@@ -8,6 +8,12 @@
                 "type": "event",
                 "text": "Hayeon changed her name to 애기😘.",
                 "position": 0
+            },
+            {
+                "icon": "📺",
+                "type": "event",
+                "text": "at 7 PM KST, Hayeon returned and said she will be going live briefly.",
+                "position": 130
             }
         ],
         "messages": [
@@ -658,6 +664,16 @@
                 "type": "hayeon",
                 "ko": "하랑행😘😘",
                 "en": "Haranghae😘😘"
+            },
+            {
+                "type": "hayeon",
+                "ko": "연습중인데",
+                "en": "I'm practicing right now,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "라이브 진짜 잠깐 키려구",
+                "en": "but I'm going to go live for just a little while."
             }
         ]
     },
