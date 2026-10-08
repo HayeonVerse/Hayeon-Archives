@@ -1895,7 +1895,7 @@ const icon =
 
 const name =
     groupType === "idol"
-        ? "하요이🤓"
+        ? "애기😘"
         : "Fan";
 
 header.innerHTML = `

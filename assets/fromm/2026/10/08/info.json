@@ -1,0 +1,661 @@
+{
+"date": "2026-10-08",
+"notices": [
+{
+"icon": "📢",
+"type": "event",
+"text": "Hayeon changed her name to 애기😘.",
+"position": 0
+}
+],
+"messages": [
+{
+"type": "hayeon",
+"ko": "모해!",
+"en": "What are you doing!"
+},
+{
+"type": "hayeon",
+"ko": "난 스케즁",
+"en": "I'm on my schedule."
+},
+{
+"type": "hayeon",
+"ko": "숙소에 빨래 돌려놓고 나와서",
+"en": "I left the laundry running at the dorm and came out,"
+},
+{
+"type": "hayeon",
+"ko": "초조해",
+"en": "so I'm anxious."
+},
+{
+"type": "hayeon",
+"ko": "그리고 어제",
+"en": "And yesterday,"
+},
+{
+"type": "hayeon",
+"ko": "전남대 축제 가서 너무 신났엉",
+"en": "I had so much fun at the Chonnam National University festival."
+},
+{
+"type": "hayeon",
+"ko": "축제는 항상 재밌어",
+"en": "Festivals are always fun."
+},
+{
+"type": "hayeon",
+"ko": "콘서트 진짜 얼마 안남았네",
+"en": "The concert is really not far away now."
+},
+{
+"type": "hayeon",
+"ko": "미치겠다",
+"en": "This is driving me crazy."
+},
+{
+"type": "hayeon",
+"ko": "어제도 새벽에 연습했는데",
+"en": "We practiced late into the night yesterday too,"
+},
+{
+"type": "hayeon",
+"ko": "너무 떨린다",
+"en": "and I'm so nervous."
+},
+{
+"type": "fan",
+"ko": "나 지금 너무 힘들어 응원 해줘ㅠㅠㅠ",
+"en": "I'm having such a hard time right now. Cheer me onㅠㅠㅠ"
+},
+{
+"type": "hayeon",
+"ko": "왜 힘드러ㅠㅠ",
+"en": "Why are you having a hard timeㅠㅠ"
+},
+{
+"type": "hayeon",
+"ko": "내가 위로가 됐음 좋겠네",
+"en": "I hope I can be a source of comfort for you."
+},
+{
+"type": "hayeon",
+"image": "image-01.png"
+},
+{
+"type": "hayeon",
+"ko": "이 사진을 본 사람은 모두 행복해지고 고민과 걱정은 다 사라질것입니다(진짜임)",
+"en": "Everyone who sees this photo will become happy and all their worries and concerns will disappear (for real)."
+},
+{
+"type": "hayeon",
+"ko": "내가 부적하나 줄게",
+"en": "I'll give you a good-luck charm."
+},
+{
+"type": "hayeon",
+"ko": "Y/n는 저 사진 가지고 힘들지 마",
+"en": "Y/n, don't have a hard time. Keep that photo with you."
+},
+{
+"type": "hayeon",
+"ko": "저 날에",
+"en": "That day,"
+},
+{
+"type": "hayeon",
+"ko": "내 렌즈 다 집에 두고와서",
+"en": "I left all my contact lenses at home,"
+},
+{
+"type": "hayeon",
+"ko": "마유언니 렌즈 무도수로 빌려서",
+"en": "so I borrowed Mayu unnie's non-prescription lenses"
+},
+{
+"type": "hayeon",
+"ko": "눈앞에 아무것도 안보이는 상태였어",
+"en": "and couldn't see a thing in front of me."
+},
+{
+"type": "hayeon",
+"ko": "ㅋㄹㄹㅋㄹㄹㅋㄹㅋㅋㅋ",
+"en": "ㅋㄹㄹㅋㄹㄹㅋㄹㅋㅋㅋ"
+},
+{
+"type": "fan",
+"ko": "저거 축고정인가??",
+"en": "Is that a festival fixed-point shot??"
+},
+{
+"type": "hayeon",
+"ko": "아니양",
+"en": "Nope."
+},
+{
+"type": "fan",
+"ko": "배고파 죽겠어",
+"en": "I'm starving to death."
+},
+{
+"type": "hayeon",
+"ko": "나도 뭐 시킬거양",
+"en": "I'm going to order something too."
+},
+{
+"type": "hayeon",
+"ko": "숙소 가서 밥먹고 빨래 꺼내고",
+"en": "I'll go to the dorm, eat, take out the laundry,"
+},
+{
+"type": "hayeon",
+"ko": "다시 스케 가기",
+"en": "then head back out for my schedule."
+},
+{
+"type": "hayeon",
+"ko": "알찬 하루",
+"en": "A productive day."
+},
+{
+"type": "fan",
+"ko": "빈이가 파스타 먹는 하연이보고 놀랐대",
+"en": "Bini said she was surprised to see you eating pasta."
+},
+{
+"type": "hayeon",
+"ko": "아니 갑자기",
+"en": "No, all of a sudden,"
+},
+{
+"type": "hayeon",
+"ko": "샵에서 내가 리조또 먹고있는데",
+"en": "I was eating risotto at the salon,"
+},
+{
+"type": "hayeon",
+"ko": "귀옆에다가",
+"en": "and right next to my ear,"
+},
+{
+"type": "hayeon",
+"ko": "오늘은 교양있는거 먹네~?",
+"en": "she goes, 'Eating something fancy today~?'"
+},
+{
+"type": "hayeon",
+"ko": "이러고 가는거야 ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+"en": "and then just walks away ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+},
+{
+"type": "hayeon",
+"ko": "애기가 지금 ",
+"en": "This baby has"
+},
+{
+"type": "hayeon",
+"ko": "장난에 도를 터가지고",
+"en": "really mastered the art of teasing now."
+},
+{
+"type": "fan",
+"ko": "언제부터 애기라고 불렀어? 어쩌다가?..",
+"en": "Since when did you start calling her a baby? How did that happen?.."
+},
+{
+"type": "hayeon",
+"ko": "음.. 그냥 부르고싶은대로 불러",
+"en": "Hmm.. I just call her whatever I feel like calling her."
+},
+{
+"type": "fan",
+"ko": "그럼 나도 애기 할게 그렇게 불러 알았지",
+"en": "Then I'll be a baby too. Call me that, okay?"
+},
+{
+"type": "hayeon",
+"ko": "그래 애기~",
+"en": "Okay, baby~"
+},
+{
+"type": "fan",
+"ko": "나도나도",
+"en": "Me too, me too."
+},
+{
+"type": "hayeon",
+"ko": "애기야 ㅋㅋㅋㅋㅋ",
+"en": "Baby ㅋㅋㅋㅋㅋ"
+},
+{
+"type": "hayeon",
+"ko": "여기 아가만 몇명이야",
+"en": "How many babies are there in here?"
+},
+{
+"type": "hayeon",
+"ko": "말을 잘하네 ",
+"en": "You're quite good with words."
+},
+{
+"type": "hayeon",
+"ko": "역시 요즘 세대는 다른가봐",
+"en": "I guess the younger generation really is different."
+},
+{
+"type": "fan",
+"ko": "난 할부지라 불러라",
+"en": "Call me grandpa."
+},
+{
+"type": "hayeon",
+"ko": "네 할아버지 진지 잡수셨냐?",
+"en": "Yes, grandfather. Have you had your meal?"
+},
+{
+"type": "fan",
+"ko": "애기 지금 진지 잡수시는중",
+"en": "The baby is having their meal right now."
+},
+{
+"type": "hayeon",
+"ko": "혼종이다",
+"en": "What a hybrid."
+},
+{
+"type": "fan",
+"ko": "지금 전어회 맛있대 먹어봐",
+"en": "They say raw gizzard shad is good right now. Try it."
+},
+{
+"type": "hayeon",
+"ko": "아니 나 너무 먹고싶어",
+"en": "No, I want to eat it so badly."
+},
+{
+"type": "hayeon",
+"ko": "ㅠㅠㅠㅠ",
+"en": "ㅠㅠㅠㅠ"
+},
+{
+"type": "fan",
+"ko": "그럼 난 zㅏ기야라고 불러줘",
+"en": "Then call me zㅏgiya."
+},
+{
+"type": "hayeon",
+"ko": "이제 경찰서 안가도 돼?",
+"en": "Does that mean i don't have to go to the police station anymore?"
+},
+{
+"type": "hayeon",
+"ko": "ㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋㅋ",
+"en": "ㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋㅋ"
+},
+{
+"type": "fan",
+"ko": "나이가 하연이보다 많아도 하연이가 나한테 '애기'라고 불러줘도 돼?",
+"en": "Even if I'm older than you, can you still call me 'baby'?"
+},
+{
+"type": "hayeon",
+"ko": "당연하지",
+"en": "Of course."
+},
+{
+"type": "hayeon",
+"ko": "내가 챙겨주고 싶은사람이면 그게 애기지",
+"en": "If you're someone I want to take care of, then you're a baby."
+},
+{
+"type": "hayeon",
+"ko": "더힌 의미가 있나~",
+"en": "Is there any deeper meaning to it~"
+},
+{
+"type": "fan",
+"ko": "하연이도 애기네 우리한테",
+"en": "Hayeon is a baby to us too."
+},
+{
+"type": "hayeon",
+"ko": "그래?",
+"en": "Really?"
+},
+{
+"type": "hayeon",
+"ko": "응애!!!!!",
+"en": "응애!!!!!"
+},
+{
+"type": "hayeon",
+"ko": "응ㅇ앵애!!!!!",
+"en": "응ㅇ앵애!!!!!"
+},
+{
+"type": "hayeon",
+"ko": "응ㅇㅇ애ㅐㅐ!!!!!!",
+"en": "응ㅇㅇ애ㅐㅐ!!!!!!"
+},
+{
+"type": "hayeon",
+"ko": "숙소 왔는데",
+"en": "I got back to the dorm,"
+},
+{
+"type": "hayeon",
+"ko": "딱 빨래 4분 남아있네",
+"en": "and there are exactly 4 minutes left on the laundry."
+},
+{
+"type": "hayeon",
+"ko": "휴",
+"en": "Phew."
+},
+{
+"type": "hayeon",
+"ko": "이제 나 모머거?",
+"en": "What am I gonna eat now?"
+},
+{
+"type": "hayeon",
+"ko": "애기 모먹을까?",
+"en": "What should the baby eat?"
+},
+{
+"type": "hayeon",
+"ko": "응애",
+"en": "응애"
+},
+{
+"type": "hayeon",
+"voice": "voice-01.mp3"
+},
+{
+"type": "hayeon",
+"ko": "ㅎㅎ아잉",
+"en": "ㅎㅎ아잉"
+},
+{
+"type": "fan",
+"ko": "哪里不舒服吗",
+"en": "Is something uncomfortable?"
+},
+{
+"type": "hayeon",
+"ko": "ㅋㄹㅋㄹㅋㄹㅋㅋㄹㅋㄹㅋㄹㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋ",
+"en": "ㅋㄹㅋㄹㅋㄹㅋㅋㄹㅋㄹㅋㄹㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋ"
+},
+{
+"type": "hayeon",
+"ko": "번역 돌렸는데",
+"en": "I ran it through a translator,"
+},
+{
+"type": "hayeon",
+"ko": "직구 맞았어",
+"en": "and it was a direct hit."
+},
+{
+"type": "hayeon",
+"ko": "어디가 불편하신가요?",
+"en": "Where are you feeling uncomfortable?"
+},
+{
+"type": "fan",
+"ko": "我以为你不看中文消息来着",
+"en": "I thought you didn't read Chinese messages."
+},
+{
+"type": "hayeon",
+"ko": "모든 언어 번역돌려서 확인하지",
+"en": "I run everything through a translator to check it."
+},
+{
+"type": "hayeon",
+"ko": "어느 나라 언어이던",
+"en": "No matter what language it is."
+},
+{
+"type": "fan",
+"ko": "Pouvez-vous deviner ce que cela signifie ?",
+"en": "Can you guess what this means?"
+},
+{
+"type": "hayeon",
+"ko": "그럼요",
+"en": "Of course."
+},
+{
+"type": "fan",
+"ko": "i love you 이건뭔말인지알아? ",
+"en": "Do you know what i love you means?"
+},
+{
+"type": "hayeon",
+"ko": "나도",
+"en": "Me too."
+},
+{
+"type": "fan",
+"ko": "じゃあこれからは日本語で送る〜！",
+"en": "Then I'll send messages in Japanese from now on~!"
+},
+{
+"type": "hayeon",
+"ko": "편한대로 해도 좋아~~",
+"en": "You can do whatever you're comfortable with~~"
+},
+{
+"type": "hayeon",
+"ko": "난 다 보니까",
+"en": "Because I read everything."
+},
+{
+"type": "fan",
+"ko": "나도 답장 못한 것도 나중에 다 봐",
+"en": "I'll go back and read the ones I couldn't reply to later too."
+},
+{
+"type": "hayeon",
+"ko": "나중에 천천히 다시 읽으면",
+"en": "If you go back and read them slowly later,"
+},
+{
+"type": "hayeon",
+"ko": "재밌어 답장들도",
+"en": "the replies are fun to read too."
+},
+{
+"type": "fan",
+"ko": "나 너 웃기고싶어...",
+"en": "I want to make you laugh..."
+},
+{
+"type": "hayeon",
+"ko": "ㅋㄹㅋㄹㅋㄹㄹㅋㄹㅋㅋㄹ 성공이야",
+"en": "ㅋㄹㅋㄹㅋㄹㄹㅋㄹㅋㅋㄹ You succeeded."
+},
+{
+"type": "hayeon",
+"ko": "왜 웃기고 싶은거야 ㅋㅋㅋㅋ",
+"en": "Why do you want to make me laugh? ㅋㅋㅋㅋ"
+},
+{
+"type": "fan",
+"ko": "아니 팬도 그렇고 아이돌도 그렇고 왜 웃기려하는거얔ㅋㅋㅋㅋㅋㅋㅋ",
+"en": "Why do both fans and idols always try to make each other laughㅋㅋㅋㅋㅋㅋㅋ"
+},
+{
+"type": "hayeon",
+"ko": "개그 욕심있는 사람중에",
+"en": "Among people who have a desire to be funny,"
+},
+{
+"type": "hayeon",
+"ko": "안좋은사람 못봤다~",
+"en": "I've never met a bad person~"
+},
+{
+"type": "fan",
+"ko": "하연이 앞이면 왠지 개그욕심max",
+"en": "For some reason, my desire to be funny is maxed out in front of Hayeon."
+},
+{
+"type": "hayeon",
+"ko": "내가 그렇게 만드나봐 ㅋㄹㅋㄹㅋㅋ",
+"en": "I guess I make you that way ㅋㄹㅋㄹㅋㅋ"
+},
+{
+"type": "hayeon",
+"ko": "나 생각보다 장벽 높다",
+"en": "I'm harder to make laugh than you might think."
+},
+{
+"type": "fan",
+"ko": "하여니 편지 써주는것두 다 봐?",
+"en": "Do you read all the letters people write for you too?"
+},
+{
+"type": "hayeon",
+"ko": "제발 써줘",
+"en": "Please write me one."
+},
+{
+"type": "hayeon",
+"ko": "그게 내 도파민이야",
+"en": "That's my dopamine."
+},
+{
+"type": "fan",
+"ko": "내 편지 받으면 읽고 감동해서 울텐데 괜찮아?",
+"en": "If you get my letter, you'll read it and cry from being touched. Is that okay?"
+},
+{
+"type": "hayeon",
+"ko": "그럼 나 우는거 보겠네",
+"en": "Then you'll get to see me cry."
+},
+{
+"type": "hayeon",
+"ko": "ㅋㄹㅋㄹㅋㄹㅋㅋ",
+"en": "ㅋㄹㅋㄹㅋㄹㅋㅋ"
+},
+{
+"type": "fan",
+"ko": "편지는 보통 공항에서만 줄 수 있나..?",
+"en": "Can you usually only give letters at the airport..?"
+},
+{
+"type": "hayeon",
+"ko": "ㅋㄹㅋㄹㅋㅋㅋㅋ",
+"en": "ㅋㄹㅋㄹㅋㅋㅋㅋ"
+},
+{
+"type": "hayeon",
+"ko": "편지들 바로 나에게 전달하고 싶다면",
+"en": "If you want your letters delivered directly to me,"
+},
+{
+"type": "hayeon",
+"ko": "아 회사가 보려나",
+"en": "ah, the company might read them."
+},
+{
+"type": "hayeon",
+"ko": "다 봤지?",
+"en": "They read them all, right?"
+},
+{
+"type": "hayeon",
+"ko": "그렇게 하라규~",
+"en": "That's what you're supposed to do~"
+},
+{
+"type": "fan",
+"ko": "아니 이것만 남겨두면 더 의심스럽지",
+"en": "No, if I only leave this one behind, it'll look even more suspicious."
+},
+{
+"type": "hayeon",
+"ko": "ㅋㄹㅋㄹㅋㅋㅋㅋㅋ",
+"en": "ㅋㄹㅋㄹㅋㅋㅋㅋㅋ"
+},
+{
+"type": "hayeon",
+"ko": "혼나지 뭐",
+"en": "I'll just get scolded."
+},
+{
+"type": "hayeon",
+"ko": "내꺼 내가 받는데 머!!!",
+"en": "It's mine, so why can't I receive it myself!!!"
+},
+{
+"type": "fan",
+"ko": "나 하연이꺼야?",
+"en": "Am I Hayeon's?"
+},
+{
+"type": "hayeon",
+"ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ",
+"en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ"
+},
+{
+"type": "hayeon",
+"ko": "널 줄래?",
+"en": "Do you want me to give you that?"
+},
+{
+"type": "fan",
+"ko": "고민해버께",
+"en": "I'll think about it."
+},
+{
+"type": "hayeon",
+"ko": "튕기기는",
+"en": "Playing hard to get."
+},
+{
+"type": "hayeon",
+"ko": "애기 밥먹어야겠다",
+"en": "The baby needs to eat."
+},
+{
+"type": "hayeon",
+"ko": "빨래도 빼구",
+"en": "And take out the laundry."
+},
+{
+"type": "hayeon",
+"ko": "오늘도 화이팅 하구",
+"en": "Keep fighting today too,"
+},
+{
+"type": "hayeon",
+"ko": "곧 콘서트니까",
+"en": "the concert is coming up soon,"
+},
+{
+"type": "hayeon",
+"ko": "설레하고 있으라규",
+"en": "so keep getting excited for it~"
+},
+{
+"type": "hayeon",
+"ko": "ㅋㄹㅋㄹㅋㄹㄹㅋㅋ",
+"en": "ㅋㄹㅋㄹㅋㄹㄹㅋㅋ"
+},
+{
+"type": "hayeon",
+"ko": "나 갈게ㅔ",
+"en": "I'll go nowㅔ"
+},
+{
+"type": "hayeon",
+"ko": "하랑행😘😘",
+"en": "Haranghae😘😘"
+}
+]
+}
