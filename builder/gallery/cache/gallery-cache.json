@@ -14822,6 +14822,25 @@
                 }
             },
             "updated": 1791719637037
+        },
+        "2026/October/12 - Double_Mag Update": {
+            "fingerprint": "5e3f8f31bb034b8c50dbe67a40f28bc02527825e",
+            "album": {
+                "path": "2026/October/12 - Double_Mag Update",
+                "info": {
+                    "title": "Double_Mag Update",
+                    "date": "October 12",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "HUa388XaAAAAFnQ.jpg",
+                    "files": [
+                        "HUa388XaAAAAFnQ.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1791798071370
         }
     }
 }
