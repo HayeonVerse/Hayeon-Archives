@@ -1,5 +1,21 @@
 [
     {
+        "path": "2026/October/12 - Cosmo Talk",
+        "info": {
+            "title": "Cosmo Talk",
+            "date": "October 12",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "image-01.png",
+            "files": [
+                "image-01.png",
+                "image-02.png"
+            ],
+            "coverType": "image"
+        }
+    },
+    {
         "path": "2026/October/12 - Double_Mag Update",
         "info": {
             "title": "Double_Mag Update",
