@@ -14863,7 +14863,7 @@
             "updated": 1791808273422
         },
         "2026/October/13 - Youtube Shorts TripleS Official": {
-            "fingerprint": "210123ae1c53cebf8f3ed4e7d446ed433899ce06",
+            "fingerprint": "955660fb7639a7515edabc481a2cb837fc821aaa",
             "album": {
                 "path": "2026/October/13 - Youtube Shorts TripleS Official",
                 "info": {
@@ -14872,6 +14872,7 @@
                     "source": "Archive",
                     "tags": [],
                     "video": [
+                        "https://youtube.com/shorts/9Yo3Zi73fJA?si=x0ZPjRgRDfxHkdgy",
                         "https://www.youtube.com/shorts/iTvx4mCzMmw"
                     ],
                     "cover": "maxresdefault.jpg",
@@ -14881,7 +14882,52 @@
                     "coverType": "image"
                 }
             },
-            "updated": 1791882300260
+            "updated": 1791890328169
+        },
+        "2026/October/13 - X Post Lucky Factory Studio": {
+            "fingerprint": "8f1ab5ba1c43b1af82de9cd3f8a2034b1315138f",
+            "album": {
+                "path": "2026/October/13 - X Post Lucky Factory Studio",
+                "info": {
+                    "title": "X Post Lucky Factory Studio",
+                    "date": "October 13",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "unnamed (1).webp",
+                    "files": [
+                        "unnamed (1).webp",
+                        "unnamed (2).webp",
+                        "unnamed (3).webp",
+                        "unnamed (4).webp",
+                        "unnamed (5).webp",
+                        "unnamed.webp"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1791890328158
+        },
+        "2026/October/13 - Youtube Lucky Factory Studip": {
+            "fingerprint": "8b7e725bd6d24e5f370c6be93cab58dd6b2350d6",
+            "album": {
+                "path": "2026/October/13 - Youtube Lucky Factory Studip",
+                "info": {
+                    "title": "Youtube Lucky Factory Studip",
+                    "date": "October 13",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [
+                        "https://www.youtube.com/watch?v=xqWOLvDLpjI"
+                    ],
+                    "cover": "maxresdefault.jpg",
+                    "files": [
+                        "maxresdefault.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1791890328162
         }
     }
 }
