@@ -14966,6 +14966,48 @@
                 }
             },
             "updated": 1791946965660
+        },
+        "2026/October/14 - Cosmo Blog My Destiny Sonyo Behind": {
+            "fingerprint": "e731939b29f113d5ca2edee90d195413f488d182",
+            "album": {
+                "path": "2026/October/14 - Cosmo Blog My Destiny Sonyo Behind",
+                "info": {
+                    "title": "Cosmo Blog My Destiny Sonyo Behind",
+                    "date": "October 14",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "8d5c1fb5-995b-4441-bad3-a792486ebce6.png",
+                    "files": [
+                        "8d5c1fb5-995b-4441-bad3-a792486ebce6.png",
+                        "9afc1c21-4605-4287-b3c6-677a5edb9493.png",
+                        "18fc01ca-90b5-4aeb-b8e1-7f8dbd669a35.png",
+                        "22efb950-1627-4b8a-b362-f484541659f4.png",
+                        "24a23d8a-1651-4168-bd23-bd265d43a04b.png",
+                        "028e804b-8bc4-4b68-9473-98170e955dd2.png",
+                        "78b3a05f-84ed-4e41-8718-bb0fa4d3e23a.png",
+                        "1390eb01-6bb4-4f54-b5e9-b287dcdde18c.png",
+                        "2488da7e-5c2b-44b8-9ca4-990b0de1fc44.png",
+                        "7102efac-2b65-4ad2-972c-6b38c7633194.png",
+                        "39819da9-acc8-4d81-adfd-607cc048089d.png",
+                        "44532af6-7725-4741-8a41-9b03b2de3601.png",
+                        "75356a10-c077-4870-9cc8-e5b193d311c1.png",
+                        "743479b7-2616-49a4-92a7-93c7ddb931d4.png",
+                        "4196252f-64c8-4511-be11-96edefc86dc9.png",
+                        "09558548-3da4-44f6-85ac-4b9d75e0cee5.png",
+                        "27070110-9541-47c8-a22a-02f15649e691.png",
+                        "a4a367a5-e5bc-45f3-a354-cdb4606d3560.png",
+                        "a45f5567-eac0-4566-9e81-795dc4bd8903.png",
+                        "bf8ba234-8e12-497b-8faf-6b2d51cbbc5c.png",
+                        "c0aa30d2-3318-4ea7-b4df-3f319de6cf64.png",
+                        "d17ec33b-e0be-45e2-99c7-7e1b7d7f5ee4.png",
+                        "d880e25f-601b-40d1-a638-b638630f18ef.png",
+                        "e4bc27fd-1a50-4967-b1ad-fdc0d7d6c7e3.png"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1791985524768
         }
     }
 }
