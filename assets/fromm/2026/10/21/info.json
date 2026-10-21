@@ -1,0 +1,480 @@
+{
+  "date": "2026-10-21",
+  "notices": [
+    {
+      "icon": "💬",
+      "type": "event",
+      "text": "Joobin took over Hayeon's phone and impersonated her. Hayeon is back!",
+      "position": 69
+    }
+  ],
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "하이ㅣ",
+      "en": "Hiii"
+    },
+    {
+      "type": "hayeon",
+      "ko": "레슨즁이야야",
+      "en": "I'm in the middle of a lessonnn."
+    },
+    {
+      "type": "hayeon",
+      "ko": "낼 엠카자나",
+      "en": "I'm on M Countdown tomorrow, you know."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오랜만에 방송국 가는것같당",
+      "en": "Feels like it's been a while since I went to the broadcasting station."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맞아 그리고 내가",
+      "en": "Oh right, and I..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "타이베이에서",
+      "en": "In Taipei,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "브이로그를 찍었는데",
+      "en": "I filmed a vlog,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "브이로그라고 말하기도 좀 부끄러운",
+      "en": "though it's a little embarrassing to even call it a vlog."
+    },
+    {
+      "type": "hayeon",
+      "ko": "짧은 ㅇ영상인데",
+      "en": "It's just a short little video."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 편집했어",
+      "en": "I edited it myself."
+    },
+    {
+      "type": "hayeon",
+      "ko": "편집이라고 하기도 부끄럽긴 하네 ㅋㄹㅋㄹㅋㄹ",
+      "en": "Though it's embarrassing to even call it editing ㅋㄹㅋㄹㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "언제 올라오냐구?",
+      "en": "Wondering when it'll be uploaded?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금 보내줄건데",
+      "en": "I'm going to send it to you right now,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잠만",
+      "en": "Wait a sec."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 레승좀",
+      "en": "Let me just..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "츔추고 왔어",
+      "en": "I went and danced for a bit."
+    },
+    {
+      "type": "hayeon",
+      "ko": "보내줄겡",
+      "en": "I'll send it to youuu."
+    },
+    {
+      "type": "hayeon",
+      "video": "video-01.mp4"
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀엽징",
+      "en": "Cute, right?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎ",
+      "en": "ㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "주빈이가 아주 귀여워",
+      "en": "Joobin is so cute."
+    },
+    {
+      "type": "hayeon",
+      "ko": "깨물어버리고 싶게",
+      "en": "So cute I want to bite her."
+    },
+    {
+      "type": "hayeon",
+      "ko": "콱",
+      "en": "Chomp!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "자막 내가 달았지",
+      "en": "I added the subtitles myself."
+    },
+    {
+      "type": "hayeon",
+      "ko": "FaustLD 보여주려고 직접 편집했어",
+      "en": "I edited it myself so I could show it to FaustLD."
+    },
+    {
+      "type": "hayeon",
+      "ko": "반했나 좀?",
+      "en": "Are you a little smitten?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고 제일 소름 돋는 점은",
+      "en": "And the most shocking part is..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금 너랑 대화하는 건",
+      "en": "The person chatting with you right now"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하연이가 아니라는 사실이야",
+      "en": "isn't actually Hayeon."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-01.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㅋㅋㅋㅋㅋ하",
+      "en": "ㅋㅋㅋㅋㅋㅋㅋ Ha"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뿌듯하다",
+      "en": "I'm so proud of myself."
+    },
+    {
+      "type": "hayeon",
+      "ko": "정하연 말투 패치 완.",
+      "en": "Jeong Hayeon's speech style: successfully patched."
+    },
+    {
+      "type": "hayeon",
+      "ko": "주빈이지롱",
+      "en": "It's me, Joobin!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다 하연언닌 줄 알고 답하고 있더라고",
+      "en": "Everyone was replying thinking I was Hayeon unnie."
+    },
+    {
+      "type": "hayeon",
+      "ko": "재밌다",
+      "en": "This is fun."
+    },
+    {
+      "type": "hayeon",
+      "ko": "><",
+      "en": "><"
+    },
+    {
+      "type": "hayeon",
+      "ko": "언니 영상 잘 가는지 보라고 나 시키고",
+      "en": "Unnie told me to check that the video was sending properly,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "파트하러 들어갔어",
+      "en": "then went in to do her part."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "en": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 말투 완벽하게 패치했지",
+      "en": "I really patched her way of talking perfectly, right?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "en": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "재밌네 이거",
+      "en": "This is pretty fun."
+    },
+    {
+      "type": "hayeon",
+      "ko": "폰 뺏긴 거 복수했다~~~",
+      "en": "I got my revenge for having my phone taken away~~~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "en": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㅎㅎㅋㅎㅋㅎㅋㅎㅎㅋㅎ",
+      "en": "ㅋㅋㅎㅎㅋㅎㅋㅎㅋㅎㅎㅋㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㄹ 섞어서 보내자마자",
+      "en": "As soon as I mixed in some ㄹ and sent it,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다들 온거야? 하연이야?",
+      "en": "everyone was like, 'Did you come back? Is that Hayeon?'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러네",
+      "en": "That's what they said."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니야",
+      "en": "Nope."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그냥 따라해봄",
+      "en": "I was just imitating her."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㅋㄹㄹㅋㄹㅋㄹㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㅋㄹㄹㅋㄹㅋㄹㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "왜 리을 섞는지 항상 이해가 안됨",
+      "en": "I've never understood why she mixes in ㄹ."
+    },
+    {
+      "type": "hayeon",
+      "ko": "크롱이야 무슨",
+      "en": "What is she, Crong or something?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㄹㅋㄹ크롱크롱크로롱크롱",
+      "en": "ㅋㄹㅋㄹㅋㄹㄹㅋㄹ크롱크롱크로롱크롱"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄱㅋㄱㅋㄱㅋㄱㅋㄱㅋㄱㅋ",
+      "en": "ㅋㄱㅋㄱㅋㄱㅋㄱㅋㄱㅋㄱㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이게 웃는거징",
+      "en": "This is how you laugh, you know."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅅㅎ",
+      "en": "ㅎㅅㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하연언니 펄럭거리는중",
+      "en": "Hayeon unnie is flapping around right now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㄹㅇ 말그대로 펄럭",
+      "en": "Seriously, literally flapping."
+    },
+    {
+      "type": "hayeon",
+      "ko": "가디건 팔 빼고 풍차 돌리기 하는데",
+      "en": "She took her arms out of her cardigan sleeves and started spinning them like a windmill,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잼민이;;;",
+      "en": "Such a little kid;;;"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이제 하연언니한테 들키기 전에",
+      "en": "Now, before Hayeon unnie catches me,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅌㅌ할게",
+      "en": "I'm gonna make a run for it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가사랑하는빈이",
+      "en": "My beloved Binnie"
+    },
+    {
+      "type": "hayeon",
+      "ko": "마니예뻐해주세용♡",
+      "en": "Please give her lots of love♡"
+    },
+    {
+      "type": "hayeon",
+      "ko": "FaustLD ❤️ 빈이 ❤️ 하연이",
+      "en": "FaustLD ❤️ Binnie ❤️ Hayeon"
+    },
+    {
+      "type": "hayeon",
+      "ko": "안녕",
+      "en": "Bye!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다시 쉬는 타임",
+      "en": "Back to break time."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐야",
+      "en": "What?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐야",
+      "en": "What?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "해킹당한줄 알았네",
+      "en": "I thought I'd been hacked."
+    },
+    {
+      "type": "hayeon",
+      "ko": "미치겠다",
+      "en": "I can't believe this."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 영상이 안보내지길래",
+      "en": "The video wasn't sending,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "로딩시켜놓고 들어갔는데",
+      "en": "so I left it loading and went inside,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "누가 건들까봐",
+      "en": "and because I was worried someone might touch it,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "보내지는지 잘 보고있어~ 건들진 말고~",
+      "en": "I said, 'Keep an eye on whether it's sending~ Just don't touch anything~'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러고 들어갔는데",
+      "en": "and then went inside."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어때 브이로그",
+      "en": "So, what do you think of the vlog?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "밤티로그지",
+      "en": "It's a low-budget, scrappy vlog, right?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "30분만에 만들었는데",
+      "en": "I made it in just 30 minutes,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "자막 수정해야해서 엎고 다시 한거야",
+      "en": "but I had to redo the whole thing because I needed to fix the subtitles."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잠만 나 가시 드가야된다",
+      "en": "Wait, I have to go back in now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잠만",
+      "en": "Wait a sec."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-02.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "얘 어떡하냐",
+      "en": "What am I going to do with her?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "빈이한테 못이겨",
+      "en": "I can't win against Binnie."
+    },
+    {
+      "type": "hayeon",
+      "ko": "서열 아래야",
+      "en": "I'm lower in the pecking order."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 레슨 열심히 하고 냘 엠카에서 보자ㅏ",
+      "en": "Work hard at your lessons today, and I'll see you tomorrow on M Countdown!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "브이로그 보여주고싶어서 급하게 왔지롱~",
+      "en": "I came here in a hurry because I wanted to show you my vlog~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "많이 퍼트리고 다녀 내 편집실력",
+      "en": "Spread the word about my editing skills!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해❤️",
+      "en": "Haranghae❤️"
+    }
+  ]
+}
