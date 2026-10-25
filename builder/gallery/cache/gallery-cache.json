@@ -15205,6 +15205,27 @@
                 }
             },
             "updated": 1792842920572
+        },
+        "2026/October/25 - Youtube Shorts TripleS Official": {
+            "fingerprint": "04fb118fa86ae4430e5753a9d7b2a81d087873dd",
+            "album": {
+                "path": "2026/October/25 - Youtube Shorts TripleS Official",
+                "info": {
+                    "title": "Youtube Shorts TripleS Official",
+                    "date": "October 25",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [
+                        "https://youtube.com/shorts/HDe7AdiLl7Y?si=ke4bGjQPp7shcen5"
+                    ],
+                    "cover": "maxresdefault.jpg",
+                    "files": [
+                        "maxresdefault.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1792919979642
         }
     }
 }
