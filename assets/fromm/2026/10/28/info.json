@@ -1,0 +1,576 @@
+
+{
+  "date": "2026-10-28",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "머해",
+      "en": "What are you doing?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 퇴근해따",
+      "en": "I'm off work now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "벌써 내일이 일본이네",
+      "en": "I'm already going to Japan tomorrow."
+    },
+    {
+      "type": "hayeon",
+      "ko": "눈뜨면 일본에 있겠다",
+      "en": "I'll wake up in Japan."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 지금 무박 몇일차인데",
+      "en": "I've lost count of how many days I've gone without sleeping overnight,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오히려 각성해서",
+      "en": "but somehow, I'm so wired"
+    },
+    {
+      "type": "hayeon",
+      "ko": "에너자이저 상태야",
+      "en": "that I'm in full Energizer Bunny mode."
+    },
+    {
+      "type": "hayeon",
+      "ko": "Y/n가 좋아할만한거 많이 했으니까",
+      "en": "I've done lots of things Y/n will like,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "기대하라규",
+      "en": "so look forward to them!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하나도 안힘드러 괜차너",
+      "en": "I'm not tired at all. I'm okay."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오랜만에 일본가니까 설렌다",
+      "en": "I'm excited to go to Japan for the first time in a while."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이 완전 튼튼걸이네",
+      "en": "Hayeon's such a strong, healthy girl."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜로",
+      "en": "Seriously."
+    },
+    {
+      "type": "hayeon",
+      "ko": "멤버들도 놀래",
+      "en": "Even the members are surprised."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하연이는 진짜 안아프네",
+      "en": "They say, Hayeon really never gets sick."
+    },
+    {
+      "type": "hayeon",
+      "ko": "신기하다곸ㅋㄹㅋㄹㅋ",
+      "en": "They say it's amazing ㅋㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "잘먹어서 그래",
+      "en": "It's because you eat well."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그거 진짜 맞는듯",
+      "en": "I think that's actually true."
+    },
+    {
+      "type": "hayeon",
+      "ko": "사이사이 계속 챙겨먹어서",
+      "en": "I keep making sure to eat between things,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "건강한가봐",
+      "en": "so maybe that's why I'm healthy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 밥심없이 움직일수없엉",
+      "en": "I can't function without the energy I get from food."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 요즘 마법소녀 찍으면서",
+      "en": "Lately, while filming Magical Girl,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 육각형이 되어가는중",
+      "en": "I'm really becoming an all-rounder."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다른쪽으로",
+      "en": "Just in a different way."
+    },
+    {
+      "type": "hayeon",
+      "ko": "일머리와 애매한 모든 재능을 느끼고있어",
+      "en": "I'm discovering my knack for getting things done and all my vaguely useful talents."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다 조금씩만 잘하니까",
+      "en": "I'm only a little good at everything,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "재밌어 ㅋㅎㅋㅅㅋㄹㅋㅋ",
+      "en": "so it's fun ㅋㅎㅋㅅㅋㄹㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "마법소녀 간거중에 뭐가 제일 적성에 맞았어",
+      "en": "Of the things you've done on Magical Girl, what suited you best?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아직 안나온것",
+      "en": "Something that hasn't come out yet."
+    },
+    {
+      "type": "fan",
+      "ko": "근데 마법소녀 꽤 오래 했더라 하요이 대단해",
+      "en": "You've been doing Magical Girl for quite a while. Hayeon, you're amazing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아마도",
+      "en": "Probably."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내년까지 쭉할것같긴 한데",
+      "en": "I think we'll keep doing it all the way through next year."
+    },
+    {
+      "type": "hayeon",
+      "ko": "Y/n가 재밌게 봐주면 됐지~",
+      "en": "As long as Y/n enjoys watching it, that's all that matters~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "주빈 채원은 마법소녀 나왔다가",
+      "en": "Joobin and Chaewon appeared on Magical Girl,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "기절하고 갔어 ㅋㅎㅋㅎㅋㅎㅋㄹㅋ",
+      "en": "then left completely exhausted ㅋㅎㅋㅎㅋㅎㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이건 체력과",
+      "en": "This takes stamina"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오글거림 참기가 중요하다고",
+      "en": "and the ability to endure the cringe."
+    },
+    {
+      "type": "fan",
+      "ko": "수정구슬 녹음할때 오글거릴듯 ㅋㅋㅋ",
+      "en": "Recording the crystal ball lines must feel so cringe ㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 점점 수정이 목소리가",
+      "en": "No, Sujeong's voice is gradually"
+    },
+    {
+      "type": "hayeon",
+      "ko": "정하연이 된다고",
+      "en": "turning into Jeong Hayeon's voice."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다시 초심잡아야돼 수정이",
+      "en": "Sujeong needs to get back to her roots."
+    },
+    {
+      "type": "fan",
+      "ko": "눈 감고 들으면 누가 수정이고 마법소녀인지 몰라요 ㅋㅋㅋㅋ",
+      "en": "If I close my eyes and listen, I can't tell who's Sujeong and who's the Magical Girl ㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오빠가 내 영상 모니터링하는데",
+      "en": "My older brother was reviewing my video,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "보다가 정하연이랑 정하연이랑 대화하길랴",
+      "en": "and he saw Jeong Hayeon talking to Jeong Hayeon,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐하는건가 싶었대",
+      "en": "so he wondered what was going on."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅅㅋㄹㅋㄹㅋㄹㅋㅎㅋㅎㅋ",
+      "en": "ㅋㅅㅋㄹㅋㄹㅋㄹㅋㅎㅋㅎㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아빠랑 오빠랑 지금 전화중인데",
+      "en": "My dad and my older brother are on the phone right now,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그대로 전해줄게",
+      "en": "so I'll pass along exactly what they're saying."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오빠: 안녕하세요 웨이브 정하연 화이팅",
+      "en": "Brother: Hello! Go, Wavve Jeong Hayeon!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아빠:우리 하연이 아꺄줘서 고마워요 건강 조심하고 잘 지내세요~",
+      "en": "Dad: Thank you for cherishing our Hayeon. Take care of your health and stay well~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오빠: 날이 춥습니다 추어탕드세요",
+      "en": "Brother: It's cold out. Have some chueotang."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오빠: 내가 너무 재밌어서 정하연이 재미없어보이는거임",
+      "en": "Brother: I'm so funny that Jeong Hayeon looks boring by comparison."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러네",
+      "en": "That's what they're saying."
+    },
+    {
+      "type": "hayeon",
+      "ko": "추어탕드립 구식이다",
+      "en": "That chueotang joke is so outdated."
+    },
+    {
+      "type": "fan",
+      "ko": "안녕하세요 하연이 아버님, 오빠분.. 저 하연이 여자친구입니다 사실 말씀을 언제 드려야할지 많이 고민했는데 여기서 말씀드리네요 저희 만난지 4일밖에 되지 않았지만 열심히 사랑해서 결혼까지 하겠습니다 추울텐데 감기 조심하시고 곧 상견례로 찾아뵙겠습니다! ㅎㅎ",
+      "en": "Hello, Hayeon's father and older brother. I'm Hayeon's girlfriend. I've been wondering when I should tell you this, and I've decided to say it here. We've only been together for four days, but we'll love each other wholeheartedly and get married. It's cold, so please be careful not to catch a cold. We'll come see you soon for the formal family meeting! ㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런얘기 말했더니",
+      "en": "When I told them about that,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "진지하게 상견례는 누가잡아야하나 이러고있움",
+      "en": "they seriously started wondering who should arrange the family meeting."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㄹㅋㅋㄹㅋㄹㄹㅋㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㄹㅋㅋㄹㅋㄹㄹㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "미치겠",
+      "en": "I'm losing it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "둘이 너무 시꾸럽네",
+      "en": "Those two are so noisy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "코톡에 집중이 안되네 ㅋㅎㅋㄹㅋㄹㅋ",
+      "en": "I can't concentrate on chatting with you ㅋㅎㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "둘이 드립 대결하고있어",
+      "en": "They're having a joke battle."
+    },
+    {
+      "type": "fan",
+      "ko": "뭔가 결혼이 아니더라도 너네 가족되고 싶다",
+      "en": "Even if we don't get married, I kind of want to become part of your family."
+    },
+    {
+      "type": "hayeon",
+      "ko": "들어올래?",
+      "en": "Wanna join?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋ 이거 전해줬더니",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋ When I passed that along,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "스트레스 많이 받을걸~~",
+      "en": "they said, You'll probably get really stressed~~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러눈데 둘이",
+      "en": "That's what those two said."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㄹㅋㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㄹㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오빠: 살면서 나처럼 착한사람을 본 적이 없어",
+      "en": "Brother: You've never met anyone as kind as me in your life."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이건 왜 전해달라 하는건지 모르겠음",
+      "en": "I don't know why he wanted me to pass that along."
+    },
+    {
+      "type": "fan",
+      "ko": "하연이한테 사랑한다고 전해줘...",
+      "en": "Tell Hayeon I love her..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 사랑한다고 그러네~",
+      "en": "She says she loves you too~"
+    },
+    {
+      "type": "fan",
+      "ko": "근데 하연이는 가족분들이 뭐라고 부르셔?",
+      "en": "What does your family call you?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오빠는 나한테 돼지야~ 이렇게 부르고",
+      "en": "My older brother calls me 'Piggy~',"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아빠는 딸래미~",
+      "en": "my dad calls me 'Daughter~',"
+    },
+    {
+      "type": "hayeon",
+      "ko": "엄마는 우리연예인~",
+      "en": "and my mom calls me 'Our celebrity~'."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그리고 오빠는 맨날 아기돼지숏츠",
+      "en": "And my older brother is always sending me baby pig shorts"
+    },
+    {
+      "type": "hayeon",
+      "ko": "보냄",
+      "en": "all the time."
+    },
+    {
+      "type": "hayeon",
+      "ko": "너 왜 여기있냐",
+      "en": "Why are you here?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이러다가",
+      "en": "He says that,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하도 보내니까 나중엔",
+      "en": "and after sending so many, eventually"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅇ ㅇㄱㅇㄴ?",
+      "en": "he just sends 'ㅇ ㅇㄱㅇㄴ?'"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이렇게만 보내놔",
+      "en": "That's all he sends now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "왜 여기있냐 초성으로",
+      "en": "It's the initials for 'Why are you here?'"
+    },
+    {
+      "type": "fan",
+      "ko": "근데아기돼지진짜기여운데아기돼지내최애동물이야",
+      "en": "But baby pigs are really cute. Baby pigs are my favorite animals."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 아기 돼지는 괜찮아",
+      "en": "I'm okay with baby pigs too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "귀여워",
+      "en": "They're cute."
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 다큰 돼지는 살짝",
+      "en": "But fully grown pigs are a little..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오디세이 출연해야할듯",
+      "en": "They might need to appear on Odyssey."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "짐 다쌌다",
+      "en": "I've finished packing."
+    },
+    {
+      "type": "hayeon",
+      "ko": "침대가 너무 좋다",
+      "en": "My bed is so wonderful."
+    },
+    {
+      "type": "hayeon",
+      "ko": "얼마만이니 엘리자베스19세 ㅠㅠ",
+      "en": "It's been so long, Elizabeth XIX ㅠㅠ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 침대 이름이야",
+      "en": "That's the name of my bed."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 요즘 너무 신경을 못써줬지 ㅠㅠ",
+      "en": "I haven't been able to give you much attention lately, have I? ㅠㅠ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 왔단다~~",
+      "en": "I'm home now~~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뽀뽀한번 해주고 자야겠다",
+      "en": "I'll give you a kiss before I go to sleep."
+    },
+    {
+      "type": "fan",
+      "ko": "근데 이제 다시 일본 가야해서 작별인사 해야해..",
+      "en": "But now you have to say goodbye because you're going back to Japan.."
+    },
+    {
+      "type": "hayeon",
+      "ko": "일주일만 참아.. 울지말구ㅠㅠㅠ",
+      "en": "Just hang in there for a week... Don't cry ㅠㅠㅠ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "질투난다고?",
+      "en": "You're jealous?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "침대한테도 질투를 하다니..",
+      "en": "You're even jealous of my bed..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "근데 며칠 못 잤으면 침대에 눕자마자 잠드는 거 아님..?",
+      "en": "But if you haven't slept for days, wouldn't you fall asleep the moment you lie down?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "웅 맞아 정답",
+      "en": "Yep, that's right!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "곧 나가야하니까",
+      "en": "I have to leave soon,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "자볼게Y/n",
+      "en": "so I'll try to sleep, Y/n."
+    },
+    {
+      "type": "hayeon",
+      "ko": "일본에서도 브이로그룰 찍어볼까",
+      "en": "Should I try filming a vlog in Japan too?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내일 얼굴 이쁘면 생각해보겠어",
+      "en": "I'll think about it if my face looks pretty tomorrow."
+    },
+    {
+      "type": "hayeon",
+      "ko": "편집실력까지 늘겠네 이제",
+      "en": "My editing skills will improve too, then."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㄹㅋㄹㅋㅎㅋ",
+      "en": "ㅋㅋㄹㅋㄹㅋㅎㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잘겡",
+      "en": "Goodnight~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해❤️❤️🐷",
+      "en": "Haranghae ❤️❤️🐷"
+    }
+  ]
+}
