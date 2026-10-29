@@ -15352,6 +15352,27 @@
                 }
             },
             "updated": 1793195941800
+        },
+        "2026/October/29 - X Post Monstar Ent": {
+            "fingerprint": "d1b74b99a2e4d7976170039e841cca320c011d78",
+            "album": {
+                "path": "2026/October/29 - X Post Monstar Ent",
+                "info": {
+                    "title": "X Post Monstar Ent",
+                    "date": "October 29",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "tripleS-1-05.jpg",
+                    "files": [
+                        "tripleS-1-05.jpg",
+                        "tripleS-2-01.jpg",
+                        "tripleS-2-S19.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1793270150478
         }
     }
 }
