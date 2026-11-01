@@ -1,5 +1,336 @@
 [
     {
+        "folder": "2026/11/01",
+        "date": "2026-11-01",
+        "messages": [
+            {
+                "type": "hayeon",
+                "ko": "우와 퇴근이당…",
+                "en": "Wow, I'm finally off work…"
+            },
+            {
+                "type": "hayeon",
+                "ko": "이치란라멘",
+                "en": "Ichiran ramen."
+            },
+            {
+                "type": "hayeon",
+                "ko": "너무 먹고싶엉",
+                "en": "I want to eat it so badly."
+            },
+            {
+                "type": "hayeon",
+                "ko": "스시더 먹고싶엉",
+                "en": "I want sushi too."
+            },
+            {
+                "type": "hayeon",
+                "ko": "아 맞다",
+                "en": "Oh, right!"
+            },
+            {
+                "type": "hayeon",
+                "ko": "나 브이로그 찍고있오",
+                "en": "I'm filming a vlog."
+            },
+            {
+                "type": "hayeon",
+                "ko": "사소한거 조금씩 담고있는데",
+                "en": "I've been capturing little everyday moments here and there,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "내가 편집할 생각하니까",
+                "en": "but just thinking about editing it"
+            },
+            {
+                "type": "hayeon",
+                "ko": "어질하다",
+                "en": "makes me dizzy."
+            },
+            {
+                "type": "fan",
+                "ko": "오 이번에도 약간 밤티스러운 브이로그야??",
+                "en": "Oh, is it going to be another slightly cringe vlog this time too??"
+            },
+            {
+                "type": "hayeon",
+                "ko": "그게 맛이지",
+                "en": "That's what makes it good."
+            },
+            {
+                "type": "hayeon",
+                "ko": "날것.",
+                "en": "Raw and unfiltered."
+            },
+            {
+                "type": "hayeon",
+                "ko": "그래도 항상 웨이브랑 함께하는 스케줄이라",
+                "en": "Still, since I'm always with Wavve during my schedules,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "덜힘들당",
+                "en": "it's a little less tiring."
+            },
+            {
+                "type": "hayeon",
+                "ko": "오늘 넵툰이랑 제니스 같이 팬싸 했는데",
+                "en": "Today, Neptune and Zenith had a joint fansign,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "각 유닛할때마다 한시간 두시간씩 남아서",
+                "en": "and each time one unit was doing its session, the other had an hour or two to spare."
+            },
+            {
+                "type": "hayeon",
+                "ko": "교대로 자고",
+                "en": "We took turns sleeping,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "끝난팀이 자고있는팀 깨워서 보내고",
+                "en": "and the team that finished would wake up the sleeping team and send them off."
+            },
+            {
+                "type": "hayeon",
+                "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+                "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+            },
+            {
+                "type": "hayeon",
+                "ko": "웃프다",
+                "en": "It's funny but also kind of sad."
+            },
+            {
+                "type": "fan",
+                "ko": "근데 얼굴은 뽀송하던데 신기해",
+                "en": "But your face still looked so fresh. That's amazing."
+            },
+            {
+                "type": "hayeon",
+                "ko": "얼굴에 파우더가 20겹 있을거야",
+                "en": "There must be 20 layers of powder on my face."
+            },
+            {
+                "type": "fan",
+                "ko": "많이 피곤하겠다 하연아...그치만 자는 장면도 브이로그에 담았지???😢😢",
+                "en": "You must be so tired, Hayeon... But you filmed yourself sleeping for the vlog too, right??? 😢😢"
+            },
+            {
+                "type": "hayeon",
+                "ko": "한컷 있습니다.",
+                "en": "There is one shot."
+            },
+            {
+                "type": "fan",
+                "ko": "20겹이면 얼굴 무겁겠다 하연...",
+                "en": "Your face must feel heavy with 20 layers, Hayeon..."
+            },
+            {
+                "type": "hayeon",
+                "ko": "빨리 가서 벅벅 지우고싶어",
+                "en": "I want to get home and scrub it all off."
+            },
+            {
+                "type": "hayeon",
+                "ko": "오늘 메이크업 셀프인데 어땠엉",
+                "en": "I did my own makeup today. How was it?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "한번 해봤엉",
+                "en": "I gave it a try."
+            },
+            {
+                "type": "fan",
+                "ko": "셀프로 메이크업 할때 꿀팁이나 꼭 신경쓰는거 알려주랑",
+                "en": "Tell me some useful tips or things you always pay attention to when doing your own makeup."
+            },
+            {
+                "type": "hayeon",
+                "ko": "베이스",
+                "en": "The base."
+            },
+            {
+                "type": "hayeon",
+                "ko": "베이스가 매트하거나 너무 기름지면",
+                "en": "If the base is too matte or too oily,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "그날 화장이 어떻게 되느냐가 달라지기 때뭉에",
+                "en": "it changes how the rest of your makeup turns out that day."
+            },
+            {
+                "type": "fan",
+                "ko": "오늘은 베이스 어떻게 됐어?",
+                "en": "How did your base turn out today?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "오늘은 살짝",
+                "en": "Today it's a little..."
+            },
+            {
+                "type": "hayeon",
+                "ko": "키라키라 아이도루",
+                "en": "Sparkly idol style."
+            },
+            {
+                "type": "hayeon",
+                "ko": "속광은 있는데 기름지진 않게",
+                "en": "Glowing from within, but not oily."
+            },
+            {
+                "type": "fan",
+                "ko": "오늘 바지 길었는지 계속 걷어 올리더라ㅋㅋㅎㅋㅎㅎㅋㅎㅋㅎㅋ",
+                "en": "Your pants were so long today. You kept rolling them up ㅋㅋㅎㅋㅎㅎㅋㅎㅋㅎㅋ"
+            },
+            {
+                "type": "hayeon",
+                "ko": "아니 나 오늘 추다가",
+                "en": "No, while I was dancing today,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "바지 벗겨질뻔했어",
+                "en": "my pants almost fell off."
+            },
+            {
+                "type": "hayeon",
+                "ko": "평생 숨어살뻔했네",
+                "en": "I almost had to hide for the rest of my life."
+            },
+            {
+                "type": "fan",
+                "ko": "주섬주섬",
+                "en": "Fumbling around, trying to fix them."
+            },
+            {
+                "type": "hayeon",
+                "ko": "폭력적이다 그말..",
+                "en": "That's such a violent thing to say..."
+            },
+            {
+                "type": "hayeon",
+                "ko": "Y/n 라멘먹으러 가자",
+                "en": "Y/n, let's go eat ramen."
+            },
+            {
+                "type": "hayeon",
+                "ko": "가자고",
+                "en": "Come on, let's go."
+            },
+            {
+                "type": "hayeon",
+                "ko": "가자했잖아",
+                "en": "I told you we were going!"
+            },
+            {
+                "type": "fan",
+                "ko": "나 이미 이치란 줄서있어… 언제와…..?",
+                "en": "I'm already in line at Ichiran… When are you coming…..?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "곧 도착해~ 들어가있어",
+                "en": "I'll be there soon~ Go on inside."
+            },
+            {
+                "type": "hayeon",
+                "ko": "자리 잡아놔~",
+                "en": "Save me a seat~"
+            },
+            {
+                "type": "fan",
+                "ko": "저녁은 먹었어??",
+                "en": "Have you had dinner??"
+            },
+            {
+                "type": "hayeon",
+                "ko": "함박 스테이크 먹었는데 팬싸장으로 온거",
+                "en": "I had a hamburger steak that was brought to the fansign venue."
+            },
+            {
+                "type": "hayeon",
+                "ko": "그거 진짜 맛있었어",
+                "en": "It was really delicious."
+            },
+            {
+                "type": "hayeon",
+                "ko": "안에 치즈도 있었오",
+                "en": "It even had cheese inside."
+            },
+            {
+                "type": "fan",
+                "ko": "아까 리네랑 채원이는 편의점 간식으로 배때우고 있던데...",
+                "en": "Earlier, Rine and Chaewon were just filling up on convenience store snacks..."
+            },
+            {
+                "type": "hayeon",
+                "ko": "헐 그게 밥이 되나",
+                "en": "Whoa, does that even count as a meal?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "난 팬싸장 도시락 먹고 신라면 끓이고 카레까지 먹었어",
+                "en": "I ate the boxed meal at the fansign venue, cooked Shin Ramyun, and even had curry."
+            },
+            {
+                "type": "hayeon",
+                "ko": "한끼에",
+                "en": "All in one meal."
+            },
+            {
+                "type": "hayeon",
+                "ko": "나 침대누우면 기절할듯",
+                "en": "I think I'll pass out as soon as I lie down in bed."
+            },
+            {
+                "type": "fan",
+                "ko": "새 침대 너무 편해.",
+                "en": "The new bed is so comfortable."
+            },
+            {
+                "type": "hayeon",
+                "ko": "호첼침대 친구는 이름 아직 못정해줬는데",
+                "en": "I still haven't picked a name for my hotel-bed friend,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "잠 잘자게 하는거보니까",
+                "en": "but since it helps me sleep so well,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "오류걸렸옹",
+                "en": "I got an error,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "멜라토닌19세로 정햇ㅆ오",
+                "en": "so I decided to name it Melatonin XIX."
+            },
+            {
+                "type": "hayeon",
+                "ko": "편의점에서 산 푸딩 먹구 자야지",
+                "en": "I'll eat the pudding I bought at the convenience store and then go to sleep."
+            },
+            {
+                "type": "hayeon",
+                "ko": "Y/n 오야스미",
+                "en": "Y/n, oyasumi."
+            },
+            {
+                "type": "hayeon",
+                "ko": "하랑해❤️❤️",
+                "en": "Haranghae ❤️❤️"
+            }
+        ]
+    },
+    {
         "folder": "2026/10/28",
         "date": "2026-10-28",
         "messages": [
