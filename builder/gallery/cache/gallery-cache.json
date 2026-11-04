@@ -15392,6 +15392,70 @@
                 }
             },
             "updated": 1793699795642
+        },
+        "2026/November/03 - Youtube Shorts Lucky Factory Studio": {
+            "fingerprint": "d9c68dd8b022e54ad515a6cfc415f070e38e5211",
+            "album": {
+                "path": "2026/November/03 - Youtube Shorts Lucky Factory Studio",
+                "info": {
+                    "title": "Youtube Shorts Lucky Factory Studio",
+                    "date": "November 03",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [
+                        "https://www.youtube.com/shorts/ZA6ZVImDzmo",
+                        "https://www.youtube.com/shorts/q9oPVWEg-1E"
+                    ],
+                    "cover": "maxresdefault.jpg",
+                    "files": [
+                        "maxresdefault.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1793798266717
+        },
+        "2026/November/04 - Cosmo Blog TripleS Zenith Japan": {
+            "fingerprint": "d4b1aa8521cb2f365f7940f8b8f335ac6597a96e",
+            "album": {
+                "path": "2026/November/04 - Cosmo Blog TripleS Zenith Japan",
+                "info": {
+                    "title": "Cosmo Blog TripleS Zenith Japan",
+                    "date": "November 04",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "9da0806d-f224-414c-8e89-60bd6c02d97a.png",
+                    "files": [
+                        "9da0806d-f224-414c-8e89-60bd6c02d97a.png",
+                        "44b5197d-9923-47c1-b785-9142b384a0e4.png",
+                        "49e051d7-e569-45df-a02c-2e147ac2c58a.png",
+                        "42184849-8e48-4840-83ea-205209fc6eb5.png",
+                        "edabeb81-8680-478c-b0b7-addf0788ddc5.png"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1793798266719
+        },
+        "2026/November/04 - Cosmo Live Thumbnail": {
+            "fingerprint": "52e8ee88bf76a53b780622e0fb34b5f47434471f",
+            "album": {
+                "path": "2026/November/04 - Cosmo Live Thumbnail",
+                "info": {
+                    "title": "Cosmo Live Thumbnail",
+                    "date": "November 04",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "1kHVQfRG0RY.jpg",
+                    "files": [
+                        "1kHVQfRG0RY.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1793798266721
         }
     }
 }
