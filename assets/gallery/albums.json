@@ -1,5 +1,37 @@
 [
     {
+        "path": "2026/November/11 - X Post PopBase Official",
+        "info": {
+            "title": "X Post PopBase Official",
+            "date": "November 11",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "HWzelYYWkAAom97.jpg",
+            "files": [
+                "HWzelYYWkAAom97.jpg"
+            ],
+            "coverType": "image"
+        }
+    },
+    {
+        "path": "2026/November/11 - Youtube Shorts TripleS Official",
+        "info": {
+            "title": "Youtube Shorts TripleS Official",
+            "date": "November 11",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://www.youtube.com/shorts/mYUaBo6FLQM"
+            ],
+            "cover": "image-hd.jpg",
+            "files": [
+                "image-hd.jpg"
+            ],
+            "coverType": "image"
+        }
+    },
+    {
         "path": "2026/November/10 - Hayeon Cosmo Room Update",
         "info": {
             "title": "Hayeon Cosmo Room Update",

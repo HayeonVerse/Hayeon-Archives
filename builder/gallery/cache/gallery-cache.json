@@ -15547,6 +15547,46 @@
                 }
             },
             "updated": 1794310527849
+        },
+        "2026/November/11 - X Post PopBase Official": {
+            "fingerprint": "2a2488ee50272ac142b2afca2cece0ee9945dc69",
+            "album": {
+                "path": "2026/November/11 - X Post PopBase Official",
+                "info": {
+                    "title": "X Post PopBase Official",
+                    "date": "November 11",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "HWzelYYWkAAom97.jpg",
+                    "files": [
+                        "HWzelYYWkAAom97.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1794371810810
+        },
+        "2026/November/11 - Youtube Shorts TripleS Official": {
+            "fingerprint": "4a619350b1e359dfd683a20048fddebb3fb855e9",
+            "album": {
+                "path": "2026/November/11 - Youtube Shorts TripleS Official",
+                "info": {
+                    "title": "Youtube Shorts TripleS Official",
+                    "date": "November 11",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [
+                        "https://www.youtube.com/shorts/mYUaBo6FLQM"
+                    ],
+                    "cover": "image-hd.jpg",
+                    "files": [
+                        "image-hd.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1794382855587
         }
     }
 }
