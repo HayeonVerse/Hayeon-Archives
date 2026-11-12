@@ -15628,6 +15628,27 @@
                 }
             },
             "updated": 1794474235123
+        },
+        "2026/November/12 - Youtube Shorts Oh My Girl! Official": {
+            "fingerprint": "51e518afe7bc753ecce869f794eb078cee005f38",
+            "album": {
+                "path": "2026/November/12 - Youtube Shorts Oh My Girl! Official",
+                "info": {
+                    "title": "Youtube Shorts Oh My Girl! Official",
+                    "date": "November 12",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [
+                        "https://youtube.com/shorts/i66yR7-3PX8?si=XRoOA1aWQKvCfKA5"
+                    ],
+                    "cover": "image-hd.jpg",
+                    "files": [
+                        "image-hd.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1794481767905
         }
     }
 }
