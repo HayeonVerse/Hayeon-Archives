@@ -15649,6 +15649,28 @@
                 }
             },
             "updated": 1794481767905
+        },
+        "2026/November/12 - Cosmo Blog Andless MV Day 1": {
+            "fingerprint": "6eac978ceb1e36149ac8b8084a3cd86a3276894e",
+            "album": {
+                "path": "2026/November/12 - Cosmo Blog Andless MV Day 1",
+                "info": {
+                    "title": "Cosmo Blog Andless MV Day 1",
+                    "date": "November 12",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "4D501C3D-52D5-4C10-947F-3708D0E0711D.jpg",
+                    "files": [
+                        "4D501C3D-52D5-4C10-947F-3708D0E0711D.jpg",
+                        "86174B2E-6112-4A7C-998B-F177579C1ED2.jpg",
+                        "IMG_4767.jpg",
+                        "S19.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1794489898661
         }
     }
 }
