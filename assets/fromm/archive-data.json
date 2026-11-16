@@ -1,5 +1,671 @@
 [
     {
+        "folder": "2026/11/16",
+        "date": "2026-11-16",
+        "messages": [
+            {
+                "type": "hayeon",
+                "ko": "in New York",
+                "en": "in New York"
+            },
+            {
+                "type": "hayeon",
+                "ko": "험난한 여정끝에 뉴욕에 와서",
+                "en": "After a difficult journey, we finally made it to New York"
+            },
+            {
+                "type": "hayeon",
+                "ko": "공연을 잘 마쳤습니당",
+                "en": "and successfully finished our performance!"
+            },
+            {
+                "type": "fan",
+                "ko": "9시간 버스타고가느라 고생많았다",
+                "en": "You must've had a hard time riding the bus for 9 hours."
+            },
+            {
+                "type": "hayeon",
+                "ko": "굉장한 경험이였어",
+                "en": "It was quite an experience."
+            },
+            {
+                "type": "hayeon",
+                "ko": "난 자느라 몰랐지만 자유의 여신상도 지나왔고",
+                "en": "I was asleep, so I didn't notice, but we passed the Statue of Liberty, too."
+            },
+            {
+                "type": "hayeon",
+                "ko": "나이아가라?",
+                "en": "Niagara Falls?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "도 지나고",
+                "en": "We passed that, too."
+            },
+            {
+                "type": "hayeon",
+                "ko": "국경도 내 발로 넘고 아주",
+                "en": "And I even crossed a border on my own two feet. It was really..."
+            },
+            {
+                "type": "hayeon",
+                "ko": "새로웠어",
+                "en": "a new experience."
+            },
+            {
+                "type": "hayeon",
+                "ko": "살면서 언제 미국을 비행기 안타고 가보겠어",
+                "en": "When else in my life would I ever get to travel to the US without taking a plane?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "허헣",
+                "en": "Hehe."
+            },
+            {
+                "type": "fan",
+                "ko": "미국에 세번있던일이래더라 그 이륙금지가",
+                "en": "Apparently, that takeoff ban had only happened three times in the US."
+            },
+            {
+                "type": "hayeon",
+                "ko": "우리가 그 역사에...",
+                "en": "We're part of that history..."
+            },
+            {
+                "type": "hayeon",
+                "ko": "되게 다사다난한데",
+                "en": "We've had so many things happen to us,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "자연적인 힘에 의한 억까라",
+                "en": "and it's funny how we've been so unfairly treated by forces of nature."
+            },
+            {
+                "type": "hayeon",
+                "ko": "신기해",
+                "en": "It's fascinating."
+            },
+            {
+                "type": "hayeon",
+                "ko": "화재경보 호텔에서 울린거랑",
+                "en": "The fire alarm going off at the hotel,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "오늘 공연장 화재경보 울린거랑",
+                "en": "the fire alarm going off at the venue today,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "비행기 못탄거 다",
+                "en": "and not being able to board the plane"
+            },
+            {
+                "type": "hayeon",
+                "ko": "자연의힘이잖아",
+                "en": "were all caused by forces of nature, right?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "기계의힘인가..",
+                "en": "Or were they forces of machinery...?"
+            },
+            {
+                "type": "fan",
+                "ko": "대만에서 정전도 됐잖아",
+                "en": "We even had a power outage in Taiwan."
+            },
+            {
+                "type": "hayeon",
+                "ko": "그러게",
+                "en": "Right?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "우리 엄청 잘되려나봐",
+                "en": "Maybe we're going to become really successful."
+            },
+            {
+                "type": "hayeon",
+                "ko": "고생 몰아서 하고 잘될일만 남았기를",
+                "en": "I hope we've gotten all the hardships out of the way and that only good things are left for us."
+            },
+            {
+                "type": "hayeon",
+                "ko": "어제 그래서 스테이크 먹었어",
+                "en": "So we had steak yesterday."
+            },
+            {
+                "type": "hayeon",
+                "ko": "고생끝에 낙이 왔다",
+                "en": "After hardship comes happiness."
+            },
+            {
+                "type": "hayeon",
+                "ko": "진짜 맛있었어",
+                "en": "It was really delicious."
+            },
+            {
+                "type": "fan",
+                "ko": "뉴욕 스테이크 차원이 달라?",
+                "en": "Is New York steak on another level?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ 차원이달라",
+                "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ It's on a whole other level."
+            },
+            {
+                "type": "hayeon",
+                "ko": "맞아 김채원이 나 암살하려고 했어",
+                "en": "That's right. Chaewon tried to assassinate me."
+            },
+            {
+                "type": "hayeon",
+                "ko": "에바지.",
+                "en": "That's so ridiculous."
+            },
+            {
+                "type": "hayeon",
+                "ko": "6층에서 화재경보 울린 원인이 있다",
+                "en": "There was an announcement saying they were investigating the cause of the fire alarm on the 6th floor."
+            },
+            {
+                "type": "hayeon",
+                "ko": "조사중이다 이런 방송듣고",
+                "en": "I heard that announcement saying they were looking into it."
+            },
+            {
+                "type": "hayeon",
+                "ko": "난 자다 깨서",
+                "en": "I woke up from sleeping"
+            },
+            {
+                "type": "hayeon",
+                "ko": "야 뭐라했냐?",
+                "en": "and asked, 'Hey, what did they say?'"
+            },
+            {
+                "type": "hayeon",
+                "ko": "이러니까",
+                "en": "And then,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "6층으로 가래",
+                "en": "they told me, 'They said to go to the 6th floor.'"
+            },
+            {
+                "type": "hayeon",
+                "ko": "이러는거",
+                "en": "That's what I was told."
+            },
+            {
+                "type": "hayeon",
+                "ko": "그래서내가 단톡에",
+                "en": "So I sent a message in the group chat,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "6층으로 가라는데..?",
+                "en": "'They're telling us to go to the 6th floor..?'"
+            },
+            {
+                "type": "hayeon",
+                "ko": "이러니까",
+                "en": "And when I said that,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "다들 놀라서",
+                "en": "everyone freaked out"
+            },
+            {
+                "type": "hayeon",
+                "ko": "6층 가지말라고 막",
+                "en": "and started telling me not to go to the 6th floor."
+            },
+            {
+                "type": "hayeon",
+                "ko": "보내는거애 ㅋㅅㅋㅅㅋㄹㅋㄹㅋ",
+                "en": "They kept sending me messages ㅋㅅㅋㅅㅋㄹㅋㄹㅋ"
+            },
+            {
+                "type": "hayeon",
+                "ko": "진짜 불이였으면",
+                "en": "If there had really been a fire,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "난 제발로 통닭 되기를 선택한 사람이 되는거야",
+                "en": "I'd have been someone who willingly walked right into it and got roasted like a whole chicken."
+            },
+            {
+                "type": "hayeon",
+                "ko": "근데 저번 투어때도",
+                "en": "But during the last tour, too,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "호텔에 강도였나",
+                "en": "there was supposedly a robber at the hotel or something."
+            },
+            {
+                "type": "hayeon",
+                "ko": "들어서",
+                "en": "I heard about it,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "경찰와서 잡아갔었는데",
+                "en": "and the police came and took them away."
+            },
+            {
+                "type": "hayeon",
+                "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+                "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+            },
+            {
+                "type": "fan",
+                "ko": "어머 그렇게 심각한 얘기를 태연하게 말하네 ㅋㅋㅋㅋㅋㅋㅋ",
+                "en": "Oh my, you're talking so casually about something that serious ㅋㅋㅋㅋㅋㅋㅋ"
+            },
+            {
+                "type": "hayeon",
+                "ko": "어찌됐든",
+                "en": "Anyway,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "다 오작동이고",
+                "en": "it was all just malfunctions,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "잘 잡혀갔으니까 ㅋㅅㅋㅅㅋㅅㅋㅋ",
+                "en": "and the person was caught and taken away, so it's all good ㅋㅅㅋㅅㅋㅅㅋㅋ"
+            },
+            {
+                "type": "hayeon",
+                "ko": "근데 진짜 시간 지나소 생각해보면",
+                "en": "But seriously, when some time has passed and I look back on it,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "지금 투어가 엄청 기억에 남을거같야",
+                "en": "I think this tour is going to be really memorable."
+            },
+            {
+                "type": "fan",
+                "ko": "안전불감증잇니?..",
+                "en": "Do you have no sense of danger?.."
+            },
+            {
+                "type": "hayeon",
+                "ko": "나 진짜 있어",
+                "en": "I really do."
+            },
+            {
+                "type": "hayeon",
+                "ko": "옛날에 본가살땨",
+                "en": "Back when I lived at my family home,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "상가쪽에 뷸났다길랴",
+                "en": "I heard there was a fire near the shops,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "바로옆으로 뛰어가서",
+                "en": "so I ran right over there"
+            },
+            {
+                "type": "hayeon",
+                "ko": "상황파악하고",
+                "en": "to check out what was happening."
+            },
+            {
+                "type": "hayeon",
+                "ko": "내가 불을 끌수 있을것만같은",
+                "en": "I had this feeling that I could put the fire out myself."
+            },
+            {
+                "type": "hayeon",
+                "ko": "그런생각",
+                "en": "That's the kind of thought I had."
+            },
+            {
+                "type": "hayeon",
+                "ko": "난 극강의 N이라서",
+                "en": "I'm an extreme N, so"
+            },
+            {
+                "type": "hayeon",
+                "ko": "소화전만 보면",
+                "en": "whenever I see a fire hose cabinet,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "내가 어떻게 움직여서 제일 효율적인 동선으로 저걸 꺼내서 불을 끌수있을까",
+                "en": "I start thinking about how I could move around and get it out in the most efficient way possible to put out the fire."
+            },
+            {
+                "type": "hayeon",
+                "ko": "부터 불도 끄고 사람도 구한 착한시민상 받는것까지",
+                "en": "My imagination goes all the way from putting out the fire to rescuing people and receiving a Good Citizen Award."
+            },
+            {
+                "type": "hayeon",
+                "ko": "나 초등학교때",
+                "en": "When I was in elementary school,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "소방관붐들 오셔서 교육하는거",
+                "en": "firefighters came to give us a safety lesson,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "볼 직접 꺼보는거",
+                "en": "and they let us try putting out a fire ourselves."
+            },
+            {
+                "type": "hayeon",
+                "ko": "나가서 꺼보고 그랬어",
+                "en": "I went out and tried it."
+            },
+            {
+                "type": "hayeon",
+                "ko": "그거 몇명 안시켜주는거 알지",
+                "en": "You know they only let a few people try that, right?"
+            },
+            {
+                "type": "fan",
+                "ko": "약간 히어로병 있었구나?",
+                "en": "So you had a bit of a hero complex?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "맞아",
+                "en": "That's right."
+            },
+            {
+                "type": "hayeon",
+                "ko": "근데 뉴욕 왔는데",
+                "en": "But now that I'm in New York,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "나 왜 스파이더맨 안되냐",
+                "en": "why haven't I become Spider-Man?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "난 항상 생각해",
+                "en": "I always think about this:"
+            },
+            {
+                "type": "hayeon",
+                "ko": "어느날 갑자기 숨겨진 내 능력을 알아서",
+                "en": "what if I suddenly discover a hidden ability one day"
+            },
+            {
+                "type": "hayeon",
+                "ko": "벽을 기어다닐수 있지않을까",
+                "en": "and find out I can crawl up walls?"
+            },
+            {
+                "type": "fan",
+                "ko": "거미줄대신 막 당면 이런 거 나올듯",
+                "en": "Instead of spiderwebs, you'd probably shoot out glass noodles or something."
+            },
+            {
+                "type": "hayeon",
+                "ko": "바로 마라탕가게 차려야지",
+                "en": "Then I'd open a malatang restaurant right away."
+            },
+            {
+                "type": "hayeon",
+                "ko": "각 재료가 나오는 사람들 구해서",
+                "en": "I'd recruit people who could produce each ingredient"
+            },
+            {
+                "type": "hayeon",
+                "ko": "사업하나 시작해서",
+                "en": "and start a business,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "0.2초만에 나오는 마라탕집",
+                "en": "a malatang restaurant where your food comes out in 0.2 seconds."
+            },
+            {
+                "type": "hayeon",
+                "ko": "이런거",
+                "en": "Something like that."
+            },
+            {
+                "type": "hayeon",
+                "ko": "아니 나 뉴욕 많이 왔는데",
+                "en": "I've been to New York so many times,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "한번도 자유의 여신상 못봐서",
+                "en": "but I've never seen the Statue of Liberty."
+            },
+            {
+                "type": "hayeon",
+                "ko": "너무 보고싶다고 보러가자고 했는데",
+                "en": "I really wanted to see it, so I asked everyone to go with me,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "멤버들이",
+                "en": "but the members"
+            },
+            {
+                "type": "hayeon",
+                "ko": "그냥 너 손들고 있는거 찍어줄테니까 서있으래;;;",
+                "en": "told me to just stand there and they'd take a picture of me with my hand raised;;;"
+            },
+            {
+                "type": "hayeon",
+                "ko": "짜증나!!!",
+                "en": "So annoying!!!"
+            },
+            {
+                "type": "hayeon",
+                "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋ",
+                "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋ"
+            },
+            {
+                "type": "fan",
+                "ko": "너 여신이라고 칭찬한거잖아",
+                "en": "They were complimenting you by saying you're a goddess."
+            },
+            {
+                "type": "hayeon",
+                "ko": "아 구런거야~?",
+                "en": "Oh, is that what they meant~?"
+            },
+            {
+                "type": "fan",
+                "ko": "리라의 여신상 찍지",
+                "en": "You should take a picture of Lila's statue of a goddess."
+            },
+            {
+                "type": "hayeon",
+                "ko": "리라에 내 동상 보내야겠다",
+                "en": "I should send my own statue to Lila."
+            },
+            {
+                "type": "hayeon",
+                "ko": "아니 밖에 야경 너무 이뻐서 찍을라 했는데",
+                "en": "The night view outside was so pretty, so I wanted to take a picture,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "찍으려 하자마자 건물이 다가려서 못찍음",
+                "en": "but the buildings blocked the whole view just as I was about to take it."
+            },
+            {
+                "type": "fan",
+                "ko": "건물이 움직였어..?",
+                "en": "Did the buildings move..?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "내가 움직이고있지…",
+                "en": "I'm the one who's moving…"
+            },
+            {
+                "type": "hayeon",
+                "ko": "호텔가는중",
+                "en": "On my way to the hotel."
+            },
+            {
+                "type": "hayeon",
+                "ko": "곧 크리스마스네",
+                "en": "Christmas is coming soon."
+            },
+            {
+                "type": "fan",
+                "ko": "크리스마스에 뭐하고 보낼 거야?",
+                "en": "What are you going to do for Christmas?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "음",
+                "en": "Hmm."
+            },
+            {
+                "type": "hayeon",
+                "ko": "Y/n랑 데이트",
+                "en": "A date with Y/n."
+            },
+            {
+                "type": "hayeon",
+                "ko": "ㅋㅎㅋㄹㅋㅎㅋㅋㅋ",
+                "en": "ㅋㅎㅋㄹㅋㅎㅋㅋㅋ"
+            },
+            {
+                "type": "hayeon",
+                "ko": "스케줄 비워놓을게",
+                "en": "I'll keep my schedule free."
+            },
+            {
+                "type": "fan",
+                "ko": "난 크리스마스에 친구들이랑 놀 거야",
+                "en": "I'm going to hang out with my friends on Christmas."
+            },
+            {
+                "type": "hayeon",
+                "ko": "누구.",
+                "en": "Who."
+            },
+            {
+                "type": "hayeon",
+                "ko": "갈거면 친구이름이랑 연락처 그친구 사는 집 성별 다 적어두고가",
+                "en": "If you're going, write down your friend's name, contact information, home address, and gender before you leave."
+            },
+            {
+                "type": "hayeon",
+                "ko": "갈거면 친구이름이랑 연락처 그친구 사는 집 성별 다 적어두고가",
+                "en": "If you're going, write down your friend's name, contact information, home address, and gender before you leave."
+            },
+            {
+                "type": "hayeon",
+                "ko": "두번보내졌지 왜",
+                "en": "Why did it send twice?"
+            },
+            {
+                "type": "hayeon",
+                "ko": "두번 말하고싶었나",
+                "en": "Maybe I wanted to say it twice."
+            },
+            {
+                "type": "hayeon",
+                "ko": "나 로밍 다른 앱으로 처음 시도해봐서",
+                "en": "I'm trying to use a different app for roaming for the first time,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "쓸줄 몰라서",
+                "en": "and I don't know how to use it,"
+            },
+            {
+                "type": "hayeon",
+                "ko": "맨날 주빈이 찾아다녀",
+                "en": "so I'm always looking for Joobin."
+            },
+            {
+                "type": "hayeon",
+                "ko": "주빈아 나 또 로밍이 안대…",
+                "en": "'Joobin, my roaming isn't working again…'"
+            },
+            {
+                "type": "hayeon",
+                "ko": "주빈이가 로밍 다시 세팅해주고",
+                "en": "Then Joobin sets up my roaming for me again."
+            },
+            {
+                "type": "hayeon",
+                "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+                "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+            },
+            {
+                "type": "hayeon",
+                "ko": "호텔가서 야무지게 자야겠다…",
+                "en": "I'm going to get back to the hotel and get a good night's sleep…"
+            },
+            {
+                "type": "hayeon",
+                "ko": "불닭하나 끓여먹고 잘듯",
+                "en": "I'll probably cook myself some Buldak and eat it before bed."
+            },
+            {
+                "type": "hayeon",
+                "ko": "나랑 김채랑 케이터링 잔뜩 훔쳐와서",
+                "en": "Chaewon and I stole a whole bunch of catering food and brought it back."
+            },
+            {
+                "type": "hayeon",
+                "ko": "ㅋㅎㅋㄹㅋㄹㅋㄹㅋㄹ",
+                "en": "ㅋㅎㅋㄹㅋㄹㅋㄹㅋㄹ"
+            },
+            {
+                "type": "hayeon",
+                "ko": "오늘도 홧팅하규",
+                "en": "Good luck today, too!"
+            },
+            {
+                "type": "hayeon",
+                "ko": "Good night",
+                "en": "Good night"
+            },
+            {
+                "type": "hayeon",
+                "ko": "호텔 드왔당",
+                "en": "I'm back at the hotel."
+            },
+            {
+                "type": "hayeon",
+                "ko": "빠이ㅣ",
+                "en": "Byeee."
+            },
+            {
+                "type": "hayeon",
+                "ko": "하랑해😍😍",
+                "en": "Haranghae😍😍"
+            }
+        ]
+    },
+    {
         "folder": "2026/11/13",
         "date": "2026 11 13",
         "messages": [
@@ -241,7 +907,7 @@
             {
                 "type": "fan",
                 "ko": "담에 삐그덕 불러주기다",
-                "en": "You have to sing 'Wobble' for us next time."
+                "en": "You have to sing 'seesaw' for us next time."
             },
             {
                 "type": "hayeon",
@@ -261,7 +927,7 @@
             {
                 "type": "hayeon",
                 "ko": "삐그덕 틀었는데?",
-                "en": "and she put on 'Wobble'?"
+                "en": "and she put on 'seesaw'?"
             },
             {
                 "type": "hayeon",
