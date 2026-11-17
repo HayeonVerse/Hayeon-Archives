@@ -15781,7 +15781,7 @@
             "updated": 1794910005322
         },
         "2026/November/18 - Hayeon Cosmo Room Update": {
-            "fingerprint": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "fingerprint": "00160484d3b470585b174a8dc02aef9482e86bc0",
             "album": {
                 "path": "2026/November/18 - Hayeon Cosmo Room Update",
                 "info": {
@@ -15790,11 +15790,14 @@
                     "source": "Archive",
                     "tags": [],
                     "video": [],
-                    "cover": null,
-                    "files": []
+                    "cover": "20261117151119_0.mp4",
+                    "files": [
+                        "20261117151119_0.mp4"
+                    ],
+                    "coverType": "video"
                 }
             },
-            "updated": 1794928443685
+            "updated": 1794928499543
         }
     }
 }
