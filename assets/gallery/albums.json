@@ -1,5 +1,42 @@
 [
     {
+        "path": "2026/November/17 - X Post Lucky Factory Studio",
+        "info": {
+            "title": "X Post Lucky Factory Studio",
+            "date": "November 17",
+            "source": "Archive",
+            "tags": [],
+            "video": [],
+            "cover": "TWMate.com-1b615e12fbf045db4a7c38b39291f93b.jpg",
+            "files": [
+                "TWMate.com-1b615e12fbf045db4a7c38b39291f93b.jpg",
+                "TWMate.com-688e0859ed42b4bc4664b16816a3ee96.jpg",
+                "TWMate.com-8131d5234fe65d647a3eb58ecf96b74f.jpg",
+                "TWMate.com-731539eb8cd977fc1472c18776d0e3be.jpg",
+                "TWMate.com-e0fbedd75979885ab4ee895757fae8a5 (1).jpg",
+                "TWMate.com-ea89268005f35967fbbaac209450133f.jpg"
+            ],
+            "coverType": "image"
+        }
+    },
+    {
+        "path": "2026/November/17 - Youtube Lucky Factory Studio",
+        "info": {
+            "title": "Youtube Lucky Factory Studio",
+            "date": "November 17",
+            "source": "Archive",
+            "tags": [],
+            "video": [
+                "https://youtu.be/z3QzdQOjoc4?si=XQBgFtx36Kuw5k8j"
+            ],
+            "cover": "image-hd.jpg",
+            "files": [
+                "image-hd.jpg"
+            ],
+            "coverType": "image"
+        }
+    },
+    {
         "path": "2026/November/17 - Youtube Shorts TripleS Official",
         "info": {
             "title": "Youtube Shorts TripleS Official",
