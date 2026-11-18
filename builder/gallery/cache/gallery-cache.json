@@ -15760,7 +15760,7 @@
             "updated": 1794910005319
         },
         "2026/November/17 - Youtube Lucky Factory Studio": {
-            "fingerprint": "bb061ba43a12db116a5d174d10358f6fc8d60a3f",
+            "fingerprint": "d355a5da5a503842ec683972dc3059254e402ac2",
             "album": {
                 "path": "2026/November/17 - Youtube Lucky Factory Studio",
                 "info": {
@@ -15769,7 +15769,10 @@
                     "source": "Archive",
                     "tags": [],
                     "video": [
-                        "https://youtu.be/z3QzdQOjoc4?si=XQBgFtx36Kuw5k8j"
+                        "https://youtu.be/z3QzdQOjoc4?si=XQBgFtx36Kuw5k8j",
+                        "https://www.youtube.com/shorts/0drJApWxs2I",
+                        "https://www.youtube.com/shorts/nwEnDpSqoIw",
+                        "https://www.youtube.com/shorts/o_-1MaN9zG4"
                     ],
                     "cover": "image-hd.jpg",
                     "files": [
@@ -15778,7 +15781,7 @@
                     "coverType": "image"
                 }
             },
-            "updated": 1794910005322
+            "updated": 1794978780443
         },
         "2026/November/18 - Hayeon Cosmo Room Update": {
             "fingerprint": "00160484d3b470585b174a8dc02aef9482e86bc0",
@@ -15798,6 +15801,25 @@
                 }
             },
             "updated": 1794928499543
+        },
+        "2026/November/18 - Hayeon Cosmo Live Thumbnail": {
+            "fingerprint": "87461342d635746b340930ebc2ce853e5e015631",
+            "album": {
+                "path": "2026/November/18 - Hayeon Cosmo Live Thumbnail",
+                "info": {
+                    "title": "Hayeon Cosmo Live Thumbnail",
+                    "date": "November 18",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "HXXiy5tbcAA00Vg.jpg",
+                    "files": [
+                        "HXXiy5tbcAA00Vg.jpg"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1794978780445
         }
     }
 }
