@@ -1,0 +1,455 @@
+{
+  "date": "2024-01-05",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "여러분 안녕하세여어",
+      "en": "Hello, everyone!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다들 뭐하고 있었어용??",
+      "en": "What were you all doing?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "전 밥먹었어여 ㅎㅎ",
+      "en": "I've eaten, hehe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이상하게 프롬할때마다 밥을 먹고왔네욬ㅋㄹㅋㄹㅋㅋ",
+      "en": "Somehow, every time I come on Fromm, I've just finished eatingㅋㄹㅋㄹㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "저 돈가스 먹었어요 🤤",
+      "en": "I had pork cutlet 🤤"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘도 너무 보고싶었어용",
+      "en": "I missed you all so much today, too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "저를 대표하는 이모지...",
+      "en": "An emoji that represents me..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐가있을까아",
+      "en": "What could it be?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "추천 해주세여",
+      "en": "Please give me some suggestions."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오 토끼?",
+      "en": "Oh, a bunny?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "햄스터?",
+      "en": "A hamster?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다 조은데..",
+      "en": "I like them all, though.."
+    },
+    {
+      "type": "hayeon",
+      "ko": "고양이도 조타",
+      "en": "I like cats too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이모지는 천천히 생각해볼게요..",
+      "en": "I'll take my time thinking about the emoji.."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋ 진짜 후보가 넘많아요ㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋ There are so many candidatesㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "병아리이?",
+      "en": "A chick?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "제 옆에있는",
+      "en": "The one next to me..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리주빈이가 병아리죵",
+      "en": "Our Joobin is the chick, right?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "삐약아기",
+      "en": "A little baby chick, cheep cheep."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다들 식사 하셨어요!?",
+      "en": "Have you all eaten!?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "여윽시 사람은 밥심이죠",
+      "en": "As expected, food is what keeps us going."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금 머하냐구용?",
+      "en": "What are you doing right now?"
+    },
+    {
+      "type": "fan",
+      "ko": "🌊 마음속으로 가는중",
+      "en": "🌊 On my way into your hearts."
+    },
+    {
+      "type": "hayeon",
+      "ko": "우헤헿",
+      "en": "Hehehe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금 저",
+      "en": "Right now, I’m..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "트리플에스 복합성 듣고있어용",
+      "en": "Listening to tripleS’s Complexity."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이 노래가 최애",
+      "en": "This song is my favorite."
+    },
+    {
+      "type": "hayeon",
+      "ko": "😘",
+      "en": "😘"
+    },
+    {
+      "type": "hayeon",
+      "ko": "앜ㄹㅋ 저스트두잇도 좋죠",
+      "en": "Ahㄹㅋ Just Do It is good too, right?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 저는 지금",
+      "en": "Oh, I'm currently..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "얼른 입주하고 싶어요",
+      "en": "I can't wait to move in."
+    },
+    {
+      "type": "hayeon",
+      "ko": "멤버들 만나면..",
+      "en": "When I meet the members..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "엄청떨리고 재밌을것같은데",
+      "en": "I think I'll be really nervous, but it'll be so much fun."
+    },
+    {
+      "type": "hayeon",
+      "ko": "엄청 기대중이에여..ㅎ😊",
+      "en": "I'm really looking forward to it..ㅎ😊"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 혜린님 수민님",
+      "en": "Ah, Hyerin and Soomin..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "동갑이라서",
+      "en": "Since we're the same age,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "친해지고 싶어요..🥰",
+      "en": "I want to become close with them..🥰"
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금 집가면서",
+      "en": "On my way home right now,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "쿠키앤크림빵",
+      "en": "I bought a cookies and cream bun,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "샀는데",
+      "en": "and"
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 맛있겠다....",
+      "en": "It looks so delicious...."
+    },
+    {
+      "type": "hayeon",
+      "ko": "요즘",
+      "en": "These days,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "빵에 꽂혀서",
+      "en": "I'm really into bread,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "모카번!!",
+      "en": "Mocha buns!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그것도 넘 조아여 ..",
+      "en": "I really like those too.."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맨날먹는듯 ㅎㅎㅎ",
+      "en": "I feel like I eat them every day ㅎㅎㅎ."
+    },
+    {
+      "type": "hayeon",
+      "ko": "건포도 들어간 빵은",
+      "en": "When it comes to bread with raisins,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "초코칩 인줄알고 샀다가",
+      "en": "when you buy it thinking they're chocolate chips,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "속았을때?",
+      "en": "and then realize you've been tricked?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어쩔수 없이먹는... ㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "You just have to eat it anyway...ㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금 넘 배부른디",
+      "en": "I'm so full right now,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "원래 디저트배는 따로있는거니까",
+      "en": "but there's always a separate stomach for dessert,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "헤헤",
+      "en": "hehe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘의 tmi??",
+      "en": "Today's TMI??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "음",
+      "en": "Umm..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐가 좋을까아..",
+      "en": "What would be good.."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오 맞아여",
+      "en": "Oh, that's right."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 유독 귀여웠다^^",
+      "en": "You were especially cute today^^"
+    },
+    {
+      "type": "hayeon",
+      "ko": "휴",
+      "en": "Phew."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋㄹ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋㄹ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니면",
+      "en": "Or maybe..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘도 성장해따?",
+      "en": "Have I grown today, too?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ 난 매일 성장하니까",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ I grow every day, though."
+    },
+    {
+      "type": "hayeon",
+      "ko": "앞으로가 기대가 되네여 🙂🙂",
+      "en": "I'm looking forward to what's to come 🙂🙂"
+    },
+    {
+      "type": "hayeon",
+      "ko": "으아 보고싶어요 😭",
+      "en": "Ahh, I miss you 😭"
+    },
+    {
+      "type": "hayeon",
+      "ko": "헐 디즈니랜드 가보고싶어요",
+      "en": "Wow, I want to visit Disneyland."
+    },
+    {
+      "type": "hayeon",
+      "ko": "한번도 안가본곳..💗",
+      "en": "A place I've never been to before..💗"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나중에 기회가 된다면...꼭 가게써..",
+      "en": "If I get the chance someday... I'll definitely go.."
+    },
+    {
+      "type": "hayeon",
+      "ko": "올해 목표할게요 ㅋㄹㅋㄹㅋㄹ",
+      "en": "I'll make it a goal for this yearㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "야식추천!",
+      "en": "Late-night snack recommendations!"
+    },
+    {
+      "type": "fan",
+      "ko": "🌊 야식은 무조건 라면이죠",
+      "en": "🌊 Ramen is a must for a late-night snack."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 잠시만",
+      "en": "Oh, wait a second."
+    },
+    {
+      "type": "hayeon",
+      "ko": "라면 얘기하니까 먹고싶어져요...",
+      "en": "Talking about ramen is making me crave it..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "안돼..ㅠㅠ",
+      "en": "Nooo..ㅠㅠ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그치만 오늘은 참을게영 ><",
+      "en": "But I'll hold back today ><"
+    },
+    {
+      "type": "hayeon",
+      "ko": "시그널 올라온거 봤어용",
+      "en": "I saw that the Signal was uploaded."
+    },
+    {
+      "type": "hayeon",
+      "ko": "마지막 다같이 찍은 셀프캠...",
+      "en": "That last selfie video we all filmed together..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "땀뻘뻘 연습하다 찍은거라...",
+      "en": "We filmed it after practicing and sweating so much..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하핫",
+      "en": "Haha."
+    },
+    {
+      "type": "fan",
+      "ko": "🌊 보면서도 웃겼어요",
+      "en": "🌊 It was funny even while watching it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나혼자 꼬질꼬질",
+      "en": "I was the only one looking all messy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다들 올해 목표같은거 있어요??",
+      "en": "Does everyone have any goals for this year??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다 너무 좋다",
+      "en": "I like all of them."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나는 올해가장 좋은건..",
+      "en": "The best thing about this year for me is..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "비록 올해가 5일밖에 안지났지만",
+      "en": "Even though it's only been five days of this year,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "웨이브분들과 이렇게 대화할수있는거..",
+      "en": "being able to talk with WAV like this..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "후헤헤",
+      "en": "Hehehe."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘도 이렇게 같이 재밌게 얘기해줘서 고마워요..",
+      "en": "Thank you for having such a fun chat with me again today.."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다음에 또 올게요!!",
+      "en": "I'll come back again next time!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "안뇽",
+      "en": "Byee!"
+    }
+  ]
+}
