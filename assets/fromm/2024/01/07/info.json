@@ -1,0 +1,850 @@
+{
+  "date": "2024-01-07",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "하연이 등장",
+      "en": "Hayeon is here!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다들모해요",
+      "en": "What’s everyone doing?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "흐하핰",
+      "en": "Heheh!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "주말의끝을 다들 재밌게 보내고 있군용",
+      "en": "Looks like everyone’s having a fun end to the weekend."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘은 연습 없찌롱",
+      "en": "I don’t have practice today!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 난 찜닭 먹었어요",
+      "en": "I had jjimdak today."
+    },
+    {
+      "type": "hayeon",
+      "ko": "로제 ><",
+      "en": "Rosé ><"
+    },
+    {
+      "type": "fan",
+      "ko": "🌊 하연이가 찍은 린 사진 봤어요!😆",
+      "en": "🌊 I saw the photo of Lynn that Hayeon took!😆"
+    },
+    {
+      "type": "hayeon",
+      "ko": "저의 사진은 린언니가 찍어줬어용",
+      "en": "Lynn unnie took my photo."
+    },
+    {
+      "type": "hayeon",
+      "ko": "제 배경사진 시그널찍은날 찍운건데",
+      "en": "I took my profile picture on the day we filmed Signal."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어때용",
+      "en": "How is it?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "킇히히",
+      "en": "킇히히"
+    },
+    {
+      "type": "hayeon",
+      "ko": "부끄럽네요 ☺️",
+      "en": "I’m embarrassed ☺️"
+    },
+    {
+      "type": "hayeon",
+      "ko": "허허",
+      "en": "Hehe"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이제부터 다들 뭐할거에요??",
+      "en": "What is everyone going to do now??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅇ오오",
+      "en": "Oohh!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "일요일엔 집에서 배달시켜먹구 드라마보는게 젤조은데.. 저같은 집순이에겐 크크크",
+      "en": "On Sundays, ordering delivery and watching a drama at home is the best… especially for a homebody like me, 크크크."
+    },
+    {
+      "type": "hayeon",
+      "ko": "최근에 본 드라마..",
+      "en": "A drama I watched recently…"
+    },
+    {
+      "type": "hayeon",
+      "ko": "쌈마이웨이 다시 정주행했어용",
+      "en": "I rewatched Fight for My Way."
+    },
+    {
+      "type": "hayeon",
+      "ko": "넘 재밌어요 진짜",
+      "en": "It’s seriously so much fun."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그런 청춘이 담긴 드라마..🥰",
+      "en": "A drama filled with that kind of youthful spirit..🥰"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 스물다섯 스물하나",
+      "en": "Oh, Twenty-Five Twenty-One."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그것도 진짜 재밌게봤어요",
+      "en": "I really enjoyed that one too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "마자요 ",
+      "en": "That’s right."
+    },
+    {
+      "type": "hayeon",
+      "ko": "비슷한 결 ㅋㄹㅌㅌㄹㅋㅇ",
+      "en": "They have a similar vibe ㅋㄹㅌㅌㄹㅋㅇ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "응답하라 1988",
+      "en": "Reply 1988."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이게 제 원칙 드라마",
+      "en": "This is my all-time drama."
+    },
+    {
+      "type": "hayeon",
+      "ko": "원픽",
+      "en": "My number one pick."
+    },
+    {
+      "type": "hayeon",
+      "ko": "옛날 분위기를 사랑하는편이에요 ㅋㄹㅌㄹㅋ",
+      "en": "I’m the type who loves old-fashioned vibes ㅋㄹㅌㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 안태어났을때 이야기들",
+      "en": "Stories from before I was born."
+    },
+    {
+      "type": "hayeon",
+      "ko": "노래도 오래된노래들 더 좋아하구",
+      "en": "I also prefer older songs."
+    },
+    {
+      "type": "hayeon",
+      "ko": "서쪽하늘 이라던가",
+      "en": "Like “Western Sky,”"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이문세 선생님의 깊은밤을날아서",
+      "en": "or Lee Moon-sae’s “Flying Through the Deep Night.”"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런것들",
+      "en": "Songs like those."
+    },
+    {
+      "type": "hayeon",
+      "ko": "유재하님 김광석님 노래도 다 들었죠오!!",
+      "en": "I’ve listened to all of Yoo Jae-ha and Kim Kwang-seok’s songs too!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "너무 명곡",
+      "en": "They’re such masterpieces."
+    },
+    {
+      "type": "hayeon",
+      "ko": "케이팝도 너무너무 좋지만",
+      "en": "I love K-pop so, so much too,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "옛날노래들이 더 마음에 닿는 느낌",
+      "en": "but older songs feel like they touch my heart more."
+    },
+    {
+      "type": "hayeon",
+      "ko": "기회가 된다면 나중에",
+      "en": "If I get the chance someday,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "커버해보고싶기두 하구..☺️",
+      "en": "I’d also like to try covering some..☺️"
+    },
+    {
+      "type": "hayeon",
+      "ko": "엇 근데 너무 기대하지 마세요…..",
+      "en": "Oh, but please don’t get your hopes up too much….."
+    },
+    {
+      "type": "hayeon",
+      "ko": "북흐북흐",
+      "en": "I’m shy, I’m shy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아잉 ^^",
+      "en": "Aww ^^"
+    },
+    {
+      "type": "fan",
+      "ko": "🌊 노래가 좋아 춤이 좋아?",
+      "en": "🌊 Do you like singing or dancing more?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "전 둘다 좋긴한데 더 잘하고싶은건 노래..?",
+      "en": "I like both, but I want to get better at singing..?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "노력중입니댜…",
+      "en": "I’m working hard at it…"
+    },
+    {
+      "type": "hayeon",
+      "ko": "요즘 배운 일본어용?",
+      "en": "What Japanese have I learned recently?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "일본어 열심히 배웠었는데",
+      "en": "I used to study Japanese really hard,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금 생각나는 단어",
+      "en": "and the word I can think of right now is"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사무이",
+      "en": "samui (cold)."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아이추엉",
+      "en": "It’s cooold."
+    },
+    {
+      "type": "hayeon",
+      "ko": "요즘 많이 따듯해지긴 했쬬",
+      "en": "It has gotten a lot warmer lately, though."
+    },
+    {
+      "type": "hayeon",
+      "ko": "곧 봄이 오겠네요??",
+      "en": "Spring will be here soon, right??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "기대된다 😍😍",
+      "en": "I’m looking forward to it 😍😍"
+    },
+    {
+      "type": "hayeon",
+      "ko": "벌써 기대ㅋㅋㅋㄹㅋㅇㅋ",
+      "en": "I’m already excited ㅋㅋㅋㄹㅋㅇㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "한창 봄일때는 ",
+      "en": "When it’s fully spring,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "웨이브들 이랑 더 친해졌겠네요?? 후후",
+      "en": "I’ll be even closer with WAVs, right?? Hehe."
+    },
+    {
+      "type": "fan",
+      "ko": "🌊 이미 친한거 아니었어?ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "en": "🌊 Aren’t we already close?ㅋㅋㅋㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "더더 지금보다 훨씬 더 친해지자구용🥰",
+      "en": "Let’s get even closer, much closer than we are now🥰"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그러게요  저도 웨이브들 실물영접 한 후겠네요~😘",
+      "en": "That’s true. I’ll have met WAVs in person by then too~😘"
+    },
+    {
+      "type": "hayeon",
+      "ko": "보고싶어요💕",
+      "en": "I miss you💕"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 너무 보고싶어도 ",
+      "en": "Even if you miss me so much,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "조금만 참아요 흐긁 ㅜ",
+      "en": "please hold on just a little longer, sob ㅜ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㄹㅋㄹㅋㄹㅋ크킄ㅋ",
+      "en": "ㅋㅋㄹㅋㄹㅋㄹㅋ크킄ㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 잘 참아볼게요 하..",
+      "en": "I’ll try to be patient too, ha.."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘 저메추??",
+      "en": "Any dinner recommendations for today??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "찜닭ㅋㄹㅋㄹㅌㄹㅋ",
+      "en": "Jjimdak ㅋㄹㅋㄹㅌㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 먹은거~~",
+      "en": "That’s what I ate~~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "찜닭은 순살에 로제죠",
+      "en": "Jjimdak should be boneless and rosé-style."
+    },
+    {
+      "type": "hayeon",
+      "ko": "크",
+      "en": "크"
+    },
+    {
+      "type": "hayeon",
+      "ko": "또먹고 싶따",
+      "en": "I want to eat it again."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 니엔님 최애음식이 찜닭이죠!?",
+      "en": "Oh, jjimdak is Nien’s favorite food, right!?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나중에 같이 먹을수있우면",
+      "en": "If we get to eat it together someday,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "좋겠네요오",
+      "en": "that would be nice."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하하핫",
+      "en": "하하핫"
+    },
+    {
+      "type": "hayeon",
+      "ko": "저 맵찔이에여",
+      "en": "I’m really bad with spicy food."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎㅎㅎㅎㅎ",
+      "en": "ㅎㅎㅎㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "엽떡 무조건 착한맛 ",
+      "en": "For Yeopgi Tteokbokki, I always get the mildest level."
+    },
+    {
+      "type": "hayeon",
+      "ko": "불닭 소스 반만 넣어도 힘겹게 먹는ㅋㅌㄹㅌㄹㅌㄹㅌㄹㅋ",
+      "en": "Even with only half the Buldak sauce, I struggle to eat it ㅋㅌㄹㅌㄹㅌㄹㅌㄹㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "🌊 린보다 못먹는거 아니야? ㅋㅋㅋ",
+      "en": "🌊 Don’t you eat less than Lynn? ㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "에헤이 린언니보단 한수 위죠~😏",
+      "en": "Oh, I’m one step above Lynn unnie~😏"
+    },
+    {
+      "type": "hayeon",
+      "ko": "저 못먹는거 거의 없긴한데..",
+      "en": "There’s hardly anything I can’t eat, though.."
+    },
+    {
+      "type": "hayeon",
+      "ko": "생오이를 싫어해요",
+      "en": "I don’t like raw cucumber."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오이김치나 냉면에 들어간오이는 먹는데",
+      "en": "I can eat cucumber kimchi or cucumber in naengmyeon,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그냥 생 오이는 좀 곤란해요 ㅎㅎ^^",
+      "en": "but plain raw cucumber is a bit difficult for me ㅎㅎ^^"
+    },
+    {
+      "type": "hayeon",
+      "ko": "해산물은 거의다 먹어여",
+      "en": "I eat almost all seafood."
+    },
+    {
+      "type": "hayeon",
+      "ko": "호불호 갈리는 음식들 아무생각없이 다 잘먹는 ㅎㅎ",
+      "en": "I can eat pretty much any food people tend to have mixed feelings about without a second thought ㅎㅎ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "근데 그 날마다의 컨디션에 따라",
+      "en": "But depending on how I’m feeling that day,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "달라져서",
+      "en": "it changes,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "정할수없어요 ㅜㅜ",
+      "en": "so I can’t really decide ㅜㅜ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㅋㅋㄹㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㅋㅋㄹㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그런 날있잖아요 ",
+      "en": "You know those days,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "좋아는 하는데 땡기지않는날",
+      "en": "when you like something but just don’t crave it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "좋아하는 색!",
+      "en": "Favorite colors!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "연 보라 연 노랑!!",
+      "en": "Light purple and light yellow!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 하연이라서 연보라?ㅋㄹㅌㄹㅋㄹㅋㅋㅋ",
+      "en": "Oh, light purple because your name is Hayeon? ㅋㄹㅌㄹㅋㄹㅋㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "좋타",
+      "en": "Nice!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하얀색?",
+      "en": "White?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㅋㄹㄹㅋㄹㅋㅋ",
+      "en": "ㅋㄹㅋㄹㅋㅋㄹㄹㅋㄹㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "🌊 어머 하연이 팬 이름 하얀색 귀엽겠다ㅋㅋㅋㅋ",
+      "en": "🌊 Oh, Hayansaek would be a cute name for Hayeon’s fansㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오 조타조타 아니면 하연보라",
+      "en": "Oh, that sounds nice, nice. Or Hayeonbora."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나만 보라는 뜻에서",
+      "en": "Meaning, only look at me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "헤헤헤ㅔㅎ헤",
+      "en": "Hehehehe"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "en": "ㅋㄹㅋㄹㅋㅋㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아이디어 있으면 알려주세요",
+      "en": "Let me know if you have any ideas."
+    },
+    {
+      "type": "hayeon",
+      "ko": "쿠쿸ㅋㅋ",
+      "en": "Heheㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하얀단 조타조타",
+      "en": "Hayandan sounds nice, nice."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다좋아",
+      "en": "I like them all."
+    },
+    {
+      "type": "hayeon",
+      "ko": "맘에들어쓰",
+      "en": "I like them."
+    },
+    {
+      "type": "hayeon",
+      "ko": "육각단 누구야…",
+      "en": "Who came up with Hexagon…"
+    },
+    {
+      "type": "hayeon",
+      "ko": "흠 ",
+      "en": "Hmm."
+    },
+    {
+      "type": "hayeon",
+      "ko": "경고",
+      "en": "Warning."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "닭고리단 나와",
+      "en": "Dakgoridan, come out."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㅋㄹ 코 ㅋㅋ",
+      "en": "ㅋㄹㅋㄹㅋㅋㄹ 코 ㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하연보라 하얀단 연하단 하람단",
+      "en": "Hayeonbora, Hayandan, Yeonhadan, Haramdan."
+    },
+    {
+      "type": "hayeon",
+      "ko": "후보에요",
+      "en": "These are the candidates."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하연보라가 지금 가장 많은거 같은데",
+      "en": "It seems like Hayeonbora has the most votes right now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하얀단이 더 조항요?",
+      "en": "Do you like Hayandan better?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "육각단 자꾸 누구에요 ",
+      "en": "Who keeps saying Hexagon?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "증말 ㅋㄹㅋㄹㅋㅋ",
+      "en": "Seriously ㅋㄹㅋㄹㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래비티 열자구요?ㅋㅋㅋㅋㄹㅋㅋㅋ",
+      "en": "Should we open a Gravity? ㅋㅋㅋㅋㄹㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅌㄹㅋ 다들준비하세옄ㄹㅋㅋㅇㅋ",
+      "en": "ㅋㄹㅌㄹㅋ Everyone get ready ㄹㅋㅋㅇㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "🌊 10,000Como 육각단",
+      "en": "🌊 10,000 Como, Hexagon"
+    },
+    {
+      "type": "hayeon",
+      "ko": "클났다…",
+      "en": "I’m in trouble…"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㅋㅋㄹㅋㅋ",
+      "en": "ㅋㅋㅋㅋㄹㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "듣다보니 정가넼ㅋㅋㅋㅋ",
+      "en": "The more I hear it, the more it grows on me ㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "자자 그럼\n1하연보라\n2하얀단\n3육각단\n 젤 많은걸로 갑시다",
+      "en": "Alright then,\n1. Hayeonbora\n2. Hayandan\n3. Hexagon\nLet’s go with whichever gets the most votes."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "왜 3번이 압도적인거죠?",
+      "en": "Why is number 3 winning by such a landslide?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㅋㅋㅋㅋ",
+      "en": "ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "육각단 뜻을 부여해주세요",
+      "en": "Please give Hexagon a meaning."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㅋㅋㅋ",
+      "en": "ㅋㄹㅋㄹㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 ㅋㄹㅋㅋㅋㅋㅋㅋㅋ",
+      "en": "No, ㅋㄹㅋㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "🌊 오각형을 육각형으로 부르는 사람들",
+      "en": "🌊 People who call a pentagon a hexagon"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㄹㄹㅋ",
+      "en": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㄹㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하",
+      "en": "Ha."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그럼 ",
+      "en": "Then,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "육각형 만능재능을 가진 하연이를 좋아하는",
+      "en": "people who like Hayeon, who has hexagonal all-round talent,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "육각형의 완벽한 팬들의 이름",
+      "en": "the name for her perfectly hexagonal fans."
+    },
+    {
+      "type": "hayeon",
+      "ko": "어때욬ㅋㄹㅋㄹㅌ",
+      "en": "How about it? ㅋㅋㄹㅋㄹㅌ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 지금",
+      "en": "Am I"
+    },
+    {
+      "type": "hayeon",
+      "ko": "육각라이팅 당한건가?",
+      "en": "being hexagon-gaslit right now?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하 웃긴걸로 갑시다",
+      "en": "Ha, let’s go with something funny."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그 이쁜 이름들을 제치고 ",
+      "en": "Beating out all those pretty names,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "성공한 육각단들 ",
+      "en": "the victorious Hexagons,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "축하드립니다",
+      "en": "congratulations."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㄹㅋㅋㅋㅋㅋ 이거맞아요?",
+      "en": "ㅋㅋㄹㅋㅋㅋㅋㅋ Is this right?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "조아조아 ",
+      "en": "Good, good."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 기분따라",
+      "en": "Depending on my mood,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "매일 바꿔 부를게요",
+      "en": "I’ll call you something different every day."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋ 코 ㄹㅋㅋㅋㅋㅋㅋ",
+      "en": "ㅋ 코 ㄹㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "🌊 ⚰️ 육각형으로 된 이모티콘이 이거밖에 없네…….",
+      "en": "🌊 ⚰️ This is the only emoji shaped like a hexagon……."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잠시만 이거 맞아요? ㅋㄹㅋㄹㅋㅋㅋㅋㅋ",
+      "en": "Wait, is this right? ㅋㄹㅋㄹㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "해시태그는 하연보라 ",
+      "en": "The hashtag is Hayeonbora,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "기분좋은날 하얀단",
+      "en": "Hayandan on a good day,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "안좋운날 육각단 ㄱㄱ",
+      "en": "and Hexagon on a bad day, let’s go."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㅋㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하 오늘 재밌었다 ㅋㅋㅋㅋㅋㅋ",
+      "en": "Ha, today was fun ㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘은 내기분이 좋으니까",
+      "en": "Since I’m in a good mood today,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "우리 하얀단들^^",
+      "en": "my Hayandans^^"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그러네 내가 대장이네요",
+      "en": "That’s right, I’m the leader."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅎ하ㅏ",
+      "en": "ㅎ하ㅏ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "하얀단 대원들",
+      "en": "Hayandan troops."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㅋㅋㄹㅋㅋㅋ 남은 주말을 알차게 보내라!",
+      "en": "ㅋㅋㅋㅋㄹㅋㅋㅋ Make the most of the rest of your weekend!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나는 이만 가보도록 하겠다!",
+      "en": "I shall be off now!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내일 또 오도록하지",
+      "en": "I shall return tomorrow!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅋㅋ 빠이빠이 ",
+      "en": "ㅋㅋㅋ Bye-bye!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "낼봐용❤️",
+      "en": "See you tomorrow❤️"
+    }
+  ]
+}

@@ -1,5 +1,21 @@
 {
   "date": "2024-01-06",
+      "notices": [
+  {
+    "icon": "🖼️",
+    "type": "event",
+    "text": "Hayeon changed her Fromm profile picture.",
+    "image": "FPFP2.jpg",
+    "position": 0
+  },
+    {
+    "icon": "🖼️",
+    "type": "event",
+    "text": "Hayeon changed her Fromm profile background.",
+    "image": "FBG1.jpg",
+    "position": 0
+  }
+],
   "messages": [
     {
       "type": "hayeon",
