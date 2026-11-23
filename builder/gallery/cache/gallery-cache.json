@@ -15926,6 +15926,33 @@
                 }
             },
             "updated": 1795424359539
+        },
+        "2026/November/23 - Cosmo Blog Andless in Seoul Day 1": {
+            "fingerprint": "53b69b0c355f147d4cdcf4cf1f6abf0b6fd6df58",
+            "album": {
+                "path": "2026/November/23 - Cosmo Blog Andless in Seoul Day 1",
+                "info": {
+                    "title": "Cosmo Blog Andless in Seoul Day 1",
+                    "date": "November 23",
+                    "source": "Archive",
+                    "tags": [],
+                    "video": [],
+                    "cover": "1ebcc95b-dc97-41e4-bd0d-0fe06e10375a.png",
+                    "files": [
+                        "1ebcc95b-dc97-41e4-bd0d-0fe06e10375a.png",
+                        "989b3268-bcf1-4bd9-a2b1-076e3842a66e.png",
+                        "5300bb5d-18ae-4f43-9b3e-db5583c3bec8.png",
+                        "18045a4b-0d98-482e-81b4-b6e97e3c0e9a.png",
+                        "38120a29-1324-4390-b59b-6e352cb4d27d.png",
+                        "85082310-6f91-4dd8-b999-823e0f048cb2.png",
+                        "a721ad16-6765-44ba-a0af-7023ad316f50.png",
+                        "b6e09b3c-1295-422f-9a47-6a2c109ceb23.png",
+                        "b7107bbc-3917-44c0-9dd8-a51cbff11cce.png"
+                    ],
+                    "coverType": "image"
+                }
+            },
+            "updated": 1795444177971
         }
     }
 }
