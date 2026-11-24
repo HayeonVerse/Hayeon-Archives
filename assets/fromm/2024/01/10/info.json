@@ -428,8 +428,13 @@
     },
     {
       "type": "fan",
-      "ko": "🌊 정하연으로 3행시 해보겠습니다.\n\n정 정하연은\n하 하루종일\n연 날리기중 ^^...\n\nㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ 취저",
-      "en": "🌊 I'll make an acrostic poem with Jeong Hayeon.\n\nJeong: Jeong Hayeon\nHa: All day long\nYeon: Flying a kite ^^...\n\nㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ Totally my style"
+      "ko": "🌊 정하연으로 3행시 해보겠습니다.\n\n정 정하연은\n하 하루종일\n연 날리기중 ^^...",
+      "en": "🌊 I'll make an acrostic poem with Jeong Hayeon.\n\nJeong: Jeong Hayeon\nHa: All day long\nYeon: Flying a kite ^^..."
+    },
+        {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ 취저",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ Totally my style"
     },
     {
       "type": "hayeon",
@@ -937,7 +942,7 @@
       "en": "You're nervous, huh"
     },
     {
-      "type": "fan",
+      "type": "hayeon",
       "ko": " 점심 먹었어요??",
       "en": "Have you had lunch??"
     },
@@ -977,7 +982,7 @@
       "en": "I think I should go practice now…"
     },
     {
-      "type": "fan",
+      "type": "hayeon",
       "ko": "다음에 또 오겠써요!",
       "en": "I'll come again next time!"
     },
