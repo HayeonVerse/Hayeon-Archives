@@ -1,0 +1,823 @@
+{
+  "date": "2026-11-24",
+  "messages": [
+    {
+      "type": "hayeon",
+      "ko": "머해",
+      "en": "What are you doing?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 엘에이 와떠",
+      "en": "I came to LA."
+    },
+    {
+      "type": "fan",
+      "ko": "대방어 먹방 보는중",
+      "en": "I'm watching a yellowtail sashimi mukbang."
+    },
+    {
+      "type": "hayeon",
+      "ko": "미치겠다",
+      "en": "I can't take it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 지금 내 알고리즘에",
+      "en": "My algorithm right now..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "한국 제철 해산물 먹방만 떠서",
+      "en": "is showing me nothing but mukbangs of seasonal Korean seafood."
+    },
+    {
+      "type": "hayeon",
+      "ko": "미치겠어",
+      "en": "It's driving me crazy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "엘에이 오니까",
+      "en": "Coming to LA reminds me of..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "식스플래그갔던거",
+      "en": "when we went to Six Flags."
+    },
+    {
+      "type": "hayeon",
+      "ko": "기억난다",
+      "en": "I remember it now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "또 가고싶엉",
+      "en": "I wanna go again."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 지금 밀린 사진이",
+      "en": "Anyway, I have so many photos piled up..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "엄청많아",
+      "en": "There's a huge backlog."
+    },
+    {
+      "type": "hayeon",
+      "ko": "언제 다 보내주지..",
+      "en": "When am I ever going to send them all.."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅎㅋㄹㅋㅎㅋㅎㅋㅎㅋ",
+      "en": "ㅋㅎㅋㄹㅋㅎㅋㅎㅋㅎㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "곧 보내줄게",
+      "en": "I'll send them soon."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지금 맛있는거 너무 잘 먹고있어서",
+      "en": "I've been eating so much delicious food lately"
+    },
+    {
+      "type": "hayeon",
+      "ko": "불어나고있어",
+      "en": "that I'm putting on weight."
+    },
+    {
+      "type": "hayeon",
+      "ko": "미치겠엉",
+      "en": "It's driving me crazy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "오늘도 운동가야겠다",
+      "en": "I should go work out today, too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 운동 혼자해",
+      "en": "I work out alone."
+    },
+    {
+      "type": "hayeon",
+      "ko": "누구 있으면 방해되는느낌",
+      "en": "I feel like having someone around would distract me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "fan",
+      "ko": "운동루틴 알랴줘",
+      "en": "Tell us your workout routine."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 보통",
+      "en": "I usually do..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "러닝머신 40분 근력운동 30분",
+      "en": "40 minutes on the treadmill and 30 minutes of strength training."
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 하체만 근력하고",
+      "en": "I only do strength training for my lower body,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "상체는 하면 안돼",
+      "en": "I'm not supposed to train my upper body."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 진짜 운동선수 데뷔해",
+      "en": "I'm seriously going to debut as an athlete."
+    },
+    {
+      "type": "fan",
+      "ko": "듬직해지는거임??",
+      "en": "Are you trying to get more solid and sturdy??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "우람해지는거임",
+      "en": "I'm trying to get huge and muscular."
+    },
+    {
+      "type": "fan",
+      "ko": "씨름선수 가는거야?",
+      "en": "Are you going to become a ssireum wrestler?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "야야",
+      "en": "Hey, hey."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그건 체중이 나가야하는거고",
+      "en": "You need to be heavy for that."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그래도 투어하면서",
+      "en": "Still, while we're on tour,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "공연덕분에",
+      "en": "thanks to the performances,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "운동 많이된다",
+      "en": "I get plenty of exercise."
+    },
+    {
+      "type": "hayeon",
+      "ko": "밥 고르고있어 ㅋㅎㅋㅎㅋㅎㅋㅋ",
+      "en": "I'm choosing what to eat ㅋㅎㅋㅎㅋㅎㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 잠깐 복도 나왔는데",
+      "en": "I just stepped out into the hallway for a moment,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "키안들고나왔네",
+      "en": "and I forgot to bring my key."
+    },
+    {
+      "type": "hayeon",
+      "ko": "김채원 씻느라 안열어줌",
+      "en": "Chaewon won't open the door because she's showering."
+    },
+    {
+      "type": "hayeon",
+      "ko": "강제노숙",
+      "en": "Forced to live on the streets."
+    },
+    {
+      "type": "hayeon",
+      "ko": "미치게ㅛ다",
+      "en": "This is driving me crazy."
+    },
+    {
+      "type": "fan",
+      "ko": "사실 다 씻었는데 안열어주는거면?",
+      "en": "What if she's actually done showering but just won't open the door?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 혼자쓰고싶었나",
+      "en": "Oh, maybe she wanted the room to herself."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "방문 긁고있어야겠댜",
+      "en": "I guess I'll have to scratch at the door."
+    },
+    {
+      "type": "hayeon",
+      "ko": "미치겠댜",
+      "en": "This is driving me crazy."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 자꾸 방키 까먹어서",
+      "en": "I keep forgetting my room key,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "김채원 올때까지 기다리거나",
+      "en": "so I have to wait until Chaewon comes back,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "걔가 먼저 들어가있어야함",
+      "en": "or make sure she's already inside the room."
+    },
+    {
+      "type": "fan",
+      "ko": "ㅋㄹㅋㄹㅋㄹ키 안 까먹는 선택지는 없어?",
+      "en": "ㅋㄹㅋㄹㅋㄹ Is there no option where you just don't forget your key?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "노력중이야..",
+      "en": "I'm working on it.."
+    },
+    {
+      "type": "hayeon",
+      "ko": "사진 열심히 컨펌받아서",
+      "en": "I'll get the photos approved as quickly as I can"
+    },
+    {
+      "type": "hayeon",
+      "ko": "빠른시일내에 내놓겠습니다",
+      "en": "and release them soon."
+    },
+    {
+      "type": "fan",
+      "ko": "그럼 오노추라도 해주세용",
+      "en": "Then at least give us today's song recommendation."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 내가 오노추 받을래",
+      "en": "No, I want to receive song recommendations."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 공항에서나 씻을때나 노래 계속 들어서",
+      "en": "I keep listening to music at the airport and even when I'm showering,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이제 들을 노래가 없어",
+      "en": "so now I have nothing left to listen to."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 심지어 저번에",
+      "en": "I even saved all the songs recommended to me last time"
+    },
+    {
+      "type": "hayeon",
+      "ko": "코톡으로 추천받은거",
+      "en": "through Cosmo Talk,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "육각플리 이렇게",
+      "en": "under a playlist called Hexagon Playlist."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다 저장해놓겨",
+      "en": "I saved every single one."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그것도 다들어서",
+      "en": "I've listened to all of those, too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅎㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㅎㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "엄청 많이 추천해줬는데",
+      "en": "You recommended so many songs,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다들었어",
+      "en": "but I've listened to them all."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이동시간이 기니까",
+      "en": "Since we spend so much time traveling,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "넷플 드라마도 3개나",
+      "en": "I even watched three Netflix dramas"
+    },
+    {
+      "type": "hayeon",
+      "ko": "다보고",
+      "en": "and finished all of them."
+    },
+    {
+      "type": "hayeon",
+      "ko": "비행기에서 저장해놓고",
+      "en": "I downloaded them on the plane."
+    },
+    {
+      "type": "fan",
+      "ko": "백일의 거짓말 봤어?? 요즘 안 보는 사람이 없더라 (난안봤어ㅎㅎ)",
+      "en": "Have you watched One Hundred Lies?? It feels like everyone is watching it these days (I haven't watched it though hehe)."
+    },
+    {
+      "type": "hayeon",
+      "ko": "그거랑 참교육이랑 꿀알바",
+      "en": "That one, True Education, and Sweet Part-Time Job."
+    },
+    {
+      "type": "fan",
+      "ko": "참교육은 인정이쥐",
+      "en": "True Education is a good one, I agree."
+    },
+    {
+      "type": "fan",
+      "ko": "먼가 하연이 대장님이라 나화진st 잘 어울릴듯",
+      "en": "Somehow, since Hayeon's such a boss, I think you'd suit a Na Hwa-jin kind of role."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅎㅋㄹㅋㄹㅋㄹㅋㅋㅋㅋㅋㅋ",
+      "en": "ㅋㅎㅋㄹㅋㄹㅋㄹㅋㅋㅋㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그거 보면서",
+      "en": "Watching that,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 싸움좀 배워야하나",
+      "en": "I started wondering if I should learn how to fight, too."
+    },
+    {
+      "type": "hayeon",
+      "ko": "싶었음",
+      "en": "That's what I thought."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이세상에서 살아남기 위한 나의 무기",
+      "en": "My weapon for surviving in this world."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런느낌",
+      "en": "That's the kind of vibe."
+    },
+    {
+      "type": "fan",
+      "ko": "육각보호국 만들자",
+      "en": "Let's establish the Hexagon Protection Agency."
+    },
+    {
+      "type": "hayeon",
+      "ko": "제보해주시면",
+      "en": "If you report something to me,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "제가 달려가서",
+      "en": "I'll rush over"
+    },
+    {
+      "type": "hayeon",
+      "ko": "싸워드립니다",
+      "en": "and fight for you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "이긴다는 보장은 없음",
+      "en": "There's no guarantee I'll win, though."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하연 치료비도 부담해야함",
+      "en": "You'll also have to cover Hayeon's medical bills."
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐 앞에서 호통치는거라던지",
+      "en": "I can guarantee things like yelling at them"
+    },
+    {
+      "type": "hayeon",
+      "ko": "대신 맞아준다던지는",
+      "en": "or taking a hit for you."
+    },
+    {
+      "type": "hayeon",
+      "ko": "보장합니다",
+      "en": "Those services are guaranteed."
+    },
+    {
+      "type": "hayeon",
+      "ko": "직업이 있는지라",
+      "en": "Since I have a profession,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "얼굴 맞으면 2배 치료비 주셔야해요",
+      "en": "if I get hit in the face, you'll have to pay double the medical expenses."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㅎㅋㅎㅋㅎㅋ",
+      "en": "ㅋㄹㅋㄹㅋㅎㅋㅎㅋㅎㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 진짜 무서운 영화나 드라마 보고싶은데",
+      "en": "I really want to watch a scary movie or drama,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "추천해줘",
+      "en": "so recommend something for me."
+    },
+    {
+      "type": "fan",
+      "ko": "옵세션 봤어?",
+      "en": "Have you watched Obsession?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어디서 보는건데 그건",
+      "en": "Where can I watch that?"
+    },
+    {
+      "type": "fan",
+      "ko": "아니저거나경이가 맨날 말하는거자낰ㅋ",
+      "en": "That's the one Nakyoung keeps talking about all the time ㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그니까 언니가 맨날 말하는데",
+      "en": "Exactly, unnie talks about it all the time,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭔내용인지 몰라",
+      "en": "but I don't even know what it's about."
+    },
+    {
+      "type": "hayeon",
+      "ko": "넷플에 안뜨는데!?",
+      "en": "It doesn't show up on Netflix!?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 사야하는구나",
+      "en": "Oh, so I have to buy it."
+    },
+    {
+      "type": "fan",
+      "ko": "나경이한테 스포당해서 못봄",
+      "en": "I can't watch it because Nakyoung spoiled it for me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나도 중요한씬들은 이미 들은듯",
+      "en": "I think I've already heard about the important scenes, too."
+    },
+    {
+      "type": "fan",
+      "ko": "로블록스 공포 맵 추천해 주세요!!",
+      "en": "Please recommend some Roblox horror maps!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "아니 지우언니랑 맨날",
+      "en": "You know, Jiwoo unnie and I are always playing"
+    },
+    {
+      "type": "hayeon",
+      "ko": "수영하지마세요 하는데",
+      "en": "Don't Swim,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이제 지우언니가 나보다 로블 고수임",
+      "en": "but now Jiwoo unnie is better at Roblox than I am."
+    },
+    {
+      "type": "hayeon",
+      "ko": "나 계속 죽어",
+      "en": "I keep dying."
+    },
+    {
+      "type": "hayeon",
+      "ko": "초딩때부터 쌓아온 내 로블실력이",
+      "en": "All the Roblox skills I've built up since elementary school..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "처참하게 재능앞에서 무너지다니",
+      "en": "To think they're being so brutally crushed by natural talent."
+    },
+    {
+      "type": "fan",
+      "ko": "지우에게 가르쳐 달라고 부탁하세요 ㅋㅋㅋ",
+      "en": "Ask Jiwoo to teach you ㅋㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어허",
+      "en": "Now, now."
+    },
+    {
+      "type": "hayeon",
+      "ko": "고인물의 자존심이 있지",
+      "en": "I have the pride of a veteran player to uphold."
+    },
+    {
+      "type": "fan",
+      "ko": "잼못타는 깼었지?",
+      "en": "You cleared Can't Make It Up the Hill, right?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그냥 잼민이 인정하고 나왔던거같은데",
+      "en": "I think I just accepted that I was a little kid and gave up."
+    },
+    {
+      "type": "hayeon",
+      "ko": "지우언니 너무 잘하길래",
+      "en": "Jiwoo unnie was just so good at it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "밀수있는 스킬은 현질하는건데",
+      "en": "There's a skill you can buy with real money that lets you push people,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "그거 살까 고민했다",
+      "en": "and I considered buying it."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아냐 로블엔 돈 안써",
+      "en": "No, I don't spend money on Roblox."
+    },
+    {
+      "type": "hayeon",
+      "ko": "내가 한 게임 현질은",
+      "en": "The only games I've ever spent money on are..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "옛날 메이플에 좀 썼고",
+      "en": "a little on the old MapleStory,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "옵치 스킨에 좀 썼고",
+      "en": "and a little on Overwatch skins."
+    },
+    {
+      "type": "hayeon",
+      "ko": "끝임",
+      "en": "That's it."
+    },
+    {
+      "type": "fan",
+      "ko": "옵치스킨에 돈쓴거 우우우우",
+      "en": "Boooo, you spent money on Overwatch skins!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "뭐!!!!!!",
+      "en": "WHAT!!!!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "어쩔!!!",
+      "en": "So what!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "내 돈인데 머!!!",
+      "en": "It's my money!!!"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난 내 가족 나 Y/n 아니면 돈 안써",
+      "en": "I only spend money on my family and Y/n."
+    },
+    {
+      "type": "hayeon",
+      "ko": "게임은 오로지 날 위한거고",
+      "en": "Games are purely for my own enjoyment,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "Y/n이 로블럭스 10만원짜리 날개하나 산다해도 사줄수 있어!!!",
+      "en": "and even if Y/n wanted a 100,000-won pair of wings in Roblox, I'd buy it for them!!!"
+    },
+    {
+      "type": "fan",
+      "ko": "진지하게ㅜ사주면안돼??",
+      "en": "Seriously, could you buy it for me??"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ 진심같아서 귀엽다",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹ You sound so serious, it's cute."
+    },
+    {
+      "type": "fan",
+      "ko": "최소 100명이라 해도 천만원인데",
+      "en": "Even if there were only 100 people, that would be 10 million won."
+    },
+    {
+      "type": "hayeon",
+      "ko": "잠깐…",
+      "en": "Wait a second..."
+    },
+    {
+      "type": "hayeon",
+      "ko": "정정해도 될까..?ㅎㅎ",
+      "en": "Can I correct myself..? hehe"
+    },
+    {
+      "type": "hayeon",
+      "ko": "1000원…? ㅎㅎ",
+      "en": "1000 won…? hehe"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㅎㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋ",
+      "en": "ㅋㅎㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "잠만 하연이 밥 오기전에",
+      "en": "Wait, before Hayeon's food gets here,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "헬스장 가야대",
+      "en": "I need to go to the gym."
+    },
+    {
+      "type": "fan",
+      "ko": "아직도 노숙중이야?",
+      "en": "Are you still homeless?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "열어줬어",
+      "en": "She opened the door."
+    },
+    {
+      "type": "hayeon",
+      "ko": "아 밥 먹고갈까",
+      "en": "Oh, should I eat first before going?"
+    },
+    {
+      "type": "fan",
+      "ko": "밥 뭐 시켰어?",
+      "en": "What did you order?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "고기~~",
+      "en": "Meat~~"
+    },
+    {
+      "type": "hayeon",
+      "ko": "스테이크",
+      "en": "Steak."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋ",
+      "en": "ㅋㄹㅋㄹㅋㄹㅋㄹㅋㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "야무지게 먹을게",
+      "en": "I'll enjoy every bite."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-01.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "사실 배고파서 미칠것같아",
+      "en": "Honestly, I'm so hungry I feel like I'm going crazy."
+    },
+    {
+      "type": "fan",
+      "ko": "채워니야?",
+      "en": "Is that Chaewon?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "난데",
+      "en": "It's me."
+    },
+    {
+      "type": "hayeon",
+      "ko": "진짜 목소리 비슷한가봐",
+      "en": "I guess our voices really do sound alike."
+    },
+    {
+      "type": "hayeon",
+      "ko": "다들 헷갈려하네",
+      "en": "Everyone keeps getting us mixed up."
+    },
+    {
+      "type": "fan",
+      "ko": "하연짱은 좀더 테토목소리가 익숙",
+      "en": "I'm more used to Hayeon-chan's slightly more 'Teto' voice."
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅇㅋ",
+      "en": "Okay."
+    },
+    {
+      "type": "hayeon",
+      "voice": "voice-02.mp3"
+    },
+    {
+      "type": "hayeon",
+      "ko": "이런거?",
+      "en": "Like this?"
+    },
+    {
+      "type": "hayeon",
+      "ko": "ㅋㄹㅋㄹㅋㅋㄹㅋ",
+      "en": "ㅋㄹㅋㄹㅋㅋㄹㅋ"
+    },
+    {
+      "type": "hayeon",
+      "ko": "조은하루 보내구",
+      "en": "Have a nice day,"
+    },
+    {
+      "type": "hayeon",
+      "ko": "먹구 운동하구 씻구 기절할겡",
+      "en": "I'm gonna eat, work out, shower, and then pass out."
+    },
+    {
+      "type": "hayeon",
+      "ko": "빠빠",
+      "en": "Byebye."
+    },
+    {
+      "type": "hayeon",
+      "ko": "하랑해❤️❤️",
+      "en": "Haranghae❤️❤️"
+    }
+  ]
+}
