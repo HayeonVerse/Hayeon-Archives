@@ -1690,6 +1690,56 @@ App.renderWelcomeMessage = function (message) {
 
 };
 
+
+/* ============================================
+   CONTRIBUTOR CREDIT
+============================================ */
+
+App.renderConversationCredit = function (credit) {
+
+    const card = App.utils.create(
+        "aside",
+        "conversation-credit"
+    );
+
+    const icon = App.utils.create(
+        "span",
+        "conversation-credit-icon"
+    );
+
+    icon.textContent = "♡";
+
+    const content = App.utils.create(
+        "div",
+        "conversation-credit-content"
+    );
+
+    const label = App.utils.create(
+        "div",
+        "conversation-credit-label"
+    );
+
+    label.textContent = credit.label || "CREDIT";
+
+    const name = App.utils.create(
+        "a",
+        "conversation-credit-name"
+    );
+
+    name.textContent = credit.name || "";
+
+    if (credit.url && /^https?:\/\//i.test(credit.url)) {
+        name.href = credit.url;
+        name.target = "_blank";
+        name.rel = "noopener noreferrer";
+    }
+
+    content.append(label, name);
+    card.append(icon, content);
+
+    return card;
+};
+
 /* ============================================
    PLACEHOLDER RENDER
 ============================================ */
@@ -1769,6 +1819,7 @@ if (message.type === "welcome") {
 
     });
 
+
 while (noticeIndex < notices.length) {
 
     notices[noticeIndex]._conversation = conversation;
@@ -1780,9 +1831,19 @@ while (noticeIndex < notices.length) {
     noticeIndex++;
 }
 
+// Contributor credit at the very bottom
+if (conversation.credit) {
+
+    container.appendChild(
+        App.renderConversationCredit(conversation.credit)
+    );
+
+}
+
     return container;
 
 };
+
 
 
 /* ============================================

@@ -2542,3 +2542,50 @@ font-weight:500;
     }
 
 }
+
+
+/* ==========================================
+   CONTRIBUTOR CREDIT
+========================================== */
+
+.conversation-credit {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    max-width: 680px;
+    margin: 28px auto 12px;
+    padding: 16px 18px;
+    border: 1px solid rgba(82, 217, 187, .22);
+    border-radius: 14px;
+    background: rgba(82, 217, 187, .06);
+    color: var(--text);
+}
+
+.conversation-credit-icon {
+    color: var(--mint);
+    font-size: 22px;
+    line-height: 1;
+}
+
+.conversation-credit-content {
+    min-width: 0;
+}
+
+.conversation-credit-label {
+    margin-bottom: 5px;
+    color: var(--mint);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .12em;
+}
+
+.conversation-credit-name {
+    color: var(--text);
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.conversation-credit-name:hover {
+    color: var(--mint);
+}
