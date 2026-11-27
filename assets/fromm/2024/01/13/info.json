@@ -9,9 +9,16 @@
 {
   "icon": "🌙",
   "type": "event",
-  "text": "Some messages continued past midnight and are included in January 14.",
+  "text": "this message continued past midnight and is included in January 14.",
   "position": 117
-}
+},
+  {
+    "icon": "🖼️",
+    "type": "event",
+    "text": "Hayeon changed her Fromm profile picture.",
+    "image": "FPFP3.jpg",
+    "position": 0
+  }
   ],
   "messages": [
     {
